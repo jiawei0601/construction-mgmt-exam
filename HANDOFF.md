@@ -41,10 +41,12 @@
   A/B/C/D×5題，每卷配分驗證=100）。計算題均含完整演算（109/111 並經雙法交叉驗算、
   110 關鍵法條經網路查證）。標題格式兩系（105/108–111「第X題（卷別…）」、
   106/107「〔卷別〕第N題」），組頁時照原標題呈現。
-- 進行中：整合 agent 建 practical.html（tools/build_practical.py 組頁）＋首頁加
-  「術科詳解」卡＋README.md，本機 8643 驗證。
-- 之後：haiku 發佈（git commit、gh repo create construction-mgmt-exam、push、開 Pages），
-  網址預定 https://jiawei0601.github.io/construction-mgmt-exam/。
+- **整合完成**：practical.html（7年×20題=140摺疊區塊）、首頁「術科詳解」卡、README.md；
+  __selftest 22/22、console 無錯誤。重建指令 `python tools/build_practical.py`。
+- **✅ 2026-08-03 已發佈**：https://github.com/jiawei0601/construction-mgmt-exam
+  Pages：https://jiawei0601.github.io/construction-mgmt-exam/（HTTP 200、140 details 驗證通過）
+  初版 commit 8bed81a（raw/ 29M 一併入庫）。
+- 待辦（未來可選）：112–115 術科若日後市面流通再補；學科題庫官方改版時重抓重建。
 - 之後：術科詳解（sonnet 分年擬答、引法規）→ 整合驗收 → haiku 發佈 GitHub Pages。
 - 使用者要求：完成後自動發佈 GitHub（jiawei0601 帳號、開 GitHub Pages 給連結，
   比照 tw-stock-db / investment-game 模式）；簡單雜活派 haiku。
