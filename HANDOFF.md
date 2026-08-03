@@ -54,9 +54,16 @@
 - ✅2026-08-03 四版（commit 0035ee3）：全面盤查 56 候選題，再補 24 題學科附圖
   （圖說符號/品管公式/測量表格/土方土壓圖/標章圖示），附圖題累計 31、總題數 1519 不變；
   32 題查證為純文字不需圖（清單見 tools/tmp/img_candidates.txt 與 agent 報告）。
-- ▶️2026-08-03 使用者核准啟動全題解析（省token版）：管線=腳本抓法條語料→12批haiku
-  精簡解析(ref標注法規)→腳本接官方條文全文→sonnet抽樣QA→sonnet錯題瀏覽UI→發佈。
-  進行中：管線建置 agent（tools/law_corpus/、expl_split.py、expl_merge.py、expl_batches/）。
+- ✅2026-08-03 五版（全題解析＋錯題瀏覽，commit ae69203）：
+  - data/explanations.js：1,519 題全解析（c 正解理由/w 逐選項錯因/ref 法規標注 926 題/
+    law 官方條文全文 149 題，其中 135 題為保守模糊比對 g:1，35 樣本人工覆核零誤配）。
+  - 管線：tools/law_corpus/（54部法規，來源 law.moj.gov.tw 快取）、expl_split/merge.py、
+    expl_batches+expl_out（12批 haiku，2批品質退件重做；QA 抽 52 題修 9 瑕疵——
+    batch-01 建築法定義題條號錯置群已修）。重生成指令：python -X utf8 tools/expl_merge.py。
+  - index.html：錯題瀏覽頁（正解綠標/錯選紅標 lastChosen/逐選項錯因/法條摺疊/錯N次徽章）、
+    交卷檢討附解析、EXAM_EXPL 缺失優雅降級；selftest 28/28。
+  - 已知極限：777 題 ref 為技術規範類（鋼結構/磚構造施工規範等）不在國家法規資料庫，
+    無條文可接，僅顯示名稱。
 - 原規劃備考（已核准，供對照）：
   - C：錯題本瀏覽頁（標正確答案＋使用者錯選），純 UI 改 index.html，約 5–8 萬 tokens。
   - A：全部 1,519 題選項解析（正解理由＋各錯誤選項為何錯；法規題引完整法條原文，
