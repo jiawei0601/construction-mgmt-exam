@@ -77,12 +77,26 @@
   input[type=file]{display:none;}
   .small{font-size:12px; color:var(--grey);}
   .q-img{display:block; max-width:100%; margin:8px auto 16px; border:1px solid var(--border); border-radius:6px;}
+  .wb-card{position:relative;}
+  .wb-corner{position:absolute; top:18px; right:18px; font-size:12px; color:var(--grey); background:var(--bg); padding:2px 10px; border-radius:10px;}
+  .wb-option{border:1px solid var(--border); border-radius:8px; padding:8px 12px; margin-bottom:8px;}
+  .wb-option-head{display:flex; justify-content:space-between; align-items:baseline; gap:8px; flex-wrap:wrap;}
+  .expl-block{margin-top:12px; padding:10px 12px; background:var(--bg); border-radius:8px; font-size:14px;}
+  .expl-missing{margin-top:10px; color:var(--grey); font-style:italic; font-size:13px;}
+  .expl-correct{color:var(--green); font-weight:bold; margin-bottom:4px;}
+  .expl-correct-mini{color:var(--green); margin-top:6px;}
+  .expl-wrong-inline{color:var(--red); margin:2px 0 2px 4px;}
+  .expl-ref{color:var(--grey); margin-top:4px;}
+  .expl-law{margin-top:6px;}
+  .expl-law summary{color:var(--blue); font-weight:bold; cursor:pointer;}
+  .expl-law-text{white-space:pre-wrap; margin-top:6px; padding:8px; background:#fff; border:1px solid var(--border); border-radius:6px;}
 </style>
 </head>
 <body>
 <div id="app"></div>
 
 <script src="data/questions.js"></script>
+<script src="data/explanations.js"></script>
 <script>
 /* ==================== 常數與 localStorage ==================== */
 const KEYS = { ATTEMPTS: 'cmexam_attempts', WRONGBOOK: 'cmexam_wrongbook' };
@@ -106,6 +120,70 @@ function escapeHtml(str){
 
 function questionImgHtml(q){
   return q.img ? `<img class="q-img" src="${escapeHtml(q.img)}" alt="題目附圖">` : '';
+}
+
+/* ==================== 題目解析（EXAM_EXPL，缺項一律優雅降級） ==================== */
+function getExpl(qid){
+  return (window.EXAM_EXPL && window.EXAM_EXPL[qid]) || null;
+}
+function getWrongReason(qid, key){
+  const e = getExpl(qid);
+  return (e && e.w && e.w[key]) ? e.w[key] : '';
+}
+function explRefHtml(e){
+  return e.ref ? `<div class="small expl-ref">依據：${escapeHtml(e.ref)}</div>` : '';
+}
+function explLawHtml(e){
+  return e.law ? `
+    <details class="expl-law">
+      <summary>📖 法條原文</summary>
+      <div class="expl-law-text small">${escapeHtml(e.law)}</div>
+    </details>` : '';
+}
+// 錯題瀏覽卡片用：正解理由＋依據＋法條全文（不含個別選項錯因，錯因是逐選項顯示）。
+function renderCorrectReasonBlock(qid){
+  const e = getExpl(qid);
+  if(!e) return `<div class="expl-missing">📚 解析生成中…</div>`;
+  return `
+    <div class="expl-block">
+      <div class="expl-correct">✓ 正解理由：${escapeHtml(e.c)}</div>
+      ${explRefHtml(e)}
+      ${explLawHtml(e)}
+    </div>`;
+}
+// 交卷檢討區用：答對只顯示 c（小字）；答錯顯示 c＋你錯選選項的 w＋依據＋法條摺疊。
+function renderResultExplBlock(q, given, ok){
+  const e = getExpl(q.id);
+  if(!e) return `<div class="expl-missing">📚 解析生成中…</div>`;
+  if(ok){
+    return `<div class="small expl-correct-mini">💡 ${escapeHtml(e.c)}</div>`;
+  }
+  const wrongHtml = (given || []).filter(k => q.answer.indexOf(k) === -1).map(k => {
+    const r = e.w && e.w[k];
+    return r ? `<div class="small expl-wrong-inline">✗ ${escapeHtml(k)}．${escapeHtml(r)}</div>` : '';
+  }).join('');
+  return `
+    <div class="expl-block">
+      <div class="expl-correct">✓ 正解理由：${escapeHtml(e.c)}</div>
+      ${wrongHtml}
+      ${explRefHtml(e)}
+      ${explLawHtml(e)}
+    </div>`;
+}
+// 錯題瀏覽卡片用：單一選項列（正解綠框／使用者最近錯選紅框／每個非正解選項下方顯示錯因）。
+function wrongBrowseOptionRow(q, key, text, lastChosen){
+  const isCorrect = q.answer.indexOf(key) !== -1;
+  const isChosen = lastChosen.indexOf(key) !== -1;
+  let cls = 'wb-option';
+  let tag = '';
+  if(isCorrect){ cls += ' opt-correct-selected'; tag = ' <span class="tag-ok">✓ 正解</span>'; }
+  else if(isChosen){ cls += ' opt-wrong-selected'; tag = ' <span class="tag-ng">✗ 你的答案</span>'; }
+  const reason = !isCorrect ? getWrongReason(q.id, key) : '';
+  return `
+    <div class="${cls}">
+      <div class="wb-option-head"><span>${key}. ${escapeHtml(text)}</span>${tag}</div>
+      ${reason ? `<div class="small expl-wrong-inline">${escapeHtml(reason)}</div>` : ''}
+    </div>`;
 }
 
 function shuffle(arr){
@@ -300,6 +378,23 @@ function computeResult(questions, answers, mode, examMaxScore){
   return { correctCount, wrongIds, subjectStats, score, maxScore, passed, perQuestion };
 }
 
+// 純函式：依單題作答結果更新錯題本（in-place 修改並回傳 wb），供 finishExam() 與 __selftest() 共用。
+// 答錯：wrongCount+1、streak歸零、lastChosen記錄使用者這次錯選的答案（陣列，向下相容——
+// 舊資料沒有此欄位時，讀取端一律以空陣列處理，不影響既有 wrongCount/lastWrong/streak 邏輯）。
+// 答對（僅加強模式）：streak+1，達2次自動移出錯題本。
+function updateWrongbookForQuestion(wb, q, ok, given, mode){
+  if(ok){
+    if(mode === 'review' && wb[q.id]){
+      wb[q.id].streak = (wb[q.id].streak || 0) + 1;
+      if(wb[q.id].streak >= 2) delete wb[q.id];
+    }
+  } else {
+    const existing = wb[q.id] || {wrongCount:0, lastWrong:null, streak:0};
+    wb[q.id] = { wrongCount: existing.wrongCount + 1, lastWrong: Date.now(), streak: 0, lastChosen: (given || []).slice() };
+  }
+  return wb;
+}
+
 function finishExam(){
   const durationSec = Math.round((Date.now() - appState.startTime) / 1000);
   const result = computeResult(appState.questions, appState.answers, appState.mode, appState.maxScore);
@@ -307,15 +402,8 @@ function finishExam(){
 
   appState.questions.forEach((q, i) => {
     const ok = result.perQuestion[i].ok;
-    if(ok){
-      if(appState.mode === 'review' && wb[q.id]){
-        wb[q.id].streak = (wb[q.id].streak || 0) + 1;
-        if(wb[q.id].streak >= 2) delete wb[q.id];
-      }
-    } else {
-      const existing = wb[q.id] || {wrongCount:0, lastWrong:null, streak:0};
-      wb[q.id] = { wrongCount: existing.wrongCount + 1, lastWrong: Date.now(), streak: 0 };
-    }
+    const given = appState.answers[q.id] || [];
+    updateWrongbookForQuestion(wb, q, ok, given, appState.mode);
   });
 
   saveWrongbook(wb);
@@ -339,6 +427,7 @@ function finishExam(){
 function goHome(){ appState = {view:'home'}; render(); }
 function showHistory(){ appState = {view:'history'}; render(); }
 function showStats(){ appState = {view:'stats'}; render(); }
+function showWrongBrowse(){ appState = {view:'wrongbrowse'}; render(); }
 
 /* ==================== 畫面渲染 ==================== */
 function topbar(title){
@@ -376,7 +465,10 @@ function renderHome(){
       <div class="card home-card">
         <h2>錯題加強 <span class="badge-count">${wrongCount}</span></h2>
         <div class="desc">只從錯題本抽題（最多 50 題）。連續答對 2 次自動移出錯題本。</div>
-        <button onclick="startReview()" ${wrongCount===0 ? 'disabled':''}>開始加強</button>
+        <div style="display:flex; gap:8px; justify-content:center; flex-wrap:wrap;">
+          <button onclick="startReview()" ${wrongCount===0 ? 'disabled':''}>開始加強</button>
+          <button class="secondary" onclick="showWrongBrowse()" ${wrongCount===0 ? 'disabled':''}>瀏覽錯題</button>
+        </div>
       </div>
       <div class="card home-card">
         <h2>成績紀錄</h2>
@@ -480,6 +572,7 @@ function renderResults(){
         ${questionImgHtml(q)}
         ${optRows}
         <div class="small">正確答案：${q.answer.join('、')}　你的答案：${given.length ? given.join('、') : '（未作答）'}</div>
+        ${renderResultExplBlock(q, given, ok)}
       </div>`;
   }).join('');
 
@@ -504,6 +597,50 @@ function renderResults(){
     <div style="text-align:center; margin-bottom:24px;">
       <button onclick="goHome()">回首頁</button>
     </div>
+  `;
+}
+
+// 錯題瀏覽頁：列出錯題本全部題目，預設依錯誤次數降冪、其次最近錯誤時間降冪排序。
+function renderWrongBrowse(){
+  const wb = loadWrongbook();
+  const ids = Object.keys(wb);
+  const app = document.getElementById('app');
+
+  const items = ids.map(id => {
+    const q = window.EXAM_DATA.questions.find(qq => qq.id === id);
+    return q ? { q, entry: wb[id] } : null;
+  }).filter(Boolean);
+
+  if(items.length === 0){
+    app.innerHTML = `${topbar('錯題瀏覽')}<div class="card"><div class="empty-msg">目前沒有錯題，太棒了！</div></div>`;
+    return;
+  }
+
+  items.sort((a, b) => {
+    const cA = a.entry.wrongCount || 0, cB = b.entry.wrongCount || 0;
+    if(cB !== cA) return cB - cA;
+    return (b.entry.lastWrong || 0) - (a.entry.lastWrong || 0);
+  });
+
+  const cardsHtml = items.map(({q, entry}) => {
+    const lastChosen = entry.lastChosen || []; // 舊紀錄無此欄位時視為空陣列，只標正解不標錯選
+    const optsHtml = Object.entries(q.options)
+      .map(([key, text]) => wrongBrowseOptionRow(q, key, text, lastChosen))
+      .join('');
+    return `
+      <div class="card wb-card">
+        <div class="wb-corner">錯 ${entry.wrongCount || 0} 次｜連對 ${entry.streak || 0}/2</div>
+        <div class="stem">${escapeHtml(q.stem)}</div>
+        ${questionImgHtml(q)}
+        ${optsHtml}
+        ${renderCorrectReasonBlock(q.id)}
+      </div>`;
+  }).join('');
+
+  app.innerHTML = `
+    ${topbar('錯題瀏覽')}
+    <p class="small" style="text-align:center;">依錯誤次數、最近錯誤時間排序，共 ${items.length} 題</p>
+    ${cardsHtml}
   `;
 }
 
@@ -613,6 +750,7 @@ function render(){
     case 'results': renderResults(); break;
     case 'history': renderHistory(); break;
     case 'stats': renderStats(); break;
+    case 'wrongbrowse': renderWrongBrowse(); break;
     default: renderHome();
   }
 }
@@ -740,6 +878,48 @@ window.__selftest = function(){
     ];
     const r = computeResult(testQuestions, {r1:['1'], r2:['1']}, 'review', 999);
     check('錯題加強-計分不套用單選複選加權', r.score === 1 && r.maxScore === 2);
+  })();
+
+  // 9. lastChosen 記錄：答錯時把使用者錯選的答案存入錯題本（純函式 updateWrongbookForQuestion）
+  (function(){
+    const wb = {};
+    updateWrongbookForQuestion(wb, {id:'TEST-LC'}, false, ['2','4'], 'exam');
+    check('lastChosen記錄使用者錯選答案(單選/複選皆為陣列)',
+      Array.isArray(wb['TEST-LC'].lastChosen) && wb['TEST-LC'].lastChosen.join(',') === '2,4');
+    // 答對時（加強模式）不應寫入/更動 lastChosen
+    updateWrongbookForQuestion(wb, {id:'TEST-LC2'}, true, ['1'], 'review');
+    check('答對時不建立錯題本項目', wb['TEST-LC2'] === undefined);
+  })();
+
+  // 10. 錯題瀏覽渲染：已知題目正常顯示正解理由，未知題目優雅降級為「解析生成中」不報錯
+  (function(){
+    const knownIds = Object.keys(window.EXAM_EXPL || {});
+    let threw = false, htmlKnown = '', htmlMissing = '', rowHtml = '';
+    try{
+      if(knownIds.length){
+        htmlKnown = renderCorrectReasonBlock(knownIds[0]);
+      }
+      htmlMissing = renderCorrectReasonBlock('NON-EXISTENT-ID-不存在');
+      const fakeQ = { id:'NON-EXISTENT-ID-不存在', answer:['1'] };
+      rowHtml = wrongBrowseOptionRow(fakeQ, '2', '測試選項', []);
+    }catch(e){ threw = true; }
+    check('錯題瀏覽-已知題目渲染含正解理由', knownIds.length === 0 || /正解理由/.test(htmlKnown));
+    check('錯題瀏覽-未知題目優雅降級顯示「解析生成中」', !threw && /解析生成中/.test(htmlMissing));
+    check('錯題瀏覽-選項列缺解析仍正常渲染不報錯', !threw && typeof rowHtml === 'string' && rowHtml.length > 0);
+  })();
+
+  // 11. EXAM_EXPL 整檔缺失（比照真實情境：管線尚未產出/檔案載入失敗）時，各解析函式仍不報錯
+  (function(){
+    const backup = window.EXAM_EXPL;
+    let threw = false;
+    try{
+      window.EXAM_EXPL = undefined;
+      renderCorrectReasonBlock('b-01-001');
+      renderResultExplBlock({id:'b-01-001', answer:['1']}, ['2'], false);
+      getWrongReason('b-01-001', '1');
+    }catch(e){ threw = true; }
+    finally{ window.EXAM_EXPL = backup; }
+    check('EXAM_EXPL整檔缺失時解析函式不報錯(優雅降級)', threw === false);
   })();
 
   console.table(results);
