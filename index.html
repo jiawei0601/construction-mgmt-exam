@@ -43,6 +43,9 @@
   .home-card h2{font-size:20px;}
   .home-card .desc{color:var(--grey); font-size:13px; margin-bottom:12px; min-height:36px;}
   .scope-options{display:flex; gap:12px; justify-content:center; margin-bottom:12px; flex-wrap:wrap; font-size:14px;}
+  .mode-btn-group{display:flex; gap:8px; flex-wrap:wrap; justify-content:center;}
+  .mode-btn-group button{flex:1 1 140px; min-height:44px; line-height:1.3;}
+  .mode-btn-sub{display:block; font-size:11px; opacity:.85; font-weight:normal;}
   .badge{display:inline-block; background:var(--orange); color:#fff; font-size:12px; padding:2px 8px; border-radius:10px; margin-left:6px;}
   .badge-count{display:inline-block; background:var(--red); color:#fff; font-size:12px; padding:1px 8px; border-radius:10px;}
   .progress{font-size:14px; color:#eee;}
@@ -57,6 +60,9 @@
   .progress-bar-track{height:8px; background:#e0e0e0; border-radius:4px; margin-bottom:6px; overflow:hidden;}
   .progress-bar-fill{height:100%; background:var(--blue); transition:width .2s;}
   .exam-footer{display:flex; justify-content:flex-end; margin-top:16px; gap:8px; flex-wrap:wrap;}
+  .confirm-bar{display:flex; justify-content:flex-end; align-items:center; margin-top:16px; gap:10px; flex-wrap:wrap;}
+  .exam-sticky-head{background:var(--bg);}
+  .marathon-feedback{margin-top:14px;}
   .opt-correct-selected{background:#e8f5e9; border-color:var(--green) !important;}
   .opt-correct-missed{background:#fff8e1; border-color:var(--orange) !important;}
   .opt-wrong-selected{background:#ffebee; border-color:var(--red) !important;}
@@ -90,6 +96,35 @@
   .expl-law{margin-top:6px;}
   .expl-law summary{color:var(--blue); font-weight:bold; cursor:pointer;}
   .expl-law-text{white-space:pre-wrap; margin-top:6px; padding:8px; background:#fff; border:1px solid var(--border); border-radius:6px;}
+  .confirm-bar-spacer{display:none;}
+  .table-scroll{overflow-x:auto;}
+
+  /* ===== 手機優化（≤480px，桌面版外觀不受影響） ===== */
+  @media (max-width:480px){
+    #app{padding:10px;}
+    .card{padding:14px; border-radius:8px;}
+    button, .btn{min-height:44px; padding:10px 14px; font-size:15px;}
+    .home-card button, .home-card .btn{width:100%;}
+    .mode-btn-group{flex-direction:column;}
+    .mode-btn-group button{width:100%; min-height:48px;}
+    .scope-options{font-size:15px; gap:10px 16px;}
+    .stem{font-size:16px; line-height:1.55;}
+    .option-row{padding:13px 14px; font-size:16px; line-height:1.5; margin-bottom:10px; min-height:44px;}
+    .q-img{max-width:100%;}
+    .exam-sticky-head{position:sticky; top:0; z-index:20; padding-top:6px; padding-bottom:4px; margin:0 -10px; padding-left:10px; padding-right:10px;}
+    .confirm-bar{
+      position:fixed; left:0; right:0; bottom:0; z-index:30; margin:0;
+      background:#fff; border-top:1px solid var(--border);
+      padding:10px 14px calc(10px + env(safe-area-inset-bottom));
+      box-shadow:0 -2px 10px rgba(0,0,0,.1);
+      justify-content:stretch;
+    }
+    .confirm-bar button{flex:1; min-height:48px; font-size:16px;}
+    .confirm-bar > span{flex:0 0 auto; align-self:center; font-size:15px;}
+    .confirm-bar-spacer{display:block; height:76px;}
+    table{font-size:12px;}
+    th,td{padding:6px 4px;}
+  }
 </style>
 </head>
 <body>
@@ -213,6 +248,20 @@ function pickExamQuestions(scope){
   return { questions, singleCount: singlePicked.length, multiCount: multiPicked.length, maxScore };
 }
 
+// 快速測驗：範圍題庫隨機抽 30 題，單複選依題庫自然比例混抽（不特別分層抽樣）、不重複。
+function pickQuickQuestions(scope){
+  const all = window.EXAM_DATA.questions;
+  const filtered = scope === 'all' ? all : all.filter(q => q.category === scope);
+  return pickQuestions(filtered, 30);
+}
+
+// 馬拉松模式：範圍題庫一次洗牌後依序不重複連續抽題，不限題數。
+function pickMarathonPool(scope){
+  const all = window.EXAM_DATA.questions;
+  const filtered = scope === 'all' ? all : all.filter(q => q.category === scope);
+  return shuffle(filtered);
+}
+
 function isAnswerCorrect(q, given){
   if(!given || given.length===0) return false;
   const a = q.answer.slice().sort();
@@ -229,7 +278,12 @@ function fmtDate(ts){
   const d = new Date(ts);
   return d.toLocaleString('zh-TW', {hour12:false});
 }
-function modeLabel(m){ return m==='exam' ? '模擬測驗' : '錯題加強'; }
+function modeLabel(m){
+  if(m==='exam') return '模擬測驗';
+  if(m==='quick') return '快速測驗';
+  if(m==='marathon') return '馬拉松模式';
+  return '錯題加強';
+}
 function scopeLabel(s){
   return {all:'全部', professional:'只專業科目', common:'只共同科目', wrongbook:'錯題本'}[s] || s;
 }
@@ -291,6 +345,97 @@ function startExam(scope){
     questions, singleCount, multiCount, maxScore,
     answers: {}, currentIndex: 0, startTime: Date.now(), locked: false
   };
+  render();
+}
+
+// 快速測驗：隨機30題，流程與計分沿用線性單題模式（沿用 renderExam／answerSingle／toggleMultiAnswer／confirmMulti）。
+function startQuick(scope){
+  const questions = pickQuickQuestions(scope);
+  if(questions.length === 0){ alert('此範圍沒有題目'); return; }
+  appState = {
+    view: 'exam', mode: 'quick', scope,
+    questions, answers: {}, currentIndex: 0, startTime: Date.now(), locked: false
+  };
+  render();
+}
+
+// 馬拉松模式：不重複連續抽題，每題作答後立即顯示對錯與解析，隨時可結束結算。
+function startMarathon(scope){
+  const pool = pickMarathonPool(scope);
+  if(pool.length === 0){ alert('此範圍沒有題目'); return; }
+  appState = {
+    view: 'marathon', mode: 'marathon', scope,
+    pool, poolIndex: 0,
+    answeredCount: 0, correctCount: 0, subjectStats: {}, wrongIds: [],
+    given: [], feedback: null,
+    startTime: Date.now()
+  };
+  render();
+}
+
+function submitMarathonAnswer(given){
+  const q = appState.pool[appState.poolIndex];
+  const ok = isAnswerCorrect(q, given);
+  appState.answeredCount++;
+  if(ok) appState.correctCount++; else appState.wrongIds.push(q.id);
+  appState.subjectStats[q.subject] = appState.subjectStats[q.subject] || {total:0, correct:0};
+  appState.subjectStats[q.subject].total++;
+  if(ok) appState.subjectStats[q.subject].correct++;
+
+  const wb = loadWrongbook();
+  updateWrongbookForQuestion(wb, q, ok, given, 'marathon');
+  saveWrongbook(wb);
+
+  appState.feedback = { ok, given };
+  appState.given = given;
+  render();
+}
+
+function answerMarathonSingle(key){
+  if(appState.feedback) return;
+  submitMarathonAnswer([key]);
+}
+
+function toggleMarathonMulti(key){
+  if(appState.feedback) return;
+  const cur = appState.given || [];
+  appState.given = cur.includes(key) ? cur.filter(k => k !== key) : cur.concat([key]);
+  render();
+}
+
+function confirmMarathonMulti(){
+  if(appState.feedback) return;
+  submitMarathonAnswer(appState.given || []);
+}
+
+function marathonNext(){
+  appState.poolIndex++;
+  appState.given = [];
+  appState.feedback = null;
+  if(appState.poolIndex >= appState.pool.length){
+    finishMarathon();
+  } else {
+    render();
+  }
+}
+
+// 純函式：由馬拉松即時狀態組出結算 attempt，供 finishMarathon() 與 __selftest() 共用。
+function buildMarathonAttempt(m){
+  const durationSec = Math.round((Date.now() - m.startTime) / 1000);
+  return {
+    ts: Date.now(), mode: 'marathon', scope: m.scope,
+    total: m.answeredCount, correct: m.correctCount, durationSec,
+    wrongIds: m.wrongIds, subjectStats: m.subjectStats,
+    score: m.correctCount, maxScore: m.answeredCount,
+    passed: m.answeredCount > 0 ? m.correctCount >= m.answeredCount * 0.6 : false
+  };
+}
+
+function finishMarathon(){
+  if(appState.answeredCount === 0 && !confirm('尚未作答任何題目，確定要結束並返回首頁嗎？')) return;
+  const attempt = buildMarathonAttempt(appState);
+  saveAttempt(attempt);
+  appState = { view: 'marathonResult', lastMarathon: attempt };
   render();
 }
 
@@ -453,14 +598,18 @@ function renderHome(){
     ${topbar('營造工程管理甲級 學科測驗')}
     <div class="grid-home">
       <div class="card home-card">
-        <h2>開始模擬測驗</h2>
-        <div class="desc">比照正式學科考試：60題單選＋20題複選（滿分100分，60分及格）。範圍題庫不足則抽到多少算多少並按比例換算滿分。</div>
+        <h2>開始測驗</h2>
+        <div class="desc">先選範圍，再任選一種模式開始作答。</div>
         <div class="scope-options">
           <label><input type="radio" name="examScope" value="all" checked> 全部</label>
           <label><input type="radio" name="examScope" value="professional"> 只專業科目</label>
           <label><input type="radio" name="examScope" value="common"> 只共同科目</label>
         </div>
-        <button onclick="startExam(getScopeValue())">開始測驗</button>
+        <div class="mode-btn-group">
+          <button onclick="startExam(getScopeValue())">正式模擬考<span class="mode-btn-sub">60單選＋20複選</span></button>
+          <button onclick="startQuick(getScopeValue())">快速測驗<span class="mode-btn-sub">隨機30題</span></button>
+          <button onclick="startMarathon(getScopeValue())">馬拉松模式<span class="mode-btn-sub">連續作答＋即時解析</span></button>
+        </div>
       </div>
       <div class="card home-card">
         <h2>錯題加強 <span class="badge-count">${wrongCount}</span></h2>
@@ -503,9 +652,14 @@ function renderExam(){
   const total = questions.length;
   const progressPct = Math.round((currentIndex / total) * 100);
 
-  const compositionNote = mode === 'exam'
-    ? `本次共 ${total} 題（單選 ${appState.singleCount}、複選 ${appState.multiCount}），滿分 ${appState.maxScore} 分，60% 及格`
-    : `本次共 ${total} 題（錯題加強）`;
+  let compositionNote;
+  if(mode === 'exam'){
+    compositionNote = `本次共 ${total} 題（單選 ${appState.singleCount}、複選 ${appState.multiCount}），滿分 ${appState.maxScore} 分，60% 及格`;
+  } else if(mode === 'quick'){
+    compositionNote = `本次共 ${total} 題（快速測驗，隨機抽題不重複），答對題數達 60% 為參考及格線`;
+  } else {
+    compositionNote = `本次共 ${total} 題（錯題加強）`;
+  }
 
   const optionsHtml = Object.entries(q.options).map(([key, text]) => {
     const isChecked = given.includes(key);
@@ -524,16 +678,18 @@ function renderExam(){
   }).join('');
 
   const confirmBtnHtml = q.type === 'multi'
-    ? `<div class="exam-footer"><button onclick="confirmMulti()">確認作答</button></div>`
+    ? `<div class="confirm-bar"><button onclick="confirmMulti()">確認作答</button></div><div class="confirm-bar-spacer"></div>`
     : '';
 
   const app = document.getElementById('app');
   app.innerHTML = `
-    <div class="topbar">
-      <div class="topbar-title">${modeLabel(mode)}｜${scopeLabel(scope)}</div>
+    <div class="exam-sticky-head">
+      <div class="topbar">
+        <div class="topbar-title">${modeLabel(mode)}｜${scopeLabel(scope)}</div>
+      </div>
+      <div class="progress-bar-track"><div class="progress-bar-fill" style="width:${progressPct}%"></div></div>
+      <p class="small" style="text-align:center; margin-top:0;">${compositionNote}</p>
     </div>
-    <div class="progress-bar-track"><div class="progress-bar-fill" style="width:${progressPct}%"></div></div>
-    <p class="small" style="text-align:center; margin-top:0;">${compositionNote}</p>
     <div class="card">
       <h3>第 ${currentIndex+1} 題 / 共 ${total} 題 ${q.type==='multi' ? '<span class="badge">複選</span>' : ''}</h3>
       <div class="stem">${escapeHtml(q.stem)}</div>
@@ -544,10 +700,94 @@ function renderExam(){
   `;
 }
 
+// 馬拉松模式：每題作答後立即顯示對錯與解析；頂部常駐已答題數／答對率；隨時可結束結算。
+function renderMarathon(){
+  const { pool, poolIndex, answeredCount, correctCount, feedback, given, scope } = appState;
+  const q = pool[poolIndex];
+  const rate = answeredCount > 0 ? Math.round((correctCount/answeredCount)*1000)/10 : 0;
+  const activeGiven = feedback ? (feedback.given || []) : (given || []);
+
+  const optionsHtml = Object.entries(q.options).map(([key, text]) => {
+    const isChecked = activeGiven.includes(key);
+    const inputType = q.type === 'single' ? 'radio' : 'checkbox';
+    const name = q.type === 'single' ? `mq_${q.id}` : `mq_${q.id}_${key}`;
+    let cls = 'option-row';
+    let disabledAttr = '';
+    let onchange = '';
+    if(feedback){
+      disabledAttr = 'disabled';
+      const isCorrectOpt = q.answer.includes(key);
+      const isGiven = (feedback.given || []).includes(key);
+      if(isCorrectOpt && isGiven) cls += ' opt-correct-selected';
+      else if(isCorrectOpt && !isGiven) cls += ' opt-correct-missed';
+      else if(!isCorrectOpt && isGiven) cls += ' opt-wrong-selected';
+    } else {
+      onchange = q.type === 'single'
+        ? `onchange="answerMarathonSingle('${key}')"`
+        : `onchange="toggleMarathonMulti('${key}')"`;
+    }
+    return `
+      <label class="${cls}">
+        <input type="${inputType}" name="${name}" ${isChecked ? 'checked' : ''} ${disabledAttr} ${onchange}>
+        <span>${key}. ${escapeHtml(text)}</span>
+      </label>`;
+  }).join('');
+
+  const confirmBtnHtml = (!feedback && q.type === 'multi')
+    ? `<div class="confirm-bar"><button onclick="confirmMarathonMulti()">確認作答</button></div><div class="confirm-bar-spacer"></div>`
+    : '';
+
+  const feedbackHtml = feedback ? `
+    <div class="marathon-feedback">
+      <div class="small">正確答案：${q.answer.join('、')}　你的答案：${(feedback.given||[]).length ? feedback.given.join('、') : '（未作答）'}</div>
+      ${renderResultExplBlock(q, feedback.given, feedback.ok)}
+    </div>
+    <div class="confirm-bar">
+      <span class="${feedback.ok ? 'tag-ok' : 'tag-ng'}">${feedback.ok ? '✓ 答對了' : '✗ 答錯了'}</span>
+      <button onclick="marathonNext()">下一題</button>
+    </div>
+    <div class="confirm-bar-spacer"></div>` : '';
+
+  const app = document.getElementById('app');
+  app.innerHTML = `
+    <div class="exam-sticky-head">
+      <div class="topbar">
+        <div class="topbar-title">馬拉松模式｜${scopeLabel(scope)}</div>
+        <div class="progress">已答 ${answeredCount} 題｜答對率 ${rate}%</div>
+        <div class="topbar-actions"><button class="grey" onclick="finishMarathon()">結束</button></div>
+      </div>
+    </div>
+    <div class="card">
+      <h3>第 ${poolIndex+1} 題（本輪範圍共 ${pool.length} 題）${q.type==='multi' ? '<span class="badge">複選</span>' : ''}</h3>
+      <div class="stem">${escapeHtml(q.stem)}</div>
+      ${questionImgHtml(q)}
+      ${optionsHtml}
+      ${confirmBtnHtml}
+      ${feedbackHtml}
+    </div>
+  `;
+}
+
+function renderMarathonResult(){
+  const a = appState.lastMarathon;
+  const rate = a.total > 0 ? Math.round((a.correct/a.total)*1000)/10 : 0;
+  const app = document.getElementById('app');
+  app.innerHTML = `
+    ${topbar('馬拉松模式結算')}
+    <div class="card result-summary">
+      <div>${scopeLabel(a.scope)}｜用時 ${fmtDuration(a.durationSec)}</div>
+      <div class="score">${a.correct} / ${a.total}</div>
+      <div>已答 ${a.total} 題｜答對率 ${rate}%</div>
+    </div>
+    <div style="text-align:center; margin-bottom:24px;">
+      <button onclick="goHome()">回首頁</button>
+    </div>
+  `;
+}
+
 function renderResults(){
   const { lastAttempt, lastQuestions, lastAnswers } = appState;
   const pct = Math.round((lastAttempt.correct / lastAttempt.total) * 1000) / 10;
-  const isExam = lastAttempt.mode === 'exam';
   const passLine = Math.round(lastAttempt.maxScore * 0.6 * 10) / 10;
 
   const detailHtml = lastQuestions.map((q, idx) => {
@@ -576,18 +816,28 @@ function renderResults(){
       </div>`;
   }).join('');
 
-  const summaryHtml = isExam
-    ? `
+  let summaryHtml;
+  if(lastAttempt.mode === 'exam'){
+    summaryHtml = `
       <div>${modeLabel(lastAttempt.mode)}｜${scopeLabel(lastAttempt.scope)}｜用時 ${fmtDuration(lastAttempt.durationSec)}</div>
       <div class="score">${lastAttempt.score} / ${lastAttempt.maxScore} 分</div>
       <div class="${lastAttempt.passed ? 'tag-ok' : 'tag-ng'}" style="font-size:20px;">${lastAttempt.passed ? '及格' : '不及格'}（及格線 ${passLine} 分）</div>
       <div class="small">答對 ${lastAttempt.correct} / ${lastAttempt.total} 題（正確率 ${pct}%）</div>
-    `
-    : `
+    `;
+  } else if(lastAttempt.mode === 'quick'){
+    summaryHtml = `
+      <div>${modeLabel(lastAttempt.mode)}｜${scopeLabel(lastAttempt.scope)}｜用時 ${fmtDuration(lastAttempt.durationSec)}</div>
+      <div class="score">${lastAttempt.correct} / ${lastAttempt.total} 題</div>
+      <div class="${lastAttempt.passed ? 'tag-ok' : 'tag-ng'}" style="font-size:20px;">${lastAttempt.passed ? '達 60% 參考線' : '未達 60% 參考線'}（參考線 ${passLine} 題）</div>
+      <div class="small">正確率 ${pct}%</div>
+    `;
+  } else {
+    summaryHtml = `
       <div>${modeLabel(lastAttempt.mode)}｜${scopeLabel(lastAttempt.scope)}｜用時 ${fmtDuration(lastAttempt.durationSec)}</div>
       <div class="score">${lastAttempt.correct} / ${lastAttempt.total}</div>
       <div>正確率 ${pct}%</div>
     `;
+  }
 
   const app = document.getElementById('app');
   app.innerHTML = `
@@ -667,10 +917,12 @@ function renderHistory(){
       </tr>`;
     }).join('');
     bodyHtml = `
-      <table>
-        <thead><tr><th>日期</th><th>模式</th><th>範圍</th><th>分數</th><th>正確率</th><th>用時</th></tr></thead>
-        <tbody>${rows}</tbody>
-      </table>`;
+      <div class="table-scroll">
+        <table>
+          <thead><tr><th>日期</th><th>模式</th><th>範圍</th><th>分數</th><th>正確率</th><th>用時</th></tr></thead>
+          <tbody>${rows}</tbody>
+        </table>
+      </div>`;
   }
 
   // 趨勢：最近 10 次（按時間排序，舊到新）
@@ -747,6 +999,8 @@ function renderStats(){
 function render(){
   switch(appState.view){
     case 'exam': renderExam(); break;
+    case 'marathon': renderMarathon(); break;
+    case 'marathonResult': renderMarathonResult(); break;
     case 'results': renderResults(); break;
     case 'history': renderHistory(); break;
     case 'stats': renderStats(); break;
@@ -920,6 +1174,47 @@ window.__selftest = function(){
     }catch(e){ threw = true; }
     finally{ window.EXAM_EXPL = backup; }
     check('EXAM_EXPL整檔缺失時解析函式不報錯(優雅降級)', threw === false);
+  })();
+
+  // 12. 快速測驗：抽 30 題不重複（或題庫上限），單複選混抽自然比例（不分層）
+  (function(){
+    const picked = pickQuickQuestions('all');
+    const ids = picked.map(q => q.id);
+    check('快速測驗-抽30題不重複(或題庫上限)',
+      new Set(ids).size === ids.length && ids.length === Math.min(30, window.EXAM_DATA.questions.length));
+  })();
+
+  // 13. 快速測驗計分：不套用單複選加權（比照錯題加強，score=答對題數）
+  (function(){
+    const testQuestions = [
+      { id:'qq1', type:'single', subject:'S', answer:['1'] },
+      { id:'qq2', type:'multi', subject:'S', answer:['1','2'] },
+      { id:'qq3', type:'single', subject:'S', answer:['2'] }
+    ];
+    const r = computeResult(testQuestions, {qq1:['1'], qq2:['1'], qq3:['2']}, 'quick', 999);
+    check('快速測驗-計分為答對題數不加權', r.score === 2 && r.maxScore === 3 && r.correctCount === 2);
+    check('快速測驗-60%參考線及格判定', r.passed === (2 >= 3 * 0.6));
+  })();
+
+  // 14. 馬拉松模式：抽題池不重複（範圍題庫一次洗牌，依序抽題不放回，池大小=範圍題庫全數）
+  (function(){
+    const pool = pickMarathonPool('professional');
+    const ids = pool.map(q => q.id);
+    const totalProf = window.EXAM_DATA.questions.filter(q => q.category === 'professional').length;
+    check('馬拉松-抽題池不重複且涵蓋範圍全數題目', new Set(ids).size === ids.length && ids.length === totalProf);
+  })();
+
+  // 15. 馬拉松模式：結算紀錄 mode='marathon' 且統計正確（純函式 buildMarathonAttempt，不觸發 render）
+  (function(){
+    const fakeState = {
+      scope: 'all', startTime: Date.now() - 5000,
+      answeredCount: 7, correctCount: 5,
+      wrongIds: ['a','b'], subjectStats: { 'S': {total:7, correct:5} }
+    };
+    const attempt = buildMarathonAttempt(fakeState);
+    check('馬拉松-結算紀錄mode正確', attempt.mode === 'marathon');
+    check('馬拉松-結算統計正確(total/correct/passed)',
+      attempt.total === 7 && attempt.correct === 5 && attempt.passed === (5 >= 7 * 0.6));
   })();
 
   console.table(results);
