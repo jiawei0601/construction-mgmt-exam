@@ -76,6 +76,7 @@
   .qresult:last-child{border-bottom:none;}
   input[type=file]{display:none;}
   .small{font-size:12px; color:var(--grey);}
+  .q-img{display:block; max-width:100%; margin:8px auto 16px; border:1px solid var(--border); border-radius:6px;}
 </style>
 </head>
 <body>
@@ -101,6 +102,10 @@ function saveWrongbook(wb){ saveJSON(KEYS.WRONGBOOK, wb); }
 function escapeHtml(str){
   return String(str)
     .replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+}
+
+function questionImgHtml(q){
+  return q.img ? `<img class="q-img" src="${escapeHtml(q.img)}" alt="題目附圖">` : '';
 }
 
 function shuffle(arr){
@@ -440,6 +445,7 @@ function renderExam(){
     <div class="card">
       <h3>第 ${currentIndex+1} 題 / 共 ${total} 題 ${q.type==='multi' ? '<span class="badge">複選</span>' : ''}</h3>
       <div class="stem">${escapeHtml(q.stem)}</div>
+      ${questionImgHtml(q)}
       ${optionsHtml}
       ${confirmBtnHtml}
     </div>
@@ -471,6 +477,7 @@ function renderResults(){
           <span class="small">（${escapeHtml(q.subject)}）</span>
         </div>
         <div class="stem">${escapeHtml(q.stem)}</div>
+        ${questionImgHtml(q)}
         ${optRows}
         <div class="small">正確答案：${q.answer.join('、')}　你的答案：${given.length ? given.join('、') : '（未作答）'}</div>
       </div>`;

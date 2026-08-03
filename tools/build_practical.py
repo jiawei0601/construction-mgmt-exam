@@ -190,6 +190,8 @@ def build_page():
   .qbody table{{width:100%; border-collapse:collapse; font-size:14px; margin:10px 0;}}
   .qbody th, .qbody td{{border:1px solid var(--border); padding:6px 8px; text-align:center;}}
   .qbody th{{background:#f0f0f0;}}
+  .qbody img{{max-width:100%; height:auto; display:block; margin:10px 0; border:1px solid var(--border); border-radius:6px;}}
+  .qbody em{{display:block; color:var(--grey); font-size:13px; margin:-4px 0 10px;}}
   .small{{font-size:12px; color:var(--grey);}}
   @media (max-width:600px){{
     #app{{padding:10px;}}

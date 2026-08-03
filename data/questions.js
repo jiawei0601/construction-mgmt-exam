@@ -5587,6 +5587,135 @@ window.EXAM_DATA = {
    ]
   },
   {
+   "id": "b-03-006",
+   "category": "professional",
+   "subject": "工作項目03 一般土木建築工程圖說之判讀及繪製",
+   "type": "single",
+   "stem": "平面圖符號「（如圖）」係表示：",
+   "img": "assets/img/subject/b-03-006.png",
+   "options": {
+    "1": "自由門",
+    "2": "自動門",
+    "3": "雙開門",
+    "4": "雙開窗"
+   },
+   "answer": [
+    "3"
+   ],
+   "appearances": [
+    {
+     "year": "107",
+     "session": 1,
+     "no": 46
+    },
+    {
+     "year": "112",
+     "session": 2,
+     "no": 33
+    }
+   ]
+  },
+  {
+   "id": "b-03-007",
+   "category": "professional",
+   "subject": "工作項目03 一般土木建築工程圖說之判讀及繪製",
+   "type": "single",
+   "stem": "平面圖符號「（如圖）」係表示：",
+   "img": "assets/img/subject/b-03-007.png",
+   "options": {
+    "1": "拉門",
+    "2": "單開門",
+    "3": "自由門",
+    "4": "旋轉門"
+   },
+   "answer": [
+    "2"
+   ],
+   "appearances": [
+    {
+     "year": "107",
+     "session": 2,
+     "no": 20
+    },
+    {
+     "year": "113",
+     "session": 2,
+     "no": 15
+    }
+   ]
+  },
+  {
+   "id": "b-03-008",
+   "category": "professional",
+   "subject": "工作項目03 一般土木建築工程圖說之判讀及繪製",
+   "type": "single",
+   "stem": "平面圖符號「（如圖）」係表示：",
+   "img": "assets/img/subject/b-03-008.png",
+   "options": {
+    "1": "自由門",
+    "2": "自動門",
+    "3": "雙開門",
+    "4": "旋轉門"
+   },
+   "answer": [
+    "4"
+   ],
+   "appearances": [
+    {
+     "year": "109",
+     "session": 2,
+     "no": 18
+    },
+    {
+     "year": "114",
+     "session": "2颱風延期考區",
+     "no": 43
+    }
+   ]
+  },
+  {
+   "id": "b-03-009",
+   "category": "professional",
+   "subject": "工作項目03 一般土木建築工程圖說之判讀及繪製",
+   "type": "single",
+   "stem": "平面圖符號「（如圖）」係表示：",
+   "img": "assets/img/subject/b-03-009.png",
+   "options": {
+    "1": "單開窗",
+    "2": "固定窗",
+    "3": "紗窗",
+    "4": "雙拉窗"
+   },
+   "answer": [
+    "4"
+   ],
+   "appearances": [
+    {
+     "year": "109",
+     "session": 2,
+     "no": 22
+    }
+   ]
+  },
+  {
+   "id": "b-03-010",
+   "category": "professional",
+   "subject": "工作項目03 一般土木建築工程圖說之判讀及繪製",
+   "type": "single",
+   "stem": "平面圖符號「（如圖）」係表示：",
+   "img": "assets/img/subject/b-03-010.png",
+   "options": {
+    "1": "雙開門",
+    "2": "雙開窗",
+    "3": "雙向門",
+    "4": "迴轉門"
+   },
+   "answer": [
+    "3"
+   ],
+   "appearances": []
+  },
+  {
    "id": "b-03-011",
    "category": "professional",
    "subject": "工作項目03 一般土木建築工程圖說之判讀及繪製",
@@ -25727,6 +25856,30 @@ window.EXAM_DATA = {
    ]
   },
   {
+   "id": "s-115-2-004",
+   "category": "professional",
+   "subject": "營造工程管理甲級",
+   "type": "single",
+   "stem": "平面圖符號「（如圖）」係表示",
+   "img": "assets/img/subject/s-115-2-004.png",
+   "options": {
+    "1": "雙拉窗",
+    "2": "單開窗",
+    "3": "固定窗",
+    "4": "紗窗"
+   },
+   "answer": [
+    "1"
+   ],
+   "appearances": [
+    {
+     "year": "115",
+     "session": 2,
+     "no": 4
+    }
+   ]
+  },
+  {
    "id": "s-115-2-009",
    "category": "professional",
    "subject": "營造工程管理甲級",
@@ -25861,6 +26014,30 @@ window.EXAM_DATA = {
      "year": "115",
      "session": 2,
      "no": 47
+    }
+   ]
+  },
+  {
+   "id": "s-115-2-060",
+   "category": "professional",
+   "subject": "營造工程管理甲級",
+   "type": "single",
+   "stem": "平面圖符號「（如圖）」係表示",
+   "img": "assets/img/subject/s-115-2-060.png",
+   "options": {
+    "1": "自由門",
+    "2": "拉門",
+    "3": "旋轉門",
+    "4": "單開門"
+   },
+   "answer": [
+    "4"
+   ],
+   "appearances": [
+    {
+     "year": "115",
+     "session": 2,
+     "no": 60
     }
    ]
   },

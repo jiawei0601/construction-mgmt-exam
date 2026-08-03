@@ -46,6 +46,11 @@
 - **✅ 2026-08-03 已發佈**：https://github.com/jiawei0601/construction-mgmt-exam
   Pages：https://jiawei0601.github.io/construction-mgmt-exam/（HTTP 200、140 details 驗證通過）
   初版 commit 8bed81a（raw/ 29M 一併入庫）。
+- ✅2026-08-03 二版：新增 study.html 備考彙整與出題頻率（140題逐題分類
+  docs/practical-classification.csv 為審計依據），commit e71d964。
+- 進行中（圖片補充）：agent E 復原學科 7 題圖形題（PDF 裁圖→assets/img/subject/、
+  questions.js 加 img 欄位、index.html 支援顯示）；agent F 為術科詳解補原卷附圖
+  （→assets/img/practical/、嵌入 solutions/*.md 後重建 practical.html）。
 - 待辦（未來可選）：112–115 術科若日後市面流通再補；學科題庫官方改版時重抓重建。
 - 之後：術科詳解（sonnet 分年擬答、引法規）→ 整合驗收 → haiku 發佈 GitHub Pages。
 - 使用者要求：完成後自動發佈 GitHub（jiawei0601 帳號、開 GitHub Pages 給連結，
