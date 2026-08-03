@@ -54,6 +54,14 @@
 - ✅2026-08-03 四版（commit 0035ee3）：全面盤查 56 候選題，再補 24 題學科附圖
   （圖說符號/品管公式/測量表格/土方土壓圖/標章圖示），附圖題累計 31、總題數 1519 不變；
   32 題查證為純文字不需圖（清單見 tools/tmp/img_candidates.txt 與 agent 報告）。
+- 🔸擱置中的規劃（2026-08-03 評估完成、使用者尚未核准啟動）：錯題瀏覽功能＋全題解析。
+  - C：錯題本瀏覽頁（標正確答案＋使用者錯選），純 UI 改 index.html，約 5–8 萬 tokens。
+  - A：全部 1,519 題選項解析（正解理由＋各錯誤選項為何錯；法規題引完整法條原文，
+    法條需從 law.moj.gov.tw 官方 ZIP 本地查對、勿靠模型記憶——現成腳本
+    C:\CLAUDE\工地知識庫補充資料\_api_cache\extract_laws.py）。
+    實測：平均62字/題、寬鬆判定27%法規題；預估 120–200 萬 tokens、15–16 個 sonnet 分批，
+    輸出建議存 data/explanations.js（window.EXAM_EXPL = {id:{why, wrong:{opt:...}, law}}）。
+  - 啟動條件：使用者明確說開始；跑完自動發佈並靠 Telegram hooks 通知。
 - 待辦（未來可選）：112–115 術科若日後市面流通再補；學科題庫官方改版時重抓重建。
 - 之後：術科詳解（sonnet 分年擬答、引法規）→ 整合驗收 → haiku 發佈 GitHub Pages。
 - 使用者要求：完成後自動發佈 GitHub（jiawei0601 帳號、開 GitHub Pages 給連結，
