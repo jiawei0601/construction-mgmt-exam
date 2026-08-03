@@ -1,0 +1,666 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>營造工程管理甲級 術科 備考內容與出題頻率分析</title>
+<style>
+  :root{
+    --blue:#1565c0; --blue-d:#0d47a1; --green:#2e7d32; --red:#c62828;
+    --grey:#757575; --bg:#f4f5f7; --card:#ffffff; --border:#e0e0e0; --text:#222;
+    --orange:#ef6c00;
+  }
+  *{box-sizing:border-box;}
+  body{
+    margin:0; font-family:"Microsoft JhengHei","PingFang TC",-apple-system,BlinkMacSystemFont,sans-serif;
+    background:var(--bg); color:var(--text); line-height:1.7;
+  }
+  #app{max-width:960px; margin:0 auto; padding:16px;}
+  h1,h2,h3{margin:0 0 12px;}
+  .topbar{
+    display:flex; justify-content:space-between; align-items:center;
+    background:var(--blue); color:#fff; padding:12px 16px; margin-bottom:16px; border-radius:8px;
+    flex-wrap:wrap; gap:8px;
+  }
+  .topbar a{color:#fff; text-decoration:none;}
+  .topbar-title{font-weight:bold; font-size:18px;}
+  .btn{
+    display:inline-block; cursor:pointer; border:none; border-radius:6px; padding:8px 14px; font-size:14px;
+    background:var(--blue); color:#fff; text-decoration:none; transition:opacity .15s;
+  }
+  .btn:hover{opacity:.85;}
+  .btn.secondary{background:#fff; color:var(--blue); border:1px solid var(--blue);}
+  .card{
+    background:var(--card); border:1px solid var(--border); border-radius:10px;
+    padding:18px; margin-bottom:16px; box-shadow:0 1px 3px rgba(0,0,0,.06);
+  }
+  .disclaimer{
+    background:#fff8e1; border:1px solid var(--orange); border-radius:10px;
+    padding:14px 18px; margin-bottom:16px; color:#5d4300;
+  }
+  .disclaimer b{color:var(--red);}
+  .disclaimer p{margin:0 0 8px;}
+  .disclaimer p:last-child{margin-bottom:0;}
+  .disclaimer blockquote{margin:0 0 8px; padding:0; border:none;}
+  .disclaimer blockquote:last-child{margin-bottom:0;}
+  .sitem{
+    background:var(--card); border:1px solid var(--border); border-radius:10px;
+    margin-bottom:16px; overflow:hidden; padding:18px 20px;
+  }
+  .sitem > h2{font-size:19px; color:var(--blue-d); margin:0 0 12px; border-left:4px solid var(--blue); padding-left:10px;}
+  .sbody{font-size:15px;}
+  .sbody h3{font-size:15px; color:var(--blue-d); margin:14px 0 8px;}
+  .sbody p{margin:0 0 10px;}
+  .sbody ul, .sbody ol{margin:0 0 10px; padding-left:24px;}
+  .sbody li{margin-bottom:5px;}
+  .sbody table{width:100%; border-collapse:collapse; font-size:13.5px; margin:10px 0; display:block; overflow-x:auto; white-space:nowrap;}
+  .sbody th, .sbody td{border:1px solid var(--border); padding:6px 10px; text-align:center;}
+  .sbody th{background:#f0f0f0; color:var(--blue-d);}
+  .sbody tr:nth-child(even) td{background:#fafbfc;}
+  .sbody strong{color:var(--blue-d);}
+  .sbody code{background:#f0f0f0; padding:1px 5px; border-radius:4px; font-size:13px;}
+  .sbody blockquote{margin:0 0 10px; padding:6px 12px; border-left:3px solid var(--border); color:#555; background:#f7f8fa; border-radius:0 6px 6px 0;}
+  .topic{
+    border:1px solid var(--border); border-radius:8px; margin-bottom:10px; overflow:hidden;
+  }
+  .topic summary{
+    cursor:pointer; padding:10px 14px; background:#eef3fa; font-weight:bold; color:var(--blue-d);
+    list-style:none; font-size:15.5px;
+  }
+  .topic summary::-webkit-details-marker{display:none;}
+  .topic summary::before{content:"▸ "; color:var(--blue);}
+  .topic[open] summary::before{content:"▾ "; }
+  .topic summary:hover{background:#e3ecf8;}
+  .topic-body{padding:14px 16px; font-size:14.5px;}
+  .topic-body h3{font-size:14.5px; color:var(--blue-d); margin:12px 0 6px;}
+  .topic-body h3:first-child{margin-top:0;}
+  .topic-body p{margin:0 0 10px;}
+  .topic-body ul, .topic-body ol{margin:0 0 10px; padding-left:22px;}
+  .topic-body li{margin-bottom:5px;}
+  .topic-body table{width:100%; border-collapse:collapse; font-size:13px; margin:10px 0; display:block; overflow-x:auto; white-space:nowrap;}
+  .topic-body th, .topic-body td{border:1px solid var(--border); padding:6px 8px; text-align:center;}
+  .topic-body th{background:#f0f0f0;}
+  .topic-body strong{color:var(--blue-d);}
+  .topic-body code{background:#f0f0f0; padding:1px 5px; border-radius:4px; font-size:12.5px;}
+  .small{font-size:12px; color:var(--grey);}
+  @media (max-width:600px){
+    #app{padding:10px;}
+    .sitem{padding:14px;}
+    .sbody{font-size:14px;}
+    .topic summary{font-size:14px; padding:10px 12px;}
+    .topic-body{font-size:13.5px; padding:12px;}
+    .sbody table, .topic-body table{font-size:12px;}
+  }
+</style>
+</head>
+<body>
+<div id="app">
+  <div class="topbar">
+    <div class="topbar-title">營造工程管理甲級 術科 備考內容與出題頻率分析</div>
+    <a class="btn secondary" href="index.html">回學科測驗首頁</a>
+  </div>
+
+  <div class="disclaimer">
+    <blockquote>
+<p>⚠️ 本文件為 AI 彙整之備考參考，非官方公告，法規條號與內容請以最新公告版本為準。</p>
+<p><strong>樣本說明</strong>：本分析樣本為民國 105–111 年共 7 個年度、每年 4 份平行卷（A／B／C／D）、
+每卷 5 大題，合計 <strong>140 大題</strong>。112–115 年術科試題官方未公開、市面亦無流通版本可考據，故未納入樣本。
+所有統計數字（題數、佔比）均由 <a href="./practical-classification.csv"><code>docs/practical-classification.csv</code></a>
+逐題分類彙總而來，佔比分母一律為 140；若對數字有疑義，請直接查核該表逐列內容。</p>
+</blockquote>
+<hr />
+  </div>
+
+  <section class="sitem">
+  <h2>一、出題頻率總表</h2>
+  <div class="sbody"><h3>1.1 主題 × 年度 題數矩陣</h3>
+<table>
+<thead>
+<tr>
+<th>主題分類</th>
+<th>105</th>
+<th>106</th>
+<th>107</th>
+<th>108</th>
+<th>109</th>
+<th>110</th>
+<th>111</th>
+<th>總計</th>
+<th>佔比</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>地下工程與基礎</td>
+<td>6</td>
+<td>3</td>
+<td>2</td>
+<td>3</td>
+<td>3</td>
+<td>3</td>
+<td>2</td>
+<td><strong>22</strong></td>
+<td>15.7%</td>
+</tr>
+<tr>
+<td>結構體工程</td>
+<td>4</td>
+<td>2</td>
+<td>3</td>
+<td>2</td>
+<td>2</td>
+<td>2</td>
+<td>3</td>
+<td><strong>18</strong></td>
+<td>12.9%</td>
+</tr>
+<tr>
+<td>施工計畫與管理</td>
+<td>2</td>
+<td>1</td>
+<td>3</td>
+<td>5</td>
+<td>1</td>
+<td>3</td>
+<td>1</td>
+<td><strong>16</strong></td>
+<td>11.4%</td>
+</tr>
+<tr>
+<td>營建法規－採購契約</td>
+<td>1</td>
+<td>3</td>
+<td>3</td>
+<td>1</td>
+<td>2</td>
+<td>3</td>
+<td>2</td>
+<td><strong>15</strong></td>
+<td>10.7%</td>
+</tr>
+<tr>
+<td>職業安全衛生</td>
+<td>2</td>
+<td>3</td>
+<td>2</td>
+<td>2</td>
+<td>2</td>
+<td>1</td>
+<td>2</td>
+<td><strong>14</strong></td>
+<td>10.0%</td>
+</tr>
+<tr>
+<td>土方工程</td>
+<td>0</td>
+<td>4</td>
+<td>2</td>
+<td>1</td>
+<td>2</td>
+<td>2</td>
+<td>2</td>
+<td><strong>13</strong></td>
+<td>9.3%</td>
+</tr>
+<tr>
+<td>機電與設備</td>
+<td>2</td>
+<td>1</td>
+<td>1</td>
+<td>1</td>
+<td>1</td>
+<td>1</td>
+<td>1</td>
+<td><strong>8</strong></td>
+<td>5.7%</td>
+</tr>
+<tr>
+<td>測量與放樣</td>
+<td>1</td>
+<td>1</td>
+<td>1</td>
+<td>1</td>
+<td>1</td>
+<td>1</td>
+<td>1</td>
+<td><strong>7</strong></td>
+<td>5.0%</td>
+</tr>
+<tr>
+<td>假設工程與施工機具</td>
+<td>1</td>
+<td>0</td>
+<td>1</td>
+<td>1</td>
+<td>1</td>
+<td>0</td>
+<td>2</td>
+<td><strong>6</strong></td>
+<td>4.3%</td>
+</tr>
+<tr>
+<td>工程圖說判讀</td>
+<td>0</td>
+<td>1</td>
+<td>1</td>
+<td>1</td>
+<td>1</td>
+<td>1</td>
+<td>1</td>
+<td><strong>6</strong></td>
+<td>4.3%</td>
+</tr>
+<tr>
+<td>營建法規－建築管理</td>
+<td>1</td>
+<td>0</td>
+<td>1</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>2</td>
+<td><strong>5</strong></td>
+<td>3.6%</td>
+</tr>
+<tr>
+<td>環保與污染防治</td>
+<td>0</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>2</td>
+<td>2</td>
+<td>0</td>
+<td><strong>5</strong></td>
+<td>3.6%</td>
+</tr>
+<tr>
+<td>營建法規－營造業管理</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>1</td>
+<td>2</td>
+<td>1</td>
+<td>1</td>
+<td><strong>5</strong></td>
+<td>3.6%</td>
+</tr>
+<tr>
+<td><strong>合計</strong></td>
+<td>20</td>
+<td>20</td>
+<td>20</td>
+<td>20</td>
+<td>20</td>
+<td>20</td>
+<td>20</td>
+<td><strong>140</strong></td>
+<td>100%</td>
+</tr>
+</tbody>
+</table>
+<h3>1.2 觀察重點</h3>
+<ul>
+<li><strong>地下工程與基礎</strong>（開挖擋土、連續壁、基樁、地層改良、隧道）連續 7 年都有出題，105 年甚至一次佔 6 題（30%），是本科目最核心、最不可放棄的板塊。</li>
+<li><strong>結構體工程</strong>（混凝土材料/試驗、模板、鋼結構）與<strong>施工計畫與管理</strong>（品質管理、進度、施工計畫書）緊追在後，且<strong>施工計畫與管理</strong>在 108 年出現單年 5 題的高峰（整份考卷幾乎半份卷都在考品管制度）。</li>
+<li><strong>營建法規類</strong>若將「採購契約」「建築管理」「營造業管理」三個子類合併，共 25 題（17.9%），是單一大方向中佔比最高者，但因法規條號分散、細節繁多，建議依「採購契約 &gt; 營造業管理 &gt; 建築管理」優先序準備。</li>
+<li><strong>職業安全衛生</strong>每年穩定出現 1–3 題，題型集中在法規列舉（墜落、局限空間、機械作業、汛期防災），屬於「背了就拿分」的高投報主題。</li>
+<li><strong>土方工程</strong>在 106 年出現異常高峰（4 題，含機具、CLSM 等冷門子題），但整體仍屬穩定中頻主題，且是計算題重災區之一。</li>
+</ul></div>
+</section>
+<section class="sitem">
+  <h2>二、高頻主題深度整理</h2>
+  <div class="sbody"><details class="topic">
+  <summary>2.1 地下工程與基礎（22 題，15.7%，出題率第一）</summary>
+  <div class="topic-body"><p><strong>核心觀念與必背清單</strong></p>
+<ul>
+<li><strong>開挖擋土工法比較</strong>：連續壁（止水佳、剛性大、可兩用牆）／排樁／鋼板樁／地錨，依基地條件（地質、鄰房距離、地下水位）選用。</li>
+<li><strong>開挖支撐工法</strong>：順打（支撐先行）、逆打（Top-Down）、島式工法、地錨工法，各自適用情境與優缺點。</li>
+<li><strong>開挖破壞模式三大類</strong>：</li>
+<li>塑性流隆起（局部剪動、淺層）vs. 擠壓隆起（深層整體滑動，類承載力破壞）</li>
+<li>砂湧／管湧（Boiling／Piping）：水頭差 → 向上滲流壓力 → 有效應力趨零 → 土壤懸浮</li>
+<li>整體貫入不足滑動</li>
+<li><strong>監測系統</strong>：測傾儀（壁體側向變位）、水位觀測井（地下水位）、沉陷觀測點（地表／鄰房沉陷）、支撐軸力計、分層沉陷計、孔隙水壓計、裂縫監測片 — 儀器名稱與監測項目務必正確配對，不可張冠李戴。</li>
+<li><strong>連續壁施工程序</strong>：地質調查 → 導溝施作 → 單元開挖（穩定液維持壁穩） → 槽底清底 → 鋼筋籠吊放 → 特密管水中混凝土澆置 → 單元接續。</li>
+<li><strong>地層改良</strong>：灌漿工法四型態（滲透、劈裂、擠壓、噴射灌漿）及各自目的（止水／加固／填充孔隙）；地層改良工法選用考量因素（地質、目的、場地、鄰房影響、工期經濟性、環保、可驗證性）。</li>
+<li><strong>基樁工法</strong>：全套管基樁（Benoto 工法）取土設備（抓斗、螺旋鑽頭）、搖管器構件、附屬機具（起重機、特密管、泥水處理設備）。</li>
+<li><strong>潛盾工法</strong>：發進井、到達井、中間井（中繼井）、通風／維修井四種工作井功能。</li>
+<li><strong>鄰房沉陷成因</strong>：擋土壁變形過大、抽降水引致壓密沉陷、管湧砂湧淘空、開挖底隆起、超挖／未依序分層開挖。</li>
+</ul>
+<p><strong>常見題型與問法</strong></p>
+<ol>
+<li>情境案例題：給定基地條件（地質、鄰房距離、開挖深度），要求選擇最佳擋土工法並說明理由（110 年下午 C4）。</li>
+<li>施工程序題：由放樣至完成的完整施工順序（連續壁、鋼支撐架設、逆打工法）。</li>
+<li>原因分析題：某破壞現象（隆起、砂湧、沉陷）之發生機制與原因。</li>
+<li>列舉題：監測儀器種類、工作井種類、地層改良考量因素。</li>
+</ol>
+<p><strong>代表題引用</strong></p>
+<ul>
+<li>105年B4：基礎開挖塑性流隆起與擠壓隆起發生原因</li>
+<li>109年下午D1（第十六題）：開挖工程鋼支撐系統由放樣至架設完成之順序</li>
+<li>110年上午B5（第十題）：砂湧產生原因、基地內外現象及水源來源</li>
+<li>110年下午C4（第十四題）：情境案例選擇最佳地下擋土工法及3種開挖支撐工法</li>
+<li>111年上午B4（第九題）：地下室支撐開挖工法由整地放樣至地面層樓版完成施工程序</li>
+</ul>
+<p><strong>答題架構建議</strong>：機制原因類題目，依「條件（地質/水位/深度）→ 力學機制 → 破壞現象 → 對應防治對策」四段式鋪陳；施工程序類題目，依實際工序先後條列並標明每步驟的目的（監測貫穿全程、開挖與支撐須交替進行是常見扣分關鍵）。</p>
+<hr /></div>
+</details><details class="topic">
+  <summary>2.2 結構體工程（18 題，12.9%）</summary>
+  <div class="topic-body"><p><strong>核心觀念與必背清單</strong></p>
+<ul>
+<li><strong>混凝土材料與品管</strong>：水灰比 vs. 水膠比（膠結材含飛灰、爐石粉）之差異；假凝（可逆、應延長攪拌不加水）vs. 瞬凝（不可逆）；特殊混凝土定義與應用（預壘混凝土、無坍度混凝土、噴凝土、無收縮混凝土、自充填混凝土 SCC 三特性：流動性/間隙通過性/抗析離性）；綠混凝土之環保與性能雙構面。</li>
+<li><strong>混凝土試驗</strong>：坍度試驗（分3層each 25次搗實、5–10秒內提錐）、抗壓試體製作（標準圓柱模 15×30cm、標準養護）、氯離子含量檢測人員資格與會同人員（起造人／承造人／監造人三方）、預拌混凝土出貨單應載事項（出廠時間、坍度規格、水灰比、配比數量等）。</li>
+<li><strong>接縫種類</strong>：伸縮縫（熱脹冷縮）、施工縫（分次澆置）、收縮縫／控制縫（誘導裂縫）、隔震縫（不同構造系統交接）— 目的與位置需分清。</li>
+<li><strong>模板工程</strong>：組立與拆除時機（非承重側模 vs. 承重底模，依混凝土強度發展 65–70% 判斷拆模）、模板品管四細項（品質/支撐/組立/開口預埋）、模板塌垮主要原因（支撐不足、地基不均勻、超載、澆置過快、拆模過早）。</li>
+<li><strong>鋼結構</strong>：電銲姿勢四種（平銲/橫銲/立銲/仰銲，難度依序遞增）、銲接方法（SMAW／GMAW／SAW／FCAW／GTAW，工地常用 SMAW/FCAW、工廠常用 SAW）、品質管制三面向（材料/尺寸/電銲，含材質證明書、WPS/PQR、非破壞檢測）、試裝作業（目的/需求/確認內容）、防火覆蓋四法（混凝土包覆、噴塗被覆、防火板包覆、膨脹型防火塗料）。</li>
+</ul>
+<p><strong>常見題型與問法</strong></p>
+<ol>
+<li>名詞定義＋計算：水膠比定義並依配比數據計算（110年下午D1）。</li>
+<li>比較題：假凝 vs. 瞬凝、水灰比 vs. 水膠比、承重模板 vs. 非承重模板。</li>
+<li>列舉＋原因說明：接縫種類與設置目的、模板塌垮原因、鋼結構防火覆蓋方式。</li>
+<li>品管制度題：混凝土出貨單／模板查核細項／鋼結構材料尺寸電銲品管內容。</li>
+</ol>
+<p><strong>代表題引用</strong></p>
+<ul>
+<li>107年下午D5：鋼結構品質管制材料尺寸電銲作業內容</li>
+<li>108年D4：自充填混凝土SCC定義材料特性需求及檢驗試驗方法</li>
+<li>109年下午D3（第十八題）：工地混凝土坍度試驗步驟及抗壓試體製作步驟</li>
+<li>110年下午D1（第十六題）：水膠比定義及依配比數據計算水膠比</li>
+<li>110年下午D2（第十七題）：混凝土假凝現象成因及消除方法</li>
+</ul>
+<p><strong>答題架構建議</strong>：定義題先寫精確定義（扣關鍵字），再補充工程應用實例；品管題依「材料→施工→檢驗」的時間軸鋪陳，避免漏列非破壞檢測、養護條件等後端管制環節。</p>
+<hr /></div>
+</details><details class="topic">
+  <summary>2.3 施工計畫與管理（16 題，11.4%）</summary>
+  <div class="topic-body"><p><strong>核心觀念與必背清單</strong></p>
+<ul>
+<li><strong>三級品管制度</strong>：一級（承包商自主品管，品管工程師執行自主檢查）／二級（監造單位查核，審查一級品管成果）／三級（機關暨工程會督導考核）— 三者角色不可對調。</li>
+<li><strong>整體品質計畫</strong>：工程預算達 5,000 萬元以上須訂定，內容含計畫範圍、管理權責、施工要領、品質標準、材料及施工檢驗程序、自主檢查表、不合格品管制、內部品質稽核、文件紀錄管理系統；若無運轉類機電設備可免訂測試運轉檢驗程序。</li>
+<li><strong>整體施工計畫書內容</strong>：工程概述、工地現況調查、施工組織、分項施工方法、進度計畫、品質管理計畫、勞安衛生計畫、環保計畫、假設工程規劃、機具材料管理、緊急應變計畫。</li>
+<li><strong>進度管理</strong>：規劃考量因素（工期、工法效率、施工順序邏輯、資源調度、氣候、法定假日、行政審驗時程、分包介面、資金調度）；進度落後常見原因（設計變更、天候、地質與預期不符、材料延遲、人力機具不足、界面協調不良）。</li>
+<li><strong>統計品質管制</strong>：管制圖 ±3σ 管制界限（UCL/LCL，常態分配下 99.73% 信賴區間），混凝土試驗異常原因（材料變異、配比失準、拌合異常、取樣不當、試驗誤差、天候）。</li>
+<li><strong>新QC七大手法</strong>（語言性資料）：親和圖法（KJ法）、關聯圖法、系統圖法、矩陣圖法、矩陣數據分析法、PDPC法、箭形圖法 — 對照「舊QC七大手法」（數值分析：查檢表、柏拉圖、特性要因圖、直方圖、散佈圖、管制圖、層別法）避免混淆。</li>
+<li><strong>工地文件管理</strong>：施工日誌應含項目（人機料法環＋進度品質安全＋工地主任簽章）、工程告示牌應載內容（人/事/時/聯絡方式）。</li>
+<li><strong>BIM技術</strong>：定義（三維數位模型整合生命週期資訊）與效益（跨專業協同、碰撞檢查、數量統計、4D進度模擬、溝通效率、營運維護資料庫）。</li>
+</ul>
+<p><strong>常見題型與問法</strong></p>
+<ol>
+<li>制度架構題：三級品管分工、整體品質計畫應載內容（常搭配金額門檻情境）。</li>
+<li>列舉題：施工計畫書內容、施工日誌項目、進度落後原因、告示牌內容。</li>
+<li>工具方法題：新舊QC七大手法、管制圖界限計算。</li>
+<li>新興技術題：BIM定義與效益。</li>
+</ol>
+<p><strong>代表題引用</strong></p>
+<ul>
+<li>105年C1：分工結構圖（WBS）之4項功用</li>
+<li>107年下午C2：新QC七大手法列舉</li>
+<li>108年C5：管制圖上下管制界限範圍及混凝土試驗異常原因</li>
+<li>110年下午C1（第十一題）：BIM定義及至少5項主要預期效益</li>
+<li>111年下午C1（第十一題）：公共工程三級品管分工機制及負責單位</li>
+</ul>
+<p><strong>答題架構建議</strong>：制度類題目務必先講「架構」（幾級、誰負責），再補「內容細項」；列舉題依管理構面分類條列（進度/品質/成本/安全/環保）比單純堆疊項目更易得分。</p>
+<hr /></div>
+</details><details class="topic">
+  <summary>2.4 營建法規－採購契約（15 題，10.7%）</summary>
+  <div class="topic-body"><p><strong>核心觀念與必背清單</strong></p>
+<ul>
+<li><strong>招標方式三種</strong>（政府採購法§18）：公開招標（原則）／選擇性招標（§20五款情形：經常性採購、審查費時、高額投標費用、資格複雜、研發事項）／限制性招標（§22，例外情形）— 選擇性與限制性最易混淆，務必核對條號。</li>
+<li><strong>統包 vs. 聯合承攬</strong>：統包＝發包方式合併（設計施工併於同一契約）；聯合承攬＝承攬主體合併（多家廠商共同投標、連帶責任）；轉包＝法定禁止行為（§65廠商應自行履行）。</li>
+<li><strong>契約文件組成</strong>：契約本文及附件、招標文件、投標文件、決標文件、履約文件，各文件間有解釋優先順序。</li>
+<li><strong>履約爭議處理</strong>：協調 → 申請調解（採購申訴審議委員會）→ 提付仲裁（廠商片面提付機關不得拒絕，此為政府採購特有制度）→ 提起訴訟。</li>
+<li><strong>驗收人員分工</strong>：主驗（核定結果）／會驗（專業會同判斷）／協驗（事務性協助）／監驗（程序監督，不涉技術判斷）。</li>
+<li><strong>工期展延事由</strong>：不可抗力、天候、機關應辦事項未完成、機關通知停工、契約變更、供料延遲、法令變更 — 關鍵在於須「影響要徑（Critical Path）作業」且廠商需「及時通知」機關，僅影響浮時（float）者不予展延。</li>
+<li><strong>契約類型辨析</strong>：工程契約（承攬，完成一定工作）、分包契約（分包商不直接對業主負責）、買賣契約、租賃契約、勞務供給契約（僅提供勞務非完成工作）。</li>
+<li><strong>不良廠商刊登公報情形</strong>（§101）：履約不符規定情節重大、驗收不合格不改善、不履行保固、擅自減省工料等，需先通知並給予異議機會。</li>
+</ul>
+<p><strong>常見題型與問法</strong></p>
+<ol>
+<li>條文列舉題：招標方式適用情形、履約爭議處理方式、工期展延事由。</li>
+<li>名詞辨析題：統包/聯合承攬/轉包、契約類型五種、驗收四種人員角色。</li>
+<li>制度題：估驗計價款暫停給付情形、契約標的代用程序。</li>
+</ol>
+<p><strong>代表題引用</strong></p>
+<ul>
+<li>108年A2：政府採購法招標方式三種（公開選擇性限制性）</li>
+<li>109年A4：採購契約要項契約文件包括之內容</li>
+<li>110年A1（第一題）：說明統包聯合承攬工程轉交及技術士之意義</li>
+<li>111年A4（第四題）：工程採購契約範本非可歸責廠商得展延履約期限之情形</li>
+<li>111年A5（第五題）：工程採購契約範本履約爭議未達成協議之處理方式</li>
+</ul>
+<p><strong>答題架構建議</strong>：條文題盡量寫出法規名稱＋條號（不確定條號時寫「確切條號建議查證最新版本」但仍完整列出款項內容），閱卷重視內容完整度勝過條號精確度；名詞辨析題務必對比說明差異，不可只各自定義。</p>
+<hr /></div>
+</details><details class="topic">
+  <summary>2.5 職業安全衛生（14 題，10.0%）</summary>
+  <div class="topic-body"><p><strong>核心觀念與必背清單</strong></p>
+<ul>
+<li><strong>危害控制層級（Hierarchy of Controls）</strong>：消除 &gt; 取代 &gt; 工程控制 &gt; 管理控制 &gt; 個人防護具，優先順位由高至低，個人防護具僅為最後手段。</li>
+<li><strong>墜落災害防止計畫</strong>（風險控制先後順序前5項）：設計/工法消除高處作業 → 優先施作永久性設施 → 護欄護蓋 → 安全網 → 個人防墜器具。</li>
+<li><strong>職災通報義務</strong>（職業安全衛生法§37）：死亡、3人以上罹災、1人以上且需住院治療，應於8小時內通報勞檢機構，且非經許可不得移動破壞現場。</li>
+<li><strong>局限空間危害防止計畫應含事項</strong>：危害確認、氧氣及有害物濃度測定、通風換氣、進入作業許可程序、監視人員配置、防護具、緊急應變處置。</li>
+<li><strong>機械作業危害防範</strong>：作業前檢點、操作人員資格、指揮系統、人機分道警戒區、地盤承載力確認、吊掛管理、惡劣天候管制。</li>
+<li><strong>模板塌垮原因</strong>：支撐繫材斜撐不足、地基不均勻沉陷、材料強度不足、澆置過快超載、支撐間距超規定、拆模過早。</li>
+<li><strong>汛期防災</strong>（公共工程汛期工地防災減災作業要點）：汛期一般定義為5月1日至11月30日；檢查項目涵蓋臨時構造物（施工架、擋土支撐）、大型機械設備（塔吊防風固定）、開挖及土石挖填方（邊坡穩定、排水）。</li>
+<li><strong>重大職災應變情境題</strong>：停工→搶救人命→劃定警戒區→8小時內通報→保全現場（不得移動破壞）；善後流程：鑑定原因→清運修復→修正計畫→取得複工許可→重新查驗。</li>
+</ul>
+<p><strong>常見題型與問法</strong></p>
+<ol>
+<li>法規列舉題：8小時內通報情形、墜落防止優先順序、局限空間計畫內容。</li>
+<li>原因分析題：機械作業危害成因、模板塌垮原因。</li>
+<li>情境應變題：重大職災（如樓版倒塌）發生時處理及善後流程。</li>
+</ol>
+<p><strong>代表題引用</strong></p>
+<ul>
+<li>105年A5：營造安全衛生設施標準墜落災害防止風險控制前5項順序</li>
+<li>107年上午A5：局限空間作業危害防止計畫應包含事項</li>
+<li>109年C1（第十一題）：營造工程施工風險對策類型及採行優先順位</li>
+<li>110年下午D4（第十九題）：施工架防止人體墜落之自主檢查項目5項</li>
+<li>111年下午C2（第十二題）：二樓版倒塌職災情境處理及善後至可重新組模流程</li>
+</ul>
+<p><strong>答題架構建議</strong>：法規列舉題按官方款次順序背誦，切勿自行調換順序（尤其風險控制五項及8小時通報三款情形，順序本身即是考點）；情境應變題按時間軸分「當下處理」與「事後善後」兩段作答。</p>
+<hr /></div>
+</details><details class="topic">
+  <summary>2.6 土方工程（13 題，9.3%）</summary>
+  <div class="topic-body"><p><strong>核心觀念與必背清單</strong></p>
+<ul>
+<li><strong>夯實品管</strong>：最佳含水量（OMC）與最大乾密度關係（夯實曲線）；相對夯實度＝現場乾密度／室內標準夯實試驗最大乾密度；現場密度試驗方法（砂錐法、橡皮膜法、核子密度儀法）；過度夯實＝超過最佳點後持續輾壓反使密度不增反減（彈簧現象）。</li>
+<li><strong>滾壓夯實施工管理重點</strong>：鋪土厚度控制、含水量控制、機具選用（羊腳滾壓機適黏性土、震動壓路機適砂礫料）、夯實遍數、分層檢驗、邊坡死角補強。</li>
+<li><strong>土方量計算兩大方法</strong>：平均斷面法（V=(A1+A2)/2×L）與方格網法／四角高程法（V=(A/4)×Σn·h，n為格點被共用的方格數：角點1、邊點2、內轉角3、內部點4）。</li>
+<li><strong>剩餘土石方管理</strong>：定義（可資源化之土、砂、石、磚、瓦，不含雜項廢棄物）；處理計畫書申報 → 流向證明文件核發 → 運送聯單留存三段式管理；土資場應有設施（洗車、圍籬、地磅、排水沉砂、防塵、標示牌）。</li>
+<li><strong>CLSM（控制性低強度材料）</strong>：構想（自充填免夯實、低強度可控）、用途（管溝回填、狹小空間背填）、材料成分（水泥、飛灰、砂、水）、性質需求（流動性、低沉陷、可挖除性）。</li>
+</ul>
+<p><strong>計算題重點</strong>：本主題是計算題最密集的板塊之一，詳見「三、計算題專區」。</p>
+<p><strong>常見題型與問法</strong></p>
+<ol>
+<li>品管參數題：夯實試驗二項數據、過度夯實定義。</li>
+<li>施工管理重點列舉：滾壓夯實注意事項、道路土方施工計畫項目。</li>
+<li>計算題：土方量、夯實曲線讀圖。</li>
+<li>法規／制度題：剩餘土石方定義及流向證明。</li>
+</ol>
+<p><strong>代表題引用</strong></p>
+<ul>
+<li>106年B2：土方工程工地現場夯實試驗類型</li>
+<li>109年B2（第七題）：土壤夯實優點及夯實曲線圖讀圖求乾單位重含水量要求</li>
+<li>109年B3（第八題）：山坡地土方斷面積及平均斷面法計算AB間土方量</li>
+<li>110年B2（第七題）：工地密度試驗二項檢測數據及過度夯實定義</li>
+<li>111年B3（第八題）：方格網法計算基地整地填挖方量</li>
+</ul>
+<p><strong>答題架構建議</strong>：計算題務必列出完整算式與單位（部分題目明文「未列算式不予計分」）；品管類題目扣緊「含水量、鋪土厚度、夯實遍數、密度試驗」四要素完整作答。</p>
+<hr /></div>
+</details><details class="topic">
+  <summary>2.7 機電與設備（8 題，5.7%）</summary>
+  <div class="topic-body"><p><strong>核心觀念與必背清單</strong></p>
+<ul>
+<li><strong>消防安全設備</strong>：警報設備五種（火警自動警報、手動報警、緊急廣播、瓦斯漏氣火警自動警報、119火警通報裝置）；自動撒水設備裝置（撒水頭、加壓送水裝置、流水檢知裝置、一齊開放閥、啟動裝置、送水口、末端查驗閥）。</li>
+<li><strong>緊急電源應接設備</strong>：火警自動警報、緊急廣播、消防幫浦、排煙設備、緊急昇降機、緊急照明燈、出口標示燈、緊急電源插座、地下室抽水幫浦、防災中心用電。</li>
+<li><strong>給排水衛生設備</strong>：存水彎功用（水封阻絕臭氣、防蟲害、攔阻小物品）及水封深度範圍（約5–10cm）。</li>
+<li><strong>接地系統施工規定</strong>：接地電阻值標準、導線材質線徑、接地電極設置、與金屬構造物確實連接、連接牢固防蝕。</li>
+<li><strong>管線整合</strong>：地下室結構體管路種類（給水、排水污水、消防、電力、通信、空調、瓦斯、機械停車）；柱牆預留預埋注意事項（避開主筋核心區、結構安全確認、防火填塞、防水處理、預留維修空間）。</li>
+<li><strong>配電場所檢查項目</strong>：維修通道、防火區劃、通風散熱、接地系統、設備固定、標示識別、消防安全設備、門禁管制。</li>
+</ul>
+<p><strong>常見題型與問法</strong>：法規列舉題（消防設備種類、緊急電源設備）、施工注意事項題（管線預埋、配電場所檢查）。</p>
+<p><strong>代表題引用</strong></p>
+<ul>
+<li>107年下午C5：各類場所消防安全設備設置標準第43條自動撒水設備裝置</li>
+<li>109年C5（第十五題）：存水彎功用及衛生器具存水彎水封深度範圍</li>
+<li>110年C3（第十三題）：建築物內應接至緊急電源之設備</li>
+<li>111年C3（第十三題）：消防警報設備定義及種類5項</li>
+</ul>
+<p><strong>答題架構建議</strong>：法規條號明確時（如消防設備設置標準第43條）務必直接引用，內容依系統組成邏輯（感知→啟動→送水→監控）條列較易得分。</p>
+<hr /></div>
+</details><details class="topic">
+  <summary>2.8 測量與放樣（7 題，5.0%，含全數計算題）</summary>
+  <div class="topic-body"><p><strong>核心觀念</strong>：本主題每年固定出現 1 題，且<strong>幾乎全部是計算題</strong>（105–110連續6年皆為計算題，僅111年為分類列舉題），是投資報酬率最明確的板塊——公式固定、題型重複度高，練熟公式即可拿滿分。詳見「三、計算題專區」之測量計算子節。</p>
+<p><strong>必背清單</strong>：方位角公式與象限判斷、水平距離與高差公式（S sinα／S cosα）、視距測量公式（D=K·s·cos²α）、視差角測距公式（D=(L/2)÷tan(β/2)）、經緯儀四軸關係（LL⊥VV、CC⊥HH、HH⊥VV）、正倒鏡取平均消除誤差原理、放樣依儀器精度分類（皮尺→經緯儀→全站儀→GPS/GNSS→水準儀→雷射儀）。</p>
+<p><strong>代表題引用</strong>：105年B1、106年B1、107年上午B1、108年B1、109年B1（第六題）、110年B1（第六題）、111年B1（第六題）。</p>
+<p><strong>答題架構建議</strong>：務必列出完整計算過程與單位，角度換算（度分秒→十進位度）為最常見失分點；建議先寫出公式、代入數值、逐步計算，最後加註驗算（如105年B1以CE一致性驗算）以爭取步驟分。</p></div>
+</details></div>
+</section>
+<section class="sitem">
+  <h2>三、計算題專區</h2>
+  <div class="sbody"><p>歷年計算題橫跨測量、土方、混凝土材料三大領域，共 <strong>10 題</strong>，逐一列出如下：</p>
+<table>
+<thead>
+<tr>
+<th>年度</th>
+<th>卷別題號</th>
+<th>主題</th>
+<th>計算內容</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>105</td>
+<td>B1</td>
+<td>測量與放樣</td>
+<td>已知四點座標求 BD 方位角、BD 距離、E 點座標（正倒鏡水平角推算）</td>
+</tr>
+<tr>
+<td>106</td>
+<td>B1</td>
+<td>測量與放樣</td>
+<td>電子測距經緯儀三角高程測量，求 A 點樁頂高程及 AB 水平距離</td>
+</tr>
+<tr>
+<td>107</td>
+<td>上午B1</td>
+<td>測量與放樣</td>
+<td>兩直角三角形三角函數應用，求 AE、BE 長度</td>
+</tr>
+<tr>
+<td>108</td>
+<td>B1</td>
+<td>測量與放樣</td>
+<td>經緯儀視距測量（上中下絲讀數），求樁頂高程及水平距離</td>
+</tr>
+<tr>
+<td>109</td>
+<td>B1（第六題）</td>
+<td>測量與放樣</td>
+<td>橫距桿視差角測距法求水平距離，並以三角高程求 B 點高程</td>
+</tr>
+<tr>
+<td>109</td>
+<td>B2（第七題）</td>
+<td>土方工程</td>
+<td>夯實曲線圖讀圖，求最大乾單位重、最佳含水量及規範合格範圍</td>
+</tr>
+<tr>
+<td>109</td>
+<td>B3（第八題）</td>
+<td>土方工程</td>
+<td>座標（鞋帶）公式求斷面積，平均斷面法計算 AB 間土方量</td>
+</tr>
+<tr>
+<td>110</td>
+<td>D1（第十六題）</td>
+<td>結構體工程</td>
+<td>水膠比定義，依配比數據（水/水泥/飛灰/爐石粉）計算水膠比</td>
+</tr>
+<tr>
+<td>111</td>
+<td>B3（第八題）</td>
+<td>土方工程</td>
+<td>方格網法（四角高程法）計算基地整地填挖方量</td>
+</tr>
+<tr>
+<td>111</td>
+<td>D1（第十六題）</td>
+<td>結構體工程</td>
+<td>梁配筋圖箍筋數量計算（扣除兩端起始偏移量）</td>
+</tr>
+</tbody>
+</table>
+<p><strong>考過的公式清單</strong></p>
+<ul>
+<li>方位角：φ = 180° − arctan(ΔY/|ΔX|)（依象限調整公式型態）；距離 D = √(ΔX² + ΔY²)</li>
+<li>三角高程：Δh = S·sinα（斜距）或 Δh = D·tanα（水平距離已知）；高程傳遞 H_目標 = H_測站 + i + Δh − Z（依儀器高、覘標高、俯仰角方向調整加減號）</li>
+<li>視距測量：水平距離 D = K·s·cos²α（K為視距常數，通常100；s為上下絲讀數差）</li>
+<li>視差角測距：D = (L/2) ÷ tan(β/2)（L為橫距桿長度，β為水平夾角）</li>
+<li>三角函數邊長：直角三角形中 對邊=斜邊×sinθ、鄰邊=斜邊×cosθ</li>
+<li>平均斷面法：V = (A₁+A₂)/2 × L</li>
+<li>方格網法（四角高程法）：V = (A/4) × Σ(n·h)，n＝格點共用方格數（角點1／邊點2／內轉角3／內部點4），h＝該格點高程－設計高程</li>
+<li>座標（鞋帶）公式求多邊形面積：A = ½|Σ(xᵢyᵢ₊₁ − xᵢ₊₁yᵢ)|</li>
+<li>水膠比：W/B = 拌合水重量 ÷（水泥+飛灰+爐石粉等膠結材總重量）</li>
+<li>箍筋數量：先求箍筋配置淨長度（扣除兩端起始偏移量），再除以箍筋間距得間隔數，箍筋支數＝間隔數+1</li>
+</ul>
+<p><strong>演算注意事項</strong></p>
+<ol>
+<li><strong>角度單位換算</strong>是最常見失分點：度分秒（°′″）必須先轉換為十進位度才能代入三角函數計算。</li>
+<li><strong>象限判斷</strong>：ΔX、ΔY 正負號決定方位角落於哪個象限，公式型態需隨之調整，切勿套用單一公式應付所有情況。</li>
+<li><strong>高程傳遞方向</strong>：儀器高（i）、覘標高（Z）、俯角／仰角的加減方向務必依實際幾何關係判斷，不可死記公式。</li>
+<li><strong>土方計算</strong>：方格網法務必依「圖上實際共用方格數」決定權重（1/2/3/4），不規則邊界（如 L 型基地）常有內轉角 n=3 的格點易被忽略；平均斷面法別忘記除以2。</li>
+<li><strong>驗算習慣</strong>：如有多種算法可交叉驗證（如由兩個三角形分別求同一邊長應相等），建議寫出驗算過程，一方面確認計算無誤，一方面爭取閱卷者對計算邏輯完整性的加分。</li>
+<li>題目若註明「未列算式不予計分」，務必完整書寫每一步驟，不可只寫最終答案。</li>
+</ol></div>
+</section>
+<section class="sitem">
+  <h2>四、中低頻但易拿分主題</h2>
+  <div class="sbody"><p>以下主題出題頻率較低（每年 0–2 題），但內容多為法規名詞背誦或制度列舉，準備成本低、答對率高，適合以「熟讀官方名詞定義」方式快速拿分：</p>
+<ul>
+<li><strong>假設工程與施工機具（6題，4.3%）</strong>：起重機吊掛作業注意事項、施工機具選用考量因素、工地常用起重機四種（塔式/移動式/履帶式/伸臂式）、施工技術與機具發展趨勢（BIM、預鑄化、智慧監測、自動化）。答題訣竅：依「人機料法環」四構面條列，避免空泛敘述。</li>
+<li><strong>工程圖說判讀（6題，4.3%）</strong>：柔性路面剖面圖、道路U型溝剖面圖、梁穿孔鋼筋補強詳圖、施工製造圖（Shop Drawing）應含項目、公共工程製圖手冊圖例對照。答題訣竅：繪圖題即使書面作答仍應盡量以文字精確描述尺寸與比例關係；圖例題屬純記憶題，考前建議直接對照官方圖例表熟記，尤其銲接符號（圓圈＝全周銲、旗子＝現場銲）及材料剖面符號（混凝土骨材紋理、磚造斜線）。</li>
+<li><strong>營建法規－建築管理（5題，3.6%）</strong>：建築法工程圖樣說明書內容、拆除執照免請照情形、建築物主要構造/改建/設備定義、耐水/不燃/耐燃材料及防火時效定義。答題訣竅：注意「新建、增建、改建、修建」四種建造行為的精確區分，以及「不燃材料＝耐燃一級」的包含關係。</li>
+<li><strong>環保與污染防治（5題，3.6%）</strong>：噪音/空污/水污染/廢棄物四大污染防治措施、營建工地裸露地表防塵設施、營建工程空污防制設施管理辦法名詞定義（全阻隔式圍籬、防溢座、防塵網）、工地周界阻隔設施及第一二級營建工程規定差異。答題訣竅：四大污染類別「至少各3項」為固定題型，建議依類別分段作答，避免混用重複措施。</li>
+<li><strong>營建法規－營造業管理（5題，3.6%）</strong>：營造業法工地主任應辦理工作六款、專任工程人員職責、各級營造業審議委員會執掌、承攬契約應記載事項、工地主任違規處分（第62條累計記點廢止執業證）。答題訣竅：務必區分「工地主任」（現場行政管理）與「專任工程人員」（技術把關）兩種角色之職責差異，此為歷年反覆考核的鑑別點。</li>
+</ul></div>
+</section>
+<section class="sitem">
+  <h2>五、建議準備順序</h2>
+  <div class="sbody"><p>依「頻率 × 可準備性（背了就會 vs. 需理解演算）」交叉評估，建議準備優先序如下：</p>
+<h3>第一梯隊（投報率最高，優先攻克）</h3>
+<ol>
+<li><strong>測量與放樣計算題</strong>（5.0%，但幾乎每年必考且題型高度重複）：公式固定、練會就穩拿分，建議先花時間吃透方位角、三角高程、視距測量、視差角測距四類公式與範例。</li>
+<li><strong>地下工程與基礎</strong>（15.7%，第一大主題）：開挖擋土、連續壁、監測系統、破壞模式四大子題務必熟練，情境案例題（如110年下午C4）需練習「條件對應工法選用理由」的寫作方式。</li>
+<li><strong>職業安全衛生</strong>（10.0%，法規列舉為主）：墜落防止五順序、8小時通報三情形、局限空間計畫、機械作業危害防範，均屬「背熟即拿分」的高投報項目。</li>
+</ol>
+<h3>第二梯隊（佔比高，需理解＋記憶並重）</h3>
+<ol start="4">
+<li><strong>結構體工程</strong>（12.9%）：混凝土材料特性（水膠比、假凝、SCC三特性）、模板工程、鋼結構品管，建議搭配計算題（水膠比、箍筋數量）一併練習。</li>
+<li><strong>施工計畫與管理</strong>（11.4%）：三級品管、整體品質計畫、施工計畫書內容，屬制度架構題，建議畫出「一級/二級/三級」「5000萬門檻」等關鍵數字與架構圖幫助記憶。</li>
+<li><strong>營建法規－採購契約</strong>（10.7%）：招標方式三種、履約爭議處理、驗收人員分工，建議整理成「情境→適用法規→處理方式」對照表。</li>
+<li><strong>土方工程</strong>（9.3%）：夯實品管參數＋計算題（土方量、夯實曲線讀圖）並重，計算題公式與地下工程放樣類似，可一併複習。</li>
+</ol>
+<h3>第三梯隊（中低頻，考前衝刺快速掃過即可）</h3>
+<ol start="8">
+<li><strong>機電與設備</strong>（5.7%）：消防設備、緊急電源、接地系統，法規條號明確者直接背誦條文。</li>
+<li><strong>假設工程與施工機具、工程圖說判讀</strong>（各4.3%）：機具選用考量因素、繪圖題答題格式、製圖圖例對照表。</li>
+<li><strong>營建法規（建築管理／營造業管理）、環保與污染防治</strong>（各3.6%）：以官方名詞定義為主，考前一週快速複習即可，投報率雖不如前段但準備成本也最低。</li>
+</ol>
+<h3>時間配比建議（以總複習時數為 100% 估算）</h3>
+<ul>
+<li>第一梯隊（測量計算／地下工程／職安衛）：約 35%</li>
+<li>第二梯隊（結構體／施工計畫／採購契約／土方）：約 45%</li>
+<li>第三梯隊（機電／假設工程／圖說／建築法規／營造業法規／環保）：約 20%</li>
+</ul>
+<p>計算題（測量、土方、混凝土、鋼筋箍筋共10題）建議獨立抽出至少 2–3 次完整練習時段，確保公式代入與單位換算不出錯，此類題目「會就是滿分、不會就是零分」，練習投報率極高。</p></div>
+</section>
+
+  <div style="text-align:center; margin:24px 0;">
+    <a class="btn secondary" href="practical.html">前往術科詳解</a>
+    <a class="btn" href="index.html">回學科測驗首頁</a>
+  </div>
+</div>
+</body>
+</html>
