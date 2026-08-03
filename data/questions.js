@@ -5569,6 +5569,7 @@ window.EXAM_DATA = {
    "subject": "工作項目03 一般土木建築工程圖說之判讀及繪製",
    "type": "single",
    "stem": "下列何者為磚牆剖面符號？",
+   "img": "assets/img/subject/b-03-005.png",
    "options": {
     "1": "",
     "2": "",
@@ -6184,6 +6185,7 @@ window.EXAM_DATA = {
    "subject": "工作項目03 一般土木建築工程圖說之判讀及繪製",
    "type": "single",
    "stem": "消防設備圖“”符號係表示",
+   "img": "assets/img/subject/b-03-030.png",
    "options": {
     "1": "消防送水口",
     "2": "緊急照明燈",
@@ -6527,6 +6529,7 @@ window.EXAM_DATA = {
    "subject": "工作項目03 一般土木建築工程圖說之判讀及繪製",
    "type": "multi",
    "stem": "下列材料剖面符號，哪些敘述正確？",
+   "img": "assets/img/subject/b-03-043.png",
    "options": {
     "1": "為混凝土符號",
     "2": "為石材符號",
@@ -6595,6 +6598,7 @@ window.EXAM_DATA = {
    "subject": "工作項目03 一般土木建築工程圖說之判讀及繪製",
    "type": "multi",
    "stem": "下列材料剖面符號，下列敘述哪些正確？",
+   "img": "assets/img/subject/b-03-046.png",
    "options": {
     "1": "為銅材符號",
     "2": "為不鏽鋼材符號",
@@ -6639,6 +6643,7 @@ window.EXAM_DATA = {
    "subject": "工作項目03 一般土木建築工程圖說之判讀及繪製",
    "type": "multi",
    "stem": "有關電氣符號下列敘述哪些正確？",
+   "img": "assets/img/subject/b-03-048.png",
    "options": {
     "1": "為無熔絲斷路器符號",
     "2": "為電燈及插座開關箱符號",
@@ -6733,6 +6738,7 @@ window.EXAM_DATA = {
    "subject": "工作項目03 一般土木建築工程圖說之判讀及繪製",
    "type": "multi",
    "stem": "有關給水圖說常用符號，下列敘述哪些正確？",
+   "img": "assets/img/subject/b-03-051.png",
    "options": {
     "1": "為球塞凡而符號",
     "2": "為減壓凡而符號",
@@ -6757,6 +6763,7 @@ window.EXAM_DATA = {
    "subject": "工作項目03 一般土木建築工程圖說之判讀及繪製",
    "type": "multi",
    "stem": "有關給水圖說常用符號，下列敘述哪些正確？",
+   "img": "assets/img/subject/b-03-052.png",
    "options": {
     "1": "為定水位閥符號",
     "2": "為高壓浮球凡而符號",
@@ -9476,6 +9483,7 @@ window.EXAM_DATA = {
    "subject": "工作項目05 工程管理",
    "type": "single",
    "stem": "在品質管理中，下列何者為變異數之計算公式",
+   "img": "assets/img/subject/b-05-035.png",
    "options": {
     "1": "",
     "2": "",
@@ -9851,6 +9859,7 @@ window.EXAM_DATA = {
    "subject": "工作項目05 工程管理",
    "type": "single",
    "stem": "在品質管理中，下列何者為樣本算術平均數？",
+   "img": "assets/img/subject/b-05-052.png",
    "options": {
     "1": "",
     "2": "",
@@ -10880,6 +10889,7 @@ window.EXAM_DATA = {
    "subject": "工作項目06 測量及放樣",
    "type": "single",
    "stem": "水準筆記如下表，則BM2之高程為",
+   "img": "assets/img/subject/b-06-005.png",
    "options": {
     "1": "990.51呎",
     "2": "999.51呎",
@@ -11004,6 +11014,7 @@ window.EXAM_DATA = {
    "subject": "工作項目06 測量及放樣",
    "type": "single",
    "stem": "水準測量手簿紀錄如下表，則D點之高程為",
+   "img": "assets/img/subject/b-06-011.png",
    "options": {
     "1": "108.44",
     "2": "108.56",
@@ -13113,6 +13124,7 @@ window.EXAM_DATA = {
    "subject": "工作項目06 測量及放樣",
    "type": "multi",
    "stem": "如下圖所示一直角三角形ABC，下列敘述哪些為正確？",
+   "img": "assets/img/subject/b-06-112.png",
    "options": {
     "1": "B.C.距離4.580m",
     "2": "α角為19°23'05\"",
@@ -13162,6 +13174,7 @@ window.EXAM_DATA = {
    "subject": "工作項目06 測量及放樣",
    "type": "multi",
    "stem": "如下圖所示，AB斜距223.456m，坡度+3.41%，下列敘述何者正確？",
+   "img": "assets/img/subject/b-06-114.png",
    "options": {
     "1": "水平距離323.666m",
     "2": "AB高差5.516m",
@@ -15037,6 +15050,7 @@ window.EXAM_DATA = {
    "subject": "工作項目08 土方工程",
    "type": "single",
    "stem": "方格法計算土方邊長為2公尺，各方格角挖深如下圖示，求土方為",
+   "img": "assets/img/subject/b-08-004.png",
    "options": {
     "1": "16.8m3",
     "2": "18m3",
@@ -15060,6 +15074,7 @@ window.EXAM_DATA = {
    "subject": "工作項目08 土方工程",
    "type": "single",
    "stem": "主動土壓力之計算如下圖示，土壤r＝1.8T/m2，＝30°，C＝0（地下水在2m以下），h＝2m，主動土壓力為",
+   "img": "assets/img/subject/b-08-005.png",
    "options": {
     "1": "1.2T/m",
     "2": "1.8T/m",
@@ -15404,6 +15419,7 @@ window.EXAM_DATA = {
    "subject": "工作項目08 土方工程",
    "type": "single",
    "stem": "工地土壤之壓實度(％)為下列何者？",
+   "img": "assets/img/subject/b-08-020.png",
    "options": {
     "1": "",
     "2": "",
@@ -15624,6 +15640,7 @@ window.EXAM_DATA = {
    "subject": "工作項目08 土方工程",
    "type": "single",
    "stem": "土方計演算法中稜柱公式為",
+   "img": "assets/img/subject/b-08-029.png",
    "options": {
     "1": "",
     "2": "",
@@ -22747,6 +22764,7 @@ window.EXAM_DATA = {
    "subject": "營造工程管理甲級",
    "type": "multi",
    "stem": "如下圖所示，AB斜距223.456m，坡度+3.41%，下列敘述何者正確？",
+   "img": "assets/img/subject/b-06-114.png",
    "options": {
     "1": "垂直角=1°57'11\"",
     "2": "AB高差7.615m",
@@ -23126,6 +23144,7 @@ window.EXAM_DATA = {
    "subject": "營造工程管理甲級",
    "type": "single",
    "stem": "如下圖，你知道這是什麼標章嗎？",
+   "img": "assets/img/subject/c-90009-069.png",
    "options": {
     "1": "省水標章",
     "2": "環保標章",
@@ -25189,6 +25208,7 @@ window.EXAM_DATA = {
    "subject": "營造工程管理甲級",
    "type": "single",
    "stem": "水準測量手簿紀錄如下表，則D點之高程為",
+   "img": "assets/img/subject/b-06-011.png",
    "options": {
     "1": "111.44",
     "2": "111.56",
@@ -29928,6 +29948,7 @@ window.EXAM_DATA = {
    "subject": "90008 環境保護",
    "type": "single",
    "stem": "下列何者為環保標章？",
+   "img": "assets/img/subject/c-90008-013.png",
    "options": {
     "1": "",
     "2": "",
@@ -31571,6 +31592,7 @@ window.EXAM_DATA = {
    "subject": "90009 節能減碳",
    "type": "single",
    "stem": "下列何者為節能標章？",
+   "img": "assets/img/subject/c-90009-002.png",
    "options": {
     "1": "",
     "2": "",
@@ -32829,6 +32851,7 @@ window.EXAM_DATA = {
    "subject": "90009 節能減碳",
    "type": "single",
    "stem": "如下圖示為",
+   "img": "assets/img/subject/c-90009-069.png",
    "options": {
     "1": "省水標章",
     "2": "環保標章",
@@ -33136,6 +33159,7 @@ window.EXAM_DATA = {
    "subject": "90009 節能減碳",
    "type": "single",
    "stem": "如下圖，這是什麼標章？",
+   "img": "assets/img/subject/c-90009-086.png",
    "options": {
     "1": "奈米標章",
     "2": "環保標章",
