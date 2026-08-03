@@ -72,6 +72,10 @@
     實測：平均62字/題、寬鬆判定27%法規題；預估 120–200 萬 tokens、15–16 個 sonnet 分批，
     輸出建議存 data/explanations.js（window.EXAM_EXPL = {id:{why, wrong:{opt:...}, law}}）。
   - 啟動條件：使用者明確說開始；跑完自動發佈並靠 Telegram hooks 通知。
+- ✅2026-08-04 六版（commit 777f28c）：手機介面優化（≤480px 單欄/選項加大/確認鈕
+  固定底部）＋快速測驗（隨機30題）＋馬拉松模式（連續抽題不重複、每題即時對錯與解析、
+  隨時結束結算，mode='marathon'）；selftest 34/34、375x812 實測通過。
+  ⚠️瀏覽器窗格 resize 後 ref 點擊座標會偏移，驗證時用 JS click 繞過（非網頁 bug）。
 - 待辦（未來可選）：112–115 術科若日後市面流通再補；學科題庫官方改版時重抓重建。
 - 之後：術科詳解（sonnet 分年擬答、引法規）→ 整合驗收 → haiku 發佈 GitHub Pages。
 - 使用者要求：完成後自動發佈 GitHub（jiawei0601 帳號、開 GitHub Pages 給連結，
