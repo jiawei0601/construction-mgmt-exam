@@ -79,8 +79,10 @@
 - ▶️2026-08-04 七版進行中（使用者核准）：職安衛三職類子系統（共用架構、一站多職類）。
   職類=乙級職業安全衛生管理(管理員,osh/,raw-osh/)＋甲級職業安全管理(安全管理師,safety/,
   raw-safety/)＋甲級職業衛生管理(衛生管理師,hygiene/,raw-hygiene/)。
-  範圍=先建學術科題庫、詳解候補。根路徑維持營造甲級不動＋頂部職類切換列；
-  各職類 localStorage 前綴獨立（oshexam_/safetyexam_/hygieneexam_）；
+  範圍=先建學術科題庫、詳解候補。**架構更新（使用者指示）：根 index.html 改為統一入口
+  網頁（四職類卡片）**；營造甲級測驗頁遷為同目錄 cm.html（同目錄改名、data/assets 引用
+  全部不動零斷鏈），新職類為 osh.html/safety.html/hygiene.html＋data/{osh,safety,hygiene}-
+  questions.js；各職類 localStorage 前綴獨立（cmexam_ 沿用/oshexam_/safetyexam_/hygieneexam_）；
   共同科目 c- 400 題與其既有解析三職類直接共用。流程：下載(進行中)→解析→站台整合→發佈。
 - 待辦（未來可選）：112–115 術科若日後市面流通再補；學科題庫官方改版時重抓重建；
   職安乙級全題解析與術科詳解（候補，管線現成）。
