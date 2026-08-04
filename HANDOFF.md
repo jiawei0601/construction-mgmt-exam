@@ -99,7 +99,42 @@
 - ▶️2026-08-04 九版進行中（使用者指示）：職安三職類專業題解析補完（約3,720題）。
   管線=多職類化（expl_split_multi/expl_merge_multi、語料補職安衛子法）→~30批haiku→
   體檢退件→合併接法條→QA→頁面切換為各自 data/{trade}-explanations.js（含c-自足單檔、
-  移除過濾邏輯）→發佈。進行中：管線準備 agent。
+  移除過濾邏輯）→發佈。
+  - ✅管線準備完成（本次，未生成任何解析內容，僅備管線）：
+    - 法規語料 tools/law_corpus/ 由53部擴增至110部（原19部核心＋舊擴增52部＋任務指定
+      22部職安衛子法（2部重複，淨增20部）＋對三職類專業題全文關鍵字掃描比對出的38部，
+      見 tools/build_law_corpus.py TARGETS 與重寫後 tools/law_corpus/INDEX.txt）；
+      全數於 ChLaw/ChOrder 快取確認存在、非廢止版本，無 MISSING/ABANDONED。
+      已知限制：「職業災害勞工保護法」實務上2022年已由「勞工職業災害保險及保護法」
+      實質取代，但 moj 快取未標 LawAbandonNote，仍照既有腳本邏輯收錄，解析時應優先
+      參照後者（已記於 INDEX.txt）。
+    - tools/expl_split_multi.py：三職類專業題（排除c-）依約125題/批切分，輸出
+      tools/expl_batches_v2/{trade}-batch-NN.json。實測：osh 1202題/10批、
+      safety 1055題/9批、hygiene 1466題/12批，合計31批/3723題，切分後題數加總
+      皆與專業題總數相符。
+    - tools/expl_merge_multi.py：重構 tools/expl_merge.py（新增 BATCH_GLOB_PATTERN
+      全域變數取代寫死的 'batch-*.json'，向下相容、原 --selftest 仍全過）供三職類
+      重用同一套條號抽取＋保守模糊比對(0.6/0.12門檻+g:1標記)邏輯；輸出
+      data/{trade}-explanations.js＝本職類專業解析＋原樣併入 data/explanations.js
+      的400筆c-解析（單檔自足）；UNMATCHED_{trade}.txt/AUTOMATCH_SAMPLE_{trade}.txt
+      分職類輸出至 tools/expl_out_v2/。假資料 --selftest 6項檢查全過（含跨職類
+      快取隔離驗證），已清理暫存輸出，未觸碰真實資料。
+    - tools/gen_job_pages.py：三職類頁 data script src 改指向各自
+      data/{prefix}-explanations.js（移除原「載入後過濾只留c-」邏輯，因新解析檔
+      本身即為單職類自足單檔、無跨職類id命名空間風險）；已重新生成 osh/safety/
+      hygiene.html。因 data/{trade}-explanations.js 尚未產生（本次刻意不生成任何
+      解析內容），三頁 <script> 標籤現為404，但 window.EXAM_EXPL 保持undefined、
+      走既有優雅降級路徑——8643埠三頁實測：console無錯誤、__selftest各34/34全過、
+      題庫正常載入(1602/1455/1866題)。cm.html/index.html/data/*-questions.js/
+      data/explanations.js 全部未動，未 git commit。
+    - ⚠️發現既有 tools/expl_merge.py 的 --selftest 有 side effect：未在 selftest()
+      內覆寫 UNMATCHED_PATH，導致每次跑 --selftest 會把真實 tools/expl_out/
+      UNMATCHED.txt 覆蓋成假測試資料的一行內容。本次已用 git checkout 還原（原檔
+      0 bytes），已 spawn 獨立任務 task_fe887708 待修，未在本次修復範圍內處理。
+    - 下一步（未做）：派約31個haiku agent依 tools/expl_batches_v2/ 分批撰寫解析
+      →輸出至 tools/expl_out_v2/{trade}-batch-NN.json→跑
+      `python -X utf8 tools/expl_merge_multi.py` 產生三份 data/{trade}-explanations.js
+      →QA抽查→重跑 gen_job_pages.py（此時 script 會200載入）→驗證→發佈。
 - 待辦（未來可選）：112–115 術科若日後市面流通再補；學科題庫官方改版時重抓重建；
   職安三職類術科詳解（81卷）與出題頻率分析（候補）。
 - 之後：術科詳解（sonnet 分年擬答、引法規）→ 整合驗收 → haiku 發佈 GitHub Pages。

@@ -131,21 +131,8 @@
 <div id="app"></div>
 
 <script src="data/osh-questions.js"></script>
-<script src="data/explanations.js"></script>
+<script src="data/osh-explanations.js"></script>
 <script>
-/* 本頁與 cm.html 同源複製，修 bug 需同步四份（cm.html／osh.html／safety.html／hygiene.html），
-   或改 cm.html 後重跑 tools/gen_job_pages.py 重新生成。 */
-/* 解析共用陷阱防護：data/explanations.js 是營造工程管理甲級 b-/c-/s- 的全量解析，
-   本職類題庫的 b-/s- id 命名空間與營造甲級重複但代表不同題目，若直接沿用會把
-   營造甲級的專業解析錯掛到本職類的專業題上。因此載入後立刻只保留 c- 開頭
-   （共同科目 90006–90009，四職類原樣共用同一批題目與解析）之解析；
-   本職類 b-/s- 專業題一律走既有「解析生成中」降級樣式，不會顯示錯誤解析。 */
-if(window.EXAM_EXPL){
-  const _filteredExpl = {};
-  Object.keys(window.EXAM_EXPL).forEach(function(k){ if(k.indexOf('c-') === 0) _filteredExpl[k] = window.EXAM_EXPL[k]; });
-  window.EXAM_EXPL = _filteredExpl;
-}
-
 /* ==================== 常數與 localStorage ==================== */
 const KEYS = { ATTEMPTS: 'oshexam_attempts', WRONGBOOK: 'oshexam_wrongbook' };
 

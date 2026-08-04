@@ -228,8 +228,31 @@ def fuzzy_match_name_only(qid, law_name):
 # 從條號文字（如「第150條之1」「第150-1條」「150條」「第 8 條」）抽出 (base, sub)
 ARTICLE_NO_RE = re.compile(r'第?\s*(\d+)\s*條?\s*(?:之|-)\s*(\d+)\s*條?|第?\s*(\d+)\s*條')
 
+# 中文數字條號（如「第三十五條」「第五十九條之一」）→ 阿拉伯數字。範圍支援到 999。
+_CN_DIGIT = {'零': 0, '一': 1, '二': 2, '三': 3, '四': 4, '五': 5, '六': 6, '七': 7, '八': 8, '九': 9}
+_CN_NUM_RE = re.compile(r'[零一二三四五六七八九十百]+')
+
+
+def _cn2num(s):
+    total, cur = 0, 0
+    for ch in s:
+        if ch == '百':
+            total += (cur or 1) * 100
+            cur = 0
+        elif ch == '十':
+            total += (cur or 1) * 10
+            cur = 0
+        else:
+            cur = _CN_DIGIT[ch]
+    return total + cur
+
+
+def _normalize_cn_numerals(text):
+    return _CN_NUM_RE.sub(lambda m: str(_cn2num(m.group())), text)
+
 
 def parse_article_no(text):
+    text = _normalize_cn_numerals(text)
     m = ARTICLE_NO_RE.search(text)
     if not m:
         return None
@@ -271,9 +294,26 @@ def resolve_ref(ref, qid, unmatched):
     return f'《{law_name}》{format_article_key(base, sub)}：{content}'
 
 
-def merge(batch_glob, dest_path, verbose=True, write_automatch_sample=True):
+def merge(batch_glob, dest_path, verbose=True, write_automatch_sample=True,
+          verify_native_article=False):
+    """合併批次解析檔並接上法條全文。
+
+    verify_native_article=False（預設，供本檔自身 cm 單職類 pipeline 使用，行為完全不變）：
+      - ref 含「§條號」→ 直接信任 haiku 標註的條號，原生抽取全文（無 g 標記）。
+      - ref 只有法規名稱 → 保守模糊比對，命中才掛全文（g:1）。
+
+    verify_native_article=True（供 tools/expl_merge_multi.py 職安三職類專業題呼叫的新政策，
+    解決 haiku 自標條號誤配問題）：
+      - 對每筆含法規名稱的 ref（無論原本有無 § 條號），一律先跑保守模糊比對；
+        命中 → 掛該條全文（g:1），且 ref 的條號一律以模糊比對結果為準改寫
+        （若與 haiku 原標條號不同，即為「原生§被改寫」）。
+        未命中 → 不掛條文，且 ref 降級為純法規名稱（去掉 § 條號），寧缺勿錯。
+      - 回傳的 downgraded / rewritten 供呼叫端統計「ref 降級筆數」「原生§被改寫條號筆數」。
+    """
     unmatched = []
     automatch_log = []  # [(qid, orig_ref, new_ref, score, margin), ...]，供 AUTOMATCH_SAMPLE.txt 抽樣用
+    downgraded = []     # [(qid, orig_ref, new_ref), ...]，僅 verify_native_article=True 時使用
+    rewritten = []       # [(qid, orig_ref, new_ref, score, margin), ...]，原生§被模糊比對改寫條號
     merged = {}
     files = sorted(glob.glob(batch_glob))
     for path in files:
@@ -285,6 +325,37 @@ def merge(batch_glob, dest_path, verbose=True, write_automatch_sample=True):
                 'w': entry.get('w', {}),
                 'ref': ref,
             }
+
+            if verify_native_article:
+                if ref:
+                    if '§' in ref:
+                        orig_law_name, orig_article_text = ref.split('§', 1)
+                        orig_law_name = orig_law_name.strip()
+                        orig_parsed = parse_article_no(orig_article_text.strip())
+                    else:
+                        orig_law_name = ref.strip()
+                        orig_parsed = None
+
+                    m = fuzzy_match_name_only(qid, orig_law_name)
+                    if m:
+                        matched_law_name, base, sub, score, margin = m
+                        articles = get_law_articles(matched_law_name)
+                        content = articles[(base, sub)]
+                        artkey = format_article_key(base, sub)
+                        new_ref = f'{matched_law_name}§{artkey}'
+                        out['ref'] = new_ref
+                        out['law'] = f'《{matched_law_name}》{artkey}：{content}'
+                        out['g'] = 1
+                        automatch_log.append((qid, ref, new_ref, score, margin))
+                        if orig_parsed is not None and orig_parsed != (base, sub):
+                            rewritten.append((qid, ref, new_ref, score, margin))
+                    else:
+                        out['ref'] = orig_law_name
+                        downgraded.append((qid, ref, out['ref']))
+                merged[qid] = out
+                continue
+
+            # ---- 原有行為（單職類 cm pipeline，verify_native_article=False，維持不變） ----
             if ref and '§' in ref:
                 law = resolve_ref(ref, qid, unmatched)
                 if law:
@@ -311,9 +382,14 @@ def merge(batch_glob, dest_path, verbose=True, write_automatch_sample=True):
 
     os.makedirs(OUT_DIR, exist_ok=True)
     with open(UNMATCHED_PATH, 'w', encoding='utf-8') as f:
-        f.write('\n'.join(unmatched))
-        if unmatched:
-            f.write('\n')
+        if verify_native_article:
+            f.write(f'ref 降級筆數（模糊比對未達門檻，ref 已降級為純法規名稱，去除 § 條號）: {len(downgraded)}\n\n')
+            for qid, orig_ref, new_ref in downgraded:
+                f.write(f'{qid}\t原ref={orig_ref}\t降級後={new_ref}\n')
+        else:
+            f.write('\n'.join(unmatched))
+            if unmatched:
+                f.write('\n')
 
     if write_automatch_sample:
         _write_automatch_sample(automatch_log)
@@ -328,12 +404,17 @@ def merge(batch_glob, dest_path, verbose=True, write_automatch_sample=True):
     if verbose:
         print(f'總筆數: {total}')
         print(f'含 ref 筆數: {with_ref}')
-        print(f'帶條號接取成功（原生 §）: {with_law_native}')
-        print(f'帶條號接取成功（自動模糊比對）: {with_law_auto}')
-        print(f'仍無條文筆數: {still_no_law}')
-        print(f'UNMATCHED 筆數: {len(unmatched)}')
+        if verify_native_article:
+            print(f'掛條文筆數（全部為模糊比對驗證，g:1）: {with_law_auto}')
+            print(f'ref 降級筆數（模糊比對未達門檻）: {len(downgraded)}')
+            print(f'原生§被模糊比對改寫條號筆數: {len(rewritten)}')
+        else:
+            print(f'帶條號接取成功（原生 §）: {with_law_native}')
+            print(f'帶條號接取成功（自動模糊比對）: {with_law_auto}')
+            print(f'仍無條文筆數: {still_no_law}')
+            print(f'UNMATCHED 筆數: {len(unmatched)}')
 
-    return merged, unmatched
+    return merged, unmatched, downgraded, rewritten
 
 
 def _write_automatch_sample(automatch_log, n=15, seed=20260803):
@@ -408,7 +489,7 @@ def selftest():
     UNMATCHED_PATH = os.path.join(tmp_dir, 'UNMATCHED_test.txt')
     AUTOMATCH_SAMPLE_PATH = os.path.join(tmp_dir, 'AUTOMATCH_SAMPLE_test.txt')
     try:
-        merged, unmatched = merge(
+        merged, unmatched, _downgraded, _rewritten = merge(
             os.path.join(tmp_dir, 'batch-*.json'), dest_path, verbose=False, write_automatch_sample=False
         )
     finally:
