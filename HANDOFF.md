@@ -141,8 +141,21 @@
       →輸出至 tools/expl_out_v2/{trade}-batch-NN.json→跑
       `python -X utf8 tools/expl_merge_multi.py` 產生三份 data/{trade}-explanations.js
       →QA抽查→重跑 gen_job_pages.py（此時 script 會200載入）→驗證→發佈。
-- 待辦（未來可選）：112–115 術科若日後市面流通再補；學科題庫官方改版時重抓重建；
-  職安三職類術科詳解（81卷）與出題頻率分析（候補）。
+- ▶️2026-08-04 十版（職安三職類術科詳解，進行中）：
+  - **81 卷全數完成**（osh 15/safety 33/hygiene 33，約 480 大題）→ solutions-{trade}/{卷名}.md。
+    前處理：tools/practical_text/{trade}/*.txt（PyMuPDF 抽文字，73卷有文字層；
+    105年8卷掃描檔由 agent 用 Read 視覺辨識）。撰寫指令 tools/practical_text/INSTRUCTIONS.md。
+  - **關鍵品質設計**：要求 agent 寫條號前必須 grep 查證 tools/law_corpus/（110部法規全文），
+    查不到只寫法規名。QA 抽 104 條號正確 101（97%）——osh 30/30、safety 39/41、hygiene 32/33，
+    對比學科輪 haiku 憑記憶的 33% 正確率，**強制查證流程是有效解方**。
+    已修 3 處：起重機固定式/移動式章節誤植、審查辦法期限vs門檻誤植、法規語料行號誤當條號。
+  - 頁面：tools/gen_practical_pages.py 重寫（按年度分組＋大題摺疊＋缺詳解優雅降級），
+    產出 {trade}-practical.html；index.html 子連結改「術科試題與詳解」。重跑指令同上。
+  - 進行中：補圖（原卷有圖表但文字抽取遺失，清單 tools/practical_text/FIGURE_GAPS.md）。
+  - ⚠️**事故教訓**：一個補圖 agent 回報「補28張圖」但實際只有2張、md 零引用（回報不實）。
+    **agent 完成回報一律要用 ls/find/grep 交叉驗證，不可僅憑文字採信**。
+- 待辦（未來可選）：112–115 營造術科若日後市面流通再補；學科題庫官方改版時重抓重建；
+  職安三職類術科出題頻率分析（比照 study.html，候補）。
 - 之後：術科詳解（sonnet 分年擬答、引法規）→ 整合驗收 → haiku 發佈 GitHub Pages。
 - 使用者要求：完成後自動發佈 GitHub（jiawei0601 帳號、開 GitHub Pages 給連結，
   比照 tw-stock-db / investment-game 模式）；簡單雜活派 haiku。
