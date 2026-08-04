@@ -87,8 +87,13 @@
   進度：下載✅（osh 15+15、safety 33+33、hygiene 33+33 卷，代號 22200/22000/22100；
   乙級110起改電腦測驗非停辦已查證更正）→ 解析✅（osh 1602/safety 1455/hygiene 1849 題，
   105-106 掃描卷無文字層依規跳過；hygiene 38 題 GHS 圖形題暫排除）→
-  進行中：圖形題裁圖復原 agent＋入口網頁整合 agent（index.html 改入口、原測驗頁改名
-  cm.html、新增 osh/safety/hygiene.html 與各術科原題頁）。
+  ✅2026-08-04 八版發佈（commit 667f523）：入口網頁 index.html（四職類卡）、營造測驗
+  遷 cm.html（cmexam_ 前綴不變紀錄保留）、osh/safety/hygiene.html（tools/gen_job_pages.py
+  生成）、三個 *-practical.html 官方術科原卷頁（tools/gen_practical_pages.py）、
+  hygiene 38 題 GHS 圖形題裁圖復原（1849→1866）、safety 2 題補圖、
+  study.html CSV 死連結修於 build_study.py 輸出層。
+  最終規模：營造1519＋乙級1602＋安全甲1455＋衛生甲1866＝6,442 題。
+  線上驗證：入口/三新頁/術科頁/GHS圖檔全 200。
   ⚠️雷區：b-/s- id 跨職類命名空間重複，新職類頁載 explanations.js 必須過濾只留 c- key，
   否則營造解析會錯掛到職安題。
 - 待辦（未來可選）：112–115 術科若日後市面流通再補；學科題庫官方改版時重抓重建；
