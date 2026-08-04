@@ -83,7 +83,14 @@
   網頁（四職類卡片）**；營造甲級測驗頁遷為同目錄 cm.html（同目錄改名、data/assets 引用
   全部不動零斷鏈），新職類為 osh.html/safety.html/hygiene.html＋data/{osh,safety,hygiene}-
   questions.js；各職類 localStorage 前綴獨立（cmexam_ 沿用/oshexam_/safetyexam_/hygieneexam_）；
-  共同科目 c- 400 題與其既有解析三職類直接共用。流程：下載(進行中)→解析→站台整合→發佈。
+  共同科目 c- 400 題與其既有解析三職類直接共用。
+  進度：下載✅（osh 15+15、safety 33+33、hygiene 33+33 卷，代號 22200/22000/22100；
+  乙級110起改電腦測驗非停辦已查證更正）→ 解析✅（osh 1602/safety 1455/hygiene 1849 題，
+  105-106 掃描卷無文字層依規跳過；hygiene 38 題 GHS 圖形題暫排除）→
+  進行中：圖形題裁圖復原 agent＋入口網頁整合 agent（index.html 改入口、原測驗頁改名
+  cm.html、新增 osh/safety/hygiene.html 與各術科原題頁）。
+  ⚠️雷區：b-/s- id 跨職類命名空間重複，新職類頁載 explanations.js 必須過濾只留 c- key，
+  否則營造解析會錯掛到職安題。
 - 待辦（未來可選）：112–115 術科若日後市面流通再補；學科題庫官方改版時重抓重建；
   職安乙級全題解析與術科詳解（候補，管線現成）。
 - 之後：術科詳解（sonnet 分年擬答、引法規）→ 整合驗收 → haiku 發佈 GitHub Pages。
