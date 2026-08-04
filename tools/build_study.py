@@ -242,6 +242,9 @@ def build_page():
 
 def main():
     page, topic_count = build_page()
+    # md 原稿位於 docs/，其相對連結搬到根目錄的 study.html 後會失效，輸出前改寫
+    page = page.replace('href="./practical-classification.csv"',
+                        'href="docs/practical-classification.csv"')
     OUTPUT_FILE.write_text(page, encoding="utf-8")
     print(f"已產出 {OUTPUT_FILE}")
     print(f"共 {topic_count} 個可摺疊主題")

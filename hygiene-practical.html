@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>職業衛生管理甲級 術科歷屆試題</title>
+<style>
+  :root{
+    --blue:#1565c0; --blue-d:#0d47a1; --grey:#757575; --bg:#f4f5f7; --card:#ffffff;
+    --border:#e0e0e0; --text:#222; --orange:#ef6c00;
+  }
+  *{box-sizing:border-box;}
+  body{
+    margin:0; font-family:"Microsoft JhengHei","PingFang TC",-apple-system,BlinkMacSystemFont,sans-serif;
+    background:var(--bg); color:var(--text); line-height:1.7;
+  }
+  #app{max-width:900px; margin:0 auto; padding:16px;}
+  h1,h2,h3{margin:0 0 12px;}
+  .topbar{
+    display:flex; justify-content:space-between; align-items:center;
+    background:var(--blue); color:#fff; padding:12px 16px; margin-bottom:16px; border-radius:8px;
+    flex-wrap:wrap; gap:8px;
+  }
+  .topbar a{color:#fff; text-decoration:none;}
+  .topbar-title{font-weight:bold; font-size:18px;}
+  .topbar-actions{display:flex; gap:8px; flex-wrap:wrap;}
+  .btn{
+    display:inline-block; cursor:pointer; border:none; border-radius:6px; padding:8px 14px; font-size:14px;
+    background:var(--blue); color:#fff; text-decoration:none; transition:opacity .15s;
+  }
+  .btn:hover{opacity:.85;}
+  .btn.secondary{background:#fff; color:var(--blue); border:1px solid var(--blue);}
+  .card{
+    background:var(--card); border:1px solid var(--border); border-radius:10px;
+    padding:18px; margin-bottom:16px; box-shadow:0 1px 3px rgba(0,0,0,.06);
+  }
+  .disclaimer{
+    background:#fff8e1; border:1px solid var(--orange); border-radius:10px;
+    padding:14px 18px; margin-bottom:16px; color:#5d4300;
+  }
+  .disclaimer b{color:var(--red, #c62828);}
+  .disclaimer .small{color:#6d5b28; margin-top:6px;}
+  .year-nav{
+    display:flex; flex-wrap:wrap; gap:8px; margin-bottom:16px; position:sticky; top:8px;
+    background:var(--bg); padding:8px 0; z-index:5;
+  }
+  .year-link{min-width:56px; text-align:center;}
+  .year-section{
+    background:var(--card); border:1px solid var(--border); border-radius:10px;
+    padding:18px; margin-bottom:20px; scroll-margin-top:16px;
+  }
+  .year-title{color:var(--blue-d); border-bottom:2px solid var(--blue); padding-bottom:8px;}
+  .year-count{font-weight:normal; margin-left:8px; font-size:13px; color:var(--grey);}
+  .pdf-list{list-style:none; margin:0; padding:0; display:flex; flex-wrap:wrap; gap:10px;}
+  .pdf-list li{flex:0 0 auto;}
+  .pdf-list a{
+    display:inline-block; padding:8px 14px; border:1px solid var(--border); border-radius:8px;
+    color:var(--blue-d); text-decoration:none; background:#f7f9fc;
+  }
+  .pdf-list a:hover{background:#eef3fa; border-color:var(--blue);}
+  .small{font-size:12px; color:var(--grey);}
+  @media (max-width:600px){
+    #app{padding:10px;}
+    .card{padding:14px;}
+  }
+</style>
+</head>
+<body>
+<div id="app">
+  <div class="topbar">
+    <div class="topbar-title">職業衛生管理甲級 術科歷屆試題</div>
+    <div class="topbar-actions">
+      <a class="btn secondary" href="index.html">☰ 職類入口</a>
+      <a class="btn secondary" href="hygiene.html">回職業衛生管理測驗</a>
+    </div>
+  </div>
+
+  <div class="disclaimer">
+    <b>⚠️ 官方原卷；AI 參考詳解候補中</b>
+    <div class="small">本頁僅收錄官方公告之歷屆術科試題 PDF 原文，尚未提供參考擬答；如需練習方向，請先參考學科題庫測驗。</div>
+  </div>
+
+  <div class="card">
+    <div class="year-nav">
+      <a class="btn secondary year-link" href="#y105">105年</a>
+      <a class="btn secondary year-link" href="#y106">106年</a>
+      <a class="btn secondary year-link" href="#y107">107年</a>
+      <a class="btn secondary year-link" href="#y108">108年</a>
+      <a class="btn secondary year-link" href="#y109">109年</a>
+      <a class="btn secondary year-link" href="#y110">110年</a>
+      <a class="btn secondary year-link" href="#y111">111年</a>
+      <a class="btn secondary year-link" href="#y112">112年</a>
+      <a class="btn secondary year-link" href="#y113">113年</a>
+      <a class="btn secondary year-link" href="#y114">114年</a>
+      <a class="btn secondary year-link" href="#y115">115年</a>
+    </div>
+    <div class="small">共 11 個年度，依年度／梯次列出官方術科試題 PDF，點擊於新分頁開啟。</div>
+  </div>
+
+  <section id="y105" class="year-section">
+    <h2 class="year-title">民國105年<span class="year-count">（共 3 份）</span></h2>
+    <ul class="pdf-list">
+      <li><a href="raw-hygiene/practical/105_第1梯次_術科試題.pdf" target="_blank" rel="noopener">第1梯次</a></li>
+      <li><a href="raw-hygiene/practical/105_第2梯次_術科試題.pdf" target="_blank" rel="noopener">第2梯次</a></li>
+      <li><a href="raw-hygiene/practical/105_第3梯次_術科試題.pdf" target="_blank" rel="noopener">第3梯次</a></li>
+    </ul>
+  </section>
+
+  <section id="y106" class="year-section">
+    <h2 class="year-title">民國106年<span class="year-count">（共 3 份）</span></h2>
+    <ul class="pdf-list">
+      <li><a href="raw-hygiene/practical/106_第1梯次_術科試題.pdf" target="_blank" rel="noopener">第1梯次</a></li>
+      <li><a href="raw-hygiene/practical/106_第2梯次_術科試題.pdf" target="_blank" rel="noopener">第2梯次</a></li>
+      <li><a href="raw-hygiene/practical/106_第3梯次_術科試題.pdf" target="_blank" rel="noopener">第3梯次</a></li>
+    </ul>
+  </section>
+
+  <section id="y107" class="year-section">
+    <h2 class="year-title">民國107年<span class="year-count">（共 3 份）</span></h2>
+    <ul class="pdf-list">
+      <li><a href="raw-hygiene/practical/107_第1梯次_術科試題.pdf" target="_blank" rel="noopener">第1梯次</a></li>
+      <li><a href="raw-hygiene/practical/107_第2梯次_術科試題.pdf" target="_blank" rel="noopener">第2梯次</a></li>
+      <li><a href="raw-hygiene/practical/107_第3梯次_術科試題.pdf" target="_blank" rel="noopener">第3梯次</a></li>
+    </ul>
+  </section>
+
+  <section id="y108" class="year-section">
+    <h2 class="year-title">民國108年<span class="year-count">（共 3 份）</span></h2>
+    <ul class="pdf-list">
+      <li><a href="raw-hygiene/practical/108_第1梯次_術科試題.pdf" target="_blank" rel="noopener">第1梯次</a></li>
+      <li><a href="raw-hygiene/practical/108_第2梯次_術科試題.pdf" target="_blank" rel="noopener">第2梯次</a></li>
+      <li><a href="raw-hygiene/practical/108_第3梯次_術科試題.pdf" target="_blank" rel="noopener">第3梯次</a></li>
+    </ul>
+  </section>
+
+  <section id="y109" class="year-section">
+    <h2 class="year-title">民國109年<span class="year-count">（共 3 份）</span></h2>
+    <ul class="pdf-list">
+      <li><a href="raw-hygiene/practical/109_第1梯次_術科試題.pdf" target="_blank" rel="noopener">第1梯次</a></li>
+      <li><a href="raw-hygiene/practical/109_第2梯次_術科試題.pdf" target="_blank" rel="noopener">第2梯次</a></li>
+      <li><a href="raw-hygiene/practical/109_第3梯次_術科試題.pdf" target="_blank" rel="noopener">第3梯次</a></li>
+    </ul>
+  </section>
+
+  <section id="y110" class="year-section">
+    <h2 class="year-title">民國110年<span class="year-count">（共 3 份）</span></h2>
+    <ul class="pdf-list">
+      <li><a href="raw-hygiene/practical/110_第1梯次_術科試題.pdf" target="_blank" rel="noopener">第1梯次</a></li>
+      <li><a href="raw-hygiene/practical/110_第2梯次_術科試題.pdf" target="_blank" rel="noopener">第2梯次</a></li>
+      <li><a href="raw-hygiene/practical/110_第3梯次_術科試題.pdf" target="_blank" rel="noopener">第3梯次</a></li>
+    </ul>
+  </section>
+
+  <section id="y111" class="year-section">
+    <h2 class="year-title">民國111年<span class="year-count">（共 3 份）</span></h2>
+    <ul class="pdf-list">
+      <li><a href="raw-hygiene/practical/111_第1梯次_術科試題.pdf" target="_blank" rel="noopener">第1梯次</a></li>
+      <li><a href="raw-hygiene/practical/111_第2梯次_術科試題.pdf" target="_blank" rel="noopener">第2梯次</a></li>
+      <li><a href="raw-hygiene/practical/111_第3梯次_術科試題.pdf" target="_blank" rel="noopener">第3梯次</a></li>
+    </ul>
+  </section>
+
+  <section id="y112" class="year-section">
+    <h2 class="year-title">民國112年<span class="year-count">（共 3 份）</span></h2>
+    <ul class="pdf-list">
+      <li><a href="raw-hygiene/practical/112_第1梯次_術科試題.pdf" target="_blank" rel="noopener">第1梯次</a></li>
+      <li><a href="raw-hygiene/practical/112_第2梯次_術科試題.pdf" target="_blank" rel="noopener">第2梯次</a></li>
+      <li><a href="raw-hygiene/practical/112_第3梯次_術科試題.pdf" target="_blank" rel="noopener">第3梯次</a></li>
+    </ul>
+  </section>
+
+  <section id="y113" class="year-section">
+    <h2 class="year-title">民國113年<span class="year-count">（共 3 份）</span></h2>
+    <ul class="pdf-list">
+      <li><a href="raw-hygiene/practical/113_第1梯次_術科試題.pdf" target="_blank" rel="noopener">第1梯次</a></li>
+      <li><a href="raw-hygiene/practical/113_第2梯次_術科試題.pdf" target="_blank" rel="noopener">第2梯次</a></li>
+      <li><a href="raw-hygiene/practical/113_第3梯次_術科試題.pdf" target="_blank" rel="noopener">第3梯次</a></li>
+    </ul>
+  </section>
+
+  <section id="y114" class="year-section">
+    <h2 class="year-title">民國114年<span class="year-count">（共 4 份）</span></h2>
+    <ul class="pdf-list">
+      <li><a href="raw-hygiene/practical/114_第1梯次_術科試題.pdf" target="_blank" rel="noopener">第1梯次</a></li>
+      <li><a href="raw-hygiene/practical/114_第2梯次_術科試題.pdf" target="_blank" rel="noopener">第2梯次</a></li>
+      <li><a href="raw-hygiene/practical/114_第2梯次_颱風延期考區_術科試題.pdf" target="_blank" rel="noopener">第2梯次_颱風延期考區</a></li>
+      <li><a href="raw-hygiene/practical/114_第3梯次_術科試題.pdf" target="_blank" rel="noopener">第3梯次</a></li>
+    </ul>
+  </section>
+
+  <section id="y115" class="year-section">
+    <h2 class="year-title">民國115年<span class="year-count">（共 2 份）</span></h2>
+    <ul class="pdf-list">
+      <li><a href="raw-hygiene/practical/115_第1梯次_術科試題.pdf" target="_blank" rel="noopener">第1梯次</a></li>
+      <li><a href="raw-hygiene/practical/115_第2梯次_術科試題.pdf" target="_blank" rel="noopener">第2梯次</a></li>
+    </ul>
+  </section>
+</div>
+</body>
+</html>

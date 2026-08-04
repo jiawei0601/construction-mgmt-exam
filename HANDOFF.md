@@ -100,6 +100,29 @@
   詳解＝AI 參考擬答（派 sonnet 分年撰寫、引法規出處、頁面標示非官方），
   發佈時加「術科詳解」頁（按年度、可摺疊）。此為本專案最大額度支出段。
 
+- ✅2026-08-04 八版（一站四職類入口，未 commit）：根 `index.html` 改為統一入口網頁（四職類卡片，
+  各卡顯示題庫題數＋子連結）；原 `index.html` 同目錄改名 `cm.html`（data/assets 引用零斷鏈），
+  頁首加「☰ 職類入口」連回 index.html；`osh.html`／`safety.html`／`hygiene.html` 由
+  `tools/gen_job_pages.py` 從 `cm.html` 產生（差異：title／題庫 script src／localStorage 前綴
+  oshexam_·safetyexam_·hygieneexam_／首頁術科卡片／EXAM_EXPL 過濾），改共用邏輯一律先改
+  `cm.html` 再重跑該腳本，不要手改四份。**解析共用陷阱已處理**：三職類載入
+  `data/explanations.js`（營造甲級全量解析）後立即過濾只留 `c-` 開頭（共同科目 400 題，
+  四職類原樣共用），避免營造甲級的 b-/s- 解析錯掛到其他職類同 id 命名空間但不同內容的專業題；
+  專業題走既有「解析生成中」降級樣式。`osh-practical.html`／`safety-practical.html`／
+  `hygiene-practical.html` 由 `tools/gen_practical_pages.py` 掃描 `raw-{osh,safety,hygiene}/
+  practical/` 動態產生年度／梯次 PDF 連結頁（官方原卷，AI 詳解候補中；osh 因乙級110年起電腦化
+  測試僅列105–109年，safety/hygiene 列105–115年含114年颱風延期考區）。README.md 已更新為
+  四職類總覽。驗證：8643埠四頁 __selftest 各34/34全過、EXAM_EXPL 過濾後三職類皆恰400筆c-key、
+  真實UI點擊+程式化快速測驗(30題)確認抽題/計分/錯題本各自前綴寫入正確、馬拉松模式肉眼與程式
+  雙重驗證c-題顯示解析／b-題顯示「解析生成中」、10個html頁面全部內部連結(含中文檔名PDF)逐一
+  200驗證、375寬手機版四頁皆無水平捲動、全程console無錯誤。⚠️已知：study.html 第108行
+  `./practical-classification.csv` 連結路徑錯誤（應為`docs/practical-classification.csv`）
+  ——與本次改造無關之既有 bug，已 spawn 獨立任務 task_f3cb3022 待處理，未在本次修復。
+  未 commit（任務指示不git commit），檔案清單：新增 osh.html/safety.html/hygiene.html/
+  osh-practical.html/safety-practical.html/hygiene-practical.html/tools/gen_job_pages.py/
+  tools/gen_practical_pages.py；index.html 全文重寫為入口頁；index.html→cm.html 改名；
+  README.md 改寫。
+
 ## 資料 schema（不可改）
 window.EXAM_DATA = { meta, questions:[{id, category(professional|common), subject,
 type(single|multi), stem, options{1..4}, answer[], appearances[{year,session,no}]}] }

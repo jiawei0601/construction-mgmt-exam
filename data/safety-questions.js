@@ -1,0 +1,37737 @@
+// 職業安全管理甲級 題庫資料（自動產生，來源見 meta.sources；解析報告見 data/SAFETY_PARSE_REPORT.md）
+// schema 與 data/questions.js 一致
+window.EXAM_DATA = {
+  "meta": {
+    "job": "職業安全管理",
+    "level": "甲級",
+    "generated": "2026-08-04",
+    "sources": [
+      "raw-safety/bank/22000_職業安全管理_甲級_學科題庫.pdf",
+      "raw-safety/subject\\105_第1梯次_學科試題暨答案.pdf（未收錄:PDF無文字層/掃描影像檔,本次無OCR工具,見SAFETY_PARSE_REPORT異常清單）",
+      "raw-safety/subject\\105_第2梯次_學科試題暨答案.pdf（未收錄:PDF無文字層/掃描影像檔,本次無OCR工具,見SAFETY_PARSE_REPORT異常清單）",
+      "raw-safety/subject\\105_第3梯次_學科試題暨答案.pdf（未收錄:PDF無文字層/掃描影像檔,本次無OCR工具,見SAFETY_PARSE_REPORT異常清單）",
+      "raw-safety/subject\\106_第1梯次_學科試題暨答案.pdf（未收錄:PDF無文字層/掃描影像檔,本次無OCR工具,見SAFETY_PARSE_REPORT異常清單）",
+      "raw-safety/subject\\106_第2梯次_學科試題暨答案.pdf（未收錄:PDF無文字層/掃描影像檔,本次無OCR工具,見SAFETY_PARSE_REPORT異常清單）",
+      "raw-safety/subject\\106_第3梯次_學科試題暨答案.pdf（未收錄:PDF無文字層/掃描影像檔,本次無OCR工具,見SAFETY_PARSE_REPORT異常清單）",
+      "raw-safety/subject\\107_第1梯次_學科試題暨答案.pdf",
+      "raw-safety/subject\\107_第2梯次_學科試題暨答案.pdf",
+      "raw-safety/subject\\107_第3梯次_學科試題暨答案.pdf",
+      "raw-safety/subject\\108_第1梯次_學科試題暨答案.pdf",
+      "raw-safety/subject\\108_第2梯次_學科試題暨答案.pdf",
+      "raw-safety/subject\\108_第3梯次_學科試題暨答案.pdf",
+      "raw-safety/subject\\109_第1梯次_學科試題暨答案.pdf",
+      "raw-safety/subject\\109_第2梯次_學科試題暨答案.pdf",
+      "raw-safety/subject\\109_第3梯次_學科試題暨答案.pdf",
+      "raw-safety/subject\\110_第1梯次_學科試題暨答案.pdf",
+      "raw-safety/subject\\110_第2梯次_學科試題暨答案.pdf",
+      "raw-safety/subject\\110_第3梯次_學科試題暨答案.pdf",
+      "raw-safety/subject\\111_第1梯次_學科試題暨答案.pdf",
+      "raw-safety/subject\\111_第2梯次_學科試題暨答案.pdf",
+      "raw-safety/subject\\111_第3梯次_學科試題暨答案.pdf",
+      "raw-safety/subject\\112_第1梯次_學科試題暨答案.pdf",
+      "raw-safety/subject\\112_第2梯次_學科試題暨答案.pdf",
+      "raw-safety/subject\\112_第3梯次_學科試題暨答案.pdf",
+      "raw-safety/subject\\113_第1梯次_學科試題暨答案.pdf",
+      "raw-safety/subject\\113_第2梯次_學科試題暨答案.pdf",
+      "raw-safety/subject\\113_第3梯次_學科試題暨答案.pdf",
+      "raw-safety/subject\\114_第1梯次_學科試題暨答案.pdf",
+      "raw-safety/subject\\114_第2梯次_學科試題暨答案.pdf",
+      "raw-safety/subject\\114_第2梯次_颱風延期考區_學科試題暨答案.pdf",
+      "raw-safety/subject\\114_第3梯次_學科試題暨答案.pdf",
+      "raw-safety/subject\\115_第1梯次_學科試題暨答案.pdf",
+      "raw-safety/subject\\115_第2梯次_學科試題暨答案.pdf",
+      "data/questions.js（c- 開頭 400 題共同科目原樣複製,未重新解析 raw/common/）"
+    ]
+  },
+  "questions": [
+    {
+      "id": "b-01-001",
+      "category": "professional",
+      "subject": "工作項目01 職業安全衛生相關法規",
+      "type": "single",
+      "stem": "依勞動檢查法之規定，中央主管機關公告宣導勞動檢查方針之時機，為年度開始前幾個月為之？",
+      "options": {
+        "1": "3",
+        "2": "4",
+        "3": "5",
+        "4": "6"
+      },
+      "answer": [
+        "4"
+      ],
+      "appearances": [
+        {
+          "year": "107",
+          "session": 2,
+          "no": 10
+        }
+      ]
+    },
+    {
+      "id": "b-01-002",
+      "category": "professional",
+      "subject": "工作項目01 職業安全衛生相關法規",
+      "type": "single",
+      "stem": "事業單位對於勞動檢查之結果，依勞動檢查法規定，應於違規場所公告幾日以上？",
+      "options": {
+        "1": "5",
+        "2": "7",
+        "3": "10",
+        "4": "14"
+      },
+      "answer": [
+        "2"
+      ],
+      "appearances": [
+        {
+          "year": "110",
+          "session": 1,
+          "no": 9
+        },
+        {
+          "year": "111",
+          "session": 2,
+          "no": 9
+        },
+        {
+          "year": "113",
+          "session": 2,
+          "no": 33
+        },
+        {
+          "year": "114",
+          "session": 1,
+          "no": 3
+        }
+      ]
+    },
+    {
+      "id": "b-01-003",
+      "category": "professional",
+      "subject": "工作項目01 職業安全衛生相關法規",
+      "type": "single",
+      "stem": "勞工因職業災害而致死亡，雇主應依勞動基準法規定給予罹災家屬幾個月之平均工資死亡補償？",
+      "options": {
+        "1": "5",
+        "2": "15",
+        "3": "40",
+        "4": "50"
+      },
+      "answer": [
+        "3"
+      ],
+      "appearances": [
+        {
+          "year": "111",
+          "session": 1,
+          "no": 47
+        },
+        {
+          "year": "111",
+          "session": 3,
+          "no": 59
+        },
+        {
+          "year": "115",
+          "session": 1,
+          "no": 25
+        }
+      ]
+    },
+    {
+      "id": "b-01-004",
+      "category": "professional",
+      "subject": "工作項目01 職業安全衛生相關法規",
+      "type": "single",
+      "stem": "勞動基準法所稱之童工，係指下列何者？",
+      "options": {
+        "1": "未滿十五歲",
+        "2": "十五歲以上未滿十六歲",
+        "3": "十六歲以上未滿十七歲",
+        "4": "十七歲以上未滿十八歲"
+      },
+      "answer": [
+        "2"
+      ],
+      "appearances": [
+        {
+          "year": "111",
+          "session": 2,
+          "no": 4
+        },
+        {
+          "year": "113",
+          "session": 2,
+          "no": 2
+        },
+        {
+          "year": "115",
+          "session": 1,
+          "no": 16
+        }
+      ]
+    },
+    {
+      "id": "b-01-005",
+      "category": "professional",
+      "subject": "工作項目01 職業安全衛生相關法規",
+      "type": "single",
+      "stem": "依機械設備器具安全資訊申報登錄辦法規定，申報者有因登錄產品瑕疵造成重大傷害或危害者，中央主管機關應對產品安全資訊登錄，採取下列何種處置？",
+      "options": {
+        "1": "註銷",
+        "2": "退回",
+        "3": "通知改善及補件",
+        "4": "廢止"
+      },
+      "answer": [
+        "4"
+      ],
+      "appearances": [
+        {
+          "year": "108",
+          "session": 1,
+          "no": 12
+        },
+        {
+          "year": "112",
+          "session": 2,
+          "no": 38
+        },
+        {
+          "year": "114",
+          "session": 1,
+          "no": 9
+        }
+      ]
+    },
+    {
+      "id": "b-01-006",
+      "category": "professional",
+      "subject": "工作項目01 職業安全衛生相關法規",
+      "type": "single",
+      "stem": "依勞動基準法規定，女工分娩前後，雇主應給予產假幾星期？",
+      "options": {
+        "1": "6",
+        "2": "8",
+        "3": "10",
+        "4": "12"
+      },
+      "answer": [
+        "2"
+      ],
+      "appearances": [
+        {
+          "year": "107",
+          "session": 2,
+          "no": 28
+        },
+        {
+          "year": "108",
+          "session": 1,
+          "no": 4
+        },
+        {
+          "year": "110",
+          "session": 1,
+          "no": 23
+        },
+        {
+          "year": "110",
+          "session": 3,
+          "no": 41
+        }
+      ]
+    },
+    {
+      "id": "b-01-007",
+      "category": "professional",
+      "subject": "工作項目01 職業安全衛生相關法規",
+      "type": "single",
+      "stem": "事業單位所聘僱外國人連續曠職幾日失去聯繫時，雇主應通報主管機關？",
+      "options": {
+        "1": "1",
+        "2": "2",
+        "3": "3",
+        "4": "4"
+      },
+      "answer": [
+        "3"
+      ],
+      "appearances": [
+        {
+          "year": "107",
+          "session": 2,
+          "no": 55
+        },
+        {
+          "year": "108",
+          "session": 3,
+          "no": 48
+        },
+        {
+          "year": "109",
+          "session": 2,
+          "no": 32
+        }
+      ]
+    },
+    {
+      "id": "b-01-008",
+      "category": "professional",
+      "subject": "工作項目01 職業安全衛生相關法規",
+      "type": "single",
+      "stem": "我國技能檢定及發證相關事宜，係規範於下列何者？",
+      "options": {
+        "1": "就業服務法",
+        "2": "職業安全衛生法",
+        "3": "勞動檢查法",
+        "4": "職業訓練法"
+      },
+      "answer": [
+        "4"
+      ],
+      "appearances": [
+        {
+          "year": "110",
+          "session": 3,
+          "no": 16
+        },
+        {
+          "year": "111",
+          "session": 1,
+          "no": 29
+        },
+        {
+          "year": "113",
+          "session": 1,
+          "no": 43
+        }
+      ]
+    },
+    {
+      "id": "b-01-009",
+      "category": "professional",
+      "subject": "工作項目01 職業安全衛生相關法規",
+      "type": "single",
+      "stem": "事業單位對勞動檢查機構所發檢查結果通知書有異議時，依勞動檢查法規定應於通知書送達之次日起多少日內，以書面敘明理由向勞動檢查機構提出？",
+      "options": {
+        "1": "7",
+        "2": "10",
+        "3": "15",
+        "4": "30"
+      },
+      "answer": [
+        "2"
+      ],
+      "appearances": [
+        {
+          "year": "110",
+          "session": 2,
+          "no": 20
+        }
+      ]
+    },
+    {
+      "id": "b-01-010",
+      "category": "professional",
+      "subject": "工作項目01 職業安全衛生相關法規",
+      "type": "single",
+      "stem": "高壓氣體類壓力容器1日之處理能力1000立方公尺之下列何種氣體之工作場所，不屬於勞動檢查法所稱之危險性工作場所？",
+      "options": {
+        "1": "氧氣",
+        "2": "有毒氣體",
+        "3": "氮氣",
+        "4": "可燃性氣體"
+      },
+      "answer": [
+        "3"
+      ],
+      "appearances": [
+        {
+          "year": "107",
+          "session": 3,
+          "no": 20
+        },
+        {
+          "year": "111",
+          "session": 3,
+          "no": 35
+        },
+        {
+          "year": "113",
+          "session": 2,
+          "no": 27
+        }
+      ]
+    },
+    {
+      "id": "b-01-011",
+      "category": "professional",
+      "subject": "工作項目01 職業安全衛生相關法規",
+      "type": "single",
+      "stem": "下列何者屬職業安全衛生設施規則所稱之危險物？",
+      "options": {
+        "1": "毒性物質",
+        "2": "劇毒物質",
+        "3": "可燃性氣體",
+        "4": "腐蝕性物質"
+      },
+      "answer": [
+        "3"
+      ],
+      "appearances": [
+        {
+          "year": "107",
+          "session": 1,
+          "no": 15
+        },
+        {
+          "year": "107",
+          "session": 3,
+          "no": 16
+        },
+        {
+          "year": "108",
+          "session": 1,
+          "no": 59
+        },
+        {
+          "year": "111",
+          "session": 1,
+          "no": 41
+        },
+        {
+          "year": "112",
+          "session": 2,
+          "no": 40
+        },
+        {
+          "year": "114",
+          "session": 3,
+          "no": 7
+        }
+      ]
+    },
+    {
+      "id": "b-01-012",
+      "category": "professional",
+      "subject": "工作項目01 職業安全衛生相關法規",
+      "type": "single",
+      "stem": "職業安全衛生法所定之身體檢查，於僱用勞工從事新工作時，為識別其工作適性之檢查為下列何者？",
+      "options": {
+        "1": "健康檢查",
+        "2": "體格檢查",
+        "3": "特殊健康檢查",
+        "4": "特定健康檢查"
+      },
+      "answer": [
+        "2"
+      ],
+      "appearances": [
+        {
+          "year": "110",
+          "session": 3,
+          "no": 49
+        },
+        {
+          "year": "114",
+          "session": 1,
+          "no": 50
+        },
+        {
+          "year": "115",
+          "session": 2,
+          "no": 43
+        }
+      ]
+    },
+    {
+      "id": "b-01-013",
+      "category": "professional",
+      "subject": "工作項目01 職業安全衛生相關法規",
+      "type": "single",
+      "stem": "依職業安全衛生管理辦法規定，職業安全衛生委員會之任務為下列何者？",
+      "options": {
+        "1": "執行職業災害防止事項",
+        "2": "執行定期或不定期巡視",
+        "3": "協調、建議職業安全衛生管理計畫",
+        "4": "釐訂職業安全衛生管理計畫"
+      },
+      "answer": [
+        "3"
+      ],
+      "appearances": [
+        {
+          "year": "108",
+          "session": 1,
+          "no": 1
+        },
+        {
+          "year": "114",
+          "session": 1,
+          "no": 13
+        }
+      ]
+    },
+    {
+      "id": "b-01-014",
+      "category": "professional",
+      "subject": "工作項目01 職業安全衛生相關法規",
+      "type": "single",
+      "stem": "依職業安全衛生法所處之罰鍰由下列何者執行？",
+      "options": {
+        "1": "司法機關",
+        "2": "稅務機關",
+        "3": "勞動檢查機構",
+        "4": "主管機關"
+      },
+      "answer": [
+        "4"
+      ],
+      "appearances": [
+        {
+          "year": "113",
+          "session": 1,
+          "no": 13
+        }
+      ]
+    },
+    {
+      "id": "b-01-015",
+      "category": "professional",
+      "subject": "工作項目01 職業安全衛生相關法規",
+      "type": "single",
+      "stem": "拒絕、規避或妨礙依職業安全衛生法規定之檢查者，可處下列何種處罰？",
+      "options": {
+        "1": "3年以下有期徒刑",
+        "2": "新臺幣3千元以下之罰鍰",
+        "3": "新臺幣3萬元以上6萬元以下罰鍰",
+        "4": "新臺幣3萬元以上30萬元以下罰鍰"
+      },
+      "answer": [
+        "4"
+      ],
+      "appearances": [
+        {
+          "year": "109",
+          "session": 3,
+          "no": 56
+        },
+        {
+          "year": "111",
+          "session": 1,
+          "no": 40
+        },
+        {
+          "year": "112",
+          "session": 1,
+          "no": 14
+        },
+        {
+          "year": "112",
+          "session": 2,
+          "no": 21
+        }
+      ]
+    },
+    {
+      "id": "b-01-016",
+      "category": "professional",
+      "subject": "工作項目01 職業安全衛生相關法規",
+      "type": "single",
+      "stem": "工作場所有立即發生危險之虞時，何人應即令停止作業，並使勞工退避至安全場所？",
+      "options": {
+        "1": "業主或雇主",
+        "2": "雇主或工作場所負責人",
+        "3": "工作場所負責人或部門主管",
+        "4": "部門主管或作業主管"
+      },
+      "answer": [
+        "2"
+      ],
+      "appearances": [
+        {
+          "year": "108",
+          "session": 3,
+          "no": 41
+        },
+        {
+          "year": "112",
+          "session": 3,
+          "no": 4
+        },
+        {
+          "year": "115",
+          "session": 1,
+          "no": 56
+        }
+      ]
+    },
+    {
+      "id": "b-01-017",
+      "category": "professional",
+      "subject": "工作項目01 職業安全衛生相關法規",
+      "type": "single",
+      "stem": "依職業安全衛生法規定，有關事業單位訂定安全衛生工作守則之規定，下列何者正確﹖",
+      "options": {
+        "1": "應報經縣、市主管機關備查",
+        "2": "事業單位組織工會者，由雇主自行訂定",
+        "3": "得依事業單位之實際需要，會同勞工代表訂定適用於全部或一部分事業之工作守則並報經勞動檢查機構備查後，公告實施",
+        "4": "報經備查之工作守則，不需公告即可實施"
+      },
+      "answer": [
+        "3"
+      ],
+      "appearances": [
+        {
+          "year": "114",
+          "session": 2,
+          "no": 54
+        }
+      ]
+    },
+    {
+      "id": "b-01-018",
+      "category": "professional",
+      "subject": "工作項目01 職業安全衛生相關法規",
+      "type": "single",
+      "stem": "依職業安全衛生法規定，勞工不參加雇主安排之安全衛生教育、訓練，下列何者正確？",
+      "options": {
+        "1": "法院得予判決徒刑",
+        "2": "法院得予判決罰金",
+        "3": "主管機關得予處分罰鍰",
+        "4": "雇主得予處分罰鍰"
+      },
+      "answer": [
+        "3"
+      ],
+      "appearances": [
+        {
+          "year": "115",
+          "session": 1,
+          "no": 19
+        }
+      ]
+    },
+    {
+      "id": "b-01-019",
+      "category": "professional",
+      "subject": "工作項目01 職業安全衛生相關法規",
+      "type": "single",
+      "stem": "有關事業單位發生勞工死亡之職業災害後之處理，下列所述雇主之作為何者錯誤？",
+      "options": {
+        "1": "非經許可不得移動或破壞現場",
+        "2": "應實施調查、分析及作成紀錄",
+        "3": "應於8小時內通報勞動檢查機構",
+        "4": "如已報告勞動檢查機構，則得免於當月職業災害統計月報表中陳報"
+      },
+      "answer": [
+        "4"
+      ],
+      "appearances": []
+    },
+    {
+      "id": "b-01-020",
+      "category": "professional",
+      "subject": "工作項目01 職業安全衛生相關法規",
+      "type": "single",
+      "stem": "依職業安全衛生管理辦法規定，第一類事業單位勞工人數在幾人以上者，應設直接隸屬雇主之專責一級管理單位？",
+      "options": {
+        "1": "30",
+        "2": "50",
+        "3": "100",
+        "4": "200"
+      },
+      "answer": [
+        "3"
+      ],
+      "appearances": [
+        {
+          "year": "109",
+          "session": 1,
+          "no": 16
+        },
+        {
+          "year": "112",
+          "session": 2,
+          "no": 29
+        },
+        {
+          "year": "115",
+          "session": 2,
+          "no": 35
+        }
+      ]
+    },
+    {
+      "id": "b-01-021",
+      "category": "professional",
+      "subject": "工作項目01 職業安全衛生相關法規",
+      "type": "single",
+      "stem": "依職業安全衛生管理辦法規定，依職權指揮、監督所屬執行安全衛生管理事項，並協調及指導有關人員實施為下列何者之職責？",
+      "options": {
+        "1": "職業安全衛生業務主管",
+        "2": "職業安全（衛生）管理師",
+        "3": "工作場所負責人及各級主管",
+        "4": "一級單位之職業安全衛生人員"
+      },
+      "answer": [
+        "3"
+      ],
+      "appearances": [
+        {
+          "year": "112",
+          "session": 1,
+          "no": 59
+        },
+        {
+          "year": "114",
+          "session": 2,
+          "no": 27
+        }
+      ]
+    },
+    {
+      "id": "b-01-022",
+      "category": "professional",
+      "subject": "工作項目01 職業安全衛生相關法規",
+      "type": "single",
+      "stem": "依職業安全衛生管理辦法規定，第一類事業單位勞工人數在幾人以上者，應建置適合該事業單位之職業安全衛生管理系統？",
+      "options": {
+        "1": "100",
+        "2": "200",
+        "3": "300",
+        "4": "500"
+      },
+      "answer": [
+        "2"
+      ],
+      "appearances": [
+        {
+          "year": "109",
+          "session": 3,
+          "no": 14
+        },
+        {
+          "year": "110",
+          "session": 2,
+          "no": 37
+        },
+        {
+          "year": "111",
+          "session": 3,
+          "no": 17
+        },
+        {
+          "year": "114",
+          "session": 2,
+          "no": 53
+        }
+      ]
+    },
+    {
+      "id": "b-01-023",
+      "category": "professional",
+      "subject": "工作項目01 職業安全衛生相關法規",
+      "type": "single",
+      "stem": "事業單位與承攬人、再承攬人分別僱用勞工共同作業時，為防止職業災害，工作場所之連繫與調整之措施，屬下列何者之職責？",
+      "options": {
+        "1": "原事業單位",
+        "2": "承攬人",
+        "3": "再承攬人",
+        "4": "關係事業"
+      },
+      "answer": [
+        "1"
+      ],
+      "appearances": [
+        {
+          "year": "108",
+          "session": 3,
+          "no": 9
+        },
+        {
+          "year": "109",
+          "session": 2,
+          "no": 29
+        }
+      ]
+    },
+    {
+      "id": "b-01-024",
+      "category": "professional",
+      "subject": "工作項目01 職業安全衛生相關法規",
+      "type": "single",
+      "stem": "職業安全衛生設施規則為事業單位一般工作場所安全衛生設施之何種標準？",
+      "options": {
+        "1": "最高標準",
+        "2": "最低標準",
+        "3": "特定標準",
+        "4": "參考標準"
+      },
+      "answer": [
+        "2"
+      ],
+      "appearances": [
+        {
+          "year": "109",
+          "session": 1,
+          "no": 19
+        },
+        {
+          "year": "112",
+          "session": 3,
+          "no": 3
+        }
+      ]
+    },
+    {
+      "id": "b-01-025",
+      "category": "professional",
+      "subject": "工作項目01 職業安全衛生相關法規",
+      "type": "single",
+      "stem": "依職業安全衛生設施規則規定，室內工作場所主要人行道寬度不得小於幾公尺？",
+      "options": {
+        "1": "0.8",
+        "2": "1.0",
+        "3": "1.2",
+        "4": "1.5"
+      },
+      "answer": [
+        "2"
+      ],
+      "appearances": [
+        {
+          "year": "107",
+          "session": 2,
+          "no": 3
+        },
+        {
+          "year": "109",
+          "session": 1,
+          "no": 32
+        },
+        {
+          "year": "112",
+          "session": 2,
+          "no": 28
+        },
+        {
+          "year": "114",
+          "session": "2颱風延期考區",
+          "no": 42
+        }
+      ]
+    },
+    {
+      "id": "b-01-026",
+      "category": "professional",
+      "subject": "工作項目01 職業安全衛生相關法規",
+      "type": "single",
+      "stem": "依職業安全衛生設施規則規定，室內工作場所各機械間或其他設備間通道寬度不得小於幾公尺？",
+      "options": {
+        "1": "0.8",
+        "2": "1.0",
+        "3": "1.2",
+        "4": "1.5"
+      },
+      "answer": [
+        "1"
+      ],
+      "appearances": [
+        {
+          "year": "113",
+          "session": 3,
+          "no": 12
+        }
+      ]
+    },
+    {
+      "id": "b-01-027",
+      "category": "professional",
+      "subject": "工作項目01 職業安全衛生相關法規",
+      "type": "single",
+      "stem": "依職業安全衛生設施規則規定，室內工作場所自路面起算多少公尺高度範圍內，不得有障礙物？",
+      "options": {
+        "1": "1.5",
+        "2": "1.8",
+        "3": "2",
+        "4": "3"
+      },
+      "answer": [
+        "3"
+      ],
+      "appearances": [
+        {
+          "year": "108",
+          "session": 3,
+          "no": 28
+        },
+        {
+          "year": "111",
+          "session": 1,
+          "no": 18
+        },
+        {
+          "year": "112",
+          "session": 1,
+          "no": 50
+        }
+      ]
+    },
+    {
+      "id": "b-01-028",
+      "category": "professional",
+      "subject": "工作項目01 職業安全衛生相關法規",
+      "type": "single",
+      "stem": "雇主架設之通道，有墜落之虞之場所，依職業安全衛生設施規則規定，應置備高度多少公分以上之堅固扶手？",
+      "options": {
+        "1": "50",
+        "2": "65",
+        "3": "70",
+        "4": "75"
+      },
+      "answer": [
+        "4"
+      ],
+      "appearances": [
+        {
+          "year": "107",
+          "session": 1,
+          "no": 4
+        },
+        {
+          "year": "107",
+          "session": 2,
+          "no": 39
+        },
+        {
+          "year": "111",
+          "session": 1,
+          "no": 2
+        }
+      ]
+    },
+    {
+      "id": "b-01-029",
+      "category": "professional",
+      "subject": "工作項目01 職業安全衛生相關法規",
+      "type": "single",
+      "stem": "依職業安全衛生設施規則規定，固定梯之頂端應突出板面至少多少公分以上？",
+      "options": {
+        "1": "10",
+        "2": "30",
+        "3": "60",
+        "4": "90"
+      },
+      "answer": [
+        "3"
+      ],
+      "appearances": [
+        {
+          "year": "112",
+          "session": 3,
+          "no": 9
+        }
+      ]
+    },
+    {
+      "id": "b-01-030",
+      "category": "professional",
+      "subject": "工作項目01 職業安全衛生相關法規",
+      "type": "single",
+      "stem": "加工物截斷，有飛散危害勞工之虞時，應於加工機械設何種防護裝置？",
+      "options": {
+        "1": "欄杆",
+        "2": "護罩",
+        "3": "光電開關",
+        "4": "套胴"
+      },
+      "answer": [
+        "2"
+      ],
+      "appearances": [
+        {
+          "year": "108",
+          "session": 1,
+          "no": 5
+        },
+        {
+          "year": "108",
+          "session": 2,
+          "no": 39
+        },
+        {
+          "year": "108",
+          "session": 3,
+          "no": 16
+        },
+        {
+          "year": "111",
+          "session": 2,
+          "no": 5
+        },
+        {
+          "year": "114",
+          "session": "2颱風延期考區",
+          "no": 1
+        }
+      ]
+    },
+    {
+      "id": "b-01-031",
+      "category": "professional",
+      "subject": "工作項目01 職業安全衛生相關法規",
+      "type": "single",
+      "stem": "依職業安全衛生設施規則規定，下列何者為氧化性物質？",
+      "options": {
+        "1": "三硝基苯",
+        "2": "過氧化丁酮",
+        "3": "氯酸鉀",
+        "4": "過醋酸"
+      },
+      "answer": [
+        "3"
+      ],
+      "appearances": [
+        {
+          "year": "109",
+          "session": 1,
+          "no": 23
+        },
+        {
+          "year": "110",
+          "session": 1,
+          "no": 37
+        }
+      ]
+    },
+    {
+      "id": "b-01-032",
+      "category": "professional",
+      "subject": "工作項目01 職業安全衛生相關法規",
+      "type": "single",
+      "stem": "依職業安全衛生設施規則規定，下列何者為爆炸性物質？",
+      "options": {
+        "1": "硝化纖維",
+        "2": "賽璐珞",
+        "3": "汽油",
+        "4": "過氯酸鉀"
+      },
+      "answer": [
+        "1"
+      ],
+      "appearances": [
+        {
+          "year": "112",
+          "session": 3,
+          "no": 45
+        },
+        {
+          "year": "115",
+          "session": 1,
+          "no": 14
+        }
+      ]
+    },
+    {
+      "id": "b-01-033",
+      "category": "professional",
+      "subject": "工作項目01 職業安全衛生相關法規",
+      "type": "single",
+      "stem": "依職業安全衛生設施規則規定，下列何者為可燃性氣體？",
+      "options": {
+        "1": "氫",
+        "2": "乙醚",
+        "3": "苯",
+        "4": "汽油"
+      },
+      "answer": [
+        "1"
+      ],
+      "appearances": [
+        {
+          "year": "107",
+          "session": 1,
+          "no": 31
+        },
+        {
+          "year": "107",
+          "session": 2,
+          "no": 52
+        },
+        {
+          "year": "109",
+          "session": 1,
+          "no": 12
+        },
+        {
+          "year": "110",
+          "session": 3,
+          "no": 20
+        },
+        {
+          "year": "112",
+          "session": 1,
+          "no": 11
+        },
+        {
+          "year": "113",
+          "session": 2,
+          "no": 43
+        },
+        {
+          "year": "114",
+          "session": 3,
+          "no": 9
+        }
+      ]
+    },
+    {
+      "id": "b-01-034",
+      "category": "professional",
+      "subject": "工作項目01 職業安全衛生相關法規",
+      "type": "single",
+      "stem": "依職業安全衛生設施規則規定，雇主對於物料之搬運，應儘量利用機械以代替人力，對多少公斤以上之物品，以機動車輛搬運為宜？",
+      "options": {
+        "1": "200",
+        "2": "300",
+        "3": "400",
+        "4": "500"
+      },
+      "answer": [
+        "4"
+      ],
+      "appearances": [
+        {
+          "year": "112",
+          "session": 1,
+          "no": 41
+        }
+      ]
+    },
+    {
+      "id": "b-01-035",
+      "category": "professional",
+      "subject": "工作項目01 職業安全衛生相關法規",
+      "type": "single",
+      "stem": "依職業安全衛生設施規則規定，雇主對於物料之搬運，應儘量利用機械以代替人力，至少多少公斤以上物品，以人力車輛或工具搬運為原則？",
+      "options": {
+        "1": "30",
+        "2": "35",
+        "3": "40",
+        "4": "50"
+      },
+      "answer": [
+        "3"
+      ],
+      "appearances": [
+        {
+          "year": "109",
+          "session": 3,
+          "no": 44
+        },
+        {
+          "year": "113",
+          "session": 1,
+          "no": 34
+        },
+        {
+          "year": "113",
+          "session": 3,
+          "no": 28
+        },
+        {
+          "year": "115",
+          "session": 2,
+          "no": 60
+        }
+      ]
+    },
+    {
+      "id": "b-01-036",
+      "category": "professional",
+      "subject": "工作項目01 職業安全衛生相關法規",
+      "type": "single",
+      "stem": "依職業安全衛生設施規則規定，離地多少公尺以內之傳動帶，應裝置適當之圍柵或護網？",
+      "options": {
+        "1": "1.8",
+        "2": "2",
+        "3": "2.5",
+        "4": "3"
+      },
+      "answer": [
+        "2"
+      ],
+      "appearances": [
+        {
+          "year": "107",
+          "session": 2,
+          "no": 41
+        },
+        {
+          "year": "109",
+          "session": 2,
+          "no": 51
+        },
+        {
+          "year": "111",
+          "session": 2,
+          "no": 16
+        },
+        {
+          "year": "112",
+          "session": 3,
+          "no": 25
+        },
+        {
+          "year": "113",
+          "session": 3,
+          "no": 55
+        },
+        {
+          "year": "114",
+          "session": 2,
+          "no": 34
+        }
+      ]
+    },
+    {
+      "id": "b-01-037",
+      "category": "professional",
+      "subject": "工作項目01 職業安全衛生相關法規",
+      "type": "single",
+      "stem": "依職業安全衛生設施規則規定，設置固定式圓盤鋸、帶鋸、手推刨床、截角機等合計在幾台以上時，應指定作業管理人員？",
+      "options": {
+        "1": "3",
+        "2": "5",
+        "3": "10",
+        "4": "30"
+      },
+      "answer": [
+        "2"
+      ],
+      "appearances": [
+        {
+          "year": "112",
+          "session": 2,
+          "no": 53
+        }
+      ]
+    },
+    {
+      "id": "b-01-038",
+      "category": "professional",
+      "subject": "工作項目01 職業安全衛生相關法規",
+      "type": "single",
+      "stem": "依職業安全衛生設施規則規定，勞工有自粉碎機、混合機之開口部分墜落之虞，應設置圍柵時，其高度應在多少公分以上？",
+      "options": {
+        "1": "60",
+        "2": "70",
+        "3": "80",
+        "4": "90"
+      },
+      "answer": [
+        "4"
+      ],
+      "appearances": [
+        {
+          "year": "111",
+          "session": 3,
+          "no": 4
+        }
+      ]
+    },
+    {
+      "id": "b-01-039",
+      "category": "professional",
+      "subject": "工作項目01 職業安全衛生相關法規",
+      "type": "single",
+      "stem": "依職業安全衛生設施規則規定，起重機具之吊鉤或吊具之非為直動式過捲預防裝置，應至少與吊架或捲揚胴保持多少公尺距離，以防止接觸碰接？",
+      "options": {
+        "1": "0.25",
+        "2": "0.60",
+        "3": "1.00",
+        "4": "1.25"
+      },
+      "answer": [
+        "1"
+      ],
+      "appearances": [
+        {
+          "year": "112",
+          "session": 3,
+          "no": 8
+        }
+      ]
+    },
+    {
+      "id": "b-01-040",
+      "category": "professional",
+      "subject": "工作項目01 職業安全衛生相關法規",
+      "type": "single",
+      "stem": "依職業安全衛生設施規則規定，搬器地板與樓板相差多少距離以上時，應有使升降機門不能開啟之連鎖裝置？",
+      "options": {
+        "1": "7.5公厘",
+        "2": "15公厘",
+        "3": "7.5公分",
+        "4": "15公分"
+      },
+      "answer": [
+        "3"
+      ],
+      "appearances": [
+        {
+          "year": "109",
+          "session": 2,
+          "no": 19
+        },
+        {
+          "year": "109",
+          "session": 3,
+          "no": 46
+        }
+      ]
+    },
+    {
+      "id": "b-01-041",
+      "category": "professional",
+      "subject": "工作項目01 職業安全衛生相關法規",
+      "type": "single",
+      "stem": "依機械設備器具安全標準規定，木材加工用圓盤鋸應設置何種安全裝置？",
+      "options": {
+        "1": "套胴",
+        "2": "圍柵",
+        "3": "鋸齒接觸預防裝置",
+        "4": "雙手按鈕開關"
+      },
+      "answer": [
+        "3"
+      ],
+      "appearances": [
+        {
+          "year": "110",
+          "session": 1,
+          "no": 26
+        },
+        {
+          "year": "114",
+          "session": "2颱風延期考區",
+          "no": 26
+        }
+      ]
+    },
+    {
+      "id": "b-01-042",
+      "category": "professional",
+      "subject": "工作項目01 職業安全衛生相關法規",
+      "type": "single",
+      "stem": "依職業安全衛生設施規則規定，150伏特以下之低壓帶電體前方，可能有檢修、調整、維護之活線作業時，其最小工作空間不得小於多少公分？",
+      "options": {
+        "1": "80",
+        "2": "90",
+        "3": "105",
+        "4": "120"
+      },
+      "answer": [
+        "2"
+      ],
+      "appearances": [
+        {
+          "year": "107",
+          "session": 2,
+          "no": 30
+        },
+        {
+          "year": "110",
+          "session": 1,
+          "no": 45
+        }
+      ]
+    },
+    {
+      "id": "b-01-043",
+      "category": "professional",
+      "subject": "工作項目01 職業安全衛生相關法規",
+      "type": "single",
+      "stem": "依高壓氣體勞工安全規則規定，高壓氣體貯存區周圍在多少公尺內不得有煙火或放置危險物質？",
+      "options": {
+        "1": "2",
+        "2": "3",
+        "3": "4",
+        "4": "5"
+      },
+      "answer": [
+        "1"
+      ],
+      "appearances": [
+        {
+          "year": "108",
+          "session": 2,
+          "no": 1
+        },
+        {
+          "year": "108",
+          "session": 3,
+          "no": 12
+        },
+        {
+          "year": "109",
+          "session": 1,
+          "no": 43
+        },
+        {
+          "year": "112",
+          "session": 1,
+          "no": 49
+        }
+      ]
+    },
+    {
+      "id": "b-01-044",
+      "category": "professional",
+      "subject": "工作項目01 職業安全衛生相關法規",
+      "type": "single",
+      "stem": "依職業安全衛生設施規則規定，使用乙炔熔接裝置從事金屬熔接，其產生之乙炔壓力不得超過表壓力每平方公分幾公斤以上？",
+      "options": {
+        "1": "1.2",
+        "2": "1.3",
+        "3": "2.0",
+        "4": "2.1"
+      },
+      "answer": [
+        "2"
+      ],
+      "appearances": []
+    },
+    {
+      "id": "b-01-045",
+      "category": "professional",
+      "subject": "工作項目01 職業安全衛生相關法規",
+      "type": "single",
+      "stem": "依職業安全衛生設施規則規定，雇主對於建築物之工作室，其樓地板至天花板淨高應在幾公尺以上？",
+      "options": {
+        "1": "2",
+        "2": "2.1",
+        "3": "2.3",
+        "4": "2.5"
+      },
+      "answer": [
+        "2"
+      ],
+      "appearances": [
+        {
+          "year": "109",
+          "session": 2,
+          "no": 27
+        },
+        {
+          "year": "111",
+          "session": 2,
+          "no": 46
+        },
+        {
+          "year": "113",
+          "session": 1,
+          "no": 16
+        },
+        {
+          "year": "114",
+          "session": 3,
+          "no": 51
+        }
+      ]
+    },
+    {
+      "id": "b-01-046",
+      "category": "professional",
+      "subject": "工作項目01 職業安全衛生相關法規",
+      "type": "single",
+      "stem": "依職業安全衛生設施規則規定，其他可燃性氣體是指在一大氣壓力下，攝氏幾度時具可燃性之氣體？",
+      "options": {
+        "1": "10",
+        "2": "15",
+        "3": "25",
+        "4": "30"
+      },
+      "answer": [
+        "2"
+      ],
+      "appearances": [
+        {
+          "year": "111",
+          "session": 2,
+          "no": 15
+        },
+        {
+          "year": "114",
+          "session": "2颱風延期考區",
+          "no": 9
+        }
+      ]
+    },
+    {
+      "id": "b-01-047",
+      "category": "professional",
+      "subject": "工作項目01 職業安全衛生相關法規",
+      "type": "single",
+      "stem": "進行槽內缺氧作業時，應穿戴何種呼吸防護器具？",
+      "options": {
+        "1": "空氣呼吸器",
+        "2": "氧氣急救器",
+        "3": "半面式防毒面罩",
+        "4": "口罩"
+      },
+      "answer": [
+        "1"
+      ],
+      "appearances": [
+        {
+          "year": "107",
+          "session": 1,
+          "no": 7
+        },
+        {
+          "year": "112",
+          "session": 1,
+          "no": 54
+        },
+        {
+          "year": "113",
+          "session": 2,
+          "no": 39
+        },
+        {
+          "year": "114",
+          "session": 3,
+          "no": 18
+        }
+      ]
+    },
+    {
+      "id": "b-01-048",
+      "category": "professional",
+      "subject": "工作項目01 職業安全衛生相關法規",
+      "type": "single",
+      "stem": "作業人員於工作中遭強酸（鹼）噴濺至身體時，應先採取下列何種措施？",
+      "options": {
+        "1": "立即召喚救護車緊急送醫院（或廠區醫護室處理）",
+        "2": "立即以清水沖洗30分鐘以上，脫掉衣服後送醫院救治",
+        "3": "立即塗佈灼傷藥膏",
+        "4": "立即吞食酸或鹼性中和藥劑"
+      },
+      "answer": [
+        "2"
+      ],
+      "appearances": [
+        {
+          "year": "107",
+          "session": 3,
+          "no": 19
+        },
+        {
+          "year": "113",
+          "session": 2,
+          "no": 54
+        },
+        {
+          "year": "115",
+          "session": 1,
+          "no": 23
+        }
+      ]
+    },
+    {
+      "id": "b-01-049",
+      "category": "professional",
+      "subject": "工作項目01 職業安全衛生相關法規",
+      "type": "single",
+      "stem": "依職業安全衛生設施規則規定，勞工噪音暴露工作日八小時內，任何時間不得暴露於超過115dBA之何種噪音？",
+      "options": {
+        "1": "連續性",
+        "2": "突發性",
+        "3": "衝擊性",
+        "4": "爆炸性"
+      },
+      "answer": [
+        "1"
+      ],
+      "appearances": [
+        {
+          "year": "110",
+          "session": 3,
+          "no": 11
+        }
+      ]
+    },
+    {
+      "id": "b-01-050",
+      "category": "professional",
+      "subject": "工作項目01 職業安全衛生相關法規",
+      "type": "single",
+      "stem": "依職業安全衛生設施規則規定，勞工從事刺激物、腐蝕性物質或毒性物質污染之工作場所，每多少人應設置一個冷熱水沖淋設備？",
+      "options": {
+        "1": "5",
+        "2": "10",
+        "3": "15",
+        "4": "30"
+      },
+      "answer": [
+        "3"
+      ],
+      "appearances": [
+        {
+          "year": "111",
+          "session": 2,
+          "no": 1
+        },
+        {
+          "year": "111",
+          "session": 3,
+          "no": 49
+        }
+      ]
+    },
+    {
+      "id": "b-01-051",
+      "category": "professional",
+      "subject": "工作項目01 職業安全衛生相關法規",
+      "type": "single",
+      "stem": "依職業安全衛生設施規則規定，如一般工作場所平均每一勞工佔有10立方公尺，則該場所每分鐘每一勞工所需之新鮮空氣為多少立方公尺以上？",
+      "options": {
+        "1": "0.14",
+        "2": "0.3",
+        "3": "0.4",
+        "4": "0.6"
+      },
+      "answer": [
+        "3"
+      ],
+      "appearances": [
+        {
+          "year": "108",
+          "session": 2,
+          "no": 2
+        },
+        {
+          "year": "110",
+          "session": 3,
+          "no": 59
+        },
+        {
+          "year": "114",
+          "session": 1,
+          "no": 21
+        },
+        {
+          "year": "114",
+          "session": 2,
+          "no": 46
+        }
+      ]
+    },
+    {
+      "id": "b-01-052",
+      "category": "professional",
+      "subject": "工作項目01 職業安全衛生相關法規",
+      "type": "single",
+      "stem": "依職業安全衛生管理辦法規定，下列何項設備每月應定期實施自動檢查1次？",
+      "options": {
+        "1": "第一種壓力容器",
+        "2": "第二種壓力容器",
+        "3": "小型鍋爐",
+        "4": "小型壓力容器"
+      },
+      "answer": [
+        "1"
+      ],
+      "appearances": [
+        {
+          "year": "111",
+          "session": 1,
+          "no": 57
+        }
+      ]
+    },
+    {
+      "id": "b-01-053",
+      "category": "professional",
+      "subject": "工作項目01 職業安全衛生相關法規",
+      "type": "single",
+      "stem": "依職業安全衛生管理辦法規定，雇主對升降機之終點極限開關，應多久實施定期檢查一次？",
+      "options": {
+        "1": "每日",
+        "2": "每週",
+        "3": "每月",
+        "4": "每年"
+      },
+      "answer": [
+        "3"
+      ],
+      "appearances": [
+        {
+          "year": "107",
+          "session": 1,
+          "no": 24
+        },
+        {
+          "year": "108",
+          "session": 3,
+          "no": 53
+        }
+      ]
+    },
+    {
+      "id": "b-01-054",
+      "category": "professional",
+      "subject": "工作項目01 職業安全衛生相關法規",
+      "type": "single",
+      "stem": "依職業安全衛生管理辦法規定，營造工程之施工架每隔多少時間應定期實施自動檢查一次？",
+      "options": {
+        "1": "每天",
+        "2": "每週",
+        "3": "每月",
+        "4": "每年"
+      },
+      "answer": [
+        "2"
+      ],
+      "appearances": [
+        {
+          "year": "113",
+          "session": 2,
+          "no": 9
+        }
+      ]
+    },
+    {
+      "id": "b-01-055",
+      "category": "professional",
+      "subject": "工作項目01 職業安全衛生相關法規",
+      "type": "single",
+      "stem": "依職業安全衛生管理辦法規定，下列何種機械設備需於初次使用前，實施重點檢查？",
+      "options": {
+        "1": "第一種壓力容器",
+        "2": "第二種壓力容器",
+        "3": "蒸汽鍋爐",
+        "4": "小型鍋爐"
+      },
+      "answer": [
+        "2"
+      ],
+      "appearances": [
+        {
+          "year": "107",
+          "session": 1,
+          "no": 59
+        },
+        {
+          "year": "110",
+          "session": 2,
+          "no": 19
+        },
+        {
+          "year": "111",
+          "session": 3,
+          "no": 43
+        },
+        {
+          "year": "113",
+          "session": 3,
+          "no": 8
+        },
+        {
+          "year": "114",
+          "session": 3,
+          "no": 33
+        },
+        {
+          "year": "115",
+          "session": 2,
+          "no": 7
+        }
+      ]
+    },
+    {
+      "id": "b-01-056",
+      "category": "professional",
+      "subject": "工作項目01 職業安全衛生相關法規",
+      "type": "single",
+      "stem": "依職業安全衛生管理辦法規定，雇主對固定式起重機於瞬間風速可能超過每秒多少公尺以上時，應實施各部安全狀況之檢點？",
+      "options": {
+        "1": "15",
+        "2": "20",
+        "3": "25",
+        "4": "30"
+      },
+      "answer": [
+        "4"
+      ],
+      "appearances": [
+        {
+          "year": "108",
+          "session": 1,
+          "no": 20
+        },
+        {
+          "year": "108",
+          "session": 3,
+          "no": 26
+        },
+        {
+          "year": "109",
+          "session": 2,
+          "no": 60
+        },
+        {
+          "year": "110",
+          "session": 2,
+          "no": 55
+        },
+        {
+          "year": "111",
+          "session": 2,
+          "no": 36
+        },
+        {
+          "year": "112",
+          "session": 3,
+          "no": 30
+        },
+        {
+          "year": "114",
+          "session": 1,
+          "no": 28
+        }
+      ]
+    },
+    {
+      "id": "b-01-057",
+      "category": "professional",
+      "subject": "工作項目01 職業安全衛生相關法規",
+      "type": "single",
+      "stem": "依職業安全衛生管理辦法規定，事業單位以其事業之全部或部分交付承攬時，如該承攬人使用之機械、設備或器具係由原事業單位提供者，該機械、設備或器具如無特別規定，應由下列何者實施定期檢查及重點檢查？",
+      "options": {
+        "1": "原事業單位",
+        "2": "承攬人",
+        "3": "再承攬人",
+        "4": "最後承攬人"
+      },
+      "answer": [
+        "1"
+      ],
+      "appearances": [
+        {
+          "year": "107",
+          "session": 2,
+          "no": 24
+        },
+        {
+          "year": "107",
+          "session": 3,
+          "no": 5
+        },
+        {
+          "year": "109",
+          "session": 1,
+          "no": 9
+        },
+        {
+          "year": "112",
+          "session": 1,
+          "no": 3
+        }
+      ]
+    },
+    {
+      "id": "b-01-058",
+      "category": "professional",
+      "subject": "工作項目01 職業安全衛生相關法規",
+      "type": "single",
+      "stem": "依職業安全衛生管理辦法之規定，雇主對移動式起重機，應於每日作業前對下列何種裝置之性能實施檢點？",
+      "options": {
+        "1": "過捲預防裝置",
+        "2": "鋼索及吊鏈",
+        "3": "吊鉤、抓斗等吊具",
+        "4": "集電裝置"
+      },
+      "answer": [
+        "1"
+      ],
+      "appearances": [
+        {
+          "year": "112",
+          "session": 2,
+          "no": 33
+        }
+      ]
+    },
+    {
+      "id": "b-01-059",
+      "category": "professional",
+      "subject": "工作項目01 職業安全衛生相關法規",
+      "type": "single",
+      "stem": "依職業安全衛生管理辦法規定，職業安全衛生委員會置委員7人以上，勞工代表應佔委員人數多少比例以上？",
+      "options": {
+        "1": "1/5",
+        "2": "1/4",
+        "3": "1/3",
+        "4": "1/2"
+      },
+      "answer": [
+        "3"
+      ],
+      "appearances": [
+        {
+          "year": "108",
+          "session": 1,
+          "no": 55
+        },
+        {
+          "year": "112",
+          "session": 2,
+          "no": 51
+        },
+        {
+          "year": "113",
+          "session": 1,
+          "no": 36
+        },
+        {
+          "year": "113",
+          "session": 2,
+          "no": 28
+        }
+      ]
+    },
+    {
+      "id": "b-01-060",
+      "category": "professional",
+      "subject": "工作項目01 職業安全衛生相關法規",
+      "type": "single",
+      "stem": "依職業安全衛生管理辦法規定，僱用勞工人數在一千人以上之事業，擔任職業安全衛生業務主管未具有職業安全管理師或職業安全衛生管理員資格者，應接受何種職業安全衛生業務主管安全衛生教育訓練？",
+      "options": {
+        "1": "甲",
+        "2": "乙",
+        "3": "丙",
+        "4": "丁"
+      },
+      "answer": [
+        "1"
+      ],
+      "appearances": [
+        {
+          "year": "114",
+          "session": 3,
+          "no": 8
+        }
+      ]
+    },
+    {
+      "id": "b-01-061",
+      "category": "professional",
+      "subject": "工作項目01 職業安全衛生相關法規",
+      "type": "single",
+      "stem": "依職業安全衛生管理辦法規定，下列何種人員具有職業安全管理師之資格？",
+      "options": {
+        "1": "曾任勞動檢查員具有工作經驗2年以上者",
+        "2": "國內專科以上學校工業安全衛生類科畢業者",
+        "3": "領有職業安全管理甲級技術士證照者",
+        "4": "具有職業衛生技師資格者"
+      },
+      "answer": [
+        "3"
+      ],
+      "appearances": [
+        {
+          "year": "110",
+          "session": 2,
+          "no": 29
+        },
+        {
+          "year": "112",
+          "session": 1,
+          "no": 26
+        },
+        {
+          "year": "112",
+          "session": 2,
+          "no": 35
+        },
+        {
+          "year": "113",
+          "session": 1,
+          "no": 58
+        },
+        {
+          "year": "114",
+          "session": "2颱風延期考區",
+          "no": 56
+        }
+      ]
+    },
+    {
+      "id": "b-01-062",
+      "category": "professional",
+      "subject": "工作項目01 職業安全衛生相關法規",
+      "type": "single",
+      "stem": "依職業安全衛生管理辦法規定，雇主對高壓氣體儲存能力在多少以上之儲槽，應每年定期測定其沉陷狀況一次？",
+      "options": {
+        "1": "50立方公尺",
+        "2": "100立方公尺",
+        "3": "0.5公噸",
+        "4": "0.8公噸"
+      },
+      "answer": [
+        "2"
+      ],
+      "appearances": []
+    },
+    {
+      "id": "b-01-063",
+      "category": "professional",
+      "subject": "工作項目01 職業安全衛生相關法規",
+      "type": "single",
+      "stem": "依勞工健康保護規則規定，勞工暴露工作日八小時日時量平均音壓級噪音在多少分貝以上之作業，為特別危害健康作業？",
+      "options": {
+        "1": "80",
+        "2": "85",
+        "3": "90",
+        "4": "95"
+      },
+      "answer": [
+        "2"
+      ],
+      "appearances": [
+        {
+          "year": "107",
+          "session": 3,
+          "no": 27
+        },
+        {
+          "year": "110",
+          "session": 2,
+          "no": 51
+        },
+        {
+          "year": "111",
+          "session": 3,
+          "no": 48
+        }
+      ]
+    },
+    {
+      "id": "b-01-064",
+      "category": "professional",
+      "subject": "工作項目01 職業安全衛生相關法規",
+      "type": "single",
+      "stem": "依勞工健康保護規則規定，事業單位從事特別危害健康作業勞工人數在多少人以上時，應聘專任護理人員1人以上？",
+      "options": {
+        "1": "100",
+        "2": "200",
+        "3": "300",
+        "4": "400"
+      },
+      "answer": [
+        "1"
+      ],
+      "appearances": [
+        {
+          "year": "111",
+          "session": 1,
+          "no": 19
+        },
+        {
+          "year": "115",
+          "session": 1,
+          "no": 46
+        },
+        {
+          "year": "115",
+          "session": 2,
+          "no": 3
+        }
+      ]
+    },
+    {
+      "id": "b-01-065",
+      "category": "professional",
+      "subject": "工作項目01 職業安全衛生相關法規",
+      "type": "single",
+      "stem": "依勞工健康保護規則規定，合格急救人員每一輪班次勞工人數未滿50人者設置1人，50人以上每滿多少人增設1人？",
+      "options": {
+        "1": "50",
+        "2": "100",
+        "3": "150",
+        "4": "200"
+      },
+      "answer": [
+        "1"
+      ],
+      "appearances": [
+        {
+          "year": "107",
+          "session": 2,
+          "no": 13
+        },
+        {
+          "year": "107",
+          "session": 3,
+          "no": 18
+        },
+        {
+          "year": "112",
+          "session": 3,
+          "no": 35
+        }
+      ]
+    },
+    {
+      "id": "b-01-066",
+      "category": "professional",
+      "subject": "工作項目01 職業安全衛生相關法規",
+      "type": "single",
+      "stem": "依勞工健康保護規則規定，一般健康檢查，勞工至少年滿多少歲者，應每3年定期檢查一次？",
+      "options": {
+        "1": "30",
+        "2": "35",
+        "3": "40",
+        "4": "45"
+      },
+      "answer": [
+        "3"
+      ],
+      "appearances": [
+        {
+          "year": "108",
+          "session": 1,
+          "no": 50
+        },
+        {
+          "year": "108",
+          "session": 2,
+          "no": 3
+        },
+        {
+          "year": "108",
+          "session": 3,
+          "no": 19
+        },
+        {
+          "year": "113",
+          "session": 3,
+          "no": 49
+        },
+        {
+          "year": "114",
+          "session": 3,
+          "no": 1
+        }
+      ]
+    },
+    {
+      "id": "b-01-067",
+      "category": "professional",
+      "subject": "工作項目01 職業安全衛生相關法規",
+      "type": "single",
+      "stem": "依勞工健康保護規則規定，特殊健康檢查結果部分或全部項目異常，經醫師綜合判定為部分或全部異常，而與工作無關者，屬於下列何級健康管理？",
+      "options": {
+        "1": "第一級",
+        "2": "第二級",
+        "3": "第三級",
+        "4": "第四級"
+      },
+      "answer": [
+        "2"
+      ],
+      "appearances": [
+        {
+          "year": "109",
+          "session": 1,
+          "no": 20
+        },
+        {
+          "year": "109",
+          "session": 2,
+          "no": 23
+        },
+        {
+          "year": "109",
+          "session": 3,
+          "no": 8
+        }
+      ]
+    },
+    {
+      "id": "b-01-068",
+      "category": "professional",
+      "subject": "工作項目01 職業安全衛生相關法規",
+      "type": "single",
+      "stem": "依勞工健康保護規則規定，從事噪音超過85分貝作業之勞工，應多久實施特殊健康檢查一次？",
+      "options": {
+        "1": "半年",
+        "2": "1年",
+        "3": "2年",
+        "4": "3年"
+      },
+      "answer": [
+        "2"
+      ],
+      "appearances": [
+        {
+          "year": "113",
+          "session": 3,
+          "no": 37
+        }
+      ]
+    },
+    {
+      "id": "b-01-069",
+      "category": "professional",
+      "subject": "工作項目01 職業安全衛生相關法規",
+      "type": "single",
+      "stem": "下列何者是勞動檢查法規定的危險性工作場所？",
+      "options": {
+        "1": "爆竹煙火工廠",
+        "2": "農藥包裝工作場所",
+        "3": "設置冷涷能力1日為10公噸之高壓氣體類壓力容器之工作場所",
+        "4": "製造、處置、使用氯氣之數量為1000公斤之工作場所"
+      },
+      "answer": [
+        "1"
+      ],
+      "appearances": [
+        {
+          "year": "107",
+          "session": 1,
+          "no": 9
+        },
+        {
+          "year": "109",
+          "session": 2,
+          "no": 55
+        }
+      ]
+    },
+    {
+      "id": "b-01-070",
+      "category": "professional",
+      "subject": "工作項目01 職業安全衛生相關法規",
+      "type": "single",
+      "stem": "依危險性工作場所審查及檢查辦法規定，從事石油產品之裂解反應，以製造石化基本原料之工作場所，應歸類為何種危險性工作場所？",
+      "options": {
+        "1": "甲類",
+        "2": "乙類",
+        "3": "丙類",
+        "4": "丁類"
+      },
+      "answer": [
+        "1"
+      ],
+      "appearances": [
+        {
+          "year": "107",
+          "session": 2,
+          "no": 9
+        },
+        {
+          "year": "107",
+          "session": 3,
+          "no": 38
+        },
+        {
+          "year": "111",
+          "session": 3,
+          "no": 11
+        }
+      ]
+    },
+    {
+      "id": "b-01-071",
+      "category": "professional",
+      "subject": "工作項目01 職業安全衛生相關法規",
+      "type": "single",
+      "stem": "依危險性工作場所審查及檢查辦法規定，有關事業單位甲類工作場所申請審查之程序，下列何者正確？",
+      "options": {
+        "1": "使勞工作業30日前，向當地勞動檢查機構申請檢查",
+        "2": "使勞工作業30日前，向當地勞動檢查機構申請審查",
+        "3": "使勞工作業45日前，向當地勞動檢查機構申請審查",
+        "4": "使勞工作業45日前，向當地勞動檢查機構申請審查及檢查"
+      },
+      "answer": [
+        "2"
+      ],
+      "appearances": [
+        {
+          "year": "109",
+          "session": 3,
+          "no": 41
+        }
+      ]
+    },
+    {
+      "id": "b-01-072",
+      "category": "professional",
+      "subject": "工作項目01 職業安全衛生相關法規",
+      "type": "single",
+      "stem": "依危險性工作場所審查及檢查辦法規定，勞動檢查機構對申請審查之丁類危險性工作場所應於受理申請後幾日內，將審查之結果以書面通知事業單位？",
+      "options": {
+        "1": "20",
+        "2": "30",
+        "3": "45",
+        "4": "60"
+      },
+      "answer": [
+        "2"
+      ],
+      "appearances": [
+        {
+          "year": "109",
+          "session": 1,
+          "no": 5
+        },
+        {
+          "year": "114",
+          "session": 3,
+          "no": 5
+        }
+      ]
+    },
+    {
+      "id": "b-01-073",
+      "category": "professional",
+      "subject": "工作項目01 職業安全衛生相關法規",
+      "type": "single",
+      "stem": "依危險性工作場所審查及檢查辦法規定，事業單位有兩個以上場所從事製造、處置、使用危險物、有害物時，其數量依規定在多少公尺距離以內者，應合併計算？",
+      "options": {
+        "1": "100",
+        "2": "500",
+        "3": "1000",
+        "4": "5000"
+      },
+      "answer": [
+        "2"
+      ],
+      "appearances": [
+        {
+          "year": "107",
+          "session": 3,
+          "no": 54
+        },
+        {
+          "year": "111",
+          "session": 1,
+          "no": 24
+        },
+        {
+          "year": "114",
+          "session": "2颱風延期考區",
+          "no": 43
+        },
+        {
+          "year": "115",
+          "session": 1,
+          "no": 43
+        }
+      ]
+    },
+    {
+      "id": "b-01-074",
+      "category": "professional",
+      "subject": "工作項目01 職業安全衛生相關法規",
+      "type": "single",
+      "stem": "依危險性工作場所審查及檢查辦法規定，甲類、乙類、丙類危險性工作場所經審查、檢查合格後，應於製程修改時或至少每幾年依當初申請審查、檢查檢附之資料重新評估1次？",
+      "options": {
+        "1": "3",
+        "2": "5",
+        "3": "7",
+        "4": "10"
+      },
+      "answer": [
+        "2"
+      ],
+      "appearances": [
+        {
+          "year": "108",
+          "session": 1,
+          "no": 18
+        },
+        {
+          "year": "109",
+          "session": 3,
+          "no": 54
+        },
+        {
+          "year": "114",
+          "session": 2,
+          "no": 1
+        }
+      ]
+    },
+    {
+      "id": "b-01-075",
+      "category": "professional",
+      "subject": "工作項目01 職業安全衛生相關法規",
+      "type": "single",
+      "stem": "依危險性工作場所審查及檢查辦法規定，勞動檢查機構對申請審查及檢查之乙類危險性工作場所，應於受理申請後幾日內將審查之結果，以書面通知事業單位？",
+      "options": {
+        "1": "20",
+        "2": "30",
+        "3": "45",
+        "4": "60"
+      },
+      "answer": [
+        "3"
+      ],
+      "appearances": [
+        {
+          "year": "108",
+          "session": 1,
+          "no": 11
+        },
+        {
+          "year": "111",
+          "session": 1,
+          "no": 13
+        },
+        {
+          "year": "112",
+          "session": 1,
+          "no": 13
+        }
+      ]
+    },
+    {
+      "id": "b-01-076",
+      "category": "professional",
+      "subject": "工作項目01 職業安全衛生相關法規",
+      "type": "single",
+      "stem": "依危險性工作場所審查及檢查辦法規定，從事高度在80公尺以上建築工程之工作場所，屬下列何種危險性工作場所？",
+      "options": {
+        "1": "甲類",
+        "2": "乙類",
+        "3": "丙類",
+        "4": "丁類"
+      },
+      "answer": [
+        "4"
+      ],
+      "appearances": []
+    },
+    {
+      "id": "b-01-077",
+      "category": "professional",
+      "subject": "工作項目01 職業安全衛生相關法規",
+      "type": "single",
+      "stem": "有關職業安全衛生管理辦法之敘述，下列何者正確？",
+      "options": {
+        "1": "營造工程之原事業單位已設置職業安全衛生管理人員，其承攬人及再承攬人即可免重複設置",
+        "2": "事業單位應依勞工人數設置職業安全衛生人員",
+        "3": "領班應釐訂職業安全衛生計畫，並指導有關部門實施",
+        "4": "工地主任對事業雖無經營管理權限，但事業單位之職業安全衛生管理依法仍由工地主任綜理負責"
+      },
+      "answer": [
+        "2"
+      ],
+      "appearances": []
+    },
+    {
+      "id": "b-01-078",
+      "category": "professional",
+      "subject": "工作項目01 職業安全衛生相關法規",
+      "type": "single",
+      "stem": "依危險性工作場所審查及檢查辦法規定，事業單位應於甲類危險性工作場所使勞工工作幾日前，向當地勞動檢查機構申請檢查？",
+      "options": {
+        "1": "20",
+        "2": "30",
+        "3": "40",
+        "4": "45"
+      },
+      "answer": [
+        "2"
+      ],
+      "appearances": [
+        {
+          "year": "108",
+          "session": 3,
+          "no": 33
+        },
+        {
+          "year": "110",
+          "session": 3,
+          "no": 42
+        },
+        {
+          "year": "112",
+          "session": 2,
+          "no": 25
+        },
+        {
+          "year": "115",
+          "session": 2,
+          "no": 48
+        }
+      ]
+    },
+    {
+      "id": "b-01-079",
+      "category": "professional",
+      "subject": "工作項目01 職業安全衛生相關法規",
+      "type": "single",
+      "stem": "依危險性工作場所審查及檢查辦法規定，對工程內容較複雜、工期較長、施工條件變動性大等特殊情況之丁類危險性工作場所，得報經下列何單位同意後，分段申請審查？",
+      "options": {
+        "1": "地方主管機關",
+        "2": "公共工程委員會",
+        "3": "工程主辦機關",
+        "4": "勞動檢查機構"
+      },
+      "answer": [
+        "4"
+      ],
+      "appearances": [
+        {
+          "year": "108",
+          "session": 1,
+          "no": 47
+        },
+        {
+          "year": "111",
+          "session": 1,
+          "no": 38
+        },
+        {
+          "year": "113",
+          "session": 1,
+          "no": 32
+        }
+      ]
+    },
+    {
+      "id": "b-01-080",
+      "category": "professional",
+      "subject": "工作項目01 職業安全衛生相關法規",
+      "type": "single",
+      "stem": "依危險性工作場所審查及檢查辦法規定，事業單位應於乙、丙類危險性工作場所使勞工工作幾日前，向當地勞動檢查機構申請審查及檢查？",
+      "options": {
+        "1": "20",
+        "2": "30",
+        "3": "40",
+        "4": "45"
+      },
+      "answer": [
+        "4"
+      ],
+      "appearances": [
+        {
+          "year": "107",
+          "session": 1,
+          "no": 45
+        },
+        {
+          "year": "109",
+          "session": 3,
+          "no": 6
+        }
+      ]
+    },
+    {
+      "id": "b-01-081",
+      "category": "professional",
+      "subject": "工作項目01 職業安全衛生相關法規",
+      "type": "single",
+      "stem": "依營造安全衛生設施標準規定，以活動式踏板構築施工架之工作臺時，支撐點至少應在幾處以上？",
+      "options": {
+        "1": "2",
+        "2": "3",
+        "3": "4",
+        "4": "5"
+      },
+      "answer": [
+        "2"
+      ],
+      "appearances": [
+        {
+          "year": "114",
+          "session": 2,
+          "no": 40
+        }
+      ]
+    },
+    {
+      "id": "b-01-082",
+      "category": "professional",
+      "subject": "工作項目01 職業安全衛生相關法規",
+      "type": "single",
+      "stem": "依營造安全衛生設施標準規定，使用於輕型懸吊式施工架上之懸吊鋼索，其安全係數應在多少以上？",
+      "options": {
+        "1": "2.5",
+        "2": "5",
+        "3": "7.5",
+        "4": "10"
+      },
+      "answer": [
+        "4"
+      ],
+      "appearances": [
+        {
+          "year": "111",
+          "session": 1,
+          "no": 25
+        },
+        {
+          "year": "112",
+          "session": 1,
+          "no": 34
+        },
+        {
+          "year": "114",
+          "session": 1,
+          "no": 40
+        }
+      ]
+    },
+    {
+      "id": "b-01-083",
+      "category": "professional",
+      "subject": "工作項目01 職業安全衛生相關法規",
+      "type": "single",
+      "stem": "依機械設備器具安全資訊申報登錄辦法規定，資訊申報登錄未符規定者，補正總日數不得超過幾日？",
+      "options": {
+        "1": "15",
+        "2": "30",
+        "3": "45",
+        "4": "60"
+      },
+      "answer": [
+        "4"
+      ],
+      "appearances": [
+        {
+          "year": "113",
+          "session": 1,
+          "no": 30
+        },
+        {
+          "year": "113",
+          "session": 3,
+          "no": 5
+        }
+      ]
+    },
+    {
+      "id": "b-01-084",
+      "category": "professional",
+      "subject": "工作項目01 職業安全衛生相關法規",
+      "type": "single",
+      "stem": "依營造安全衛生設施標準規定，使用圓竹或單管式之鋼管構築施工架時，其立柱之間距不得超過多少公尺？",
+      "options": {
+        "1": "1.8",
+        "2": "2.2",
+        "3": "2.8",
+        "4": "3.2"
+      },
+      "answer": [
+        "1"
+      ],
+      "appearances": [
+        {
+          "year": "114",
+          "session": "2颱風延期考區",
+          "no": 41
+        }
+      ]
+    },
+    {
+      "id": "b-01-085",
+      "category": "professional",
+      "subject": "工作項目01 職業安全衛生相關法規",
+      "type": "single",
+      "stem": "依營造安全衛生設施標準規定，露天開挖垂直深度在多少公尺以上，即應設擋土支撐？",
+      "options": {
+        "1": "1.0",
+        "2": "1.5",
+        "3": "2.0",
+        "4": "2.5"
+      },
+      "answer": [
+        "2"
+      ],
+      "appearances": [
+        {
+          "year": "109",
+          "session": 3,
+          "no": 15
+        },
+        {
+          "year": "111",
+          "session": 3,
+          "no": 23
+        },
+        {
+          "year": "113",
+          "session": 1,
+          "no": 2
+        },
+        {
+          "year": "114",
+          "session": 2,
+          "no": 31
+        }
+      ]
+    },
+    {
+      "id": "b-01-086",
+      "category": "professional",
+      "subject": "工作項目01 職業安全衛生相關法規",
+      "type": "single",
+      "stem": "依營造安全衛生設施標準規定，露天開挖最大深度如果為5公尺時，則開挖出之土石不得堆積於距離坡肩多少公尺範圍內？",
+      "options": {
+        "1": "5",
+        "2": "10",
+        "3": "15",
+        "4": "20"
+      },
+      "answer": [
+        "1"
+      ],
+      "appearances": [
+        {
+          "year": "113",
+          "session": 1,
+          "no": 28
+        },
+        {
+          "year": "113",
+          "session": 3,
+          "no": 51
+        },
+        {
+          "year": "114",
+          "session": 3,
+          "no": 47
+        },
+        {
+          "year": "115",
+          "session": 1,
+          "no": 47
+        }
+      ]
+    },
+    {
+      "id": "b-01-087",
+      "category": "professional",
+      "subject": "工作項目01 職業安全衛生相關法規",
+      "type": "single",
+      "stem": "依營造安全衛生設施標準規定，鋼構組配作業時，最高永久性樓板層上不得有超過幾層樓以上之鋼構未鉚接、熔接或螺栓栓緊者？",
+      "options": {
+        "1": "2",
+        "2": "3",
+        "3": "4",
+        "4": "5"
+      },
+      "answer": [
+        "3"
+      ],
+      "appearances": [
+        {
+          "year": "110",
+          "session": 2,
+          "no": 40
+        },
+        {
+          "year": "111",
+          "session": 3,
+          "no": 55
+        }
+      ]
+    },
+    {
+      "id": "b-01-088",
+      "category": "professional",
+      "subject": "工作項目01 職業安全衛生相關法規",
+      "type": "single",
+      "stem": "依營造安全衛生設施標準規定，使用重力錘拆除建築物時，所設置之安全區，其距離為距撞擊點多少倍建築物高度？",
+      "options": {
+        "1": "1.0",
+        "2": "1.5",
+        "3": "2.0",
+        "4": "2.5"
+      },
+      "answer": [
+        "2"
+      ],
+      "appearances": [
+        {
+          "year": "110",
+          "session": 3,
+          "no": 35
+        }
+      ]
+    },
+    {
+      "id": "b-01-089",
+      "category": "professional",
+      "subject": "工作項目01 職業安全衛生相關法規",
+      "type": "single",
+      "stem": "依營造安全衛生設施標準規定，為防止模板支撐之支柱的移動，應設置下列何種構件？",
+      "options": {
+        "1": "鋼製頂板",
+        "2": "螺栓",
+        "3": "水平繫條",
+        "4": "牽引板"
+      },
+      "answer": [
+        "3"
+      ],
+      "appearances": []
+    },
+    {
+      "id": "b-01-090",
+      "category": "professional",
+      "subject": "工作項目01 職業安全衛生相關法規",
+      "type": "single",
+      "stem": "依營造安全衛生設施標準規定，獨立之施工架在該架最後拆除前，至少應有多少比例之踏腳桁不得移動，並使之與橫檔或立柱紮牢？",
+      "options": {
+        "1": "1/5",
+        "2": "1/4",
+        "3": "1/3",
+        "4": "1/2"
+      },
+      "answer": [
+        "3"
+      ],
+      "appearances": [
+        {
+          "year": "113",
+          "session": 2,
+          "no": 35
+        }
+      ]
+    },
+    {
+      "id": "b-01-091",
+      "category": "professional",
+      "subject": "工作項目01 職業安全衛生相關法規",
+      "type": "single",
+      "stem": "依營造安全衛生設施標準之規定，安全帶或安全母索繫固之錨錠，至少應能承受每人多少公斤以上之拉力？",
+      "options": {
+        "1": "1200",
+        "2": "1300",
+        "3": "2200",
+        "4": "2300"
+      },
+      "answer": [
+        "4"
+      ],
+      "appearances": [
+        {
+          "year": "109",
+          "session": 2,
+          "no": 50
+        }
+      ]
+    },
+    {
+      "id": "b-01-092",
+      "category": "professional",
+      "subject": "工作項目01 職業安全衛生相關法規",
+      "type": "single",
+      "stem": "依營造安全衛生設施標準規定，雇主對於置放於高處，位能超過多少公斤‧公尺之物件有飛落之虞者，應予以固定之？",
+      "options": {
+        "1": "12",
+        "2": "14",
+        "3": "16",
+        "4": "18"
+      },
+      "answer": [
+        "1"
+      ],
+      "appearances": []
+    },
+    {
+      "id": "b-01-093",
+      "category": "professional",
+      "subject": "工作項目01 職業安全衛生相關法規",
+      "type": "single",
+      "stem": "依營造安全衛生設施標準規定，雇主對於高度在多少公尺以上之吊料平臺構築，應由專任工程人員或委由相關執業技師事先以預期施工時之最大荷重，依結構力學原理妥為設計",
+      "options": {
+        "1": "3",
+        "2": "5",
+        "3": "7",
+        "4": "9"
+      },
+      "answer": [
+        "3"
+      ],
+      "appearances": []
+    },
+    {
+      "id": "b-01-094",
+      "category": "professional",
+      "subject": "工作項目01 職業安全衛生相關法規",
+      "type": "single",
+      "stem": "依職業安全衛生設施規則規定，雇主對於架設之通道屬營建使用之階梯，其高度超過多少公尺以上時，每隔7公尺內設置平台一處？",
+      "options": {
+        "1": "8",
+        "2": "9",
+        "3": "10",
+        "4": "12"
+      },
+      "answer": [
+        "1"
+      ],
+      "appearances": [
+        {
+          "year": "111",
+          "session": 2,
+          "no": 57
+        },
+        {
+          "year": "112",
+          "session": 1,
+          "no": 48
+        }
+      ]
+    },
+    {
+      "id": "b-01-095",
+      "category": "professional",
+      "subject": "工作項目01 職業安全衛生相關法規",
+      "type": "single",
+      "stem": "依營造安全衛生設施標準規定，雇主對於框式鋼管式施工架之構築，其最上層及每隔幾層應設置水平梁？",
+      "options": {
+        "1": "3",
+        "2": "4",
+        "3": "5",
+        "4": "6"
+      },
+      "answer": [
+        "3"
+      ],
+      "appearances": [
+        {
+          "year": "110",
+          "session": 1,
+          "no": 55
+        },
+        {
+          "year": "110",
+          "session": 3,
+          "no": 60
+        },
+        {
+          "year": "114",
+          "session": "2颱風延期考區",
+          "no": 12
+        }
+      ]
+    },
+    {
+      "id": "b-01-096",
+      "category": "professional",
+      "subject": "工作項目01 職業安全衛生相關法規",
+      "type": "single",
+      "stem": "在常用溫度下，表壓力達每平方公分幾公斤以上之壓縮乙炔氣，係屬高壓氣體勞工安全規則所稱之高壓氣體？",
+      "options": {
+        "1": "1",
+        "2": "2",
+        "3": "5",
+        "4": "10"
+      },
+      "answer": [
+        "2"
+      ],
+      "appearances": [
+        {
+          "year": "107",
+          "session": 3,
+          "no": 26
+        },
+        {
+          "year": "110",
+          "session": 1,
+          "no": 7
+        },
+        {
+          "year": "111",
+          "session": 2,
+          "no": 47
+        },
+        {
+          "year": "112",
+          "session": 2,
+          "no": 24
+        },
+        {
+          "year": "114",
+          "session": 1,
+          "no": 55
+        }
+      ]
+    },
+    {
+      "id": "b-01-097",
+      "category": "professional",
+      "subject": "工作項目01 職業安全衛生相關法規",
+      "type": "single",
+      "stem": "高壓氣體勞工安全規則所稱超低溫容器，係指可灌裝攝氏零下幾度以下之液化氣體，並使用絕熱材料被覆，使容器內氣體溫度不致上升至超過常用溫度之容器？",
+      "options": {
+        "1": "30",
+        "2": "50",
+        "3": "100",
+        "4": "150"
+      },
+      "answer": [
+        "2"
+      ],
+      "appearances": [
+        {
+          "year": "113",
+          "session": 2,
+          "no": 50
+        }
+      ]
+    },
+    {
+      "id": "b-01-098",
+      "category": "professional",
+      "subject": "工作項目01 職業安全衛生相關法規",
+      "type": "single",
+      "stem": "依高壓氣體勞工安全規則規定，高壓氣體設備（容器及中央主管機關規定者外）應具有以常用壓力幾倍以上壓力加壓時，不致引起降伏變形之厚度或經中央主管機關認定具有同等以上強度者？",
+      "options": {
+        "1": "1.5",
+        "2": "2",
+        "3": "3",
+        "4": "5"
+      },
+      "answer": [
+        "2"
+      ],
+      "appearances": [
+        {
+          "year": "109",
+          "session": 2,
+          "no": 33
+        },
+        {
+          "year": "110",
+          "session": 3,
+          "no": 50
+        },
+        {
+          "year": "114",
+          "session": 3,
+          "no": 37
+        }
+      ]
+    },
+    {
+      "id": "b-01-099",
+      "category": "professional",
+      "subject": "工作項目01 職業安全衛生相關法規",
+      "type": "single",
+      "stem": "依高壓氣體勞工安全規則規定，乙炔、乙烯及氫氣中含氧容量，佔全容量之百分之幾以上者不得予以壓縮？",
+      "options": {
+        "1": "1",
+        "2": "2",
+        "3": "3",
+        "4": "4"
+      },
+      "answer": [
+        "2"
+      ],
+      "appearances": []
+    },
+    {
+      "id": "b-01-100",
+      "category": "professional",
+      "subject": "工作項目01 職業安全衛生相關法規",
+      "type": "single",
+      "stem": "依高壓氣體勞工安全規則規定，製造壓力超過每平方公分幾公斤之壓縮乙炔時，應添加稀釋劑？",
+      "options": {
+        "1": "2",
+        "2": "10",
+        "3": "25",
+        "4": "30"
+      },
+      "answer": [
+        "3"
+      ],
+      "appearances": [
+        {
+          "year": "109",
+          "session": 1,
+          "no": 14
+        },
+        {
+          "year": "109",
+          "session": 3,
+          "no": 23
+        },
+        {
+          "year": "110",
+          "session": 1,
+          "no": 44
+        },
+        {
+          "year": "112",
+          "session": 2,
+          "no": 54
+        }
+      ]
+    },
+    {
+      "id": "b-01-101",
+      "category": "professional",
+      "subject": "工作項目01 職業安全衛生相關法規",
+      "type": "single",
+      "stem": "依高壓氣體勞工安全規則規定，埋設於地盤內之液化石油氣儲槽，其頂部至少應距離地面幾公分？",
+      "options": {
+        "1": "30",
+        "2": "60",
+        "3": "100",
+        "4": "150"
+      },
+      "answer": [
+        "2"
+      ],
+      "appearances": [
+        {
+          "year": "110",
+          "session": 1,
+          "no": 53
+        },
+        {
+          "year": "113",
+          "session": 1,
+          "no": 53
+        }
+      ]
+    },
+    {
+      "id": "b-01-102",
+      "category": "professional",
+      "subject": "工作項目01 職業安全衛生相關法規",
+      "type": "single",
+      "stem": "依高壓氣體勞工安全規則規定，設置於內容積在五千公升以上之可燃性氣體、毒性氣體或氧氣等之液化氣體儲槽之配管，應設置距離該儲槽外側幾公尺以上可操作之緊急遮斷裝置，但僅用於接受液態之可燃性氣體、毒性氣體或氧氣之配管者，得以逆止閥代替？",
+      "options": {
+        "1": "1",
+        "2": "5",
+        "3": "10",
+        "4": "20"
+      },
+      "answer": [
+        "2"
+      ],
+      "appearances": [
+        {
+          "year": "111",
+          "session": 3,
+          "no": 36
+        },
+        {
+          "year": "112",
+          "session": 3,
+          "no": 38
+        }
+      ]
+    },
+    {
+      "id": "b-01-103",
+      "category": "professional",
+      "subject": "工作項目01 職業安全衛生相關法規",
+      "type": "single",
+      "stem": "依高壓氣體勞工安全規則規定，加氣站液化石油氣之灌裝，應添加當液化石油氣漏洩於空氣中之含量達多少比例即可察覺臭味之臭劑？",
+      "options": {
+        "1": "千分之一",
+        "2": "二千分之一",
+        "3": "三千分之一",
+        "4": "五千分之一"
+      },
+      "answer": [
+        "1"
+      ],
+      "appearances": [
+        {
+          "year": "110",
+          "session": 1,
+          "no": 21
+        },
+        {
+          "year": "112",
+          "session": 3,
+          "no": 40
+        }
+      ]
+    },
+    {
+      "id": "b-01-104",
+      "category": "professional",
+      "subject": "工作項目01 職業安全衛生相關法規",
+      "type": "single",
+      "stem": "依高壓氣體勞工安全規則規定，氰化氫之灌氣容器，應於灌裝後靜置幾小時以上，確認無氣體之漏洩後，於其容器外面張貼載明有製造年月日之貼籤？",
+      "options": {
+        "1": "10",
+        "2": "15",
+        "3": "24",
+        "4": "48"
+      },
+      "answer": [
+        "3"
+      ],
+      "appearances": [
+        {
+          "year": "107",
+          "session": 3,
+          "no": 56
+        },
+        {
+          "year": "110",
+          "session": 2,
+          "no": 22
+        },
+        {
+          "year": "113",
+          "session": 3,
+          "no": 36
+        }
+      ]
+    },
+    {
+      "id": "b-01-105",
+      "category": "professional",
+      "subject": "工作項目01 職業安全衛生相關法規",
+      "type": "single",
+      "stem": "依職業安全衛生設施規則規定，一般辦公場所之人工照明，其照度至少為多少米燭光？",
+      "options": {
+        "1": "100",
+        "2": "200",
+        "3": "300",
+        "4": "500"
+      },
+      "answer": [
+        "3"
+      ],
+      "appearances": [
+        {
+          "year": "107",
+          "session": 1,
+          "no": 40
+        },
+        {
+          "year": "108",
+          "session": 1,
+          "no": 41
+        },
+        {
+          "year": "108",
+          "session": 2,
+          "no": 49
+        },
+        {
+          "year": "109",
+          "session": 1,
+          "no": 38
+        },
+        {
+          "year": "111",
+          "session": 2,
+          "no": 54
+        },
+        {
+          "year": "114",
+          "session": 3,
+          "no": 16
+        }
+      ]
+    },
+    {
+      "id": "b-01-106",
+      "category": "professional",
+      "subject": "工作項目01 職業安全衛生相關法規",
+      "type": "single",
+      "stem": "依高壓氣體勞工安全規則規定，對高壓氣體之製造，於其生成、分離、精煉、反應、混合、加壓或減壓過程中，附設於安全閥或釋放閥之停止閥，應維持在何種狀態？",
+      "options": {
+        "1": "全開放",
+        "2": "半開放",
+        "3": "三分之一開放",
+        "4": "全關閉"
+      },
+      "answer": [
+        "1"
+      ],
+      "appearances": [
+        {
+          "year": "109",
+          "session": 1,
+          "no": 25
+        },
+        {
+          "year": "111",
+          "session": 2,
+          "no": 43
+        },
+        {
+          "year": "114",
+          "session": "2颱風延期考區",
+          "no": 52
+        }
+      ]
+    },
+    {
+      "id": "b-01-107",
+      "category": "professional",
+      "subject": "工作項目01 職業安全衛生相關法規",
+      "type": "single",
+      "stem": "依高壓氣體勞工安全規則規定，下列何者同時具有毒性與可燃性？",
+      "options": {
+        "1": "甲烷",
+        "2": "氟",
+        "3": "二甲醚",
+        "4": "硫化氫"
+      },
+      "answer": [
+        "4"
+      ],
+      "appearances": [
+        {
+          "year": "108",
+          "session": 1,
+          "no": 39
+        },
+        {
+          "year": "108",
+          "session": 2,
+          "no": 45
+        },
+        {
+          "year": "108",
+          "session": 3,
+          "no": 27
+        },
+        {
+          "year": "111",
+          "session": 3,
+          "no": 45
+        },
+        {
+          "year": "113",
+          "session": 1,
+          "no": 12
+        }
+      ]
+    },
+    {
+      "id": "b-01-108",
+      "category": "professional",
+      "subject": "工作項目01 職業安全衛生相關法規",
+      "type": "single",
+      "stem": "依高壓氣體勞工安全規則規定，供進行反應、分離、精煉、蒸餾等製程之塔之高壓氣體設備，以其最高位正切線至最低位正切線間之長度在幾公尺以上者，應具能承受地震影響之耐震構造？",
+      "options": {
+        "1": "2",
+        "2": "3",
+        "3": "4",
+        "4": "5"
+      },
+      "answer": [
+        "4"
+      ],
+      "appearances": [
+        {
+          "year": "108",
+          "session": 2,
+          "no": 54
+        },
+        {
+          "year": "110",
+          "session": 2,
+          "no": 14
+        },
+        {
+          "year": "110",
+          "session": 3,
+          "no": 44
+        }
+      ]
+    },
+    {
+      "id": "b-01-109",
+      "category": "professional",
+      "subject": "工作項目01 職業安全衛生相關法規",
+      "type": "single",
+      "stem": "危險性機械及設備安全檢查規則中所適用之營建用提升機，係指導軌或升降路之高度在多少公尺以上之營建用提升機？",
+      "options": {
+        "1": "5",
+        "2": "10",
+        "3": "15",
+        "4": "20"
+      },
+      "answer": [
+        "4"
+      ],
+      "appearances": [
+        {
+          "year": "107",
+          "session": 3,
+          "no": 46
+        },
+        {
+          "year": "109",
+          "session": 2,
+          "no": 36
+        },
+        {
+          "year": "113",
+          "session": 2,
+          "no": 11
+        }
+      ]
+    },
+    {
+      "id": "b-01-110",
+      "category": "professional",
+      "subject": "工作項目01 職業安全衛生相關法規",
+      "type": "single",
+      "stem": "危險性機械及設備安全檢查規則中所適用之第一種壓力容器，如以「每平方公分之公斤數」單位所表示之最高使用壓力數值與以「立方公尺」單位所表示之內容積數值，兩者乘積值多少以上？",
+      "options": {
+        "1": "0.2",
+        "2": "0.4",
+        "3": "0.6",
+        "4": "1.0"
+      },
+      "answer": [
+        "1"
+      ],
+      "appearances": [
+        {
+          "year": "108",
+          "session": 2,
+          "no": 59
+        },
+        {
+          "year": "114",
+          "session": 2,
+          "no": 4
+        }
+      ]
+    },
+    {
+      "id": "b-01-111",
+      "category": "professional",
+      "subject": "工作項目01 職業安全衛生相關法規",
+      "type": "single",
+      "stem": "危險性機械及設備安全檢查規則中所適用之熱媒鍋爐，係指水頭壓力超過10公尺，或傳熱面積超過多少平方公尺之熱媒鍋爐？",
+      "options": {
+        "1": "4",
+        "2": "6",
+        "3": "8",
+        "4": "10"
+      },
+      "answer": [
+        "3"
+      ],
+      "appearances": []
+    },
+    {
+      "id": "b-01-112",
+      "category": "professional",
+      "subject": "工作項目01 職業安全衛生相關法規",
+      "type": "single",
+      "stem": "危險性機械及設備安全檢查規則中所適用之高壓氣體容器，係指供灌裝高壓氣體之容器中，相對於地面可移動，其內容積在幾公升以上者？",
+      "options": {
+        "1": "300",
+        "2": "400",
+        "3": "500",
+        "4": "600"
+      },
+      "answer": [
+        "3"
+      ],
+      "appearances": [
+        {
+          "year": "108",
+          "session": 2,
+          "no": 11
+        }
+      ]
+    },
+    {
+      "id": "b-01-113",
+      "category": "professional",
+      "subject": "工作項目01 職業安全衛生相關法規",
+      "type": "single",
+      "stem": "依危險性機械及設備安全檢查規則規定，固定式起重機竣工檢查中之安定性試驗，係將相當於額定荷重多少倍之荷重置於吊具上，且使該起重機於前方操作之最不利安定之條件下實施，並停止其逸走防止裝置、軌夾裝置等之使用？",
+      "options": {
+        "1": "1.2",
+        "2": "1.25",
+        "3": "1.27",
+        "4": "1.3"
+      },
+      "answer": [
+        "3"
+      ],
+      "appearances": [
+        {
+          "year": "107",
+          "session": 1,
+          "no": 11
+        },
+        {
+          "year": "109",
+          "session": 3,
+          "no": 26
+        },
+        {
+          "year": "113",
+          "session": 3,
+          "no": 33
+        }
+      ]
+    },
+    {
+      "id": "b-01-114",
+      "category": "professional",
+      "subject": "工作項目01 職業安全衛生相關法規",
+      "type": "single",
+      "stem": "依危險性機械及設備安全檢查規則規定，雇主於移動式起重機檢查合格證有效期限屆滿前幾個月，應填具移動式起重機定期檢查申請書申請定期檢查；逾期未申請檢查或檢查不合格者，不得繼續使用？",
+      "options": {
+        "1": "1",
+        "2": "2",
+        "3": "3",
+        "4": "4"
+      },
+      "answer": [
+        "1"
+      ],
+      "appearances": [
+        {
+          "year": "108",
+          "session": 2,
+          "no": 40
+        },
+        {
+          "year": "109",
+          "session": 2,
+          "no": 41
+        },
+        {
+          "year": "110",
+          "session": 1,
+          "no": 27
+        }
+      ]
+    },
+    {
+      "id": "b-01-115",
+      "category": "professional",
+      "subject": "工作項目01 職業安全衛生相關法規",
+      "type": "single",
+      "stem": "依危險性機械及設備安全檢查規則規定，雇主對於停用超過檢查合格證有效期限幾個月以上之營建用提升機，如擬恢復使用時，應填具重新檢查申請書，向檢查機構申請重新檢查？",
+      "options": {
+        "1": "6",
+        "2": "8",
+        "3": "10",
+        "4": "12"
+      },
+      "answer": [
+        "4"
+      ],
+      "appearances": [
+        {
+          "year": "109",
+          "session": 3,
+          "no": 31
+        },
+        {
+          "year": "111",
+          "session": 1,
+          "no": 12
+        },
+        {
+          "year": "115",
+          "session": 2,
+          "no": 23
+        }
+      ]
+    },
+    {
+      "id": "b-01-116",
+      "category": "professional",
+      "subject": "工作項目01 職業安全衛生相關法規",
+      "type": "single",
+      "stem": "依危險性機械及設備安全檢查規則規定，雇主欲變更吊籠升降、制動或控制裝置時，應申請何種檢查？",
+      "options": {
+        "1": "型式檢查",
+        "2": "使用檢查",
+        "3": "竣工檢查",
+        "4": "變更檢查"
+      },
+      "answer": [
+        "4"
+      ],
+      "appearances": [
+        {
+          "year": "107",
+          "session": 1,
+          "no": 23
+        },
+        {
+          "year": "108",
+          "session": 3,
+          "no": 54
+        },
+        {
+          "year": "109",
+          "session": 1,
+          "no": 58
+        },
+        {
+          "year": "114",
+          "session": "2颱風延期考區",
+          "no": 5
+        },
+        {
+          "year": "115",
+          "session": 1,
+          "no": 12
+        },
+        {
+          "year": "115",
+          "session": 2,
+          "no": 26
+        }
+      ]
+    },
+    {
+      "id": "b-01-117",
+      "category": "professional",
+      "subject": "工作項目01 職業安全衛生相關法規",
+      "type": "single",
+      "stem": "依危險性機械及設備安全檢查規則規定，雇主對於第一種壓力容器如無法依規定期限實施內部檢查時，得於內部檢查有效期限屆滿前幾個月，檢附所有規定資料，報經檢查機構核定後，延長其內部檢查期限或以其他檢查方式替代？",
+      "options": {
+        "1": "1",
+        "2": "2",
+        "3": "3",
+        "4": "6"
+      },
+      "answer": [
+        "3"
+      ],
+      "appearances": [
+        {
+          "year": "107",
+          "session": 1,
+          "no": 21
+        },
+        {
+          "year": "111",
+          "session": 3,
+          "no": 53
+        },
+        {
+          "year": "112",
+          "session": 1,
+          "no": 57
+        }
+      ]
+    },
+    {
+      "id": "b-01-118",
+      "category": "professional",
+      "subject": "工作項目01 職業安全衛生相關法規",
+      "type": "single",
+      "stem": "依危險性機械及設備安全檢查規則規定，第一種壓力容器經大修改致其胴體或集管器變動多少以上、或端板、管板之全部修改或頂蓋板、補強支撐等有變動者，所有人或雇主應向所在地檢查機構申請變更檢查？",
+      "options": {
+        "1": "五分之一",
+        "2": "四分之一",
+        "3": "三分之一",
+        "4": "二分之一"
+      },
+      "answer": [
+        "3"
+      ],
+      "appearances": [
+        {
+          "year": "114",
+          "session": 1,
+          "no": 45
+        },
+        {
+          "year": "114",
+          "session": 2,
+          "no": 38
+        }
+      ]
+    },
+    {
+      "id": "b-01-119",
+      "category": "professional",
+      "subject": "工作項目01 職業安全衛生相關法規",
+      "type": "single",
+      "stem": "依危險性機械及設備安全檢查規則規定，高壓氣體容器之定期檢查，自構造檢查合格日起算20年以上者，須每幾年實施內部檢查1次以上？",
+      "options": {
+        "1": "1",
+        "2": "2",
+        "3": "3",
+        "4": "5"
+      },
+      "answer": [
+        "1"
+      ],
+      "appearances": [
+        {
+          "year": "111",
+          "session": 1,
+          "no": 4
+        },
+        {
+          "year": "113",
+          "session": 3,
+          "no": 48
+        }
+      ]
+    },
+    {
+      "id": "b-01-120",
+      "category": "professional",
+      "subject": "工作項目01 職業安全衛生相關法規",
+      "type": "single",
+      "stem": "依鍋爐及壓力容器安全規則規定，雇主於鍋爐房儲存固體燃料應距離鍋爐外側多少公尺以上？",
+      "options": {
+        "1": "1",
+        "2": "1.2",
+        "3": "1.5",
+        "4": "2"
+      },
+      "answer": [
+        "2"
+      ],
+      "appearances": [
+        {
+          "year": "107",
+          "session": 3,
+          "no": 24
+        },
+        {
+          "year": "114",
+          "session": 2,
+          "no": 37
+        },
+        {
+          "year": "115",
+          "session": 2,
+          "no": 58
+        }
+      ]
+    },
+    {
+      "id": "b-01-121",
+      "category": "professional",
+      "subject": "工作項目01 職業安全衛生相關法規",
+      "type": "single",
+      "stem": "依危險性機械及設備安全檢查規則規定，國內製造之危險性機械或設備之檢查應依中央主管機關指定之相關標準之全部或部分內容規定辦理。下列何種標準未列入可指定之範圍？",
+      "options": {
+        "1": "國家標準",
+        "2": "工廠標準",
+        "3": "國際標準",
+        "4": "團體標準"
+      },
+      "answer": [
+        "2"
+      ],
+      "appearances": [
+        {
+          "year": "113",
+          "session": 3,
+          "no": 1
+        }
+      ]
+    },
+    {
+      "id": "b-01-122",
+      "category": "professional",
+      "subject": "工作項目01 職業安全衛生相關法規",
+      "type": "single",
+      "stem": "依危險性機械及設備安全檢查規則規定，高壓氣體特定設備係指供高壓氣體之下列何種行為之設備及其支持構造物？",
+      "options": {
+        "1": "製造",
+        "2": "供應",
+        "3": "運輸",
+        "4": "消費"
+      },
+      "answer": [
+        "1"
+      ],
+      "appearances": [
+        {
+          "year": "107",
+          "session": 2,
+          "no": 6
+        },
+        {
+          "year": "110",
+          "session": 1,
+          "no": 22
+        }
+      ]
+    },
+    {
+      "id": "b-01-123",
+      "category": "professional",
+      "subject": "工作項目01 職業安全衛生相關法規",
+      "type": "single",
+      "stem": "依危險性機械及設備安全檢查規則規定，下列何者非為固定式起重機所需之檢查？",
+      "options": {
+        "1": "型式檢查",
+        "2": "竣工檢查",
+        "3": "使用檢查",
+        "4": "重新檢查"
+      },
+      "answer": [
+        "3"
+      ],
+      "appearances": [
+        {
+          "year": "108",
+          "session": 2,
+          "no": 24
+        },
+        {
+          "year": "110",
+          "session": 1,
+          "no": 38
+        }
+      ]
+    },
+    {
+      "id": "b-01-124",
+      "category": "professional",
+      "subject": "工作項目01 職業安全衛生相關法規",
+      "type": "single",
+      "stem": "依危險性機械及設備安全檢查規則規定，額定荷重300公噸之固定式起重機，竣工檢查實施荷重試驗時，需將相當於多少額定荷重置於吊具上實施各項動作試驗？",
+      "options": {
+        "1": "300公噸",
+        "2": "350公噸",
+        "3": "375公噸",
+        "4": "381公噸"
+      },
+      "answer": [
+        "2"
+      ],
+      "appearances": []
+    },
+    {
+      "id": "b-01-125",
+      "category": "professional",
+      "subject": "工作項目01 職業安全衛生相關法規",
+      "type": "single",
+      "stem": "依危險性機械及設備安全檢查規則規定，高壓氣體容器在下列何種檢查合格後，即可發檢查合格證供勞工使用？",
+      "options": {
+        "1": "型式檢查",
+        "2": "熔接檢查",
+        "3": "構造檢查",
+        "4": "使用檢查"
+      },
+      "answer": [
+        "3"
+      ],
+      "appearances": [
+        {
+          "year": "107",
+          "session": 3,
+          "no": 7
+        }
+      ]
+    },
+    {
+      "id": "b-01-126",
+      "category": "professional",
+      "subject": "工作項目01 職業安全衛生相關法規",
+      "type": "single",
+      "stem": "依鍋爐及壓力容器安全規則規定，鍋爐房應設至少幾個以上之出入口，但緊急時鍋爐操作人員可避難者，不在此限？",
+      "options": {
+        "1": "1",
+        "2": "2",
+        "3": "3",
+        "4": "4"
+      },
+      "answer": [
+        "2"
+      ],
+      "appearances": [
+        {
+          "year": "112",
+          "session": 1,
+          "no": 7
+        },
+        {
+          "year": "114",
+          "session": 1,
+          "no": 31
+        }
+      ]
+    },
+    {
+      "id": "b-01-127",
+      "category": "professional",
+      "subject": "工作項目01 職業安全衛生相關法規",
+      "type": "single",
+      "stem": "依職業安全衛生法規定，下列何項機械或設備之操作人員，雇主應僱用經技術士技能檢定或訓練合格人員充任之？",
+      "options": {
+        "1": "升降機",
+        "2": "簡易提升機",
+        "3": "圓盤鋸",
+        "4": "具有危險性之設備之鍋爐"
+      },
+      "answer": [
+        "4"
+      ],
+      "appearances": [
+        {
+          "year": "111",
+          "session": 1,
+          "no": 30
+        }
+      ]
+    },
+    {
+      "id": "b-01-128",
+      "category": "professional",
+      "subject": "工作項目01 職業安全衛生相關法規",
+      "type": "single",
+      "stem": "依職業安全衛生管理辦法規定，小型鍋爐、小型壓力容器每年應實施定期檢查1次以上，由下列何者辦理？",
+      "options": {
+        "1": "勞動檢查機構",
+        "2": "代行檢查機構",
+        "3": "製造廠",
+        "4": "雇主"
+      },
+      "answer": [
+        "4"
+      ],
+      "appearances": [
+        {
+          "year": "113",
+          "session": 2,
+          "no": 7
+        }
+      ]
+    },
+    {
+      "id": "b-01-129",
+      "category": "professional",
+      "subject": "工作項目01 職業安全衛生相關法規",
+      "type": "single",
+      "stem": "依鍋爐及壓力容器安全規則規定，胴體內徑超過500毫米以上之豎型鍋爐或鍋爐本體外側，未加被覆物之鍋爐外側與主牆壁之間，應保留多少公分以上之距離？",
+      "options": {
+        "1": "15",
+        "2": "30",
+        "3": "45",
+        "4": "100"
+      },
+      "answer": [
+        "3"
+      ],
+      "appearances": [
+        {
+          "year": "110",
+          "session": 2,
+          "no": 38
+        },
+        {
+          "year": "111",
+          "session": 2,
+          "no": 17
+        },
+        {
+          "year": "111",
+          "session": 3,
+          "no": 32
+        },
+        {
+          "year": "114",
+          "session": 1,
+          "no": 43
+        }
+      ]
+    },
+    {
+      "id": "b-01-130",
+      "category": "professional",
+      "subject": "工作項目01 職業安全衛生相關法規",
+      "type": "single",
+      "stem": "依鍋爐及壓力容器安全規則規定，壓力容器設有2具以上安全閥者，其中至少1具應調整最高使用壓力以下吹洩，其他安全閥最大可調整至最高使用壓力之幾倍以下吹洩？",
+      "options": {
+        "1": "1.00",
+        "2": "1.01",
+        "3": "1.02",
+        "4": "1.03"
+      },
+      "answer": [
+        "4"
+      ],
+      "appearances": [
+        {
+          "year": "108",
+          "session": 2,
+          "no": 16
+        },
+        {
+          "year": "109",
+          "session": 2,
+          "no": 11
+        },
+        {
+          "year": "110",
+          "session": 1,
+          "no": 13
+        },
+        {
+          "year": "115",
+          "session": 2,
+          "no": 9
+        }
+      ]
+    },
+    {
+      "id": "b-01-131",
+      "category": "professional",
+      "subject": "工作項目01 職業安全衛生相關法規",
+      "type": "single",
+      "stem": "依職業安全衛生設施規則規定，雇主使勞工於有危害勞工之虞之局限空間從事作業時，對勞工之進出，應予確認、點名登記，並作成紀錄至少保存多少年？",
+      "options": {
+        "1": "1",
+        "2": "2",
+        "3": "3",
+        "4": "4"
+      },
+      "answer": [
+        "3"
+      ],
+      "appearances": []
+    },
+    {
+      "id": "b-01-132",
+      "category": "professional",
+      "subject": "工作項目01 職業安全衛生相關法規",
+      "type": "single",
+      "stem": "依職業安全衛生設施規則規定，起重升降機具所使用之吊鉤或鉤環及附屬零件，其斷裂荷重與所承受之最大荷重比之安全係數，應在多少以上？",
+      "options": {
+        "1": "2",
+        "2": "3",
+        "3": "4",
+        "4": "5"
+      },
+      "answer": [
+        "3"
+      ],
+      "appearances": [
+        {
+          "year": "108",
+          "session": 2,
+          "no": 44
+        },
+        {
+          "year": "112",
+          "session": 1,
+          "no": 44
+        }
+      ]
+    },
+    {
+      "id": "b-01-133",
+      "category": "professional",
+      "subject": "工作項目01 職業安全衛生相關法規",
+      "type": "single",
+      "stem": "依職業安全衛生設施規則規定，雇主對於自高度在多少公尺以上之場所投下物體有危害勞工之虞時，應設置適當之滑槽、承受設備，並指派監視人員？",
+      "options": {
+        "1": "2",
+        "2": "3",
+        "3": "4",
+        "4": "5"
+      },
+      "answer": [
+        "2"
+      ],
+      "appearances": [
+        {
+          "year": "108",
+          "session": 2,
+          "no": 18
+        },
+        {
+          "year": "108",
+          "session": 3,
+          "no": 38
+        },
+        {
+          "year": "110",
+          "session": 3,
+          "no": 15
+        },
+        {
+          "year": "111",
+          "session": 1,
+          "no": 59
+        }
+      ]
+    },
+    {
+      "id": "b-01-134",
+      "category": "professional",
+      "subject": "工作項目01 職業安全衛生相關法規",
+      "type": "single",
+      "stem": "依職業安全衛生設施規則規定，雇主對勞工於石綿板、鐵皮板、瓦、木板、茅草、塑膠等易踏穿材料構築之屋頂及雨遮從事作業時，為防止勞工踏穿墜落，應於屋架上設置適當強度，且寬度在多少公分以上之踏板或裝設安全護網？",
+      "options": {
+        "1": "30",
+        "2": "40",
+        "3": "50",
+        "4": "60"
+      },
+      "answer": [
+        "1"
+      ],
+      "appearances": [
+        {
+          "year": "110",
+          "session": 2,
+          "no": 34
+        }
+      ]
+    },
+    {
+      "id": "b-01-135",
+      "category": "professional",
+      "subject": "工作項目01 職業安全衛生相關法規",
+      "type": "single",
+      "stem": "高壓氣體容器之定期檢查，依危險性機械及設備安全檢查規則規定，自構造檢查合格日起算未滿15年者，須每幾年檢查1次以上？",
+      "options": {
+        "1": "1",
+        "2": "2",
+        "3": "3",
+        "4": "5"
+      },
+      "answer": [
+        "4"
+      ],
+      "appearances": [
+        {
+          "year": "109",
+          "session": 1,
+          "no": 52
+        },
+        {
+          "year": "114",
+          "session": 1,
+          "no": 56
+        }
+      ]
+    },
+    {
+      "id": "b-01-136",
+      "category": "professional",
+      "subject": "工作項目01 職業安全衛生相關法規",
+      "type": "single",
+      "stem": "依高壓氣體勞工安全規則規定，W（公斤）＝V2（公升）／C（指數）係為下列何種能力？",
+      "options": {
+        "1": "液化氣體儲存設備之儲存能力",
+        "2": "液化氣體容器之儲存能力",
+        "3": "高壓氣體之處理能力",
+        "4": "冷凍設備之冷凍能力"
+      },
+      "answer": [
+        "2"
+      ],
+      "appearances": [
+        {
+          "year": "107",
+          "session": 2,
+          "no": 33
+        },
+        {
+          "year": "107",
+          "session": 3,
+          "no": 55
+        },
+        {
+          "year": "108",
+          "session": 1,
+          "no": 54
+        },
+        {
+          "year": "113",
+          "session": 3,
+          "no": 26
+        }
+      ]
+    },
+    {
+      "id": "b-01-137",
+      "category": "professional",
+      "subject": "工作項目01 職業安全衛生相關法規",
+      "type": "single",
+      "stem": "依高壓氣體勞工安全規則規定，自可燃性氣體製造設備之高壓氣體設備之外面與氧氣製造設備之高壓氣體設備間，應保持多少公尺以上？",
+      "options": {
+        "1": "1",
+        "2": "5",
+        "3": "8",
+        "4": "10"
+      },
+      "answer": [
+        "4"
+      ],
+      "appearances": [
+        {
+          "year": "108",
+          "session": 2,
+          "no": 12
+        },
+        {
+          "year": "111",
+          "session": 3,
+          "no": 37
+        },
+        {
+          "year": "113",
+          "session": 1,
+          "no": 47
+        },
+        {
+          "year": "115",
+          "session": 1,
+          "no": 57
+        }
+      ]
+    },
+    {
+      "id": "b-01-138",
+      "category": "professional",
+      "subject": "工作項目01 職業安全衛生相關法規",
+      "type": "single",
+      "stem": "依起重升降機具安全規則規定，升降機依其構造及材質，於搬器上乘載人員或貨物上升之最大荷重，為下列何者？",
+      "options": {
+        "1": "吊升荷重",
+        "2": "額定荷重",
+        "3": "額定總荷重",
+        "4": "積載荷重"
+      },
+      "answer": [
+        "4"
+      ],
+      "appearances": [
+        {
+          "year": "107",
+          "session": 1,
+          "no": 41
+        },
+        {
+          "year": "111",
+          "session": 3,
+          "no": 22
+        }
+      ]
+    },
+    {
+      "id": "b-01-139",
+      "category": "professional",
+      "subject": "工作項目01 職業安全衛生相關法規",
+      "type": "single",
+      "stem": "固定式起重機竣工檢查時之荷重試驗，係將相當於該起重機額定荷重幾倍之荷重，置於吊具上實施吊升、直行、橫行及旋轉等動作試驗？",
+      "options": {
+        "1": "1",
+        "2": "1.2",
+        "3": "1.25",
+        "4": "1.27"
+      },
+      "answer": [
+        "3"
+      ],
+      "appearances": []
+    },
+    {
+      "id": "b-01-140",
+      "category": "professional",
+      "subject": "工作項目01 職業安全衛生相關法規",
+      "type": "single",
+      "stem": "依危險性機械及設備安全檢查規則規定，高壓氣體特定設備儲槽之材質為高強度鋼，熔接後於爐內實施退火時，其實施內部檢查之期限，除第一次檢查為竣工檢查後2年外，其後應為每幾年實施1次？",
+      "options": {
+        "1": "1",
+        "2": "2",
+        "3": "3",
+        "4": "5"
+      },
+      "answer": [
+        "4"
+      ],
+      "appearances": [
+        {
+          "year": "110",
+          "session": 1,
+          "no": 58
+        },
+        {
+          "year": "111",
+          "session": 2,
+          "no": 32
+        },
+        {
+          "year": "113",
+          "session": 1,
+          "no": 59
+        },
+        {
+          "year": "115",
+          "session": 1,
+          "no": 60
+        }
+      ]
+    },
+    {
+      "id": "b-01-141",
+      "category": "professional",
+      "subject": "工作項目01 職業安全衛生相關法規",
+      "type": "single",
+      "stem": "依起重升降機具安全規則規定，固定式起重機與建築物間設置之人行道寬度應在多少公尺以上？",
+      "options": {
+        "1": "0.2",
+        "2": "0.3",
+        "3": "0.4",
+        "4": "0.6"
+      },
+      "answer": [
+        "4"
+      ],
+      "appearances": [
+        {
+          "year": "110",
+          "session": 3,
+          "no": 56
+        }
+      ]
+    },
+    {
+      "id": "b-01-142",
+      "category": "professional",
+      "subject": "工作項目01 職業安全衛生相關法規",
+      "type": "single",
+      "stem": "依起重升降機具安全規則規定，營建用提升機，在瞬間風速超過多少時，應增設拉索，預防其倒塌？",
+      "options": {
+        "1": "25公尺/秒",
+        "2": "30公尺/秒",
+        "3": "35公尺/秒",
+        "4": "40公尺/秒"
+      },
+      "answer": [
+        "2"
+      ],
+      "appearances": [
+        {
+          "year": "111",
+          "session": 2,
+          "no": 55
+        },
+        {
+          "year": "114",
+          "session": 2,
+          "no": 51
+        }
+      ]
+    },
+    {
+      "id": "b-01-143",
+      "category": "professional",
+      "subject": "工作項目01 職業安全衛生相關法規",
+      "type": "single",
+      "stem": "以動力吊升貨物為目的，具有主柱、吊桿，另行裝置原動機，並以鋼索操作升降之機械裝置，為下列何者？",
+      "options": {
+        "1": "移動式起重機",
+        "2": "升降機",
+        "3": "人字臂起重桿",
+        "4": "簡易提升機"
+      },
+      "answer": [
+        "3"
+      ],
+      "appearances": [
+        {
+          "year": "108",
+          "session": 1,
+          "no": 8
+        },
+        {
+          "year": "109",
+          "session": 3,
+          "no": 32
+        },
+        {
+          "year": "110",
+          "session": 3,
+          "no": 10
+        },
+        {
+          "year": "112",
+          "session": 2,
+          "no": 36
+        }
+      ]
+    },
+    {
+      "id": "b-01-144",
+      "category": "professional",
+      "subject": "工作項目01 職業安全衛生相關法規",
+      "type": "single",
+      "stem": "依營造安全衛生設施標準規定，對於從事鋼筋混凝土之作業時，下列何者錯誤？",
+      "options": {
+        "1": "使從事搬運鋼筋作業之勞工戴用手套",
+        "2": "禁止使用鋼筋作為拉索支持物、工作架或起重支持架",
+        "3": "鋼筋不得散放於施工架上",
+        "4": "不得使用吊車或索道運送鋼筋"
+      },
+      "answer": [
+        "4"
+      ],
+      "appearances": []
+    },
+    {
+      "id": "b-01-145",
+      "category": "professional",
+      "subject": "工作項目01 職業安全衛生相關法規",
+      "type": "single",
+      "stem": "依職業安全衛生教育訓練規則規定，雇主對新僱勞工或在職勞工於變更工作前，應使其接受適於各該工作必要之安全衛生教育訓練，並應將計畫、受訓人員名冊、簽到紀錄、課程內容等實施資料保存幾年？",
+      "options": {
+        "1": "1",
+        "2": "2",
+        "3": "3",
+        "4": "4"
+      },
+      "answer": [
+        "3"
+      ],
+      "appearances": []
+    },
+    {
+      "id": "b-01-146",
+      "category": "professional",
+      "subject": "工作項目01 職業安全衛生相關法規",
+      "type": "single",
+      "stem": "依鍋爐及壓力容器安全規則規定，電熱鍋爐之傳熱面積係以電力設備容量多少瓩相當1平方公尺？",
+      "options": {
+        "1": "10",
+        "2": "20",
+        "3": "30",
+        "4": "40"
+      },
+      "answer": [
+        "2"
+      ],
+      "appearances": []
+    },
+    {
+      "id": "b-01-147",
+      "category": "professional",
+      "subject": "工作項目01 職業安全衛生相關法規",
+      "type": "single",
+      "stem": "依鍋爐及壓力容器安全規則規定，雇主對於同一鍋爐房內設有2座以上蒸汽鍋爐者，其各鍋爐之傳熱面積合計在500平方公尺以上者，應指派具有何等級鍋爐操作人員資格者擔任鍋爐作業主管？",
+      "options": {
+        "1": "甲",
+        "2": "乙",
+        "3": "丙",
+        "4": "丁"
+      },
+      "answer": [
+        "1"
+      ],
+      "appearances": [
+        {
+          "year": "112",
+          "session": 3,
+          "no": 51
+        },
+        {
+          "year": "114",
+          "session": "2颱風延期考區",
+          "no": 15
+        },
+        {
+          "year": "115",
+          "session": 2,
+          "no": 27
+        }
+      ]
+    },
+    {
+      "id": "b-01-148",
+      "category": "professional",
+      "subject": "工作項目01 職業安全衛生相關法規",
+      "type": "single",
+      "stem": "依危害性化學品評估及分級管理辦法規定，事業單位從事特別危害健康作業之勞工人數在100人以上，實施暴露評估結果發現暴露濃度低於容許暴露標準多少者，至少每3年評估1次？",
+      "options": {
+        "1": "1/2",
+        "2": "1/4",
+        "3": "1/6",
+        "4": "1/8"
+      },
+      "answer": [
+        "1"
+      ],
+      "appearances": [
+        {
+          "year": "112",
+          "session": 3,
+          "no": 29
+        },
+        {
+          "year": "114",
+          "session": "2颱風延期考區",
+          "no": 44
+        }
+      ]
+    },
+    {
+      "id": "b-01-149",
+      "category": "professional",
+      "subject": "工作項目01 職業安全衛生相關法規",
+      "type": "single",
+      "stem": "依高溫作業勞工作息時間標準規定，下列何者為輕工作？",
+      "options": {
+        "1": "以坐姿或立姿進行手臂部動作以操縱機器者",
+        "2": "走動中提舉或推動一般重量物體者",
+        "3": "鏟、掘、推等全身運動之工作者",
+        "4": "清除爐渣作業者"
+      },
+      "answer": [
+        "1"
+      ],
+      "appearances": [
+        {
+          "year": "114",
+          "session": 2,
+          "no": 6
+        }
+      ]
+    },
+    {
+      "id": "b-01-150",
+      "category": "professional",
+      "subject": "工作項目01 職業安全衛生相關法規",
+      "type": "single",
+      "stem": "依職業安全衛生設施規則規定，事業單位使勞工使用呼吸防護具時人數達多少人以上者，其呼吸防護措施應依中央主管機關公告之相關指引，訂定呼吸防護計畫，並據以執行？",
+      "options": {
+        "1": "100",
+        "2": "200",
+        "3": "300",
+        "4": "500"
+      },
+      "answer": [
+        "2"
+      ],
+      "appearances": []
+    },
+    {
+      "id": "b-01-151",
+      "category": "professional",
+      "subject": "工作項目01 職業安全衛生相關法規",
+      "type": "single",
+      "stem": "依鍋爐及壓力容器安全規則規定，以火焰、燃燒氣體、其他高溫氣體或以電熱加熱於水或熱媒，使發生超過大氣壓之壓力蒸汽，供給他用之裝置係指下列何者？",
+      "options": {
+        "1": "壓力容器",
+        "2": "熱水鍋爐",
+        "3": "蒸汽鍋爐",
+        "4": "高壓氣體特定設備"
+      },
+      "answer": [
+        "3"
+      ],
+      "appearances": []
+    },
+    {
+      "id": "b-01-152",
+      "category": "professional",
+      "subject": "工作項目01 職業安全衛生相關法規",
+      "type": "single",
+      "stem": "依鍋爐及壓力容器安全規則規定，下列哪種設備係接受外來之蒸汽或其他熱媒或使在容器內產生蒸氣加熱固體或液體之容器，且容器內之壓力超過大氣壓？",
+      "options": {
+        "1": "第一種壓力容器",
+        "2": "鍋爐",
+        "3": "高壓氣體容器",
+        "4": "高壓氣體特定設備"
+      },
+      "answer": [
+        "1"
+      ],
+      "appearances": []
+    },
+    {
+      "id": "b-01-153",
+      "category": "professional",
+      "subject": "工作項目01 職業安全衛生相關法規",
+      "type": "single",
+      "stem": "依新化學物質登記管理辦法規定，製造者或輸入者對於公告清單以外之新化學物質，應向中央主管機關繳交下列何者報告方得製造或輸入？",
+      "options": {
+        "1": "化學物質安全評估",
+        "2": "暴露評估",
+        "3": "風險評估",
+        "4": "物理物質安全評估"
+      },
+      "answer": [
+        "1"
+      ],
+      "appearances": [
+        {
+          "year": "113",
+          "session": 1,
+          "no": 41
+        },
+        {
+          "year": "115",
+          "session": 1,
+          "no": 58
+        }
+      ]
+    },
+    {
+      "id": "b-01-154",
+      "category": "professional",
+      "subject": "工作項目01 職業安全衛生相關法規",
+      "type": "single",
+      "stem": "依職業安全衛生法規定，事業單位勞動場所發生下列何者非屬雇主應於8小時內通報勞動檢查機構者之職業災害？",
+      "options": {
+        "1": "上下班交通災害",
+        "2": "發生死亡災害",
+        "3": "發生災害之罹災人數在3人以上",
+        "4": "發生災害之罹災人數在1人以上，且需住院治療"
+      },
+      "answer": [
+        "1"
+      ],
+      "appearances": [
+        {
+          "year": "112",
+          "session": 2,
+          "no": 32
+        },
+        {
+          "year": "115",
+          "session": 1,
+          "no": 48
+        }
+      ]
+    },
+    {
+      "id": "b-01-155",
+      "category": "professional",
+      "subject": "工作項目01 職業安全衛生相關法規",
+      "type": "single",
+      "stem": "依職業安全衛生設施規則規定，下列何種機械非屬車輛機械？",
+      "options": {
+        "1": "車輛",
+        "2": "車輛系營建機械",
+        "3": "堆高機",
+        "4": "固定式起重機"
+      },
+      "answer": [
+        "4"
+      ],
+      "appearances": [
+        {
+          "year": "114",
+          "session": 2,
+          "no": 17
+        }
+      ]
+    },
+    {
+      "id": "b-01-156",
+      "category": "professional",
+      "subject": "工作項目01 職業安全衛生相關法規",
+      "type": "single",
+      "stem": "依職業安全衛生設施規則規定，下列何種物質非屬著火性物質？",
+      "options": {
+        "1": "硝化纖維",
+        "2": "金屬鋰、金屬鈉、金屬鉀",
+        "3": "鎂粉、鋁粉",
+        "4": "黃磷、赤磷、硫化磷等"
+      },
+      "answer": [
+        "1"
+      ],
+      "appearances": [
+        {
+          "year": "113",
+          "session": 2,
+          "no": 46
+        }
+      ]
+    },
+    {
+      "id": "b-01-157",
+      "category": "professional",
+      "subject": "工作項目01 職業安全衛生相關法規",
+      "type": "single",
+      "stem": "依職業安全衛生設施規則規定，下列何種物質非屬氧化性物質？",
+      "options": {
+        "1": "氯酸鉀",
+        "2": "硝酸銨",
+        "3": "環氧丙烷",
+        "4": "次氯酸鈣"
+      },
+      "answer": [
+        "3"
+      ],
+      "appearances": []
+    },
+    {
+      "id": "b-01-158",
+      "category": "professional",
+      "subject": "工作項目01 職業安全衛生相關法規",
+      "type": "single",
+      "stem": "依危險性機械及設備安全檢查規則規定，下列何種機械非屬危險性機械？",
+      "options": {
+        "1": "衝壓能力3公噸以上之衝剪機械",
+        "2": "吊升荷重在3公噸以上之固定式起重機",
+        "3": "吊籠",
+        "4": "吊升荷重1公噸以上之斯達卡式起重機"
+      },
+      "answer": [
+        "1"
+      ],
+      "appearances": [
+        {
+          "year": "114",
+          "session": 3,
+          "no": 30
+        }
+      ]
+    },
+    {
+      "id": "b-01-159",
+      "category": "professional",
+      "subject": "工作項目01 職業安全衛生相關法規",
+      "type": "single",
+      "stem": "依危險性機械及設備安全檢查規則規定，下列何種設備非屬危險性設備？",
+      "options": {
+        "1": "水頭壓力11公尺熱媒鍋爐",
+        "2": "傳熱面積10平方公尺，且液體使用溫度超過其在一大氣壓之沸點之熱媒鍋爐以外之熱水鍋爐",
+        "3": "最高使用壓力每平方公分11公斤或傳熱面積11平方公尺之貫流式鍋爐",
+        "4": "最高使用壓力每平方公分40公斤之第二種壓力容器"
+      },
+      "answer": [
+        "4"
+      ],
+      "appearances": [
+        {
+          "year": "112",
+          "session": 1,
+          "no": 56
+        },
+        {
+          "year": "114",
+          "session": 2,
+          "no": 24
+        }
+      ]
+    },
+    {
+      "id": "b-01-160",
+      "category": "professional",
+      "subject": "工作項目01 職業安全衛生相關法規",
+      "type": "single",
+      "stem": "依職業安全衛生設施規則規定，室內工作場所設置供勞工使用之通道，下列何者錯誤？",
+      "options": {
+        "1": "其主要人行道不得小於1公尺",
+        "2": "各機械間通道不得小於80公分",
+        "3": "主要人行道及有關安全門、安全梯應有明顯標示",
+        "4": "設備間通道不得小於15公分"
+      },
+      "answer": [
+        "4"
+      ],
+      "appearances": [
+        {
+          "year": "115",
+          "session": 1,
+          "no": 32
+        }
+      ]
+    },
+    {
+      "id": "b-01-161",
+      "category": "professional",
+      "subject": "工作項目01 職業安全衛生相關法規",
+      "type": "single",
+      "stem": "依職業安全衛生設施規則規定，有關固定梯之設置，下列何者錯誤？",
+      "options": {
+        "1": "每30公分應使用繫材扣牢牆面",
+        "2": "梯長連續超過6公尺時，每隔6公尺以下設一平台",
+        "3": "應有防止梯移位之措施",
+        "4": "平台用漏空格條製成者，其縫間隙不得超過3公分"
+      },
+      "answer": [
+        "1"
+      ],
+      "appearances": []
+    },
+    {
+      "id": "b-01-162",
+      "category": "professional",
+      "subject": "工作項目01 職業安全衛生相關法規",
+      "type": "single",
+      "stem": "依職業安全衛生設施規則規定，有關移動梯及合梯之安全事項，下列何者錯誤？",
+      "options": {
+        "1": "移動梯主要為提供人員在高處作業及橫向移動之設備",
+        "2": "移動梯腳應防止壓踩電氣線路，防止發生感電事故",
+        "3": "兩梯腳間應有金屬等硬質繫材扣牢",
+        "4": "移動梯寬度應在30公分以上"
+      },
+      "answer": [
+        "1"
+      ],
+      "appearances": []
+    },
+    {
+      "id": "b-01-163",
+      "category": "professional",
+      "subject": "工作項目01 職業安全衛生相關法規",
+      "type": "single",
+      "stem": "依職業安全衛生法規定，下列何種勞動場所發生之職業災害，非屬事業單位雇主應於八小時內通報勞動檢查機構者？",
+      "options": {
+        "1": "發生操作機械擦傷，勞工1人輕傷急診包紮後離院",
+        "2": "發生氨洩漏，勞工2人受傷住院治療",
+        "3": "發生災害之罹災人數有4人",
+        "4": "發生氰化氫洩漏，勞工1人受傷住院治療"
+      },
+      "answer": [
+        "1"
+      ],
+      "appearances": [
+        {
+          "year": "112",
+          "session": 3,
+          "no": 54
+        },
+        {
+          "year": "115",
+          "session": 2,
+          "no": 41
+        }
+      ]
+    },
+    {
+      "id": "b-01-164",
+      "category": "professional",
+      "subject": "工作項目01 職業安全衛生相關法規",
+      "type": "single",
+      "stem": "依職業安全衛生設施規則規定，勞工於有車輛出入或往來之工作場所作業時，有導致勞工遭受交通事故之虞者，除應明顯設置警戒標示外，並應至少置備何種防護具，使勞工確實使用？",
+      "options": {
+        "1": "防護眼鏡",
+        "2": "口罩",
+        "3": "反光背心",
+        "4": "裹腿"
+      },
+      "answer": [
+        "3"
+      ],
+      "appearances": [
+        {
+          "year": "112",
+          "session": 3,
+          "no": 2
+        },
+        {
+          "year": "113",
+          "session": 3,
+          "no": 30
+        },
+        {
+          "year": "114",
+          "session": 3,
+          "no": 59
+        }
+      ]
+    },
+    {
+      "id": "b-01-165",
+      "category": "professional",
+      "subject": "工作項目01 職業安全衛生相關法規",
+      "type": "single",
+      "stem": "職業安全衛生設施規則所稱之低壓係指其電壓",
+      "options": {
+        "1": "超過22800伏特",
+        "2": "600伏特以下",
+        "3": "超過600至22800伏特",
+        "4": "800伏特以上"
+      },
+      "answer": [
+        "2"
+      ],
+      "appearances": [
+        {
+          "year": "114",
+          "session": 3,
+          "no": 39
+        },
+        {
+          "year": "115",
+          "session": 2,
+          "no": 22
+        }
+      ]
+    },
+    {
+      "id": "b-01-166",
+      "category": "professional",
+      "subject": "工作項目01 職業安全衛生相關法規",
+      "type": "single",
+      "stem": "職業安全衛生設施規則規定雇主對車輛通行道寬度，應為最大車輛寬度之",
+      "options": {
+        "1": "2倍再加1公尺",
+        "2": "2倍再加0.5公尺",
+        "3": "1倍再加1.5公尺",
+        "4": "1倍再加2公尺"
+      },
+      "answer": [
+        "1"
+      ],
+      "appearances": [
+        {
+          "year": "114",
+          "session": "2颱風延期考區",
+          "no": 17
+        }
+      ]
+    },
+    {
+      "id": "b-01-167",
+      "category": "professional",
+      "subject": "工作項目01 職業安全衛生相關法規",
+      "type": "single",
+      "stem": "下列何者為危險性機械及設備安全檢查規則適用之危險性機械？",
+      "options": {
+        "1": "吊升荷重在2公噸以上之固定式起重機",
+        "2": "吊升荷重在1.5公噸以上之移動式起重機",
+        "3": "載人用吊籠",
+        "4": "吊升荷重在0.5公噸以上之人字臂起重桿"
+      },
+      "answer": [
+        "3"
+      ],
+      "appearances": [
+        {
+          "year": "113",
+          "session": 2,
+          "no": 29
+        }
+      ]
+    },
+    {
+      "id": "b-01-168",
+      "category": "professional",
+      "subject": "工作項目01 職業安全衛生相關法規",
+      "type": "single",
+      "stem": "下列何者非為高壓氣體勞工安全規則所稱之特定高壓氣體？",
+      "options": {
+        "1": "高壓乙炔氣",
+        "2": "高壓壓縮氫氣",
+        "3": "高壓液氧",
+        "4": "高壓液化石油氣"
+      },
+      "answer": [
+        "1"
+      ],
+      "appearances": [
+        {
+          "year": "114",
+          "session": "2颱風延期考區",
+          "no": 6
+        }
+      ]
+    },
+    {
+      "id": "b-01-169",
+      "category": "professional",
+      "subject": "工作項目01 職業安全衛生相關法規",
+      "type": "single",
+      "stem": "依機械設備器具安全標準規定之盤形研磨輪（除彈性研磨輪外），應就每種同一規格之製品，實施何種試驗？",
+      "options": {
+        "1": "拉伸試驗",
+        "2": "衝擊試驗",
+        "3": "剪切試驗",
+        "4": "老化試驗"
+      },
+      "answer": [
+        "2"
+      ],
+      "appearances": []
+    },
+    {
+      "id": "b-01-170",
+      "category": "professional",
+      "subject": "工作項目01 職業安全衛生相關法規",
+      "type": "single",
+      "stem": "依職業安全衛生法第十二條第二項雇主應確保勞工作業場所之危害暴露低於勞工作業場所容許暴露標準附表一空氣中有害物容許濃度或附表二空氣中粉塵容許濃度之規定。如附表一中未列有容許濃度值之有害物經測出者，下列何者正確？",
+      "options": {
+        "1": "為無效數據",
+        "2": "法無明文不予理會",
+        "3": "通報勞動部",
+        "4": "視為超過標準"
+      },
+      "answer": [
+        "4"
+      ],
+      "appearances": [
+        {
+          "year": "113",
+          "session": 1,
+          "no": 40
+        },
+        {
+          "year": "115",
+          "session": 2,
+          "no": 4
+        }
+      ]
+    },
+    {
+      "id": "b-01-171",
+      "category": "professional",
+      "subject": "工作項目01 職業安全衛生相關法規",
+      "type": "single",
+      "stem": "依勞工作業場所容許暴露標準附表一空氣中有害物容許濃度，表內註有「皮」字者，表示該物質",
+      "options": {
+        "1": "易從皮膚、粘膜滲入體內",
+        "2": "對勞工會引起刺激感",
+        "3": "可能引起皮膚炎及敏感",
+        "4": "具皮膚腐蝕性"
+      },
+      "answer": [
+        "1"
+      ],
+      "appearances": [
+        {
+          "year": "114",
+          "session": 2,
+          "no": 50
+        }
+      ]
+    },
+    {
+      "id": "b-01-172",
+      "category": "professional",
+      "subject": "工作項目01 職業安全衛生相關法規",
+      "type": "single",
+      "stem": "在攝氏二十五度、一大氣壓條件下，氣狀有害物之毫克莫耳體積立方公分數為",
+      "options": {
+        "1": "24.45",
+        "2": "4.375",
+        "3": "273.15",
+        "4": "542"
+      },
+      "answer": [
+        "1"
+      ],
+      "appearances": []
+    },
+    {
+      "id": "b-01-173",
+      "category": "professional",
+      "subject": "工作項目01 職業安全衛生相關法規",
+      "type": "single",
+      "stem": "依職業安全衛生法規定，下列機械、設備或器具何者非經中央主管機關認可之驗證機構實施型式驗證合格及張貼合格標章，不得產製運出廠場或輸入？",
+      "options": {
+        "1": "木材加工用圓盤鋸",
+        "2": "手推刨床之刃部接觸預防裝置",
+        "3": "動力衝剪機械之光電式安全裝置",
+        "4": "交流電焊機用自動電擊防止裝置"
+      },
+      "answer": [
+        "4"
+      ],
+      "appearances": []
+    },
+    {
+      "id": "b-01-174",
+      "category": "professional",
+      "subject": "工作項目01 職業安全衛生相關法規",
+      "type": "single",
+      "stem": "依營造安全衛生設施標準規定，該標準規定之一切安全衛生設施，雇主應於何階段須納入考量",
+      "options": {
+        "1": "施工規劃",
+        "2": "施工中",
+        "3": "完工後",
+        "4": "使用保養"
+      },
+      "answer": [
+        "1"
+      ],
+      "appearances": [
+        {
+          "year": "112",
+          "session": 3,
+          "no": 33
+        },
+        {
+          "year": "114",
+          "session": 1,
+          "no": 44
+        },
+        {
+          "year": "114",
+          "session": 3,
+          "no": 31
+        }
+      ]
+    },
+    {
+      "id": "b-01-175",
+      "category": "professional",
+      "subject": "工作項目01 職業安全衛生相關法規",
+      "type": "single",
+      "stem": "下列何者非屬勞動檢查法第28條所定勞工有立即發生危險之虞認定標準情事？",
+      "options": {
+        "1": "於高差超過1.5公尺以上之場所作業，未設置符合規定之安全上下設備",
+        "2": "於道路從事作業，未採取管制措施及未設置安全防護設施",
+        "3": "局限空間作業場所，使用純氧換氣",
+        "4": "施工架之垂直方向5.5公尺、水平方向7.5公尺內，未與穩定構造物妥實連接"
+      },
+      "answer": [
+        "2"
+      ],
+      "appearances": []
+    },
+    {
+      "id": "b-01-176",
+      "category": "professional",
+      "subject": "工作項目01 職業安全衛生相關法規",
+      "type": "single",
+      "stem": "依營造安全衛生設施標準規定，施工架任一處步行至最近上下設備之距離，應在多少公尺以下？",
+      "options": {
+        "1": "10",
+        "2": "20",
+        "3": "30",
+        "4": "40"
+      },
+      "answer": [
+        "3"
+      ],
+      "appearances": []
+    },
+    {
+      "id": "b-01-177",
+      "category": "professional",
+      "subject": "工作項目01 職業安全衛生相關法規",
+      "type": "single",
+      "stem": "依危險性機械及設備安全檢查規則規定，製造人除其設備及人員資格應合於規定外，應實施何項措施？",
+      "options": {
+        "1": "商業保密",
+        "2": "運輸規劃",
+        "3": "品管及品保",
+        "4": "建造時程管控"
+      },
+      "answer": [
+        "3"
+      ],
+      "appearances": [
+        {
+          "year": "114",
+          "session": 1,
+          "no": 42
+        },
+        {
+          "year": "115",
+          "session": 2,
+          "no": 32
+        }
+      ]
+    },
+    {
+      "id": "b-01-178",
+      "category": "professional",
+      "subject": "工作項目01 職業安全衛生相關法規",
+      "type": "single",
+      "stem": "某固定式起重機，額定荷重250公噸，應以多少公噸實施竣工檢查之荷重試驗？",
+      "options": {
+        "1": "350",
+        "2": "300",
+        "3": "317.5",
+        "4": "312.5"
+      },
+      "answer": [
+        "2"
+      ],
+      "appearances": [
+        {
+          "year": "115",
+          "session": 1,
+          "no": 51
+        }
+      ]
+    },
+    {
+      "id": "b-01-179",
+      "category": "professional",
+      "subject": "工作項目01 職業安全衛生相關法規",
+      "type": "single",
+      "stem": "依高壓氣體勞工安全規則規定，某液化石油氣儲槽（假設於此處此儲槽常用溫度時液化石油氣之比重0.55）內容積1,000公升，其儲存能力為多少公斤？",
+      "options": {
+        "1": "440",
+        "2": "495",
+        "3": "525",
+        "4": "550"
+      },
+      "answer": [
+        "2"
+      ],
+      "appearances": []
+    },
+    {
+      "id": "b-01-180",
+      "category": "professional",
+      "subject": "工作項目01 職業安全衛生相關法規",
+      "type": "single",
+      "stem": "某吊籠合格證有效期限為112年1月1日，因產線關係擬於111年10月1日申請定期檢查，如當天即檢查合格，有效期限自何時接續1年期限？",
+      "options": {
+        "1": "111年10月1日",
+        "2": "111年11月1日",
+        "3": "111年12月1日",
+        "4": "112年1月2日"
+      },
+      "answer": [
+        "4"
+      ],
+      "appearances": []
+    },
+    {
+      "id": "b-01-181",
+      "category": "professional",
+      "subject": "工作項目01 職業安全衛生相關法規",
+      "type": "single",
+      "stem": "某勞工於220伏特兩電氣設備間從事檢修之活線作業時，兩設備皆為有露出帶電部分且無隔離之防護，依職業安全衛生設施規則規定，最小工作空間為多少公分？",
+      "options": {
+        "1": "90",
+        "2": "105",
+        "3": "120",
+        "4": "130"
+      },
+      "answer": [
+        "3"
+      ],
+      "appearances": [
+        {
+          "year": "115",
+          "session": 2,
+          "no": 11
+        }
+      ]
+    },
+    {
+      "id": "b-01-182",
+      "category": "professional",
+      "subject": "工作項目01 職業安全衛生相關法規",
+      "type": "single",
+      "stem": "依勞工健康保護規則規定，從事勞工健康服務之護理人員、勞工健康服務相關人員，應具實務工作經驗幾年以上？",
+      "options": {
+        "1": "1",
+        "2": "2",
+        "3": "3",
+        "4": "沒有限制"
+      },
+      "answer": [
+        "2"
+      ],
+      "appearances": []
+    },
+    {
+      "id": "b-01-183",
+      "category": "professional",
+      "subject": "工作項目01 職業安全衛生相關法規",
+      "type": "single",
+      "stem": "依營造安全衛生設施標準規定，為避免於作業時發生車輛機械翻落或表土崩塌等情事，下列何者非為雇主應事先進行調查事項？",
+      "options": {
+        "1": "該作業場所之天候、地質及地形狀況等",
+        "2": "所使用車輛機械之種類及性能",
+        "3": "車輛機械之行經路線",
+        "4": "車輛機械之警示標語"
+      },
+      "answer": [
+        "4"
+      ],
+      "appearances": []
+    },
+    {
+      "id": "b-01-184",
+      "category": "professional",
+      "subject": "工作項目01 職業安全衛生相關法規",
+      "type": "single",
+      "stem": "依營造安全衛生設施標準規定，雇主對於新建、增建、改建或修建工廠之鋼構屋頂，勞工有遭受墜落危險應於邊緣及屋頂突出物頂板周圍，設置高度多少公分以上之女兒牆或適當強度欄杆？",
+      "options": {
+        "1": "30",
+        "2": "75",
+        "3": "90",
+        "4": "150"
+      },
+      "answer": [
+        "3"
+      ],
+      "appearances": [
+        {
+          "year": "112",
+          "session": 2,
+          "no": 52
+        }
+      ]
+    },
+    {
+      "id": "b-01-185",
+      "category": "professional",
+      "subject": "工作項目01 職業安全衛生相關法規",
+      "type": "single",
+      "stem": "依職業安全衛生設施規則規定，雇主對於升降機之升降路各樓出入口門，應有連鎖裝置，使搬器地板與樓板相差至多少公分以上時，升降路出入口門不能開啟？",
+      "options": {
+        "1": "5.5",
+        "2": "7.5",
+        "3": "6.5",
+        "4": "3.5"
+      },
+      "answer": [
+        "2"
+      ],
+      "appearances": [
+        {
+          "year": "113",
+          "session": 2,
+          "no": 6
+        }
+      ]
+    },
+    {
+      "id": "b-01-186",
+      "category": "professional",
+      "subject": "工作項目01 職業安全衛生相關法規",
+      "type": "single",
+      "stem": "依壓力容器安全檢查構造標準，除碳鋼鋼料及低合金鋼鋼料以外之材料，依經驗實績認無腐蝕或磨耗之虞者，胴體或其他承受壓力部分所使用之板之腐蝕裕度，應在多少毫米以上？",
+      "options": {
+        "1": "1",
+        "2": "3",
+        "3": "5",
+        "4": "7"
+      },
+      "answer": [
+        "1"
+      ],
+      "appearances": [
+        {
+          "year": "114",
+          "session": "2颱風延期考區",
+          "no": 38
+        }
+      ]
+    },
+    {
+      "id": "b-01-187",
+      "category": "professional",
+      "subject": "工作項目01 職業安全衛生相關法規",
+      "type": "single",
+      "stem": "依勞動檢查法所定勞工有立即發生墜落危險之虞之情事，下列何者錯誤？",
+      "options": {
+        "1": "於高差2公尺以上之工作場所邊緣及開口部分，未設置符合規定之防墜設施",
+        "2": "於高差2公尺以上之處所進行作業時，未使用高空工作車，或未以架設施工架等方法設置工作臺；設置工作臺有困難時，未採取張掛安全網或配掛安全帶之設施",
+        "3": "於易踏穿材料構築之屋頂從事作業時，未於屋架上設置防止踏穿及寬度30公分以上之踏板",
+        "4": "於高差超過1公尺以上之場所作業，未設置符合規定之安全上下設備"
+      },
+      "answer": [
+        "4"
+      ],
+      "appearances": []
+    },
+    {
+      "id": "b-01-188",
+      "category": "professional",
+      "subject": "工作項目01 職業安全衛生相關法規",
+      "type": "multi",
+      "stem": "職業安全衛生法所稱之工作者包括哪些？",
+      "options": {
+        "1": "勞工",
+        "2": "自營作業者",
+        "3": "其他受工作場所負責人指揮或監督從事勞動之人員",
+        "4": "事業之經營負責人"
+      },
+      "answer": [
+        "1",
+        "2",
+        "3"
+      ],
+      "appearances": []
+    },
+    {
+      "id": "b-01-189",
+      "category": "professional",
+      "subject": "工作項目01 職業安全衛生相關法規",
+      "type": "multi",
+      "stem": "機械、設備、器具、原料、材料等物件設計、製造或輸入者及工程之設計施工者，致力防止發生職業災害，應於哪些階段實施風險評估？",
+      "options": {
+        "1": "設計、製造",
+        "2": "輸入",
+        "3": "使用",
+        "4": "施工規劃"
+      },
+      "answer": [
+        "1",
+        "2",
+        "4"
+      ],
+      "appearances": [
+        {
+          "year": "108",
+          "session": 1,
+          "no": 63
+        }
+      ]
+    },
+    {
+      "id": "b-01-190",
+      "category": "professional",
+      "subject": "工作項目01 職業安全衛生相關法規",
+      "type": "multi",
+      "stem": "依職業安全衛生法規定，有下列哪些情形者，得公布其事業單位、雇主之名稱、負責人姓名？",
+      "options": {
+        "1": "事業單位勞動場所發生死亡等之職業災害",
+        "2": "未符合安全衛生設備及措施之規定致發生行政罰則",
+        "3": "發生職業病",
+        "4": "未實施風險評估"
+      },
+      "answer": [
+        "1",
+        "2",
+        "3"
+      ],
+      "appearances": []
+    },
+    {
+      "id": "b-01-191",
+      "category": "professional",
+      "subject": "工作項目01 職業安全衛生相關法規",
+      "type": "multi",
+      "stem": "下列哪些屬勞動檢查法第27條所稱之重大職業災害？",
+      "options": {
+        "1": "發生死亡災害者",
+        "2": "1人發生9等殘廢之災害",
+        "3": "發生光氣之洩漏，致1人以上罹災勞工需住院治療者",
+        "4": "發生災害罹災3人以上者"
+      },
+      "answer": [
+        "1",
+        "3",
+        "4"
+      ],
+      "appearances": [
+        {
+          "year": "108",
+          "session": 1,
+          "no": 67
+        }
+      ]
+    },
+    {
+      "id": "b-01-192",
+      "category": "professional",
+      "subject": "工作項目01 職業安全衛生相關法規",
+      "type": "multi",
+      "stem": "以勞動檢查機構所發檢查結果通知書之全部內容公告者，應公告於下列哪些場所之一？",
+      "options": {
+        "1": "事業單位管制勞工出勤之場所",
+        "2": "餐廳、宿舍及各作業場所之公告場所",
+        "3": "與工會或勞工代表協商同意之場所",
+        "4": "最嚴重之違反規定場所"
+      },
+      "answer": [
+        "1",
+        "2",
+        "3"
+      ],
+      "appearances": []
+    },
+    {
+      "id": "b-01-193",
+      "category": "professional",
+      "subject": "工作項目01 職業安全衛生相關法規",
+      "type": "multi",
+      "stem": "下列經中央主管機關指定適用機械設備器具安全標準者為哪些？",
+      "options": {
+        "1": "推土機",
+        "2": "動力衝剪機械",
+        "3": "手推刨床",
+        "4": "動力堆高機"
+      },
+      "answer": [
+        "2",
+        "3",
+        "4"
+      ],
+      "appearances": []
+    },
+    {
+      "id": "b-01-194",
+      "category": "professional",
+      "subject": "工作項目01 職業安全衛生相關法規",
+      "type": "multi",
+      "stem": "下列哪些為職業安全衛生法施行細則所稱具有危險性之機械？",
+      "options": {
+        "1": "吊升荷重3公噸固定式起重機",
+        "2": "鍋爐",
+        "3": "營建用升降機",
+        "4": "挖土機"
+      },
+      "answer": [
+        "1",
+        "3"
+      ],
+      "appearances": []
+    },
+    {
+      "id": "b-01-195",
+      "category": "professional",
+      "subject": "工作項目01 職業安全衛生相關法規",
+      "type": "multi",
+      "stem": "職業安全衛生設施規則所稱之車輛機械，包括下列哪些？",
+      "options": {
+        "1": "手推車",
+        "2": "固定式起重機",
+        "3": "鏟土機",
+        "4": "刮運機"
+      },
+      "answer": [
+        "3",
+        "4"
+      ],
+      "appearances": []
+    },
+    {
+      "id": "b-01-196",
+      "category": "professional",
+      "subject": "工作項目01 職業安全衛生相關法規",
+      "type": "multi",
+      "stem": "依營造安全衛生設施標準規定，下列哪些為施工架組配作業主管之辦理事項？",
+      "options": {
+        "1": "檢查材料",
+        "2": "督導工程進度",
+        "3": "指揮勞工作業",
+        "4": "監督勞工確實使用個人防護具"
+      },
+      "answer": [
+        "1",
+        "3",
+        "4"
+      ],
+      "appearances": []
+    },
+    {
+      "id": "b-01-197",
+      "category": "professional",
+      "subject": "工作項目01 職業安全衛生相關法規",
+      "type": "multi",
+      "stem": "高壓氣體勞工安全規則不適用於下列哪些高壓氣體？",
+      "options": {
+        "1": "船舶設備內使用之高壓氣體",
+        "2": "原子能設施內使用之高壓氣體",
+        "3": "高壓鍋爐及其導管內之高壓蒸氣",
+        "4": "冷凍能力在3公噸以上之冷凍設備內之高壓氣體"
+      },
+      "answer": [
+        "1",
+        "2",
+        "3"
+      ],
+      "appearances": []
+    },
+    {
+      "id": "b-01-198",
+      "category": "professional",
+      "subject": "工作項目01 職業安全衛生相關法規",
+      "type": "multi",
+      "stem": "依固定式起重機安全檢查構造標準規定，固定式起重機應以銘牌標示相關事項，包括下列哪些？",
+      "options": {
+        "1": "製造者名稱",
+        "2": "製造年月",
+        "3": "荷重試驗年月",
+        "4": "吊升荷重"
+      },
+      "answer": [
+        "1",
+        "2",
+        "4"
+      ],
+      "appearances": []
+    },
+    {
+      "id": "b-01-199",
+      "category": "professional",
+      "subject": "工作項目01 職業安全衛生相關法規",
+      "type": "multi",
+      "stem": "依危險性機械及設備安全檢查規則規定，第一種壓力容器在下列哪些情形需申請重新檢查？",
+      "options": {
+        "1": "從國外進口者",
+        "2": "經禁止使用擬恢復使用者",
+        "3": "補強支撐有變動者",
+        "4": "遷移裝置地點而重新裝設者"
+      },
+      "answer": [
+        "1",
+        "2",
+        "4"
+      ],
+      "appearances": []
+    },
+    {
+      "id": "b-01-200",
+      "category": "professional",
+      "subject": "工作項目01 職業安全衛生相關法規",
+      "type": "multi",
+      "stem": "依職業安全衛生設施規則規定，行駛中之貨車搭載勞工時，下列哪些正確？",
+      "options": {
+        "1": "駕駛室之頂部高度不得超過載貨台之物料高度",
+        "2": "不得使勞工搭乘於因貨車之搖動致有墜落之虞之位置",
+        "3": "勞工身體之最高部分不得超過駕駛室之頂部高度",
+        "4": "載貨台之物料高度超過駕駛室頂部者，勞工身體之最高部分不得超過該物料之高度"
+      },
+      "answer": [
+        "2",
+        "3",
+        "4"
+      ],
+      "appearances": []
+    },
+    {
+      "id": "b-01-201",
+      "category": "professional",
+      "subject": "工作項目01 職業安全衛生相關法規",
+      "type": "multi",
+      "stem": "下列哪些屬職業安全衛生設施規則所稱之局限空間？",
+      "options": {
+        "1": "非供勞工在其內部從事經常性作業",
+        "2": "勞工進出方法受限制",
+        "3": "無法以自然通風來維持充分、清淨空氣",
+        "4": "內部空間照明充足"
+      },
+      "answer": [
+        "1",
+        "2",
+        "3"
+      ],
+      "appearances": [
+        {
+          "year": "107",
+          "session": 1,
+          "no": 69
+        },
+        {
+          "year": "107",
+          "session": 3,
+          "no": 73
+        },
+        {
+          "year": "110",
+          "session": 3,
+          "no": 67
+        },
+        {
+          "year": "114",
+          "session": 2,
+          "no": 77
+        },
+        {
+          "year": "115",
+          "session": 2,
+          "no": 65
+        }
+      ]
+    },
+    {
+      "id": "b-01-202",
+      "category": "professional",
+      "subject": "工作項目01 職業安全衛生相關法規",
+      "type": "multi",
+      "stem": "依職業安全衛生設施規則規定，下列有關升降機之安全設施，下列哪些正確？",
+      "options": {
+        "1": "升降路各樓出入口，應裝置構造堅固平滑之門",
+        "2": "升降搬器及升降路出入口之任一門開啟時，升降機不能開動",
+        "3": "升降機在開動中任一門開啟時，能停止上下",
+        "4": "搬器地板與樓板相差10公分以上時，升降路出入口門不能開啟"
+      },
+      "answer": [
+        "1",
+        "2",
+        "3"
+      ],
+      "appearances": []
+    },
+    {
+      "id": "b-01-203",
+      "category": "professional",
+      "subject": "工作項目01 職業安全衛生相關法規",
+      "type": "multi",
+      "stem": "依職業安全衛生設施規則規定，對於高壓氣體之貯存，下列哪些正確？",
+      "options": {
+        "1": "盛裝容器和空容器應分區放置",
+        "2": "可燃性氣體、毒性氣體及氧氣之鋼瓶，應分開貯存",
+        "3": "劇毒性氣體不得貯存",
+        "4": "容器應保持在攝氏40度以下"
+      },
+      "answer": [
+        "1",
+        "2",
+        "4"
+      ],
+      "appearances": []
+    },
+    {
+      "id": "b-01-204",
+      "category": "professional",
+      "subject": "工作項目01 職業安全衛生相關法規",
+      "type": "multi",
+      "stem": "對於固定式起重機設置之階梯，下列哪些敘述符合固定式起重機安全檢查構造標準規定？",
+      "options": {
+        "1": "對水平之傾斜度應在75度以下",
+        "2": "每一階之高度應在30公分以下，且各階梯間距離應相等",
+        "3": "階面之寬度應在10公分以上，且各階面應相等",
+        "4": "設置之堅固扶手高度至少應在60公分以上"
+      },
+      "answer": [
+        "1",
+        "2",
+        "3"
+      ],
+      "appearances": []
+    },
+    {
+      "id": "b-01-205",
+      "category": "professional",
+      "subject": "工作項目01 職業安全衛生相關法規",
+      "type": "multi",
+      "stem": "依職業安全衛生法施行細則規定，下列哪些屬安全衛生工作守則的內容？",
+      "options": {
+        "1": "事業單位之安全衛生管理及各級之權責",
+        "2": "急救與搶救",
+        "3": "訪客注意要點",
+        "4": "工作安全及衛生標準"
+      },
+      "answer": [
+        "1",
+        "2",
+        "4"
+      ],
+      "appearances": []
+    },
+    {
+      "id": "b-01-206",
+      "category": "professional",
+      "subject": "工作項目01 職業安全衛生相關法規",
+      "type": "multi",
+      "stem": "依據職業安全衛生教育訓練規則的要求，下列哪些正確？",
+      "options": {
+        "1": "擔任有機溶劑作業主管的勞工應於事前使其接受有害作業主管之教育訓練",
+        "2": "荷重在1公噸以上之堆高機操作人員應使其接受特殊作業教育訓練",
+        "3": "職業安全衛生業務主管應接受每兩年至少12小時的在職教育訓練",
+        "4": "在職勞工於變更工作前，應使其接受適於工作必要之一般安全衛生教育訓練"
+      },
+      "answer": [
+        "1",
+        "2",
+        "4"
+      ],
+      "appearances": []
+    },
+    {
+      "id": "b-01-207",
+      "category": "professional",
+      "subject": "工作項目01 職業安全衛生相關法規",
+      "type": "multi",
+      "stem": "下列哪些為屬職業安全衛生法施行細則所稱特別危害健康作業？",
+      "options": {
+        "1": "高溫作業勞工作息時間標準所稱之高溫作業",
+        "2": "重體力作業",
+        "3": "精密作業",
+        "4": "游離輻射作業"
+      },
+      "answer": [
+        "1",
+        "4"
+      ],
+      "appearances": []
+    },
+    {
+      "id": "b-01-208",
+      "category": "professional",
+      "subject": "工作項目01 職業安全衛生相關法規",
+      "type": "multi",
+      "stem": "依職業安全衛生教育訓練規則規定，下列哪些作業勞工，雇主需對其實施特殊作業安全衛生教育訓練？",
+      "options": {
+        "1": "荷重在1公噸以上之堆高機操作",
+        "2": "衝床作業",
+        "3": "使用起重機具從事吊掛作業",
+        "4": "研磨作業"
+      },
+      "answer": [
+        "1",
+        "3"
+      ],
+      "appearances": [
+        {
+          "year": "108",
+          "session": 1,
+          "no": 79
+        },
+        {
+          "year": "114",
+          "session": 2,
+          "no": 62
+        }
+      ]
+    },
+    {
+      "id": "b-01-209",
+      "category": "professional",
+      "subject": "工作項目01 職業安全衛生相關法規",
+      "type": "multi",
+      "stem": "依勞工作業場所容許暴露標準規定，下列哪些錯誤？",
+      "options": {
+        "1": "暴露濃度未超過容許濃度者即表示一定安全",
+        "2": "容許濃度不得作為工作場所以外之空氣污染指標",
+        "3": "容許濃度表註有皮字者表示該物質對勞工會引起皮膚炎及敏感等特性",
+        "4": "任何時間均不得超過短時間時量平均容許濃度"
+      },
+      "answer": [
+        "1",
+        "3",
+        "4"
+      ],
+      "appearances": [
+        {
+          "year": "115",
+          "session": 1,
+          "no": 75
+        }
+      ]
+    },
+    {
+      "id": "b-01-210",
+      "category": "professional",
+      "subject": "工作項目01 職業安全衛生相關法規",
+      "type": "multi",
+      "stem": "依危害性化學品標示及通識規則規定，危害物質應標示事項，除危害圖式外，其內容需包括下列哪些？",
+      "options": {
+        "1": "名稱及危害成分",
+        "2": "危害警告訊息",
+        "3": "製造者、輸入者或供應者之名稱、地址及電話",
+        "4": "消防機關電話、地址"
+      },
+      "answer": [
+        "1",
+        "2",
+        "3"
+      ],
+      "appearances": [
+        {
+          "year": "115",
+          "session": 1,
+          "no": 73
+        }
+      ]
+    },
+    {
+      "id": "b-01-211",
+      "category": "professional",
+      "subject": "工作項目01 職業安全衛生相關法規",
+      "type": "multi",
+      "stem": "依危害性化學品標示及通識規則規定，下列哪些可免標示？",
+      "options": {
+        "1": "外部容器已標示，僅供內襯且不再取出之內容器",
+        "2": "內部容器未標示，由外部無法見到標示之外部容器",
+        "3": "勞工使用可攜帶容器，其危害物質取自有標示之容器",
+        "4": "危害物質僅供實驗室實驗、研究之用"
+      },
+      "answer": [
+        "1",
+        "3"
+      ],
+      "appearances": []
+    },
+    {
+      "id": "b-01-212",
+      "category": "professional",
+      "subject": "工作項目01 職業安全衛生相關法規",
+      "type": "multi",
+      "stem": "事業單位發生職業安全衛生法第37條第2項規定之職業災害時，除必要之急救、搶救外，雇主非經下列哪些機構或機關許可，不得移動或破壞現場？",
+      "options": {
+        "1": "警察人員",
+        "2": "地方主管機關",
+        "3": "勞動檢查機構",
+        "4": "司法機關"
+      },
+      "answer": [
+        "3",
+        "4"
+      ],
+      "appearances": [
+        {
+          "year": "115",
+          "session": 1,
+          "no": 78
+        },
+        {
+          "year": "115",
+          "session": 2,
+          "no": 74
+        }
+      ]
+    },
+    {
+      "id": "b-01-213",
+      "category": "professional",
+      "subject": "工作項目01 職業安全衛生相關法規",
+      "type": "multi",
+      "stem": "下列哪些高壓氣體為高壓氣體勞工安全規則中所稱特定高壓氣體？",
+      "options": {
+        "1": "壓縮氫氣",
+        "2": "液氧",
+        "3": "乙炔",
+        "4": "溴甲烷"
+      },
+      "answer": [
+        "1",
+        "2"
+      ],
+      "appearances": [
+        {
+          "year": "115",
+          "session": 1,
+          "no": 76
+        }
+      ]
+    },
+    {
+      "id": "b-01-214",
+      "category": "professional",
+      "subject": "工作項目01 職業安全衛生相關法規",
+      "type": "multi",
+      "stem": "依職業安全衛生教育訓練規則規定，雇主對擔任下列哪些工作性質勞工，每3年至少3小時接受安全衛生在職教育訓練？",
+      "options": {
+        "1": "危險性之機械及設備操作人員",
+        "2": "特殊作業人員",
+        "3": "急救人員",
+        "4": "職業安全衛生業務主管"
+      },
+      "answer": [
+        "1",
+        "2",
+        "3"
+      ],
+      "appearances": [
+        {
+          "year": "115",
+          "session": 2,
+          "no": 79
+        }
+      ]
+    },
+    {
+      "id": "b-01-215",
+      "category": "professional",
+      "subject": "工作項目01 職業安全衛生相關法規",
+      "type": "multi",
+      "stem": "依優先管理化學品之指定及運作管理辦法規定，下列哪些為優先管理化學品？",
+      "options": {
+        "1": "氯氣",
+        "2": "氨",
+        "3": "一氧化碳",
+        "4": "二硫化碳"
+      },
+      "answer": [
+        "1",
+        "4"
+      ],
+      "appearances": [
+        {
+          "year": "115",
+          "session": 2,
+          "no": 75
+        }
+      ]
+    },
+    {
+      "id": "b-01-216",
+      "category": "professional",
+      "subject": "工作項目01 職業安全衛生相關法規",
+      "type": "multi",
+      "stem": "依管制性化學品之指定及運作許可管理辦法規定，中央主管機關得邀請專家學者組成技術諮議會，辦理下列哪些事項之諮詢或建議？",
+      "options": {
+        "1": "管制性化學品申請許可之審查",
+        "2": "管制性化學品之篩選及指定",
+        "3": "管制性化學品之風險評估",
+        "4": "其他管制性化學品管理事項之研議"
+      },
+      "answer": [
+        "1",
+        "2",
+        "4"
+      ],
+      "appearances": [
+        {
+          "year": "114",
+          "session": 2,
+          "no": 80
+        },
+        {
+          "year": "114",
+          "session": "2颱風延期考區",
+          "no": 80
+        }
+      ]
+    },
+    {
+      "id": "b-01-217",
+      "category": "professional",
+      "subject": "工作項目01 職業安全衛生相關法規",
+      "type": "multi",
+      "stem": "依起重升降機具安全規則規定，事業單位對於起重機具之吊鏈，下列哪些情況其安全係數可取4以上？",
+      "options": {
+        "1": "以斷裂荷重之1/2拉伸時，其伸長率為0.5%以下者",
+        "2": "抗拉強度值為每平方毫米400牛頓以上未滿630牛頓，其伸長率為20%以上者",
+        "3": "延伸長度超過製造時長度5%以上者",
+        "4": "斷面直徑減少超過製造時之10%者"
+      },
+      "answer": [
+        "1",
+        "2"
+      ],
+      "appearances": []
+    },
+    {
+      "id": "b-01-218",
+      "category": "professional",
+      "subject": "工作項目01 職業安全衛生相關法規",
+      "type": "multi",
+      "stem": "依職業安全衛生法規定，下列哪些人對於中央主管機關指定之機械、設備或器具，其構造、性能及防護非符合安全標準者，不得產製運出廠場、輸入、租賃、供應或設置？",
+      "options": {
+        "1": "製造者",
+        "2": "輸入者",
+        "3": "供應者",
+        "4": "雇主"
+      },
+      "answer": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "appearances": []
+    },
+    {
+      "id": "b-01-219",
+      "category": "professional",
+      "subject": "工作項目01 職業安全衛生相關法規",
+      "type": "multi",
+      "stem": "依職業安全衛生法規定，有下列哪些情事之一之工作場所，事業單位應依中央主管機關規定之期限，定期實施製程安全評估，並製作製程安全評估報告及採取必要之預防措施？",
+      "options": {
+        "1": "丙類危險性工作場所",
+        "2": "丁類危險性工作場所",
+        "3": "從事石油裂解之石化工業",
+        "4": "從事製造、處置或使用危害性之化學品數量達中央主管機關規定量以上"
+      },
+      "answer": [
+        "3",
+        "4"
+      ],
+      "appearances": []
+    },
+    {
+      "id": "b-01-220",
+      "category": "professional",
+      "subject": "工作項目01 職業安全衛生相關法規",
+      "type": "multi",
+      "stem": "依職業安全衛生法規定，事業單位以其事業之全部或一部分交付承攬時，應於事前告知該承攬人有關其事業下列哪些事項？",
+      "options": {
+        "1": "工作環境",
+        "2": "危害因素",
+        "3": "進出管制規定",
+        "4": "職業安全衛生法及有關安全衛生規定應採取之措施"
+      },
+      "answer": [
+        "1",
+        "2",
+        "4"
+      ],
+      "appearances": []
+    },
+    {
+      "id": "b-01-221",
+      "category": "professional",
+      "subject": "工作項目01 職業安全衛生相關法規",
+      "type": "multi",
+      "stem": "依職業安全衛生法規定，事業單位與承攬人、再承攬人分別僱用勞工共同作業時，為防止職業災害，原事業單位應採取下列哪些必要措施？",
+      "options": {
+        "1": "設置協議組織，並指定工作場所負責人，擔任指揮、監督及協調之工作",
+        "2": "財務管理",
+        "3": "工作之連繫與調整",
+        "4": "工作場所之巡視"
+      },
+      "answer": [
+        "1",
+        "3",
+        "4"
+      ],
+      "appearances": [
+        {
+          "year": "114",
+          "session": 2,
+          "no": 71
+        }
+      ]
+    },
+    {
+      "id": "b-01-222",
+      "category": "professional",
+      "subject": "工作項目01 職業安全衛生相關法規",
+      "type": "multi",
+      "stem": "依職業安全衛生法規定，雇主不得使妊娠中之女性勞工從事下列哪些危險性或有害性工作？",
+      "options": {
+        "1": "超過220伏特電力線之銜接",
+        "2": "鉛及其化合物散布場所之工作",
+        "3": "一定重量以上之重物處理工作",
+        "4": "處理爆炸性、易燃性等物質之工作"
+      },
+      "answer": [
+        "2",
+        "3"
+      ],
+      "appearances": [
+        {
+          "year": "115",
+          "session": 1,
+          "no": 61
+        }
+      ]
+    },
+    {
+      "id": "b-01-223",
+      "category": "professional",
+      "subject": "工作項目01 職業安全衛生相關法規",
+      "type": "multi",
+      "stem": "依職業安全衛生設施規則規定，局限空間係指下列哪些要件？",
+      "options": {
+        "1": "空氣中氧氣濃度18%以上",
+        "2": "非供勞工在其內部從事經常性作業",
+        "3": "無自然採光之密閉作業場所",
+        "4": "勞工進出方法受限制"
+      },
+      "answer": [
+        "2",
+        "4"
+      ],
+      "appearances": []
+    },
+    {
+      "id": "b-01-224",
+      "category": "professional",
+      "subject": "工作項目01 職業安全衛生相關法規",
+      "type": "multi",
+      "stem": "依職業安全衛生設施規則規定，從事局限空間作業有缺氧或中毒之虞者，應辦理下列哪些事項？",
+      "options": {
+        "1": "勞工佩戴可偵測人員活動情形之裝置",
+        "2": "勞工佩戴全身背負式安全帶",
+        "3": "勞工攜帶手機",
+        "4": "勞工攜帶錄影設備"
+      },
+      "answer": [
+        "1",
+        "2"
+      ],
+      "appearances": []
+    },
+    {
+      "id": "b-01-225",
+      "category": "professional",
+      "subject": "工作項目01 職業安全衛生相關法規",
+      "type": "multi",
+      "stem": "依職業安全衛生設施規則規定，有危害勞工之虞局限空間作業場所入口顯而易見處所，應公告下列哪些注意事項，使作業勞工周知？",
+      "options": {
+        "1": "事故發生時之緊急措施及緊急聯絡方式",
+        "2": "安全資料表",
+        "3": "設施平面圖",
+        "4": "進入該場所時應採取之措施"
+      },
+      "answer": [
+        "1",
+        "4"
+      ],
+      "appearances": [
+        {
+          "year": "114",
+          "session": 2,
+          "no": 70
+        },
+        {
+          "year": "114",
+          "session": "2颱風延期考區",
+          "no": 65
+        }
+      ]
+    },
+    {
+      "id": "b-01-226",
+      "category": "professional",
+      "subject": "工作項目01 職業安全衛生相關法規",
+      "type": "multi",
+      "stem": "依職業安全衛生設施規則規定，對於不經常使用之緊急避難用通道，下列哪些正確？",
+      "options": {
+        "1": "應標示其目的",
+        "2": "應設置在勞工平常不易接觸之處",
+        "3": "應維持隨時能應用之狀態",
+        "4": "應能耐3級地震強度"
+      },
+      "answer": [
+        "1",
+        "3"
+      ],
+      "appearances": []
+    },
+    {
+      "id": "b-01-227",
+      "category": "professional",
+      "subject": "工作項目01 職業安全衛生相關法規",
+      "type": "multi",
+      "stem": "依職業安全衛生設施規則規定，使勞工使用呼吸防護具時，雇主應指派專人採取下列哪些呼吸防護措施？",
+      "options": {
+        "1": "防護具產地認定",
+        "2": "危害辨識及暴露評估",
+        "3": "防護具之選擇",
+        "4": "防護具之使用"
+      },
+      "answer": [
+        "2",
+        "3",
+        "4"
+      ],
+      "appearances": []
+    },
+    {
+      "id": "b-01-228",
+      "category": "professional",
+      "subject": "工作項目01 職業安全衛生相關法規",
+      "type": "multi",
+      "stem": "依機械設備器具安全標準規定剪斷機械之安全裝置，應標示哪些事項？",
+      "options": {
+        "1": "製造號碼",
+        "2": "製造者名稱",
+        "3": "製造年月",
+        "4": "適用剪斷刀具之種類"
+      },
+      "answer": [
+        "1",
+        "2",
+        "3"
+      ],
+      "appearances": []
+    },
+    {
+      "id": "b-01-229",
+      "category": "professional",
+      "subject": "工作項目01 職業安全衛生相關法規",
+      "type": "multi",
+      "stem": "若某一化工廠之反應槽需進行製程安全評估，依製程安全評估定期實施辦法之規定，下列哪些人非為評估小組成員？",
+      "options": {
+        "1": "工作場所負責人",
+        "2": "工會代表",
+        "3": "物料倉儲主管",
+        "4": "熟悉該場所作業之勞工"
+      },
+      "answer": [
+        "2",
+        "3"
+      ],
+      "appearances": []
+    },
+    {
+      "id": "b-01-230",
+      "category": "professional",
+      "subject": "工作項目01 職業安全衛生相關法規",
+      "type": "multi",
+      "stem": "勞工作業場所容許暴露標準所稱容許濃度可能為",
+      "options": {
+        "1": "八小時日時量平均容許濃度",
+        "2": "短時間時量平均容許濃度",
+        "3": "最高容許濃度",
+        "4": "生物性暴露指標"
+      },
+      "answer": [
+        "1",
+        "2",
+        "3"
+      ],
+      "appearances": []
+    },
+    {
+      "id": "b-01-231",
+      "category": "professional",
+      "subject": "工作項目01 職業安全衛生相關法規",
+      "type": "multi",
+      "stem": "勞工作業場所容許暴露標準附表二空氣中粉塵容許濃度之說明，結晶型游離二氧化矽係指",
+      "options": {
+        "1": "石英",
+        "2": "方矽石",
+        "3": "鱗矽石",
+        "4": "矽藻土"
+      },
+      "answer": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "appearances": [
+        {
+          "year": "114",
+          "session": "2颱風延期考區",
+          "no": 68
+        }
+      ]
+    },
+    {
+      "id": "b-01-232",
+      "category": "professional",
+      "subject": "工作項目01 職業安全衛生相關法規",
+      "type": "multi",
+      "stem": "依高壓氣體勞工安全規則規定，下列哪些儲槽應於其四周設置可防止液化氣體漏洩時流竄至他處之防液堤？",
+      "options": {
+        "1": "1000公噸以上之液化氧氣儲槽",
+        "2": "1000公噸以上之液化氮氣儲槽",
+        "3": "5公噸以上之液化氨氣儲槽",
+        "4": "1000公噸以上之液化石油氣儲槽"
+      },
+      "answer": [
+        "1",
+        "3",
+        "4"
+      ],
+      "appearances": []
+    },
+    {
+      "id": "b-01-233",
+      "category": "professional",
+      "subject": "工作項目01 職業安全衛生相關法規",
+      "type": "multi",
+      "stem": "依職業安全衛生設施規則規定，電路開路之開關於作業中可採取下列哪些設施？",
+      "options": {
+        "1": "上鎖",
+        "2": "標示禁止送電",
+        "3": "標示停電作業中",
+        "4": "設置監視人員監視之"
+      },
+      "answer": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "appearances": []
+    },
+    {
+      "id": "b-01-234",
+      "category": "professional",
+      "subject": "工作項目01 職業安全衛生相關法規",
+      "type": "multi",
+      "stem": "依職業安全衛生管理辦法規定，下列哪些事業單位，雇主應依國家標準CNS45001同等以上規定，建置適合該事業單位之職業安全衛生管理系統，並據以執行？",
+      "options": {
+        "1": "勞工人數250人之大賣場",
+        "2": "勞工人數250人之電力公司",
+        "3": "勞工人數550人之醫院",
+        "4": "勞工人數150人之石油裂解廠"
+      },
+      "answer": [
+        "2",
+        "3",
+        "4"
+      ],
+      "appearances": [
+        {
+          "year": "115",
+          "session": 2,
+          "no": 71
+        }
+      ]
+    },
+    {
+      "id": "b-01-235",
+      "category": "professional",
+      "subject": "工作項目01 職業安全衛生相關法規",
+      "type": "multi",
+      "stem": "依職業安全衛生管理辦法規定，下列哪些人員具職業安全管理師資格？",
+      "options": {
+        "1": "工業安全技師",
+        "2": "曾任勞動檢查員，具有職業安全檢查工作經驗3年以上",
+        "3": "領有職業安全管理甲級技術士證照",
+        "4": "104年修畢工業安全相關科目十八學分以上，並具有國內外大專以上校院工業安全相關類科碩士以上學位"
+      },
+      "answer": [
+        "1",
+        "2",
+        "3"
+      ],
+      "appearances": []
+    },
+    {
+      "id": "b-01-236",
+      "category": "professional",
+      "subject": "工作項目01 職業安全衛生相關法規",
+      "type": "multi",
+      "stem": "依起重升降機具安全規則規定，下列哪些人員得從事固定式起重機吊掛作業？",
+      "options": {
+        "1": "曾受吊掛作業訓練合格者",
+        "2": "3公噸以上之固定式起重機操作人員訓練合格者",
+        "3": "3公噸以上之移動式起重機操作人員訓練合格者",
+        "4": "3公噸以上之人字臂起重桿操作人員訓練合格者"
+      },
+      "answer": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "appearances": []
+    },
+    {
+      "id": "b-02-001",
+      "category": "professional",
+      "subject": "工作項目02 職業安全衛生計畫及管理",
+      "type": "single",
+      "stem": "人為失誤（HumanError）可藉由以下何種分析加以預防？",
+      "options": {
+        "1": "虛驚事件分析",
+        "2": "作業環境測定",
+        "3": "靜電量測",
+        "4": "故障樹分析"
+      },
+      "answer": [
+        "1"
+      ],
+      "appearances": [
+        {
+          "year": "111",
+          "session": 3,
+          "no": 57
+        },
+        {
+          "year": "114",
+          "session": 2,
+          "no": 2
+        }
+      ]
+    },
+    {
+      "id": "b-02-002",
+      "category": "professional",
+      "subject": "工作項目02 職業安全衛生計畫及管理",
+      "type": "single",
+      "stem": "依職業安全衛生管理辦法規定，應由何者訂定職業安全衛生管理計畫？",
+      "options": {
+        "1": "作業勞工",
+        "2": "勞工局",
+        "3": "現場監督人員",
+        "4": "雇主"
+      },
+      "answer": [
+        "4"
+      ],
+      "appearances": [
+        {
+          "year": "108",
+          "session": 1,
+          "no": 58
+        },
+        {
+          "year": "111",
+          "session": 2,
+          "no": 60
+        },
+        {
+          "year": "112",
+          "session": 1,
+          "no": 38
+        },
+        {
+          "year": "113",
+          "session": 3,
+          "no": 39
+        },
+        {
+          "year": "114",
+          "session": "2颱風延期考區",
+          "no": 25
+        }
+      ]
+    },
+    {
+      "id": "b-02-003",
+      "category": "professional",
+      "subject": "工作項目02 職業安全衛生計畫及管理",
+      "type": "single",
+      "stem": "下列何者是訂定職業安全衛生管理計畫，先要確立的重點？",
+      "options": {
+        "1": "計畫項目",
+        "2": "計畫期間",
+        "3": "計畫目標",
+        "4": "基本方針"
+      },
+      "answer": [
+        "4"
+      ],
+      "appearances": [
+        {
+          "year": "109",
+          "session": 1,
+          "no": 46
+        },
+        {
+          "year": "115",
+          "session": 2,
+          "no": 59
+        }
+      ]
+    },
+    {
+      "id": "b-02-004",
+      "category": "professional",
+      "subject": "工作項目02 職業安全衛生計畫及管理",
+      "type": "single",
+      "stem": "依職業安全衛生管理辦法規定，雇主使勞工從事缺氧危險作業時，應使該勞工就其作業有關事項實施何種檢查？",
+      "options": {
+        "1": "設備之定期檢查",
+        "2": "機械設備之重點檢查",
+        "3": "機械設備之作業檢點",
+        "4": "作業檢點"
+      },
+      "answer": [
+        "4"
+      ],
+      "appearances": [
+        {
+          "year": "108",
+          "session": 2,
+          "no": 55
+        },
+        {
+          "year": "108",
+          "session": 3,
+          "no": 25
+        },
+        {
+          "year": "113",
+          "session": 3,
+          "no": 2
+        },
+        {
+          "year": "114",
+          "session": 1,
+          "no": 18
+        }
+      ]
+    },
+    {
+      "id": "b-02-005",
+      "category": "professional",
+      "subject": "工作項目02 職業安全衛生計畫及管理",
+      "type": "single",
+      "stem": "依職業安全衛生法規定，安全衛生工作守則應由下列何者訂定？",
+      "options": {
+        "1": "雇主",
+        "2": "勞工",
+        "3": "雇主會同勞工代表",
+        "4": "勞動部"
+      },
+      "answer": [
+        "3"
+      ],
+      "appearances": [
+        {
+          "year": "111",
+          "session": 1,
+          "no": 8
+        },
+        {
+          "year": "111",
+          "session": 2,
+          "no": 25
+        },
+        {
+          "year": "112",
+          "session": 2,
+          "no": 43
+        },
+        {
+          "year": "113",
+          "session": 2,
+          "no": 25
+        },
+        {
+          "year": "113",
+          "session": 3,
+          "no": 13
+        }
+      ]
+    },
+    {
+      "id": "b-02-006",
+      "category": "professional",
+      "subject": "工作項目02 職業安全衛生計畫及管理",
+      "type": "single",
+      "stem": "依職業安全衛生法規定，安全衛生工作守則訂定後，下列何種程序正確？",
+      "options": {
+        "1": "應報經勞動檢查機構備查",
+        "2": "應報經地方主管機關備查",
+        "3": "經雇主核定後實施",
+        "4": "應報警察機關備查"
+      },
+      "answer": [
+        "1"
+      ],
+      "appearances": []
+    },
+    {
+      "id": "b-02-007",
+      "category": "professional",
+      "subject": "工作項目02 職業安全衛生計畫及管理",
+      "type": "single",
+      "stem": "勞工未切實遵行安全衛生工作守則，主管機關最高可處罰鍰新臺幣多少元？",
+      "options": {
+        "1": "1,000",
+        "2": "3,000",
+        "3": "6,000",
+        "4": "9,000"
+      },
+      "answer": [
+        "2"
+      ],
+      "appearances": []
+    },
+    {
+      "id": "b-02-008",
+      "category": "professional",
+      "subject": "工作項目02 職業安全衛生計畫及管理",
+      "type": "single",
+      "stem": "安全衛生工作守則之製作，下列何者不符要求？",
+      "options": {
+        "1": "法令基本原則",
+        "2": "合理可實施原則",
+        "3": "責任全由勞工負責",
+        "4": "規定程序可修訂"
+      },
+      "answer": [
+        "3"
+      ],
+      "appearances": [
+        {
+          "year": "109",
+          "session": 2,
+          "no": 16
+        },
+        {
+          "year": "114",
+          "session": 1,
+          "no": 46
+        },
+        {
+          "year": "114",
+          "session": 2,
+          "no": 28
+        }
+      ]
+    },
+    {
+      "id": "b-02-009",
+      "category": "professional",
+      "subject": "工作項目02 職業安全衛生計畫及管理",
+      "type": "single",
+      "stem": "依職業安全衛生管理辦法規定，各項安全衛生提案應送請下列何者審議？",
+      "options": {
+        "1": "職業安全衛生管理單位",
+        "2": "董事會",
+        "3": "監事會",
+        "4": "職業安全衛生委員會"
+      },
+      "answer": [
+        "4"
+      ],
+      "appearances": [
+        {
+          "year": "107",
+          "session": 2,
+          "no": 48
+        },
+        {
+          "year": "107",
+          "session": 3,
+          "no": 49
+        },
+        {
+          "year": "109",
+          "session": 3,
+          "no": 27
+        },
+        {
+          "year": "113",
+          "session": 1,
+          "no": 3
+        },
+        {
+          "year": "114",
+          "session": 3,
+          "no": 15
+        }
+      ]
+    },
+    {
+      "id": "b-02-010",
+      "category": "professional",
+      "subject": "工作項目02 職業安全衛生計畫及管理",
+      "type": "single",
+      "stem": "依職業安全衛生管理辦法之規定，勞工人數多少人以上之事業單位，雇主除應依規模、特性訂出職業安全衛生管理計畫外，另應訂定職業安全衛生管理規章？",
+      "options": {
+        "1": "30",
+        "2": "50",
+        "3": "100",
+        "4": "200"
+      },
+      "answer": [
+        "3"
+      ],
+      "appearances": [
+        {
+          "year": "111",
+          "session": 3,
+          "no": 18
+        },
+        {
+          "year": "115",
+          "session": 1,
+          "no": 13
+        }
+      ]
+    },
+    {
+      "id": "b-02-011",
+      "category": "professional",
+      "subject": "工作項目02 職業安全衛生計畫及管理",
+      "type": "single",
+      "stem": "下列何者非勞工健康管理計畫之目的？",
+      "options": {
+        "1": "依勞工之身體及心理狀況，分配適當工作",
+        "2": "早期偵知有害作業場所各種影響，評估安全衛生管理措施是否適當並提出改善措施",
+        "3": "防止機械設備之捲夾危害",
+        "4": "減少勞工因工傷病之缺工"
+      },
+      "answer": [
+        "3"
+      ],
+      "appearances": [
+        {
+          "year": "112",
+          "session": 2,
+          "no": 18
+        },
+        {
+          "year": "112",
+          "session": 3,
+          "no": 26
+        },
+        {
+          "year": "115",
+          "session": 2,
+          "no": 29
+        }
+      ]
+    },
+    {
+      "id": "b-02-012",
+      "category": "professional",
+      "subject": "工作項目02 職業安全衛生計畫及管理",
+      "type": "single",
+      "stem": "下列何者非健康促進的項目？",
+      "options": {
+        "1": "有氧運動",
+        "2": "八段錦",
+        "3": "戒菸計畫",
+        "4": "指認呼喚"
+      },
+      "answer": [
+        "4"
+      ],
+      "appearances": [
+        {
+          "year": "111",
+          "session": 2,
+          "no": 18
+        },
+        {
+          "year": "115",
+          "session": 1,
+          "no": 27
+        }
+      ]
+    },
+    {
+      "id": "b-02-013",
+      "category": "professional",
+      "subject": "工作項目02 職業安全衛生計畫及管理",
+      "type": "single",
+      "stem": "依職業安全衛生管理辦法規定，下列何種機械設備應實施重點檢查？",
+      "options": {
+        "1": "局部排氣裝置",
+        "2": "動力堆高機",
+        "3": "車輛系營建機械",
+        "4": "衝壓機械"
+      },
+      "answer": [
+        "1"
+      ],
+      "appearances": [
+        {
+          "year": "113",
+          "session": 2,
+          "no": 17
+        }
+      ]
+    },
+    {
+      "id": "b-02-014",
+      "category": "professional",
+      "subject": "工作項目02 職業安全衛生計畫及管理",
+      "type": "single",
+      "stem": "依職業安全衛生設施規則規定，有易燃性液體蒸氣或可燃性氣體存在致有爆炸之虞之作業場所，應在何時測定其濃度？",
+      "options": {
+        "1": "作業前",
+        "2": "作業後",
+        "3": "每日",
+        "4": "每月"
+      },
+      "answer": [
+        "1"
+      ],
+      "appearances": [
+        {
+          "year": "110",
+          "session": 1,
+          "no": 47
+        },
+        {
+          "year": "110",
+          "session": 2,
+          "no": 21
+        },
+        {
+          "year": "114",
+          "session": 3,
+          "no": 45
+        }
+      ]
+    },
+    {
+      "id": "b-02-015",
+      "category": "professional",
+      "subject": "工作項目02 職業安全衛生計畫及管理",
+      "type": "single",
+      "stem": "依職業安全衛生設施規則規定，作業前應測定可燃性氣體或易燃性液體蒸氣，其濃度達爆炸下限值之多少百分比以上時，應即刻使勞工退避至安全場所？",
+      "options": {
+        "1": "10",
+        "2": "20",
+        "3": "30",
+        "4": "40"
+      },
+      "answer": [
+        "3"
+      ],
+      "appearances": [
+        {
+          "year": "107",
+          "session": 1,
+          "no": 47
+        },
+        {
+          "year": "107",
+          "session": 2,
+          "no": 21
+        },
+        {
+          "year": "108",
+          "session": 1,
+          "no": 25
+        },
+        {
+          "year": "109",
+          "session": 3,
+          "no": 50
+        },
+        {
+          "year": "112",
+          "session": 3,
+          "no": 44
+        }
+      ]
+    },
+    {
+      "id": "b-02-016",
+      "category": "professional",
+      "subject": "工作項目02 職業安全衛生計畫及管理",
+      "type": "single",
+      "stem": "實施自動檢查以後，必須採取下列何項措施始能達到防止職業災害，保障職業安全與健康之目的？",
+      "options": {
+        "1": "聘請專家指導",
+        "2": "提出檢查報告",
+        "3": "切實改善",
+        "4": "舉行研討會"
+      },
+      "answer": [
+        "3"
+      ],
+      "appearances": [
+        {
+          "year": "109",
+          "session": 1,
+          "no": 55
+        },
+        {
+          "year": "109",
+          "session": 3,
+          "no": 59
+        },
+        {
+          "year": "113",
+          "session": 2,
+          "no": 14
+        },
+        {
+          "year": "114",
+          "session": "2颱風延期考區",
+          "no": 50
+        }
+      ]
+    },
+    {
+      "id": "b-02-017",
+      "category": "professional",
+      "subject": "工作項目02 職業安全衛生計畫及管理",
+      "type": "single",
+      "stem": "下列何種事業單位依職業安全衛生管理辦法規定，僱用勞工人數在100人以上需要設置職業安全衛生管理單位？",
+      "options": {
+        "1": "新聞業",
+        "2": "醫院",
+        "3": "紡織業",
+        "4": "郵政業"
+      },
+      "answer": [
+        "3"
+      ],
+      "appearances": [
+        {
+          "year": "107",
+          "session": 3,
+          "no": 50
+        }
+      ]
+    },
+    {
+      "id": "b-02-018",
+      "category": "professional",
+      "subject": "工作項目02 職業安全衛生計畫及管理",
+      "type": "single",
+      "stem": "依職業安全衛生管理辦法規定，事業單位勞工人數在多少人以上，設職業安全衛生管理單位或置管理人員時，應填具「職業安全衛生管理單位（人員）設置（變更）報備書」陳報勞動檢查機構備查？",
+      "options": {
+        "1": "10",
+        "2": "20",
+        "3": "30",
+        "4": "100"
+      },
+      "answer": [
+        "3"
+      ],
+      "appearances": [
+        {
+          "year": "107",
+          "session": 2,
+          "no": 53
+        },
+        {
+          "year": "114",
+          "session": "2颱風延期考區",
+          "no": 40
+        }
+      ]
+    },
+    {
+      "id": "b-02-019",
+      "category": "professional",
+      "subject": "工作項目02 職業安全衛生計畫及管理",
+      "type": "single",
+      "stem": "依職業安全衛生管理辦法規定，職業安全衛生委員會設置之委員人數最少需要多少人？",
+      "options": {
+        "1": "3",
+        "2": "5",
+        "3": "7",
+        "4": "9"
+      },
+      "answer": [
+        "3"
+      ],
+      "appearances": [
+        {
+          "year": "111",
+          "session": 2,
+          "no": 20
+        },
+        {
+          "year": "113",
+          "session": 1,
+          "no": 14
+        },
+        {
+          "year": "114",
+          "session": "2颱風延期考區",
+          "no": 3
+        }
+      ]
+    },
+    {
+      "id": "b-02-020",
+      "category": "professional",
+      "subject": "工作項目02 職業安全衛生計畫及管理",
+      "type": "single",
+      "stem": "依職業安全衛生管理辦法規定，事業單位勞工多少人以上，雇主應訂定職業安全衛生管理規章？",
+      "options": {
+        "1": "30",
+        "2": "50",
+        "3": "100",
+        "4": "300"
+      },
+      "answer": [
+        "3"
+      ],
+      "appearances": [
+        {
+          "year": "107",
+          "session": 2,
+          "no": 42
+        },
+        {
+          "year": "109",
+          "session": 3,
+          "no": 35
+        },
+        {
+          "year": "113",
+          "session": 1,
+          "no": 9
+        }
+      ]
+    },
+    {
+      "id": "b-02-021",
+      "category": "professional",
+      "subject": "工作項目02 職業安全衛生計畫及管理",
+      "type": "single",
+      "stem": "依職業安全衛生管理辦法規定，職業安全衛生人員離職，應向哪個單位報備？",
+      "options": {
+        "1": "當地勞動檢查機構",
+        "2": "當地縣（市）政府",
+        "3": "同業公會",
+        "4": "當地警察局"
+      },
+      "answer": [
+        "1"
+      ],
+      "appearances": []
+    },
+    {
+      "id": "b-02-022",
+      "category": "professional",
+      "subject": "工作項目02 職業安全衛生計畫及管理",
+      "type": "single",
+      "stem": "依職業安全衛生管理辦法規定，高壓氣體儲存能力在100立方公尺或1公噸以上之儲槽，應多久定期測定其沉陷狀況1次？",
+      "options": {
+        "1": "1個月",
+        "2": "6個月",
+        "3": "9個月",
+        "4": "1年"
+      },
+      "answer": [
+        "4"
+      ],
+      "appearances": [
+        {
+          "year": "110",
+          "session": 1,
+          "no": 60
+        },
+        {
+          "year": "110",
+          "session": 2,
+          "no": 36
+        }
+      ]
+    },
+    {
+      "id": "b-02-023",
+      "category": "professional",
+      "subject": "工作項目02 職業安全衛生計畫及管理",
+      "type": "single",
+      "stem": "張三在甲工廠工作，擔任吊升荷重2公噸之固定式起重機操作員及荷重2公噸之堆高機操作員，請問甲工廠雇主應對張三實施下列何者訓練？",
+      "options": {
+        "1": "吊升荷重未滿3公噸之固定式起重機操作訓練",
+        "2": "堆高機之操作訓練",
+        "3": "吊升荷重未滿3公噸之固定式起重機操作訓練及堆高機之操作訓練",
+        "4": "不必訓練"
+      },
+      "answer": [
+        "3"
+      ],
+      "appearances": [
+        {
+          "year": "111",
+          "session": 3,
+          "no": 20
+        },
+        {
+          "year": "115",
+          "session": 1,
+          "no": 36
+        }
+      ]
+    },
+    {
+      "id": "b-02-024",
+      "category": "professional",
+      "subject": "工作項目02 職業安全衛生計畫及管理",
+      "type": "single",
+      "stem": "依職業安全衛生教育訓練規則規定，下列何項作業勞工，雇主無需對其實施特殊作業安全衛生教育訓練？",
+      "options": {
+        "1": "小型鍋爐之操作",
+        "2": "荷重在1公噸以上之堆高機操作",
+        "3": "潛水作業",
+        "4": "衝床作業"
+      },
+      "answer": [
+        "4"
+      ],
+      "appearances": [
+        {
+          "year": "108",
+          "session": 1,
+          "no": 56
+        },
+        {
+          "year": "111",
+          "session": 2,
+          "no": 33
+        },
+        {
+          "year": "112",
+          "session": 1,
+          "no": 15
+        },
+        {
+          "year": "112",
+          "session": 3,
+          "no": 47
+        },
+        {
+          "year": "113",
+          "session": 2,
+          "no": 41
+        }
+      ]
+    },
+    {
+      "id": "b-02-025",
+      "category": "professional",
+      "subject": "工作項目02 職業安全衛生計畫及管理",
+      "type": "single",
+      "stem": "下列何項操作人員，雇主毋需使其受危險性設備操作人員安全訓練？",
+      "options": {
+        "1": "鍋爐（小型鍋爐除外）",
+        "2": "高壓氣體容器",
+        "3": "吊升荷重未滿3公噸之固定式起重機",
+        "4": "高壓氣體特定設備"
+      },
+      "answer": [
+        "3"
+      ],
+      "appearances": []
+    },
+    {
+      "id": "b-02-026",
+      "category": "professional",
+      "subject": "工作項目02 職業安全衛生計畫及管理",
+      "type": "single",
+      "stem": "依職業安全衛生管理辦法規定，雇主對特定化學設備或其附屬設備應多久實施定期檢查一次？",
+      "options": {
+        "1": "6個月",
+        "2": "1年",
+        "3": "2年",
+        "4": "3年"
+      },
+      "answer": [
+        "3"
+      ],
+      "appearances": [
+        {
+          "year": "107",
+          "session": 3,
+          "no": 51
+        },
+        {
+          "year": "109",
+          "session": 2,
+          "no": 47
+        },
+        {
+          "year": "110",
+          "session": 2,
+          "no": 12
+        },
+        {
+          "year": "110",
+          "session": 3,
+          "no": 25
+        }
+      ]
+    },
+    {
+      "id": "b-02-027",
+      "category": "professional",
+      "subject": "工作項目02 職業安全衛生計畫及管理",
+      "type": "single",
+      "stem": "依職業安全衛生管理辦法規定，下列何種安全裝置非為固定式起重機每日應實施作業檢點之項目？",
+      "options": {
+        "1": "過捲預防裝置",
+        "2": "警報裝置",
+        "3": "制動器",
+        "4": "離合器"
+      },
+      "answer": [
+        "2"
+      ],
+      "appearances": [
+        {
+          "year": "110",
+          "session": 1,
+          "no": 34
+        },
+        {
+          "year": "111",
+          "session": 1,
+          "no": 45
+        },
+        {
+          "year": "114",
+          "session": 1,
+          "no": 14
+        },
+        {
+          "year": "114",
+          "session": 3,
+          "no": 2
+        }
+      ]
+    },
+    {
+      "id": "b-02-028",
+      "category": "professional",
+      "subject": "工作項目02 職業安全衛生計畫及管理",
+      "type": "single",
+      "stem": "依職業安全衛生管理辦法規定，下列何種機械設備應實施重點檢查？",
+      "options": {
+        "1": "鍋爐",
+        "2": "小型壓力容器",
+        "3": "第二種壓力容器",
+        "4": "第一種壓力容器"
+      },
+      "answer": [
+        "3"
+      ],
+      "appearances": [
+        {
+          "year": "107",
+          "session": 3,
+          "no": 39
+        },
+        {
+          "year": "108",
+          "session": 3,
+          "no": 13
+        }
+      ]
+    },
+    {
+      "id": "b-02-029",
+      "category": "professional",
+      "subject": "工作項目02 職業安全衛生計畫及管理",
+      "type": "single",
+      "stem": "依職業安全衛生管理辦法規定，車輛系營建機械應多久實施整體定期檢查一次？",
+      "options": {
+        "1": "1年",
+        "2": "2年",
+        "3": "3年",
+        "4": "4年"
+      },
+      "answer": [
+        "1"
+      ],
+      "appearances": [
+        {
+          "year": "110",
+          "session": 2,
+          "no": 56
+        },
+        {
+          "year": "110",
+          "session": 3,
+          "no": 48
+        },
+        {
+          "year": "112",
+          "session": 1,
+          "no": 8
+        },
+        {
+          "year": "114",
+          "session": 2,
+          "no": 26
+        }
+      ]
+    },
+    {
+      "id": "b-02-030",
+      "category": "professional",
+      "subject": "工作項目02 職業安全衛生計畫及管理",
+      "type": "single",
+      "stem": "依職業安全衛生管理辦法規定，移動式起重機之過捲預防裝置、過負荷警報裝置、制動器、離合器及控制裝置，其性能檢點週期為下列何者？",
+      "options": {
+        "1": "每日作業前",
+        "2": "每週",
+        "3": "每月",
+        "4": "每季"
+      },
+      "answer": [
+        "1"
+      ],
+      "appearances": [
+        {
+          "year": "107",
+          "session": 1,
+          "no": 5
+        },
+        {
+          "year": "111",
+          "session": 3,
+          "no": 14
+        },
+        {
+          "year": "112",
+          "session": 2,
+          "no": 49
+        }
+      ]
+    },
+    {
+      "id": "b-02-031",
+      "category": "professional",
+      "subject": "工作項目02 職業安全衛生計畫及管理",
+      "type": "single",
+      "stem": "定期檢查及重點檢查紀錄表應陳報事業單位負責人或其代理人，其資料最少應保存幾年？",
+      "options": {
+        "1": "1",
+        "2": "2",
+        "3": "3",
+        "4": "5"
+      },
+      "answer": [
+        "3"
+      ],
+      "appearances": [
+        {
+          "year": "109",
+          "session": 2,
+          "no": 18
+        },
+        {
+          "year": "111",
+          "session": 3,
+          "no": 8
+        },
+        {
+          "year": "113",
+          "session": 1,
+          "no": 27
+        },
+        {
+          "year": "113",
+          "session": 2,
+          "no": 36
+        },
+        {
+          "year": "113",
+          "session": 3,
+          "no": 10
+        },
+        {
+          "year": "115",
+          "session": 2,
+          "no": 25
+        }
+      ]
+    },
+    {
+      "id": "b-02-032",
+      "category": "professional",
+      "subject": "工作項目02 職業安全衛生計畫及管理",
+      "type": "single",
+      "stem": "雇主依法對勞工施以從事工作及預防災變所必要之安全衛生教育訓練，勞工有接受之義務，違反時可處下列何種處分？",
+      "options": {
+        "1": "罰金",
+        "2": "罰鍰",
+        "3": "拘役",
+        "4": "有期徒刑"
+      },
+      "answer": [
+        "2"
+      ],
+      "appearances": [
+        {
+          "year": "108",
+          "session": 1,
+          "no": 22
+        },
+        {
+          "year": "108",
+          "session": 2,
+          "no": 7
+        },
+        {
+          "year": "109",
+          "session": 1,
+          "no": 10
+        },
+        {
+          "year": "110",
+          "session": 1,
+          "no": 3
+        },
+        {
+          "year": "110",
+          "session": 2,
+          "no": 57
+        },
+        {
+          "year": "112",
+          "session": 3,
+          "no": 16
+        }
+      ]
+    },
+    {
+      "id": "b-02-033",
+      "category": "professional",
+      "subject": "工作項目02 職業安全衛生計畫及管理",
+      "type": "single",
+      "stem": "危險性機械或設備之操作人員，雇主僱用未經中央主管機關認可之訓練或經技能檢定合格人員充任時，依職業安全衛生法規定，可處以下列何種行政處分？",
+      "options": {
+        "1": "有期徒刑",
+        "2": "拘役",
+        "3": "罰金",
+        "4": "罰鍰"
+      },
+      "answer": [
+        "4"
+      ],
+      "appearances": [
+        {
+          "year": "107",
+          "session": 1,
+          "no": 14
+        },
+        {
+          "year": "108",
+          "session": 1,
+          "no": 15
+        },
+        {
+          "year": "108",
+          "session": 3,
+          "no": 56
+        },
+        {
+          "year": "112",
+          "session": 1,
+          "no": 18
+        }
+      ]
+    },
+    {
+      "id": "b-02-034",
+      "category": "professional",
+      "subject": "工作項目02 職業安全衛生計畫及管理",
+      "type": "single",
+      "stem": "依職業安全衛生教育訓練規則規定，下列何者不需接受有害作業主管安全衛生教育訓練？",
+      "options": {
+        "1": "鉛作業主管",
+        "2": "缺氧作業主管",
+        "3": "液化石油氣製造安全作業主管",
+        "4": "粉塵作業主管"
+      },
+      "answer": [
+        "3"
+      ],
+      "appearances": [
+        {
+          "year": "109",
+          "session": 1,
+          "no": 34
+        },
+        {
+          "year": "109",
+          "session": 2,
+          "no": 3
+        }
+      ]
+    },
+    {
+      "id": "b-02-035",
+      "category": "professional",
+      "subject": "工作項目02 職業安全衛生計畫及管理",
+      "type": "single",
+      "stem": "事業單位與承攬人、再承攬人分別僱用勞工共同作業時，相關承攬事業間之安全衛生教育訓練指導及協助，應由下列何者負責？",
+      "options": {
+        "1": "承攬人",
+        "2": "再承攬人",
+        "3": "原事業單位",
+        "4": "當地主管機關"
+      },
+      "answer": [
+        "3"
+      ],
+      "appearances": [
+        {
+          "year": "107",
+          "session": 2,
+          "no": 43
+        },
+        {
+          "year": "107",
+          "session": 3,
+          "no": 47
+        },
+        {
+          "year": "109",
+          "session": 2,
+          "no": 13
+        },
+        {
+          "year": "111",
+          "session": 2,
+          "no": 45
+        },
+        {
+          "year": "114",
+          "session": 2,
+          "no": 11
+        },
+        {
+          "year": "114",
+          "session": "2颱風延期考區",
+          "no": 4
+        }
+      ]
+    },
+    {
+      "id": "b-02-036",
+      "category": "professional",
+      "subject": "工作項目02 職業安全衛生計畫及管理",
+      "type": "single",
+      "stem": "辦理職業安全衛生教育訓練之規劃順序，下列何項最為優先？",
+      "options": {
+        "1": "決定訓練方法",
+        "2": "訓練之實施",
+        "3": "決定訓練之對象",
+        "4": "成果之評價"
+      },
+      "answer": [
+        "3"
+      ],
+      "appearances": [
+        {
+          "year": "109",
+          "session": 1,
+          "no": 26
+        },
+        {
+          "year": "114",
+          "session": 1,
+          "no": 24
+        },
+        {
+          "year": "114",
+          "session": 2,
+          "no": 29
+        }
+      ]
+    },
+    {
+      "id": "b-02-037",
+      "category": "professional",
+      "subject": "工作項目02 職業安全衛生計畫及管理",
+      "type": "single",
+      "stem": "安全衛生教育訓練計畫之製作程序有下列四個步驟，（a）實施訓練計畫（b）分析訓練需求（c）評鑑訓練成效（d）擬定年度訓練計畫；其計畫製作依序為下列何者？",
+      "options": {
+        "1": "a→b→c→d",
+        "2": "b→d→a→c",
+        "3": "c→d→a→b",
+        "4": "d→a→b→c"
+      },
+      "answer": [
+        "2"
+      ],
+      "appearances": [
+        {
+          "year": "112",
+          "session": 1,
+          "no": 24
+        },
+        {
+          "year": "114",
+          "session": 2,
+          "no": 10
+        }
+      ]
+    },
+    {
+      "id": "b-02-038",
+      "category": "professional",
+      "subject": "工作項目02 職業安全衛生計畫及管理",
+      "type": "single",
+      "stem": "下列何者非為評估安全衛生訓練需求所做之分析？",
+      "options": {
+        "1": "組織層級分析",
+        "2": "工作層級分析",
+        "3": "個人層級分析",
+        "4": "財務分析"
+      },
+      "answer": [
+        "4"
+      ],
+      "appearances": [
+        {
+          "year": "108",
+          "session": 1,
+          "no": 14
+        },
+        {
+          "year": "110",
+          "session": 2,
+          "no": 25
+        },
+        {
+          "year": "111",
+          "session": 1,
+          "no": 15
+        },
+        {
+          "year": "112",
+          "session": 1,
+          "no": 21
+        },
+        {
+          "year": "115",
+          "session": 2,
+          "no": 31
+        }
+      ]
+    },
+    {
+      "id": "b-02-039",
+      "category": "professional",
+      "subject": "工作項目02 職業安全衛生計畫及管理",
+      "type": "single",
+      "stem": "決定實施工作安全分析的工作項目時，下列何者應最優先選擇？",
+      "options": {
+        "1": "傷害頻率高的工作",
+        "2": "新工作",
+        "3": "臨時性工作",
+        "4": "經常性工作"
+      },
+      "answer": [
+        "1"
+      ],
+      "appearances": [
+        {
+          "year": "111",
+          "session": 1,
+          "no": 60
+        },
+        {
+          "year": "112",
+          "session": 2,
+          "no": 13
+        },
+        {
+          "year": "112",
+          "session": 3,
+          "no": 17
+        },
+        {
+          "year": "114",
+          "session": 1,
+          "no": 47
+        }
+      ]
+    },
+    {
+      "id": "b-02-040",
+      "category": "professional",
+      "subject": "工作項目02 職業安全衛生計畫及管理",
+      "type": "single",
+      "stem": "下列何者非為安全作業標準的功用之一？",
+      "options": {
+        "1": "安全教導的參考",
+        "2": "安全觀察的參考",
+        "3": "員工升遷的參考",
+        "4": "事故調查的參考"
+      },
+      "answer": [
+        "3"
+      ],
+      "appearances": [
+        {
+          "year": "107",
+          "session": 3,
+          "no": 23
+        },
+        {
+          "year": "111",
+          "session": 3,
+          "no": 38
+        },
+        {
+          "year": "113",
+          "session": 2,
+          "no": 26
+        },
+        {
+          "year": "115",
+          "session": 1,
+          "no": 5
+        }
+      ]
+    },
+    {
+      "id": "b-02-041",
+      "category": "professional",
+      "subject": "工作項目02 職業安全衛生計畫及管理",
+      "type": "single",
+      "stem": "下列何種情況不需修正安全作業標準？",
+      "options": {
+        "1": "作業流程改變時",
+        "2": "僱用新人時",
+        "3": "設備改變時",
+        "4": "管理制度改變時"
+      },
+      "answer": [
+        "2"
+      ],
+      "appearances": [
+        {
+          "year": "110",
+          "session": 3,
+          "no": 32
+        },
+        {
+          "year": "113",
+          "session": 1,
+          "no": 29
+        },
+        {
+          "year": "114",
+          "session": 1,
+          "no": 4
+        },
+        {
+          "year": "114",
+          "session": "2颱風延期考區",
+          "no": 35
+        },
+        {
+          "year": "115",
+          "session": 1,
+          "no": 30
+        }
+      ]
+    },
+    {
+      "id": "b-02-042",
+      "category": "professional",
+      "subject": "工作項目02 職業安全衛生計畫及管理",
+      "type": "single",
+      "stem": "下列何種法令規定，雇主應擬定安全衛生作業標準？",
+      "options": {
+        "1": "職業安全衛生管理辦法",
+        "2": "職業安全衛生法施行細則",
+        "3": "職業安全衛生教育訓練規則",
+        "4": "勞工作業環境監測實施辦法"
+      },
+      "answer": [
+        "2"
+      ],
+      "appearances": [
+        {
+          "year": "108",
+          "session": 2,
+          "no": 31
+        },
+        {
+          "year": "109",
+          "session": 3,
+          "no": 43
+        },
+        {
+          "year": "112",
+          "session": 2,
+          "no": 45
+        },
+        {
+          "year": "112",
+          "session": 3,
+          "no": 11
+        },
+        {
+          "year": "113",
+          "session": 2,
+          "no": 42
+        },
+        {
+          "year": "113",
+          "session": 3,
+          "no": 56
+        }
+      ]
+    },
+    {
+      "id": "b-02-043",
+      "category": "professional",
+      "subject": "工作項目02 職業安全衛生計畫及管理",
+      "type": "single",
+      "stem": "下列何種作業較不需要列入工作安全分析？",
+      "options": {
+        "1": "臨時性的工作",
+        "2": "低危害重複性的生產工作",
+        "3": "傷害頻率高的工作",
+        "4": "潛在高危害性的工作"
+      },
+      "answer": [
+        "2"
+      ],
+      "appearances": [
+        {
+          "year": "108",
+          "session": 1,
+          "no": 29
+        },
+        {
+          "year": "108",
+          "session": 3,
+          "no": 20
+        },
+        {
+          "year": "109",
+          "session": 3,
+          "no": 42
+        },
+        {
+          "year": "110",
+          "session": 3,
+          "no": 29
+        }
+      ]
+    },
+    {
+      "id": "b-02-044",
+      "category": "professional",
+      "subject": "工作項目02 職業安全衛生計畫及管理",
+      "type": "single",
+      "stem": "下列何項是安全觀察儘量要避免的行為？",
+      "options": {
+        "1": "決定安全觀察的最少抽樣數",
+        "2": "發現不安全動作時要立即矯正",
+        "3": "了解相關安全作業標準",
+        "4": "觀察時態度要保持客觀"
+      },
+      "answer": [
+        "2"
+      ],
+      "appearances": [
+        {
+          "year": "109",
+          "session": 3,
+          "no": 24
+        },
+        {
+          "year": "111",
+          "session": 3,
+          "no": 13
+        },
+        {
+          "year": "115",
+          "session": 2,
+          "no": 44
+        }
+      ]
+    },
+    {
+      "id": "b-02-045",
+      "category": "professional",
+      "subject": "工作項目02 職業安全衛生計畫及管理",
+      "type": "single",
+      "stem": "下列何者非為安全作業標準之功用？",
+      "options": {
+        "1": "防範工作場所災害之發生",
+        "2": "職業災害補償之依據",
+        "3": "作為安全觀察參考",
+        "4": "選擇適當的人從事工作"
+      },
+      "answer": [
+        "2"
+      ],
+      "appearances": [
+        {
+          "year": "107",
+          "session": 1,
+          "no": 54
+        },
+        {
+          "year": "107",
+          "session": 2,
+          "no": 11
+        },
+        {
+          "year": "108",
+          "session": 3,
+          "no": 10
+        },
+        {
+          "year": "114",
+          "session": 3,
+          "no": 48
+        }
+      ]
+    },
+    {
+      "id": "b-02-046",
+      "category": "professional",
+      "subject": "工作項目02 職業安全衛生計畫及管理",
+      "type": "single",
+      "stem": "由有實務經驗的現場基層主管與現場作業人員共同討論獲致的一項安全作業程序，係指下列何者？",
+      "options": {
+        "1": "工作分析",
+        "2": "安全作業標準",
+        "3": "安全觀察",
+        "4": "安全檢查"
+      },
+      "answer": [
+        "2"
+      ],
+      "appearances": [
+        {
+          "year": "113",
+          "session": 2,
+          "no": 44
+        },
+        {
+          "year": "114",
+          "session": "2颱風延期考區",
+          "no": 16
+        },
+        {
+          "year": "114",
+          "session": 3,
+          "no": 50
+        }
+      ]
+    },
+    {
+      "id": "b-02-047",
+      "category": "professional",
+      "subject": "工作項目02 職業安全衛生計畫及管理",
+      "type": "single",
+      "stem": "下列何者非屬雇主應執行之職業安全衛生事項？",
+      "options": {
+        "1": "決定作業成本",
+        "2": "評估安全衛生績效",
+        "3": "勞工健康檢查、健康管理及健康促進事項",
+        "4": "定期檢查、重點檢查、作業檢點及現場巡視"
+      },
+      "answer": [
+        "1"
+      ],
+      "appearances": [
+        {
+          "year": "108",
+          "session": 3,
+          "no": 49
+        }
+      ]
+    },
+    {
+      "id": "b-02-048",
+      "category": "professional",
+      "subject": "工作項目02 職業安全衛生計畫及管理",
+      "type": "single",
+      "stem": "營造業的專案工程，在下列哪一個階段考量安全，可有最佳的安全成本效益？",
+      "options": {
+        "1": "規劃設計",
+        "2": "發包",
+        "3": "施工",
+        "4": "試運轉"
+      },
+      "answer": [
+        "1"
+      ],
+      "appearances": [
+        {
+          "year": "107",
+          "session": 3,
+          "no": 31
+        },
+        {
+          "year": "108",
+          "session": 2,
+          "no": 9
+        },
+        {
+          "year": "114",
+          "session": 2,
+          "no": 12
+        }
+      ]
+    },
+    {
+      "id": "b-02-049",
+      "category": "professional",
+      "subject": "工作項目02 職業安全衛生計畫及管理",
+      "type": "single",
+      "stem": "將工作方法或程序分解為各細項或步驟，以了解可能具有之危害，並訂出安全作業的需求，係指下列何者？",
+      "options": {
+        "1": "自動檢查",
+        "2": "安全觀察",
+        "3": "損失控制",
+        "4": "工作安全分析"
+      },
+      "answer": [
+        "4"
+      ],
+      "appearances": [
+        {
+          "year": "110",
+          "session": 2,
+          "no": 54
+        },
+        {
+          "year": "112",
+          "session": 2,
+          "no": 20
+        },
+        {
+          "year": "114",
+          "session": "2颱風延期考區",
+          "no": 11
+        }
+      ]
+    },
+    {
+      "id": "b-02-050",
+      "category": "professional",
+      "subject": "工作項目02 職業安全衛生計畫及管理",
+      "type": "single",
+      "stem": "依職業安全衛生管理辦法規定，有關職業安全衛生組織及人員之敘述，下列何者錯誤？",
+      "options": {
+        "1": "事業單位所置專職管理人員，應常駐廠場執行業務，不得兼任其他法令所定專責（任）人員或從事其他與職業安全衛生無關之工作",
+        "2": "營造業之事業單位對於橋樑、道路、隧道或輸配電等距離較長之工程，應於每10公里內增置營造業丙種職業安全衛生業務主管1人",
+        "3": "職業安全衛生人員因故未能執行職務時，雇主應即指定適當代理人。其代理期間不得超過3個月",
+        "4": "勞工人數在30人以上之事業單位，其職業安全衛生人員離職時，應於3個月內報當地勞動檢查機構備查"
+      },
+      "answer": [
+        "4"
+      ],
+      "appearances": []
+    },
+    {
+      "id": "b-02-051",
+      "category": "professional",
+      "subject": "工作項目02 職業安全衛生計畫及管理",
+      "type": "single",
+      "stem": "依職業安全衛生管理辦法之規定，下列何者是移動式起重機每月定期實施檢查的項目？",
+      "options": {
+        "1": "導索之結頭部分有無異常",
+        "2": "終點極限開關、緊急停止裝置、制動器、控制裝置及其他安全裝置有無異常",
+        "3": "鋼索及吊鏈有無損傷",
+        "4": "積載裝置及油壓裝置"
+      },
+      "answer": [
+        "3"
+      ],
+      "appearances": []
+    },
+    {
+      "id": "b-02-052",
+      "category": "professional",
+      "subject": "工作項目02 職業安全衛生計畫及管理",
+      "type": "single",
+      "stem": "下列何者非事業單位製作勞工健康服務計畫應先確認之事項？",
+      "options": {
+        "1": "事業單位作業環境有何種危害因子",
+        "2": "工作場所使用之危險性機械設備種類及數量",
+        "3": "勞工總人數，如為輪班者，每班次勞工人數",
+        "4": "勞工之年齡分佈"
+      },
+      "answer": [
+        "2"
+      ],
+      "appearances": [
+        {
+          "year": "112",
+          "session": 2,
+          "no": 4
+        },
+        {
+          "year": "113",
+          "session": 1,
+          "no": 15
+        },
+        {
+          "year": "114",
+          "session": 1,
+          "no": 39
+        },
+        {
+          "year": "114",
+          "session": 3,
+          "no": 52
+        }
+      ]
+    },
+    {
+      "id": "b-02-053",
+      "category": "professional",
+      "subject": "工作項目02 職業安全衛生計畫及管理",
+      "type": "single",
+      "stem": "下列何者非屬職業安全衛生法施行細則所稱特別危害健康作業？",
+      "options": {
+        "1": "鉛中毒預防規則所稱之鉛作業",
+        "2": "粉塵危害預防標準所稱之粉塵作業",
+        "3": "游離輻射作業",
+        "4": "重體力勞動作業勞工保護措施標準所稱之重體力作業"
+      },
+      "answer": [
+        "4"
+      ],
+      "appearances": [
+        {
+          "year": "112",
+          "session": 3,
+          "no": 24
+        },
+        {
+          "year": "113",
+          "session": 1,
+          "no": 8
+        }
+      ]
+    },
+    {
+      "id": "b-02-054",
+      "category": "professional",
+      "subject": "工作項目02 職業安全衛生計畫及管理",
+      "type": "single",
+      "stem": "評估職業災害的潛在風險是職業安全衛生管理系統的重要工作之一，下列何者不是執行風險評估的時機？",
+      "options": {
+        "1": "引進或修改製程",
+        "2": "招募新進人員",
+        "3": "建立職業管理系統時",
+        "4": "作業方法或條件的變更"
+      },
+      "answer": [
+        "2"
+      ],
+      "appearances": [
+        {
+          "year": "107",
+          "session": 3,
+          "no": 25
+        },
+        {
+          "year": "108",
+          "session": 2,
+          "no": 57
+        },
+        {
+          "year": "110",
+          "session": 1,
+          "no": 25
+        },
+        {
+          "year": "115",
+          "session": 2,
+          "no": 30
+        }
+      ]
+    },
+    {
+      "id": "b-02-055",
+      "category": "professional",
+      "subject": "工作項目02 職業安全衛生計畫及管理",
+      "type": "single",
+      "stem": "有關製程安全評估之敘述，下列何者錯誤？",
+      "options": {
+        "1": "初步危害分析（PHA）用於系統設計階段實施，目的是分析系統的重大潛在危害",
+        "2": "危害及可操作分析（HazOp）屬於定量分析方法",
+        "3": "故障樹分析（FTA）及事件樹分析（ETA）屬於定量分析方法",
+        "4": "二維風險矩陣是由危害發生的可能性與嚴重性組合而成"
+      },
+      "answer": [
+        "2"
+      ],
+      "appearances": [
+        {
+          "year": "115",
+          "session": 1,
+          "no": 17
+        },
+        {
+          "year": "115",
+          "session": 2,
+          "no": 5
+        }
+      ]
+    },
+    {
+      "id": "b-02-056",
+      "category": "professional",
+      "subject": "工作項目02 職業安全衛生計畫及管理",
+      "type": "single",
+      "stem": "某工廠因為生產需要，將工作平台高度提升到3公尺高，為了防止人員發生墜落風險，下列何者不屬於工程改善事項？",
+      "options": {
+        "1": "設置護欄或護蓋",
+        "2": "設置上下升降設備或防墜設施",
+        "3": "使用起重吊掛作業",
+        "4": "使勞工配戴安全帶"
+      },
+      "answer": [
+        "4"
+      ],
+      "appearances": [
+        {
+          "year": "111",
+          "session": 3,
+          "no": 42
+        },
+        {
+          "year": "115",
+          "session": 1,
+          "no": 18
+        }
+      ]
+    },
+    {
+      "id": "b-02-057",
+      "category": "professional",
+      "subject": "工作項目02 職業安全衛生計畫及管理",
+      "type": "single",
+      "stem": "事業單位新購3部衝剪機械以增加產量，為了防止人員發生壓夾風險，下列何者屬於本質安全設計？",
+      "options": {
+        "1": "加強作業主管的監督管理",
+        "2": "危害告知",
+        "3": "自動化進出料",
+        "4": "維修保養使用掛牌上鎖"
+      },
+      "answer": [
+        "3"
+      ],
+      "appearances": [
+        {
+          "year": "109",
+          "session": 2,
+          "no": 25
+        },
+        {
+          "year": "111",
+          "session": 1,
+          "no": 51
+        },
+        {
+          "year": "114",
+          "session": 3,
+          "no": 44
+        },
+        {
+          "year": "115",
+          "session": 1,
+          "no": 52
+        }
+      ]
+    },
+    {
+      "id": "b-02-058",
+      "category": "professional",
+      "subject": "工作項目02 職業安全衛生計畫及管理",
+      "type": "single",
+      "stem": "風險管理執行程序包括5個步驟，（a）風險辨識（b）確認環境狀態（c）風險處理（d）風險評量（e）風險分析，其正確順序為下列何者？",
+      "options": {
+        "1": "a→b→c→d→e",
+        "2": "a→b→c→e→d",
+        "3": "b→a→e→d→c",
+        "4": "b→a→d→e→c"
+      },
+      "answer": [
+        "3"
+      ],
+      "appearances": [
+        {
+          "year": "108",
+          "session": 2,
+          "no": 46
+        }
+      ]
+    },
+    {
+      "id": "b-02-059",
+      "category": "professional",
+      "subject": "工作項目02 職業安全衛生計畫及管理",
+      "type": "single",
+      "stem": "依職業安全衛生教育訓練規則規定，雇主應對擔任下列何種具有危險性之機械操作之勞工，於事前使其接受具有危險性之機械操作人員之安全衛生教育訓練？",
+      "options": {
+        "1": "鍋爐操作人員",
+        "2": "吊升荷重在3公噸以上之移動式起重機操作人員",
+        "3": "高壓氣體容器操作人員",
+        "4": "荷重在1公噸以上之堆高機操作人員"
+      },
+      "answer": [
+        "2"
+      ],
+      "appearances": [
+        {
+          "year": "107",
+          "session": 1,
+          "no": 36
+        },
+        {
+          "year": "108",
+          "session": 3,
+          "no": 14
+        },
+        {
+          "year": "109",
+          "session": 1,
+          "no": 1
+        },
+        {
+          "year": "109",
+          "session": 3,
+          "no": 57
+        },
+        {
+          "year": "110",
+          "session": 2,
+          "no": 33
+        },
+        {
+          "year": "112",
+          "session": 2,
+          "no": 7
+        },
+        {
+          "year": "114",
+          "session": 3,
+          "no": 60
+        },
+        {
+          "year": "115",
+          "session": 2,
+          "no": 39
+        }
+      ]
+    },
+    {
+      "id": "b-02-060",
+      "category": "professional",
+      "subject": "工作項目02 職業安全衛生計畫及管理",
+      "type": "single",
+      "stem": "依職業安全衛生設施規則規定，局限空間危害防止計畫內容，不包括下列何項？",
+      "options": {
+        "1": "緊急應變處置措施",
+        "2": "教育訓練及宣導要求",
+        "3": "作業控制設施及作業安全檢點方法",
+        "4": "進入作業許可程序"
+      },
+      "answer": [
+        "2"
+      ],
+      "appearances": [
+        {
+          "year": "114",
+          "session": 2,
+          "no": 14
+        },
+        {
+          "year": "114",
+          "session": "2颱風延期考區",
+          "no": 29
+        },
+        {
+          "year": "115",
+          "session": 1,
+          "no": 41
+        }
+      ]
+    },
+    {
+      "id": "b-02-061",
+      "category": "professional",
+      "subject": "工作項目02 職業安全衛生計畫及管理",
+      "type": "single",
+      "stem": "依職業安全衛生設施規則規定，有危害勞工之虞之局限空間從事作業時，所執行之進入許可，應載明事項不包括下列何項？",
+      "options": {
+        "1": "工作流程",
+        "2": "其他維護作業人員之安全措施",
+        "3": "作業種類",
+        "4": "作業時間及期限"
+      },
+      "answer": [
+        "1"
+      ],
+      "appearances": [
+        {
+          "year": "113",
+          "session": 3,
+          "no": 40
+        },
+        {
+          "year": "114",
+          "session": 3,
+          "no": 32
+        }
+      ]
+    },
+    {
+      "id": "b-02-062",
+      "category": "professional",
+      "subject": "工作項目02 職業安全衛生計畫及管理",
+      "type": "single",
+      "stem": "下列何項非屬職業安全衛生管理計畫所需訂定事項？",
+      "options": {
+        "1": "採購管理",
+        "2": "承攬管理",
+        "3": "變更管理",
+        "4": "財稅管理"
+      },
+      "answer": [
+        "4"
+      ],
+      "appearances": [
+        {
+          "year": "113",
+          "session": 2,
+          "no": 13
+        },
+        {
+          "year": "114",
+          "session": 1,
+          "no": 26
+        },
+        {
+          "year": "114",
+          "session": 2,
+          "no": 42
+        }
+      ]
+    },
+    {
+      "id": "b-02-063",
+      "category": "professional",
+      "subject": "工作項目02 職業安全衛生計畫及管理",
+      "type": "single",
+      "stem": "某營造工程勞工之工作事項有操作挖土機、鋼筋綁紮、操作捲揚機及電焊作業，應使其接受至少多少小時之安全衛生教育訓練？",
+      "options": {
+        "1": "6",
+        "2": "9",
+        "3": "12",
+        "4": "15"
+      },
+      "answer": [
+        "4"
+      ],
+      "appearances": [
+        {
+          "year": "113",
+          "session": 1,
+          "no": 38
+        }
+      ]
+    },
+    {
+      "id": "b-02-064",
+      "category": "professional",
+      "subject": "工作項目02 職業安全衛生計畫及管理",
+      "type": "single",
+      "stem": "職業安全衛生管理系統透過何種管理循環模式，提供工作者安全健康的工作環境？",
+      "options": {
+        "1": "計畫-檢討-執行-回饋",
+        "2": "程序-執行-改進-稽核",
+        "3": "規劃-發展-確認-改進",
+        "4": "規劃-執行-查核-改善"
+      },
+      "answer": [
+        "4"
+      ],
+      "appearances": [
+        {
+          "year": "115",
+          "session": 2,
+          "no": 42
+        }
+      ]
+    },
+    {
+      "id": "b-02-065",
+      "category": "professional",
+      "subject": "工作項目02 職業安全衛生計畫及管理",
+      "type": "single",
+      "stem": "TOSHMS驗證機構對通過TOSHMS驗證之申請驗證單位，應發給註明有效期限最長幾年及經職業安全衛生署核定格式之職業安全衛生管理系統驗證證書？",
+      "options": {
+        "1": "1",
+        "2": "2",
+        "3": "3",
+        "4": "5"
+      },
+      "answer": [
+        "3"
+      ],
+      "appearances": [
+        {
+          "year": "112",
+          "session": 2,
+          "no": 31
+        }
+      ]
+    },
+    {
+      "id": "b-02-066",
+      "category": "professional",
+      "subject": "工作項目02 職業安全衛生計畫及管理",
+      "type": "multi",
+      "stem": "依職業安全衛生管理辦法之規定，事業單位所建置之職業安全衛生管理系統應包括哪些安全衛生事項？",
+      "options": {
+        "1": "政策及組織設計",
+        "2": "營業項目及規模",
+        "3": "規劃與實施",
+        "4": "評估及改善措施"
+      },
+      "answer": [
+        "1",
+        "3",
+        "4"
+      ],
+      "appearances": []
+    },
+    {
+      "id": "b-02-067",
+      "category": "professional",
+      "subject": "工作項目02 職業安全衛生計畫及管理",
+      "type": "multi",
+      "stem": "依職業安全衛生管理辦法規定，下列哪些檢查需要訂定自動檢查計畫？",
+      "options": {
+        "1": "機械之定期檢查",
+        "2": "機械、設備之重點檢查",
+        "3": "機械、設備之作業檢點",
+        "4": "作業檢點"
+      },
+      "answer": [
+        "1",
+        "2",
+        "3"
+      ],
+      "appearances": []
+    },
+    {
+      "id": "b-02-068",
+      "category": "professional",
+      "subject": "工作項目02 職業安全衛生計畫及管理",
+      "type": "multi",
+      "stem": "下列哪些人係由雇主指定之職業安全衛生委員會之委員？",
+      "options": {
+        "1": "事業內各部門之主管",
+        "2": "職業安全衛生人員",
+        "3": "總務人員",
+        "4": "工會人員"
+      },
+      "answer": [
+        "1",
+        "2"
+      ],
+      "appearances": [
+        {
+          "year": "114",
+          "session": 2,
+          "no": 63
+        },
+        {
+          "year": "115",
+          "session": 2,
+          "no": 68
+        }
+      ]
+    },
+    {
+      "id": "b-02-069",
+      "category": "professional",
+      "subject": "工作項目02 職業安全衛生計畫及管理",
+      "type": "multi",
+      "stem": "有關職業安全衛生管理計畫之敘述，下列哪些正確？",
+      "options": {
+        "1": "安全衛生管理計畫應該由事業單位訂定",
+        "2": "由職業安全衛生管理單位自行訂定",
+        "3": "計畫內容包括採購管理、承攬管理與變更管理等事項",
+        "4": "計畫目標應該具體且可量測"
+      },
+      "answer": [
+        "1",
+        "3",
+        "4"
+      ],
+      "appearances": [
+        {
+          "year": "115",
+          "session": 2,
+          "no": 63
+        }
+      ]
+    },
+    {
+      "id": "b-02-070",
+      "category": "professional",
+      "subject": "工作項目02 職業安全衛生計畫及管理",
+      "type": "multi",
+      "stem": "在研定職業安全衛生管理目標時，下列哪些項目屬於主動性目標？",
+      "options": {
+        "1": "相較去年降低災害件數30%",
+        "2": "訂定作業標準3件",
+        "3": "辦理健康促進講座12小時",
+        "4": "每個月針對高風險作業進行安全觀察1件"
+      },
+      "answer": [
+        "2",
+        "3",
+        "4"
+      ],
+      "appearances": [
+        {
+          "year": "114",
+          "session": 2,
+          "no": 74
+        },
+        {
+          "year": "115",
+          "session": 1,
+          "no": 66
+        }
+      ]
+    },
+    {
+      "id": "b-02-071",
+      "category": "professional",
+      "subject": "工作項目02 職業安全衛生計畫及管理",
+      "type": "multi",
+      "stem": "下列哪些為事業單位製作勞工健康管理計畫應確認之事項？",
+      "options": {
+        "1": "事業單位作業環境有何種危害因子",
+        "2": "工作場所使用之危險性機械設備種類及數量",
+        "3": "勞工總人數，如為輪班者，每班次勞工人數",
+        "4": "勞工之年齡分佈"
+      },
+      "answer": [
+        "1",
+        "3",
+        "4"
+      ],
+      "appearances": [
+        {
+          "year": "108",
+          "session": 1,
+          "no": 68
+        }
+      ]
+    },
+    {
+      "id": "b-02-072",
+      "category": "professional",
+      "subject": "工作項目02 職業安全衛生計畫及管理",
+      "type": "multi",
+      "stem": "依職業安全衛生管理辦法規定，下列哪些機械應每年就整體定期實施檢查1次？",
+      "options": {
+        "1": "車輛系營建機械",
+        "2": "鍋爐",
+        "3": "堆高機",
+        "4": "固定式起重機"
+      },
+      "answer": [
+        "1",
+        "3",
+        "4"
+      ],
+      "appearances": [
+        {
+          "year": "107",
+          "session": 1,
+          "no": 66
+        },
+        {
+          "year": "107",
+          "session": 3,
+          "no": 70
+        }
+      ]
+    },
+    {
+      "id": "b-02-073",
+      "category": "professional",
+      "subject": "工作項目02 職業安全衛生計畫及管理",
+      "type": "multi",
+      "stem": "下列哪些是稽核的正確作法？",
+      "options": {
+        "1": "稽核前應擬定稽核重點",
+        "2": "稽核時應查遍所有文件內容，才不致有代表性不足的問題",
+        "3": "稽核時只採面談方式不查核資料",
+        "4": "稽核後應追蹤其改善情形"
+      },
+      "answer": [
+        "1",
+        "4"
+      ],
+      "appearances": []
+    },
+    {
+      "id": "b-02-074",
+      "category": "professional",
+      "subject": "工作項目02 職業安全衛生計畫及管理",
+      "type": "multi",
+      "stem": "下列哪些為工作場所之風險管理要項？",
+      "options": {
+        "1": "建立安全衛生管理組織",
+        "2": "危害辨識",
+        "3": "評估危害所產生風險",
+        "4": "實施控制方法"
+      },
+      "answer": [
+        "2",
+        "3",
+        "4"
+      ],
+      "appearances": [
+        {
+          "year": "107",
+          "session": 2,
+          "no": 68
+        },
+        {
+          "year": "107",
+          "session": 3,
+          "no": 72
+        },
+        {
+          "year": "110",
+          "session": 3,
+          "no": 71
+        },
+        {
+          "year": "115",
+          "session": 1,
+          "no": 67
+        }
+      ]
+    },
+    {
+      "id": "b-02-075",
+      "category": "professional",
+      "subject": "工作項目02 職業安全衛生計畫及管理",
+      "type": "multi",
+      "stem": "雇主使勞工從事局限空間作業，應先訂定危害防止計畫，該計畫應包含下列哪些要項？",
+      "options": {
+        "1": "局限空間危害之確認",
+        "2": "作業勞工之健康檢查",
+        "3": "通風換氣之實施方式",
+        "4": "作業安全及安全管制方法"
+      },
+      "answer": [
+        "1",
+        "3",
+        "4"
+      ],
+      "appearances": [
+        {
+          "year": "107",
+          "session": 2,
+          "no": 67
+        },
+        {
+          "year": "114",
+          "session": "2颱風延期考區",
+          "no": 72
+        }
+      ]
+    },
+    {
+      "id": "b-02-076",
+      "category": "professional",
+      "subject": "工作項目02 職業安全衛生計畫及管理",
+      "type": "multi",
+      "stem": "ISO45003不僅能夠幫助營造積極的工作環境，而且它提供了一個管理心理健康和安全的框架，有助於提升組織韌性並增強績效和工作效率，還包括哪些益處？",
+      "options": {
+        "1": "更好地招攬人才、留住人才，促進人才多元化",
+        "2": "確保遵規守法",
+        "3": "減少因工作場所壓力、倦怠、焦慮和憂鬱引發的缺勤",
+        "4": "促進國際產業見度"
+      },
+      "answer": [
+        "1",
+        "2",
+        "3"
+      ],
+      "appearances": []
+    },
+    {
+      "id": "b-03-001",
+      "category": "professional",
+      "subject": "工作項目03 專業課程",
+      "type": "single",
+      "stem": "下列何者不是職業安全衛生管理之主要工作？",
+      "options": {
+        "1": "危害之認知",
+        "2": "危害之評估",
+        "3": "危害之經濟影響",
+        "4": "危害之控制"
+      },
+      "answer": [
+        "3"
+      ],
+      "appearances": [
+        {
+          "year": "108",
+          "session": 3,
+          "no": 34
+        },
+        {
+          "year": "109",
+          "session": 2,
+          "no": 58
+        },
+        {
+          "year": "112",
+          "session": 2,
+          "no": 37
+        },
+        {
+          "year": "113",
+          "session": 2,
+          "no": 51
+        },
+        {
+          "year": "114",
+          "session": 1,
+          "no": 41
+        }
+      ]
+    },
+    {
+      "id": "b-03-002",
+      "category": "professional",
+      "subject": "工作項目03 專業課程",
+      "type": "single",
+      "stem": "雨水落入熔融鐵水槽內形成之爆炸為下列何者？",
+      "options": {
+        "1": "化學性爆炸",
+        "2": "沸騰液體膨脹蒸氣爆炸（BLEVE）",
+        "3": "汽化爆炸",
+        "4": "高壓氣體爆炸"
+      },
+      "answer": [
+        "3"
+      ],
+      "appearances": [
+        {
+          "year": "107",
+          "session": 3,
+          "no": 48
+        },
+        {
+          "year": "108",
+          "session": 1,
+          "no": 35
+        },
+        {
+          "year": "110",
+          "session": 1,
+          "no": 40
+        },
+        {
+          "year": "111",
+          "session": 2,
+          "no": 8
+        },
+        {
+          "year": "111",
+          "session": 3,
+          "no": 56
+        },
+        {
+          "year": "112",
+          "session": 1,
+          "no": 5
+        },
+        {
+          "year": "112",
+          "session": 2,
+          "no": 55
+        },
+        {
+          "year": "113",
+          "session": 3,
+          "no": 35
+        },
+        {
+          "year": "115",
+          "session": 2,
+          "no": 34
+        }
+      ]
+    },
+    {
+      "id": "b-03-003",
+      "category": "professional",
+      "subject": "工作項目03 專業課程",
+      "type": "single",
+      "stem": "有關噪音危害之敘述，下列何者錯誤？",
+      "options": {
+        "1": "超過噪音管制標準即會造成嚴重聽力損失",
+        "2": "噪音會造成心理影響",
+        "3": "長期處於噪音場所可能對聽力造成影響",
+        "4": "高頻噪音較易導致聽力損失"
+      },
+      "answer": [
+        "1"
+      ],
+      "appearances": []
+    },
+    {
+      "id": "b-03-004",
+      "category": "professional",
+      "subject": "工作項目03 專業課程",
+      "type": "single",
+      "stem": "下列何者屬不安全動作？",
+      "options": {
+        "1": "通風換氣不良",
+        "2": "不適當的防護裝置",
+        "3": "為操作方便，拆除安全裝置",
+        "4": "吊掛設備無防止脫落裝置"
+      },
+      "answer": [
+        "3"
+      ],
+      "appearances": [
+        {
+          "year": "112",
+          "session": 1,
+          "no": 19
+        },
+        {
+          "year": "113",
+          "session": 3,
+          "no": 16
+        }
+      ]
+    },
+    {
+      "id": "b-03-005",
+      "category": "professional",
+      "subject": "工作項目03 專業課程",
+      "type": "single",
+      "stem": "下列何者是最佳的危害控制先後順序（A.從危害所及的路徑控制；B.從暴露勞工加以控制；C.控制危害源）？",
+      "options": {
+        "1": "A→B→C",
+        "2": "B→C→A",
+        "3": "C→A→B",
+        "4": "C→B→A"
+      },
+      "answer": [
+        "3"
+      ],
+      "appearances": [
+        {
+          "year": "107",
+          "session": 1,
+          "no": 58
+        },
+        {
+          "year": "108",
+          "session": 3,
+          "no": 1
+        },
+        {
+          "year": "111",
+          "session": 2,
+          "no": 21
+        },
+        {
+          "year": "112",
+          "session": 2,
+          "no": 60
+        },
+        {
+          "year": "114",
+          "session": 3,
+          "no": 58
+        }
+      ]
+    },
+    {
+      "id": "b-03-006",
+      "category": "professional",
+      "subject": "工作項目03 專業課程",
+      "type": "single",
+      "stem": "鍋爐管線未有隔熱被覆而使勞工灼傷，屬於下列何項因素所引起之職業傷害？",
+      "options": {
+        "1": "人為",
+        "2": "設備",
+        "3": "成本",
+        "4": "政策"
+      },
+      "answer": [
+        "2"
+      ],
+      "appearances": [
+        {
+          "year": "108",
+          "session": 2,
+          "no": 41
+        },
+        {
+          "year": "112",
+          "session": 3,
+          "no": 56
+        },
+        {
+          "year": "114",
+          "session": "2颱風延期考區",
+          "no": 28
+        },
+        {
+          "year": "115",
+          "session": 1,
+          "no": 29
+        }
+      ]
+    },
+    {
+      "id": "b-03-007",
+      "category": "professional",
+      "subject": "工作項目03 專業課程",
+      "type": "single",
+      "stem": "空氣中有害物進入人體之最主要途徑為何？",
+      "options": {
+        "1": "呼吸道",
+        "2": "頭髮",
+        "3": "耳朵",
+        "4": "眼睛"
+      },
+      "answer": [
+        "1"
+      ],
+      "appearances": [
+        {
+          "year": "107",
+          "session": 2,
+          "no": 50
+        },
+        {
+          "year": "110",
+          "session": 3,
+          "no": 6
+        },
+        {
+          "year": "111",
+          "session": 2,
+          "no": 10
+        }
+      ]
+    },
+    {
+      "id": "b-03-008",
+      "category": "professional",
+      "subject": "工作項目03 專業課程",
+      "type": "single",
+      "stem": "勞工體格檢查、特殊體格檢查之目的屬勞工衛生之下列何種原則？",
+      "options": {
+        "1": "預防原則",
+        "2": "保護原則",
+        "3": "適應原則",
+        "4": "治療復健原則"
+      },
+      "answer": [
+        "3"
+      ],
+      "appearances": [
+        {
+          "year": "115",
+          "session": 1,
+          "no": 20
+        }
+      ]
+    },
+    {
+      "id": "b-03-009",
+      "category": "professional",
+      "subject": "工作項目03 專業課程",
+      "type": "single",
+      "stem": "下列何種作業會較易發生手部神經及血管造成傷害，發生手指蒼白、麻痺或疼痛等症狀之白指病？",
+      "options": {
+        "1": "高溫",
+        "2": "局部振動",
+        "3": "異常氣壓",
+        "4": "游離輻射"
+      },
+      "answer": [
+        "2"
+      ],
+      "appearances": [
+        {
+          "year": "110",
+          "session": 1,
+          "no": 24
+        }
+      ]
+    },
+    {
+      "id": "b-03-010",
+      "category": "professional",
+      "subject": "工作項目03 專業課程",
+      "type": "single",
+      "stem": "依勞工作業環境監測實施辦法規定，對於事業單位如欲辦理法定期間之作業環境監測之敘述，下列何者錯誤？",
+      "options": {
+        "1": "應僱用乙級以上作業環境監測技術士辦理",
+        "2": "委由執業之職業（工礦）衛生技師辦理",
+        "3": "委由認可之作業環境監測機構辦理",
+        "4": "化學性因子監測樣本應由認證實驗室化驗分析"
+      },
+      "answer": [
+        "2"
+      ],
+      "appearances": [
+        {
+          "year": "115",
+          "session": 2,
+          "no": 52
+        }
+      ]
+    },
+    {
+      "id": "b-03-011",
+      "category": "professional",
+      "subject": "工作項目03 專業課程",
+      "type": "single",
+      "stem": "硫化氫導致最主要之危害屬下列何者？",
+      "options": {
+        "1": "化學性窒息",
+        "2": "物理性窒息",
+        "3": "致過敏性",
+        "4": "致癌性"
+      },
+      "answer": [
+        "1"
+      ],
+      "appearances": [
+        {
+          "year": "107",
+          "session": 1,
+          "no": 1
+        },
+        {
+          "year": "107",
+          "session": 2,
+          "no": 38
+        },
+        {
+          "year": "108",
+          "session": 1,
+          "no": 23
+        },
+        {
+          "year": "111",
+          "session": 2,
+          "no": 48
+        }
+      ]
+    },
+    {
+      "id": "b-03-012",
+      "category": "professional",
+      "subject": "工作項目03 專業課程",
+      "type": "single",
+      "stem": "職業病之危害因子認知基本程序包括：製程或作業調查、標示、檢點表及下列何者？",
+      "options": {
+        "1": "教育訓練",
+        "2": "安全衛生工作守則",
+        "3": "異常狀況之了解",
+        "4": "緊急應變計畫"
+      },
+      "answer": [
+        "3"
+      ],
+      "appearances": [
+        {
+          "year": "112",
+          "session": 3,
+          "no": 7
+        },
+        {
+          "year": "114",
+          "session": 1,
+          "no": 1
+        }
+      ]
+    },
+    {
+      "id": "b-03-013",
+      "category": "professional",
+      "subject": "工作項目03 專業課程",
+      "type": "single",
+      "stem": "下列何者不是職業衛生之危害因子評估所需參考事項？",
+      "options": {
+        "1": "環境監測",
+        "2": "生物偵測",
+        "3": "勞工作業場所容許暴露標準",
+        "4": "工作設備種類"
+      },
+      "answer": [
+        "4"
+      ],
+      "appearances": [
+        {
+          "year": "109",
+          "session": 2,
+          "no": 59
+        },
+        {
+          "year": "111",
+          "session": 1,
+          "no": 20
+        },
+        {
+          "year": "112",
+          "session": 2,
+          "no": 5
+        },
+        {
+          "year": "113",
+          "session": 1,
+          "no": 21
+        },
+        {
+          "year": "114",
+          "session": "2颱風延期考區",
+          "no": 32
+        }
+      ]
+    },
+    {
+      "id": "b-03-014",
+      "category": "professional",
+      "subject": "工作項目03 專業課程",
+      "type": "single",
+      "stem": "有關職業衛生危害之管制，應以下列何者優先？",
+      "options": {
+        "1": "發生源、製程及硬體設備改善",
+        "2": "作業管理",
+        "3": "防護具",
+        "4": "健康管理"
+      },
+      "answer": [
+        "1"
+      ],
+      "appearances": [
+        {
+          "year": "108",
+          "session": 2,
+          "no": 27
+        },
+        {
+          "year": "110",
+          "session": 2,
+          "no": 16
+        },
+        {
+          "year": "114",
+          "session": 1,
+          "no": 23
+        }
+      ]
+    },
+    {
+      "id": "b-03-015",
+      "category": "professional",
+      "subject": "工作項目03 專業課程",
+      "type": "single",
+      "stem": "在實施危害因子的預防管制時，如以調整暴露時間方式進行時，係屬何種管理？",
+      "options": {
+        "1": "環境管理",
+        "2": "作業管理",
+        "3": "健康管理",
+        "4": "安全管理"
+      },
+      "answer": [
+        "2"
+      ],
+      "appearances": [
+        {
+          "year": "107",
+          "session": 2,
+          "no": 34
+        },
+        {
+          "year": "108",
+          "session": 3,
+          "no": 59
+        },
+        {
+          "year": "111",
+          "session": 1,
+          "no": 54
+        },
+        {
+          "year": "112",
+          "session": 1,
+          "no": 10
+        },
+        {
+          "year": "115",
+          "session": 2,
+          "no": 38
+        }
+      ]
+    },
+    {
+      "id": "b-03-016",
+      "category": "professional",
+      "subject": "工作項目03 專業課程",
+      "type": "single",
+      "stem": "暫時全失能之損失日數，應按受傷後所經過之損失總日數登記，此項總日數不包括下列何者？",
+      "options": {
+        "1": "經過之星期日",
+        "2": "經過之休假日",
+        "3": "受傷當日",
+        "4": "復工後由該次傷害所引起之其他全日不能工作之日數"
+      },
+      "answer": [
+        "3"
+      ],
+      "appearances": [
+        {
+          "year": "109",
+          "session": 1,
+          "no": 29
+        },
+        {
+          "year": "112",
+          "session": 1,
+          "no": 40
+        },
+        {
+          "year": "114",
+          "session": 1,
+          "no": 15
+        }
+      ]
+    },
+    {
+      "id": "b-03-017",
+      "category": "professional",
+      "subject": "工作項目03 專業課程",
+      "type": "single",
+      "stem": "下列何者係屬不安全狀況？",
+      "options": {
+        "1": "在工作中開玩笑",
+        "2": "警報系統不良",
+        "3": "以不正確的方式裝載機具或物料",
+        "4": "酗酒"
+      },
+      "answer": [
+        "2"
+      ],
+      "appearances": [
+        {
+          "year": "107",
+          "session": 1,
+          "no": 33
+        },
+        {
+          "year": "107",
+          "session": 3,
+          "no": 42
+        },
+        {
+          "year": "112",
+          "session": 3,
+          "no": 42
+        }
+      ]
+    },
+    {
+      "id": "b-03-018",
+      "category": "professional",
+      "subject": "工作項目03 專業課程",
+      "type": "single",
+      "stem": "實施職業災害調查分析時，應以下列何者為著眼點？",
+      "options": {
+        "1": "如何防止災害",
+        "2": "何人應負災害責任",
+        "3": "如何應付勞動檢查機構",
+        "4": "表示重視職業安全"
+      },
+      "answer": [
+        "1"
+      ],
+      "appearances": [
+        {
+          "year": "109",
+          "session": 2,
+          "no": 54
+        }
+      ]
+    },
+    {
+      "id": "b-03-019",
+      "category": "professional",
+      "subject": "工作項目03 專業課程",
+      "type": "single",
+      "stem": "某工廠二月份發生火災1件計2人受傷，物料倒塌災害2件計3人受傷，受傷者均治療3日後返回上班，則該廠二月份之失能傷害之人次數為幾次？",
+      "options": {
+        "1": "3",
+        "2": "5",
+        "3": "6",
+        "4": "8"
+      },
+      "answer": [
+        "2"
+      ],
+      "appearances": [
+        {
+          "year": "110",
+          "session": 3,
+          "no": 5
+        }
+      ]
+    },
+    {
+      "id": "b-03-020",
+      "category": "professional",
+      "subject": "工作項目03 專業課程",
+      "type": "single",
+      "stem": "某工廠三月份發生勞工死亡及永久全失能各1人之災害，則該月份之總損失日數為下列何者？",
+      "options": {
+        "1": "6,000日",
+        "2": "12,000日",
+        "3": "6,000日加永久全失能診療日數",
+        "4": "12,000日加永久全失能診療日數"
+      },
+      "answer": [
+        "2"
+      ],
+      "appearances": [
+        {
+          "year": "113",
+          "session": 3,
+          "no": 32
+        }
+      ]
+    },
+    {
+      "id": "b-03-021",
+      "category": "professional",
+      "subject": "工作項目03 專業課程",
+      "type": "single",
+      "stem": "調查局限空間缺氧引起之職業災害，下列要因何者通常與缺氧原因無「直接關係」？",
+      "options": {
+        "1": "氣體置換",
+        "2": "化學性反應",
+        "3": "動植物之生化作用",
+        "4": "空氣溫濕度"
+      },
+      "answer": [
+        "4"
+      ],
+      "appearances": [
+        {
+          "year": "107",
+          "session": 2,
+          "no": 4
+        },
+        {
+          "year": "111",
+          "session": 1,
+          "no": 33
+        },
+        {
+          "year": "115",
+          "session": 1,
+          "no": 59
+        }
+      ]
+    },
+    {
+      "id": "b-03-022",
+      "category": "professional",
+      "subject": "工作項目03 專業課程",
+      "type": "single",
+      "stem": "調查分析離地2公尺以上之高處作業墜落死亡之職業災害時，下列要因何者不應歸類為「不安全狀態」？",
+      "options": {
+        "1": "施工架未設護欄",
+        "2": "勞工未有安全衛生教育訓練",
+        "3": "未有安全帶可使用",
+        "4": "工作場所開口未防護"
+      },
+      "answer": [
+        "2"
+      ],
+      "appearances": [
+        {
+          "year": "107",
+          "session": 3,
+          "no": 36
+        },
+        {
+          "year": "109",
+          "session": 3,
+          "no": 40
+        },
+        {
+          "year": "115",
+          "session": 2,
+          "no": 45
+        }
+      ]
+    },
+    {
+      "id": "b-03-023",
+      "category": "professional",
+      "subject": "工作項目03 專業課程",
+      "type": "single",
+      "stem": "下列何者為工業用機器人最常引起之職業災害類型？",
+      "options": {
+        "1": "火災",
+        "2": "被撞",
+        "3": "切割",
+        "4": "感電"
+      },
+      "answer": [
+        "2"
+      ],
+      "appearances": [
+        {
+          "year": "112",
+          "session": 2,
+          "no": 2
+        },
+        {
+          "year": "115",
+          "session": 2,
+          "no": 19
+        }
+      ]
+    },
+    {
+      "id": "b-03-024",
+      "category": "professional",
+      "subject": "工作項目03 專業課程",
+      "type": "single",
+      "stem": "依職業安全衛生法施行細則規定，工作場所中為特定之工作目的所設之場所，稱為下列何種場所？",
+      "options": {
+        "1": "工作場所",
+        "2": "勞動場所",
+        "3": "作業場所",
+        "4": "特別場所"
+      },
+      "answer": [
+        "3"
+      ],
+      "appearances": [
+        {
+          "year": "109",
+          "session": 1,
+          "no": 53
+        }
+      ]
+    },
+    {
+      "id": "b-03-025",
+      "category": "professional",
+      "subject": "工作項目03 專業課程",
+      "type": "single",
+      "stem": "下列何者非屬失能傷害？",
+      "options": {
+        "1": "損失日數未滿1日",
+        "2": "損失日數1日",
+        "3": "損失日數2日",
+        "4": "損失勞保給付日數3日"
+      },
+      "answer": [
+        "1"
+      ],
+      "appearances": [
+        {
+          "year": "107",
+          "session": 2,
+          "no": 32
+        },
+        {
+          "year": "108",
+          "session": 2,
+          "no": 42
+        },
+        {
+          "year": "109",
+          "session": 1,
+          "no": 39
+        }
+      ]
+    },
+    {
+      "id": "b-03-026",
+      "category": "professional",
+      "subject": "工作項目03 專業課程",
+      "type": "single",
+      "stem": "勞工因工作傷害而死亡，其損失日數依據國家標準（CNS）規定是幾日？",
+      "options": {
+        "1": "2,000",
+        "2": "4,000",
+        "3": "6,000",
+        "4": "8,000"
+      },
+      "answer": [
+        "3"
+      ],
+      "appearances": [
+        {
+          "year": "113",
+          "session": 2,
+          "no": 31
+        }
+      ]
+    },
+    {
+      "id": "b-03-027",
+      "category": "professional",
+      "subject": "工作項目03 專業課程",
+      "type": "single",
+      "stem": "在一次事故中損失下列何者為永久全失能？",
+      "options": {
+        "1": "全部牙齒",
+        "2": "一隻手及一隻腳",
+        "3": "一隻眼睛",
+        "4": "右手拇指"
+      },
+      "answer": [
+        "2"
+      ],
+      "appearances": [
+        {
+          "year": "114",
+          "session": "2颱風延期考區",
+          "no": 34
+        }
+      ]
+    },
+    {
+      "id": "b-03-028",
+      "category": "professional",
+      "subject": "工作項目03 專業課程",
+      "type": "single",
+      "stem": "下列何者可作為測定作業場所之熱輻射效應用途？",
+      "options": {
+        "1": "乾球溫度計",
+        "2": "水銀溫度計",
+        "3": "酒精溫度計",
+        "4": "黑球溫度計"
+      },
+      "answer": [
+        "4"
+      ],
+      "appearances": [
+        {
+          "year": "107",
+          "session": 1,
+          "no": 55
+        },
+        {
+          "year": "112",
+          "session": 2,
+          "no": 58
+        },
+        {
+          "year": "115",
+          "session": 1,
+          "no": 28
+        }
+      ]
+    },
+    {
+      "id": "b-03-029",
+      "category": "professional",
+      "subject": "工作項目03 專業課程",
+      "type": "single",
+      "stem": "可燃性氣體偵測器是測定下列何者？",
+      "options": {
+        "1": "含氧濃度",
+        "2": "二氧化碳濃度",
+        "3": "燃燒（爆炸）下限百分比",
+        "4": "含碳濃度"
+      },
+      "answer": [
+        "3"
+      ],
+      "appearances": [
+        {
+          "year": "112",
+          "session": 3,
+          "no": 37
+        },
+        {
+          "year": "114",
+          "session": 3,
+          "no": 41
+        }
+      ]
+    },
+    {
+      "id": "b-03-030",
+      "category": "professional",
+      "subject": "工作項目03 專業課程",
+      "type": "single",
+      "stem": "通風測定之常用測定儀器有發煙管、熱偶式風速計、皮托管（PitotTube）及液體壓力計等，其中皮托管為可測定下列何者？",
+      "options": {
+        "1": "空氣濕度",
+        "2": "空氣成分",
+        "3": "空氣速度",
+        "4": "含氧濃度"
+      },
+      "answer": [
+        "3"
+      ],
+      "appearances": [
+        {
+          "year": "107",
+          "session": 1,
+          "no": 28
+        },
+        {
+          "year": "108",
+          "session": 2,
+          "no": 47
+        },
+        {
+          "year": "108",
+          "session": 3,
+          "no": 45
+        },
+        {
+          "year": "113",
+          "session": 1,
+          "no": 23
+        },
+        {
+          "year": "114",
+          "session": 2,
+          "no": 23
+        }
+      ]
+    },
+    {
+      "id": "b-03-031",
+      "category": "professional",
+      "subject": "工作項目03 專業課程",
+      "type": "single",
+      "stem": "室內作業場所之勞工噪音暴露工作8小時日時量平均音壓級超過85分貝，應每多少個月測定1次以上？",
+      "options": {
+        "1": "1",
+        "2": "3",
+        "3": "6",
+        "4": "8"
+      },
+      "answer": [
+        "3"
+      ],
+      "appearances": [
+        {
+          "year": "108",
+          "session": 1,
+          "no": 24
+        }
+      ]
+    },
+    {
+      "id": "b-03-032",
+      "category": "professional",
+      "subject": "工作項目03 專業課程",
+      "type": "single",
+      "stem": "依職業安全衛生設施規則規定，對於勞工8小時日時量平均音壓級超過85分貝或暴露劑量超過多少百分比時，雇主應使勞工戴用耳塞、耳罩等防護具？",
+      "options": {
+        "1": "30",
+        "2": "40",
+        "3": "50",
+        "4": "60"
+      },
+      "answer": [
+        "3"
+      ],
+      "appearances": [
+        {
+          "year": "114",
+          "session": 2,
+          "no": 47
+        }
+      ]
+    },
+    {
+      "id": "b-03-033",
+      "category": "professional",
+      "subject": "工作項目03 專業課程",
+      "type": "single",
+      "stem": "研磨作業時，研磨機砂輪破裂所造成之職業災害應屬下列何者災害類型？",
+      "options": {
+        "1": "擦傷",
+        "2": "被撞",
+        "3": "爆炸",
+        "4": "物體飛落"
+      },
+      "answer": [
+        "4"
+      ],
+      "appearances": [
+        {
+          "year": "111",
+          "session": 1,
+          "no": 3
+        },
+        {
+          "year": "113",
+          "session": 3,
+          "no": 23
+        }
+      ]
+    },
+    {
+      "id": "b-03-034",
+      "category": "professional",
+      "subject": "工作項目03 專業課程",
+      "type": "single",
+      "stem": "作業人員發生衝床職業災害失去食指與中指之第一個關節，這項職災屬於下列何者？",
+      "options": {
+        "1": "永久全失能",
+        "2": "永久部分失能",
+        "3": "暫時全失能",
+        "4": "嚴重失能"
+      },
+      "answer": [
+        "2"
+      ],
+      "appearances": [
+        {
+          "year": "107",
+          "session": 3,
+          "no": 15
+        },
+        {
+          "year": "109",
+          "session": 1,
+          "no": 22
+        },
+        {
+          "year": "111",
+          "session": 1,
+          "no": 55
+        },
+        {
+          "year": "115",
+          "session": 2,
+          "no": 51
+        }
+      ]
+    },
+    {
+      "id": "b-03-035",
+      "category": "professional",
+      "subject": "工作項目03 專業課程",
+      "type": "single",
+      "stem": "工廠員工以拉動手推車方式搬運貨品，當行經一路段時，有一小溝渠之蓋板覆蓋不完全，致使車輪陷入溝中而導致推車傾斜，人員頭部被掉落之貨品撞傷。請問該職業災害之媒介物為下列何者？",
+      "options": {
+        "1": "蓋板",
+        "2": "車輪",
+        "3": "貨品",
+        "4": "手推車"
+      },
+      "answer": [
+        "1"
+      ],
+      "appearances": [
+        {
+          "year": "108",
+          "session": 3,
+          "no": 55
+        },
+        {
+          "year": "109",
+          "session": 1,
+          "no": 59
+        },
+        {
+          "year": "109",
+          "session": 2,
+          "no": 44
+        },
+        {
+          "year": "111",
+          "session": 2,
+          "no": 31
+        }
+      ]
+    },
+    {
+      "id": "b-03-036",
+      "category": "professional",
+      "subject": "工作項目03 專業課程",
+      "type": "single",
+      "stem": "簡易接地電阻測定器因包含測定器之一端連接於低壓電源之迴路，其測定值包含下列何者，導致精確度較差？",
+      "options": {
+        "1": "絕緣電阻",
+        "2": "漏電電阻",
+        "3": "系統接地電阻",
+        "4": "設備接地電阻"
+      },
+      "answer": [
+        "3"
+      ],
+      "appearances": [
+        {
+          "year": "110",
+          "session": 3,
+          "no": 23
+        }
+      ]
+    },
+    {
+      "id": "b-03-037",
+      "category": "professional",
+      "subject": "工作項目03 專業課程",
+      "type": "single",
+      "stem": "使用漏電測定器時，下列何者非屬應注意之事項？",
+      "options": {
+        "1": "不可靠近強力磁場",
+        "2": "避免振動及高溫",
+        "3": "使用後不可置於毫安培（mA）之測量範圍",
+        "4": "不可接近接地線"
+      },
+      "answer": [
+        "4"
+      ],
+      "appearances": [
+        {
+          "year": "109",
+          "session": 1,
+          "no": 2
+        }
+      ]
+    },
+    {
+      "id": "b-03-038",
+      "category": "professional",
+      "subject": "工作項目03 專業課程",
+      "type": "single",
+      "stem": "設計超巿櫃檯高度時，採用下列何種設計較能符合實際作業需求？",
+      "options": {
+        "1": "極大設計",
+        "2": "平均設計",
+        "3": "極小設計",
+        "4": "可調設計"
+      },
+      "answer": [
+        "2"
+      ],
+      "appearances": []
+    },
+    {
+      "id": "b-03-039",
+      "category": "professional",
+      "subject": "工作項目03 專業課程",
+      "type": "single",
+      "stem": "人體溼潤狀態，人體的一部分接觸金屬製電氣機械裝置或構造物時，安全電壓為多少伏特以下？",
+      "options": {
+        "1": "25",
+        "2": "35",
+        "3": "45",
+        "4": "55"
+      },
+      "answer": [
+        "1"
+      ],
+      "appearances": [
+        {
+          "year": "108",
+          "session": 1,
+          "no": 38
+        },
+        {
+          "year": "114",
+          "session": 1,
+          "no": 17
+        }
+      ]
+    },
+    {
+      "id": "b-03-040",
+      "category": "professional",
+      "subject": "工作項目03 專業課程",
+      "type": "single",
+      "stem": "依職業安全衛生設施規則規定，勞工於良導體機器設備內從事檢修工作所用之手提式照明燈，其使用電壓不得超過多少伏特？",
+      "options": {
+        "1": "6",
+        "2": "12",
+        "3": "24",
+        "4": "28"
+      },
+      "answer": [
+        "3"
+      ],
+      "appearances": [
+        {
+          "year": "114",
+          "session": 1,
+          "no": 57
+        }
+      ]
+    },
+    {
+      "id": "b-03-041",
+      "category": "professional",
+      "subject": "工作項目03 專業課程",
+      "type": "single",
+      "stem": "配電變壓器二次側低壓線，或中性線之接地，可簡稱為下列何者？",
+      "options": {
+        "1": "高壓或低壓之設備接地",
+        "2": "內線系統接地",
+        "3": "低壓電源系統接地",
+        "4": "二次配電接地"
+      },
+      "answer": [
+        "3"
+      ],
+      "appearances": [
+        {
+          "year": "107",
+          "session": 2,
+          "no": 2
+        },
+        {
+          "year": "111",
+          "session": 1,
+          "no": 49
+        },
+        {
+          "year": "112",
+          "session": 2,
+          "no": 59
+        },
+        {
+          "year": "114",
+          "session": 3,
+          "no": 42
+        }
+      ]
+    },
+    {
+      "id": "b-03-042",
+      "category": "professional",
+      "subject": "工作項目03 專業課程",
+      "type": "single",
+      "stem": "漏電斷路器種類中之電壓動作型，用來檢測電動機或機器外殼之零相電壓，動作機構切斷電路，於動作時限0.2秒以下，其動作電壓為多少伏特？",
+      "options": {
+        "1": "10～20",
+        "2": "20～30",
+        "3": "30～40",
+        "4": "40～50"
+      },
+      "answer": [
+        "2"
+      ],
+      "appearances": []
+    },
+    {
+      "id": "b-03-043",
+      "category": "professional",
+      "subject": "工作項目03 專業課程",
+      "type": "single",
+      "stem": "依職業安全衛生設施規則規定，高壓活線作業時，作業人員對於活線接近作業，在距離頭上及身側及腳下幾公分以內，應於該電路設置絕緣用防護裝備？",
+      "options": {
+        "1": "60",
+        "2": "70",
+        "3": "80",
+        "4": "90"
+      },
+      "answer": [
+        "1"
+      ],
+      "appearances": [
+        {
+          "year": "109",
+          "session": 3,
+          "no": 55
+        },
+        {
+          "year": "112",
+          "session": 2,
+          "no": 3
+        }
+      ]
+    },
+    {
+      "id": "b-03-044",
+      "category": "professional",
+      "subject": "工作項目03 專業課程",
+      "type": "single",
+      "stem": "若電容量以C表示，電壓值以V表示，則帶電體放電火花能量為下列何者？",
+      "options": {
+        "1": "CV/2",
+        "2": "CV",
+        "3": "CV2/2",
+        "4": "CV2"
+      },
+      "answer": [
+        "3"
+      ],
+      "appearances": [
+        {
+          "year": "108",
+          "session": 3,
+          "no": 32
+        },
+        {
+          "year": "109",
+          "session": 3,
+          "no": 52
+        },
+        {
+          "year": "114",
+          "session": 3,
+          "no": 26
+        }
+      ]
+    },
+    {
+      "id": "b-03-045",
+      "category": "professional",
+      "subject": "工作項目03 專業課程",
+      "type": "single",
+      "stem": "依職業安全衛生設施規則規定，雇主對於使用對地電壓超過多少伏特以上之移動式電動機具，應於該電動機具之連接電路上設置合適之漏電斷電器？",
+      "options": {
+        "1": "50",
+        "2": "110",
+        "3": "125",
+        "4": "150"
+      },
+      "answer": [
+        "4"
+      ],
+      "appearances": [
+        {
+          "year": "108",
+          "session": 2,
+          "no": 4
+        },
+        {
+          "year": "110",
+          "session": 3,
+          "no": 17
+        },
+        {
+          "year": "111",
+          "session": 3,
+          "no": 25
+        }
+      ]
+    },
+    {
+      "id": "b-03-046",
+      "category": "professional",
+      "subject": "工作項目03 專業課程",
+      "type": "single",
+      "stem": "防止靜電危害對策，下列何者錯誤？",
+      "options": {
+        "1": "抑制靜電產生",
+        "2": "接地疏導",
+        "3": "使用絕緣性之材料",
+        "4": "加濕或游離化"
+      },
+      "answer": [
+        "3"
+      ],
+      "appearances": []
+    },
+    {
+      "id": "b-03-047",
+      "category": "professional",
+      "subject": "工作項目03 專業課程",
+      "type": "single",
+      "stem": "防止電氣火災對策，下列何者錯誤？",
+      "options": {
+        "1": "不可擅自使用銅線當作保險絲使用",
+        "2": "有爆炸之虞場所應使用防爆型電氣設備",
+        "3": "電氣乾燥器為保持有效果不可設排氣設施",
+        "4": "電氣配線與建築物間應保持安全距離"
+      },
+      "answer": [
+        "3"
+      ],
+      "appearances": []
+    },
+    {
+      "id": "b-03-048",
+      "category": "professional",
+      "subject": "工作項目03 專業課程",
+      "type": "single",
+      "stem": "依機械設備器具安全標準規定，下列何者為動力衝剪機械雙手操作式安全裝置？",
+      "options": {
+        "1": "安全一行程",
+        "2": "連續行程",
+        "3": "一行程",
+        "4": "寸動行程"
+      },
+      "answer": [
+        "1"
+      ],
+      "appearances": [
+        {
+          "year": "111",
+          "session": 2,
+          "no": 58
+        },
+        {
+          "year": "113",
+          "session": 2,
+          "no": 32
+        }
+      ]
+    },
+    {
+      "id": "b-03-049",
+      "category": "professional",
+      "subject": "工作項目03 專業課程",
+      "type": "single",
+      "stem": "依職業安全衛生設施規則規定，吊鏈延伸長度超過百分之多少以上者，不得做為起重升降機具之吊掛用具？",
+      "options": {
+        "1": "1",
+        "2": "3",
+        "3": "5",
+        "4": "7"
+      },
+      "answer": [
+        "3"
+      ],
+      "appearances": [
+        {
+          "year": "110",
+          "session": 1,
+          "no": 31
+        }
+      ]
+    },
+    {
+      "id": "b-03-050",
+      "category": "professional",
+      "subject": "工作項目03 專業課程",
+      "type": "single",
+      "stem": "依職業安全衛生設施規則規定，吊鏈斷面直徑減少百分之多少以上者，不得做為起重機及人字臂起重桿之吊掛用具？",
+      "options": {
+        "1": "1",
+        "2": "5",
+        "3": "10",
+        "4": "15"
+      },
+      "answer": [
+        "3"
+      ],
+      "appearances": [
+        {
+          "year": "107",
+          "session": 1,
+          "no": 13
+        },
+        {
+          "year": "114",
+          "session": 1,
+          "no": 53
+        }
+      ]
+    },
+    {
+      "id": "b-03-051",
+      "category": "professional",
+      "subject": "工作項目03 專業課程",
+      "type": "single",
+      "stem": "依職業安全衛生設施規則規定，吊掛之鋼索一撚間有百分之多少以上素線截斷者，不得作為起重機及人字臂起重桿之吊掛用具？",
+      "options": {
+        "1": "1",
+        "2": "5",
+        "3": "10",
+        "4": "15"
+      },
+      "answer": [
+        "3"
+      ],
+      "appearances": []
+    },
+    {
+      "id": "b-03-052",
+      "category": "professional",
+      "subject": "工作項目03 專業課程",
+      "type": "single",
+      "stem": "依職業安全衛生設施規則規定，吊掛之鋼索直徑減少達公稱直徑百分之多少以上者，不得作為起重機及人字臂起重桿之吊掛用具？",
+      "options": {
+        "1": "3",
+        "2": "5",
+        "3": "7",
+        "4": "9"
+      },
+      "answer": [
+        "3"
+      ],
+      "appearances": [
+        {
+          "year": "111",
+          "session": 2,
+          "no": 11
+        }
+      ]
+    },
+    {
+      "id": "b-03-053",
+      "category": "professional",
+      "subject": "工作項目03 專業課程",
+      "type": "single",
+      "stem": "皮帶與帶輪間會產生下列何種傷害？",
+      "options": {
+        "1": "剪切",
+        "2": "捲夾",
+        "3": "衝壓",
+        "4": "鋸切"
+      },
+      "answer": [
+        "2"
+      ],
+      "appearances": [
+        {
+          "year": "107",
+          "session": 1,
+          "no": 29
+        },
+        {
+          "year": "109",
+          "session": 2,
+          "no": 8
+        },
+        {
+          "year": "111",
+          "session": 3,
+          "no": 60
+        }
+      ]
+    },
+    {
+      "id": "b-03-054",
+      "category": "professional",
+      "subject": "工作項目03 專業課程",
+      "type": "single",
+      "stem": "依機械設備器具安全標準規定，下列何者不是衝剪機械的安全防護裝置？",
+      "options": {
+        "1": "防護式安全裝置",
+        "2": "掃除式安全裝置",
+        "3": "感應式安全裝置",
+        "4": "警告標示"
+      },
+      "answer": [
+        "4"
+      ],
+      "appearances": [
+        {
+          "year": "114",
+          "session": 1,
+          "no": 2
+        }
+      ]
+    },
+    {
+      "id": "b-03-055",
+      "category": "professional",
+      "subject": "工作項目03 專業課程",
+      "type": "single",
+      "stem": "依機械設備器具安全標準規定，下列何者不是衝剪機械？",
+      "options": {
+        "1": "橡膠滾輾機",
+        "2": "油壓衝床",
+        "3": "動力衝床",
+        "4": "衝孔機"
+      },
+      "answer": [
+        "1"
+      ],
+      "appearances": [
+        {
+          "year": "113",
+          "session": 2,
+          "no": 38
+        },
+        {
+          "year": "114",
+          "session": "2颱風延期考區",
+          "no": 24
+        }
+      ]
+    },
+    {
+      "id": "b-03-056",
+      "category": "professional",
+      "subject": "工作項目03 專業課程",
+      "type": "single",
+      "stem": "反撥預防裝置係使用在下列何種機械上？",
+      "options": {
+        "1": "木材加工用圓盤鋸",
+        "2": "手推刨床",
+        "3": "帶鋸",
+        "4": "立軸機"
+      },
+      "answer": [
+        "1"
+      ],
+      "appearances": [
+        {
+          "year": "108",
+          "session": 2,
+          "no": 35
+        },
+        {
+          "year": "112",
+          "session": 3,
+          "no": 20
+        }
+      ]
+    },
+    {
+      "id": "b-03-057",
+      "category": "professional",
+      "subject": "工作項目03 專業課程",
+      "type": "single",
+      "stem": "依機械設備器具安全防護標準規定，撐縫片之厚度應為圓鋸片厚度之幾倍以上？",
+      "options": {
+        "1": "1",
+        "2": "1.1",
+        "3": "1.2",
+        "4": "1.3"
+      },
+      "answer": [
+        "2"
+      ],
+      "appearances": []
+    },
+    {
+      "id": "b-03-058",
+      "category": "professional",
+      "subject": "工作項目03 專業課程",
+      "type": "single",
+      "stem": "下列何種機械、零件無捲入之危害？",
+      "options": {
+        "1": "轉軸",
+        "2": "飛輪",
+        "3": "齒輪",
+        "4": "衝頭"
+      },
+      "answer": [
+        "4"
+      ],
+      "appearances": [
+        {
+          "year": "107",
+          "session": 1,
+          "no": 27
+        },
+        {
+          "year": "113",
+          "session": 3,
+          "no": 19
+        }
+      ]
+    },
+    {
+      "id": "b-03-059",
+      "category": "professional",
+      "subject": "工作項目03 專業課程",
+      "type": "single",
+      "stem": "依職業安全衛生設施規則規定，離地幾公尺以內的轉軸應置適當的圍柵、掩蓋、護網或套管？",
+      "options": {
+        "1": "1",
+        "2": "1.5",
+        "3": "2",
+        "4": "2.5"
+      },
+      "answer": [
+        "3"
+      ],
+      "appearances": [
+        {
+          "year": "107",
+          "session": 3,
+          "no": 30
+        },
+        {
+          "year": "115",
+          "session": 2,
+          "no": 36
+        }
+      ]
+    },
+    {
+      "id": "b-03-060",
+      "category": "professional",
+      "subject": "工作項目03 專業課程",
+      "type": "single",
+      "stem": "木材加工用圓盤鋸防護通常不包括下列何者？",
+      "options": {
+        "1": "護罩",
+        "2": "撐縫片",
+        "3": "鋼爪",
+        "4": "光電連鎖裝置"
+      },
+      "answer": [
+        "4"
+      ],
+      "appearances": [
+        {
+          "year": "110",
+          "session": 3,
+          "no": 54
+        }
+      ]
+    },
+    {
+      "id": "b-03-061",
+      "category": "professional",
+      "subject": "工作項目03 專業課程",
+      "type": "single",
+      "stem": "研磨機起動時，操作員應站在砂輪之何方較為安全？",
+      "options": {
+        "1": "前面",
+        "2": "後面",
+        "3": "側面",
+        "4": "任何地點"
+      },
+      "answer": [
+        "3"
+      ],
+      "appearances": [
+        {
+          "year": "107",
+          "session": 3,
+          "no": 17
+        },
+        {
+          "year": "109",
+          "session": 3,
+          "no": 47
+        },
+        {
+          "year": "113",
+          "session": 2,
+          "no": 3
+        },
+        {
+          "year": "114",
+          "session": 2,
+          "no": 18
+        }
+      ]
+    },
+    {
+      "id": "b-03-062",
+      "category": "professional",
+      "subject": "工作項目03 專業課程",
+      "type": "single",
+      "stem": "研磨輪之速率試驗應按所標示最高使用周速度增加百分之多少為之？",
+      "options": {
+        "1": "10",
+        "2": "20",
+        "3": "50",
+        "4": "100"
+      },
+      "answer": [
+        "3"
+      ],
+      "appearances": [
+        {
+          "year": "108",
+          "session": 1,
+          "no": 30
+        },
+        {
+          "year": "108",
+          "session": 3,
+          "no": 21
+        },
+        {
+          "year": "109",
+          "session": 2,
+          "no": 45
+        },
+        {
+          "year": "110",
+          "session": 3,
+          "no": 30
+        },
+        {
+          "year": "111",
+          "session": 2,
+          "no": 24
+        },
+        {
+          "year": "113",
+          "session": 1,
+          "no": 57
+        }
+      ]
+    },
+    {
+      "id": "b-03-063",
+      "category": "professional",
+      "subject": "工作項目03 專業課程",
+      "type": "single",
+      "stem": "依機械設備器具安全標準規定，動力衝剪機械使用安全模在上死點時，上模與下模之間隙應在幾公厘以下？",
+      "options": {
+        "1": "5",
+        "2": "6",
+        "3": "7",
+        "4": "8"
+      },
+      "answer": [
+        "4"
+      ],
+      "appearances": [
+        {
+          "year": "107",
+          "session": 1,
+          "no": 12
+        },
+        {
+          "year": "107",
+          "session": 2,
+          "no": 36
+        }
+      ]
+    },
+    {
+      "id": "b-03-064",
+      "category": "professional",
+      "subject": "工作項目03 專業課程",
+      "type": "single",
+      "stem": "下列何者為消除操作機械時可能造成壓與夾危害之最好方法？",
+      "options": {
+        "1": "設安全警告標示",
+        "2": "加強維修保養與檢查",
+        "3": "訂定標準作業規範",
+        "4": "增大相對運動機件間的間隙"
+      },
+      "answer": [
+        "4"
+      ],
+      "appearances": [
+        {
+          "year": "108",
+          "session": 1,
+          "no": 10
+        },
+        {
+          "year": "110",
+          "session": 2,
+          "no": 13
+        }
+      ]
+    },
+    {
+      "id": "b-03-065",
+      "category": "professional",
+      "subject": "工作項目03 專業課程",
+      "type": "single",
+      "stem": "依機械設備器具安全標準規定，衝剪機械安全裝置操作用電氣回路之電壓，應在多少伏特以下？",
+      "options": {
+        "1": "50",
+        "2": "100",
+        "3": "160",
+        "4": "200"
+      },
+      "answer": [
+        "3"
+      ],
+      "appearances": [
+        {
+          "year": "110",
+          "session": 1,
+          "no": 29
+        },
+        {
+          "year": "112",
+          "session": 2,
+          "no": 57
+        },
+        {
+          "year": "113",
+          "session": 2,
+          "no": 12
+        },
+        {
+          "year": "114",
+          "session": "2颱風延期考區",
+          "no": 47
+        }
+      ]
+    },
+    {
+      "id": "b-03-066",
+      "category": "professional",
+      "subject": "工作項目03 專業課程",
+      "type": "single",
+      "stem": "依機械設備器具安全標準規定，衝剪機械之雙手操作式安全裝置，其一按鈕之外側與其他按鈕之外側，至少應距離多少公厘以上？",
+      "options": {
+        "1": "100",
+        "2": "200",
+        "3": "300",
+        "4": "400"
+      },
+      "answer": [
+        "3"
+      ],
+      "appearances": [
+        {
+          "year": "108",
+          "session": 1,
+          "no": 48
+        },
+        {
+          "year": "109",
+          "session": 3,
+          "no": 11
+        },
+        {
+          "year": "110",
+          "session": 3,
+          "no": 45
+        },
+        {
+          "year": "111",
+          "session": 2,
+          "no": 30
+        }
+      ]
+    },
+    {
+      "id": "b-03-067",
+      "category": "professional",
+      "subject": "工作項目03 專業課程",
+      "type": "single",
+      "stem": "依機械設備器具安全標準規定，動力衝剪機械之拉開式安全裝置，對於已安裝調節配件之牽引帶，其切斷荷重應在多少公斤以上？",
+      "options": {
+        "1": "100",
+        "2": "150",
+        "3": "200",
+        "4": "250"
+      },
+      "answer": [
+        "2"
+      ],
+      "appearances": [
+        {
+          "year": "109",
+          "session": 1,
+          "no": 15
+        },
+        {
+          "year": "109",
+          "session": 2,
+          "no": 12
+        },
+        {
+          "year": "110",
+          "session": 1,
+          "no": 19
+        },
+        {
+          "year": "113",
+          "session": 2,
+          "no": 18
+        },
+        {
+          "year": "115",
+          "session": 1,
+          "no": 33
+        }
+      ]
+    },
+    {
+      "id": "b-03-068",
+      "category": "professional",
+      "subject": "工作項目03 專業課程",
+      "type": "single",
+      "stem": "依職業安全衛生設施規則規定，雇主對研磨機於更換研磨輪後，應先檢驗有無裂痕，並應在防護罩下試轉多少分鐘以上？",
+      "options": {
+        "1": "0.5",
+        "2": "1",
+        "3": "2",
+        "4": "3"
+      },
+      "answer": [
+        "4"
+      ],
+      "appearances": [
+        {
+          "year": "110",
+          "session": 1,
+          "no": 14
+        },
+        {
+          "year": "110",
+          "session": 2,
+          "no": 59
+        }
+      ]
+    },
+    {
+      "id": "b-03-069",
+      "category": "professional",
+      "subject": "工作項目03 專業課程",
+      "type": "single",
+      "stem": "為了滿足機能性安全需求，除了可在設計階段即採用複數（並聯）系統之外，在使用階段也應注意檢點與維修保養，此即下列何者？",
+      "options": {
+        "1": "防呆措施",
+        "2": "本質安全",
+        "3": "高可靠度技術",
+        "4": "失效安全"
+      },
+      "answer": [
+        "3"
+      ],
+      "appearances": [
+        {
+          "year": "108",
+          "session": 1,
+          "no": 36
+        },
+        {
+          "year": "113",
+          "session": 1,
+          "no": 10
+        },
+        {
+          "year": "115",
+          "session": 1,
+          "no": 45
+        }
+      ]
+    },
+    {
+      "id": "b-03-070",
+      "category": "professional",
+      "subject": "工作項目03 專業課程",
+      "type": "single",
+      "stem": "安全資料表至少應每幾年檢討1次？",
+      "options": {
+        "1": "1",
+        "2": "2",
+        "3": "3",
+        "4": "4"
+      },
+      "answer": [
+        "3"
+      ],
+      "appearances": [
+        {
+          "year": "111",
+          "session": 3,
+          "no": 31
+        },
+        {
+          "year": "114",
+          "session": 1,
+          "no": 5
+        }
+      ]
+    },
+    {
+      "id": "b-03-071",
+      "category": "professional",
+      "subject": "工作項目03 專業課程",
+      "type": "single",
+      "stem": "使勞工認知危害物質必要安全衛生注意事項，以促使其遵守安全衛生操作程序之制度，係指下列何者？",
+      "options": {
+        "1": "標準作業程序",
+        "2": "危害通識制度",
+        "3": "自護制度",
+        "4": "自動檢查制度"
+      },
+      "answer": [
+        "2"
+      ],
+      "appearances": [
+        {
+          "year": "107",
+          "session": 3,
+          "no": 8
+        }
+      ]
+    },
+    {
+      "id": "b-03-072",
+      "category": "professional",
+      "subject": "工作項目03 專業課程",
+      "type": "single",
+      "stem": "製備危害物清單之目的為瞭解事業單位危害物質之種類、場所、數量、使用及下列何項資料？",
+      "options": {
+        "1": "危害物之物性、化性",
+        "2": "急救方法",
+        "3": "緊急應變程序",
+        "4": "貯存"
+      },
+      "answer": [
+        "4"
+      ],
+      "appearances": [
+        {
+          "year": "108",
+          "session": 1,
+          "no": 21
+        }
+      ]
+    },
+    {
+      "id": "b-03-073",
+      "category": "professional",
+      "subject": "工作項目03 專業課程",
+      "type": "single",
+      "stem": "下列何者適用危害性化學品標示及通識規則規定？",
+      "options": {
+        "1": "有害事業廢棄物",
+        "2": "裝有危害物質之輸送裝置",
+        "3": "菸草或菸草製品",
+        "4": "製成品"
+      },
+      "answer": [
+        "2"
+      ],
+      "appearances": [
+        {
+          "year": "107",
+          "session": 2,
+          "no": 7
+        },
+        {
+          "year": "109",
+          "session": 3,
+          "no": 30
+        },
+        {
+          "year": "111",
+          "session": 3,
+          "no": 15
+        },
+        {
+          "year": "112",
+          "session": 3,
+          "no": 41
+        },
+        {
+          "year": "113",
+          "session": 2,
+          "no": 48
+        },
+        {
+          "year": "114",
+          "session": 2,
+          "no": 33
+        }
+      ]
+    },
+    {
+      "id": "b-03-074",
+      "category": "professional",
+      "subject": "工作項目03 專業課程",
+      "type": "single",
+      "stem": "因衝剪機械造成夾壓之挫傷，屬於下列何種職業災害類型？",
+      "options": {
+        "1": "被夾、被捲",
+        "2": "感電",
+        "3": "墜落",
+        "4": "不當行為"
+      },
+      "answer": [
+        "1"
+      ],
+      "appearances": [
+        {
+          "year": "107",
+          "session": 2,
+          "no": 22
+        },
+        {
+          "year": "110",
+          "session": 1,
+          "no": 57
+        },
+        {
+          "year": "110",
+          "session": 3,
+          "no": 38
+        },
+        {
+          "year": "113",
+          "session": 3,
+          "no": 46
+        },
+        {
+          "year": "115",
+          "session": 1,
+          "no": 35
+        }
+      ]
+    },
+    {
+      "id": "b-03-075",
+      "category": "professional",
+      "subject": "工作項目03 專業課程",
+      "type": "single",
+      "stem": "依危害性化學品標示及通識規則規定，應依實際狀況檢討安全資料表內容正確性，並適時更新，其更新紀錄應保存多少年？",
+      "options": {
+        "1": "3",
+        "2": "5",
+        "3": "6",
+        "4": "7"
+      },
+      "answer": [
+        "1"
+      ],
+      "appearances": [
+        {
+          "year": "108",
+          "session": 2,
+          "no": 52
+        }
+      ]
+    },
+    {
+      "id": "b-03-076",
+      "category": "professional",
+      "subject": "工作項目03 專業課程",
+      "type": "single",
+      "stem": "危害性化學品為混合物時，下列何者錯誤？",
+      "options": {
+        "1": "危害性化學品主要成分濃度重量百分比在百分之一以上者，應列出其化學名稱",
+        "2": "混合物已作整體測試者，依整體測試結果，判定危害性",
+        "3": "未作整體測試者，其健康危害性，除具有科學資料佐證外，視同具各該成分之健康危害性",
+        "4": "未作整體測試者，對於燃燒、爆炸及反應性等物理性危害，視同具各該成分之燃燒、爆炸及反應性"
+      },
+      "answer": [
+        "4"
+      ],
+      "appearances": []
+    },
+    {
+      "id": "b-03-077",
+      "category": "professional",
+      "subject": "工作項目03 專業課程",
+      "type": "single",
+      "stem": "依危害性化學品標示及通識規則規定，危害性化學品標示之危害圖式符號，應使用何種顏色？",
+      "options": {
+        "1": "黃色",
+        "2": "綠色",
+        "3": "黑色",
+        "4": "藍色"
+      },
+      "answer": [
+        "3"
+      ],
+      "appearances": [
+        {
+          "year": "107",
+          "session": 3,
+          "no": 29
+        }
+      ]
+    },
+    {
+      "id": "b-03-078",
+      "category": "professional",
+      "subject": "工作項目03 專業課程",
+      "type": "single",
+      "stem": "依危害性化學品標示及通識規則之規定，危害性化學品標示圖式符號之背景為何種顏色？",
+      "options": {
+        "1": "橙色",
+        "2": "紅色",
+        "3": "白色",
+        "4": "黃色"
+      },
+      "answer": [
+        "3"
+      ],
+      "appearances": [
+        {
+          "year": "108",
+          "session": 1,
+          "no": 37
+        },
+        {
+          "year": "109",
+          "session": 3,
+          "no": 38
+        },
+        {
+          "year": "110",
+          "session": 2,
+          "no": 3
+        },
+        {
+          "year": "114",
+          "session": 2,
+          "no": 8
+        }
+      ]
+    },
+    {
+      "id": "b-03-079",
+      "category": "professional",
+      "subject": "工作項目03 專業課程",
+      "type": "single",
+      "stem": "過氧化丁酮為危害性化學品標示及通識規則中所稱之何種危險物？",
+      "options": {
+        "1": "爆炸性物質",
+        "2": "易燃固體",
+        "3": "自燃物質",
+        "4": "禁水性物質"
+      },
+      "answer": [
+        "1"
+      ],
+      "appearances": [
+        {
+          "year": "108",
+          "session": 1,
+          "no": 34
+        },
+        {
+          "year": "108",
+          "session": 3,
+          "no": 15
+        },
+        {
+          "year": "109",
+          "session": 3,
+          "no": 53
+        },
+        {
+          "year": "113",
+          "session": 2,
+          "no": 19
+        },
+        {
+          "year": "114",
+          "session": 1,
+          "no": 8
+        },
+        {
+          "year": "114",
+          "session": 2,
+          "no": 19
+        }
+      ]
+    },
+    {
+      "id": "b-03-080",
+      "category": "professional",
+      "subject": "工作項目03 專業課程",
+      "type": "single",
+      "stem": "一氧化碳為危害性化學品標示及通識規則中所稱之下列何種危害物質？",
+      "options": {
+        "1": "著火性物質",
+        "2": "有害物",
+        "3": "爆炸性物質",
+        "4": "氧化性物質"
+      },
+      "answer": [
+        "2"
+      ],
+      "appearances": [
+        {
+          "year": "107",
+          "session": 3,
+          "no": 35
+        },
+        {
+          "year": "112",
+          "session": 1,
+          "no": 9
+        }
+      ]
+    },
+    {
+      "id": "b-03-081",
+      "category": "professional",
+      "subject": "工作項目03 專業課程",
+      "type": "single",
+      "stem": "輸氣管面罩屬下列何種防護具？",
+      "options": {
+        "1": "動力過濾式",
+        "2": "無動力過濾式",
+        "3": "供氣式",
+        "4": "組合式"
+      },
+      "answer": [
+        "3"
+      ],
+      "appearances": [
+        {
+          "year": "107",
+          "session": 1,
+          "no": 43
+        },
+        {
+          "year": "108",
+          "session": 1,
+          "no": 26
+        },
+        {
+          "year": "108",
+          "session": 2,
+          "no": 43
+        },
+        {
+          "year": "110",
+          "session": 3,
+          "no": 24
+        },
+        {
+          "year": "111",
+          "session": 1,
+          "no": 53
+        }
+      ]
+    },
+    {
+      "id": "b-03-082",
+      "category": "professional",
+      "subject": "工作項目03 專業課程",
+      "type": "single",
+      "stem": "在缺氧或立即致死濃度狀況下作業，應使用下列何種呼吸防護具？",
+      "options": {
+        "1": "負壓呼吸防護具",
+        "2": "防塵面具",
+        "3": "防毒面具",
+        "4": "輸氣管面罩"
+      },
+      "answer": [
+        "4"
+      ],
+      "appearances": [
+        {
+          "year": "109",
+          "session": 3,
+          "no": 19
+        }
+      ]
+    },
+    {
+      "id": "b-03-083",
+      "category": "professional",
+      "subject": "工作項目03 專業課程",
+      "type": "single",
+      "stem": "當作業場所中含有對眼睛具刺激、危害作用的物質時，使用之防護面具其面體應為下列何者？",
+      "options": {
+        "1": "全面體",
+        "2": "寬鬆面體",
+        "3": "半面體",
+        "4": "四分之一面體"
+      },
+      "answer": [
+        "1"
+      ],
+      "appearances": [
+        {
+          "year": "108",
+          "session": 1,
+          "no": 46
+        },
+        {
+          "year": "108",
+          "session": 2,
+          "no": 58
+        },
+        {
+          "year": "110",
+          "session": 2,
+          "no": 24
+        }
+      ]
+    },
+    {
+      "id": "b-03-084",
+      "category": "professional",
+      "subject": "工作項目03 專業課程",
+      "type": "single",
+      "stem": "於亞硫酸氣體場所使用之防毒面具，其濾罐應選用下列何種較適宜？",
+      "options": {
+        "1": "酸性氣體用濾罐",
+        "2": "有機氣體用濾罐",
+        "3": "二氧化硫用濾罐",
+        "4": "消防用濾罐"
+      },
+      "answer": [
+        "3"
+      ],
+      "appearances": [
+        {
+          "year": "108",
+          "session": 2,
+          "no": 19
+        },
+        {
+          "year": "110",
+          "session": 2,
+          "no": 17
+        }
+      ]
+    },
+    {
+      "id": "b-03-085",
+      "category": "professional",
+      "subject": "工作項目03 專業課程",
+      "type": "single",
+      "stem": "自攜式呼吸器其有效使用時間低於多少分鐘時僅能用於緊急逃生？",
+      "options": {
+        "1": "12",
+        "2": "15",
+        "3": "18",
+        "4": "20"
+      },
+      "answer": [
+        "2"
+      ],
+      "appearances": [
+        {
+          "year": "112",
+          "session": 1,
+          "no": 27
+        }
+      ]
+    },
+    {
+      "id": "b-03-086",
+      "category": "professional",
+      "subject": "工作項目03 專業課程",
+      "type": "single",
+      "stem": "下列何者非供氣式呼吸防護具之適用時機？",
+      "options": {
+        "1": "作業場所中混雜有各式毒性物質，濾毒罐無作用時",
+        "2": "作業場所中氧氣濃度不足18％",
+        "3": "作業環境中毒性物質濃度過高，濾毒罐無作用時",
+        "4": "佩戴會影響勞工作業績效"
+      },
+      "answer": [
+        "4"
+      ],
+      "appearances": [
+        {
+          "year": "108",
+          "session": 1,
+          "no": 57
+        },
+        {
+          "year": "109",
+          "session": 3,
+          "no": 39
+        }
+      ]
+    },
+    {
+      "id": "b-03-087",
+      "category": "professional",
+      "subject": "工作項目03 專業課程",
+      "type": "single",
+      "stem": "下列哪種呼吸防護具於使用時，空氣中的有害物較易侵入面體內？",
+      "options": {
+        "1": "負壓呼吸防護具",
+        "2": "輸氣管面具",
+        "3": "自攜式呼吸器",
+        "4": "正壓供氣式呼吸防護具"
+      },
+      "answer": [
+        "1"
+      ],
+      "appearances": [
+        {
+          "year": "114",
+          "session": 2,
+          "no": 59
+        }
+      ]
+    },
+    {
+      "id": "b-03-088",
+      "category": "professional",
+      "subject": "工作項目03 專業課程",
+      "type": "single",
+      "stem": "呼吸防護具的防護係數為10，表示該防護具能適用於污染物濃度在幾倍容許濃度以下之作業環境？",
+      "options": {
+        "1": "10",
+        "2": "15",
+        "3": "20",
+        "4": "100"
+      },
+      "answer": [
+        "1"
+      ],
+      "appearances": [
+        {
+          "year": "109",
+          "session": 2,
+          "no": 21
+        },
+        {
+          "year": "110",
+          "session": 2,
+          "no": 26
+        },
+        {
+          "year": "112",
+          "session": 1,
+          "no": 28
+        },
+        {
+          "year": "114",
+          "session": 3,
+          "no": 19
+        }
+      ]
+    },
+    {
+      "id": "b-03-089",
+      "category": "professional",
+      "subject": "工作項目03 專業課程",
+      "type": "single",
+      "stem": "在救火或缺氧環境下，應使用下列何種呼吸防護具？",
+      "options": {
+        "1": "輸氣管面罩",
+        "2": "小型空氣呼吸器",
+        "3": "正壓自給式呼吸防護具（SCBA）",
+        "4": "防毒口罩"
+      },
+      "answer": [
+        "3"
+      ],
+      "appearances": [
+        {
+          "year": "108",
+          "session": 1,
+          "no": 19
+        },
+        {
+          "year": "111",
+          "session": 3,
+          "no": 33
+        }
+      ]
+    },
+    {
+      "id": "b-03-090",
+      "category": "professional",
+      "subject": "工作項目03 專業課程",
+      "type": "single",
+      "stem": "將車床集中成車床班，鑽床集中成鑽床班，是屬於下列何種佈置的形式？",
+      "options": {
+        "1": "固定式",
+        "2": "功能式",
+        "3": "製程式",
+        "4": "混合式"
+      },
+      "answer": [
+        "2"
+      ],
+      "appearances": [
+        {
+          "year": "110",
+          "session": 2,
+          "no": 46
+        },
+        {
+          "year": "112",
+          "session": 3,
+          "no": 21
+        },
+        {
+          "year": "115",
+          "session": 2,
+          "no": 6
+        }
+      ]
+    },
+    {
+      "id": "b-03-091",
+      "category": "professional",
+      "subject": "工作項目03 專業課程",
+      "type": "single",
+      "stem": "裝配鍋爐的佈置形式，下列何者適宜？",
+      "options": {
+        "1": "固定式",
+        "2": "功能式",
+        "3": "製程式",
+        "4": "混合式"
+      },
+      "answer": [
+        "1"
+      ],
+      "appearances": []
+    },
+    {
+      "id": "b-03-092",
+      "category": "professional",
+      "subject": "工作項目03 專業課程",
+      "type": "single",
+      "stem": "下列何者不屬源頭管制之方法？",
+      "options": {
+        "1": "研磨機安裝集塵裝置",
+        "2": "指定吸菸區",
+        "3": "天花板採用吸音材",
+        "4": "高溫爐採用隔熱材"
+      },
+      "answer": [
+        "3"
+      ],
+      "appearances": [
+        {
+          "year": "114",
+          "session": "2颱風延期考區",
+          "no": 7
+        }
+      ]
+    },
+    {
+      "id": "b-03-093",
+      "category": "professional",
+      "subject": "工作項目03 專業課程",
+      "type": "single",
+      "stem": "下列哪項非為部門主管之安全職責？",
+      "options": {
+        "1": "工作安全教導",
+        "2": "安全政策制訂",
+        "3": "安全教育訓練",
+        "4": "安全觀察"
+      },
+      "answer": [
+        "2"
+      ],
+      "appearances": []
+    },
+    {
+      "id": "b-03-094",
+      "category": "professional",
+      "subject": "工作項目03 專業課程",
+      "type": "single",
+      "stem": "分析災害原因時，下列何者係屬直接原因？",
+      "options": {
+        "1": "高壓電",
+        "2": "警報系統不良",
+        "3": "未使用個人防護具",
+        "4": "防護具未分發給勞工"
+      },
+      "answer": [
+        "1"
+      ],
+      "appearances": [
+        {
+          "year": "115",
+          "session": 1,
+          "no": 24
+        }
+      ]
+    },
+    {
+      "id": "b-03-095",
+      "category": "professional",
+      "subject": "工作項目03 專業課程",
+      "type": "single",
+      "stem": "某一勞工在工作桌上以圓鋸鋸斷木材，手指不慎被鋸傷，則該災害的媒介物為下列何者？",
+      "options": {
+        "1": "工作桌",
+        "2": "圓鋸",
+        "3": "木材",
+        "4": "傳動帶"
+      },
+      "answer": [
+        "2"
+      ],
+      "appearances": [
+        {
+          "year": "107",
+          "session": 3,
+          "no": 3
+        },
+        {
+          "year": "110",
+          "session": 1,
+          "no": 43
+        },
+        {
+          "year": "114",
+          "session": 2,
+          "no": 56
+        }
+      ]
+    },
+    {
+      "id": "b-03-096",
+      "category": "professional",
+      "subject": "工作項目03 專業課程",
+      "type": "single",
+      "stem": "某勞工以手鏟鏟煤進鍋爐之燃燒室為火所灼傷，則該災害之媒介物為下列何者？",
+      "options": {
+        "1": "煤",
+        "2": "手鏟",
+        "3": "手",
+        "4": "鍋爐"
+      },
+      "answer": [
+        "4"
+      ],
+      "appearances": [
+        {
+          "year": "113",
+          "session": 3,
+          "no": 25
+        }
+      ]
+    },
+    {
+      "id": "b-03-097",
+      "category": "professional",
+      "subject": "工作項目03 專業課程",
+      "type": "single",
+      "stem": "系統失誤發生時，可將系統維持在一安全操作狀態，直到狀況解除，此為下列何種失誤安全設計？",
+      "options": {
+        "1": "被動式",
+        "2": "主動式",
+        "3": "調節式",
+        "4": "功能式"
+      },
+      "answer": [
+        "2"
+      ],
+      "appearances": [
+        {
+          "year": "113",
+          "session": 2,
+          "no": 10
+        }
+      ]
+    },
+    {
+      "id": "b-03-098",
+      "category": "professional",
+      "subject": "工作項目03 專業課程",
+      "type": "single",
+      "stem": "化工儲槽的安全閥係屬下列何種減低危害的防護方式？",
+      "options": {
+        "1": "隔離",
+        "2": "弱連接",
+        "3": "閉鎖",
+        "4": "連鎖"
+      },
+      "answer": [
+        "2"
+      ],
+      "appearances": [
+        {
+          "year": "107",
+          "session": 1,
+          "no": 37
+        },
+        {
+          "year": "110",
+          "session": 1,
+          "no": 41
+        },
+        {
+          "year": "111",
+          "session": 2,
+          "no": 52
+        },
+        {
+          "year": "114",
+          "session": 3,
+          "no": 28
+        }
+      ]
+    },
+    {
+      "id": "b-03-099",
+      "category": "professional",
+      "subject": "工作項目03 專業課程",
+      "type": "single",
+      "stem": "保險絲因迴路開關電流過載時熔斷，使系統保持安全狀態，欲重新啟動需先將保險絲修復才能作業，此安全設計為下列何者？",
+      "options": {
+        "1": "被動式失誤安全設計",
+        "2": "主動式失誤安全設計",
+        "3": "調節式失誤安全設計",
+        "4": "功能式失誤安全設計"
+      },
+      "answer": [
+        "1"
+      ],
+      "appearances": [
+        {
+          "year": "109",
+          "session": 2,
+          "no": 14
+        }
+      ]
+    },
+    {
+      "id": "b-03-100",
+      "category": "professional",
+      "subject": "工作項目03 專業課程",
+      "type": "single",
+      "stem": "有關防爆型電氣開關之安全設計，使在可燃性氣體中作業之火花不會發生逸出，為下列何種安全設計？",
+      "options": {
+        "1": "隔離",
+        "2": "連鎖",
+        "3": "閉鎖",
+        "4": "弱連結"
+      },
+      "answer": [
+        "1"
+      ],
+      "appearances": []
+    },
+    {
+      "id": "b-03-101",
+      "category": "professional",
+      "subject": "工作項目03 專業課程",
+      "type": "single",
+      "stem": "下列何者為安全化構造中，防止人、物、能量或其他因素進入非期望區域之方法？",
+      "options": {
+        "1": "閉鎖中之lock-in",
+        "2": "閉鎖中之lock-out",
+        "3": "連鎖（interlock）",
+        "4": "弱連結（weaklink）"
+      },
+      "answer": [
+        "2"
+      ],
+      "appearances": [
+        {
+          "year": "110",
+          "session": 1,
+          "no": 8
+        },
+        {
+          "year": "110",
+          "session": 3,
+          "no": 37
+        },
+        {
+          "year": "113",
+          "session": 2,
+          "no": 45
+        },
+        {
+          "year": "115",
+          "session": 2,
+          "no": 16
+        }
+      ]
+    },
+    {
+      "id": "b-03-102",
+      "category": "professional",
+      "subject": "工作項目03 專業課程",
+      "type": "single",
+      "stem": "勞工修理混合機時，未將電源開關上鎖，不知情之第三者將該開關打開，造成災害，此為沒有做好下列何者？",
+      "options": {
+        "1": "隔離",
+        "2": "阻卻",
+        "3": "閉鎖",
+        "4": "連鎖"
+      },
+      "answer": [
+        "3"
+      ],
+      "appearances": []
+    },
+    {
+      "id": "b-03-103",
+      "category": "professional",
+      "subject": "工作項目03 專業課程",
+      "type": "single",
+      "stem": "在安全改善之優先順序上，當由設計方法消除危害及設計安全防護裝置為不可行時，下列何者應優先採行？",
+      "options": {
+        "1": "辦理人員安全訓練",
+        "2": "裝設警報裝置",
+        "3": "辦理員工健康檢查",
+        "4": "使用個人防護具"
+      },
+      "answer": [
+        "2"
+      ],
+      "appearances": [
+        {
+          "year": "110",
+          "session": 2,
+          "no": 7
+        },
+        {
+          "year": "110",
+          "session": 3,
+          "no": 33
+        }
+      ]
+    },
+    {
+      "id": "b-03-104",
+      "category": "professional",
+      "subject": "工作項目03 專業課程",
+      "type": "single",
+      "stem": "下列何者非安全工程技術「隔離」之應用？",
+      "options": {
+        "1": "設置防爆牆",
+        "2": "使用隔音裝置",
+        "3": "使用鉛隔離輻射",
+        "4": "使用接地以減少電荷積聚"
+      },
+      "answer": [
+        "4"
+      ],
+      "appearances": [
+        {
+          "year": "109",
+          "session": 1,
+          "no": 18
+        },
+        {
+          "year": "113",
+          "session": 3,
+          "no": 3
+        }
+      ]
+    },
+    {
+      "id": "b-03-105",
+      "category": "professional",
+      "subject": "工作項目03 專業課程",
+      "type": "single",
+      "stem": "依機械類產品型式驗證實施及監督管理辦法規定，型式驗證合格證明書之有效期為多少年？",
+      "options": {
+        "1": "3",
+        "2": "5",
+        "3": "10",
+        "4": "15"
+      },
+      "answer": [
+        "1"
+      ],
+      "appearances": [
+        {
+          "year": "107",
+          "session": 3,
+          "no": 2
+        },
+        {
+          "year": "108",
+          "session": 2,
+          "no": 48
+        },
+        {
+          "year": "112",
+          "session": 2,
+          "no": 16
+        }
+      ]
+    },
+    {
+      "id": "b-03-106",
+      "category": "professional",
+      "subject": "工作項目03 專業課程",
+      "type": "single",
+      "stem": "完整的監測系統有四個步驟，其正確順序應為下列何者？",
+      "options": {
+        "1": "偵測（Detection）、解釋（Interpretation）、量測（Measurement）、應變（Response）",
+        "2": "偵測（Detection）、量測（Measurement）、解釋（Interpretation）、應變（Response）",
+        "3": "量測（Measurement）、偵測（Detection）、解釋（Interpretation）、應變（Response）",
+        "4": "偵測（Detection）、解釋（Interpretation）、應變（Response）、量測（Measurement）"
+      },
+      "answer": [
+        "2"
+      ],
+      "appearances": [
+        {
+          "year": "112",
+          "session": 3,
+          "no": 13
+        },
+        {
+          "year": "114",
+          "session": "2颱風延期考區",
+          "no": 39
+        }
+      ]
+    },
+    {
+      "id": "b-03-107",
+      "category": "professional",
+      "subject": "工作項目03 專業課程",
+      "type": "single",
+      "stem": "槽內作業，1人在槽外監視槽內作業者是否發生危險並提供必要援助，此為下列何種安全系統？",
+      "options": {
+        "1": "自護系統",
+        "2": "互護系統",
+        "3": "偵測系統",
+        "4": "警告系統"
+      },
+      "answer": [
+        "2"
+      ],
+      "appearances": [
+        {
+          "year": "107",
+          "session": 1,
+          "no": 20
+        },
+        {
+          "year": "111",
+          "session": 2,
+          "no": 59
+        },
+        {
+          "year": "115",
+          "session": 2,
+          "no": 53
+        }
+      ]
+    },
+    {
+      "id": "b-03-108",
+      "category": "professional",
+      "subject": "工作項目03 專業課程",
+      "type": "single",
+      "stem": "利用人類感官來設計安全警告裝置，其優先順序下列何者正確？",
+      "options": {
+        "1": "聽覺、視覺、嗅覺",
+        "2": "視覺、聽覺、嗅覺",
+        "3": "嗅覺、聽覺、視覺",
+        "4": "視覺、嗅覺、聽覺"
+      },
+      "answer": [
+        "2"
+      ],
+      "appearances": []
+    },
+    {
+      "id": "b-03-109",
+      "category": "professional",
+      "subject": "工作項目03 專業課程",
+      "type": "single",
+      "stem": "下列何者不是以視覺感官方法設計之警告方式？",
+      "options": {
+        "1": "高壓設備之請勿接近標示",
+        "2": "危險物運輸卡車上之易燃告示牌",
+        "3": "以警鈴提示火警",
+        "4": "夜間障礙物之紅色閃光燈"
+      },
+      "answer": [
+        "3"
+      ],
+      "appearances": [
+        {
+          "year": "111",
+          "session": 1,
+          "no": 17
+        },
+        {
+          "year": "112",
+          "session": 3,
+          "no": 28
+        },
+        {
+          "year": "115",
+          "session": 1,
+          "no": 44
+        }
+      ]
+    },
+    {
+      "id": "b-03-110",
+      "category": "professional",
+      "subject": "工作項目03 專業課程",
+      "type": "single",
+      "stem": "當事故發生時，在設計條件下，會使作業中斷以減少或控制任何可能會導致更嚴重的失誤或災害，此為下列何種防護方式？",
+      "options": {
+        "1": "弱連結（weaklinks）",
+        "2": "互護系統（buddysystem）",
+        "3": "警告",
+        "4": "偵測"
+      },
+      "answer": [
+        "1"
+      ],
+      "appearances": []
+    },
+    {
+      "id": "b-03-111",
+      "category": "professional",
+      "subject": "工作項目03 專業課程",
+      "type": "single",
+      "stem": "利用人類感官作為安全警告方式，下列何者應為最優先？",
+      "options": {
+        "1": "視覺",
+        "2": "聽覺",
+        "3": "嗅覺",
+        "4": "對振動及溫度之感覺"
+      },
+      "answer": [
+        "1"
+      ],
+      "appearances": [
+        {
+          "year": "109",
+          "session": 1,
+          "no": 36
+        }
+      ]
+    },
+    {
+      "id": "b-03-112",
+      "category": "professional",
+      "subject": "工作項目03 專業課程",
+      "type": "single",
+      "stem": "當事件A發生時，事件B將作動，以使偶發事故不致發生，此為下列何種安全設計？",
+      "options": {
+        "1": "隔離",
+        "2": "阻卻",
+        "3": "互護系統",
+        "4": "連鎖"
+      },
+      "answer": [
+        "4"
+      ],
+      "appearances": [
+        {
+          "year": "107",
+          "session": 3,
+          "no": 10
+        },
+        {
+          "year": "108",
+          "session": 1,
+          "no": 3
+        },
+        {
+          "year": "110",
+          "session": 1,
+          "no": 49
+        },
+        {
+          "year": "111",
+          "session": 3,
+          "no": 21
+        },
+        {
+          "year": "112",
+          "session": 1,
+          "no": 52
+        },
+        {
+          "year": "114",
+          "session": 1,
+          "no": 37
+        },
+        {
+          "year": "114",
+          "session": "2颱風延期考區",
+          "no": 20
+        },
+        {
+          "year": "114",
+          "session": 3,
+          "no": 24
+        }
+      ]
+    },
+    {
+      "id": "b-03-113",
+      "category": "professional",
+      "subject": "工作項目03 專業課程",
+      "type": "single",
+      "stem": "二個以上之要素各別獨立，並共同組合成災害發生的原因，此種災害發生之型態為下列何者？",
+      "options": {
+        "1": "串聯型",
+        "2": "並聯型",
+        "3": "複合型",
+        "4": "獨立型"
+      },
+      "answer": [
+        "2"
+      ],
+      "appearances": [
+        {
+          "year": "109",
+          "session": 1,
+          "no": 17
+        },
+        {
+          "year": "111",
+          "session": 3,
+          "no": 5
+        }
+      ]
+    },
+    {
+      "id": "b-03-114",
+      "category": "professional",
+      "subject": "工作項目03 專業課程",
+      "type": "single",
+      "stem": "穿戴防護衣或裝備，以防止環境危害所造成之傷害，在危害消除與控制型態屬下列何者？",
+      "options": {
+        "1": "抑制",
+        "2": "稀釋",
+        "3": "隔離",
+        "4": "連續"
+      },
+      "answer": [
+        "3"
+      ],
+      "appearances": [
+        {
+          "year": "108",
+          "session": 3,
+          "no": 7
+        },
+        {
+          "year": "110",
+          "session": 1,
+          "no": 16
+        },
+        {
+          "year": "113",
+          "session": 2,
+          "no": 15
+        }
+      ]
+    },
+    {
+      "id": "b-03-115",
+      "category": "professional",
+      "subject": "工作項目03 專業課程",
+      "type": "single",
+      "stem": "機械在轉動、銳邊及帶電部分加以防護，屬於下列何種防護方法？",
+      "options": {
+        "1": "隔離",
+        "2": "閉鎖",
+        "3": "連鎖",
+        "4": "對應"
+      },
+      "answer": [
+        "1"
+      ],
+      "appearances": [
+        {
+          "year": "111",
+          "session": 1,
+          "no": 58
+        },
+        {
+          "year": "115",
+          "session": 2,
+          "no": 13
+        }
+      ]
+    },
+    {
+      "id": "b-03-116",
+      "category": "professional",
+      "subject": "工作項目03 專業課程",
+      "type": "single",
+      "stem": "經由反射或吸收能量以減少損害，使殘留量減至危害量以下之方法為何？",
+      "options": {
+        "1": "抑制",
+        "2": "變流裝置",
+        "3": "弱連結",
+        "4": "安全距離"
+      },
+      "answer": [
+        "2"
+      ],
+      "appearances": [
+        {
+          "year": "115",
+          "session": 1,
+          "no": 49
+        },
+        {
+          "year": "115",
+          "session": 2,
+          "no": 1
+        }
+      ]
+    },
+    {
+      "id": "b-03-117",
+      "category": "professional",
+      "subject": "工作項目03 專業課程",
+      "type": "single",
+      "stem": "在故障樹分析中，因系統邊界或分析範圍之限制，未繼續分析下去之事件，或不再深究人為失誤的原因，稱之為何種事件？",
+      "options": {
+        "1": "中間事件",
+        "2": "基本事件",
+        "3": "未發展事件",
+        "4": "頂端事件"
+      },
+      "answer": [
+        "3"
+      ],
+      "appearances": [
+        {
+          "year": "111",
+          "session": 3,
+          "no": 34
+        },
+        {
+          "year": "113",
+          "session": 1,
+          "no": 37
+        },
+        {
+          "year": "114",
+          "session": 1,
+          "no": 6
+        }
+      ]
+    },
+    {
+      "id": "b-03-118",
+      "category": "professional",
+      "subject": "工作項目03 專業課程",
+      "type": "single",
+      "stem": "在故障樹分析中，二個或二個以上原因同時發生，才會導致某一中間事件或頂端事件發生時，需使用何種邏輯閘？",
+      "options": {
+        "1": "或",
+        "2": "且",
+        "3": "抑制",
+        "4": "逆向"
+      },
+      "answer": [
+        "2"
+      ],
+      "appearances": [
+        {
+          "year": "111",
+          "session": 3,
+          "no": 1
+        },
+        {
+          "year": "112",
+          "session": 3,
+          "no": 6
+        }
+      ]
+    },
+    {
+      "id": "b-03-119",
+      "category": "professional",
+      "subject": "工作項目03 專業課程",
+      "type": "single",
+      "stem": "Dow火災爆炸指數是由下列何種方式決定？",
+      "options": {
+        "1": "單元危險因子與物質因子乘積",
+        "2": "單元危險因子與單元危險因子乘積",
+        "3": "損壞因子與物質因子乘積",
+        "4": "單元危險因子與損壞因子乘積"
+      },
+      "answer": [
+        "1"
+      ],
+      "appearances": [
+        {
+          "year": "109",
+          "session": 1,
+          "no": 51
+        },
+        {
+          "year": "112",
+          "session": 3,
+          "no": 19
+        },
+        {
+          "year": "114",
+          "session": 2,
+          "no": 32
+        }
+      ]
+    },
+    {
+      "id": "b-03-120",
+      "category": "professional",
+      "subject": "工作項目03 專業課程",
+      "type": "single",
+      "stem": "下列何者屬於系統安全危害辨識的定量方法？",
+      "options": {
+        "1": "檢核表（checklist）",
+        "2": "初步危害分析（PHA）",
+        "3": "事件樹分析（ETA）",
+        "4": "危害與可操作性分析（HAZOP）"
+      },
+      "answer": [
+        "3"
+      ],
+      "appearances": [
+        {
+          "year": "108",
+          "session": 3,
+          "no": 51
+        },
+        {
+          "year": "112",
+          "session": 1,
+          "no": 47
+        }
+      ]
+    },
+    {
+      "id": "b-03-121",
+      "category": "professional",
+      "subject": "工作項目03 專業課程",
+      "type": "single",
+      "stem": "初步危害分析在下列何階段開始施行較好？",
+      "options": {
+        "1": "生產階段",
+        "2": "試車階段",
+        "3": "設計階段",
+        "4": "建廠階段"
+      },
+      "answer": [
+        "3"
+      ],
+      "appearances": [
+        {
+          "year": "107",
+          "session": 2,
+          "no": 57
+        },
+        {
+          "year": "111",
+          "session": 1,
+          "no": 14
+        },
+        {
+          "year": "113",
+          "session": 2,
+          "no": 47
+        },
+        {
+          "year": "114",
+          "session": "2颱風延期考區",
+          "no": 55
+        }
+      ]
+    },
+    {
+      "id": "b-03-122",
+      "category": "professional",
+      "subject": "工作項目03 專業課程",
+      "type": "single",
+      "stem": "下列何者不是採用檢核表分析的限制？",
+      "options": {
+        "1": "在設備設計階段較難運用此表",
+        "2": "無法進行事故模擬與事故頻率分析",
+        "3": "品質受限於撰寫人經驗與專業知識",
+        "4": "分析方法複雜"
+      },
+      "answer": [
+        "4"
+      ],
+      "appearances": [
+        {
+          "year": "108",
+          "session": 3,
+          "no": 57
+        },
+        {
+          "year": "112",
+          "session": 3,
+          "no": 18
+        },
+        {
+          "year": "114",
+          "session": 2,
+          "no": 13
+        }
+      ]
+    },
+    {
+      "id": "b-03-123",
+      "category": "professional",
+      "subject": "工作項目03 專業課程",
+      "type": "single",
+      "stem": "下列何者不是設計一份適用的檢核表，所需要的要項？",
+      "options": {
+        "1": "瞭解操作程序及實際操作情形",
+        "2": "有經驗的製程、設備及安全工程師",
+        "3": "設計一份所有製程、不同操作皆可使用的檢核表",
+        "4": "找出相關政府法規、公司安全規範及產業共同標準"
+      },
+      "answer": [
+        "3"
+      ],
+      "appearances": [
+        {
+          "year": "109",
+          "session": 1,
+          "no": 49
+        },
+        {
+          "year": "112",
+          "session": 2,
+          "no": 56
+        },
+        {
+          "year": "112",
+          "session": 3,
+          "no": 55
+        },
+        {
+          "year": "114",
+          "session": 1,
+          "no": 58
+        },
+        {
+          "year": "114",
+          "session": 3,
+          "no": 10
+        },
+        {
+          "year": "115",
+          "session": 2,
+          "no": 57
+        }
+      ]
+    },
+    {
+      "id": "b-03-124",
+      "category": "professional",
+      "subject": "工作項目03 專業課程",
+      "type": "single",
+      "stem": "下列何種方法係指一種由上而下的方析方式，回溯發展模式，演繹或推論後果至其原因將各種不欲發生之故障情況？",
+      "options": {
+        "1": "共同原因分析法",
+        "2": "原因後果分析法",
+        "3": "失誤樹分析法",
+        "4": "初步危害分析法"
+      },
+      "answer": [
+        "3"
+      ],
+      "appearances": [
+        {
+          "year": "107",
+          "session": 3,
+          "no": 28
+        },
+        {
+          "year": "108",
+          "session": 1,
+          "no": 60
+        },
+        {
+          "year": "110",
+          "session": 2,
+          "no": 53
+        }
+      ]
+    },
+    {
+      "id": "b-03-125",
+      "category": "professional",
+      "subject": "工作項目03 專業課程",
+      "type": "single",
+      "stem": "故障樹分析中邏輯演繹的末端事件，通常是設備或元件故障，或人為失誤，該末端事件表示的符號為下列何者？",
+      "options": {
+        "1": "□",
+        "2": "○",
+        "3": "◇",
+        "4": "△"
+      },
+      "answer": [
+        "2"
+      ],
+      "appearances": []
+    },
+    {
+      "id": "b-03-126",
+      "category": "professional",
+      "subject": "工作項目03 專業課程",
+      "type": "single",
+      "stem": "故障樹分析的程序包括四個步驟，（a）定性分析（b）尋找基本事件失誤率（c）定量分析（d）相對重要性分析，則其正確順序為下列何者？",
+      "options": {
+        "1": "a→b→c→d",
+        "2": "b→c→a→d",
+        "3": "d→a→b→c",
+        "4": "c→a→b→d"
+      },
+      "answer": [
+        "1"
+      ],
+      "appearances": [
+        {
+          "year": "110",
+          "session": 2,
+          "no": 15
+        },
+        {
+          "year": "111",
+          "session": 3,
+          "no": 16
+        },
+        {
+          "year": "112",
+          "session": 2,
+          "no": 11
+        },
+        {
+          "year": "114",
+          "session": 2,
+          "no": 22
+        }
+      ]
+    },
+    {
+      "id": "b-03-127",
+      "category": "professional",
+      "subject": "工作項目03 專業課程",
+      "type": "single",
+      "stem": "在設計階段或規劃初期階段，最適合使用何種系統分析方法？",
+      "options": {
+        "1": "故障樹分析",
+        "2": "查核表",
+        "3": "初步危害分析",
+        "4": "危害與可操作性分析"
+      },
+      "answer": [
+        "3"
+      ],
+      "appearances": []
+    },
+    {
+      "id": "b-03-128",
+      "category": "professional",
+      "subject": "工作項目03 專業課程",
+      "type": "single",
+      "stem": "大型化工廠之安全分析最宜採何種定量分析模式？",
+      "options": {
+        "1": "如果-結果分析",
+        "2": "故障樹分析",
+        "3": "檢核表",
+        "4": "初步危害分析"
+      },
+      "answer": [
+        "2"
+      ],
+      "appearances": [
+        {
+          "year": "111",
+          "session": 1,
+          "no": 39
+        },
+        {
+          "year": "113",
+          "session": 1,
+          "no": 19
+        },
+        {
+          "year": "114",
+          "session": 1,
+          "no": 38
+        }
+      ]
+    },
+    {
+      "id": "b-03-129",
+      "category": "professional",
+      "subject": "工作項目03 專業課程",
+      "type": "single",
+      "stem": "藉由具經驗之專業人員，針對作業場所之危害特性訂定表格式之檢點項目，屬於下列何種方法？",
+      "options": {
+        "1": "檢核表",
+        "2": "如果－結果分析",
+        "3": "危害與可操作分析",
+        "4": "失誤模式與影響分析"
+      },
+      "answer": [
+        "1"
+      ],
+      "appearances": [
+        {
+          "year": "113",
+          "session": 3,
+          "no": 20
+        },
+        {
+          "year": "114",
+          "session": 2,
+          "no": 15
+        }
+      ]
+    },
+    {
+      "id": "b-03-130",
+      "category": "professional",
+      "subject": "工作項目03 專業課程",
+      "type": "single",
+      "stem": "針對工作場所或系統內之設備失誤，以表格化方式，找出各種失效模式及可能造成影響之評估法屬於下列何者？",
+      "options": {
+        "1": "如果－結果分析",
+        "2": "危害及可操作性分析",
+        "3": "失誤模式及影響分析",
+        "4": "故障樹分析"
+      },
+      "answer": [
+        "3"
+      ],
+      "appearances": [
+        {
+          "year": "107",
+          "session": 1,
+          "no": 38
+        },
+        {
+          "year": "114",
+          "session": 1,
+          "no": 16
+        },
+        {
+          "year": "114",
+          "session": 2,
+          "no": 36
+        }
+      ]
+    },
+    {
+      "id": "b-03-131",
+      "category": "professional",
+      "subject": "工作項目03 專業課程",
+      "type": "single",
+      "stem": "針對工作場所內可能造成之各種重大災害，以演繹法推導出造成失誤之各個因子之方法，屬於下列何者？",
+      "options": {
+        "1": "檢核表（checklist）",
+        "2": "如果－結果分析（what-if）",
+        "3": "危害與可操作分析",
+        "4": "故障樹分析"
+      },
+      "answer": [
+        "4"
+      ],
+      "appearances": [
+        {
+          "year": "108",
+          "session": 3,
+          "no": 18
+        },
+        {
+          "year": "110",
+          "session": 3,
+          "no": 39
+        },
+        {
+          "year": "113",
+          "session": 3,
+          "no": 18
+        }
+      ]
+    },
+    {
+      "id": "b-03-132",
+      "category": "professional",
+      "subject": "工作項目03 專業課程",
+      "type": "single",
+      "stem": "檢核表為用來檢查危害的一種分析工具，其中一種檢核表已將要檢查的項目完全列出，使用者只要逐項檢核是否符合標準即可，此種為下列何種檢核表？",
+      "options": {
+        "1": "開放式",
+        "2": "封閉式",
+        "3": "混合式",
+        "4": "半混合式"
+      },
+      "answer": [
+        "2"
+      ],
+      "appearances": [
+        {
+          "year": "113",
+          "session": 3,
+          "no": 50
+        }
+      ]
+    },
+    {
+      "id": "b-03-133",
+      "category": "professional",
+      "subject": "工作項目03 專業課程",
+      "type": "single",
+      "stem": "檢核表之使用敘述，下列何者錯誤？",
+      "options": {
+        "1": "用來做為操作訓練之依據",
+        "2": "適合用來做為事故調查之唯一方法",
+        "3": "有效率達到各個操作階段評估的目的",
+        "4": "使用快速容易、成本較低"
+      },
+      "answer": [
+        "2"
+      ],
+      "appearances": []
+    },
+    {
+      "id": "b-03-134",
+      "category": "professional",
+      "subject": "工作項目03 專業課程",
+      "type": "single",
+      "stem": "下列何種項目不是初步危害分析之應用對象？",
+      "options": {
+        "1": "設計規劃期間的系統",
+        "2": "既有系統需評估出重大潛在危害之次系統",
+        "3": "對大系統中之次系統進行簡易之風險排序",
+        "4": "人為故意錯誤之事先預防分析"
+      },
+      "answer": [
+        "4"
+      ],
+      "appearances": [
+        {
+          "year": "111",
+          "session": 3,
+          "no": 40
+        }
+      ]
+    },
+    {
+      "id": "b-03-135",
+      "category": "professional",
+      "subject": "工作項目03 專業課程",
+      "type": "single",
+      "stem": "下列何項是從事損失控制工作的第一步工作？",
+      "options": {
+        "1": "事故的損失之減少",
+        "2": "事故原因的控制",
+        "3": "事故原因的鑑定",
+        "4": "教育訓練"
+      },
+      "answer": [
+        "3"
+      ],
+      "appearances": [
+        {
+          "year": "110",
+          "session": 2,
+          "no": 52
+        },
+        {
+          "year": "112",
+          "session": 1,
+          "no": 20
+        }
+      ]
+    },
+    {
+      "id": "b-03-136",
+      "category": "professional",
+      "subject": "工作項目03 專業課程",
+      "type": "single",
+      "stem": "損失控制實務中，鑑定事故的基本原因是要找出下列何者？",
+      "options": {
+        "1": "危險的情況",
+        "2": "不安全的方法",
+        "3": "管理上的錯誤、疏漏",
+        "4": "不安全的動作"
+      },
+      "answer": [
+        "3"
+      ],
+      "appearances": [
+        {
+          "year": "109",
+          "session": 3,
+          "no": 51
+        },
+        {
+          "year": "112",
+          "session": 3,
+          "no": 27
+        },
+        {
+          "year": "113",
+          "session": 1,
+          "no": 54
+        }
+      ]
+    },
+    {
+      "id": "b-03-137",
+      "category": "professional",
+      "subject": "工作項目03 專業課程",
+      "type": "single",
+      "stem": "損失控制五大功能中，何者為首要功能？",
+      "options": {
+        "1": "標準",
+        "2": "量度",
+        "3": "鑑定",
+        "4": "評估"
+      },
+      "answer": [
+        "3"
+      ],
+      "appearances": [
+        {
+          "year": "111",
+          "session": 1,
+          "no": 43
+        }
+      ]
+    },
+    {
+      "id": "b-03-138",
+      "category": "professional",
+      "subject": "工作項目03 專業課程",
+      "type": "single",
+      "stem": "總合傷害指數之計算公式為何？",
+      "options": {
+        "1": "傷害損失天數×106／員工全部工時",
+        "2": "失能傷害次數×106／員工全部工時",
+        "3": "（失能傷害頻率×失能傷害嚴重率）／1,000之值的平方根",
+        "4": "失能傷害次數×106／（312×員工全部工時）"
+      },
+      "answer": [
+        "3"
+      ],
+      "appearances": [
+        {
+          "year": "115",
+          "session": 2,
+          "no": 18
+        }
+      ]
+    },
+    {
+      "id": "b-03-139",
+      "category": "professional",
+      "subject": "工作項目03 專業課程",
+      "type": "single",
+      "stem": "下列何者不是八大損失控制管理工具之一？",
+      "options": {
+        "1": "實施健康檢查",
+        "2": "安全檢查",
+        "3": "事故調查",
+        "4": "工作安全分析"
+      },
+      "answer": [
+        "1"
+      ],
+      "appearances": [
+        {
+          "year": "110",
+          "session": 2,
+          "no": 45
+        },
+        {
+          "year": "114",
+          "session": 2,
+          "no": 52
+        }
+      ]
+    },
+    {
+      "id": "b-03-140",
+      "category": "professional",
+      "subject": "工作項目03 專業課程",
+      "type": "single",
+      "stem": "風險控制執行策略中，下列何者屬於工程控制？",
+      "options": {
+        "1": "修改操作方法",
+        "2": "修改操作條件",
+        "3": "修改製程設計",
+        "4": "修改操作步驟"
+      },
+      "answer": [
+        "3"
+      ],
+      "appearances": [
+        {
+          "year": "109",
+          "session": 3,
+          "no": 48
+        },
+        {
+          "year": "111",
+          "session": 2,
+          "no": 51
+        },
+        {
+          "year": "114",
+          "session": 3,
+          "no": 34
+        }
+      ]
+    },
+    {
+      "id": "b-03-141",
+      "category": "professional",
+      "subject": "工作項目03 專業課程",
+      "type": "single",
+      "stem": "下列何者是職業安全衛生管理系統之主動式評鑑資料？",
+      "options": {
+        "1": "虛驚事故",
+        "2": "附近居民抗議",
+        "3": "安全衛生稽核",
+        "4": "主管機關的糾正"
+      },
+      "answer": [
+        "3"
+      ],
+      "appearances": [
+        {
+          "year": "108",
+          "session": 3,
+          "no": 46
+        },
+        {
+          "year": "109",
+          "session": 2,
+          "no": 2
+        }
+      ]
+    },
+    {
+      "id": "b-03-142",
+      "category": "professional",
+      "subject": "工作項目03 專業課程",
+      "type": "single",
+      "stem": "風險評估的四大實施步驟，（a）風險判定（b）危害評估（c）危害辨識（d）擬定風險控制計畫，其實施步驟依序為下列何者？",
+      "options": {
+        "1": "a→b→c→d",
+        "2": "b→c→d→a",
+        "3": "c→b→a→d",
+        "4": "d→a→b→c"
+      },
+      "answer": [
+        "3"
+      ],
+      "appearances": [
+        {
+          "year": "107",
+          "session": 1,
+          "no": 8
+        },
+        {
+          "year": "109",
+          "session": 2,
+          "no": 42
+        },
+        {
+          "year": "110",
+          "session": 2,
+          "no": 1
+        },
+        {
+          "year": "110",
+          "session": 3,
+          "no": 14
+        },
+        {
+          "year": "113",
+          "session": 3,
+          "no": 9
+        },
+        {
+          "year": "114",
+          "session": 3,
+          "no": 29
+        }
+      ]
+    },
+    {
+      "id": "b-03-143",
+      "category": "professional",
+      "subject": "工作項目03 專業課程",
+      "type": "single",
+      "stem": "過錳酸鉀與濃硫酸混合時可能產生下列何者？",
+      "options": {
+        "1": "混合著火",
+        "2": "生成不安定鉀鹽",
+        "3": "爆炸",
+        "4": "生成有機過氧化物"
+      },
+      "answer": [
+        "3"
+      ],
+      "appearances": [
+        {
+          "year": "108",
+          "session": 3,
+          "no": 6
+        }
+      ]
+    },
+    {
+      "id": "b-03-144",
+      "category": "professional",
+      "subject": "工作項目03 專業課程",
+      "type": "single",
+      "stem": "下列何者之傳播速度比聲速稍低？",
+      "options": {
+        "1": "火災",
+        "2": "爆炸",
+        "3": "爆燃",
+        "4": "爆轟"
+      },
+      "answer": [
+        "3"
+      ],
+      "appearances": [
+        {
+          "year": "107",
+          "session": 2,
+          "no": 19
+        }
+      ]
+    },
+    {
+      "id": "b-03-145",
+      "category": "professional",
+      "subject": "工作項目03 專業課程",
+      "type": "single",
+      "stem": "在相同爆炸下限，爆炸範圍愈大之可燃性氣體或蒸氣，其爆炸危險性為何？",
+      "options": {
+        "1": "愈低",
+        "2": "愈高",
+        "3": "相同",
+        "4": "無相關性"
+      },
+      "answer": [
+        "2"
+      ],
+      "appearances": [
+        {
+          "year": "112",
+          "session": 1,
+          "no": 32
+        }
+      ]
+    },
+    {
+      "id": "b-03-146",
+      "category": "professional",
+      "subject": "工作項目03 專業課程",
+      "type": "single",
+      "stem": "粉塵爆炸是屬於何種化學反應？",
+      "options": {
+        "1": "氣相",
+        "2": "固相",
+        "3": "氣相與液相",
+        "4": "氣相與固相"
+      },
+      "answer": [
+        "4"
+      ],
+      "appearances": [
+        {
+          "year": "107",
+          "session": 3,
+          "no": 34
+        },
+        {
+          "year": "109",
+          "session": 1,
+          "no": 7
+        },
+        {
+          "year": "109",
+          "session": 2,
+          "no": 39
+        },
+        {
+          "year": "110",
+          "session": 1,
+          "no": 46
+        },
+        {
+          "year": "111",
+          "session": 3,
+          "no": 6
+        },
+        {
+          "year": "115",
+          "session": 2,
+          "no": 33
+        }
+      ]
+    },
+    {
+      "id": "b-03-147",
+      "category": "professional",
+      "subject": "工作項目03 專業課程",
+      "type": "single",
+      "stem": "金屬鋰、鈉、鉀引起火災屬於下列何類火災？",
+      "options": {
+        "1": "A類",
+        "2": "B類",
+        "3": "C類",
+        "4": "D類"
+      },
+      "answer": [
+        "4"
+      ],
+      "appearances": [
+        {
+          "year": "110",
+          "session": 1,
+          "no": 17
+        },
+        {
+          "year": "111",
+          "session": 1,
+          "no": 11
+        },
+        {
+          "year": "113",
+          "session": 3,
+          "no": 58
+        }
+      ]
+    },
+    {
+      "id": "b-03-148",
+      "category": "professional",
+      "subject": "工作項目03 專業課程",
+      "type": "single",
+      "stem": "下列何者不適合用於撲滅電氣火災？",
+      "options": {
+        "1": "二氧化碳",
+        "2": "BC乾粉",
+        "3": "ABC乾粉",
+        "4": "水"
+      },
+      "answer": [
+        "4"
+      ],
+      "appearances": [
+        {
+          "year": "114",
+          "session": 2,
+          "no": 25
+        }
+      ]
+    },
+    {
+      "id": "b-03-149",
+      "category": "professional",
+      "subject": "工作項目03 專業課程",
+      "type": "single",
+      "stem": "若將可燃性混合氣體與著火源完全隔離狀態下予以加熱時，當達到某一溫度，就會著火燃燒，此時之溫度，稱為該物質之下列何者？",
+      "options": {
+        "1": "引火點",
+        "2": "著火點",
+        "3": "閃火點",
+        "4": "沸點"
+      },
+      "answer": [
+        "2"
+      ],
+      "appearances": [
+        {
+          "year": "108",
+          "session": 2,
+          "no": 13
+        },
+        {
+          "year": "108",
+          "session": 3,
+          "no": 5
+        },
+        {
+          "year": "111",
+          "session": 3,
+          "no": 30
+        }
+      ]
+    },
+    {
+      "id": "b-03-150",
+      "category": "professional",
+      "subject": "工作項目03 專業課程",
+      "type": "single",
+      "stem": "可燃性液體的蒸氣壓不受下列何者影響？",
+      "options": {
+        "1": "溫度",
+        "2": "壓力",
+        "3": "添加物",
+        "4": "開口容器的形狀"
+      },
+      "answer": [
+        "4"
+      ],
+      "appearances": [
+        {
+          "year": "107",
+          "session": 1,
+          "no": 3
+        },
+        {
+          "year": "109",
+          "session": 2,
+          "no": 37
+        },
+        {
+          "year": "111",
+          "session": 2,
+          "no": 28
+        },
+        {
+          "year": "114",
+          "session": 3,
+          "no": 35
+        },
+        {
+          "year": "115",
+          "session": 2,
+          "no": 28
+        }
+      ]
+    },
+    {
+      "id": "b-03-151",
+      "category": "professional",
+      "subject": "工作項目03 專業課程",
+      "type": "single",
+      "stem": "在燃燒界限範圍內，可燃性氣體蒸氣與空氣的混合濃度在靠近燃燒界限值附近時，反應速度為何？",
+      "options": {
+        "1": "最大",
+        "2": "最小",
+        "3": "不變",
+        "4": "先變大後減小"
+      },
+      "answer": [
+        "2"
+      ],
+      "appearances": [
+        {
+          "year": "111",
+          "session": 1,
+          "no": 6
+        },
+        {
+          "year": "111",
+          "session": 3,
+          "no": 28
+        },
+        {
+          "year": "112",
+          "session": 1,
+          "no": 30
+        },
+        {
+          "year": "113",
+          "session": 1,
+          "no": 55
+        }
+      ]
+    },
+    {
+      "id": "b-03-152",
+      "category": "professional",
+      "subject": "工作項目03 專業課程",
+      "type": "single",
+      "stem": "火焰的傳播速度在亂流時比在層流時為何？",
+      "options": {
+        "1": "快",
+        "2": "慢",
+        "3": "相同",
+        "4": "不一定"
+      },
+      "answer": [
+        "1"
+      ],
+      "appearances": [
+        {
+          "year": "108",
+          "session": 2,
+          "no": 50
+        },
+        {
+          "year": "110",
+          "session": 1,
+          "no": 51
+        }
+      ]
+    },
+    {
+      "id": "b-03-153",
+      "category": "professional",
+      "subject": "工作項目03 專業課程",
+      "type": "single",
+      "stem": "在火災學上，為了滅火之便，將火災分為A、B、C、D（或甲、乙、丙、丁）四類；下列何者為B類火災？",
+      "options": {
+        "1": "油類火災",
+        "2": "普通火災",
+        "3": "金屬火災",
+        "4": "電氣火災"
+      },
+      "answer": [
+        "1"
+      ],
+      "appearances": [
+        {
+          "year": "115",
+          "session": 1,
+          "no": 10
+        }
+      ]
+    },
+    {
+      "id": "b-03-154",
+      "category": "professional",
+      "subject": "工作項目03 專業課程",
+      "type": "single",
+      "stem": "下列何者為物理性爆炸？",
+      "options": {
+        "1": "失控反應爆炸",
+        "2": "粉塵爆炸",
+        "3": "水蒸汽爆炸",
+        "4": "核子反應"
+      },
+      "answer": [
+        "3"
+      ],
+      "appearances": [
+        {
+          "year": "108",
+          "session": 3,
+          "no": 37
+        },
+        {
+          "year": "110",
+          "session": 3,
+          "no": 26
+        },
+        {
+          "year": "113",
+          "session": 2,
+          "no": 22
+        }
+      ]
+    },
+    {
+      "id": "b-03-155",
+      "category": "professional",
+      "subject": "工作項目03 專業課程",
+      "type": "single",
+      "stem": "空氣中之可燃性氣體濃度較理論混合比為高時，將產生不完全燃燒，而生成CO等氣體，此時其燃燒速度將為何？",
+      "options": {
+        "1": "變慢",
+        "2": "變快",
+        "3": "不變",
+        "4": "無關"
+      },
+      "answer": [
+        "1"
+      ],
+      "appearances": [
+        {
+          "year": "113",
+          "session": 1,
+          "no": 11
+        },
+        {
+          "year": "113",
+          "session": 3,
+          "no": 31
+        }
+      ]
+    },
+    {
+      "id": "b-03-156",
+      "category": "professional",
+      "subject": "工作項目03 專業課程",
+      "type": "single",
+      "stem": "下列何者非為粉塵雲之點火源？",
+      "options": {
+        "1": "明火",
+        "2": "熱表面",
+        "3": "火花",
+        "4": "輻射熱"
+      },
+      "answer": [
+        "4"
+      ],
+      "appearances": [
+        {
+          "year": "109",
+          "session": 2,
+          "no": 10
+        },
+        {
+          "year": "111",
+          "session": 1,
+          "no": 34
+        },
+        {
+          "year": "112",
+          "session": 3,
+          "no": 12
+        },
+        {
+          "year": "114",
+          "session": "2颱風延期考區",
+          "no": 13
+        }
+      ]
+    },
+    {
+      "id": "b-03-157",
+      "category": "professional",
+      "subject": "工作項目03 專業課程",
+      "type": "single",
+      "stem": "下列何者非為爆炸抑制系統之單元？",
+      "options": {
+        "1": "警報器",
+        "2": "安全閥",
+        "3": "控制系統",
+        "4": "滅火劑"
+      },
+      "answer": [
+        "1"
+      ],
+      "appearances": [
+        {
+          "year": "107",
+          "session": 2,
+          "no": 37
+        },
+        {
+          "year": "111",
+          "session": 3,
+          "no": 58
+        },
+        {
+          "year": "113",
+          "session": 1,
+          "no": 24
+        }
+      ]
+    },
+    {
+      "id": "b-03-158",
+      "category": "professional",
+      "subject": "工作項目03 專業課程",
+      "type": "single",
+      "stem": "下列何者非為化學失控反應之原因？",
+      "options": {
+        "1": "微量不純物之濃縮",
+        "2": "溫度過低",
+        "3": "原料比例錯誤",
+        "4": "混合發熱"
+      },
+      "answer": [
+        "2"
+      ],
+      "appearances": [
+        {
+          "year": "110",
+          "session": 1,
+          "no": 54
+        },
+        {
+          "year": "111",
+          "session": 2,
+          "no": 44
+        },
+        {
+          "year": "112",
+          "session": 3,
+          "no": 22
+        },
+        {
+          "year": "115",
+          "session": 1,
+          "no": 55
+        }
+      ]
+    },
+    {
+      "id": "b-03-159",
+      "category": "professional",
+      "subject": "工作項目03 專業課程",
+      "type": "single",
+      "stem": "以乾粉滅火器進行滅火，係屬於下列何種控制方法？",
+      "options": {
+        "1": "安全距離",
+        "2": "壓力釋放口",
+        "3": "冷卻",
+        "4": "隔離"
+      },
+      "answer": [
+        "4"
+      ],
+      "appearances": [
+        {
+          "year": "107",
+          "session": 3,
+          "no": 11
+        },
+        {
+          "year": "113",
+          "session": 1,
+          "no": 45
+        },
+        {
+          "year": "113",
+          "session": 3,
+          "no": 41
+        }
+      ]
+    },
+    {
+      "id": "b-03-160",
+      "category": "professional",
+      "subject": "工作項目03 專業課程",
+      "type": "single",
+      "stem": "下列何種因素非為選取風險管理稽核頻率之要素？",
+      "options": {
+        "1": "法令需求",
+        "2": "稽核成本",
+        "3": "危害特性",
+        "4": "低度風險製程經驗"
+      },
+      "answer": [
+        "2"
+      ],
+      "appearances": [
+        {
+          "year": "109",
+          "session": 2,
+          "no": 20
+        },
+        {
+          "year": "111",
+          "session": 3,
+          "no": 29
+        }
+      ]
+    },
+    {
+      "id": "b-03-161",
+      "category": "professional",
+      "subject": "工作項目03 專業課程",
+      "type": "single",
+      "stem": "下列何者屬神經方面的傷害？",
+      "options": {
+        "1": "肌腱炎",
+        "2": "腱鞘炎",
+        "3": "扳機指",
+        "4": "腕道症候群"
+      },
+      "answer": [
+        "4"
+      ],
+      "appearances": [
+        {
+          "year": "115",
+          "session": 1,
+          "no": 40
+        }
+      ]
+    },
+    {
+      "id": "b-03-162",
+      "category": "professional",
+      "subject": "工作項目03 專業課程",
+      "type": "single",
+      "stem": "下列何者不屬於重複性肌肉骨骼傷害預防之行政管理作為？",
+      "options": {
+        "1": "員工篩選",
+        "2": "人員訓練",
+        "3": "工程改善",
+        "4": "工作輪換"
+      },
+      "answer": [
+        "3"
+      ],
+      "appearances": [
+        {
+          "year": "114",
+          "session": "2颱風延期考區",
+          "no": 10
+        }
+      ]
+    },
+    {
+      "id": "b-03-163",
+      "category": "professional",
+      "subject": "工作項目03 專業課程",
+      "type": "single",
+      "stem": "解決重複性肌肉骨骼傷病依下列何種順序為之？",
+      "options": {
+        "1": "評估→認知→改善",
+        "2": "評估→改善→認知",
+        "3": "認知→評估→改善",
+        "4": "改善→認知→評估"
+      },
+      "answer": [
+        "3"
+      ],
+      "appearances": [
+        {
+          "year": "109",
+          "session": 1,
+          "no": 11
+        },
+        {
+          "year": "114",
+          "session": "2颱風延期考區",
+          "no": 36
+        }
+      ]
+    },
+    {
+      "id": "b-03-164",
+      "category": "professional",
+      "subject": "工作項目03 專業課程",
+      "type": "single",
+      "stem": "下列何者是主動監測之項目？",
+      "options": {
+        "1": "意外傷害報告",
+        "2": "請假紀錄",
+        "3": "現場訪查",
+        "4": "勞保給付資料"
+      },
+      "answer": [
+        "3"
+      ],
+      "appearances": [
+        {
+          "year": "107",
+          "session": 1,
+          "no": 52
+        }
+      ]
+    },
+    {
+      "id": "b-03-165",
+      "category": "professional",
+      "subject": "工作項目03 專業課程",
+      "type": "single",
+      "stem": "依用戶用電設備裝置規則規定，高速型之漏電斷路器，在額定動作電流下，其動作時間需在多少秒以內？",
+      "options": {
+        "1": "0.1",
+        "2": "0.5",
+        "3": "1.0",
+        "4": "2.0"
+      },
+      "answer": [
+        "1"
+      ],
+      "appearances": [
+        {
+          "year": "113",
+          "session": 3,
+          "no": 42
+        },
+        {
+          "year": "114",
+          "session": 3,
+          "no": 27
+        }
+      ]
+    },
+    {
+      "id": "b-03-166",
+      "category": "professional",
+      "subject": "工作項目03 專業課程",
+      "type": "single",
+      "stem": "人類行為複雜多變，其信賴遠不如機械，故防止職業傷害，應優先選擇下列何者？",
+      "options": {
+        "1": "本質安全化",
+        "2": "作業自動化",
+        "3": "設備裝設防護具",
+        "4": "採用個人防護具"
+      },
+      "answer": [
+        "1"
+      ],
+      "appearances": [
+        {
+          "year": "109",
+          "session": 2,
+          "no": 34
+        }
+      ]
+    },
+    {
+      "id": "b-03-167",
+      "category": "professional",
+      "subject": "工作項目03 專業課程",
+      "type": "single",
+      "stem": "為確保安全績效，下列何種措施應優先採用？",
+      "options": {
+        "1": "安全教育訓練",
+        "2": "縮短工作時間",
+        "3": "提供使用個人防護具",
+        "4": "採用工程控制"
+      },
+      "answer": [
+        "4"
+      ],
+      "appearances": [
+        {
+          "year": "107",
+          "session": 2,
+          "no": 29
+        },
+        {
+          "year": "108",
+          "session": 2,
+          "no": 5
+        },
+        {
+          "year": "109",
+          "session": 1,
+          "no": 28
+        },
+        {
+          "year": "109",
+          "session": 3,
+          "no": 9
+        },
+        {
+          "year": "110",
+          "session": 1,
+          "no": 56
+        },
+        {
+          "year": "115",
+          "session": 1,
+          "no": 8
+        }
+      ]
+    },
+    {
+      "id": "b-03-168",
+      "category": "professional",
+      "subject": "工作項目03 專業課程",
+      "type": "single",
+      "stem": "因感電而跌倒致生傷害時，應歸類於下列何種職業災害類型？",
+      "options": {
+        "1": "感電",
+        "2": "跌倒",
+        "3": "墜落、滾落",
+        "4": "不當行為"
+      },
+      "answer": [
+        "1"
+      ],
+      "appearances": [
+        {
+          "year": "111",
+          "session": 2,
+          "no": 29
+        }
+      ]
+    },
+    {
+      "id": "b-03-169",
+      "category": "professional",
+      "subject": "工作項目03 專業課程",
+      "type": "single",
+      "stem": "因踏穿而墜落致傷害時，應歸類為下列何種職業災害類型？",
+      "options": {
+        "1": "踏穿",
+        "2": "墜落",
+        "3": "物體飛落",
+        "4": "衝撞"
+      },
+      "answer": [
+        "2"
+      ],
+      "appearances": [
+        {
+          "year": "110",
+          "session": 2,
+          "no": 8
+        },
+        {
+          "year": "111",
+          "session": 1,
+          "no": 21
+        },
+        {
+          "year": "112",
+          "session": 2,
+          "no": 8
+        }
+      ]
+    },
+    {
+      "id": "b-03-170",
+      "category": "professional",
+      "subject": "工作項目03 專業課程",
+      "type": "single",
+      "stem": "因沖床模具、鍛造機槌等造成之捲夾挫傷，屬於下列何種職業災害類型？",
+      "options": {
+        "1": "被夾、被捲",
+        "2": "被切、割、擦傷",
+        "3": "衝撞",
+        "4": "不當行為"
+      },
+      "answer": [
+        "1"
+      ],
+      "appearances": [
+        {
+          "year": "114",
+          "session": 1,
+          "no": 51
+        },
+        {
+          "year": "114",
+          "session": 3,
+          "no": 13
+        }
+      ]
+    },
+    {
+      "id": "b-03-171",
+      "category": "professional",
+      "subject": "工作項目03 專業課程",
+      "type": "single",
+      "stem": "危害評估之人員因素分析中，下列何者不屬於行為上因素？",
+      "options": {
+        "1": "抄捷徑",
+        "2": "喜歡冒險",
+        "3": "知識不足",
+        "4": "缺乏警覺"
+      },
+      "answer": [
+        "3"
+      ],
+      "appearances": [
+        {
+          "year": "107",
+          "session": 2,
+          "no": 8
+        },
+        {
+          "year": "107",
+          "session": 3,
+          "no": 12
+        },
+        {
+          "year": "114",
+          "session": 3,
+          "no": 3
+        }
+      ]
+    },
+    {
+      "id": "b-03-172",
+      "category": "professional",
+      "subject": "工作項目03 專業課程",
+      "type": "single",
+      "stem": "暫時全失能係指罹災者未死亡，亦未永久失能，但不能繼續其正常工作，損失工作時間達多久以上者？",
+      "options": {
+        "1": "1小時",
+        "2": "1日",
+        "3": "1星期",
+        "4": "1個月"
+      },
+      "answer": [
+        "2"
+      ],
+      "appearances": [
+        {
+          "year": "110",
+          "session": 3,
+          "no": 36
+        },
+        {
+          "year": "111",
+          "session": 3,
+          "no": 3
+        }
+      ]
+    },
+    {
+      "id": "b-03-173",
+      "category": "professional",
+      "subject": "工作項目03 專業課程",
+      "type": "single",
+      "stem": "危害評估之因素不包括下列何種因素？",
+      "options": {
+        "1": "人員",
+        "2": "環境",
+        "3": "管理",
+        "4": "利潤"
+      },
+      "answer": [
+        "4"
+      ],
+      "appearances": [
+        {
+          "year": "108",
+          "session": 2,
+          "no": 32
+        },
+        {
+          "year": "113",
+          "session": 1,
+          "no": 48
+        },
+        {
+          "year": "115",
+          "session": 1,
+          "no": 7
+        }
+      ]
+    },
+    {
+      "id": "b-03-174",
+      "category": "professional",
+      "subject": "工作項目03 專業課程",
+      "type": "single",
+      "stem": "職業災害按失能傷害分類方式為下列何種？",
+      "options": {
+        "1": "失能與非失能傷害兩種",
+        "2": "死亡、永久全失能、永久部分失能、暫時全失能四種",
+        "3": "過失與無過失兩種",
+        "4": "重傷害與輕傷害兩種"
+      },
+      "answer": [
+        "2"
+      ],
+      "appearances": [
+        {
+          "year": "112",
+          "session": 2,
+          "no": 41
+        },
+        {
+          "year": "113",
+          "session": 1,
+          "no": 4
+        },
+        {
+          "year": "114",
+          "session": 2,
+          "no": 60
+        }
+      ]
+    },
+    {
+      "id": "b-03-175",
+      "category": "professional",
+      "subject": "工作項目03 專業課程",
+      "type": "single",
+      "stem": "機器緊急停止觸控鈕之距離設計的原則，下列何者為佳？",
+      "options": {
+        "1": "可調設計",
+        "2": "極大設計",
+        "3": "極小設計",
+        "4": "平均設計"
+      },
+      "answer": [
+        "3"
+      ],
+      "appearances": [
+        {
+          "year": "107",
+          "session": 3,
+          "no": 37
+        },
+        {
+          "year": "109",
+          "session": 1,
+          "no": 45
+        },
+        {
+          "year": "113",
+          "session": 3,
+          "no": 27
+        },
+        {
+          "year": "114",
+          "session": "2颱風延期考區",
+          "no": 49
+        },
+        {
+          "year": "115",
+          "session": 1,
+          "no": 53
+        }
+      ]
+    },
+    {
+      "id": "b-03-176",
+      "category": "professional",
+      "subject": "工作項目03 專業課程",
+      "type": "single",
+      "stem": "重複性傷害預防有五大步驟：（a）工程改善（b）確定改善目標（c）行政管理（d）改善績效評估（e）尋找累積性傷害的潛在危險因子；其預防步驟依序為下列何者？",
+      "options": {
+        "1": "a→d→b→c→e",
+        "2": "b→e→a→c→d",
+        "3": "b→c→e→a→d",
+        "4": "e→b→c→a→d"
+      },
+      "answer": [
+        "2"
+      ],
+      "appearances": [
+        {
+          "year": "114",
+          "session": 2,
+          "no": 20
+        },
+        {
+          "year": "114",
+          "session": 3,
+          "no": 21
+        },
+        {
+          "year": "115",
+          "session": 2,
+          "no": 37
+        }
+      ]
+    },
+    {
+      "id": "b-03-177",
+      "category": "professional",
+      "subject": "工作項目03 專業課程",
+      "type": "single",
+      "stem": "身體某部位經年累月，且頻率很高的不斷執行某種動作，此種特性屬於下列何者？",
+      "options": {
+        "1": "重複性",
+        "2": "連續性",
+        "3": "漸進性",
+        "4": "累積性"
+      },
+      "answer": [
+        "1"
+      ],
+      "appearances": [
+        {
+          "year": "115",
+          "session": 2,
+          "no": 10
+        }
+      ]
+    },
+    {
+      "id": "b-03-178",
+      "category": "professional",
+      "subject": "工作項目03 專業課程",
+      "type": "single",
+      "stem": "危害預防與控制的目的在於使工作、工具及工作環境適合員工，下列何者不為避免「振動」危害因子所造成傷害的預防之道？",
+      "options": {
+        "1": "裝設緩衝阻尼",
+        "2": "使用防振設備",
+        "3": "座位與振動源分離",
+        "4": "使用非黏滯性包裝材料"
+      },
+      "answer": [
+        "4"
+      ],
+      "appearances": [
+        {
+          "year": "109",
+          "session": 2,
+          "no": 15
+        },
+        {
+          "year": "109",
+          "session": 3,
+          "no": 5
+        },
+        {
+          "year": "111",
+          "session": 3,
+          "no": 27
+        },
+        {
+          "year": "114",
+          "session": 1,
+          "no": 35
+        }
+      ]
+    },
+    {
+      "id": "b-03-179",
+      "category": "professional",
+      "subject": "工作項目03 專業課程",
+      "type": "single",
+      "stem": "從人因之角度，下列何種工作空間設計，屬於較適合站姿作業？",
+      "options": {
+        "1": "所有零件、工具能就近取得之作業",
+        "2": "作業時雙手抬起不超過15公分",
+        "3": "處理物品重量大於4.5公斤",
+        "4": "以精密組裝或書寫為主的作業"
+      },
+      "answer": [
+        "3"
+      ],
+      "appearances": [
+        {
+          "year": "107",
+          "session": 2,
+          "no": 58
+        },
+        {
+          "year": "112",
+          "session": 2,
+          "no": 19
+        },
+        {
+          "year": "115",
+          "session": 1,
+          "no": 26
+        }
+      ]
+    },
+    {
+      "id": "b-03-180",
+      "category": "professional",
+      "subject": "工作項目03 專業課程",
+      "type": "single",
+      "stem": "電腦為現代作業場所不可或缺的工具，但長時間的使用電腦，易使工作者產生何種傷害？",
+      "options": {
+        "1": "腕隧道症候群",
+        "2": "腱鞘炎",
+        "3": "白指症",
+        "4": "網球肘"
+      },
+      "answer": [
+        "1"
+      ],
+      "appearances": [
+        {
+          "year": "111",
+          "session": 2,
+          "no": 53
+        },
+        {
+          "year": "112",
+          "session": 1,
+          "no": 51
+        },
+        {
+          "year": "112",
+          "session": 3,
+          "no": 34
+        }
+      ]
+    },
+    {
+      "id": "b-03-181",
+      "category": "professional",
+      "subject": "工作項目03 專業課程",
+      "type": "single",
+      "stem": "下列何者不是避免靜電危害之防護措施？",
+      "options": {
+        "1": "接地與等電位連結",
+        "2": "穿戴安全眼鏡與手套",
+        "3": "降低摩擦速率",
+        "4": "使用電荷中和器"
+      },
+      "answer": [
+        "2"
+      ],
+      "appearances": [
+        {
+          "year": "110",
+          "session": 2,
+          "no": 32
+        }
+      ]
+    },
+    {
+      "id": "b-03-182",
+      "category": "professional",
+      "subject": "工作項目03 專業課程",
+      "type": "single",
+      "stem": "請有工作安全評估經驗的專家，對工廠各方面進行一般性的檢查，其範圍很廣，而所需的時間較短，此種危害評估技術，屬於下列何者？",
+      "options": {
+        "1": "初步危害分析",
+        "2": "危害與可操作性分析",
+        "3": "故障樹分析",
+        "4": "影響分析"
+      },
+      "answer": [
+        "1"
+      ],
+      "appearances": [
+        {
+          "year": "109",
+          "session": 2,
+          "no": 52
+        },
+        {
+          "year": "110",
+          "session": 1,
+          "no": 35
+        },
+        {
+          "year": "110",
+          "session": 3,
+          "no": 4
+        },
+        {
+          "year": "112",
+          "session": 2,
+          "no": 44
+        },
+        {
+          "year": "113",
+          "session": 3,
+          "no": 59
+        }
+      ]
+    },
+    {
+      "id": "b-03-183",
+      "category": "professional",
+      "subject": "工作項目03 專業課程",
+      "type": "single",
+      "stem": "下列何項危害評估技術之目的在於對不同程度之潛在災變事故狀況，作定性和定量分析，藉以判斷各種災變事故對廠內工作人員、周圍居民和環境影響之程度？",
+      "options": {
+        "1": "初步危害分析",
+        "2": "危害與可操作性分析",
+        "3": "影響分析",
+        "4": "故障樹分析"
+      },
+      "answer": [
+        "2"
+      ],
+      "appearances": [
+        {
+          "year": "109",
+          "session": 1,
+          "no": 4
+        },
+        {
+          "year": "110",
+          "session": 3,
+          "no": 27
+        }
+      ]
+    },
+    {
+      "id": "b-03-184",
+      "category": "professional",
+      "subject": "工作項目03 專業課程",
+      "type": "single",
+      "stem": "考量電氣安全之要求，電線之負載電流應不超過用戶用電設備裝置規則所規定之額定電流容量，於單相2線之斷路器AT值（跳脫機構的電流額定）50A，則應選用之絞線導線安培容量下列何者正確？",
+      "options": {
+        "1": "20A",
+        "2": "30A",
+        "3": "40A",
+        "4": "55A"
+      },
+      "answer": [
+        "4"
+      ],
+      "appearances": [
+        {
+          "year": "112",
+          "session": 1,
+          "no": 39
+        },
+        {
+          "year": "114",
+          "session": "2颱風延期考區",
+          "no": 59
+        },
+        {
+          "year": "115",
+          "session": 1,
+          "no": 54
+        }
+      ]
+    },
+    {
+      "id": "b-03-185",
+      "category": "professional",
+      "subject": "工作項目03 專業課程",
+      "type": "single",
+      "stem": "單相二線式接地系統受電之電氣設備負載於絕緣裂化發生故障點時，在設備接地未設置，則下圖之電流動作型漏電斷路器動作情況下列何者正確？",
+      "img": "assets/img/safety/b-03-185.png",
+      "options": {
+        "1": "跳脫",
+        "2": "不動作",
+        "3": "短路",
+        "4": "過載"
+      },
+      "answer": [
+        "2"
+      ],
+      "appearances": [
+        {
+          "year": "115",
+          "session": 2,
+          "no": 17
+        }
+      ]
+    },
+    {
+      "id": "b-03-186",
+      "category": "professional",
+      "subject": "工作項目03 專業課程",
+      "type": "single",
+      "stem": "依職業安全衛生設施規則及機械設備器具安全標準規定，用於氣體類之防爆電氣設備，其危險區域劃分應符合國家標準CNS3376系列、國際標準IEC60079系列或與其同等之標準規定，CNS3376-10對危險場所分類：1.0區（Zone0）：爆炸性氣體環境連續性或長期存在之場所。2.1區（Zone1）：爆炸性氣體環境在正常操作下可能存在之場所。3.2區（Zone2）：爆炸性氣體環境在正常操作下不太可能存在，如果只有偶爾發生且只存在短期間之場所。試問一個固定式具易燃液體蒸氣之製程混合槽，位於室內，因為操作原因會週期性被打開。液體打入桶槽或抽出，皆經由桶槽上完全焊接之管路時，下圖之危險區域劃分何者正確？",
+      "options": {
+        "1": "：Zone0",
+        "2": "：Zone1",
+        "3": "：Zone2",
+        "4": "：Zone1。a：從洩漏源處水平距離1m，b：從洩漏源上方1m，c：水平距離1m，d：水平距離2m"
+      },
+      "answer": [
+        "2"
+      ],
+      "appearances": []
+    },
+    {
+      "id": "b-03-187",
+      "category": "professional",
+      "subject": "工作項目03 專業課程",
+      "type": "single",
+      "stem": "依職業安全衛生設施規則規定，對於裝有電力設備之工廠、供公眾使用之建築物及受電電壓屬高壓以上之用電場所，應規定置專任電氣技術人員。則超過22.8kV供電之用電場所，應置下列何種電氣技術人員？",
+      "options": {
+        "1": "初級",
+        "2": "中級",
+        "3": "高級",
+        "4": "不需設置"
+      },
+      "answer": [
+        "3"
+      ],
+      "appearances": [
+        {
+          "year": "112",
+          "session": 3,
+          "no": 57
+        }
+      ]
+    },
+    {
+      "id": "b-03-188",
+      "category": "professional",
+      "subject": "工作項目03 專業課程",
+      "type": "single",
+      "stem": "電氣火災之起火原因，下列何者錯誤？",
+      "options": {
+        "1": "短路",
+        "2": "過負載",
+        "3": "電弧放電",
+        "4": "絕緣良好"
+      },
+      "answer": [
+        "4"
+      ],
+      "appearances": []
+    },
+    {
+      "id": "b-03-189",
+      "category": "professional",
+      "subject": "工作項目03 專業課程",
+      "type": "single",
+      "stem": "電氣火災之防止方法，下列何者錯誤？",
+      "options": {
+        "1": "防止絕緣材料之劣化造成漏電或短路",
+        "2": "插座及線路之連接應良好，避免接觸不良",
+        "3": "電氣設備及線路之使用不可超過安全負載量",
+        "4": "使用較大之額定電流低壓無熔絲開關，減少可能跳電之麻煩"
+      },
+      "answer": [
+        "4"
+      ],
+      "appearances": []
+    },
+    {
+      "id": "b-03-190",
+      "category": "professional",
+      "subject": "工作項目03 專業課程",
+      "type": "single",
+      "stem": "依職業安全衛生管理辦法規定，雇主對於低壓電氣設備，應每年依規定項目定期實施檢查一次，下列何項目非為定期檢查事項？",
+      "options": {
+        "1": "低壓受電盤及分電盤（含各種電驛、儀表及其切換開關等）之動作試驗",
+        "2": "電氣箱電氣電路之熱顯影檢查",
+        "3": "低壓用電設備絕緣情形，接地電阻及其他安全設備狀況",
+        "4": "自備屋外低壓配電線路情況"
+      },
+      "answer": [
+        "2"
+      ],
+      "appearances": [
+        {
+          "year": "112",
+          "session": 2,
+          "no": 46
+        }
+      ]
+    },
+    {
+      "id": "b-03-191",
+      "category": "professional",
+      "subject": "工作項目03 專業課程",
+      "type": "single",
+      "stem": "電壓單位為伏特（V），電流單位為安培（A），電阻單位為歐姆（Ω）。依歐姆定律，5Ω電阻器流過1A電流，當電阻器一端電位10伏特，則其另一端電位為多少伏特？",
+      "options": {
+        "1": "10",
+        "2": "8",
+        "3": "5",
+        "4": "1"
+      },
+      "answer": [
+        "3"
+      ],
+      "appearances": [
+        {
+          "year": "114",
+          "session": "2颱風延期考區",
+          "no": 48
+        }
+      ]
+    },
+    {
+      "id": "b-03-192",
+      "category": "professional",
+      "subject": "工作項目03 專業課程",
+      "type": "single",
+      "stem": "機械基本安全設計，就「停電再來電啟動防止」，電控迴路啟動開關之設計方式，下列何者正確？",
+      "options": {
+        "1": "低電壓啟動電路方式",
+        "2": "自保持啟動電路方式",
+        "3": "正反轉啟動電路方式",
+        "4": "過載保護啟動電路方式"
+      },
+      "answer": [
+        "2"
+      ],
+      "appearances": [
+        {
+          "year": "113",
+          "session": 3,
+          "no": 6
+        },
+        {
+          "year": "114",
+          "session": "2颱風延期考區",
+          "no": 45
+        }
+      ]
+    },
+    {
+      "id": "b-03-193",
+      "category": "professional",
+      "subject": "工作項目03 專業課程",
+      "type": "single",
+      "stem": "依職業安全衛生設施規則規定，對於絕緣用防護裝備、防護具、活線作業用工具等，應每幾個月檢驗其性能一次？",
+      "options": {
+        "1": "3",
+        "2": "4",
+        "3": "5",
+        "4": "6"
+      },
+      "answer": [
+        "4"
+      ],
+      "appearances": [
+        {
+          "year": "115",
+          "session": 1,
+          "no": 2
+        }
+      ]
+    },
+    {
+      "id": "b-03-194",
+      "category": "professional",
+      "subject": "工作項目03 專業課程",
+      "type": "single",
+      "stem": "依起重升降機具安全規則規定，對於固定式起重機之設置，有關結構空間規定，下列何者錯誤？",
+      "options": {
+        "1": "其桁架之人行道與建築物之水平支撐、樑、橫樑、配管、其他起重機或其他設備之置於該人行道之上方者，其間隔應在1.8公尺以上",
+        "2": "走行固定式起重機或旋轉固定式起重機與建築物間設置之人行道寬度，應在0.6公尺以上",
+        "3": "固定式起重機之駕駛室（台）之端邊與通往該駕駛室（台）之人行道端邊，或起重機桁架之人行道端邊與通往該人行道端邊之間隔，應在0.3公尺以下",
+        "4": "除不具有起重機桁架及未於起重機桁架上設置人行道者外，凡設置於建築物內之走行固定式起重機，其最高部（集電裝置除外）與建築物之水平支撐、樑、橫樑、配管、其他起重機或其他設備之置於該走行起重機上方者，其間隔應在0.3公尺以上"
+      },
+      "answer": [
+        "4"
+      ],
+      "appearances": [
+        {
+          "year": "113",
+          "session": 2,
+          "no": 34
+        }
+      ]
+    },
+    {
+      "id": "b-03-195",
+      "category": "professional",
+      "subject": "工作項目03 專業課程",
+      "type": "single",
+      "stem": "依起重升降機具安全規則規定，移動式起重機使用之搭乘設備作業，下列何者錯誤？",
+      "options": {
+        "1": "搭乘設備需設置安全母索或防墜設施，並使勞工佩戴安全帽及符合國家標準之全身背負式安全帶",
+        "2": "搭乘設備下降時，採動力下降之方法",
+        "3": "垂直高度超過20公尺之高處作業，禁止使用吊掛式搭乘設備",
+        "4": "搭乘設備自重加上搭乘者、積載物等之最大荷重，不得超過該起重機作業半徑所對應之額定荷重之百分之50"
+      },
+      "answer": [
+        "3"
+      ],
+      "appearances": [
+        {
+          "year": "113",
+          "session": 2,
+          "no": 57
+        }
+      ]
+    },
+    {
+      "id": "b-03-196",
+      "category": "professional",
+      "subject": "工作項目03 專業課程",
+      "type": "single",
+      "stem": "依起重升降機具安全規則規定，有關吊掛使用之吊掛用具安全係數，下列何者錯誤？",
+      "options": {
+        "1": "以斷裂荷重之二分之一拉伸時，其伸長率為百分之0.5以下之吊鏈，其安全係數應在4以上",
+        "2": "起重機具之吊鉤，其安全係數應在3以上",
+        "3": "馬鞍環之安全係數應在5以上",
+        "4": "吊掛用鋼索，其安全係數應在6以上"
+      },
+      "answer": [
+        "2"
+      ],
+      "appearances": []
+    },
+    {
+      "id": "b-03-197",
+      "category": "professional",
+      "subject": "工作項目03 專業課程",
+      "type": "single",
+      "stem": "下列何項非屬失能傷害？",
+      "options": {
+        "1": "工作吸入化學物質，暈眩回家休息3日",
+        "2": "右眼失明與左腿截肢",
+        "3": "死亡",
+        "4": "工作頭暈，回家休息半天"
+      },
+      "answer": [
+        "4"
+      ],
+      "appearances": []
+    },
+    {
+      "id": "b-03-198",
+      "category": "professional",
+      "subject": "工作項目03 專業課程",
+      "type": "single",
+      "stem": "依人因工程學角度，下列何項設計對象，不適合極小尺寸設計原則設計？",
+      "options": {
+        "1": "操作者至控制鈕的距離",
+        "2": "操控所需的力量強度",
+        "3": "開關位置的高度",
+        "4": "人孔大小"
+      },
+      "answer": [
+        "4"
+      ],
+      "appearances": [
+        {
+          "year": "114",
+          "session": 3,
+          "no": 22
+        }
+      ]
+    },
+    {
+      "id": "b-03-199",
+      "category": "professional",
+      "subject": "工作項目03 專業課程",
+      "type": "single",
+      "stem": "依人因工程學角度，下列何項設計對象，較適合平均設計原則？",
+      "options": {
+        "1": "開關位置的高度",
+        "2": "支撐設備（如工作台、繩梯等）強度",
+        "3": "收銀台高度",
+        "4": "門高"
+      },
+      "answer": [
+        "3"
+      ],
+      "appearances": [
+        {
+          "year": "113",
+          "session": 1,
+          "no": 60
+        }
+      ]
+    },
+    {
+      "id": "b-03-200",
+      "category": "professional",
+      "subject": "工作項目03 專業課程",
+      "type": "single",
+      "stem": "下列何者為意外事故之直接原因？",
+      "options": {
+        "1": "管理不當",
+        "2": "不安全行為",
+        "3": "不安全環境",
+        "4": "不正常能量轉移或危害性物質"
+      },
+      "answer": [
+        "4"
+      ],
+      "appearances": [
+        {
+          "year": "112",
+          "session": 2,
+          "no": 17
+        },
+        {
+          "year": "113",
+          "session": 1,
+          "no": 35
+        }
+      ]
+    },
+    {
+      "id": "b-03-201",
+      "category": "professional",
+      "subject": "工作項目03 專業課程",
+      "type": "single",
+      "stem": "防止感電事故為目的而裝置之漏電斷路器，應採用何種規格之漏電斷路器？",
+      "options": {
+        "1": "高感度高速型",
+        "2": "中感度高速型",
+        "3": "高感度延時型",
+        "4": "中感度延時型"
+      },
+      "answer": [
+        "1"
+      ],
+      "appearances": [
+        {
+          "year": "113",
+          "session": 1,
+          "no": 7
+        }
+      ]
+    },
+    {
+      "id": "b-03-202",
+      "category": "professional",
+      "subject": "工作項目03 專業課程",
+      "type": "single",
+      "stem": "感電事故對人體造成之傷害嚴重程度與下列何項數值成正相關？",
+      "options": {
+        "1": "電阻",
+        "2": "電感",
+        "3": "電洞",
+        "4": "電流"
+      },
+      "answer": [
+        "4"
+      ],
+      "appearances": [
+        {
+          "year": "113",
+          "session": 1,
+          "no": 46
+        },
+        {
+          "year": "114",
+          "session": 2,
+          "no": 49
+        }
+      ]
+    },
+    {
+      "id": "b-03-203",
+      "category": "professional",
+      "subject": "工作項目03 專業課程",
+      "type": "single",
+      "stem": "如下圖所示以兩條鋼索吊掛一鋼樑，鋼樑長度為2公尺，重心位於鋼梁中心位置，吊掛鋼索與鋼樑之夾角為30度，鋼樑質量為200公斤，請計算每條吊掛鋼索之受力為多少公斤重？",
+      "options": {
+        "1": "100",
+        "2": "200",
+        "3": "300",
+        "4": "400"
+      },
+      "answer": [
+        "2"
+      ],
+      "appearances": []
+    },
+    {
+      "id": "b-03-204",
+      "category": "professional",
+      "subject": "工作項目03 專業課程",
+      "type": "single",
+      "stem": "某一物質之爆炸上限為12%，爆炸下限為3%，試問該物質之危險度為",
+      "options": {
+        "1": "1",
+        "2": "2",
+        "3": "3",
+        "4": "4"
+      },
+      "answer": [
+        "3"
+      ],
+      "appearances": []
+    },
+    {
+      "id": "b-03-205",
+      "category": "professional",
+      "subject": "工作項目03 專業課程",
+      "type": "single",
+      "stem": "依勞工職業災害保險及保護法之規定，職業病由何人向中央主管機關申請職業病鑑定？",
+      "options": {
+        "1": "被保險人",
+        "2": "保險人",
+        "3": "地方政府",
+        "4": "職業安全衛生署"
+      },
+      "answer": [
+        "2"
+      ],
+      "appearances": [
+        {
+          "year": "114",
+          "session": 2,
+          "no": 35
+        }
+      ]
+    },
+    {
+      "id": "b-03-206",
+      "category": "professional",
+      "subject": "工作項目03 專業課程",
+      "type": "single",
+      "stem": "關於事業單位提升整體製程安全進行事故調查，下列何者為不適宜？",
+      "options": {
+        "1": "目的在追究事故發生之責任歸屬及懲處",
+        "2": "調查事故之原因，防止同樣事故一再重複發生",
+        "3": "事業單位應鼓勵員工參與職業災害、虛驚事件及影響身心健康事件之調查",
+        "4": "事故調查紀錄可做為改善製程安全之參考依據，亦可運用於教育訓練矯正人員不安全操作行為"
+      },
+      "answer": [
+        "1"
+      ],
+      "appearances": [
+        {
+          "year": "113",
+          "session": 2,
+          "no": 1
+        },
+        {
+          "year": "114",
+          "session": 1,
+          "no": 27
+        }
+      ]
+    },
+    {
+      "id": "b-03-207",
+      "category": "professional",
+      "subject": "工作項目03 專業課程",
+      "type": "multi",
+      "stem": "下列哪些為木材加工用圓盤鋸之安全防護裝置？",
+      "options": {
+        "1": "護罩",
+        "2": "護圍",
+        "3": "墊圈",
+        "4": "撐縫片"
+      },
+      "answer": [
+        "1",
+        "2",
+        "4"
+      ],
+      "appearances": [
+        {
+          "year": "115",
+          "session": 2,
+          "no": 62
+        }
+      ]
+    },
+    {
+      "id": "b-03-208",
+      "category": "professional",
+      "subject": "工作項目03 專業課程",
+      "type": "multi",
+      "stem": "依職業安全衛生法施行細則規定，下列哪些是特別危害健康之作業？",
+      "options": {
+        "1": "游離輻射作業",
+        "2": "鉛作業",
+        "3": "重體力勞動作業",
+        "4": "粉塵作業"
+      },
+      "answer": [
+        "1",
+        "2",
+        "4"
+      ],
+      "appearances": [
+        {
+          "year": "115",
+          "session": 1,
+          "no": 80
+        }
+      ]
+    },
+    {
+      "id": "b-03-209",
+      "category": "professional",
+      "subject": "工作項目03 專業課程",
+      "type": "multi",
+      "stem": "依勞工健康保護規則規定，下列哪些作業不適合罹患高血壓症者從事？",
+      "options": {
+        "1": "高溫作業",
+        "2": "起重機運轉作業",
+        "3": "重體力勞動作業",
+        "4": "非游離輻射作業"
+      },
+      "answer": [
+        "1",
+        "3"
+      ],
+      "appearances": []
+    },
+    {
+      "id": "b-03-210",
+      "category": "professional",
+      "subject": "工作項目03 專業課程",
+      "type": "multi",
+      "stem": "依危險性工作場所審查及檢查辦法規定，下列哪些屬丁類危險性工作場所？",
+      "options": {
+        "1": "建築物頂樓樓板高度在80公尺以上之建築工程",
+        "2": "模板支撐高度在5公尺以上之工程",
+        "3": "單跨橋梁之橋墩跨距在75公尺以上或多跨橋梁之橋墩跨距在50公尺以上之橋梁工程",
+        "4": "長度500公尺未有豎坑之隧道工程"
+      },
+      "answer": [
+        "1",
+        "3"
+      ],
+      "appearances": []
+    },
+    {
+      "id": "b-03-211",
+      "category": "professional",
+      "subject": "工作項目03 專業課程",
+      "type": "multi",
+      "stem": "乙類危險性工作場所於審查後，勞動檢查機構應實施檢查之設施為何？",
+      "options": {
+        "1": "火災爆炸危害預防設施",
+        "2": "墜落危害預防設施",
+        "3": "人員感電預防措施",
+        "4": "有害物洩漏及中毒危害預防設施"
+      },
+      "answer": [
+        "1",
+        "4"
+      ],
+      "appearances": [
+        {
+          "year": "109",
+          "session": 1,
+          "no": 72
+        },
+        {
+          "year": "112",
+          "session": 1,
+          "no": 68
+        },
+        {
+          "year": "114",
+          "session": 1,
+          "no": 69
+        }
+      ]
+    },
+    {
+      "id": "b-03-212",
+      "category": "professional",
+      "subject": "工作項目03 專業課程",
+      "type": "multi",
+      "stem": "丁類危險性工作場所之施工安全評估報告書內容，除包含施工災害初步分析表、特有災害評估表、施工計畫之修改外，尚須包括哪些？",
+      "options": {
+        "1": "報告簽章",
+        "2": "製程修改安全計畫",
+        "3": "基本事項檢討評估表",
+        "4": "製程安全評估表"
+      },
+      "answer": [
+        "1",
+        "3"
+      ],
+      "appearances": []
+    },
+    {
+      "id": "b-03-213",
+      "category": "professional",
+      "subject": "工作項目03 專業課程",
+      "type": "multi",
+      "stem": "下列哪些是暴露鋼筋危害的適當防止方法？",
+      "options": {
+        "1": "鋼筋尖端彎曲",
+        "2": "鋼筋尖端漆以防鏽漆",
+        "3": "鋼筋尖端綁上塑膠繩",
+        "4": "鋼筋尖端加蓋"
+      },
+      "answer": [
+        "1",
+        "4"
+      ],
+      "appearances": [
+        {
+          "year": "108",
+          "session": 1,
+          "no": 74
+        },
+        {
+          "year": "115",
+          "session": 1,
+          "no": 74
+        }
+      ]
+    },
+    {
+      "id": "b-03-214",
+      "category": "professional",
+      "subject": "工作項目03 專業課程",
+      "type": "multi",
+      "stem": "依營造安全衛生設施標準規定，為防止屋頂作業人員墜落，應考量哪些因素？",
+      "options": {
+        "1": "屋頂斜度",
+        "2": "屋頂材料性質",
+        "3": "屋頂材料價格",
+        "4": "天候"
+      },
+      "answer": [
+        "1",
+        "2",
+        "4"
+      ],
+      "appearances": [
+        {
+          "year": "107",
+          "session": 1,
+          "no": 78
+        },
+        {
+          "year": "115",
+          "session": 1,
+          "no": 77
+        }
+      ]
+    },
+    {
+      "id": "b-03-215",
+      "category": "professional",
+      "subject": "工作項目03 專業課程",
+      "type": "multi",
+      "stem": "為防止捲揚機吊運物料時，發生物料飛落而傷害勞工，下列哪些為職業安全衛生設施規則規定之措施？",
+      "options": {
+        "1": "設置信號指揮聯絡人員",
+        "2": "設有防止過捲裝置",
+        "3": "吊掛用鋼索等吊具若有異狀應即修換",
+        "4": "需經檢查機構檢查合格始准使用"
+      },
+      "answer": [
+        "1",
+        "2",
+        "3"
+      ],
+      "appearances": [
+        {
+          "year": "108",
+          "session": 1,
+          "no": 72
+        },
+        {
+          "year": "115",
+          "session": 1,
+          "no": 79
+        }
+      ]
+    },
+    {
+      "id": "b-03-216",
+      "category": "professional",
+      "subject": "工作項目03 專業課程",
+      "type": "multi",
+      "stem": "為確保木材構築施工架之安全，下列哪些為營造安全衛生設施標準所規定者？",
+      "options": {
+        "1": "木材應完全剝除樹皮",
+        "2": "不得施以油漆",
+        "3": "不得有損及強度之裂隙",
+        "4": "木材應為松木"
+      },
+      "answer": [
+        "1",
+        "2",
+        "3"
+      ],
+      "appearances": [
+        {
+          "year": "107",
+          "session": 2,
+          "no": 78
+        }
+      ]
+    },
+    {
+      "id": "b-03-217",
+      "category": "professional",
+      "subject": "工作項目03 專業課程",
+      "type": "multi",
+      "stem": "對於營建用提升機之敘述，下列何者正確？",
+      "options": {
+        "1": "雇主於中型營建用提升機設置完成時，應自行實施荷重試驗，試驗紀錄應保存3年",
+        "2": "應於捲揚用鋼索上加註標識或設置警報裝置等，以預防鋼索過捲",
+        "3": "如瞬間風速有超過每秒20公尺之虞時應增設拉索，以預防其倒塌",
+        "4": "使用應不得超過積載荷重"
+      },
+      "answer": [
+        "1",
+        "2",
+        "4"
+      ],
+      "appearances": []
+    },
+    {
+      "id": "b-03-218",
+      "category": "professional",
+      "subject": "工作項目03 專業課程",
+      "type": "multi",
+      "stem": "下列哪些為使用道路作業之工作場所，為防止車輛突入等引起之危害，應辦理之事項？",
+      "options": {
+        "1": "作業人員應戴安全帽、穿著顏色鮮明之施工背心",
+        "2": "不得於夜間作業",
+        "3": "與作業無關之車輛禁止停入作業場所",
+        "4": "不得造成大眾通行之障礙"
+      },
+      "answer": [
+        "1",
+        "3",
+        "4"
+      ],
+      "appearances": [
+        {
+          "year": "107",
+          "session": 1,
+          "no": 62
+        },
+        {
+          "year": "114",
+          "session": 2,
+          "no": 66
+        }
+      ]
+    },
+    {
+      "id": "b-03-219",
+      "category": "professional",
+      "subject": "工作項目03 專業課程",
+      "type": "multi",
+      "stem": "下列哪些為局限空間作業場所應公告使作業勞工周知的事項？",
+      "options": {
+        "1": "進入該場所時應採取之措施",
+        "2": "事故發生時之緊急措施及緊急聯絡方式",
+        "3": "現場監視人員姓名",
+        "4": "內部空間的大小"
+      },
+      "answer": [
+        "1",
+        "2",
+        "3"
+      ],
+      "appearances": [
+        {
+          "year": "108",
+          "session": 1,
+          "no": 70
+        },
+        {
+          "year": "109",
+          "session": 2,
+          "no": 66
+        }
+      ]
+    },
+    {
+      "id": "b-03-220",
+      "category": "professional",
+      "subject": "工作項目03 專業課程",
+      "type": "multi",
+      "stem": "依職業安全衛生設施規則規定，對於運轉中之化學設備或其附屬設備，為防止因爆炸、火災、洩漏等造成勞工之危害，下列哪些正確？",
+      "options": {
+        "1": "確定冷卻、加熱、攪拌及壓縮等裝置之正常操作",
+        "2": "確定將閥或旋塞雙重關閉或設置盲板",
+        "3": "保持安全閥、緊急遮斷裝置、自動警報裝置或其他安全裝置於異常狀態時之有效運轉",
+        "4": "保持溫度計、壓力計或其他計測裝置於正常操作功能"
+      },
+      "answer": [
+        "1",
+        "3",
+        "4"
+      ],
+      "appearances": [
+        {
+          "year": "115",
+          "session": 2,
+          "no": 72
+        }
+      ]
+    },
+    {
+      "id": "b-03-221",
+      "category": "professional",
+      "subject": "工作項目03 專業課程",
+      "type": "multi",
+      "stem": "對於混凝土澆置作業，下列哪些為營造安全衛生設施標準之規定？",
+      "options": {
+        "1": "禁止勞工乘坐於混凝土澆置桶上",
+        "2": "不得以起重機具或索道吊運混凝土桶",
+        "3": "實施混凝土澆置作業，應指定安全出入路口",
+        "4": "澆置期間應注意避免過大之振動"
+      },
+      "answer": [
+        "1",
+        "3",
+        "4"
+      ],
+      "appearances": [
+        {
+          "year": "107",
+          "session": 1,
+          "no": 64
+        },
+        {
+          "year": "108",
+          "session": 1,
+          "no": 69
+        }
+      ]
+    },
+    {
+      "id": "b-03-222",
+      "category": "professional",
+      "subject": "工作項目03 專業課程",
+      "type": "multi",
+      "stem": "事業單位委外辦理勞工體格、健康檢查時，下列應注意事項，哪些錯誤？",
+      "options": {
+        "1": "注意指定醫療機構之品質並應每年更換，俾能相互比較醫療機構之品質",
+        "2": "要求醫療機構赴事業單位實施檢查之日，攜帶經衛生主管機關核准之公文及醫事人員執業執照",
+        "3": "檢查項目以勞工健康保護規則所訂項目為限，但要求增加之項目由雇主負擔全部費用且經勞工同意者不在此限",
+        "4": "健康檢查手冊由工會統一保管"
+      },
+      "answer": [
+        "1",
+        "4"
+      ],
+      "appearances": []
+    },
+    {
+      "id": "b-03-223",
+      "category": "professional",
+      "subject": "工作項目03 專業課程",
+      "type": "multi",
+      "stem": "下列有關健康檢查結果評估及處理之事項，哪些正確？",
+      "options": {
+        "1": "每次健檢後進行整體性之評估",
+        "2": "對健康檢查發現健康異常之勞工，由部門主管判定是否與職業原因有關",
+        "3": "依照醫師之建議適當配置勞工於工作場所作業",
+        "4": "將特殊健康檢查結果報告及第三級管理以上之勞工資料陳報中央主管機關"
+      },
+      "answer": [
+        "1",
+        "3",
+        "4"
+      ],
+      "appearances": []
+    },
+    {
+      "id": "b-03-224",
+      "category": "professional",
+      "subject": "工作項目03 專業課程",
+      "type": "multi",
+      "stem": "依勞工健康保護規則規定，有關特殊健康檢查之敘述，下列哪些正確？",
+      "options": {
+        "1": "檢查紀錄至少保存30年",
+        "2": "從事特別危害健康作業勞工，應每年或於變更其作業時實施特殊健康檢查",
+        "3": "將每位勞工健康檢查之詳細資料公佈在顯明而易見之場所",
+        "4": "從事鉛中毒預防規則所稱鉛作業的勞工應實施特殊健康檢查"
+      },
+      "answer": [
+        "2",
+        "4"
+      ],
+      "appearances": []
+    },
+    {
+      "id": "b-03-225",
+      "category": "professional",
+      "subject": "工作項目03 專業課程",
+      "type": "multi",
+      "stem": "6S現場管理守則是事業單位經常使用於塑造安全文化的管理方法之一，哪些方法屬於6S範疇？",
+      "options": {
+        "1": "整理",
+        "2": "整頓",
+        "3": "教育",
+        "4": "修養"
+      },
+      "answer": [
+        "1",
+        "2",
+        "4"
+      ],
+      "appearances": [
+        {
+          "year": "107",
+          "session": 2,
+          "no": 72
+        }
+      ]
+    },
+    {
+      "id": "b-03-226",
+      "category": "professional",
+      "subject": "工作項目03 專業課程",
+      "type": "multi",
+      "stem": "下列哪些屬物理性危害？",
+      "options": {
+        "1": "有機溶劑中毒",
+        "2": "振動",
+        "3": "異常氣壓",
+        "4": "噪音"
+      },
+      "answer": [
+        "2",
+        "3",
+        "4"
+      ],
+      "appearances": []
+    },
+    {
+      "id": "b-03-227",
+      "category": "professional",
+      "subject": "工作項目03 專業課程",
+      "type": "multi",
+      "stem": "下列哪些為高溫或低溫所造成之可能危害？",
+      "options": {
+        "1": "中暑",
+        "2": "神經衰弱",
+        "3": "熱痙攣",
+        "4": "凍傷"
+      },
+      "answer": [
+        "1",
+        "3",
+        "4"
+      ],
+      "appearances": []
+    },
+    {
+      "id": "b-03-228",
+      "category": "professional",
+      "subject": "工作項目03 專業課程",
+      "type": "multi",
+      "stem": "有關振動危害之敘述，下列哪些正確？",
+      "options": {
+        "1": "振動能與人體不同之部位產生共振現象而造成對人體健康影響",
+        "2": "暈車暈船常為高頻振動所引起",
+        "3": "長時間操作破碎機、鏈鋸等振動手工具會對手部神經及血管造成傷害",
+        "4": "當振動由手掌傳至手臂時會導致臂部肌肉、骨骼、神經之健康影響"
+      },
+      "answer": [
+        "1",
+        "3",
+        "4"
+      ],
+      "appearances": []
+    },
+    {
+      "id": "b-03-229",
+      "category": "professional",
+      "subject": "工作項目03 專業課程",
+      "type": "multi",
+      "stem": "下列哪些為判定職業病必須要滿足之條件？",
+      "options": {
+        "1": "工作場所中有害因子確實存在",
+        "2": "工作場所中有害物濃度經確認曾超過法定容許濃度標準",
+        "3": "必須曾暴露於存在有害因子之環境",
+        "4": "發病期間、症狀及有害因子之暴露期間有合理的時序性"
+      },
+      "answer": [
+        "1",
+        "3",
+        "4"
+      ],
+      "appearances": []
+    },
+    {
+      "id": "b-03-230",
+      "category": "professional",
+      "subject": "工作項目03 專業課程",
+      "type": "multi",
+      "stem": "有關採光照明之影響，下列哪些正確？",
+      "options": {
+        "1": "照明不當不致造成眼睛慢性傷害",
+        "2": "良好之採光照明條件可增進工作效率、減少失誤率、亦可降低事故發生機會",
+        "3": "採光照明問題在品質管制及工業安全衛生2方面，均具有同等之重要性",
+        "4": "照明不當可能導致精神疲勞"
+      },
+      "answer": [
+        "2",
+        "3",
+        "4"
+      ],
+      "appearances": [
+        {
+          "year": "115",
+          "session": 2,
+          "no": 64
+        }
+      ]
+    },
+    {
+      "id": "b-03-231",
+      "category": "professional",
+      "subject": "工作項目03 專業課程",
+      "type": "multi",
+      "stem": "有關游離輻射之敘述，下列哪些正確？",
+      "options": {
+        "1": "能使物質產生游離現象之輻射能稱為游離輻射",
+        "2": "在工業上常使用者為α、β、γ、Ｘ射線及中子射線等，多用於破壞性檢測",
+        "3": "游離輻射會對人體造血器官造成危害",
+        "4": "長期暴露低劑量游離輻射可能造成細胞染色體突變或致癌"
+      },
+      "answer": [
+        "1",
+        "3",
+        "4"
+      ],
+      "appearances": []
+    },
+    {
+      "id": "b-03-232",
+      "category": "professional",
+      "subject": "工作項目03 專業課程",
+      "type": "multi",
+      "stem": "有關非游離輻射之敘述，下列哪些正確？",
+      "options": {
+        "1": "紅外線常由灼熱物體產生，眼睛經常直視紅熱物體易導致白內障",
+        "2": "紫外線會破壞眼角膜，引起角膜炎",
+        "3": "微波對眼睛可造成白內障",
+        "4": "銲接作業為常暴露雷射之行業"
+      },
+      "answer": [
+        "1",
+        "2",
+        "3"
+      ],
+      "appearances": []
+    },
+    {
+      "id": "b-03-233",
+      "category": "professional",
+      "subject": "工作項目03 專業課程",
+      "type": "multi",
+      "stem": "有關異常氣壓危害之敘述，下列哪些正確？",
+      "options": {
+        "1": "異常氣壓危害常見於潛水作業及潛盾工法之施工作業",
+        "2": "異常氣壓危害係因外界壓力之急遽減少使體內產生氣泡，進而造成神經壓迫、血栓、骨壞死等症狀",
+        "3": "依照減壓表實施減壓可避免異壓性骨壞死等減壓症",
+        "4": "高山症急性症狀是氮氣分壓降低所造成"
+      },
+      "answer": [
+        "1",
+        "2",
+        "3"
+      ],
+      "appearances": []
+    },
+    {
+      "id": "b-03-234",
+      "category": "professional",
+      "subject": "工作項目03 專業課程",
+      "type": "multi",
+      "stem": "有關物質性質之敘述，下列哪些正確？",
+      "options": {
+        "1": "氮氣、氫氣、甲烷氣體有窒息性",
+        "2": "有機溶劑、重金屬、農藥等常會影響中樞神經或周邊神經而造成各種神經症狀",
+        "3": "厭惡性粉塵不會導致塵肺症",
+        "4": "甲醇會因產生代謝物甲醛及甲酸而導致失明或致死"
+      },
+      "answer": [
+        "1",
+        "2",
+        "4"
+      ],
+      "appearances": []
+    },
+    {
+      "id": "b-03-235",
+      "category": "professional",
+      "subject": "工作項目03 專業課程",
+      "type": "multi",
+      "stem": "有關生物偵測之敘述，下列哪些正確？",
+      "options": {
+        "1": "生物偵測是透過測量體內劑量，來評估個人有害物之暴露程度",
+        "2": "生物偵測可以是化學有害物本身或其代謝物在生物檢體中所呈現之量，也可以是化學物質對某標的器官產生可逆性生化改變之程度",
+        "3": "生物偵測的主要功能是輔助作業環境測定、測試個人防護具之效率",
+        "4": "美、日、法、德等國家已針對所有列管有害物全面要求實施生物偵測"
+      },
+      "answer": [
+        "1",
+        "2",
+        "3"
+      ],
+      "appearances": [
+        {
+          "year": "115",
+          "session": 1,
+          "no": 68
+        }
+      ]
+    },
+    {
+      "id": "b-03-236",
+      "category": "professional",
+      "subject": "工作項目03 專業課程",
+      "type": "multi",
+      "stem": "有關防護具之敘述，下列哪些正確？",
+      "options": {
+        "1": "呼吸防護具一般使用於臨時性作業、緊急避難、無法裝設通風系統之場所或限於技術而使用通風系統效果有限之場所",
+        "2": "一般例常性之工作可長期重複使用呼吸防護具",
+        "3": "不恰當之防護具無法防範危害因子之穿透",
+        "4": "防護具一般而言應視為最後之選擇"
+      },
+      "answer": [
+        "1",
+        "3",
+        "4"
+      ],
+      "appearances": []
+    },
+    {
+      "id": "b-03-237",
+      "category": "professional",
+      "subject": "工作項目03 專業課程",
+      "type": "multi",
+      "stem": "有關健康管理之敘述，下列哪些正確？",
+      "options": {
+        "1": "健康管理係以保持或增進健康為目的",
+        "2": "健康管理一般之主要手段為體格檢查及健康檢查",
+        "3": "體格檢查可作為配工之參考，可篩選體質是否宜從事存在危害因子場所之作業",
+        "4": "定期之體格檢查有助於早期發現是否已受到危害因子之影響"
+      },
+      "answer": [
+        "1",
+        "2",
+        "3"
+      ],
+      "appearances": []
+    },
+    {
+      "id": "b-03-238",
+      "category": "professional",
+      "subject": "工作項目03 專業課程",
+      "type": "multi",
+      "stem": "某麵粉廠作業中，其麩皮槽修補工程交付承攬施工，原事業單位勞工負責清理麩皮，因電焊火花引起塵爆致承攬人所僱勞工死傷2人，下列哪些正確？",
+      "options": {
+        "1": "該修補作業非屬職業安全衛生法所稱之「共同作業」",
+        "2": "原事業單位應為承攬人所僱勞工之死傷負連帶補償責任",
+        "3": "承攬人雖具電焊專長，原事業單位仍應告知危害因素",
+        "4": "原事業單位及承攬人間應設置協議組織"
+      },
+      "answer": [
+        "2",
+        "3",
+        "4"
+      ],
+      "appearances": []
+    },
+    {
+      "id": "b-03-239",
+      "category": "professional",
+      "subject": "工作項目03 專業課程",
+      "type": "multi",
+      "stem": "有關操作氧氣測定器之敘述，下列哪些正確？",
+      "options": {
+        "1": "測定前，應於距測定點較近，且空氣新鮮處校正",
+        "2": "測定時，應俟指示值顯示穩定後讀取讀值",
+        "3": "測定後，不可立即置於空氣新鮮處，以免讀值不正確",
+        "4": "測定各點所獲讀值均在18％以上，表示作業場所無缺氧環境"
+      },
+      "answer": [
+        "1",
+        "2",
+        "4"
+      ],
+      "appearances": []
+    },
+    {
+      "id": "b-03-240",
+      "category": "professional",
+      "subject": "工作項目03 專業課程",
+      "type": "multi",
+      "stem": "有關檢知管操作之敘述，下列哪些正確？",
+      "options": {
+        "1": "應配合使用相同廠牌之檢知器，以免誤差太大",
+        "2": "檢知管只要保管妥善，沒有時效的問題",
+        "3": "檢知管應避免高溫或日光照射",
+        "4": "應依現場實際濃度選用測定範圍之檢知管"
+      },
+      "answer": [
+        "1",
+        "3",
+        "4"
+      ],
+      "appearances": []
+    },
+    {
+      "id": "b-03-241",
+      "category": "professional",
+      "subject": "工作項目03 專業課程",
+      "type": "multi",
+      "stem": "在有爆炸之虞場所測定絕緣電阻時，應預防火花之發生，其發生原因與下列哪些有關？",
+      "options": {
+        "1": "連接線與未完全放電之機器碰撞",
+        "2": "試驗中絕緣損壞處產生電弧",
+        "3": "測驗完畢時之電容放電",
+        "4": "連接線之完全放電"
+      },
+      "answer": [
+        "1",
+        "2",
+        "3"
+      ],
+      "appearances": [
+        {
+          "year": "115",
+          "session": 2,
+          "no": 61
+        }
+      ]
+    },
+    {
+      "id": "b-03-242",
+      "category": "professional",
+      "subject": "工作項目03 專業課程",
+      "type": "multi",
+      "stem": "下列哪些為電氣接地之目的？",
+      "options": {
+        "1": "防止因絕緣不良感電",
+        "2": "避免高低壓混觸高壓經接地回路而危害人畜",
+        "3": "避雷",
+        "4": "在配電線接地故障時使繼電器不動作"
+      },
+      "answer": [
+        "1",
+        "2",
+        "3"
+      ],
+      "appearances": [
+        {
+          "year": "114",
+          "session": 2,
+          "no": 76
+        }
+      ]
+    },
+    {
+      "id": "b-03-243",
+      "category": "professional",
+      "subject": "工作項目03 專業課程",
+      "type": "multi",
+      "stem": "控制器的誤觸往往是造成事故的原因之一，下列哪些為一般所建議的防止控制器誤觸的方法？",
+      "options": {
+        "1": "遮蔽控制器",
+        "2": "增加控制器之阻力",
+        "3": "改變控制之程序",
+        "4": "增大控制器之體積"
+      },
+      "answer": [
+        "1",
+        "2",
+        "3"
+      ],
+      "appearances": [
+        {
+          "year": "115",
+          "session": 2,
+          "no": 78
+        }
+      ]
+    },
+    {
+      "id": "b-03-244",
+      "category": "professional",
+      "subject": "工作項目03 專業課程",
+      "type": "multi",
+      "stem": "下列哪些為靜電危害防止對策？",
+      "options": {
+        "1": "接地",
+        "2": "使用導電性材料",
+        "3": "乾燥",
+        "4": "游離化"
+      },
+      "answer": [
+        "1",
+        "2",
+        "4"
+      ],
+      "appearances": []
+    },
+    {
+      "id": "b-03-245",
+      "category": "professional",
+      "subject": "工作項目03 專業課程",
+      "type": "multi",
+      "stem": "下列哪些為靜電產生的可能機制？",
+      "options": {
+        "1": "絕緣體的相互摩擦",
+        "2": "電鍍",
+        "3": "物體的接觸與分離",
+        "4": "粒子的衝撞"
+      },
+      "answer": [
+        "1",
+        "3",
+        "4"
+      ],
+      "appearances": []
+    },
+    {
+      "id": "b-03-246",
+      "category": "professional",
+      "subject": "工作項目03 專業課程",
+      "type": "multi",
+      "stem": "下列哪些屬電氣活線作業及活線近接作業時，所必須使用之安全防護具或工具？",
+      "options": {
+        "1": "電氣用安全帽",
+        "2": "電氣用絕緣手套",
+        "3": "靜電疏導裝置",
+        "4": "電氣用絕緣長靴"
+      },
+      "answer": [
+        "1",
+        "2",
+        "4"
+      ],
+      "appearances": []
+    },
+    {
+      "id": "b-03-247",
+      "category": "professional",
+      "subject": "工作項目03 專業課程",
+      "type": "multi",
+      "stem": "下列有關可燃性氣體或其混合蒸氣場所之電氣防爆對策，哪些正確？",
+      "options": {
+        "1": "盡量避免使用電氣機具，而以空氣驅動之機械取代電動機具",
+        "2": "使用行動電話是不影響安全的",
+        "3": "電氣機具之金屬外箱、機架、保護罩、導線管應確實接地",
+        "4": "應用防爆型電風扇"
+      },
+      "answer": [
+        "1",
+        "3",
+        "4"
+      ],
+      "appearances": []
+    },
+    {
+      "id": "b-03-248",
+      "category": "professional",
+      "subject": "工作項目03 專業課程",
+      "type": "multi",
+      "stem": "下列哪些屬反撥預防裝置？",
+      "options": {
+        "1": "反撥防止爪",
+        "2": "反撥防止滾輪",
+        "3": "撐縫片",
+        "4": "護罩"
+      },
+      "answer": [
+        "1",
+        "2",
+        "3"
+      ],
+      "appearances": []
+    },
+    {
+      "id": "b-03-249",
+      "category": "professional",
+      "subject": "工作項目03 專業課程",
+      "type": "multi",
+      "stem": "在進入甲醇儲槽清洗時，應至少測量下列哪兩種氣體濃度？",
+      "options": {
+        "1": "氧氣",
+        "2": "氮氣",
+        "3": "二氧化碳",
+        "4": "可燃性氣體"
+      },
+      "answer": [
+        "1",
+        "4"
+      ],
+      "appearances": [
+        {
+          "year": "115",
+          "session": 2,
+          "no": 66
+        }
+      ]
+    },
+    {
+      "id": "b-03-250",
+      "category": "professional",
+      "subject": "工作項目03 專業課程",
+      "type": "multi",
+      "stem": "安全資料表中，純物質之成分辨識資料，應涵蓋下列哪些？",
+      "options": {
+        "1": "暴露途徑",
+        "2": "同義名稱",
+        "3": "化學文摘社登記號碼",
+        "4": "容許濃度"
+      },
+      "answer": [
+        "2",
+        "3"
+      ],
+      "appearances": []
+    },
+    {
+      "id": "b-03-251",
+      "category": "professional",
+      "subject": "工作項目03 專業課程",
+      "type": "multi",
+      "stem": "防止酸、鹼、化學品傷害皮膚之職業衛生防護手套，下列哪些為較適合材質？",
+      "options": {
+        "1": "天然橡膠",
+        "2": "皮革",
+        "3": "合成纖維",
+        "4": "棉布"
+      },
+      "answer": [
+        "1",
+        "3"
+      ],
+      "appearances": []
+    },
+    {
+      "id": "b-03-252",
+      "category": "professional",
+      "subject": "工作項目03 專業課程",
+      "type": "multi",
+      "stem": "下列何者不屬於工廠中的輔助搬運設施？",
+      "options": {
+        "1": "切割機",
+        "2": "拖板車",
+        "3": "台車",
+        "4": "自動包裝機"
+      },
+      "answer": [
+        "1",
+        "4"
+      ],
+      "appearances": []
+    },
+    {
+      "id": "b-03-253",
+      "category": "professional",
+      "subject": "工作項目03 專業課程",
+      "type": "multi",
+      "stem": "下列哪些屬「本質安全」設計？",
+      "options": {
+        "1": "使用防護具",
+        "2": "阻卻",
+        "3": "隔離",
+        "4": "安全程序"
+      },
+      "answer": [
+        "2",
+        "3"
+      ],
+      "appearances": []
+    },
+    {
+      "id": "b-03-254",
+      "category": "professional",
+      "subject": "工作項目03 專業課程",
+      "type": "multi",
+      "stem": "下列哪些可能引發呼吸系統職業病？",
+      "options": {
+        "1": "結晶型游離二氧化矽",
+        "2": "石綿",
+        "3": "粉塵",
+        "4": "鉛"
+      },
+      "answer": [
+        "1",
+        "2",
+        "3"
+      ],
+      "appearances": []
+    },
+    {
+      "id": "b-03-255",
+      "category": "professional",
+      "subject": "工作項目03 專業課程",
+      "type": "multi",
+      "stem": "下列哪些是勞工於同平面跌倒之要因？",
+      "options": {
+        "1": "地板上有滑溜物",
+        "2": "人的鞋底滑",
+        "3": "樓板開口",
+        "4": "地板有適當照明"
+      },
+      "answer": [
+        "1",
+        "2"
+      ],
+      "appearances": [
+        {
+          "year": "114",
+          "session": 2,
+          "no": 78
+        }
+      ]
+    },
+    {
+      "id": "b-03-256",
+      "category": "professional",
+      "subject": "工作項目03 專業課程",
+      "type": "multi",
+      "stem": "下列哪些屬損失控制八大項目？",
+      "options": {
+        "1": "安全檢查",
+        "2": "安全政策",
+        "3": "安全觀察",
+        "4": "安全口號"
+      },
+      "answer": [
+        "1",
+        "3"
+      ],
+      "appearances": []
+    },
+    {
+      "id": "b-03-257",
+      "category": "professional",
+      "subject": "工作項目03 專業課程",
+      "type": "multi",
+      "stem": "實務上，製程安全管理不包括下列哪些？",
+      "options": {
+        "1": "勞工身心健康促進",
+        "2": "教育訓練",
+        "3": "勞工健康保護",
+        "4": "緊急應變"
+      },
+      "answer": [
+        "1",
+        "3"
+      ],
+      "appearances": []
+    },
+    {
+      "id": "b-03-258",
+      "category": "professional",
+      "subject": "工作項目03 專業課程",
+      "type": "multi",
+      "stem": "安全資料表應包含下列哪些資訊？",
+      "options": {
+        "1": "滅火措施",
+        "2": "毒性資料",
+        "3": "成本資料",
+        "4": "化學製程的描述"
+      },
+      "answer": [
+        "1",
+        "2"
+      ],
+      "appearances": [
+        {
+          "year": "114",
+          "session": 2,
+          "no": 65
+        }
+      ]
+    },
+    {
+      "id": "b-03-259",
+      "category": "professional",
+      "subject": "工作項目03 專業課程",
+      "type": "multi",
+      "stem": "下列哪些不屬於沸騰液體膨脹蒸氣爆炸（BLEVE）？",
+      "options": {
+        "1": "天然氣爆炸",
+        "2": "液化石油氣鋼瓶爆炸",
+        "3": "潤滑油槽爆炸",
+        "4": "柴油槽爆炸"
+      },
+      "answer": [
+        "1",
+        "3",
+        "4"
+      ],
+      "appearances": []
+    },
+    {
+      "id": "b-03-260",
+      "category": "professional",
+      "subject": "工作項目03 專業課程",
+      "type": "multi",
+      "stem": "下列哪些屬應用弱連結之安全設計？",
+      "options": {
+        "1": "警告標示",
+        "2": "鍋爐水位計",
+        "3": "自動撒水滅火系統",
+        "4": "化工儲槽之破裂盤"
+      },
+      "answer": [
+        "3",
+        "4"
+      ],
+      "appearances": [
+        {
+          "year": "108",
+          "session": 1,
+          "no": 64
+        }
+      ]
+    },
+    {
+      "id": "b-03-261",
+      "category": "professional",
+      "subject": "工作項目03 專業課程",
+      "type": "multi",
+      "stem": "事件樹分析較適用於製程的哪些階段？",
+      "options": {
+        "1": "包裝",
+        "2": "基本設計",
+        "3": "細部設計",
+        "4": "試車"
+      },
+      "answer": [
+        "3",
+        "4"
+      ],
+      "appearances": []
+    },
+    {
+      "id": "b-03-262",
+      "category": "professional",
+      "subject": "工作項目03 專業課程",
+      "type": "multi",
+      "stem": "財物損失事故費用涵蓋下列哪些？",
+      "options": {
+        "1": "機械費用",
+        "2": "材料費用",
+        "3": "看護費用",
+        "4": "醫療費用"
+      },
+      "answer": [
+        "1",
+        "2"
+      ],
+      "appearances": []
+    },
+    {
+      "id": "b-03-263",
+      "category": "professional",
+      "subject": "工作項目03 專業課程",
+      "type": "multi",
+      "stem": "下列哪些非化學暴露指數（CEI）所包括的外洩後果因子？",
+      "options": {
+        "1": "立即毒性",
+        "2": "工廠配置",
+        "3": "製程參數",
+        "4": "物質庫存量"
+      },
+      "answer": [
+        "1",
+        "3"
+      ],
+      "appearances": []
+    },
+    {
+      "id": "b-03-264",
+      "category": "professional",
+      "subject": "工作項目03 專業課程",
+      "type": "multi",
+      "stem": "下列哪些災害類型分類項目中為「與有害物等接觸」？",
+      "options": {
+        "1": "機械捲夾",
+        "2": "受帶電體電擊",
+        "3": "一氧化碳中毒",
+        "4": "缺氧"
+      },
+      "answer": [
+        "3",
+        "4"
+      ],
+      "appearances": []
+    },
+    {
+      "id": "b-03-265",
+      "category": "professional",
+      "subject": "工作項目03 專業課程",
+      "type": "multi",
+      "stem": "下列哪些符合布林代數化簡規則？",
+      "options": {
+        "1": "ABAABB＝AB",
+        "2": "AB＋ABC＝ABC",
+        "3": "F＋FG＋FGH＝FH",
+        "4": "FFFGH＝FGH"
+      },
+      "answer": [
+        "1",
+        "4"
+      ],
+      "appearances": [
+        {
+          "year": "115",
+          "session": 1,
+          "no": 70
+        }
+      ]
+    },
+    {
+      "id": "b-03-266",
+      "category": "professional",
+      "subject": "工作項目03 專業課程",
+      "type": "multi",
+      "stem": "下列哪些電氣裝置為避免電路過載所產生之危害？",
+      "options": {
+        "1": "設備接地",
+        "2": "保險絲",
+        "3": "漏電斷路器",
+        "4": "無熔絲開關"
+      },
+      "answer": [
+        "2",
+        "4"
+      ],
+      "appearances": [
+        {
+          "year": "107",
+          "session": 3,
+          "no": 66
+        }
+      ]
+    },
+    {
+      "id": "b-03-267",
+      "category": "professional",
+      "subject": "工作項目03 專業課程",
+      "type": "multi",
+      "stem": "下列哪些適用於衝剪機械安全防護之安全裝置？",
+      "options": {
+        "1": "光電式感應開關",
+        "2": "拉回式裝置",
+        "3": "撐縫片",
+        "4": "雙手操作裝置"
+      },
+      "answer": [
+        "1",
+        "2",
+        "4"
+      ],
+      "appearances": [
+        {
+          "year": "115",
+          "session": 2,
+          "no": 70
+        }
+      ]
+    },
+    {
+      "id": "b-03-268",
+      "category": "professional",
+      "subject": "工作項目03 專業課程",
+      "type": "multi",
+      "stem": "為防止壓力容器超壓而發生危害，可選哪些安全設備防止壓力容器超壓？",
+      "options": {
+        "1": "差壓式流量計",
+        "2": "破裂盤",
+        "3": "自動給水裝置",
+        "4": "安全閥"
+      },
+      "answer": [
+        "2",
+        "4"
+      ],
+      "appearances": []
+    },
+    {
+      "id": "b-03-269",
+      "category": "professional",
+      "subject": "工作項目03 專業課程",
+      "type": "multi",
+      "stem": "雇主對於室內工作場所，應依下列哪些規定設置足夠勞工使用之通道？",
+      "options": {
+        "1": "應有適應其用途之寬度，其主要人行道不得小於1公尺",
+        "2": "各機械間或其他設備間通道不得小於60公分",
+        "3": "自路面起算2公尺高度之範圍內，不得有障礙物，但因工作之必要，經採防護措施者，不在此限",
+        "4": "主要人行道及有關安全門、安全梯應有明顯標示"
+      },
+      "answer": [
+        "1",
+        "3",
+        "4"
+      ],
+      "appearances": [
+        {
+          "year": "108",
+          "session": 1,
+          "no": 61
+        },
+        {
+          "year": "115",
+          "session": 1,
+          "no": 71
+        }
+      ]
+    },
+    {
+      "id": "b-03-270",
+      "category": "professional",
+      "subject": "工作項目03 專業課程",
+      "type": "multi",
+      "stem": "依職業安全衛生設施規則規定，雇主不得以下列哪些情況之鋼索作為起重升降機具之吊掛用具？",
+      "options": {
+        "1": "鋼索一撚間有百分之5以上素線截斷者",
+        "2": "直徑減少達公稱直徑百分之7以上者",
+        "3": "有顯著變形或腐蝕者",
+        "4": "已扭結者"
+      },
+      "answer": [
+        "2",
+        "3",
+        "4"
+      ],
+      "appearances": [
+        {
+          "year": "115",
+          "session": 1,
+          "no": 65
+        }
+      ]
+    },
+    {
+      "id": "b-03-271",
+      "category": "professional",
+      "subject": "工作項目03 專業課程",
+      "type": "multi",
+      "stem": "事業單位向勞動檢查機構申請審查甲類危險性工作場所時，應檢附之資料有哪些?",
+      "options": {
+        "1": "施工計畫書",
+        "2": "製程安全評估報告書",
+        "3": "緊急應變計畫",
+        "4": "安全衛生管理基本資料"
+      },
+      "answer": [
+        "2",
+        "3",
+        "4"
+      ],
+      "appearances": [
+        {
+          "year": "107",
+          "session": 3,
+          "no": 64
+        }
+      ]
+    },
+    {
+      "id": "b-03-272",
+      "category": "professional",
+      "subject": "工作項目03 專業課程",
+      "type": "multi",
+      "stem": "雇主應於機器人顯明易見之位置標示哪些事項？",
+      "options": {
+        "1": "製造者名稱",
+        "2": "機器人外觀尺寸",
+        "3": "型式",
+        "4": "最大可承受外力或力矩"
+      },
+      "answer": [
+        "1",
+        "3"
+      ],
+      "appearances": [
+        {
+          "year": "107",
+          "session": 1,
+          "no": 71
+        }
+      ]
+    },
+    {
+      "id": "b-03-273",
+      "category": "professional",
+      "subject": "工作項目03 專業課程",
+      "type": "multi",
+      "stem": "下列敘述哪些正確？",
+      "options": {
+        "1": "勞工因工作傷害而死亡，其損失日數為600日",
+        "2": "一隻眼睛失能稱為永久全失能",
+        "3": "在一次工作中損失一隻眼睛與一隻手，屬於永久全失能",
+        "4": "可治好之骨骼、肌肉傷害不屬於永久全失能"
+      },
+      "answer": [
+        "3",
+        "4"
+      ],
+      "appearances": []
+    },
+    {
+      "id": "b-03-274",
+      "category": "professional",
+      "subject": "工作項目03 專業課程",
+      "type": "multi",
+      "stem": "某一工廠新設一座吊升荷重為5公噸之固定式起重機，下列哪些非屬該起重機所需之法定檢查？",
+      "options": {
+        "1": "型式檢查",
+        "2": "熔接檢查",
+        "3": "竣工檢查",
+        "4": "使用檢查"
+      },
+      "answer": [
+        "2",
+        "4"
+      ],
+      "appearances": [
+        {
+          "year": "114",
+          "session": 2,
+          "no": 73
+        }
+      ]
+    },
+    {
+      "id": "b-03-275",
+      "category": "professional",
+      "subject": "工作項目03 專業課程",
+      "type": "multi",
+      "stem": "下列哪些為研磨機使用之正確敘述？",
+      "options": {
+        "1": "研磨機之使用不得超過規定之最高使用圓周速度",
+        "2": "研磨輪除側面使用外，不得使用側面進行研磨",
+        "3": "研磨輪使用前無須作業前試運轉，僅需每週檢查1次即可",
+        "4": "研磨輪更換時應先檢驗是否有無裂痕"
+      },
+      "answer": [
+        "1",
+        "2",
+        "4"
+      ],
+      "appearances": []
+    },
+    {
+      "id": "b-03-276",
+      "category": "professional",
+      "subject": "工作項目03 專業課程",
+      "type": "multi",
+      "stem": "下列哪些為操作衝剪機械可能發生之危害？",
+      "options": {
+        "1": "感電",
+        "2": "墜落",
+        "3": "被切、割",
+        "4": "被夾"
+      },
+      "answer": [
+        "1",
+        "3",
+        "4"
+      ],
+      "appearances": [
+        {
+          "year": "108",
+          "session": 1,
+          "no": 66
+        },
+        {
+          "year": "110",
+          "session": 3,
+          "no": 70
+        }
+      ]
+    },
+    {
+      "id": "b-03-277",
+      "category": "professional",
+      "subject": "工作項目03 專業課程",
+      "type": "multi",
+      "stem": "下列哪些為化學性危害因子？",
+      "options": {
+        "1": "局部振動",
+        "2": "噪音",
+        "3": "金屬燻煙",
+        "4": "游離二氧化矽"
+      },
+      "answer": [
+        "3",
+        "4"
+      ],
+      "appearances": [
+        {
+          "year": "115",
+          "session": 1,
+          "no": 69
+        }
+      ]
+    },
+    {
+      "id": "b-03-278",
+      "category": "professional",
+      "subject": "工作項目03 專業課程",
+      "type": "multi",
+      "stem": "下列何者為意外事故原因分析之正確敘述？",
+      "options": {
+        "1": "意外事故之直接原因為個人因素",
+        "2": "意外事故之間接原因為不安全環境與不安全行為",
+        "3": "不安全環境與不安全行為須同時存在時，意外事故方可產生",
+        "4": "不當管理為意外事故發生之潛在原因"
+      },
+      "answer": [
+        "2",
+        "3",
+        "4"
+      ],
+      "appearances": [
+        {
+          "year": "114",
+          "session": 2,
+          "no": 61
+        },
+        {
+          "year": "115",
+          "session": 1,
+          "no": 62
+        }
+      ]
+    },
+    {
+      "id": "b-03-279",
+      "category": "professional",
+      "subject": "工作項目03 專業課程",
+      "type": "multi",
+      "stem": "有關職業安全衛生標示之形狀種類敘述，下列哪些正確？",
+      "options": {
+        "1": "圓形用於禁止",
+        "2": "尖端向上之正三角形用於注意",
+        "3": "尖端向下之正三角形用於警告",
+        "4": "正方形或長方形用於一般說明或提示"
+      },
+      "answer": [
+        "1",
+        "4"
+      ],
+      "appearances": []
+    },
+    {
+      "id": "b-03-280",
+      "category": "professional",
+      "subject": "工作項目03 專業課程",
+      "type": "multi",
+      "stem": "職業安全衛生顧問服務機構之服務類別包括哪些？",
+      "options": {
+        "1": "企業經營管理顧問服務",
+        "2": "勞工健康顧問服務",
+        "3": "暴露評估技術顧問服務",
+        "4": "工業通風技術顧問服務"
+      },
+      "answer": [
+        "2",
+        "3",
+        "4"
+      ],
+      "appearances": [
+        {
+          "year": "115",
+          "session": 2,
+          "no": 77
+        }
+      ]
+    },
+    {
+      "id": "b-03-281",
+      "category": "professional",
+      "subject": "工作項目03 專業課程",
+      "type": "multi",
+      "stem": "依職業安全衛生設施規則規定，雇主對於下列哪些使用之電氣設備，應依用戶用電設備裝置規則規定，實施接地之低壓用電器具及其配線？",
+      "options": {
+        "1": "低壓電動機之外殼",
+        "2": "金屬導線管及其連接之金屬箱",
+        "3": "對地電壓超過150伏特之其他固定式用電器具",
+        "4": "對地電壓超過150伏特二重絕緣移動式用電器具"
+      },
+      "answer": [
+        "1",
+        "2",
+        "3"
+      ],
+      "appearances": []
+    },
+    {
+      "id": "b-03-282",
+      "category": "professional",
+      "subject": "工作項目03 專業課程",
+      "type": "multi",
+      "stem": "依職業安全衛生設施規則規定，對於下列哪些設備因靜電引起爆炸或火災之虞者，應採取接地之裝置？",
+      "options": {
+        "1": "灌注、卸收危險物於槽車、儲槽、容器等之設備",
+        "2": "收存危險物之槽車、儲槽、容器等設備",
+        "3": "塗敷含有易燃液體之塗料、粘接劑等之設備",
+        "4": "非可燃性粉狀固體輸送、篩分等之設備"
+      },
+      "answer": [
+        "1",
+        "2",
+        "3"
+      ],
+      "appearances": []
+    },
+    {
+      "id": "b-03-283",
+      "category": "professional",
+      "subject": "工作項目03 專業課程",
+      "type": "multi",
+      "stem": "三用電表可量測下列哪些電氣參數？",
+      "options": {
+        "1": "低電壓",
+        "2": "歐姆電阻值",
+        "3": "低電流",
+        "4": "高電壓"
+      },
+      "answer": [
+        "1",
+        "2",
+        "3"
+      ],
+      "appearances": []
+    },
+    {
+      "id": "b-03-284",
+      "category": "professional",
+      "subject": "工作項目03 專業課程",
+      "type": "multi",
+      "stem": "某日因勞工從事鍋爐操作之相關作業時，鍋爐之定時自動控制器損壞，進氣鼓風機未啟動以引入新鮮空氣，使鍋爐之燃料（天然氣）燃燒不完全產生一氧化碳滯留室內，且未於鍋爐房設置其他排除一氧化碳措施，致一氧化碳逐漸擴散至游泳池區濃度超過容許濃度，發生勞工5人一氧化碳中毒受傷，則鍋爐之自動控制裝置中，系統安全與失控反應控制，如就鍋爐之自動控制器，採用系統安全分析方法檢核（封閉式檢核表），於上述職災有關者，應有下列哪些檢查項目？",
+      "options": {
+        "1": "自動起動停止裝置機能",
+        "2": "亮度檢出裝置",
+        "3": "燃料切斷裝置",
+        "4": "水質檢測裝置"
+      },
+      "answer": [
+        "1",
+        "3"
+      ],
+      "appearances": []
+    },
+    {
+      "id": "b-03-285",
+      "category": "professional",
+      "subject": "工作項目03 專業課程",
+      "type": "multi",
+      "stem": "依鍋爐及壓力容器安全規則規定，雇主應使鍋爐操作人員實施下列哪些事項？",
+      "options": {
+        "1": "監視風速、風量狀態等運轉動態",
+        "2": "避免發生急劇負荷變動之現象",
+        "3": "防止壓力上升超過最高使用壓力",
+        "4": "保持壓力表、安全閥及其他安全裝置之機能正常"
+      },
+      "answer": [
+        "2",
+        "3",
+        "4"
+      ],
+      "appearances": [
+        {
+          "year": "115",
+          "session": 1,
+          "no": 72
+        }
+      ]
+    },
+    {
+      "id": "b-03-286",
+      "category": "professional",
+      "subject": "工作項目03 專業課程",
+      "type": "multi",
+      "stem": "依職業安全衛生設施規則及用戶用電設備裝置規則規定，下列哪些場所使用之電氣設備，須設置防止感電用漏電斷路器？",
+      "options": {
+        "1": "陸橋用電設備",
+        "2": "建築之臨時用電設備",
+        "3": "養魚池用電設備",
+        "4": "在絕緣台上使用之電動機具"
+      },
+      "answer": [
+        "1",
+        "2",
+        "3"
+      ],
+      "appearances": [
+        {
+          "year": "115",
+          "session": 2,
+          "no": 69
+        }
+      ]
+    },
+    {
+      "id": "b-03-287",
+      "category": "professional",
+      "subject": "工作項目03 專業課程",
+      "type": "multi",
+      "stem": "為防止作業環境空氣中可能存有污染物經由呼吸器官進入人體造成傷害，作業人員應依其特性選用有效呼吸防護具，一般可分為",
+      "options": {
+        "1": "防塵口罩",
+        "2": "濾毒罐型面罩",
+        "3": "供氣型面罩",
+        "4": "自供式面罩"
+      },
+      "answer": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "appearances": []
+    },
+    {
+      "id": "b-03-288",
+      "category": "professional",
+      "subject": "工作項目03 專業課程",
+      "type": "multi",
+      "stem": "一般火災之形成須燃燒4要素同時存在方能持續進行，為能有效滅火一般可分為下列哪些方法？",
+      "options": {
+        "1": "窒息法",
+        "2": "隔離法",
+        "3": "冷卻法",
+        "4": "抑制法"
+      },
+      "answer": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "appearances": []
+    },
+    {
+      "id": "b-03-289",
+      "category": "professional",
+      "subject": "工作項目03 專業課程",
+      "type": "multi",
+      "stem": "依人因工程學角度，下列哪些設計對象，適合極大尺寸設計原則？",
+      "options": {
+        "1": "門高",
+        "2": "逃生艙大小",
+        "3": "人孔大小",
+        "4": "收銀台高度"
+      },
+      "answer": [
+        "1",
+        "2",
+        "3"
+      ],
+      "appearances": [
+        {
+          "year": "115",
+          "session": 2,
+          "no": 67
+        }
+      ]
+    },
+    {
+      "id": "b-03-290",
+      "category": "professional",
+      "subject": "工作項目03 專業課程",
+      "type": "multi",
+      "stem": "下列哪些為吸音材料之特性？",
+      "options": {
+        "1": "質量輕",
+        "2": "多孔性",
+        "3": "可減少反射音能",
+        "4": "質量重且減少音能傳送"
+      },
+      "answer": [
+        "1",
+        "2",
+        "3"
+      ],
+      "appearances": [
+        {
+          "year": "115",
+          "session": 1,
+          "no": 64
+        }
+      ]
+    },
+    {
+      "id": "b-03-291",
+      "category": "professional",
+      "subject": "工作項目03 專業課程",
+      "type": "multi",
+      "stem": "弱聯結安全設計為災害防止損失控制方法之一，下列哪些屬弱聯結安全設計之損失控制方法？",
+      "options": {
+        "1": "護圍",
+        "2": "壓力容器之安全閥",
+        "3": "玻璃管受熱破裂之自動灑水滅火系統",
+        "4": "電氣迴路之熔絲"
+      },
+      "answer": [
+        "2",
+        "3",
+        "4"
+      ],
+      "appearances": []
+    },
+    {
+      "id": "b-03-292",
+      "category": "professional",
+      "subject": "工作項目03 專業課程",
+      "type": "multi",
+      "stem": "隔離為災害防止理論方法之一，下列哪些屬隔離之損失控制方法？",
+      "options": {
+        "1": "穿戴防護衣或裝備，防止環境危害造成之傷害",
+        "2": "密閉電子設備裝置，防止濕氣損壞或腐蝕該電子裝置",
+        "3": "加入稀釋劑於爆炸性物質中，減少爆炸之危害",
+        "4": "使用低電壓，避免感電危害"
+      },
+      "answer": [
+        "1",
+        "2"
+      ],
+      "appearances": []
+    },
+    {
+      "id": "b-03-293",
+      "category": "professional",
+      "subject": "工作項目03 專業課程",
+      "type": "multi",
+      "stem": "減少危害為災害防止理論方法之一，下列哪些屬減少危害之損失控制方法？",
+      "options": {
+        "1": "提供過流（overflow）裝置，防止液面過高",
+        "2": "使用隔音裝置，將噪音局限於密閉空間",
+        "3": "加入稀釋劑於爆炸性物質中，減少爆炸之危害",
+        "4": "使用低電壓，避免感電危害方法"
+      },
+      "answer": [
+        "1",
+        "3",
+        "4"
+      ],
+      "appearances": []
+    },
+    {
+      "id": "b-03-294",
+      "category": "professional",
+      "subject": "工作項目03 專業課程",
+      "type": "multi",
+      "stem": "員工是企業的重要資產，上市（櫃）公司在追求營運成長、股東權益最大化之際，應同時關注員工權益，提供合理、穩定、良好的薪酬制度及員工福利，可增加員工向心力與勞資和諧，真正落實公司治理及企業社會責任。政府鼓勵上市櫃公司適當合理調整員工薪資，以促進薪資成長及改善所得分配，並達到留才及提高企業競爭力之效。其重要執行措施",
+      "options": {
+        "1": "加強揭露員工薪資資訊",
+        "2": "辦理「公司治理評鑑」",
+        "3": "編製「臺灣高薪100指數」",
+        "4": "開辦農業保險"
+      },
+      "answer": [
+        "1",
+        "2",
+        "3"
+      ],
+      "appearances": [
+        {
+          "year": "114",
+          "session": 3,
+          "no": 70
+        },
+        {
+          "year": "115",
+          "session": 2,
+          "no": 80
+        }
+      ]
+    },
+    {
+      "id": "b-03-295",
+      "category": "professional",
+      "subject": "工作項目03 專業課程",
+      "type": "multi",
+      "stem": "2022年3月1日蔡英文總統會見八大工商團體理事長，政府有決心達成2050淨零轉型目標，和業界密切合作落實ESG，協助企業邁向淨零轉型。其中ESG係指下列哪些主題？",
+      "options": {
+        "1": "環境",
+        "2": "社會",
+        "3": "治理",
+        "4": "可持續性"
+      },
+      "answer": [
+        "1",
+        "2",
+        "3"
+      ],
+      "appearances": [
+        {
+          "year": "115",
+          "session": 1,
+          "no": 63
+        }
+      ]
+    },
+    {
+      "id": "b-03-296",
+      "category": "professional",
+      "subject": "工作項目03 專業課程",
+      "type": "multi",
+      "stem": "國際勞工組織（ILO）於1964年提出之第一百二十一號「職業傷害給付公約」，揭櫫遭逢職業災害勞工後續補償制度應有下列哪些設計？",
+      "options": {
+        "1": "結合重建及事前預防",
+        "2": "依該遭遇職業災害勞工之需求提供復健服務",
+        "3": "協助其重返原工作",
+        "4": "代位司法訴訟"
+      },
+      "answer": [
+        "1",
+        "2",
+        "3"
+      ],
+      "appearances": []
+    },
+    {
+      "id": "b-03-297",
+      "category": "professional",
+      "subject": "工作項目03 專業課程",
+      "type": "multi",
+      "stem": "依勞工職業災害保險及保護法之規定，主管機關應規劃整合相關資源，並得運用保險人核定本保險相關資料，依職業災害勞工之需求，提供下列哪些適切之重建服務事項？",
+      "options": {
+        "1": "醫療復健：協助職業災害勞工恢復其生理心理功能所提供之診治及療養，回復正常生活",
+        "2": "社會復健：促進職業災害勞工與其家屬心理支持、社會適應、福利諮詢、權益維護及保障",
+        "3": "職能復健：透過職能評估、強化訓練及復工協助等，協助職業災害勞工提升工作能力恢復原工作",
+        "4": "職業重建：提供職業輔導評量、職業訓練、就業服務、職務再設計、創業輔導、促進就業措施及其他職業重建服務，協助職業災害勞工重返職場"
+      },
+      "answer": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "appearances": [
+        {
+          "year": "115",
+          "session": 2,
+          "no": 73
+        }
+      ]
+    },
+    {
+      "id": "b-03-298",
+      "category": "professional",
+      "subject": "工作項目03 專業課程",
+      "type": "multi",
+      "stem": "依勞動部職業安全衛生署所訂「職業因素引起嚴重特殊傳染性肺炎（COVID-19）認定參考指引」稱職業暴露，符合下列任一條件而判斷為職業暴露？",
+      "options": {
+        "1": "職場群聚事件",
+        "2": "職場暴露風險為高風險者",
+        "3": "工作中密切接觸確診者",
+        "4": "工作以外明確感染源者"
+      },
+      "answer": [
+        "1",
+        "2",
+        "3"
+      ],
+      "appearances": [
+        {
+          "year": "114",
+          "session": 2,
+          "no": 64
+        }
+      ]
+    },
+    {
+      "id": "b-03-299",
+      "category": "professional",
+      "subject": "工作項目03 專業課程",
+      "type": "multi",
+      "stem": "依製程安全評估定期實施辦法之規定，事業單位工作場所發生下列哪些情事者，應檢討並修正其製程安全評估報告後，留存備查？",
+      "options": {
+        "1": "職業安全衛生法第37條第2項規定之職業災害",
+        "2": "火災、爆炸、有害氣體洩漏",
+        "3": "其他認有製程風險之情形",
+        "4": "不影響製程之設施之同型替換"
+      },
+      "answer": [
+        "1",
+        "2",
+        "3"
+      ],
+      "appearances": [
+        {
+          "year": "114",
+          "session": 2,
+          "no": 68
+        },
+        {
+          "year": "115",
+          "session": 2,
+          "no": 76
+        }
+      ]
+    },
+    {
+      "id": "b-03-300",
+      "category": "professional",
+      "subject": "工作項目03 專業課程",
+      "type": "multi",
+      "stem": "緊急應變計畫之訂定應依據製程安全評估之結果，另蒐集分析工作場所之情境（Scenarios）與資料，可有效預防高風險危害，降低事故發生之可能性，其規定於職業安全衛生相關法規，包含下列哪些？",
+      "options": {
+        "1": "職業安全衛生法施行細則第31條職業安全衛生管理計畫包括緊急應變措施",
+        "2": "職業安全衛生設施規則第286條雇主應依工作場所之危害性，設置必要之職業災害搶救器材",
+        "3": "職業安全衛生管理辦法第12條應依事業單位之潛在風險，訂定緊急狀況預防、準備及應變之計畫，並定期實施演練",
+        "4": "職業安全衛生法第32條雇主對勞工應施以從事工作及預防災變所必要之安全衛生教育及訓練"
+      },
+      "answer": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "appearances": []
+    },
+    {
+      "id": "b-03-301",
+      "category": "professional",
+      "subject": "工作項目03 專業課程",
+      "type": "multi",
+      "stem": "在緊急應變事故區域管制擬訂時，一般管制區域分為災區（HotZone）、警戒區（WarmZone，化災稱除污區）與安全區（ColdZone）。若為化學品洩漏事故，應結合毒性、物性、化性、火災爆炸特性、洩漏量、洩漏濃度、氣流、地形等外在條件，預估疏散距離及管制區域。應變時應如何擬定符合事業單位需求之事故區域管制建議值？",
+      "options": {
+        "1": "參考危害性化學品後果分析",
+        "2": "運用擴散模擬資料",
+        "3": "配合現場區域圖",
+        "4": "由應變指揮中心與地方政府決定"
+      },
+      "answer": [
+        "1",
+        "2",
+        "3"
+      ],
+      "appearances": [
+        {
+          "year": "114",
+          "session": 2,
+          "no": 79
+        },
+        {
+          "year": "114",
+          "session": "2颱風延期考區",
+          "no": 70
+        }
+      ]
+    },
+    {
+      "id": "b-03-302",
+      "category": "professional",
+      "subject": "工作項目03 專業課程",
+      "type": "multi",
+      "stem": "對於職業災害勞工於身心障礙者權利公約（CRPD）第26條適應訓練與復健及第27條工作與就業，國家應如何進行？",
+      "options": {
+        "1": "應組織、加強與擴展完整之適應訓練、復健服務及方案",
+        "2": "促進身心障礙者之職業與專業重建，保留工作和重返工作方案",
+        "3": "應推廣為身心障礙者設計之輔具與科技之可及性、知識及運用",
+        "4": "確保於工作場所為身心障礙者提供合理調整"
+      },
+      "answer": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "appearances": []
+    },
+    {
+      "id": "b-03-303",
+      "category": "professional",
+      "subject": "工作項目03 專業課程",
+      "type": "multi",
+      "stem": "某鋼索規格標示6*37，依職業安全衛生設施規則規定，該鋼索一撚間有多少素線截斷者，不得作為起重升降機具吊掛用具之吊掛鋼索？",
+      "options": {
+        "1": "21",
+        "2": "22",
+        "3": "23",
+        "4": "24"
+      },
+      "answer": [
+        "3",
+        "4"
+      ],
+      "appearances": [
+        {
+          "year": "113",
+          "session": 2,
+          "no": 63
+        }
+      ]
+    },
+    {
+      "id": "s-107-1-002",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "single",
+      "stem": "依職業安全衛生管理辦法之規定，僱用勞工人數多少人以上之事業單位，雇主除應依規模、特性訂出職業安全衛生管理計畫外，另應訂定職業安全衛生管理規章要求各級主管及管理、指揮、監督有關人員執行？",
+      "options": {
+        "1": "30",
+        "2": "100",
+        "3": "200",
+        "4": "50"
+      },
+      "answer": [
+        "2"
+      ],
+      "appearances": [
+        {
+          "year": "107",
+          "session": 1,
+          "no": 2
+        },
+        {
+          "year": "110",
+          "session": 1,
+          "no": 33
+        }
+      ]
+    },
+    {
+      "id": "s-107-1-006",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "single",
+      "stem": "對於核計勞工所得有無低於基本工資，下列敘述何者有誤？",
+      "options": {
+        "1": "應計入加班費",
+        "2": "不計入休假日出勤加給之工資",
+        "3": "僅計入在正常工時內之報酬",
+        "4": "不計入競賽獎金"
+      },
+      "answer": [
+        "1"
+      ],
+      "appearances": [
+        {
+          "year": "107",
+          "session": 1,
+          "no": 6
+        },
+        {
+          "year": "112",
+          "session": 3,
+          "no": 48
+        }
+      ]
+    },
+    {
+      "id": "s-107-1-010",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "single",
+      "stem": "鍋爐管線未有溫度隔離包覆而使勞工灼傷，屬於下列何項因素所引起之職業傷害？",
+      "options": {
+        "1": "設備",
+        "2": "人為",
+        "3": "政策",
+        "4": "成本"
+      },
+      "answer": [
+        "1"
+      ],
+      "appearances": [
+        {
+          "year": "107",
+          "session": 1,
+          "no": 10
+        }
+      ]
+    },
+    {
+      "id": "s-107-1-016",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "single",
+      "stem": "甲君為獲取乙級技術士技能檢定證照，行賄打點監評人員要求放水之行為，可能構成何罪？",
+      "options": {
+        "1": "詐欺罪",
+        "2": "違背職務行賄罪",
+        "3": "不違背職務行賄罪",
+        "4": "背信罪"
+      },
+      "answer": [
+        "2"
+      ],
+      "appearances": [
+        {
+          "year": "107",
+          "session": 1,
+          "no": 16
+        }
+      ]
+    },
+    {
+      "id": "s-107-1-017",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "single",
+      "stem": "苯為危害性化學品標示及通識規則中所稱之有害物及下列何種危害物質？",
+      "options": {
+        "1": "爆炸性物質",
+        "2": "易燃液體",
+        "3": "自燃物質",
+        "4": "禁水性物質"
+      },
+      "answer": [
+        "2"
+      ],
+      "appearances": [
+        {
+          "year": "107",
+          "session": 1,
+          "no": 17
+        },
+        {
+          "year": "107",
+          "session": 2,
+          "no": 60
+        }
+      ]
+    },
+    {
+      "id": "s-107-1-018",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "single",
+      "stem": "防止靜電危害對策，下列何者不正確？",
+      "options": {
+        "1": "加濕或游離化",
+        "2": "接地疏導",
+        "3": "抑制靜電產生",
+        "4": "使用絕緣性之材料"
+      },
+      "answer": [
+        "4"
+      ],
+      "appearances": [
+        {
+          "year": "107",
+          "session": 1,
+          "no": 18
+        },
+        {
+          "year": "111",
+          "session": 1,
+          "no": 1
+        }
+      ]
+    },
+    {
+      "id": "s-107-1-019",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "single",
+      "stem": "事業單位勞動場所發生死亡職業災害時，雇主應於多少小時內通報勞動檢查機構？",
+      "options": {
+        "1": "8",
+        "2": "12",
+        "3": "24",
+        "4": "48"
+      },
+      "answer": [
+        "1"
+      ],
+      "appearances": [
+        {
+          "year": "107",
+          "session": 1,
+          "no": 19
+        },
+        {
+          "year": "108",
+          "session": 3,
+          "no": 40
+        }
+      ]
+    },
+    {
+      "id": "s-107-1-022",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "single",
+      "stem": "下列何者非屬電氣之絕緣材料？",
+      "options": {
+        "1": "氟氯烷",
+        "2": "漂白水",
+        "3": "空氣",
+        "4": "絕緣油"
+      },
+      "answer": [
+        "2"
+      ],
+      "appearances": [
+        {
+          "year": "107",
+          "session": 1,
+          "no": 22
+        },
+        {
+          "year": "108",
+          "session": 2,
+          "no": 60
+        }
+      ]
+    },
+    {
+      "id": "s-107-1-025",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "single",
+      "stem": "小狗在道路或其他公共場所便溺時，應由何人負責清除？",
+      "options": {
+        "1": "警察",
+        "2": "主人",
+        "3": "土地所有權人",
+        "4": "清潔隊"
+      },
+      "answer": [
+        "2"
+      ],
+      "appearances": [
+        {
+          "year": "107",
+          "session": 1,
+          "no": 25
+        }
+      ]
+    },
+    {
+      "id": "s-107-1-026",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "single",
+      "stem": "二手菸中包含多種危害人體的化學物質，甚至多種物質有致癌性，會危害到下列何者的健康？",
+      "options": {
+        "1": "只對12歲以下孩童有影響",
+        "2": "只對孕婦比較有影響",
+        "3": "只有65歲以上之民眾有影響",
+        "4": "全民皆有影響"
+      },
+      "answer": [
+        "4"
+      ],
+      "appearances": [
+        {
+          "year": "107",
+          "session": 1,
+          "no": 26
+        },
+        {
+          "year": "110",
+          "session": 1,
+          "no": 36
+        }
+      ]
+    },
+    {
+      "id": "s-107-1-030",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "single",
+      "stem": "身為專業人員，在服務客戶時穿著的服裝要",
+      "options": {
+        "1": "注重個性，追逐潮流",
+        "2": "隨個人方便，高興就好",
+        "3": "合乎公司要求及安全衛生規定",
+        "4": "講求品味，引人注目"
+      },
+      "answer": [
+        "3"
+      ],
+      "appearances": [
+        {
+          "year": "107",
+          "session": 1,
+          "no": 30
+        }
+      ]
+    },
+    {
+      "id": "s-107-1-032",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "single",
+      "stem": "有關承攬管理責任，下列敘述何者正確？",
+      "options": {
+        "1": "原事業單位交付承攬，不需負連帶補償責任",
+        "2": "勞工投保單位即為職業災害之賠償單位",
+        "3": "原事業單位交付廠商承攬，如不幸發生承攬廠商所僱勞工墜落致死職業災害，原事業單位應與承攬廠商負連帶補償責任",
+        "4": "承攬廠商應自負職業災害之賠償責任"
+      },
+      "answer": [
+        "3"
+      ],
+      "appearances": [
+        {
+          "year": "107",
+          "session": 1,
+          "no": 32
+        }
+      ]
+    },
+    {
+      "id": "s-107-1-034",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "single",
+      "stem": "依職業安全衛生管理辦法規定，職業安全衛生人員離職，應向那個單位報備？",
+      "options": {
+        "1": "當地警察局",
+        "2": "當地勞動檢查機構",
+        "3": "同業公會",
+        "4": "當地縣（市）政府"
+      },
+      "answer": [
+        "2"
+      ],
+      "appearances": [
+        {
+          "year": "107",
+          "session": 1,
+          "no": 34
+        },
+        {
+          "year": "107",
+          "session": 2,
+          "no": 26
+        },
+        {
+          "year": "110",
+          "session": 1,
+          "no": 59
+        },
+        {
+          "year": "110",
+          "session": 3,
+          "no": 19
+        },
+        {
+          "year": "112",
+          "session": 1,
+          "no": 42
+        },
+        {
+          "year": "112",
+          "session": 3,
+          "no": 23
+        }
+      ]
+    },
+    {
+      "id": "s-107-1-035",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "single",
+      "stem": "如果馬桶有不正常的漏水問題，下列何者處理方式是錯誤的？",
+      "options": {
+        "1": "因為馬桶還能正常使用，所以不用著急，等到不能用時再報修即可",
+        "2": "滴幾滴食用色素到水箱裡，檢查有無有色水流進馬桶，代表可能有漏水",
+        "3": "立刻檢查馬桶水箱零件有無鬆脫，並確認有無漏水",
+        "4": "通知水電行或檢修人員來檢修，徹底根絕漏水問題"
+      },
+      "answer": [
+        "1"
+      ],
+      "appearances": [
+        {
+          "year": "107",
+          "session": 1,
+          "no": 35
+        },
+        {
+          "year": "107",
+          "session": 2,
+          "no": 40
+        },
+        {
+          "year": "108",
+          "session": 2,
+          "no": 25
+        },
+        {
+          "year": "110",
+          "session": 2,
+          "no": 30
+        }
+      ]
+    },
+    {
+      "id": "s-107-1-039",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "single",
+      "stem": "依高壓氣體勞工安全規則規定，高壓氣體貯存區周圍在多少公尺內不得放置有煙火或放置危險物質？",
+      "options": {
+        "1": "5",
+        "2": "2",
+        "3": "4",
+        "4": "3"
+      },
+      "answer": [
+        "2"
+      ],
+      "appearances": [
+        {
+          "year": "107",
+          "session": 1,
+          "no": 39
+        }
+      ]
+    },
+    {
+      "id": "s-107-1-046",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "single",
+      "stem": "某公司員工執行職務時，應具備下列哪一項觀念？",
+      "options": {
+        "1": "舉報不法可能導致工作不保，應三思而後行",
+        "2": "當雇主的利益與公共利益相衝突時，即使違反法令也要以雇主利益優先",
+        "3": "若懷疑有違反公共利益之不法情事，應向權責機關檢舉",
+        "4": "基於對職務倫理的尊重，雇主的指示即使不當，也要盡力做好"
+      },
+      "answer": [
+        "3"
+      ],
+      "appearances": [
+        {
+          "year": "107",
+          "session": 1,
+          "no": 46
+        }
+      ]
+    },
+    {
+      "id": "s-107-1-048",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "single",
+      "stem": "依職業安全衛生管理辦法規定，職業安全衛生委員會至少應每幾個月開會1次？",
+      "options": {
+        "1": "1",
+        "2": "2",
+        "3": "4",
+        "4": "3"
+      },
+      "answer": [
+        "4"
+      ],
+      "appearances": [
+        {
+          "year": "107",
+          "session": 1,
+          "no": 48
+        },
+        {
+          "year": "108",
+          "session": 1,
+          "no": 42
+        },
+        {
+          "year": "109",
+          "session": 1,
+          "no": 30
+        },
+        {
+          "year": "110",
+          "session": 1,
+          "no": 4
+        },
+        {
+          "year": "111",
+          "session": 1,
+          "no": 46
+        },
+        {
+          "year": "111",
+          "session": 3,
+          "no": 50
+        },
+        {
+          "year": "112",
+          "session": 1,
+          "no": 4
+        }
+      ]
+    },
+    {
+      "id": "s-107-1-050",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "single",
+      "stem": "依職業安全衛生法規定，安全衛生工作守則訂定後，下列何種程序為正確？",
+      "options": {
+        "1": "應報經勞動檢查機構備查",
+        "2": "應報警察機關備查",
+        "3": "經雇主核定後實施",
+        "4": "應報經地方主管機關備查"
+      },
+      "answer": [
+        "1"
+      ],
+      "appearances": [
+        {
+          "year": "107",
+          "session": 1,
+          "no": 50
+        },
+        {
+          "year": "110",
+          "session": 2,
+          "no": 50
+        },
+        {
+          "year": "111",
+          "session": 1,
+          "no": 27
+        },
+        {
+          "year": "113",
+          "session": 1,
+          "no": 56
+        }
+      ]
+    },
+    {
+      "id": "s-107-1-051",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "single",
+      "stem": "依職業安全衛生管理辦法規定，第一類事業單位勞工人數在幾人以上者，應參照中央主管機關所定之職業安全衛生管理系統指引，建置適合該事業單位之職業安全衛生管理系統？",
+      "options": {
+        "1": "200",
+        "2": "500",
+        "3": "300",
+        "4": "100"
+      },
+      "answer": [
+        "1"
+      ],
+      "appearances": [
+        {
+          "year": "107",
+          "session": 1,
+          "no": 51
+        },
+        {
+          "year": "107",
+          "session": 2,
+          "no": 17
+        },
+        {
+          "year": "109",
+          "session": 2,
+          "no": 53
+        }
+      ]
+    },
+    {
+      "id": "s-107-1-053",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "single",
+      "stem": "目前電費單中，係以「度」為收費依據，請問下列何者為其單位？",
+      "options": {
+        "1": "kJh",
+        "2": "kJ",
+        "3": "kWh",
+        "4": "kW"
+      },
+      "answer": [
+        "3"
+      ],
+      "appearances": [
+        {
+          "year": "107",
+          "session": 1,
+          "no": 53
+        }
+      ]
+    },
+    {
+      "id": "s-107-1-056",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "single",
+      "stem": "哪一種氣體造成臭氧層被嚴重的破壞？",
+      "options": {
+        "1": "二氧化硫",
+        "2": "氮氧化合物",
+        "3": "二氧化碳",
+        "4": "氟氯碳化物"
+      },
+      "answer": [
+        "4"
+      ],
+      "appearances": [
+        {
+          "year": "107",
+          "session": 1,
+          "no": 56
+        },
+        {
+          "year": "107",
+          "session": 2,
+          "no": 54
+        }
+      ]
+    },
+    {
+      "id": "s-107-1-057",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "single",
+      "stem": "依危險性機械及設備安全檢查規則規定，高壓氣體容器在下列何種檢查合格後，即可發檢查合格證？",
+      "options": {
+        "1": "型式檢查",
+        "2": "構造檢查",
+        "3": "使用檢查",
+        "4": "熔接檢查"
+      },
+      "answer": [
+        "2"
+      ],
+      "appearances": [
+        {
+          "year": "107",
+          "session": 1,
+          "no": 57
+        }
+      ]
+    },
+    {
+      "id": "s-107-1-060",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "single",
+      "stem": "下列何種方式有助於節省洗衣機的用水量？",
+      "options": {
+        "1": "洗濯衣物時盡量選擇高水位才洗的乾淨",
+        "2": "洗衣機洗滌的衣物盡量裝滿，一次洗完",
+        "3": "無需將衣物適當分類",
+        "4": "購買洗衣機時選購有省水標章的洗衣機，可有效節約用水"
+      },
+      "answer": [
+        "4"
+      ],
+      "appearances": [
+        {
+          "year": "107",
+          "session": 1,
+          "no": 60
+        }
+      ]
+    },
+    {
+      "id": "s-107-1-061",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "multi",
+      "stem": "事件樹分析較適用於製程的那一個階段？",
+      "options": {
+        "1": "試車",
+        "2": "基本設計",
+        "3": "細部設計",
+        "4": "包裝"
+      },
+      "answer": [
+        "1",
+        "3"
+      ],
+      "appearances": [
+        {
+          "year": "107",
+          "session": 1,
+          "no": 61
+        },
+        {
+          "year": "107",
+          "session": 3,
+          "no": 67
+        }
+      ]
+    },
+    {
+      "id": "s-107-1-063",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "multi",
+      "stem": "安全資料表中，純物質之成分辨識資料，應涵蓋下列何項？",
+      "options": {
+        "1": "中文名稱",
+        "2": "同義名稱",
+        "3": "化學文摘社登錄號碼",
+        "4": "容許濃度"
+      },
+      "answer": [
+        "2",
+        "3"
+      ],
+      "appearances": [
+        {
+          "year": "107",
+          "session": 1,
+          "no": 63
+        }
+      ]
+    },
+    {
+      "id": "s-107-1-065",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "multi",
+      "stem": "下列有關可燃性氣體或其混合蒸氣場所之電氣防爆對策，何者正確？",
+      "options": {
+        "1": "電氣機具之金屬外箱、機架、保護罩、導線管應確實接地",
+        "2": "應用防爆型電風扇",
+        "3": "使用行動電話是不影響安全的",
+        "4": "盡量避免使用電氣機具，而以空氣驅動之機械取代電動機具"
+      },
+      "answer": [
+        "1",
+        "2",
+        "4"
+      ],
+      "appearances": [
+        {
+          "year": "107",
+          "session": 1,
+          "no": 65
+        },
+        {
+          "year": "107",
+          "session": 3,
+          "no": 65
+        }
+      ]
+    },
+    {
+      "id": "s-107-1-067",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "multi",
+      "stem": "高壓氣體勞工安全規則不適用於下列何種高壓氣體？",
+      "options": {
+        "1": "冷凍能力在3公噸以上之冷凍設備內之高壓氣體",
+        "2": "船舶設備內使用之高壓氣體",
+        "3": "高壓鍋爐及其導管內之高壓蒸氣",
+        "4": "原子能設施內使用之高壓氣體"
+      },
+      "answer": [
+        "2",
+        "3",
+        "4"
+      ],
+      "appearances": [
+        {
+          "year": "107",
+          "session": 1,
+          "no": 67
+        }
+      ]
+    },
+    {
+      "id": "s-107-1-068",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "multi",
+      "stem": "依職業安全衛生法施行細則規定，下列何者屬安全衛生工作守則的內容？",
+      "options": {
+        "1": "急救與搶救",
+        "2": "訪客注意要點",
+        "3": "工作安全及衛生標準",
+        "4": "事業單位之安全衛生管理及各級之權責"
+      },
+      "answer": [
+        "1",
+        "3",
+        "4"
+      ],
+      "appearances": [
+        {
+          "year": "107",
+          "session": 1,
+          "no": 68
+        }
+      ]
+    },
+    {
+      "id": "s-107-1-070",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "multi",
+      "stem": "依危險性機械及設備安全檢查規則規定，第一種壓力容器在下列何種情形需申請重新檢查？",
+      "options": {
+        "1": "從國外進口者",
+        "2": "補強支撐有變動者",
+        "3": "遷移裝置地點而重新裝設者",
+        "4": "經禁止使用擬恢復使用者"
+      },
+      "answer": [
+        "1",
+        "3",
+        "4"
+      ],
+      "appearances": [
+        {
+          "year": "107",
+          "session": 1,
+          "no": 70
+        },
+        {
+          "year": "107",
+          "session": 3,
+          "no": 61
+        }
+      ]
+    },
+    {
+      "id": "s-107-1-072",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "multi",
+      "stem": "實務上，製程安全管理不包括下列何者？",
+      "options": {
+        "1": "勞工健康保護",
+        "2": "教育訓練",
+        "3": "緊急應變",
+        "4": "勞工身心健康促進"
+      },
+      "answer": [
+        "1",
+        "4"
+      ],
+      "appearances": [
+        {
+          "year": "107",
+          "session": 1,
+          "no": 72
+        }
+      ]
+    },
+    {
+      "id": "s-107-1-073",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "multi",
+      "stem": "下列那些人係由雇主指定之職業安全衛生委員會之人員？",
+      "options": {
+        "1": "事業內各部門之主管",
+        "2": "工會人員",
+        "3": "職業安全衛生人員",
+        "4": "總務人員"
+      },
+      "answer": [
+        "1",
+        "3"
+      ],
+      "appearances": [
+        {
+          "year": "107",
+          "session": 1,
+          "no": 73
+        }
+      ]
+    },
+    {
+      "id": "s-107-1-074",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "multi",
+      "stem": "安全資料表應包含下列何種資訊？",
+      "options": {
+        "1": "成本資料",
+        "2": "化學製程的描述",
+        "3": "腐蝕性資料",
+        "4": "容許暴露濃度"
+      },
+      "answer": [
+        "3",
+        "4"
+      ],
+      "appearances": [
+        {
+          "year": "107",
+          "session": 1,
+          "no": 74
+        }
+      ]
+    },
+    {
+      "id": "s-107-1-075",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "multi",
+      "stem": "防止酸、鹼、化學品傷害皮膚之職業衛生防護手套，下列何者為較適合材質？",
+      "options": {
+        "1": "棉布",
+        "2": "合成纖維",
+        "3": "皮革",
+        "4": "天然橡膠"
+      },
+      "answer": [
+        "2",
+        "4"
+      ],
+      "appearances": [
+        {
+          "year": "107",
+          "session": 1,
+          "no": 75
+        },
+        {
+          "year": "107",
+          "session": 2,
+          "no": 70
+        }
+      ]
+    },
+    {
+      "id": "s-107-1-076",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "multi",
+      "stem": "下列何者為研磨機使用之正確敘述？",
+      "options": {
+        "1": "研磨輪更換時應先檢驗是否有無裂痕",
+        "2": "研磨機之使用不得超過規定之最高使用圓周速度",
+        "3": "研磨輪除側面使用外，不得使用側面進行研磨",
+        "4": "磨輪使用前無須作業前試運轉，僅需每週檢查1次即可"
+      },
+      "answer": [
+        "1",
+        "2",
+        "3"
+      ],
+      "appearances": [
+        {
+          "year": "107",
+          "session": 1,
+          "no": 76
+        },
+        {
+          "year": "107",
+          "session": 3,
+          "no": 63
+        }
+      ]
+    },
+    {
+      "id": "s-107-1-077",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "multi",
+      "stem": "下列有關採光照明之影響何者正確？",
+      "options": {
+        "1": "照明不當可能導致精神疲勞",
+        "2": "照明不當不致造成眼睛慢性傷害",
+        "3": "良好之採光照明條件可增進工作效率、減少失誤率、亦可降低事故發生機會",
+        "4": "採光照明問題在品質管制及工業安全衛生2方面，均具有同等之重要性"
+      },
+      "answer": [
+        "1",
+        "3",
+        "4"
+      ],
+      "appearances": [
+        {
+          "year": "107",
+          "session": 1,
+          "no": 77
+        }
+      ]
+    },
+    {
+      "id": "s-107-1-079",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "multi",
+      "stem": "依職業安全衛生教育訓練規則規定，下列何項作業勞工，雇主需對其實施特殊作業安全衛生教育訓練？",
+      "options": {
+        "1": "研磨作業",
+        "2": "荷重在1公噸以上之堆高機操作",
+        "3": "使用起重機從事吊掛作業",
+        "4": "衝床作業"
+      },
+      "answer": [
+        "2",
+        "3"
+      ],
+      "appearances": [
+        {
+          "year": "107",
+          "session": 1,
+          "no": 79
+        },
+        {
+          "year": "107",
+          "session": 2,
+          "no": 64
+        }
+      ]
+    },
+    {
+      "id": "s-107-1-080",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "multi",
+      "stem": "下列何者為判定職業病必須要滿足之條件？",
+      "options": {
+        "1": "工作場所中有害因子確實存在",
+        "2": "必須曾暴露於存在有害因子之環境",
+        "3": "發病期間、症狀及有害因子之暴露期間有時序之相關",
+        "4": "工作場所中有害物濃度經確認曾超過法定容許濃度標準"
+      },
+      "answer": [
+        "1",
+        "2",
+        "3"
+      ],
+      "appearances": [
+        {
+          "year": "107",
+          "session": 1,
+          "no": 80
+        },
+        {
+          "year": "110",
+          "session": 3,
+          "no": 72
+        }
+      ]
+    },
+    {
+      "id": "s-107-2-001",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "single",
+      "stem": "每日工作結束之後，應該將所有的工具歸位，並將環境清潔乾淨，是為什麼？",
+      "options": {
+        "1": "避免被公司罰錢",
+        "2": "公司有比賽，可以拿到獎金",
+        "3": "可以提前早點休息，將時間用來打掃，消耗時間",
+        "4": "讓下一位使用者，能夠更方便找的工具，也有舒適環境工作"
+      },
+      "answer": [
+        "4"
+      ],
+      "appearances": [
+        {
+          "year": "107",
+          "session": 2,
+          "no": 1
+        }
+      ]
+    },
+    {
+      "id": "s-107-2-005",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "single",
+      "stem": "事業單位新購3部沖剪機械以增加產量，為了防止人員發生壓夾風險，下列何者屬於本質安全設計？",
+      "options": {
+        "1": "加強作業主管的監督管理",
+        "2": "維修保養使用掛牌上鎖",
+        "3": "自動化進出料",
+        "4": "危害告知"
+      },
+      "answer": [
+        "3"
+      ],
+      "appearances": [
+        {
+          "year": "107",
+          "session": 2,
+          "no": 5
+        }
+      ]
+    },
+    {
+      "id": "s-107-2-014",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "single",
+      "stem": "專利權又可區分為發明、新型與新式樣3種專利權，其中，發明專利權是否有保護期限？期限為何？",
+      "options": {
+        "1": "有，5年",
+        "2": "無期限，只要申請後就永久歸申請人所有",
+        "3": "有，20年",
+        "4": "有，50年"
+      },
+      "answer": [
+        "3"
+      ],
+      "appearances": [
+        {
+          "year": "107",
+          "session": 2,
+          "no": 14
+        }
+      ]
+    },
+    {
+      "id": "s-107-2-015",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "single",
+      "stem": "關於侵占罪之概念，下列何者錯誤？",
+      "options": {
+        "1": "員工私自將公司答謝客戶之禮盒留下供己使用，即會構成",
+        "2": "員工將公司財物由持有變成據為己有之時即已構成",
+        "3": "員工不能將向客戶收取之貨款先行用於支付自己親屬之醫藥費",
+        "4": "事後返還侵占物可免除責任"
+      },
+      "answer": [
+        "4"
+      ],
+      "appearances": [
+        {
+          "year": "107",
+          "session": 2,
+          "no": 15
+        }
+      ]
+    },
+    {
+      "id": "s-107-2-016",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "single",
+      "stem": "臺灣嘉南沿海一帶發生的烏腳病可能為哪一種重金屬引起？",
+      "options": {
+        "1": "汞",
+        "2": "砷",
+        "3": "鉛",
+        "4": "鎘"
+      },
+      "answer": [
+        "2"
+      ],
+      "appearances": [
+        {
+          "year": "107",
+          "session": 2,
+          "no": 16
+        }
+      ]
+    },
+    {
+      "id": "s-107-2-023",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "single",
+      "stem": "依職業安全衛生管理辦法規定，下列何種安全裝置非為固定式起重機每日應實施定期檢查之項目？",
+      "options": {
+        "1": "警報裝置",
+        "2": "制動器",
+        "3": "過捲預防裝置",
+        "4": "離合器"
+      },
+      "answer": [
+        "1"
+      ],
+      "appearances": [
+        {
+          "year": "107",
+          "session": 2,
+          "no": 23
+        },
+        {
+          "year": "109",
+          "session": 2,
+          "no": 1
+        }
+      ]
+    },
+    {
+      "id": "s-107-2-025",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "single",
+      "stem": "為減少日照所增加空調負載，下列何種處理方式是錯誤的？",
+      "options": {
+        "1": "將窗戶或門開啟，讓屋內外空氣自然對流",
+        "2": "屋頂加裝隔熱材、高反射率塗料或噴水",
+        "3": "窗戶裝設窗簾或貼隔熱紙",
+        "4": "於屋頂進行薄層綠化"
+      },
+      "answer": [
+        "1"
+      ],
+      "appearances": [
+        {
+          "year": "107",
+          "session": 2,
+          "no": 25
+        }
+      ]
+    },
+    {
+      "id": "s-107-2-027",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "single",
+      "stem": "「勞工於職場上遭受主管或同事利用職務或地位上的優勢予以不當之對待，及遭受顧客、服務對象或其他相關人士之肢體攻擊、言語侮辱、恐嚇、威脅等霸凌或暴力事件，致發生精神或身體上的傷害」此等危害可歸類於下列何種職業危害？",
+      "options": {
+        "1": "化學性",
+        "2": "生物性",
+        "3": "物理性",
+        "4": "社會心理性"
+      },
+      "answer": [
+        "4"
+      ],
+      "appearances": [
+        {
+          "year": "107",
+          "session": 2,
+          "no": 27
+        }
+      ]
+    },
+    {
+      "id": "s-107-2-035",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "single",
+      "stem": "針對工作場所內可能造成之各種重大災害，以演繹法推導出造成失誤之各個因子之方法，屬於下列何者？",
+      "options": {
+        "1": "失誤樹分析",
+        "2": "危害與可操作分析",
+        "3": "如果－結果分析(what-if)",
+        "4": "檢核表(checklist)"
+      },
+      "answer": [
+        "1"
+      ],
+      "appearances": [
+        {
+          "year": "107",
+          "session": 2,
+          "no": 35
+        }
+      ]
+    },
+    {
+      "id": "s-107-2-044",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "single",
+      "stem": "勞工或雇主對於職業疾病經醫師診斷認有異議時，得檢附有關資料，向下列何者申請認定？",
+      "options": {
+        "1": "該管勞動檢查機構",
+        "2": "勞工保險監理委員會",
+        "3": "中央衛生主管機關",
+        "4": "直轄市、縣（市）主管機關"
+      },
+      "answer": [
+        "4"
+      ],
+      "appearances": [
+        {
+          "year": "107",
+          "session": 2,
+          "no": 44
+        },
+        {
+          "year": "109",
+          "session": 3,
+          "no": 21
+        }
+      ]
+    },
+    {
+      "id": "s-107-2-045",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "single",
+      "stem": "小明於隨地亂丟垃圾之現場遇依廢棄物清理法執行稽查人員要求提示身分證明，如小明無故拒絕提供，將受何處分？",
+      "options": {
+        "1": "處新臺幣6百元以上3千元以下罰鍰",
+        "2": "移送警察局",
+        "3": "勸導改善",
+        "4": "接受環境講習"
+      },
+      "answer": [
+        "1"
+      ],
+      "appearances": [
+        {
+          "year": "107",
+          "session": 2,
+          "no": 45
+        }
+      ]
+    },
+    {
+      "id": "s-107-2-046",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "single",
+      "stem": "依職業安全衛生設施規則規定，高壓活線作業時，作業人員對於活線接近作業，在距離頭上及身側及腳下幾公分以內，應於該電路設置絕線用防護裝備？",
+      "options": {
+        "1": "60",
+        "2": "70",
+        "3": "90",
+        "4": "80"
+      },
+      "answer": [
+        "1"
+      ],
+      "appearances": [
+        {
+          "year": "107",
+          "session": 2,
+          "no": 46
+        }
+      ]
+    },
+    {
+      "id": "s-107-2-047",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "single",
+      "stem": "下列何種作業會較易發生手部神經及血管造成傷害，發生手指蒼白、麻痺、疼痛、骨質疏鬆等症狀之白指病？",
+      "options": {
+        "1": "局部振動",
+        "2": "游離輻射",
+        "3": "低溫",
+        "4": "異常氣壓"
+      },
+      "answer": [
+        "1"
+      ],
+      "appearances": [
+        {
+          "year": "107",
+          "session": 2,
+          "no": 47
+        }
+      ]
+    },
+    {
+      "id": "s-107-2-051",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "single",
+      "stem": "事業單位與承攬人、再承攬人分別僱用勞工共同作業時，為防止職業災害，工作場所之連繫與調整之措施，屬下列何者之職責？",
+      "options": {
+        "1": "再承攬人",
+        "2": "承攬人",
+        "3": "關係事業",
+        "4": "原事業單位指定之工作場所負責人"
+      },
+      "answer": [
+        "4"
+      ],
+      "appearances": [
+        {
+          "year": "107",
+          "session": 2,
+          "no": 51
+        }
+      ]
+    },
+    {
+      "id": "s-107-2-056",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "single",
+      "stem": "長時間電腦終端機作業較不易產生下列何狀況？",
+      "options": {
+        "1": "眼睛乾澀",
+        "2": "頸肩部僵硬不適",
+        "3": "腕道症候群",
+        "4": "體溫、心跳和血壓之變化幅度比較大"
+      },
+      "answer": [
+        "4"
+      ],
+      "appearances": [
+        {
+          "year": "107",
+          "session": 2,
+          "no": 56
+        }
+      ]
+    },
+    {
+      "id": "s-107-2-059",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "single",
+      "stem": "逛夜市時常有攤位在販賣滅蟑藥，下列何者正確？",
+      "options": {
+        "1": "滅蟑藥是藥，中央主管機關為衛生福利部",
+        "2": "滅蟑藥之包裝上不用標示有效期限",
+        "3": "只要批貨，人人皆可販賣滅蟑藥，不須領得許可執照",
+        "4": "滅蟑藥是環境衛生用藥，中央主管機關是環境保護署"
+      },
+      "answer": [
+        "4"
+      ],
+      "appearances": [
+        {
+          "year": "107",
+          "session": 2,
+          "no": 59
+        }
+      ]
+    },
+    {
+      "id": "s-107-2-061",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "multi",
+      "stem": "事業單位委外辦理勞工體格、健康檢查時，下列應注意事項，何者錯誤？",
+      "options": {
+        "1": "健康檢查手冊最好由事業單位統一保管",
+        "2": "檢查項目以勞工健康保護規則所訂項目為限，但要求增加之項目由雇主負擔全部費用且經勞工同意者不在此限",
+        "3": "要求醫療機構赴事業單位實施檢查之日，攜帶經衛生主管機關核准之公文及醫事人員執業執照與身分證",
+        "4": "注意指定醫療機構之品質並應每年更換，俾能相互比較醫療機構之品質"
+      },
+      "answer": [
+        "1",
+        "4"
+      ],
+      "appearances": [
+        {
+          "year": "107",
+          "session": 2,
+          "no": 61
+        }
+      ]
+    },
+    {
+      "id": "s-107-2-062",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "multi",
+      "stem": "對於營建用提升機，下列敘述何者正確？",
+      "options": {
+        "1": "應於捲揚用鋼索上加註標識或設置警報裝置等，以預防鋼索過捲",
+        "2": "使用應不得超過積載荷重",
+        "3": "如瞬間風速有超過每秒20公尺之虞時應增設拉索，以預防其倒塌",
+        "4": "雇主於中型營建用提升機設置完成時，應自行實施荷重試驗，試驗紀錄應保存3年"
+      },
+      "answer": [
+        "1",
+        "2",
+        "4"
+      ],
+      "appearances": [
+        {
+          "year": "107",
+          "session": 2,
+          "no": 62
+        },
+        {
+          "year": "114",
+          "session": 2,
+          "no": 69
+        },
+        {
+          "year": "114",
+          "session": 3,
+          "no": 76
+        }
+      ]
+    },
+    {
+      "id": "s-107-2-063",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "multi",
+      "stem": "依危險性工作場所審查及檢查辦法規定，下列何者屬丁類危險性工作場所？",
+      "options": {
+        "1": "建築物頂樓樓板高度在80公尺以上之建築工程",
+        "2": "單跨橋梁之橋墩跨距在75公尺以上或多跨橋梁之橋墩跨距在50公尺以上之橋梁工程",
+        "3": "模板支撐高度在五公尺以上之工程",
+        "4": "長度500公尺未有豎坑之隧道工程"
+      },
+      "answer": [
+        "1",
+        "2"
+      ],
+      "appearances": [
+        {
+          "year": "107",
+          "session": 2,
+          "no": 63
+        }
+      ]
+    },
+    {
+      "id": "s-107-2-065",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "multi",
+      "stem": "機械、設備、器具、原料、材料等物件設計、製造或輸入者及工程之設計施工者，致力防止發生職業災害，應於那些階段實施風險評估？",
+      "options": {
+        "1": "施工規劃",
+        "2": "設計、製造",
+        "3": "輸入",
+        "4": "使用"
+      },
+      "answer": [
+        "1",
+        "2",
+        "3"
+      ],
+      "appearances": [
+        {
+          "year": "107",
+          "session": 2,
+          "no": 65
+        },
+        {
+          "year": "108",
+          "session": 3,
+          "no": 62
+        },
+        {
+          "year": "113",
+          "session": 3,
+          "no": 61
+        }
+      ]
+    },
+    {
+      "id": "s-107-2-066",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "multi",
+      "stem": "依職業安全衛生設施規則規定，下列有關升降機之安全設施，下列敘述哪些為正確？",
+      "options": {
+        "1": "搬器地板與樓板相差10公分以上時，升降路出入口門不能開啟",
+        "2": "升降搬器及升降路出入口之任一門開啟時，升降機不能開動",
+        "3": "升降機在開動中任一門開啟時，能停止上下",
+        "4": "升降路各樓出入口，應裝置構造堅固平滑之門"
+      },
+      "answer": [
+        "2",
+        "3",
+        "4"
+      ],
+      "appearances": [
+        {
+          "year": "107",
+          "session": 2,
+          "no": 66
+        }
+      ]
+    },
+    {
+      "id": "s-107-2-069",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "multi",
+      "stem": "下列何者為損失控制八大項之一？",
+      "options": {
+        "1": "安全觀察",
+        "2": "安全檢查",
+        "3": "安全口號",
+        "4": "安全政策"
+      },
+      "answer": [
+        "1",
+        "2"
+      ],
+      "appearances": [
+        {
+          "year": "107",
+          "session": 2,
+          "no": 69
+        }
+      ]
+    },
+    {
+      "id": "s-107-2-071",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "multi",
+      "stem": "某一工廠新設一座吊升荷重為5公噸之固定式起重機，下列哪些非屬其所需之法定檢查？",
+      "options": {
+        "1": "型式檢查",
+        "2": "使用檢查",
+        "3": "竣工檢查",
+        "4": "熔接檢查"
+      },
+      "answer": [
+        "2",
+        "4"
+      ],
+      "appearances": [
+        {
+          "year": "107",
+          "session": 2,
+          "no": 71
+        },
+        {
+          "year": "107",
+          "session": 3,
+          "no": 80
+        }
+      ]
+    },
+    {
+      "id": "s-107-2-073",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "multi",
+      "stem": "下列何者是勞工於同平面跌倒之要因？",
+      "options": {
+        "1": "樓板開口",
+        "2": "地板有適當照明",
+        "3": "人的鞋底滑",
+        "4": "地板上有滑溜物"
+      },
+      "answer": [
+        "3",
+        "4"
+      ],
+      "appearances": [
+        {
+          "year": "107",
+          "session": 2,
+          "no": 73
+        }
+      ]
+    },
+    {
+      "id": "s-107-2-074",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "multi",
+      "stem": "財物損失事故費用涵蓋下列何者？",
+      "options": {
+        "1": "機械費用",
+        "2": "醫療費用",
+        "3": "材料費用",
+        "4": "看護費用"
+      },
+      "answer": [
+        "1",
+        "3"
+      ],
+      "appearances": [
+        {
+          "year": "107",
+          "session": 2,
+          "no": 74
+        }
+      ]
+    },
+    {
+      "id": "s-107-2-075",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "multi",
+      "stem": "下列經中央主管機關指定適用機械設備器具安全標準者為何？",
+      "options": {
+        "1": "動力衝剪機械",
+        "2": "動力堆高機",
+        "3": "推土機",
+        "4": "手推刨床"
+      },
+      "answer": [
+        "1",
+        "2",
+        "4"
+      ],
+      "appearances": [
+        {
+          "year": "107",
+          "session": 2,
+          "no": 75
+        },
+        {
+          "year": "108",
+          "session": 3,
+          "no": 65
+        }
+      ]
+    },
+    {
+      "id": "s-107-2-076",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "multi",
+      "stem": "下列有關健康檢查結果評估及處理之事項，何者正確？",
+      "options": {
+        "1": "將特殊健康檢查報告書及第三級管理勞工資料陳報政府有關單位",
+        "2": "對健康檢查發現健康異常之勞工，由部門主管判定是否與職業原因有關",
+        "3": "依照醫師之建議執行分配勞工工作",
+        "4": "每次健檢後進行整體性之評估"
+      },
+      "answer": [
+        "1",
+        "3",
+        "4"
+      ],
+      "appearances": [
+        {
+          "year": "107",
+          "session": 2,
+          "no": 76
+        }
+      ]
+    },
+    {
+      "id": "s-107-2-077",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "multi",
+      "stem": "依職業安全衛生設施規則規定，對於運轉中之化學設備或其附屬設備，為防止因爆炸、火災、洩漏等造成勞工之危害，下列敘述哪些為正確？",
+      "options": {
+        "1": "確定冷卻、加熱、攪拌及壓縮等裝置之正常操作",
+        "2": "保持安全閥、緊急遮斷裝置、自動警報裝置或其他安全裝置於異常狀態時之有效運轉",
+        "3": "保持溫度計、壓力計或其他計測裝置於正常操作功能",
+        "4": "確定將閥或旋塞雙重關閉或設置盲板"
+      },
+      "answer": [
+        "1",
+        "2",
+        "3"
+      ],
+      "appearances": [
+        {
+          "year": "107",
+          "session": 2,
+          "no": 77
+        },
+        {
+          "year": "108",
+          "session": 1,
+          "no": 75
+        }
+      ]
+    },
+    {
+      "id": "s-107-2-079",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "multi",
+      "stem": "下列何者可能引發呼吸系統職業病？",
+      "options": {
+        "1": "游離二氧化矽",
+        "2": "鉛",
+        "3": "石綿",
+        "4": "粉塵"
+      },
+      "answer": [
+        "1",
+        "3",
+        "4"
+      ],
+      "appearances": [
+        {
+          "year": "107",
+          "session": 2,
+          "no": 79
+        }
+      ]
+    },
+    {
+      "id": "s-107-2-080",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "multi",
+      "stem": "依據職業安全衛生教育訓練規則的要求，哪些描述正確？",
+      "options": {
+        "1": "荷重在1公噸以上之堆高機操作人員應使其接受特殊作業教育訓練",
+        "2": "擔任有機溶劑作業主管的勞工應於事前使其接受有害作業主管之教育訓練",
+        "3": "在職勞工於變更工作前，應使其接受適於工作必要之一般安全衛生教育訓練",
+        "4": "職業安全衛生業務主管應接受每兩年至少12小時的在職教育訓練"
+      },
+      "answer": [
+        "1",
+        "2",
+        "3"
+      ],
+      "appearances": [
+        {
+          "year": "107",
+          "session": 2,
+          "no": 80
+        }
+      ]
+    },
+    {
+      "id": "s-107-3-001",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "single",
+      "stem": "公司為國際傳輸個人資料，而有何種下列情形之一，中央目的事業主管機關得限制之？",
+      "options": {
+        "1": "公司員工未受任何個人資料保護之教育訓練",
+        "2": "公司負責人有違反個人資料保護法前科",
+        "3": "公司未建立任何個人資料保護管理制度",
+        "4": "接受之他國公司對於個人資料之保護未有完善之法規，致有損當事人權益之虞"
+      },
+      "answer": [
+        "4"
+      ],
+      "appearances": [
+        {
+          "year": "107",
+          "session": 3,
+          "no": 1
+        }
+      ]
+    },
+    {
+      "id": "s-107-3-004",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "single",
+      "stem": "下列何者屬不安全的行為？",
+      "options": {
+        "1": "未使用防護具",
+        "2": "有缺陷的設備",
+        "3": "不適當之支撐或防護",
+        "4": "不適當之警告裝置"
+      },
+      "answer": [
+        "1"
+      ],
+      "appearances": [
+        {
+          "year": "107",
+          "session": 3,
+          "no": 4
+        }
+      ]
+    },
+    {
+      "id": "s-107-3-009",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "single",
+      "stem": "解決台灣水荒(缺水)問題的無效對策是",
+      "options": {
+        "1": "全面節約用水",
+        "2": "興建水庫、蓄洪(豐)濟枯",
+        "3": "水資源重複利用，海水淡化…等",
+        "4": "積極推動全民運動"
+      },
+      "answer": [
+        "4"
+      ],
+      "appearances": [
+        {
+          "year": "107",
+          "session": 3,
+          "no": 9
+        }
+      ]
+    },
+    {
+      "id": "s-107-3-013",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "single",
+      "stem": "因業務上往來之廠商係自己親友時，應如何處理？",
+      "options": {
+        "1": "可安心收受該親友業務上之回扣",
+        "2": "依公司制度秉公處理不徇私",
+        "3": "可不經公司同意給予較優惠之價格",
+        "4": "告知公司應保密之營運內情予該親友"
+      },
+      "answer": [
+        "2"
+      ],
+      "appearances": [
+        {
+          "year": "107",
+          "session": 3,
+          "no": 13
+        }
+      ]
+    },
+    {
+      "id": "s-107-3-014",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "single",
+      "stem": "下列何者之工資日數得列入計算平均工資？",
+      "options": {
+        "1": "職災醫療期間",
+        "2": "請事假期間",
+        "3": "發生計算事由之前6個月",
+        "4": "放無薪假期間"
+      },
+      "answer": [
+        "3"
+      ],
+      "appearances": [
+        {
+          "year": "107",
+          "session": 3,
+          "no": 14
+        },
+        {
+          "year": "112",
+          "session": 1,
+          "no": 23
+        }
+      ]
+    },
+    {
+      "id": "s-107-3-032",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "single",
+      "stem": "對於吹哨者保護規定，下列敘述何者有誤？",
+      "options": {
+        "1": "事業單位不得對勞工申訴人終止勞動契約",
+        "2": "勞動檢查機構受理勞工申訴必須保密",
+        "3": "為實施勞動檢查，必要時得告知事業單位有關勞工申訴人身分",
+        "4": "任何情況下，事業單位都不得有不利勞工申訴人之行為"
+      },
+      "answer": [
+        "3"
+      ],
+      "appearances": [
+        {
+          "year": "107",
+          "session": 3,
+          "no": 32
+        },
+        {
+          "year": "112",
+          "session": 2,
+          "no": 10
+        },
+        {
+          "year": "113",
+          "session": 3,
+          "no": 4
+        }
+      ]
+    },
+    {
+      "id": "s-107-3-033",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "single",
+      "stem": "依職業安全衛生設施規則規定，雇主對勞工於石綿板、鐵皮板、瓦、木板、茅草、塑膠等材料構築之屋頂從事作業時，為防止勞工踏穿墜落，應於屋架上設置適當強度，且寬度在多少公分以上之踏板或裝設安全護網？",
+      "options": {
+        "1": "50",
+        "2": "40",
+        "3": "60",
+        "4": "30"
+      },
+      "answer": [
+        "4"
+      ],
+      "appearances": [
+        {
+          "year": "107",
+          "session": 3,
+          "no": 33
+        }
+      ]
+    },
+    {
+      "id": "s-107-3-040",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "single",
+      "stem": "下列哪些廢紙類不可以進行資源回收？",
+      "options": {
+        "1": "雜誌",
+        "2": "包裝紙",
+        "3": "紙尿褲",
+        "4": "報紙"
+      },
+      "answer": [
+        "3"
+      ],
+      "appearances": [
+        {
+          "year": "107",
+          "session": 3,
+          "no": 40
+        },
+        {
+          "year": "109",
+          "session": 3,
+          "no": 34
+        }
+      ]
+    },
+    {
+      "id": "s-107-3-041",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "single",
+      "stem": "從事專業性工作，在服務顧客時應有的態度是",
+      "options": {
+        "1": "選擇工時較長、獲利較多的方法服務客戶",
+        "2": "選擇最安全、經濟及有效的方法完成工作",
+        "3": "為了降低成本，可以降低安全標準",
+        "4": "力求專業表現，不必顧及雇主和顧客的立場"
+      },
+      "answer": [
+        "2"
+      ],
+      "appearances": [
+        {
+          "year": "107",
+          "session": 3,
+          "no": 41
+        }
+      ]
+    },
+    {
+      "id": "s-107-3-043",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "single",
+      "stem": "耳部最高敏感度之頻率範圍自3,000至5,000赫茲，一般聽力損失發生約在多少赫玆？",
+      "options": {
+        "1": "2,000",
+        "2": "4,000",
+        "3": "6,000",
+        "4": "1,000"
+      },
+      "answer": [
+        "2"
+      ],
+      "appearances": [
+        {
+          "year": "107",
+          "session": 3,
+          "no": 43
+        }
+      ]
+    },
+    {
+      "id": "s-107-3-045",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "single",
+      "stem": "企業內部之營業秘密，可以概分為「商業性營業秘密」及「技術性營業秘密」二大類型，請問下列何者屬於「商業性營業秘密」？",
+      "options": {
+        "1": "產品配方",
+        "2": "成本分析",
+        "3": "專利技術",
+        "4": "先進製程"
+      },
+      "answer": [
+        "2"
+      ],
+      "appearances": [
+        {
+          "year": "107",
+          "session": 3,
+          "no": 45
+        }
+      ]
+    },
+    {
+      "id": "s-107-3-052",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "single",
+      "stem": "依職業安全衛生管理辦法之規定，下列關於職業安全衛生組織及人員的描述何者錯誤？",
+      "options": {
+        "1": "事業單位所置專職管理人員，應常駐廠場執行業務，不得兼任其他法令所定專責（任）人員或從事其他與職業安全衛生無關之工作",
+        "2": "勞工人數在三十人以上之事業單位，其職業安全衛生人員離職時，應於三個月內報當地勞動檢查機構備查",
+        "3": "職業安全衛生人員因故未能執行職務時，雇主應即指定適當代理人。其代理期間不得超過三個月",
+        "4": "營造業之事業單位對於橋樑、道路、隧道或輸配電等距離較長之工程，應於每十公里內增置營造業丙種職業安全衛生業務主管一人"
+      },
+      "answer": [
+        "2"
+      ],
+      "appearances": [
+        {
+          "year": "107",
+          "session": 3,
+          "no": 52
+        }
+      ]
+    },
+    {
+      "id": "s-107-3-057",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "single",
+      "stem": "下列何者不是全球暖化帶來的影響？",
+      "options": {
+        "1": "旱災",
+        "2": "熱浪",
+        "3": "地震",
+        "4": "洪水"
+      },
+      "answer": [
+        "3"
+      ],
+      "appearances": [
+        {
+          "year": "107",
+          "session": 3,
+          "no": 57
+        }
+      ]
+    },
+    {
+      "id": "s-107-3-058",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "single",
+      "stem": "電力公司為降低尖峰負載時段超載停電風險，將尖峰時段電價費率(每度電單價)提高，離峰時段的費率降低，引導用戶轉移部分負載至離峰時段，這種電能管理策略稱為",
+      "options": {
+        "1": "可停電力",
+        "2": "需量競價",
+        "3": "表燈用戶彈性電價",
+        "4": "時間電價"
+      },
+      "answer": [
+        "4"
+      ],
+      "appearances": [
+        {
+          "year": "107",
+          "session": 3,
+          "no": 58
+        }
+      ]
+    },
+    {
+      "id": "s-107-3-059",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "single",
+      "stem": "解決重複性骨骼肌肉病變應依下列何者順序為之？",
+      "options": {
+        "1": "評估→認知→改善",
+        "2": "改善→認知→評估",
+        "3": "評估→改善→認知",
+        "4": "認知→評估→改善"
+      },
+      "answer": [
+        "4"
+      ],
+      "appearances": [
+        {
+          "year": "107",
+          "session": 3,
+          "no": 59
+        }
+      ]
+    },
+    {
+      "id": "s-107-3-060",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "single",
+      "stem": "依危險性機械及設備安全檢查規則規定，額定荷重300公噸之固定式起重機，竣工檢查實施荷重試驗時，需將相當於若干額定荷重置於吊具上實施各項動作試驗？",
+      "options": {
+        "1": "381公噸",
+        "2": "375公噸",
+        "3": "350公噸",
+        "4": "300公噸"
+      },
+      "answer": [
+        "3"
+      ],
+      "appearances": [
+        {
+          "year": "107",
+          "session": 3,
+          "no": 60
+        },
+        {
+          "year": "112",
+          "session": 3,
+          "no": 52
+        },
+        {
+          "year": "113",
+          "session": 3,
+          "no": 34
+        }
+      ]
+    },
+    {
+      "id": "s-107-3-062",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "multi",
+      "stem": "在進入甲醇儲槽清洗時，應至少測量下列那兩種氣體濃度？",
+      "options": {
+        "1": "可燃性氣體",
+        "2": "氮氣",
+        "3": "二氧化碳",
+        "4": "氧氣"
+      },
+      "answer": [
+        "1",
+        "4"
+      ],
+      "appearances": [
+        {
+          "year": "107",
+          "session": 3,
+          "no": 62
+        },
+        {
+          "year": "109",
+          "session": 2,
+          "no": 74
+        },
+        {
+          "year": "110",
+          "session": 2,
+          "no": 76
+        },
+        {
+          "year": "113",
+          "session": 2,
+          "no": 70
+        }
+      ]
+    },
+    {
+      "id": "s-107-3-068",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "multi",
+      "stem": "下列何者為電氣接地之目的？",
+      "options": {
+        "1": "防止因絕緣不良感電",
+        "2": "在配電線接地故障時使繼電器不動作",
+        "3": "避雷",
+        "4": "避免高低壓混觸高壓經接地回路而危害人畜"
+      },
+      "answer": [
+        "1",
+        "3",
+        "4"
+      ],
+      "appearances": [
+        {
+          "year": "107",
+          "session": 3,
+          "no": 68
+        }
+      ]
+    },
+    {
+      "id": "s-107-3-069",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "multi",
+      "stem": "依危害性化學品標示及通識規則規定，下列何者可免標示？",
+      "options": {
+        "1": "危害物質僅供實驗室實驗、研究之用",
+        "2": "勞工使用可攜帶容器，其危害物質取自有標示之容器",
+        "3": "內部容器未標示，由外部無法見到標示之外部容器",
+        "4": "外部容器已標示，僅供內襯且不再取出之內容器"
+      },
+      "answer": [
+        "2",
+        "4"
+      ],
+      "appearances": [
+        {
+          "year": "107",
+          "session": 3,
+          "no": 69
+        }
+      ]
+    },
+    {
+      "id": "s-107-3-071",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "multi",
+      "stem": "依勞工作業場所容許暴露標準規定，下列敘述何者不正確？",
+      "options": {
+        "1": "暴露濃度未超過容許濃度者即表示一定安全",
+        "2": "容許濃度表註有皮字者表示該物質對勞工會引起皮膚炎及敏感等特性",
+        "3": "容許濃度不得作為工作場所以外之空氣污染指標",
+        "4": "任何時間均不得超過短時間時量平均容許濃度"
+      },
+      "answer": [
+        "1",
+        "2",
+        "4"
+      ],
+      "appearances": [
+        {
+          "year": "107",
+          "session": 3,
+          "no": 71
+        }
+      ]
+    },
+    {
+      "id": "s-107-3-074",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "multi",
+      "stem": "下列何者為靜電危害防止對策？",
+      "options": {
+        "1": "乾燥",
+        "2": "接地",
+        "3": "使用導電性材料",
+        "4": "游離化"
+      },
+      "answer": [
+        "2",
+        "3",
+        "4"
+      ],
+      "appearances": [
+        {
+          "year": "107",
+          "session": 3,
+          "no": 74
+        }
+      ]
+    },
+    {
+      "id": "s-107-3-075",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "multi",
+      "stem": "依勞工健康保護規則規定，下列那些是特別危害健康之作業？",
+      "options": {
+        "1": "重體力勞動作業",
+        "2": "游離輻射作業",
+        "3": "粉塵作業",
+        "4": "鉛作業"
+      },
+      "answer": [
+        "2",
+        "3",
+        "4"
+      ],
+      "appearances": [
+        {
+          "year": "107",
+          "session": 3,
+          "no": 75
+        }
+      ]
+    },
+    {
+      "id": "s-107-3-076",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "multi",
+      "stem": "下列何者屬反撥預防裝置？",
+      "options": {
+        "1": "反撥防止爪",
+        "2": "反撥防止滾輪",
+        "3": "撐縫片",
+        "4": "護罩"
+      },
+      "answer": [
+        "1",
+        "2",
+        "3"
+      ],
+      "appearances": [
+        {
+          "year": "107",
+          "session": 3,
+          "no": 76
+        }
+      ]
+    },
+    {
+      "id": "s-107-3-077",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "multi",
+      "stem": "事業單位發生職業安全衛生法第37條第2項規定之職業災害時，除必要之急救、搶救外，雇主非經下列何種機構或機關許可，不得移動或破壞現場？",
+      "options": {
+        "1": "勞動檢查機構",
+        "2": "司法機關",
+        "3": "警察人員",
+        "4": "地方主管機關"
+      },
+      "answer": [
+        "1",
+        "2"
+      ],
+      "appearances": [
+        {
+          "year": "107",
+          "session": 3,
+          "no": 77
+        },
+        {
+          "year": "108",
+          "session": 1,
+          "no": 76
+        }
+      ]
+    },
+    {
+      "id": "s-107-3-078",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "multi",
+      "stem": "下列何者屬物理性危害？",
+      "options": {
+        "1": "異常氣壓",
+        "2": "振動",
+        "3": "噪音",
+        "4": "有機溶劑中毒"
+      },
+      "answer": [
+        "1",
+        "2",
+        "3"
+      ],
+      "appearances": [
+        {
+          "year": "107",
+          "session": 3,
+          "no": 78
+        }
+      ]
+    },
+    {
+      "id": "s-107-3-079",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "multi",
+      "stem": "下列敘述何者正確？",
+      "options": {
+        "1": "在一次工作中損失一隻眼睛與一隻手指，屬於永久全失能",
+        "2": "一隻眼睛失能稱為永久全失能",
+        "3": "可治好之骨骼、肌肉傷害不屬於永久全失能",
+        "4": "勞工因工作傷害而死亡，其損失日數為600日"
+      },
+      "answer": [
+        "1",
+        "3"
+      ],
+      "appearances": [
+        {
+          "year": "107",
+          "session": 3,
+          "no": 79
+        }
+      ]
+    },
+    {
+      "id": "s-108-1-002",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "single",
+      "stem": "總合傷害指數之計算公式為何？",
+      "options": {
+        "1": "失能傷害次數×106／(312×員工全部工時)",
+        "2": "(失能傷害頻率×失能傷害嚴重率)／1000之值的平方根",
+        "3": "傷害損失天數×106/員工全部工時",
+        "4": "失能傷害次數×106／員工全部工時"
+      },
+      "answer": [
+        "2"
+      ],
+      "appearances": [
+        {
+          "year": "108",
+          "session": 1,
+          "no": 2
+        },
+        {
+          "year": "110",
+          "session": 3,
+          "no": 51
+        },
+        {
+          "year": "114",
+          "session": "2颱風延期考區",
+          "no": 60
+        },
+        {
+          "year": "114",
+          "session": 3,
+          "no": 12
+        }
+      ]
+    },
+    {
+      "id": "s-108-1-006",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "single",
+      "stem": "有關事業單位發生勞工死亡之職業災害後之處理，下列所述雇主之作為何者有誤？",
+      "options": {
+        "1": "應於8小時內通報勞動檢查機構",
+        "2": "如已報告勞動檢查機構，則得免於當月職業災害統計月報表中陳報",
+        "3": "非經許可不得移動或破壞現場",
+        "4": "應實施調查、分析及作成紀錄"
+      },
+      "answer": [
+        "2"
+      ],
+      "appearances": [
+        {
+          "year": "108",
+          "session": 1,
+          "no": 6
+        },
+        {
+          "year": "108",
+          "session": 2,
+          "no": 20
+        },
+        {
+          "year": "110",
+          "session": 2,
+          "no": 10
+        }
+      ]
+    },
+    {
+      "id": "s-108-1-009",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "single",
+      "stem": "安全衛生工作守則製作，下列何者不符要求？",
+      "options": {
+        "1": "法令基本原則",
+        "2": "規定程序可修訂",
+        "3": "合理可實施原則",
+        "4": "責任由勞工負責"
+      },
+      "answer": [
+        "4"
+      ],
+      "appearances": [
+        {
+          "year": "108",
+          "session": 1,
+          "no": 9
+        }
+      ]
+    },
+    {
+      "id": "s-108-1-013",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "single",
+      "stem": "下列有關噪音危害之敘述何者錯誤？",
+      "options": {
+        "1": "超過噪音管制標準即會造成嚴重聽力損失",
+        "2": "長期處於噪音場所可能對聽力造成影響",
+        "3": "噪音會造成心理影響",
+        "4": "高頻噪音較易導致聽力損失"
+      },
+      "answer": [
+        "1"
+      ],
+      "appearances": [
+        {
+          "year": "108",
+          "session": 1,
+          "no": 13
+        },
+        {
+          "year": "108",
+          "session": 3,
+          "no": 2
+        },
+        {
+          "year": "109",
+          "session": 3,
+          "no": 29
+        },
+        {
+          "year": "111",
+          "session": 2,
+          "no": 22
+        },
+        {
+          "year": "113",
+          "session": 1,
+          "no": 52
+        }
+      ]
+    },
+    {
+      "id": "s-108-1-017",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "single",
+      "stem": "小張獲選為小孩學校的家長會長，這個月要召開會議，沒時間準備資料，所以，利用上班期間有空檔，非休息時間來完成，請問是否可以：",
+      "options": {
+        "1": "可以，因為他能力好，能夠同時完成很多事",
+        "2": "可以，因為不耽誤他的工作",
+        "3": "不可以，因為這是私事，不可以利用上班時間完成",
+        "4": "可以，只要不要被發現"
+      },
+      "answer": [
+        "3"
+      ],
+      "appearances": [
+        {
+          "year": "108",
+          "session": 1,
+          "no": 17
+        }
+      ]
+    },
+    {
+      "id": "s-108-1-027",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "single",
+      "stem": "利用豬隻的排泄物當燃料發電，是屬於下列那一種能源？",
+      "options": {
+        "1": "太陽能",
+        "2": "生質能",
+        "3": "核能",
+        "4": "地熱能"
+      },
+      "answer": [
+        "2"
+      ],
+      "appearances": [
+        {
+          "year": "108",
+          "session": 1,
+          "no": 27
+        },
+        {
+          "year": "110",
+          "session": 2,
+          "no": 6
+        }
+      ]
+    },
+    {
+      "id": "s-108-1-031",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "single",
+      "stem": "有關小黑蚊敘述下列何者為非？",
+      "options": {
+        "1": "小黑蚊的幼蟲以腐植質、青苔和藻類為食",
+        "2": "活動時間又以中午十二點到下午三點為活動高峰期",
+        "3": "多存在竹林、灌木叢、雜草叢、果園等邊緣地帶等處",
+        "4": "無論雄性或雌性皆會吸食哺乳類動物血液"
+      },
+      "answer": [
+        "4"
+      ],
+      "appearances": [
+        {
+          "year": "108",
+          "session": 1,
+          "no": 31
+        }
+      ]
+    },
+    {
+      "id": "s-108-1-040",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "single",
+      "stem": "消除靜電的有效方法為下列何者？",
+      "options": {
+        "1": "絕緣",
+        "2": "接地",
+        "3": "隔離",
+        "4": "摩擦"
+      },
+      "answer": [
+        "2"
+      ],
+      "appearances": [
+        {
+          "year": "108",
+          "session": 1,
+          "no": 40
+        }
+      ]
+    },
+    {
+      "id": "s-108-1-043",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "single",
+      "stem": "公司訂定誠信經營守則時，不包括下列何者？",
+      "options": {
+        "1": "禁止適當慈善捐助或贊助",
+        "2": "禁止行賄及收賄",
+        "3": "禁止不誠信行為",
+        "4": "禁止提供不法政治獻金"
+      },
+      "answer": [
+        "1"
+      ],
+      "appearances": [
+        {
+          "year": "108",
+          "session": 1,
+          "no": 43
+        },
+        {
+          "year": "110",
+          "session": 1,
+          "no": 20
+        },
+        {
+          "year": "111",
+          "session": 1,
+          "no": 37
+        }
+      ]
+    },
+    {
+      "id": "s-108-1-045",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "single",
+      "stem": "電氣設備接地之目的為何？",
+      "options": {
+        "1": "防止電阻增加",
+        "2": "防止電弧產生",
+        "3": "防止人員感電",
+        "4": "防止短路發生"
+      },
+      "answer": [
+        "3"
+      ],
+      "appearances": [
+        {
+          "year": "108",
+          "session": 1,
+          "no": 45
+        }
+      ]
+    },
+    {
+      "id": "s-108-1-049",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "single",
+      "stem": "電源插座堆積灰塵可能引起電氣意外火災，維護保養時的正確做法是",
+      "options": {
+        "1": "可以用金屬接點清潔劑噴在插座中去除銹蝕",
+        "2": "應先關閉電源總開關箱內控制該插座的分路開關",
+        "3": "可以先用刷子刷去積塵",
+        "4": "直接用吹風機吹開灰塵就可以了"
+      },
+      "answer": [
+        "2"
+      ],
+      "appearances": [
+        {
+          "year": "108",
+          "session": 1,
+          "no": 49
+        }
+      ]
+    },
+    {
+      "id": "s-108-1-051",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "single",
+      "stem": "生活中經常使用的物品，下列何者含有破壞臭氧層的化學物質？",
+      "options": {
+        "1": "寶特瓶",
+        "2": "免洗筷",
+        "3": "保麗龍",
+        "4": "噴霧劑"
+      },
+      "answer": [
+        "4"
+      ],
+      "appearances": [
+        {
+          "year": "108",
+          "session": 1,
+          "no": 51
+        }
+      ]
+    },
+    {
+      "id": "s-108-1-053",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "single",
+      "stem": "下列何者是錯誤的「戒菸」方式？",
+      "options": {
+        "1": "求助醫療院所、社區藥局專業戒菸",
+        "2": "自己購買電子煙來戒菸",
+        "3": "參加醫院或衛生所所辦理的戒菸班",
+        "4": "撥打戒菸專線0800-63-63-63"
+      },
+      "answer": [
+        "2"
+      ],
+      "appearances": [
+        {
+          "year": "108",
+          "session": 1,
+          "no": 53
+        },
+        {
+          "year": "109",
+          "session": 1,
+          "no": 27
+        },
+        {
+          "year": "112",
+          "session": 2,
+          "no": 26
+        }
+      ]
+    },
+    {
+      "id": "s-108-1-062",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "multi",
+      "stem": "下列有關游離輻射之敘述哪些正確？",
+      "options": {
+        "1": "能使物質產生游離現象之輻射能稱為游離輻射",
+        "2": "在工業上常使用者為α、β、γ、Ｘ射線及中子射線等，多用於破壞性檢測",
+        "3": "長期暴露低劑量游離輻射可能造成細胞染色體突變或致癌",
+        "4": "游離輻射會對人體造血器官造成危害"
+      },
+      "answer": [
+        "1",
+        "3",
+        "4"
+      ],
+      "appearances": [
+        {
+          "year": "108",
+          "session": 1,
+          "no": 62
+        }
+      ]
+    },
+    {
+      "id": "s-108-1-065",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "multi",
+      "stem": "依勞工健康保護規則規定，下列哪些是特別危害健康之作業？",
+      "options": {
+        "1": "游離輻射作業",
+        "2": "重體力勞動作業",
+        "3": "粉塵作業",
+        "4": "鉛作業"
+      },
+      "answer": [
+        "1",
+        "3",
+        "4"
+      ],
+      "appearances": [
+        {
+          "year": "108",
+          "session": 1,
+          "no": 65
+        }
+      ]
+    },
+    {
+      "id": "s-108-1-071",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "multi",
+      "stem": "依職業安全衛生設施規則規定，對於高壓氣體之貯存，下列敘述哪些為正確？",
+      "options": {
+        "1": "容器應保持在攝氏40度以下",
+        "2": "可燃性氣體、毒性氣體及氧氣之鋼瓶，應分開貯存",
+        "3": "劇毒性氣體不得貯存",
+        "4": "盛裝容器和空容器應分區放置"
+      },
+      "answer": [
+        "1",
+        "2",
+        "4"
+      ],
+      "appearances": [
+        {
+          "year": "108",
+          "session": 1,
+          "no": 71
+        },
+        {
+          "year": "109",
+          "session": 2,
+          "no": 61
+        },
+        {
+          "year": "114",
+          "session": 3,
+          "no": 74
+        }
+      ]
+    },
+    {
+      "id": "s-108-1-073",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "multi",
+      "stem": "下列有關生物偵測之敘述哪些正確？",
+      "options": {
+        "1": "美、日、法、德等國家已針對所有列管有害物全面要求實施生物偵測",
+        "2": "生物偵測的主要功能是輔助作業環境測定、測試個人防護具之效率",
+        "3": "生物偵測可以是化學有害物本身或其代謝物在生物檢體中所呈現之量，也可以是化學物質對某標的器官產生可逆性生化改變之程度",
+        "4": "生物偵測是透過測量體內劑量，來評估個人有害物之暴露程度"
+      },
+      "answer": [
+        "2",
+        "3",
+        "4"
+      ],
+      "appearances": [
+        {
+          "year": "108",
+          "session": 1,
+          "no": 73
+        }
+      ]
+    },
+    {
+      "id": "s-108-1-077",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "multi",
+      "stem": "依職業安全衛生設施規則規定，雇主不得以下列哪些情況之鋼索作為起重升降機具之吊掛用具",
+      "options": {
+        "1": "有顯著變形或腐蝕者",
+        "2": "直徑減少達公稱直徑百分之7以上者",
+        "3": "已扭結者",
+        "4": "鋼索一撚間有百分之5以上素線截斷者"
+      },
+      "answer": [
+        "1",
+        "2",
+        "3"
+      ],
+      "appearances": [
+        {
+          "year": "108",
+          "session": 1,
+          "no": 77
+        }
+      ]
+    },
+    {
+      "id": "s-108-1-078",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "multi",
+      "stem": "下列有關特殊健康檢查的描述，哪些正確？",
+      "options": {
+        "1": "檢查紀錄至少保存30年",
+        "2": "將每位勞工健康檢查之詳細資料公佈在顯明而易見之場所",
+        "3": "從事特別危害健康作業勞工，應於變更其作業時實施特殊健康檢查",
+        "4": "從事鉛中毒預防規則所稱鉛作業的勞工應實施特殊健康檢查"
+      },
+      "answer": [
+        "3",
+        "4"
+      ],
+      "appearances": [
+        {
+          "year": "108",
+          "session": 1,
+          "no": 78
+        }
+      ]
+    },
+    {
+      "id": "s-108-1-080",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "multi",
+      "stem": "依職業安全衛生管理辦法規定，下列哪些檢查需要訂定自動檢查計畫？",
+      "options": {
+        "1": "機械、設備之作業檢查",
+        "2": "機械之定期檢查",
+        "3": "作業檢點",
+        "4": "機械、設備之重點檢查"
+      },
+      "answer": [
+        "1",
+        "2",
+        "4"
+      ],
+      "appearances": [
+        {
+          "year": "108",
+          "session": 1,
+          "no": 80
+        }
+      ]
+    },
+    {
+      "id": "s-108-2-006",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "single",
+      "stem": "民眾焚香燒紙錢常會產生哪些空氣污染物增加罹癌的機率：A.苯、B.細懸浮微粒(PM2.5)、C.二氧化碳(CO2)、D.甲烷(CH4)？",
+      "options": {
+        "1": "AC",
+        "2": "CD",
+        "3": "AB",
+        "4": "BC"
+      },
+      "answer": [
+        "3"
+      ],
+      "appearances": [
+        {
+          "year": "108",
+          "session": 2,
+          "no": 6
+        }
+      ]
+    },
+    {
+      "id": "s-108-2-010",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "single",
+      "stem": "依職業安全衛生管理辦法之規定，下列關於職業安全衛生組織及人員的描述何者錯誤？",
+      "options": {
+        "1": "勞工人數在30人以上之事業單位，其職業安全衛生人員離職時，應於3個月內報當地勞動檢查機構備查",
+        "2": "事業單位所置專職管理人員，應常駐廠場執行業務，不得兼任其他法令所定專責（任）人員或從事其他與職業安全衛生無關之工作",
+        "3": "職業安全衛生人員因故未能執行職務時，雇主應即指定適當代理人。其代理期間不得超過3個月",
+        "4": "營造業之事業單位對於橋樑、道路、隧道或輸配電等距離較長之工程，應於每10公里內增置營造業丙種職業安全衛生業務主管1人"
+      },
+      "answer": [
+        "1"
+      ],
+      "appearances": [
+        {
+          "year": "108",
+          "session": 2,
+          "no": 10
+        },
+        {
+          "year": "109",
+          "session": 2,
+          "no": 22
+        },
+        {
+          "year": "110",
+          "session": 3,
+          "no": 2
+        },
+        {
+          "year": "113",
+          "session": 3,
+          "no": 11
+        }
+      ]
+    },
+    {
+      "id": "s-108-2-014",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "single",
+      "stem": "有關高風險或高負荷、夜間工作之安排或防護措施，下列何者不恰當？",
+      "options": {
+        "1": "參照醫師之適性配工建議",
+        "2": "若受威脅或加害時，在加害人離開前觸動警報系統，激怒加害人，使對方抓狂",
+        "3": "獨自作業，宜考量潛在危害，如性暴力",
+        "4": "考量人力或性別之適任性"
+      },
+      "answer": [
+        "2"
+      ],
+      "appearances": [
+        {
+          "year": "108",
+          "session": 2,
+          "no": 14
+        }
+      ]
+    },
+    {
+      "id": "s-108-2-015",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "single",
+      "stem": "下列何者屬安全的行為？",
+      "options": {
+        "1": "不適當之警告裝置",
+        "2": "不適當之支撐或防護",
+        "3": "有缺陷的設備",
+        "4": "使用防護具"
+      },
+      "answer": [
+        "4"
+      ],
+      "appearances": [
+        {
+          "year": "108",
+          "session": 2,
+          "no": 15
+        }
+      ]
+    },
+    {
+      "id": "s-108-2-017",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "single",
+      "stem": "風險控制執行策略中，下列何者屬於工程控制法？",
+      "options": {
+        "1": "修改製程設計",
+        "2": "修改操作條件",
+        "3": "修改操作步驟",
+        "4": "修改操作方法"
+      },
+      "answer": [
+        "1"
+      ],
+      "appearances": [
+        {
+          "year": "108",
+          "session": 2,
+          "no": 17
+        },
+        {
+          "year": "109",
+          "session": 1,
+          "no": 13
+        }
+      ]
+    },
+    {
+      "id": "s-108-2-021",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "single",
+      "stem": "按菸害防制法規定，對於主管每天在辦公室內吸菸，應如何處理？",
+      "options": {
+        "1": "未違反菸害防制法",
+        "2": "撥打菸害申訴專線檢舉(0800-531-531)",
+        "3": "因為是主管，所以只好忍耐",
+        "4": "開空氣清淨機，睜一隻眼閉一隻眼"
+      },
+      "answer": [
+        "2"
+      ],
+      "appearances": [
+        {
+          "year": "108",
+          "session": 2,
+          "no": 21
+        }
+      ]
+    },
+    {
+      "id": "s-108-2-022",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "single",
+      "stem": "苯為危害性化學品標示及通識規則中所稱之有害物及下列何種危險物？",
+      "options": {
+        "1": "自燃物質",
+        "2": "易燃液體",
+        "3": "爆炸性物質",
+        "4": "禁水性物質"
+      },
+      "answer": [
+        "2"
+      ],
+      "appearances": [
+        {
+          "year": "108",
+          "session": 2,
+          "no": 22
+        }
+      ]
+    },
+    {
+      "id": "s-108-2-023",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "single",
+      "stem": "研磨作業時，研磨機砂輪破裂所造成之職業災害應屬下列何種災害類型？",
+      "options": {
+        "1": "被撞",
+        "2": "物體飛落",
+        "3": "擦傷",
+        "4": "爆炸"
+      },
+      "answer": [
+        "2"
+      ],
+      "appearances": [
+        {
+          "year": "108",
+          "session": 2,
+          "no": 23
+        }
+      ]
+    },
+    {
+      "id": "s-108-2-026",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "single",
+      "stem": "每個人日常生活皆會產生垃圾，下列何種處理垃圾的觀念與方式是不正確的？",
+      "options": {
+        "1": "可燃性垃圾經焚化燃燒可有效減少垃圾體積",
+        "2": "垃圾分類，使資源回收再利用",
+        "3": "廚餘回收堆肥後製成肥料",
+        "4": "所有垃圾皆掩埋處理，垃圾將會自然分解"
+      },
+      "answer": [
+        "4"
+      ],
+      "appearances": [
+        {
+          "year": "108",
+          "session": 2,
+          "no": 26
+        }
+      ]
+    },
+    {
+      "id": "s-108-2-028",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "single",
+      "stem": "使用防爆型電氣開關，使在可燃性氣體之中作業不致發生火花逸出，此為下列何種安全設計？",
+      "options": {
+        "1": "隔離",
+        "2": "弱連結",
+        "3": "閉鎖",
+        "4": "連鎖"
+      },
+      "answer": [
+        "1"
+      ],
+      "appearances": [
+        {
+          "year": "108",
+          "session": 2,
+          "no": 28
+        }
+      ]
+    },
+    {
+      "id": "s-108-2-029",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "single",
+      "stem": "下列何種省水馬桶的使用觀念與方式是錯誤的？",
+      "options": {
+        "1": "如果家裡的馬桶是傳統舊式，可以加裝二段式沖水配件",
+        "2": "省水馬桶因為水量較小，會有沖不乾淨的問題，所以應該多沖幾次",
+        "3": "因為馬桶是家裡用水的大宗，所以應該儘量採用省水馬桶來節約用水",
+        "4": "選用衛浴設備時最好能採用省水標章馬桶"
+      },
+      "answer": [
+        "2"
+      ],
+      "appearances": [
+        {
+          "year": "108",
+          "session": 2,
+          "no": 29
+        },
+        {
+          "year": "112",
+          "session": 1,
+          "no": 43
+        },
+        {
+          "year": "112",
+          "session": 3,
+          "no": 31
+        }
+      ]
+    },
+    {
+      "id": "s-108-2-030",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "single",
+      "stem": "下列何者是室內空氣污染物之來源：A.使用殺蟲劑；B.使用雷射印表機；C.在室內抽煙；D.戶外的污染物飄進室內？",
+      "options": {
+        "1": "BCD",
+        "2": "ABC",
+        "3": "ACD",
+        "4": "ABCD"
+      },
+      "answer": [
+        "4"
+      ],
+      "appearances": [
+        {
+          "year": "108",
+          "session": 2,
+          "no": 30
+        },
+        {
+          "year": "110",
+          "session": 1,
+          "no": 32
+        }
+      ]
+    },
+    {
+      "id": "s-108-2-033",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "single",
+      "stem": "下列哪一項的能源效率標示級數較省電？",
+      "options": {
+        "1": "4",
+        "2": "2",
+        "3": "3",
+        "4": "1"
+      },
+      "answer": [
+        "4"
+      ],
+      "appearances": [
+        {
+          "year": "108",
+          "session": 2,
+          "no": 33
+        }
+      ]
+    },
+    {
+      "id": "s-108-2-034",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "single",
+      "stem": "安全衛生工作守則之製作，下列何者不符要求？",
+      "options": {
+        "1": "合理可實施原則",
+        "2": "規定程序可修訂",
+        "3": "法令基本原則",
+        "4": "責任由勞工負責"
+      },
+      "answer": [
+        "4"
+      ],
+      "appearances": [
+        {
+          "year": "108",
+          "session": 2,
+          "no": 34
+        }
+      ]
+    },
+    {
+      "id": "s-108-2-036",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "single",
+      "stem": "決定實施工作安全分析的工作項目時，下列那項應最優先選擇？",
+      "options": {
+        "1": "臨時性工作",
+        "2": "新工作",
+        "3": "傷害頻率高的工作",
+        "4": "經常性工作"
+      },
+      "answer": [
+        "3"
+      ],
+      "appearances": [
+        {
+          "year": "108",
+          "session": 2,
+          "no": 36
+        },
+        {
+          "year": "110",
+          "session": 3,
+          "no": 7
+        }
+      ]
+    },
+    {
+      "id": "s-108-2-037",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "single",
+      "stem": "我國制定何法以保護刑事案件之證人，使其勇於出面作證，俾利犯罪之偵查、審判？",
+      "options": {
+        "1": "證人保護法",
+        "2": "行政程序法",
+        "3": "刑事訴訟法",
+        "4": "貪污治罪條例"
+      },
+      "answer": [
+        "1"
+      ],
+      "appearances": [
+        {
+          "year": "108",
+          "session": 2,
+          "no": 37
+        }
+      ]
+    },
+    {
+      "id": "s-108-2-038",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "single",
+      "stem": "下列何者燈泡發光效率最高？",
+      "options": {
+        "1": "鹵素燈泡",
+        "2": "省電燈泡",
+        "3": "LED燈泡",
+        "4": "白熾燈泡"
+      },
+      "answer": [
+        "3"
+      ],
+      "appearances": [
+        {
+          "year": "108",
+          "session": 2,
+          "no": 38
+        }
+      ]
+    },
+    {
+      "id": "s-108-2-051",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "single",
+      "stem": "勞動基準法第84條之1規定之工作者，因工作性質特殊，就其工作時間，下列何者正確？",
+      "options": {
+        "1": "無例假與休假",
+        "2": "不另給予延時工資",
+        "3": "完全不受限制",
+        "4": "勞雇間應有合理協商彈性"
+      },
+      "answer": [
+        "4"
+      ],
+      "appearances": [
+        {
+          "year": "108",
+          "session": 2,
+          "no": 51
+        },
+        {
+          "year": "110",
+          "session": 1,
+          "no": 39
+        },
+        {
+          "year": "110",
+          "session": 3,
+          "no": 21
+        }
+      ]
+    },
+    {
+      "id": "s-108-2-056",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "single",
+      "stem": "根據性騷擾防治法，有關性騷擾之責任與罰則，下列何者錯誤?",
+      "options": {
+        "1": "意圖性騷擾，乘人不及抗拒而為親吻、擁抱或觸摸其臀部、胸部或其他身體隱私處之行為者，處2年以下有期徒刑、拘役或科或併科10萬元以下罰金",
+        "2": "對於因教育、訓練、醫療、公務、業務、求職，受自己監督、照護之人，利用權勢或機會為性騷擾者，得加重科處罰鍰至二分之一",
+        "3": "對他人為性騷擾者，由直轄市、縣(市)主管機關處1萬元以上10萬元以下罰鍰",
+        "4": "對他人為性騷擾者，如果沒有造成他人財產上之損失，就無需負擔金錢賠償之責任"
+      },
+      "answer": [
+        "4"
+      ],
+      "appearances": [
+        {
+          "year": "108",
+          "session": 2,
+          "no": 56
+        },
+        {
+          "year": "111",
+          "session": 3,
+          "no": 54
+        }
+      ]
+    },
+    {
+      "id": "s-108-2-061",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "multi",
+      "stem": "下列那些屬損失控制八大項目？",
+      "options": {
+        "1": "安全觀察",
+        "2": "安全口號",
+        "3": "安全政策",
+        "4": "安全檢查"
+      },
+      "answer": [
+        "1",
+        "4"
+      ],
+      "appearances": [
+        {
+          "year": "108",
+          "session": 2,
+          "no": 61
+        },
+        {
+          "year": "108",
+          "session": 3,
+          "no": 76
+        }
+      ]
+    },
+    {
+      "id": "s-108-2-062",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "multi",
+      "stem": "下列那些為使用道路作業之工作場所，為防止車輛突入等引起之危害，應辦理之事項？",
+      "options": {
+        "1": "不得造成大眾通行之障礙",
+        "2": "與作業無關之車輛禁止停入作業場所",
+        "3": "不得於夜間作業",
+        "4": "作業人員應戴安全帽、穿著顏色鮮明之施工背心"
+      },
+      "answer": [
+        "1",
+        "2",
+        "4"
+      ],
+      "appearances": [
+        {
+          "year": "108",
+          "session": 2,
+          "no": 62
+        },
+        {
+          "year": "112",
+          "session": 1,
+          "no": 74
+        }
+      ]
+    },
+    {
+      "id": "s-108-2-063",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "multi",
+      "stem": "依職業安全衛生設施規則規定，行駛中之貨車搭載勞工時，下列敘述那些為正確？",
+      "options": {
+        "1": "駕駛室之頂部高度不得超過載貨台之物料高度",
+        "2": "不得使勞工搭乘於因貨車之搖動致有墜落之虞之位置",
+        "3": "載貨台之物料高度超過駕駛室頂部者，勞工身體之最高部分不得超過該物料之高度",
+        "4": "勞工身體之最高部分不得超過駕駛室之頂部高度"
+      },
+      "answer": [
+        "2",
+        "3",
+        "4"
+      ],
+      "appearances": [
+        {
+          "year": "108",
+          "session": 2,
+          "no": 63
+        },
+        {
+          "year": "113",
+          "session": 1,
+          "no": 64
+        }
+      ]
+    },
+    {
+      "id": "s-108-2-064",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "multi",
+      "stem": "下列那些屬勞動檢查法第27條所稱之重大職業災害？",
+      "options": {
+        "1": "發生災害罹災3人以上者",
+        "2": "發生死亡災害者",
+        "3": "發生光氣之洩漏，致1人以上罹災勞工需住院治療者",
+        "4": "1人發生9等殘廢之災害"
+      },
+      "answer": [
+        "1",
+        "2",
+        "3"
+      ],
+      "appearances": [
+        {
+          "year": "108",
+          "session": 2,
+          "no": 64
+        }
+      ]
+    },
+    {
+      "id": "s-108-2-065",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "multi",
+      "stem": "下列那些適用於衝剪機械安全防護之安全裝置？",
+      "options": {
+        "1": "撐縫片",
+        "2": "光電式感應開關",
+        "3": "拉回式裝置",
+        "4": "雙手操作裝置"
+      },
+      "answer": [
+        "2",
+        "3",
+        "4"
+      ],
+      "appearances": [
+        {
+          "year": "108",
+          "session": 2,
+          "no": 65
+        },
+        {
+          "year": "110",
+          "session": 3,
+          "no": 80
+        },
+        {
+          "year": "114",
+          "session": "2颱風延期考區",
+          "no": 71
+        }
+      ]
+    },
+    {
+      "id": "s-108-2-066",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "multi",
+      "stem": "下列那些為研磨機使用之正確敘述？",
+      "options": {
+        "1": "研磨機之使用不得超過規定之最高使用圓周速度",
+        "2": "研磨輪除側面使用外，不得使用側面進行研磨",
+        "3": "研磨輪更換時應先檢驗是否有無裂痕",
+        "4": "磨輪使用前無須作業前試運轉，僅需每週檢查1次即可"
+      },
+      "answer": [
+        "1",
+        "2",
+        "3"
+      ],
+      "appearances": [
+        {
+          "year": "108",
+          "session": 2,
+          "no": 66
+        }
+      ]
+    },
+    {
+      "id": "s-108-2-067",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "multi",
+      "stem": "下列那些電氣裝置為避免電路過載所產生之危害？",
+      "options": {
+        "1": "漏電斷路器",
+        "2": "設備接地",
+        "3": "保險絲",
+        "4": "無熔絲開關"
+      },
+      "answer": [
+        "3",
+        "4"
+      ],
+      "appearances": [
+        {
+          "year": "108",
+          "session": 2,
+          "no": 67
+        },
+        {
+          "year": "111",
+          "session": 2,
+          "no": 72
+        },
+        {
+          "year": "113",
+          "session": 1,
+          "no": 66
+        },
+        {
+          "year": "114",
+          "session": 1,
+          "no": 63
+        },
+        {
+          "year": "114",
+          "session": 3,
+          "no": 72
+        }
+      ]
+    },
+    {
+      "id": "s-108-2-068",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "multi",
+      "stem": "防止酸、鹼、化學品傷害皮膚之職業衛生防護手套，下列那些為較適合材質？",
+      "options": {
+        "1": "棉布",
+        "2": "皮革",
+        "3": "合成纖維",
+        "4": "天然橡膠"
+      },
+      "answer": [
+        "3",
+        "4"
+      ],
+      "appearances": [
+        {
+          "year": "108",
+          "session": 2,
+          "no": 68
+        },
+        {
+          "year": "108",
+          "session": 3,
+          "no": 75
+        },
+        {
+          "year": "111",
+          "session": 1,
+          "no": 75
+        }
+      ]
+    },
+    {
+      "id": "s-108-2-069",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "multi",
+      "stem": "職業安全衛生顧問機構之服務類別包括那些？",
+      "options": {
+        "1": "勞工健康顧問服務",
+        "2": "工業通風技術顧問服務",
+        "3": "企業經營管理顧問服務",
+        "4": "暴露評估技術顧問服務"
+      },
+      "answer": [
+        "1",
+        "2",
+        "4"
+      ],
+      "appearances": [
+        {
+          "year": "108",
+          "session": 2,
+          "no": 69
+        }
+      ]
+    },
+    {
+      "id": "s-108-2-070",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "multi",
+      "stem": "在有爆炸之虞場所測定絕緣電阻時，應預防火花之發生，其發生原因與下列那些有關？",
+      "options": {
+        "1": "連接線與未完全放電之機器碰撞",
+        "2": "測驗完畢時之電容放電",
+        "3": "試驗中絕緣損壞處產生電弧",
+        "4": "連接線之完全放電"
+      },
+      "answer": [
+        "1",
+        "2",
+        "3"
+      ],
+      "appearances": [
+        {
+          "year": "108",
+          "session": 2,
+          "no": 70
+        },
+        {
+          "year": "109",
+          "session": 2,
+          "no": 80
+        },
+        {
+          "year": "113",
+          "session": 2,
+          "no": 75
+        }
+      ]
+    },
+    {
+      "id": "s-108-2-071",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "multi",
+      "stem": "依職業安全衛生設施規則規定，下列有關升降機之安全設施，下列敘述那些為正確？",
+      "options": {
+        "1": "升降路各樓出入口，應裝置構造堅固平滑之門",
+        "2": "升降機在開動中任一門開啟時，能停止上下",
+        "3": "升降搬器及升降路出入口之任一門開啟時，升降機不能開動",
+        "4": "搬器地板與樓板相差10公分以上時，升降路出入口門不能開啟"
+      },
+      "answer": [
+        "1",
+        "2",
+        "3"
+      ],
+      "appearances": [
+        {
+          "year": "108",
+          "session": 2,
+          "no": 71
+        },
+        {
+          "year": "111",
+          "session": 3,
+          "no": 70
+        },
+        {
+          "year": "112",
+          "session": 3,
+          "no": 62
+        }
+      ]
+    },
+    {
+      "id": "s-108-2-072",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "multi",
+      "stem": "下列那些非化學暴露指數(CEI)所包括的外洩後果因子？",
+      "options": {
+        "1": "製程參數",
+        "2": "工廠配置",
+        "3": "立即毒性",
+        "4": "物質庫存量"
+      },
+      "answer": [
+        "1",
+        "3"
+      ],
+      "appearances": [
+        {
+          "year": "108",
+          "session": 2,
+          "no": 72
+        },
+        {
+          "year": "110",
+          "session": 2,
+          "no": 61
+        }
+      ]
+    },
+    {
+      "id": "s-108-2-073",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "multi",
+      "stem": "依危險性工作場所審查及檢查辦法規定，下列那些屬丁類危險性工作場所？",
+      "options": {
+        "1": "單跨橋梁之橋墩跨距在75公尺以上或多跨橋梁之橋墩跨距在50公尺以上之橋梁工程",
+        "2": "建築物頂樓樓板高度在80公尺以上之建築工程",
+        "3": "長度500公尺未有豎坑之隧道工程",
+        "4": "模板支撐高度在5公尺以上之工程"
+      },
+      "answer": [
+        "1",
+        "2"
+      ],
+      "appearances": [
+        {
+          "year": "108",
+          "session": 2,
+          "no": 73
+        },
+        {
+          "year": "110",
+          "session": 1,
+          "no": 68
+        },
+        {
+          "year": "111",
+          "session": 2,
+          "no": 66
+        },
+        {
+          "year": "112",
+          "session": 1,
+          "no": 67
+        },
+        {
+          "year": "112",
+          "session": 2,
+          "no": 67
+        },
+        {
+          "year": "113",
+          "session": 3,
+          "no": 72
+        }
+      ]
+    },
+    {
+      "id": "s-108-2-074",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "multi",
+      "stem": "依職業安全衛生管理辦法規定，下列那些檢查需要訂定自動檢查計畫？",
+      "options": {
+        "1": "機械、設備之重點檢查",
+        "2": "機械、設備之作業檢查",
+        "3": "作業檢點",
+        "4": "機械之定期檢查"
+      },
+      "answer": [
+        "1",
+        "2",
+        "4"
+      ],
+      "appearances": [
+        {
+          "year": "108",
+          "session": 2,
+          "no": 74
+        },
+        {
+          "year": "108",
+          "session": 3,
+          "no": 73
+        }
+      ]
+    },
+    {
+      "id": "s-108-2-075",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "multi",
+      "stem": "依危險性機械及設備安全檢查規則規定，第一種壓力容器在下列那些情形需申請重新檢查？",
+      "options": {
+        "1": "補強支撐有變動者",
+        "2": "遷移裝置地點而重新裝設者",
+        "3": "經禁止使用擬恢復使用者",
+        "4": "從國外進口者"
+      },
+      "answer": [
+        "2",
+        "3",
+        "4"
+      ],
+      "appearances": [
+        {
+          "year": "108",
+          "session": 2,
+          "no": 75
+        },
+        {
+          "year": "108",
+          "session": 3,
+          "no": 70
+        },
+        {
+          "year": "109",
+          "session": 1,
+          "no": 69
+        },
+        {
+          "year": "113",
+          "session": 3,
+          "no": 70
+        }
+      ]
+    },
+    {
+      "id": "s-108-2-076",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "multi",
+      "stem": "下列那些屬應用弱連結之安全設計？",
+      "options": {
+        "1": "化工儲槽之破裂盤",
+        "2": "鍋爐水位計",
+        "3": "自動撒水滅火系統",
+        "4": "警告標示"
+      },
+      "answer": [
+        "1",
+        "3"
+      ],
+      "appearances": [
+        {
+          "year": "108",
+          "session": 2,
+          "no": 76
+        },
+        {
+          "year": "111",
+          "session": 3,
+          "no": 79
+        },
+        {
+          "year": "112",
+          "session": 1,
+          "no": 65
+        },
+        {
+          "year": "113",
+          "session": 2,
+          "no": 80
+        }
+      ]
+    },
+    {
+      "id": "s-108-2-077",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "multi",
+      "stem": "關於職業安全衛生管理計畫的說明，下列那些正確？",
+      "options": {
+        "1": "計畫目標應該具體且可量測",
+        "2": "安全衛生管理計畫應該由事業單位訂定",
+        "3": "由職業安全衛生管理單位自行訂定",
+        "4": "計畫內容包括採購管理、承攬管理與變更管理等事項"
+      },
+      "answer": [
+        "1",
+        "2",
+        "4"
+      ],
+      "appearances": [
+        {
+          "year": "108",
+          "session": 2,
+          "no": 77
+        },
+        {
+          "year": "108",
+          "session": 3,
+          "no": 64
+        },
+        {
+          "year": "109",
+          "session": 1,
+          "no": 63
+        },
+        {
+          "year": "110",
+          "session": 2,
+          "no": 72
+        },
+        {
+          "year": "111",
+          "session": 2,
+          "no": 80
+        },
+        {
+          "year": "113",
+          "session": 2,
+          "no": 69
+        }
+      ]
+    },
+    {
+      "id": "s-108-2-078",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "multi",
+      "stem": "下列有關健康管理之敘述那些正確？",
+      "options": {
+        "1": "健康管理係以保持或增進健康為目的",
+        "2": "健康管理一般之主要手段為體格檢查及健康檢查",
+        "3": "定期之體格檢查有助於早期發現是否已受到危害因子之影響",
+        "4": "體格檢查可作為配工之參考，可篩選體質是否宜從事存在危害因子場所之作業"
+      },
+      "answer": [
+        "1",
+        "2",
+        "4"
+      ],
+      "appearances": [
+        {
+          "year": "108",
+          "session": 2,
+          "no": 78
+        },
+        {
+          "year": "110",
+          "session": 1,
+          "no": 65
+        }
+      ]
+    },
+    {
+      "id": "s-108-2-079",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "multi",
+      "stem": "依職業安全衛生法施行細則規定，下列那些屬安全衛生工作守則的內容？",
+      "options": {
+        "1": "訪客注意要點",
+        "2": "工作安全及衛生標準",
+        "3": "事業單位之安全衛生管理及各級之權責",
+        "4": "急救與搶救"
+      },
+      "answer": [
+        "2",
+        "3",
+        "4"
+      ],
+      "appearances": [
+        {
+          "year": "108",
+          "session": 2,
+          "no": 79
+        },
+        {
+          "year": "109",
+          "session": 3,
+          "no": 66
+        },
+        {
+          "year": "110",
+          "session": 1,
+          "no": 66
+        },
+        {
+          "year": "114",
+          "session": 3,
+          "no": 61
+        }
+      ]
+    },
+    {
+      "id": "s-108-2-080",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "multi",
+      "stem": "依營造安全衛生設施標準規定，為防止屋頂作業人員墜落，應考量那些因素？",
+      "options": {
+        "1": "屋頂材料價格",
+        "2": "屋頂斜度",
+        "3": "天候",
+        "4": "屋頂材料性質"
+      },
+      "answer": [
+        "2",
+        "3",
+        "4"
+      ],
+      "appearances": [
+        {
+          "year": "108",
+          "session": 2,
+          "no": 80
+        },
+        {
+          "year": "109",
+          "session": 3,
+          "no": 78
+        },
+        {
+          "year": "113",
+          "session": 2,
+          "no": 73
+        }
+      ]
+    },
+    {
+      "id": "s-108-3-004",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "single",
+      "stem": "研磨作業時，研磨機砂輪破裂所造成之職業災害應屬下列那些災害類型？",
+      "options": {
+        "1": "被撞",
+        "2": "擦傷",
+        "3": "物體飛落",
+        "4": "爆炸"
+      },
+      "answer": [
+        "3"
+      ],
+      "appearances": [
+        {
+          "year": "108",
+          "session": 3,
+          "no": 4
+        }
+      ]
+    },
+    {
+      "id": "s-108-3-022",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "single",
+      "stem": "依營造安全衛生設施標準規定，雇主對於高度在多少公尺以上之施工架構築，應由專任工程人員事先以預期施工時之最大荷重，依結構力學原理妥為設計。",
+      "options": {
+        "1": "3",
+        "2": "9",
+        "3": "7",
+        "4": "5"
+      },
+      "answer": [
+        "4"
+      ],
+      "appearances": [
+        {
+          "year": "108",
+          "session": 3,
+          "no": 22
+        }
+      ]
+    },
+    {
+      "id": "s-108-3-023",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "single",
+      "stem": "一般而言，螢光燈的發光效率與長度有關嗎？",
+      "options": {
+        "1": "有關，越長的螢光燈管，發光效率越高",
+        "2": "有關，越長的螢光燈管，發光效率越低",
+        "3": "無關，發光效率只與燈管直徑有關",
+        "4": "無關，發光效率只與色溫有關"
+      },
+      "answer": [
+        "1"
+      ],
+      "appearances": [
+        {
+          "year": "108",
+          "session": 3,
+          "no": 23
+        }
+      ]
+    },
+    {
+      "id": "s-108-3-024",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "single",
+      "stem": "勞工未切實遵行安全衛生工作守則，主管機關最高可處罰鍰新台幣多少元？",
+      "options": {
+        "1": "9,000",
+        "2": "6,000",
+        "3": "3,000",
+        "4": "1,000"
+      },
+      "answer": [
+        "3"
+      ],
+      "appearances": [
+        {
+          "year": "108",
+          "session": 3,
+          "no": 24
+        },
+        {
+          "year": "111",
+          "session": 1,
+          "no": 35
+        }
+      ]
+    },
+    {
+      "id": "s-108-3-029",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "single",
+      "stem": "關於個人資料保護法規之敘述，下列何者「錯誤」？",
+      "options": {
+        "1": "外國學生在臺灣短期進修或留學，也受到我國個資法的保障",
+        "2": "公務機關執行法定職務必要範圍內，可以蒐集、處理或利用一般性個人資料",
+        "3": "非公務機關亦應維護個人資料之正確，並主動或依當事人之請求更正或補充",
+        "4": "間接蒐集之個人資料，於處理或利用前，不必告知當事人個人資料來源"
+      },
+      "answer": [
+        "4"
+      ],
+      "appearances": [
+        {
+          "year": "108",
+          "session": 3,
+          "no": 29
+        }
+      ]
+    },
+    {
+      "id": "s-108-3-030",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "single",
+      "stem": "依危險性工作場所審查及檢查辦法規定，勞動檢查機構對申請審查之丁類危險性工作場所應於受理申請後，幾日內將審查之結果，以書面通知事業單位？",
+      "options": {
+        "1": "60",
+        "2": "20",
+        "3": "30",
+        "4": "45"
+      },
+      "answer": [
+        "3"
+      ],
+      "appearances": [
+        {
+          "year": "108",
+          "session": 3,
+          "no": 30
+        }
+      ]
+    },
+    {
+      "id": "s-108-3-031",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "single",
+      "stem": "根據性別工作平等法，下列何者非屬職場性別歧視?",
+      "options": {
+        "1": "雇主考量男性賺錢養家之社會期待，提供男性高於女性之薪資",
+        "2": "雇主事先與員工約定倘其有懷孕之情事，必須離職",
+        "3": "雇主考量女性以家庭為重之社會期待，裁員時優先資遣女性",
+        "4": "有未滿2歲子女之男性員工，也可申請每日六十分鐘的哺乳時間"
+      },
+      "answer": [
+        "4"
+      ],
+      "appearances": [
+        {
+          "year": "108",
+          "session": 3,
+          "no": 31
+        }
+      ]
+    },
+    {
+      "id": "s-108-3-035",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "single",
+      "stem": "為防止勞工感電，下列何者為非？",
+      "options": {
+        "1": "設備有金屬外殼保護即可免裝漏電斷路器",
+        "2": "避免不當延長接線",
+        "3": "電線架高或加以防護",
+        "4": "使用防水插頭"
+      },
+      "answer": [
+        "1"
+      ],
+      "appearances": [
+        {
+          "year": "108",
+          "session": 3,
+          "no": 35
+        },
+        {
+          "year": "109",
+          "session": 2,
+          "no": 56
+        },
+        {
+          "year": "112",
+          "session": 1,
+          "no": 6
+        },
+        {
+          "year": "112",
+          "session": 2,
+          "no": 15
+        }
+      ]
+    },
+    {
+      "id": "s-108-3-036",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "single",
+      "stem": "耳部最高敏感度之頻率範圍自3,000至5,000赫茲，一般聽力損失發生約在多少赫玆？",
+      "options": {
+        "1": "4,000",
+        "2": "1,000",
+        "3": "2,000",
+        "4": "8,000"
+      },
+      "answer": [
+        "1"
+      ],
+      "appearances": [
+        {
+          "year": "108",
+          "session": 3,
+          "no": 36
+        },
+        {
+          "year": "114",
+          "session": 3,
+          "no": 17
+        }
+      ]
+    },
+    {
+      "id": "s-108-3-042",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "single",
+      "stem": "各產業中耗能佔比最大的產業為",
+      "options": {
+        "1": "公用事業",
+        "2": "服務業",
+        "3": "農林漁牧業",
+        "4": "能源密集產業"
+      },
+      "answer": [
+        "4"
+      ],
+      "appearances": [
+        {
+          "year": "108",
+          "session": 3,
+          "no": 42
+        },
+        {
+          "year": "109",
+          "session": 1,
+          "no": 24
+        },
+        {
+          "year": "111",
+          "session": 2,
+          "no": 14
+        },
+        {
+          "year": "112",
+          "session": 1,
+          "no": 22
+        }
+      ]
+    },
+    {
+      "id": "s-108-3-043",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "single",
+      "stem": "職業安全衛生法所稱有母性健康危害之虞之工作，不包括下列何種工作型態？",
+      "options": {
+        "1": "長時間站立姿勢作業",
+        "2": "人力提舉、搬運及推拉重物",
+        "3": "駕駛運輸車輛",
+        "4": "輪班及夜間工作"
+      },
+      "answer": [
+        "3"
+      ],
+      "appearances": [
+        {
+          "year": "108",
+          "session": 3,
+          "no": 43
+        },
+        {
+          "year": "110",
+          "session": 3,
+          "no": 31
+        },
+        {
+          "year": "112",
+          "session": 1,
+          "no": 31
+        }
+      ]
+    },
+    {
+      "id": "s-108-3-044",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "single",
+      "stem": "下列何者不屬公務員廉政倫理規範禁止公務員收受之「財物」？",
+      "options": {
+        "1": "農特產禮盒",
+        "2": "公司印製之月曆",
+        "3": "旅宿業公關票",
+        "4": "運動中心免費會員證"
+      },
+      "answer": [
+        "2"
+      ],
+      "appearances": [
+        {
+          "year": "108",
+          "session": 3,
+          "no": 44
+        }
+      ]
+    },
+    {
+      "id": "s-108-3-050",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "single",
+      "stem": "依營造安全衛生設施標準規定，對於從事鋼筋混凝土之作業時，下列敘述何者不正確？",
+      "options": {
+        "1": "鋼筋不得散放於施工架上",
+        "2": "禁止使用鋼筋作為拉索支持物、工作架或起重支持架",
+        "3": "不得使用吊車或索道運送鋼筋",
+        "4": "使從事搬運鋼筋作業之勞工戴用手套"
+      },
+      "answer": [
+        "3"
+      ],
+      "appearances": [
+        {
+          "year": "108",
+          "session": 3,
+          "no": 50
+        }
+      ]
+    },
+    {
+      "id": "s-108-3-052",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "single",
+      "stem": "依高壓氣體勞工安全規則規定，高壓氣體儲存能力在100立方公尺或1公噸以上之儲槽，應多久定期測定其沉陷狀況1次？",
+      "options": {
+        "1": "1年",
+        "2": "9個月",
+        "3": "6個月",
+        "4": "1個月"
+      },
+      "answer": [
+        "1"
+      ],
+      "appearances": [
+        {
+          "year": "108",
+          "session": 3,
+          "no": 52
+        },
+        {
+          "year": "109",
+          "session": 1,
+          "no": 37
+        }
+      ]
+    },
+    {
+      "id": "s-108-3-060",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "single",
+      "stem": "下列何者是造成臺灣雨水酸鹼(pH)值下降的主要原因？",
+      "options": {
+        "1": "工業排放廢氣",
+        "2": "國外火山噴發",
+        "3": "降雨量減少",
+        "4": "森林減少"
+      },
+      "answer": [
+        "1"
+      ],
+      "appearances": [
+        {
+          "year": "108",
+          "session": 3,
+          "no": 60
+        },
+        {
+          "year": "111",
+          "session": 3,
+          "no": 24
+        }
+      ]
+    },
+    {
+      "id": "s-108-3-061",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "multi",
+      "stem": "下列那些為研磨機使用之正確敘述？",
+      "options": {
+        "1": "研磨輪使用前無須作業前試運轉，僅需每週檢查1次即可",
+        "2": "研磨輪更換時應先檢驗是否有無裂痕",
+        "3": "研磨輪除側面使用外，不得使用側面進行研磨",
+        "4": "研磨機之使用不得超過規定之最高使用圓周速度"
+      },
+      "answer": [
+        "2",
+        "3",
+        "4"
+      ],
+      "appearances": [
+        {
+          "year": "108",
+          "session": 3,
+          "no": 61
+        },
+        {
+          "year": "112",
+          "session": 1,
+          "no": 70
+        }
+      ]
+    },
+    {
+      "id": "s-108-3-063",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "multi",
+      "stem": "下列有關健康檢查結果評估及處理之事項，那些正確？",
+      "options": {
+        "1": "將特殊健康檢查結果報告及第三級管理以上之勞工資料陳報中央主管機關",
+        "2": "依照醫師之建議適當配置勞工於工作場所作業",
+        "3": "對健康檢查發現健康異常之勞工，由部門主管判定是否與職業原因有關",
+        "4": "每次健檢後進行整體性之評估"
+      },
+      "answer": [
+        "1",
+        "2",
+        "4"
+      ],
+      "appearances": [
+        {
+          "year": "108",
+          "session": 3,
+          "no": 63
+        },
+        {
+          "year": "110",
+          "session": 2,
+          "no": 64
+        },
+        {
+          "year": "110",
+          "session": 3,
+          "no": 76
+        },
+        {
+          "year": "113",
+          "session": 3,
+          "no": 78
+        },
+        {
+          "year": "114",
+          "session": "2颱風延期考區",
+          "no": 67
+        }
+      ]
+    },
+    {
+      "id": "s-108-3-066",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "multi",
+      "stem": "下列那些可能引發呼吸系統職業病？",
+      "options": {
+        "1": "游離二氧化矽",
+        "2": "石綿",
+        "3": "鉛",
+        "4": "粉塵"
+      },
+      "answer": [
+        "1",
+        "2",
+        "4"
+      ],
+      "appearances": [
+        {
+          "year": "108",
+          "session": 3,
+          "no": 66
+        }
+      ]
+    },
+    {
+      "id": "s-108-3-067",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "multi",
+      "stem": "某一工廠新設一座吊升荷重為5公噸之固定式起重機，下列那些非屬其所需之法定檢查？",
+      "options": {
+        "1": "熔接檢查",
+        "2": "竣工檢查",
+        "3": "型式檢查",
+        "4": "使用檢查"
+      },
+      "answer": [
+        "1",
+        "4"
+      ],
+      "appearances": [
+        {
+          "year": "108",
+          "session": 3,
+          "no": 67
+        }
+      ]
+    },
+    {
+      "id": "s-108-3-068",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "multi",
+      "stem": "職業安全衛生設施規則所稱之車輛機械，包括下列那些？",
+      "options": {
+        "1": "手推車",
+        "2": "刮運機",
+        "3": "固定式起重機",
+        "4": "鏟土機"
+      },
+      "answer": [
+        "2",
+        "4"
+      ],
+      "appearances": [
+        {
+          "year": "108",
+          "session": 3,
+          "no": 68
+        },
+        {
+          "year": "109",
+          "session": 1,
+          "no": 64
+        },
+        {
+          "year": "110",
+          "session": 2,
+          "no": 74
+        },
+        {
+          "year": "111",
+          "session": 3,
+          "no": 63
+        }
+      ]
+    },
+    {
+      "id": "s-108-3-069",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "multi",
+      "stem": "安全資料表應包含下列那些資訊？",
+      "options": {
+        "1": "成本資料",
+        "2": "容許暴露濃度",
+        "3": "腐蝕性資料",
+        "4": "化學製程的描述"
+      },
+      "answer": [
+        "2",
+        "3"
+      ],
+      "appearances": [
+        {
+          "year": "108",
+          "session": 3,
+          "no": 69
+        }
+      ]
+    },
+    {
+      "id": "s-108-3-071",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "multi",
+      "stem": "6S現場管理守則是事業單位經常使用於塑造安全文化的管理方法之一，那些方法屬於6S範疇？",
+      "options": {
+        "1": "教育",
+        "2": "整理",
+        "3": "修養",
+        "4": "整頓"
+      },
+      "answer": [
+        "2",
+        "3",
+        "4"
+      ],
+      "appearances": [
+        {
+          "year": "108",
+          "session": 3,
+          "no": 71
+        },
+        {
+          "year": "111",
+          "session": 1,
+          "no": 76
+        },
+        {
+          "year": "112",
+          "session": 3,
+          "no": 72
+        },
+        {
+          "year": "114",
+          "session": 3,
+          "no": 77
+        }
+      ]
+    },
+    {
+      "id": "s-108-3-072",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "multi",
+      "stem": "下列那些為靜電危害防止對策？",
+      "options": {
+        "1": "乾燥",
+        "2": "使用導電性材料",
+        "3": "接地",
+        "4": "游離化"
+      },
+      "answer": [
+        "2",
+        "3",
+        "4"
+      ],
+      "appearances": [
+        {
+          "year": "108",
+          "session": 3,
+          "no": 72
+        },
+        {
+          "year": "109",
+          "session": 1,
+          "no": 70
+        },
+        {
+          "year": "110",
+          "session": 3,
+          "no": 78
+        },
+        {
+          "year": "114",
+          "session": 3,
+          "no": 69
+        }
+      ]
+    },
+    {
+      "id": "s-108-3-074",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "multi",
+      "stem": "財物損失事故費用涵蓋下列那些？",
+      "options": {
+        "1": "機械費用",
+        "2": "材料費用",
+        "3": "看護費用",
+        "4": "醫療費用"
+      },
+      "answer": [
+        "1",
+        "2"
+      ],
+      "appearances": [
+        {
+          "year": "108",
+          "session": 3,
+          "no": 74
+        },
+        {
+          "year": "111",
+          "session": 2,
+          "no": 62
+        }
+      ]
+    },
+    {
+      "id": "s-108-3-077",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "multi",
+      "stem": "職業安全衛生法上所稱之工作者為何？",
+      "options": {
+        "1": "其他受工作場所負責人指揮或監督從事勞動之人員",
+        "2": "事業之經營負責人",
+        "3": "勞工",
+        "4": "自營作業者"
+      },
+      "answer": [
+        "1",
+        "3",
+        "4"
+      ],
+      "appearances": [
+        {
+          "year": "108",
+          "session": 3,
+          "no": 77
+        }
+      ]
+    },
+    {
+      "id": "s-108-3-078",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "multi",
+      "stem": "控制器的誤觸往往是造成事故的原因之一，下列那些為一般所建議的防止控制器誤觸的方法？",
+      "options": {
+        "1": "遮蔽控制器",
+        "2": "增加控制器之阻力",
+        "3": "改變控制之程序",
+        "4": "增大控制器之體積"
+      },
+      "answer": [
+        "1",
+        "2",
+        "3"
+      ],
+      "appearances": [
+        {
+          "year": "108",
+          "session": 3,
+          "no": 78
+        },
+        {
+          "year": "110",
+          "session": 1,
+          "no": 64
+        },
+        {
+          "year": "114",
+          "session": 1,
+          "no": 68
+        }
+      ]
+    },
+    {
+      "id": "s-108-3-079",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "multi",
+      "stem": "下列那些為化學性危害因子？",
+      "options": {
+        "1": "局部振動",
+        "2": "金屬燻煙",
+        "3": "游離二氧化矽",
+        "4": "噪音"
+      },
+      "answer": [
+        "2",
+        "3"
+      ],
+      "appearances": [
+        {
+          "year": "108",
+          "session": 3,
+          "no": 79
+        },
+        {
+          "year": "110",
+          "session": 1,
+          "no": 73
+        },
+        {
+          "year": "113",
+          "session": 3,
+          "no": 64
+        }
+      ]
+    },
+    {
+      "id": "s-108-3-080",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "multi",
+      "stem": "下列對職業安全衛生標示之形狀種類說明之敘述那些正確？",
+      "options": {
+        "1": "尖端向上之正三角形用於注意",
+        "2": "圓形用於禁止",
+        "3": "尖端向下之正三角形用於警告",
+        "4": "正方形或長方形用於一般說明或提示"
+      },
+      "answer": [
+        "2",
+        "4"
+      ],
+      "appearances": [
+        {
+          "year": "108",
+          "session": 3,
+          "no": 80
+        },
+        {
+          "year": "111",
+          "session": 2,
+          "no": 74
+        }
+      ]
+    },
+    {
+      "id": "s-109-1-003",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "single",
+      "stem": "依廢棄物清理法之規定，隨地吐檳榔汁、檳榔渣者，應接受幾小時之戒檳班講習？",
+      "options": {
+        "1": "8小時",
+        "2": "6小時",
+        "3": "2小時",
+        "4": "4小時"
+      },
+      "answer": [
+        "4"
+      ],
+      "appearances": [
+        {
+          "year": "109",
+          "session": 1,
+          "no": 3
+        }
+      ]
+    },
+    {
+      "id": "s-109-1-006",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "single",
+      "stem": "依職業安全衛生法規定，下列何項機械或設備之操作人員，雇主應僱用經技術士技能檢定或訓練合格人員充任之？",
+      "options": {
+        "1": "圓盤鋸",
+        "2": "升降機",
+        "3": "鍋爐",
+        "4": "簡易提升機"
+      },
+      "answer": [
+        "3"
+      ],
+      "appearances": [
+        {
+          "year": "109",
+          "session": 1,
+          "no": 6
+        },
+        {
+          "year": "110",
+          "session": 1,
+          "no": 1
+        },
+        {
+          "year": "110",
+          "session": 3,
+          "no": 55
+        }
+      ]
+    },
+    {
+      "id": "s-109-1-008",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "single",
+      "stem": "為了節能與降低電費的需求，家電產品的正確選用應該如何？",
+      "options": {
+        "1": "選用高功率的產品效率較高",
+        "2": "優先選用取得節能標章的產品",
+        "3": "設備沒有壞，還是堪用，繼續用，不會增加支出",
+        "4": "選用能效分級數字較高的產品，效率較高，5級的比1級的電器產品更省電"
+      },
+      "answer": [
+        "2"
+      ],
+      "appearances": [
+        {
+          "year": "109",
+          "session": 1,
+          "no": 8
+        }
+      ]
+    },
+    {
+      "id": "s-109-1-031",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "single",
+      "stem": "下列何種行為對生態環境會造成較大的衝擊？",
+      "options": {
+        "1": "引進外來物種",
+        "2": "植種原生樹木",
+        "3": "設立國家公園",
+        "4": "設立自然保護區"
+      },
+      "answer": [
+        "1"
+      ],
+      "appearances": [
+        {
+          "year": "109",
+          "session": 1,
+          "no": 31
+        }
+      ]
+    },
+    {
+      "id": "s-109-1-033",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "single",
+      "stem": "依營造安全衛生設施標準規定，雇主對於置放於高處，位能超過下列若干公斤‧公尺之物件有飛落之虞者，應予以固定之？",
+      "options": {
+        "1": "12",
+        "2": "16",
+        "3": "14",
+        "4": "18"
+      },
+      "answer": [
+        "1"
+      ],
+      "appearances": [
+        {
+          "year": "109",
+          "session": 1,
+          "no": 33
+        }
+      ]
+    },
+    {
+      "id": "s-109-1-035",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "single",
+      "stem": "下列何者非屬電氣災害類型？",
+      "options": {
+        "1": "靜電危害",
+        "2": "電氣火災",
+        "3": "電弧灼傷",
+        "4": "雷電閃爍"
+      },
+      "answer": [
+        "4"
+      ],
+      "appearances": [
+        {
+          "year": "109",
+          "session": 1,
+          "no": 35
+        },
+        {
+          "year": "114",
+          "session": 2,
+          "no": 43
+        }
+      ]
+    },
+    {
+      "id": "s-109-1-040",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "single",
+      "stem": "任職於某公司的程式設計工程師，因職務所編寫之電腦程式，如果沒有特別以契約約定，則該電腦程式重製之權利歸屬下列何者？",
+      "options": {
+        "1": "編寫程式之工程師",
+        "2": "公司",
+        "3": "公司與編寫程式之工程師共有",
+        "4": "公司全體股東共有"
+      },
+      "answer": [
+        "2"
+      ],
+      "appearances": [
+        {
+          "year": "109",
+          "session": 1,
+          "no": 40
+        }
+      ]
+    },
+    {
+      "id": "s-109-1-041",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "single",
+      "stem": "營造業的專案工程，在下列那一個階段考量安全，可有最佳的安全成本效益？",
+      "options": {
+        "1": "施工",
+        "2": "規劃設計",
+        "3": "發包",
+        "4": "試運轉"
+      },
+      "answer": [
+        "2"
+      ],
+      "appearances": [
+        {
+          "year": "109",
+          "session": 1,
+          "no": 41
+        },
+        {
+          "year": "109",
+          "session": 2,
+          "no": 28
+        },
+        {
+          "year": "111",
+          "session": 2,
+          "no": 37
+        },
+        {
+          "year": "112",
+          "session": 1,
+          "no": 2
+        },
+        {
+          "year": "113",
+          "session": 3,
+          "no": 7
+        },
+        {
+          "year": "114",
+          "session": 1,
+          "no": 30
+        }
+      ]
+    },
+    {
+      "id": "s-109-1-047",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "single",
+      "stem": "下列何者非屬使用合梯，應符合之規定？",
+      "options": {
+        "1": "梯腳與地面之角度應在80度以上",
+        "2": "合梯應具有堅固之構造",
+        "3": "合梯材質不得有顯著之損傷、腐蝕等",
+        "4": "有安全之防滑梯面"
+      },
+      "answer": [
+        "1"
+      ],
+      "appearances": [
+        {
+          "year": "109",
+          "session": 1,
+          "no": 47
+        },
+        {
+          "year": "113",
+          "session": 2,
+          "no": 56
+        }
+      ]
+    },
+    {
+      "id": "s-109-1-048",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "single",
+      "stem": "檢核表之使用，下列敘述何者不正確？",
+      "options": {
+        "1": "有效率達到各個操作階段評估的目的",
+        "2": "使用快速容易、成本較低",
+        "3": "用來做為操作訓練之依據",
+        "4": "適合用來做為事故調查之唯一方法"
+      },
+      "answer": [
+        "4"
+      ],
+      "appearances": [
+        {
+          "year": "109",
+          "session": 1,
+          "no": 48
+        },
+        {
+          "year": "111",
+          "session": 2,
+          "no": 27
+        },
+        {
+          "year": "113",
+          "session": 2,
+          "no": 53
+        }
+      ]
+    },
+    {
+      "id": "s-109-1-054",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "single",
+      "stem": "下列何者「非」屬於營業秘密？",
+      "options": {
+        "1": "客戶名單",
+        "2": "產品設計或開發流程圖示",
+        "3": "公司內部的各種計畫方案",
+        "4": "具廣告性質的不動產交易底價"
+      },
+      "answer": [
+        "4"
+      ],
+      "appearances": [
+        {
+          "year": "109",
+          "session": 1,
+          "no": 54
+        },
+        {
+          "year": "109",
+          "session": 2,
+          "no": 49
+        }
+      ]
+    },
+    {
+      "id": "s-109-1-056",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "single",
+      "stem": "下列何種開發行為若對環境有不良影響之虞者，應實施環境影響評估：A.開發科學園區；B.新建捷運工程；C.採礦。",
+      "options": {
+        "1": "ABC",
+        "2": "AB",
+        "3": "AC",
+        "4": "BC"
+      },
+      "answer": [
+        "1"
+      ],
+      "appearances": [
+        {
+          "year": "109",
+          "session": 1,
+          "no": 56
+        },
+        {
+          "year": "111",
+          "session": 3,
+          "no": 51
+        }
+      ]
+    },
+    {
+      "id": "s-109-1-057",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "single",
+      "stem": "甲公司將其新開發受營業秘密法保護之技術，授權乙公司使用，下列何者不得為之？",
+      "options": {
+        "1": "乙公司已獲授權，所以可以未經甲公司同意，再授權丙公司使用",
+        "2": "約定授權使用限於特定之內容、一定之使用方法",
+        "3": "約定授權使用限於一定之地域、時間",
+        "4": "要求被授權人乙公司在一定期間負有保密義務"
+      },
+      "answer": [
+        "1"
+      ],
+      "appearances": [
+        {
+          "year": "109",
+          "session": 1,
+          "no": 57
+        }
+      ]
+    },
+    {
+      "id": "s-109-1-061",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "multi",
+      "stem": "下列那些人係由雇主指定之職業安全衛生委員會之委員？",
+      "options": {
+        "1": "事業內各部門之主管",
+        "2": "工會人員",
+        "3": "總務人員",
+        "4": "職業安全衛生人員"
+      },
+      "answer": [
+        "1",
+        "4"
+      ],
+      "appearances": [
+        {
+          "year": "109",
+          "session": 1,
+          "no": 61
+        },
+        {
+          "year": "109",
+          "session": 2,
+          "no": 63
+        },
+        {
+          "year": "110",
+          "session": 2,
+          "no": 70
+        },
+        {
+          "year": "113",
+          "session": 3,
+          "no": 71
+        }
+      ]
+    },
+    {
+      "id": "s-109-1-062",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "multi",
+      "stem": "依職業安全衛生教育訓練規則規定，下列那些作業勞工，雇主需對其實施特殊作業安全衛生教育訓練？",
+      "options": {
+        "1": "研磨作業",
+        "2": "使用起重機具從事吊掛作業",
+        "3": "衝床作業",
+        "4": "荷重在1公噸以上之堆高機操作"
+      },
+      "answer": [
+        "2",
+        "4"
+      ],
+      "appearances": [
+        {
+          "year": "109",
+          "session": 1,
+          "no": 62
+        },
+        {
+          "year": "109",
+          "session": 2,
+          "no": 77
+        },
+        {
+          "year": "110",
+          "session": 1,
+          "no": 79
+        },
+        {
+          "year": "110",
+          "session": 3,
+          "no": 79
+        },
+        {
+          "year": "113",
+          "session": 3,
+          "no": 76
+        },
+        {
+          "year": "114",
+          "session": 1,
+          "no": 75
+        }
+      ]
+    },
+    {
+      "id": "s-109-1-065",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "multi",
+      "stem": "事業單位發生職業安全衛生法第37條第2項規定之職業災害時，除必要之急救、搶救外，雇主非經下列那些機構或機關許可，不得移動或破壞現場？",
+      "options": {
+        "1": "地方主管機關",
+        "2": "警察人員",
+        "3": "勞動檢查機構",
+        "4": "司法機關"
+      },
+      "answer": [
+        "3",
+        "4"
+      ],
+      "appearances": [
+        {
+          "year": "109",
+          "session": 1,
+          "no": 65
+        },
+        {
+          "year": "109",
+          "session": 2,
+          "no": 71
+        },
+        {
+          "year": "111",
+          "session": 1,
+          "no": 77
+        }
+      ]
+    },
+    {
+      "id": "s-109-1-066",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "multi",
+      "stem": "下列那些為木材加工用圓盤鋸之安全防護裝置？",
+      "options": {
+        "1": "撐縫片",
+        "2": "墊圈",
+        "3": "護圍",
+        "4": "護罩"
+      },
+      "answer": [
+        "1",
+        "3",
+        "4"
+      ],
+      "appearances": [
+        {
+          "year": "109",
+          "session": 1,
+          "no": 66
+        },
+        {
+          "year": "109",
+          "session": 3,
+          "no": 61
+        },
+        {
+          "year": "111",
+          "session": 3,
+          "no": 62
+        },
+        {
+          "year": "112",
+          "session": 1,
+          "no": 75
+        },
+        {
+          "year": "112",
+          "session": 2,
+          "no": 71
+        },
+        {
+          "year": "113",
+          "session": 1,
+          "no": 75
+        }
+      ]
+    },
+    {
+      "id": "s-109-1-067",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "multi",
+      "stem": "下列有關物質性質之敘述那些正確？",
+      "options": {
+        "1": "甲醇會因產生代謝物甲醛及甲酸而導致失明或致死",
+        "2": "厭惡性粉塵不會導致塵肺症",
+        "3": "氮氣、氫氣、甲烷氣體有窒息性",
+        "4": "有機溶劑、重金屬、農藥等常會影響中樞神經或周邊神經而造成各種神經症狀"
+      },
+      "answer": [
+        "1",
+        "3",
+        "4"
+      ],
+      "appearances": [
+        {
+          "year": "109",
+          "session": 1,
+          "no": 67
+        },
+        {
+          "year": "111",
+          "session": 2,
+          "no": 79
+        },
+        {
+          "year": "114",
+          "session": "2颱風延期考區",
+          "no": 63
+        }
+      ]
+    },
+    {
+      "id": "s-109-1-068",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "multi",
+      "stem": "某一工廠新設一座吊升荷重為5公噸之固定式起重機，下列那些非屬該起重機所需之法定檢查？",
+      "options": {
+        "1": "竣工檢查",
+        "2": "使用檢查",
+        "3": "熔接檢查",
+        "4": "型式檢查"
+      },
+      "answer": [
+        "2",
+        "3"
+      ],
+      "appearances": [
+        {
+          "year": "109",
+          "session": 1,
+          "no": 68
+        },
+        {
+          "year": "109",
+          "session": 2,
+          "no": 68
+        },
+        {
+          "year": "113",
+          "session": 2,
+          "no": 65
+        },
+        {
+          "year": "113",
+          "session": 3,
+          "no": 79
+        }
+      ]
+    },
+    {
+      "id": "s-109-1-071",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "multi",
+      "stem": "下列有關檢知管操作之敘述那些正確？",
+      "options": {
+        "1": "檢知管只要保管妥善，沒有時效的問題",
+        "2": "應配合使用相同廠牌之檢知器，以免誤差太大",
+        "3": "應依現場實際濃度選用測定範圍之檢知管",
+        "4": "檢知管應避免高溫或日光照射"
+      },
+      "answer": [
+        "2",
+        "3",
+        "4"
+      ],
+      "appearances": [
+        {
+          "year": "109",
+          "session": 1,
+          "no": 71
+        },
+        {
+          "year": "111",
+          "session": 1,
+          "no": 73
+        },
+        {
+          "year": "111",
+          "session": 2,
+          "no": 68
+        }
+      ]
+    },
+    {
+      "id": "s-109-1-073",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "multi",
+      "stem": "下列那些是暴露鋼筋危害的適當防止方法？",
+      "options": {
+        "1": "鋼筋尖端加蓋",
+        "2": "鋼筋尖端漆以防鏽漆",
+        "3": "鋼筋尖端彎曲",
+        "4": "鋼筋尖端綁上塑膠繩"
+      },
+      "answer": [
+        "1",
+        "3"
+      ],
+      "appearances": [
+        {
+          "year": "109",
+          "session": 1,
+          "no": 73
+        },
+        {
+          "year": "111",
+          "session": 1,
+          "no": 67
+        },
+        {
+          "year": "111",
+          "session": 2,
+          "no": 75
+        },
+        {
+          "year": "113",
+          "session": 2,
+          "no": 64
+        }
+      ]
+    },
+    {
+      "id": "s-109-1-074",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "multi",
+      "stem": "為防止捲揚機吊運物料時，發生物料飛落而傷害勞工，下列那些為職業安全衛生設施規則規定之措施？",
+      "options": {
+        "1": "吊掛用鋼索等吊具若有異狀應即修換",
+        "2": "需經檢查機構檢查合格始准使用",
+        "3": "設有防止過捲裝置",
+        "4": "設置信號指揮聯絡人員"
+      },
+      "answer": [
+        "1",
+        "3",
+        "4"
+      ],
+      "appearances": [
+        {
+          "year": "109",
+          "session": 1,
+          "no": 74
+        },
+        {
+          "year": "110",
+          "session": 2,
+          "no": 68
+        },
+        {
+          "year": "114",
+          "session": 1,
+          "no": 64
+        }
+      ]
+    },
+    {
+      "id": "s-109-1-075",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "multi",
+      "stem": "依固定式起重機安全檢查構造標準規定，固定式起重機應以銘牌標示相關事項，包括下列那些？",
+      "options": {
+        "1": "荷重試驗年月",
+        "2": "製造者名稱",
+        "3": "製造年月",
+        "4": "吊升荷重"
+      },
+      "answer": [
+        "2",
+        "3",
+        "4"
+      ],
+      "appearances": [
+        {
+          "year": "109",
+          "session": 1,
+          "no": 75
+        },
+        {
+          "year": "111",
+          "session": 1,
+          "no": 61
+        },
+        {
+          "year": "111",
+          "session": 3,
+          "no": 71
+        },
+        {
+          "year": "113",
+          "session": 2,
+          "no": 71
+        }
+      ]
+    },
+    {
+      "id": "s-109-1-076",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "multi",
+      "stem": "依職業安全衛生設施規則規定，對於運轉中之化學設備或其附屬設備，為防止因爆炸、火災、洩漏等造成勞工之危害，下列敘述那些為正確？",
+      "options": {
+        "1": "保持安全閥、緊急遮斷裝置、自動警報裝置或其他安全裝置於異常狀態時之有效運轉",
+        "2": "確定冷卻、加熱、攪拌及壓縮等裝置之正常操作",
+        "3": "保持溫度計、壓力計或其他計測裝置於正常操作功能",
+        "4": "確定將閥或旋塞雙重關閉或設置盲板"
+      },
+      "answer": [
+        "1",
+        "2",
+        "3"
+      ],
+      "appearances": [
+        {
+          "year": "109",
+          "session": 1,
+          "no": 76
+        },
+        {
+          "year": "109",
+          "session": 2,
+          "no": 67
+        },
+        {
+          "year": "111",
+          "session": 1,
+          "no": 69
+        },
+        {
+          "year": "114",
+          "session": 3,
+          "no": 67
+        }
+      ]
+    },
+    {
+      "id": "s-109-1-077",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "multi",
+      "stem": "下列那些為靜電產生的可能機制？",
+      "options": {
+        "1": "物體的接觸與分離",
+        "2": "電鍍",
+        "3": "絕緣體的相互摩擦",
+        "4": "粒子的衝撞"
+      },
+      "answer": [
+        "1",
+        "3",
+        "4"
+      ],
+      "appearances": [
+        {
+          "year": "109",
+          "session": 1,
+          "no": 77
+        },
+        {
+          "year": "110",
+          "session": 2,
+          "no": 73
+        },
+        {
+          "year": "112",
+          "session": 2,
+          "no": 61
+        },
+        {
+          "year": "114",
+          "session": 1,
+          "no": 79
+        }
+      ]
+    },
+    {
+      "id": "s-109-1-078",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "multi",
+      "stem": "為確保木材構築施工架之安全，下列那些為營造安全衛生設施標準所規定者？",
+      "options": {
+        "1": "木材應為松木",
+        "2": "不得有損及強度之裂隙",
+        "3": "木材應完全剝除樹皮",
+        "4": "不得施以油漆"
+      },
+      "answer": [
+        "2",
+        "3",
+        "4"
+      ],
+      "appearances": [
+        {
+          "year": "109",
+          "session": 1,
+          "no": 78
+        },
+        {
+          "year": "111",
+          "session": 1,
+          "no": 80
+        },
+        {
+          "year": "111",
+          "session": 2,
+          "no": 70
+        },
+        {
+          "year": "112",
+          "session": 2,
+          "no": 75
+        }
+      ]
+    },
+    {
+      "id": "s-109-1-079",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "multi",
+      "stem": "下列那些屬「本質安全」設計？",
+      "options": {
+        "1": "阻卻",
+        "2": "安全程序",
+        "3": "隔離",
+        "4": "使用防護具"
+      },
+      "answer": [
+        "1",
+        "3"
+      ],
+      "appearances": [
+        {
+          "year": "109",
+          "session": 1,
+          "no": 79
+        },
+        {
+          "year": "114",
+          "session": 1,
+          "no": 78
+        }
+      ]
+    },
+    {
+      "id": "s-109-1-080",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "multi",
+      "stem": "下列那些屬物理性危害？",
+      "options": {
+        "1": "噪音",
+        "2": "異常氣壓",
+        "3": "有機溶劑中毒",
+        "4": "振動"
+      },
+      "answer": [
+        "1",
+        "2",
+        "4"
+      ],
+      "appearances": [
+        {
+          "year": "109",
+          "session": 1,
+          "no": 80
+        },
+        {
+          "year": "110",
+          "session": 2,
+          "no": 67
+        },
+        {
+          "year": "112",
+          "session": 1,
+          "no": 69
+        }
+      ]
+    },
+    {
+      "id": "s-109-2-004",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "single",
+      "stem": "當發現公司的產品可能會對顧客身體產生危害時，正確的作法或行動應是",
+      "options": {
+        "1": "儘量隱瞞事實，協助掩飾問題",
+        "2": "立即向主管或有關單位報告",
+        "3": "若無其事，置之不理",
+        "4": "透過管道告知媒體或競爭對手"
+      },
+      "answer": [
+        "2"
+      ],
+      "appearances": [
+        {
+          "year": "109",
+          "session": 2,
+          "no": 4
+        }
+      ]
+    },
+    {
+      "id": "s-109-2-005",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "single",
+      "stem": "公司總務部門員工因辦理政府採購案，而與公務機關人員有互動時，下列敘述何者「正確」？",
+      "options": {
+        "1": "對於機關承辦人，經常給予不超過新台幣5佰元以下的好處，無論有無對價關係，對方收受皆符合廉政倫理規範",
+        "2": "招待驗收人員至餐廳用餐，是慣例屬社交禮貌行為",
+        "3": "以借貸名義，餽贈財物予公務員，即可規避刑事追究",
+        "4": "因民俗節慶公開舉辦之活動，機關公務員在簽准後可受邀參與"
+      },
+      "answer": [
+        "4"
+      ],
+      "appearances": [
+        {
+          "year": "109",
+          "session": 2,
+          "no": 5
+        },
+        {
+          "year": "112",
+          "session": 2,
+          "no": 30
+        }
+      ]
+    },
+    {
+      "id": "s-109-2-009",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "single",
+      "stem": "電源插座堆積灰塵可能引起電氣意外火災，維護保養時的正確做法是？",
+      "options": {
+        "1": "應先關閉電源總開關箱內控制該插座的分路開關",
+        "2": "可以先用刷子刷去積塵",
+        "3": "可以用金屬接點清潔劑噴在插座中去除銹蝕",
+        "4": "直接用吹風機吹開灰塵就可以了"
+      },
+      "answer": [
+        "1"
+      ],
+      "appearances": [
+        {
+          "year": "109",
+          "session": 2,
+          "no": 9
+        }
+      ]
+    },
+    {
+      "id": "s-109-2-017",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "single",
+      "stem": "依勞工健康保護規則規定，事業單位之同一工作場所，從事特別危害健康作業勞工總人數在多少人以上時，應聘專任護理人員1人以上？",
+      "options": {
+        "1": "200",
+        "2": "400",
+        "3": "300",
+        "4": "100"
+      },
+      "answer": [
+        "4"
+      ],
+      "appearances": [
+        {
+          "year": "109",
+          "session": 2,
+          "no": 17
+        }
+      ]
+    },
+    {
+      "id": "s-109-2-024",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "single",
+      "stem": "大氣層中臭氧層有何作用？",
+      "options": {
+        "1": "保持溫度",
+        "2": "吸收紫外線",
+        "3": "對流最旺盛的區域",
+        "4": "造成光害"
+      },
+      "answer": [
+        "2"
+      ],
+      "appearances": [
+        {
+          "year": "109",
+          "session": 2,
+          "no": 24
+        },
+        {
+          "year": "110",
+          "session": 2,
+          "no": 58
+        }
+      ]
+    },
+    {
+      "id": "s-109-2-026",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "single",
+      "stem": "於營造工地潮濕場所中使用電動機具，為防止感電危害，應於該電路設置何種安全裝置？",
+      "options": {
+        "1": "閉關箱",
+        "2": "高容量保險絲",
+        "3": "高感度高速型漏電斷路器",
+        "4": "自動電擊防止裝置"
+      },
+      "answer": [
+        "3"
+      ],
+      "appearances": [
+        {
+          "year": "109",
+          "session": 2,
+          "no": 26
+        }
+      ]
+    },
+    {
+      "id": "s-109-2-031",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "single",
+      "stem": "彥江是職場上的新鮮人，剛進公司不久，他應該具備怎樣的態度？",
+      "options": {
+        "1": "只要做好人脈關係，這樣以後就好辦事",
+        "2": "努力做好自己職掌的業務，樂於工作，與同事之間有良好的互動，相互協助",
+        "3": "仔細觀察公司生態，加入某些小團體，以做為後盾",
+        "4": "上班、下班，管好自己便可"
+      },
+      "answer": [
+        "2"
+      ],
+      "appearances": [
+        {
+          "year": "109",
+          "session": 2,
+          "no": 31
+        }
+      ]
+    },
+    {
+      "id": "s-109-2-035",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "single",
+      "stem": "有關再生能源的使用限制，下列何者敘述有誤？",
+      "options": {
+        "1": "不易受天氣影響",
+        "2": "需較大的土地面積",
+        "3": "設置成本較高",
+        "4": "風力、太陽能屬間歇性能源，供應不穩定"
+      },
+      "answer": [
+        "1"
+      ],
+      "appearances": [
+        {
+          "year": "109",
+          "session": 2,
+          "no": 35
+        }
+      ]
+    },
+    {
+      "id": "s-109-2-038",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "single",
+      "stem": "依勞工作業環境監測實施辦法規定，對於事業單位如欲辦理法定期間之作業環境監測之敘述，下列敘述何者錯誤？",
+      "options": {
+        "1": "應僱用乙級以上作業環境監測技術士辦理",
+        "2": "委由執業之職業（工礦）衛生技師辦理",
+        "3": "委由認可之作業環境監測機構辦理",
+        "4": "化學性因子監測樣本應由認證實驗室化驗分析"
+      },
+      "answer": [
+        "2"
+      ],
+      "appearances": [
+        {
+          "year": "109",
+          "session": 2,
+          "no": 38
+        }
+      ]
+    },
+    {
+      "id": "s-109-2-040",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "single",
+      "stem": "依職業安全衛生法規定，勞工不參加雇主安排之安全衛生教育、訓練，下列敘述何者正確﹖",
+      "options": {
+        "1": "主管機關得予處分罰鍰",
+        "2": "法院得予判決徒刑",
+        "3": "法院得予判決罰金",
+        "4": "雇主得予處分罰鍰"
+      },
+      "answer": [
+        "1"
+      ],
+      "appearances": [
+        {
+          "year": "109",
+          "session": 2,
+          "no": 40
+        },
+        {
+          "year": "109",
+          "session": 3,
+          "no": 16
+        }
+      ]
+    },
+    {
+      "id": "s-109-2-043",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "single",
+      "stem": "台北市周先生早晨在河濱公園散步時，發現有大面積的河面被染成紅色，岸邊還有許多死魚，此時周先生應該打電話給那個單位通報處理？",
+      "options": {
+        "1": "警察局",
+        "2": "環保局",
+        "3": "衛生局",
+        "4": "交通局"
+      },
+      "answer": [
+        "2"
+      ],
+      "appearances": [
+        {
+          "year": "109",
+          "session": 2,
+          "no": 43
+        }
+      ]
+    },
+    {
+      "id": "s-109-2-062",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "multi",
+      "stem": "安全資料表中，純物質之成分辨識資料，應涵蓋下列那些？",
+      "options": {
+        "1": "同義名稱",
+        "2": "容許濃度",
+        "3": "化學文摘社登記號碼",
+        "4": "暴露途徑"
+      },
+      "answer": [
+        "1",
+        "3"
+      ],
+      "appearances": [
+        {
+          "year": "109",
+          "session": 2,
+          "no": 62
+        },
+        {
+          "year": "109",
+          "session": 3,
+          "no": 74
+        },
+        {
+          "year": "110",
+          "session": 2,
+          "no": 77
+        },
+        {
+          "year": "112",
+          "session": 1,
+          "no": 78
+        },
+        {
+          "year": "113",
+          "session": 3,
+          "no": 77
+        }
+      ]
+    },
+    {
+      "id": "s-109-2-064",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "multi",
+      "stem": "事業單位委外辦理勞工體格、健康檢查時，下列應注意事項，那些錯誤？",
+      "options": {
+        "1": "注意指定醫療機構之品質並應每年更換，俾能相互比較醫療機構之品質",
+        "2": "檢查項目以勞工健康保護規則所訂項目為限，但要求增加之項目由雇主負擔全部費用且經勞工同意者不在此限",
+        "3": "要求醫療機構赴事業單位實施檢查之日，攜帶經衛生主管機關核准之公文及醫事人員執業執照",
+        "4": "健康檢查手冊由工會統一保管"
+      },
+      "answer": [
+        "1",
+        "4"
+      ],
+      "appearances": [
+        {
+          "year": "109",
+          "session": 2,
+          "no": 64
+        },
+        {
+          "year": "110",
+          "session": 1,
+          "no": 67
+        },
+        {
+          "year": "112",
+          "session": 2,
+          "no": 63
+        }
+      ]
+    },
+    {
+      "id": "s-109-2-065",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "multi",
+      "stem": "事件樹分析較適用於製程的那些階段？",
+      "options": {
+        "1": "細部設計",
+        "2": "基本設計",
+        "3": "試車",
+        "4": "包裝"
+      },
+      "answer": [
+        "1",
+        "3"
+      ],
+      "appearances": [
+        {
+          "year": "109",
+          "session": 2,
+          "no": 65
+        },
+        {
+          "year": "112",
+          "session": 3,
+          "no": 74
+        }
+      ]
+    },
+    {
+      "id": "s-109-2-069",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "multi",
+      "stem": "下列那些敘述正確？",
+      "options": {
+        "1": "一隻眼睛失能稱為永久全失能",
+        "2": "在一次工作中損失一隻眼睛與一隻手，屬於永久全失能",
+        "3": "可治好之骨骼、肌肉傷害不屬於永久全失能",
+        "4": "勞工因工作傷害而死亡，其損失日數為600日"
+      },
+      "answer": [
+        "2",
+        "3"
+      ],
+      "appearances": [
+        {
+          "year": "109",
+          "session": 2,
+          "no": 69
+        },
+        {
+          "year": "112",
+          "session": 2,
+          "no": 78
+        },
+        {
+          "year": "113",
+          "session": 3,
+          "no": 66
+        }
+      ]
+    },
+    {
+      "id": "s-109-2-070",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "multi",
+      "stem": "依職業安全衛生管理辦法規定，下列那些機械應每年就整體定期實施檢查1次？",
+      "options": {
+        "1": "鍋爐",
+        "2": "車輛系營建機械",
+        "3": "固定式起重機",
+        "4": "堆高機"
+      },
+      "answer": [
+        "2",
+        "3",
+        "4"
+      ],
+      "appearances": [
+        {
+          "year": "109",
+          "session": 2,
+          "no": 70
+        },
+        {
+          "year": "109",
+          "session": 3,
+          "no": 67
+        },
+        {
+          "year": "110",
+          "session": 3,
+          "no": 77
+        },
+        {
+          "year": "113",
+          "session": 1,
+          "no": 62
+        },
+        {
+          "year": "113",
+          "session": 3,
+          "no": 69
+        }
+      ]
+    },
+    {
+      "id": "s-109-2-072",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "multi",
+      "stem": "下列有關操作氧氣測定器之敘述那些正確？",
+      "options": {
+        "1": "測定前，應於距測定點較近，且空氣新鮮處校正",
+        "2": "測定時，應俟指示值顯示穩定後讀取讀值",
+        "3": "測定各點所獲讀值均在18％以上，表示作業場所無缺氧環境",
+        "4": "測定後，不可立即置於空氣新鮮處，以免讀值不正確"
+      },
+      "answer": [
+        "1",
+        "2",
+        "3"
+      ],
+      "appearances": [
+        {
+          "year": "109",
+          "session": 2,
+          "no": 72
+        },
+        {
+          "year": "109",
+          "session": 3,
+          "no": 72
+        }
+      ]
+    },
+    {
+      "id": "s-109-2-073",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "multi",
+      "stem": "為防止壓力容器超壓而發生危害，可選那些安全設備防止壓力容器超壓？",
+      "options": {
+        "1": "安全閥",
+        "2": "破裂盤",
+        "3": "自動給水裝置",
+        "4": "差壓式流量計"
+      },
+      "answer": [
+        "1",
+        "2"
+      ],
+      "appearances": [
+        {
+          "year": "109",
+          "session": 2,
+          "no": 73
+        },
+        {
+          "year": "110",
+          "session": 2,
+          "no": 71
+        },
+        {
+          "year": "111",
+          "session": 3,
+          "no": 77
+        },
+        {
+          "year": "112",
+          "session": 1,
+          "no": 73
+        },
+        {
+          "year": "113",
+          "session": 1,
+          "no": 65
+        },
+        {
+          "year": "114",
+          "session": 3,
+          "no": 79
+        }
+      ]
+    },
+    {
+      "id": "s-109-2-075",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "multi",
+      "stem": "依職業安全衛生法規定，有下列情形之一者，得公布其事業單位、雇主之名稱、負責人姓名？",
+      "options": {
+        "1": "未符合安全衛生設備及措施之規定致發生行政罰則",
+        "2": "事業單位勞動場所發生死亡等之職業災害",
+        "3": "發生職業病",
+        "4": "未實施風險評估"
+      },
+      "answer": [
+        "1",
+        "2",
+        "3"
+      ],
+      "appearances": [
+        {
+          "year": "109",
+          "session": 2,
+          "no": 75
+        }
+      ]
+    },
+    {
+      "id": "s-109-2-076",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "multi",
+      "stem": "以勞動檢查機構所發檢查結果通知書之全部內容公告者，應公告於那些場所之一？",
+      "options": {
+        "1": "與工會或勞工代表協商同意之場所",
+        "2": "事業單位管制勞工出勤之場所",
+        "3": "餐廳、宿舍及各作業場所之公告場所",
+        "4": "公告於最嚴重之違反規定場所之一"
+      },
+      "answer": [
+        "1",
+        "2",
+        "3"
+      ],
+      "appearances": [
+        {
+          "year": "109",
+          "session": 2,
+          "no": 76
+        },
+        {
+          "year": "114",
+          "session": 1,
+          "no": 62
+        }
+      ]
+    },
+    {
+      "id": "s-109-2-078",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "multi",
+      "stem": "某麵粉廠作業中，其麩皮槽修補工程交付承攬施工，原事業單位勞工負責清理麩皮，因電焊火花引起塵爆致承攬人所僱勞工死傷2人。下列敘述那些正確？",
+      "options": {
+        "1": "該修補作業非屬職業安全衛生法所稱之「共同作業」",
+        "2": "承攬人雖具電焊專長，原事業單位仍應告知危害因素",
+        "3": "原事業單位及承攬人間應設置協議組織",
+        "4": "原事業單位應為承攬人所僱勞工之死傷負連帶補償責任"
+      },
+      "answer": [
+        "2",
+        "3",
+        "4"
+      ],
+      "appearances": [
+        {
+          "year": "109",
+          "session": 2,
+          "no": 78
+        },
+        {
+          "year": "110",
+          "session": 3,
+          "no": 63
+        },
+        {
+          "year": "112",
+          "session": 2,
+          "no": 79
+        },
+        {
+          "year": "114",
+          "session": 1,
+          "no": 77
+        }
+      ]
+    },
+    {
+      "id": "s-109-2-079",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "multi",
+      "stem": "雇主對於室內工作場所，應依下列那些規定設置足夠勞工使用之通道？",
+      "options": {
+        "1": "自路面起算2公尺高度之範圍內，不得有障礙物，但因工作之必要，經採防護措施者，不在此限",
+        "2": "各機械間或其他設備間通道不得小於60公分",
+        "3": "主要人行道及有關安全門、安全梯應有明顯標示",
+        "4": "應有適應其用途之寬度，其主要人行道不得小於1公尺"
+      },
+      "answer": [
+        "1",
+        "3",
+        "4"
+      ],
+      "appearances": [
+        {
+          "year": "109",
+          "session": 2,
+          "no": 79
+        },
+        {
+          "year": "109",
+          "session": 3,
+          "no": 71
+        },
+        {
+          "year": "113",
+          "session": 1,
+          "no": 63
+        }
+      ]
+    },
+    {
+      "id": "s-109-3-001",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "single",
+      "stem": "「垃圾強制分類」的主要目的為：A.減少垃圾清運量B.回收有用資源C.回收廚餘予以再利用D.變賣賺錢？",
+      "options": {
+        "1": "ACD",
+        "2": "ABC",
+        "3": "ABCD",
+        "4": "BCD"
+      },
+      "answer": [
+        "2"
+      ],
+      "appearances": [
+        {
+          "year": "109",
+          "session": 3,
+          "no": 1
+        },
+        {
+          "year": "111",
+          "session": 2,
+          "no": 49
+        }
+      ]
+    },
+    {
+      "id": "s-109-3-002",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "single",
+      "stem": "民眾焚香燒紙錢常會產生那些空氣污染物增加罹癌的機率：A.苯、B.細懸浮微粒(PM2.5)、C.二氧化碳(CO2)、D.甲烷(CH4)？",
+      "options": {
+        "1": "AC",
+        "2": "BC",
+        "3": "CD",
+        "4": "AB"
+      },
+      "answer": [
+        "4"
+      ],
+      "appearances": [
+        {
+          "year": "109",
+          "session": 3,
+          "no": 2
+        },
+        {
+          "year": "111",
+          "session": 2,
+          "no": 23
+        }
+      ]
+    },
+    {
+      "id": "s-109-3-003",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "single",
+      "stem": "下列何者「不是」菸害防制法之立法目的？",
+      "options": {
+        "1": "保護未成年免於菸害",
+        "2": "促進菸品的使用",
+        "3": "保護孕婦免於菸害",
+        "4": "防制菸害"
+      },
+      "answer": [
+        "2"
+      ],
+      "appearances": [
+        {
+          "year": "109",
+          "session": 3,
+          "no": 3
+        }
+      ]
+    },
+    {
+      "id": "s-109-3-004",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "single",
+      "stem": "如下圖，你知道這是什麼標章嗎？",
+      "img": "assets/img/safety/s-109-3-004.png",
+      "options": {
+        "1": "奈米標章",
+        "2": "省水標章",
+        "3": "能源效率標示",
+        "4": "環保標章"
+      },
+      "answer": [
+        "3"
+      ],
+      "appearances": [
+        {
+          "year": "109",
+          "session": 3,
+          "no": 4
+        }
+      ]
+    },
+    {
+      "id": "s-109-3-007",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "single",
+      "stem": "防止噪音危害之治本對策為",
+      "options": {
+        "1": "實施職業安全衛生教育訓練",
+        "2": "消除發生源",
+        "3": "使用耳塞、耳罩",
+        "4": "實施特殊健康檢查"
+      },
+      "answer": [
+        "2"
+      ],
+      "appearances": [
+        {
+          "year": "109",
+          "session": 3,
+          "no": 7
+        }
+      ]
+    },
+    {
+      "id": "s-109-3-012",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "single",
+      "stem": "不當抬舉導致肌肉骨骼傷害或肌肉疲勞之現象，可稱之為下列何者？",
+      "options": {
+        "1": "不當動作",
+        "2": "感電事件",
+        "3": "被撞事件",
+        "4": "不安全環境"
+      },
+      "answer": [
+        "1"
+      ],
+      "appearances": [
+        {
+          "year": "109",
+          "session": 3,
+          "no": 12
+        }
+      ]
+    },
+    {
+      "id": "s-109-3-013",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "single",
+      "stem": "學校駐衛警察之遴選規定以服畢兵役作為遴選條件之一，根據消除對婦女一切形式歧視公約(CEDAW)，下列何者錯誤?",
+      "options": {
+        "1": "服畢兵役者仍以男性為主，此條件已排除多數女性被遴選的機會，屬性別歧視",
+        "2": "駐衛警察之遴選應以從事該工作所需的能力或資格作為條件",
+        "3": "此遴選條件未明定限男性，不屬性別歧視",
+        "4": "已違反CEDAW第1條對婦女的歧視"
+      },
+      "answer": [
+        "3"
+      ],
+      "appearances": [
+        {
+          "year": "109",
+          "session": 3,
+          "no": 13
+        }
+      ]
+    },
+    {
+      "id": "s-109-3-017",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "single",
+      "stem": "下列那項非為部門主管之安全職責？",
+      "options": {
+        "1": "安全教育訓練",
+        "2": "安全政策制訂",
+        "3": "安全觀察",
+        "4": "工作安全教導"
+      },
+      "answer": [
+        "2"
+      ],
+      "appearances": [
+        {
+          "year": "109",
+          "session": 3,
+          "no": 17
+        },
+        {
+          "year": "110",
+          "session": 2,
+          "no": 27
+        }
+      ]
+    },
+    {
+      "id": "s-109-3-020",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "single",
+      "stem": "對於墜落危險之預防設施，下列敘述何者較為妥適？",
+      "options": {
+        "1": "安全帶應確實配掛在低於足下之堅固點",
+        "2": "在外牆施工架等高處作業應盡量使用繫腰式安全帶",
+        "3": "高度2m以上之開口處應設護欄或安全網",
+        "4": "高度2m以上之邊緣之開口部分處應圍起警示帶"
+      },
+      "answer": [
+        "3"
+      ],
+      "appearances": [
+        {
+          "year": "109",
+          "session": 3,
+          "no": 20
+        }
+      ]
+    },
+    {
+      "id": "s-109-3-022",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "single",
+      "stem": "危害性化學品為混合物時，下列之敘述何者錯誤？",
+      "options": {
+        "1": "危害性化學品主要成分濃度重量百分比在百分之一以上者，應列出其化學名稱",
+        "2": "混合物已作整體測試者，依整體測試結果，判定危害性",
+        "3": "未作整體測試者，對於燃燒、爆炸及反應性等物理性危害，視同具各該成分之燃燒、爆炸及反應性",
+        "4": "未作整體測試者，其健康危害性，除具有科學資料佐證外，視同具各該成分之健康危害性"
+      },
+      "answer": [
+        "3"
+      ],
+      "appearances": [
+        {
+          "year": "109",
+          "session": 3,
+          "no": 22
+        },
+        {
+          "year": "110",
+          "session": 2,
+          "no": 18
+        }
+      ]
+    },
+    {
+      "id": "s-109-3-025",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "single",
+      "stem": "職業災害勞工保護法之立法目的為保障職業災害勞工之權益，以加強下列何者之預防？",
+      "options": {
+        "1": "環境汙染",
+        "2": "職業災害",
+        "3": "公害",
+        "4": "交通事故"
+      },
+      "answer": [
+        "2"
+      ],
+      "appearances": [
+        {
+          "year": "109",
+          "session": 3,
+          "no": 25
+        }
+      ]
+    },
+    {
+      "id": "s-109-3-028",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "single",
+      "stem": "某工廠因為生產需要，將工作平台高度提升到三公尺高，為了防止人員發生墜落風險，下列何者不屬於工程改善事項？",
+      "options": {
+        "1": "使勞工配戴安全帶",
+        "2": "使用起重吊掛作業",
+        "3": "設置上下升降設備或防墜設施",
+        "4": "設置護欄或護蓋"
+      },
+      "answer": [
+        "1"
+      ],
+      "appearances": [
+        {
+          "year": "109",
+          "session": 3,
+          "no": 28
+        },
+        {
+          "year": "111",
+          "session": 1,
+          "no": 32
+        }
+      ]
+    },
+    {
+      "id": "s-109-3-033",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "single",
+      "stem": "使用於輕型懸吊式施工架上之懸吊鋼索，其安全係數應在多少以上？",
+      "options": {
+        "1": "5",
+        "2": "7.5",
+        "3": "10",
+        "4": "2.5"
+      },
+      "answer": [
+        "3"
+      ],
+      "appearances": [
+        {
+          "year": "109",
+          "session": 3,
+          "no": 33
+        },
+        {
+          "year": "110",
+          "session": 2,
+          "no": 5
+        }
+      ]
+    },
+    {
+      "id": "s-109-3-036",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "single",
+      "stem": "台灣是屬缺水地區，每人每年實際分配到可利用水量是世界平均值的多少？",
+      "options": {
+        "1": "五分之一",
+        "2": "四分之一",
+        "3": "六分之一",
+        "4": "二分之一"
+      },
+      "answer": [
+        "3"
+      ],
+      "appearances": [
+        {
+          "year": "109",
+          "session": 3,
+          "no": 36
+        }
+      ]
+    },
+    {
+      "id": "s-109-3-045",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "single",
+      "stem": "可燃性氣體偵測器是測定下列何者？",
+      "options": {
+        "1": "含碳濃度",
+        "2": "含氧濃度",
+        "3": "一氧化碳濃度",
+        "4": "燃燒（爆炸）下限百分比"
+      },
+      "answer": [
+        "4"
+      ],
+      "appearances": [
+        {
+          "year": "109",
+          "session": 3,
+          "no": 45
+        }
+      ]
+    },
+    {
+      "id": "s-109-3-049",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "single",
+      "stem": "溫室氣體減量及管理法中所稱：一單位之排放額度相當於允許排放",
+      "options": {
+        "1": "1公斤",
+        "2": "1公噸",
+        "3": "1公擔",
+        "4": "1立方米之二氧化碳當量"
+      },
+      "answer": [
+        "2"
+      ],
+      "appearances": [
+        {
+          "year": "109",
+          "session": 3,
+          "no": 49
+        }
+      ]
+    },
+    {
+      "id": "s-109-3-058",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "single",
+      "stem": "家人洗澡時，一個接一個連續洗，也是一種有效的省水方式嗎？",
+      "options": {
+        "1": "否，這跟省水沒什麼關係，不用這麼麻煩",
+        "2": "否，因為等熱水時流出的水量不多",
+        "3": "是，因為可以節省等熱水流出所流失的冷水",
+        "4": "有可能省水也可能不省水，無法定論"
+      },
+      "answer": [
+        "3"
+      ],
+      "appearances": [
+        {
+          "year": "109",
+          "session": 3,
+          "no": 58
+        },
+        {
+          "year": "110",
+          "session": 3,
+          "no": 53
+        },
+        {
+          "year": "112",
+          "session": 1,
+          "no": 45
+        },
+        {
+          "year": "112",
+          "session": 3,
+          "no": 46
+        }
+      ]
+    },
+    {
+      "id": "s-109-3-060",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "single",
+      "stem": "下列那種呼吸防護具於使用時，空氣中的有害物較易侵入面體內？",
+      "options": {
+        "1": "自攜式呼吸器",
+        "2": "輸氣管面具",
+        "3": "正壓供氣式呼吸防護具",
+        "4": "負壓呼吸防護具"
+      },
+      "answer": [
+        "4"
+      ],
+      "appearances": [
+        {
+          "year": "109",
+          "session": 3,
+          "no": 60
+        },
+        {
+          "year": "110",
+          "session": 1,
+          "no": 28
+        },
+        {
+          "year": "111",
+          "session": 1,
+          "no": 56
+        }
+      ]
+    },
+    {
+      "id": "s-109-3-062",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "multi",
+      "stem": "對於混凝土澆置作業，下列那些為營造安全衛生設施標準之規定？",
+      "options": {
+        "1": "禁止勞工乘坐於混凝土澆置桶上",
+        "2": "澆置期間應注意避免過大之振動",
+        "3": "實施混凝土澆置作業，應指定安全出入路口",
+        "4": "不得以起重機具或索道吊運混凝土桶"
+      },
+      "answer": [
+        "1",
+        "2",
+        "3"
+      ],
+      "appearances": [
+        {
+          "year": "109",
+          "session": 3,
+          "no": 62
+        },
+        {
+          "year": "110",
+          "session": 3,
+          "no": 69
+        },
+        {
+          "year": "111",
+          "session": 1,
+          "no": 66
+        },
+        {
+          "year": "114",
+          "session": "2颱風延期考區",
+          "no": 78
+        }
+      ]
+    },
+    {
+      "id": "s-109-3-063",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "multi",
+      "stem": "實務上，製程安全管理不包括下列那些？",
+      "options": {
+        "1": "緊急應變",
+        "2": "勞工身心健康促進",
+        "3": "教育訓練",
+        "4": "勞工健康保護"
+      },
+      "answer": [
+        "2",
+        "4"
+      ],
+      "appearances": [
+        {
+          "year": "109",
+          "session": 3,
+          "no": 63
+        },
+        {
+          "year": "110",
+          "session": 3,
+          "no": 73
+        },
+        {
+          "year": "112",
+          "session": 2,
+          "no": 62
+        }
+      ]
+    },
+    {
+      "id": "s-109-3-064",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "multi",
+      "stem": "依勞工作業場所容許暴露標準規定，下列敘述那些不正確？",
+      "options": {
+        "1": "任何時間均不得超過短時間時量平均容許濃度",
+        "2": "容許濃度不得作為工作場所以外之空氣污染指標",
+        "3": "暴露濃度未超過容許濃度者即表示一定安全",
+        "4": "容許濃度表註有皮字者表示該物質對勞工會引起皮膚炎及敏感等特性"
+      },
+      "answer": [
+        "1",
+        "3",
+        "4"
+      ],
+      "appearances": [
+        {
+          "year": "109",
+          "session": 3,
+          "no": 64
+        },
+        {
+          "year": "110",
+          "session": 1,
+          "no": 70
+        },
+        {
+          "year": "110",
+          "session": 3,
+          "no": 62
+        },
+        {
+          "year": "113",
+          "session": 1,
+          "no": 74
+        },
+        {
+          "year": "113",
+          "session": 2,
+          "no": 66
+        }
+      ]
+    },
+    {
+      "id": "s-109-3-065",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "multi",
+      "stem": "下列有關異常氣壓危害之敘述那些正確？",
+      "options": {
+        "1": "異常氣壓危害係因外界壓力之急遽減少使體內產生氣泡，進而造成神經壓迫、血栓、骨壞死等症狀",
+        "2": "異常氣壓危害常見於潛水作業及潛盾工法之施工作業",
+        "3": "高山症急性症狀是氮氣分壓降低所造成",
+        "4": "依照減壓表實施減壓可避免異壓性骨壞死等減壓症"
+      },
+      "answer": [
+        "1",
+        "2",
+        "4"
+      ],
+      "appearances": [
+        {
+          "year": "109",
+          "session": 3,
+          "no": 65
+        },
+        {
+          "year": "110",
+          "session": 3,
+          "no": 75
+        }
+      ]
+    },
+    {
+      "id": "s-109-3-068",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "multi",
+      "stem": "依職業安全衛生設施規則規定，雇主不得以下列那些情況之鋼索作為起重升降機具之吊掛用具",
+      "options": {
+        "1": "鋼索一撚間有百分之5以上素線截斷者",
+        "2": "直徑減少達公稱直徑百分之7以上者",
+        "3": "已扭結者",
+        "4": "有顯著變形或腐蝕者"
+      },
+      "answer": [
+        "2",
+        "3",
+        "4"
+      ],
+      "appearances": [
+        {
+          "year": "109",
+          "session": 3,
+          "no": 68
+        }
+      ]
+    },
+    {
+      "id": "s-109-3-069",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "multi",
+      "stem": "下列那些可能引發呼吸系統職業病？",
+      "options": {
+        "1": "鉛",
+        "2": "結晶型游離二氧化矽",
+        "3": "粉塵",
+        "4": "石綿"
+      },
+      "answer": [
+        "2",
+        "3",
+        "4"
+      ],
+      "appearances": [
+        {
+          "year": "109",
+          "session": 3,
+          "no": 69
+        },
+        {
+          "year": "110",
+          "session": 3,
+          "no": 61
+        },
+        {
+          "year": "111",
+          "session": 1,
+          "no": 74
+        },
+        {
+          "year": "111",
+          "session": 3,
+          "no": 68
+        },
+        {
+          "year": "113",
+          "session": 3,
+          "no": 73
+        },
+        {
+          "year": "114",
+          "session": 1,
+          "no": 74
+        },
+        {
+          "year": "114",
+          "session": "2颱風延期考區",
+          "no": 64
+        }
+      ]
+    },
+    {
+      "id": "s-109-3-070",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "multi",
+      "stem": "安全資料表應包含下列那些資訊？",
+      "options": {
+        "1": "成本資料",
+        "2": "滅火措施",
+        "3": "毒性資料",
+        "4": "化學製程的描述"
+      },
+      "answer": [
+        "2",
+        "3"
+      ],
+      "appearances": [
+        {
+          "year": "109",
+          "session": 3,
+          "no": 70
+        },
+        {
+          "year": "111",
+          "session": 2,
+          "no": 71
+        },
+        {
+          "year": "113",
+          "session": 1,
+          "no": 70
+        }
+      ]
+    },
+    {
+      "id": "s-109-3-073",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "multi",
+      "stem": "依職業安全衛生管理辦法規定，下列那些檢查需要訂定自動檢查計畫？",
+      "options": {
+        "1": "機械、設備之作業檢點",
+        "2": "作業檢點",
+        "3": "機械之定期檢查",
+        "4": "機械、設備之重點檢查"
+      },
+      "answer": [
+        "1",
+        "3",
+        "4"
+      ],
+      "appearances": [
+        {
+          "year": "109",
+          "session": 3,
+          "no": 73
+        },
+        {
+          "year": "114",
+          "session": 1,
+          "no": 80
+        }
+      ]
+    },
+    {
+      "id": "s-109-3-075",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "multi",
+      "stem": "下列那些為職業安全衛生法施行細則所稱具有危險性之機械？",
+      "options": {
+        "1": "營建用升降機",
+        "2": "鍋爐",
+        "3": "挖土機",
+        "4": "固定式起重機"
+      },
+      "answer": [
+        "1",
+        "4"
+      ],
+      "appearances": [
+        {
+          "year": "109",
+          "session": 3,
+          "no": 75
+        }
+      ]
+    },
+    {
+      "id": "s-109-3-076",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "multi",
+      "stem": "職業安全衛生法上所稱之工作者包括那些？",
+      "options": {
+        "1": "勞工",
+        "2": "其他受工作場所負責人指揮或監督從事勞動之人員",
+        "3": "自營作業者",
+        "4": "事業之經營負責人"
+      },
+      "answer": [
+        "1",
+        "2",
+        "3"
+      ],
+      "appearances": [
+        {
+          "year": "109",
+          "session": 3,
+          "no": 76
+        },
+        {
+          "year": "114",
+          "session": 1,
+          "no": 67
+        }
+      ]
+    },
+    {
+      "id": "s-109-3-077",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "multi",
+      "stem": "職業安全衛生顧問服務機構之服務類別包括那些？",
+      "options": {
+        "1": "勞工健康顧問服務",
+        "2": "暴露評估技術顧問服務",
+        "3": "企業經營管理顧問服務",
+        "4": "工業通風技術顧問服務"
+      },
+      "answer": [
+        "1",
+        "2",
+        "4"
+      ],
+      "appearances": [
+        {
+          "year": "109",
+          "session": 3,
+          "no": 77
+        },
+        {
+          "year": "114",
+          "session": 1,
+          "no": 66
+        }
+      ]
+    },
+    {
+      "id": "s-109-3-079",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "multi",
+      "stem": "下列有關游離輻射之敘述那些正確？",
+      "options": {
+        "1": "在工業上常使用者為α、β、γ、Ｘ射線及中子射線等，多用於破壞性檢測",
+        "2": "游離輻射會對人體造血器官造成危害",
+        "3": "長期暴露低劑量游離輻射可能造成細胞染色體突變或致癌",
+        "4": "能使物質產生游離現象之輻射能稱為游離輻射"
+      },
+      "answer": [
+        "2",
+        "3",
+        "4"
+      ],
+      "appearances": [
+        {
+          "year": "109",
+          "session": 3,
+          "no": 79
+        },
+        {
+          "year": "112",
+          "session": 2,
+          "no": 72
+        },
+        {
+          "year": "114",
+          "session": "2颱風延期考區",
+          "no": 69
+        }
+      ]
+    },
+    {
+      "id": "s-109-3-080",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "multi",
+      "stem": "下列那些為屬勞工健康保護規則所稱特別危害健康作業？",
+      "options": {
+        "1": "精密作業",
+        "2": "重體力作業",
+        "3": "游離輻射作業",
+        "4": "高溫作業勞工作息時間標準所稱之高溫作業"
+      },
+      "answer": [
+        "3",
+        "4"
+      ],
+      "appearances": [
+        {
+          "year": "109",
+          "session": 3,
+          "no": 80
+        },
+        {
+          "year": "110",
+          "session": 3,
+          "no": 74
+        }
+      ]
+    },
+    {
+      "id": "s-110-1-002",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "single",
+      "stem": "職業安全衛生法之立法意旨為保障工作者安全與健康，防止下列何種災害？",
+      "options": {
+        "1": "天然災害",
+        "2": "職業災害",
+        "3": "交通災害",
+        "4": "公共災害"
+      },
+      "answer": [
+        "2"
+      ],
+      "appearances": [
+        {
+          "year": "110",
+          "session": 1,
+          "no": 2
+        }
+      ]
+    },
+    {
+      "id": "s-110-1-005",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "single",
+      "stem": "對於職業災害之受領補償規定，下列敘述何者正確？",
+      "options": {
+        "1": "勞工若離職將喪失受領補償",
+        "2": "勞工得將受領補償權讓與、抵銷、扣押或擔保",
+        "3": "受領補償權，自得受領之日起，因2年間不行使而消滅",
+        "4": "須視雇主確有過失責任，勞工方具有受領補償權"
+      },
+      "answer": [
+        "3"
+      ],
+      "appearances": [
+        {
+          "year": "110",
+          "session": 1,
+          "no": 5
+        }
+      ]
+    },
+    {
+      "id": "s-110-1-006",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "single",
+      "stem": "為了保護環境，政府提出了4個R的口號，下列何者不是4R中的其中一項？",
+      "options": {
+        "1": "再創新",
+        "2": "減少使用",
+        "3": "再利用",
+        "4": "再循環"
+      },
+      "answer": [
+        "1"
+      ],
+      "appearances": [
+        {
+          "year": "110",
+          "session": 1,
+          "no": 6
+        },
+        {
+          "year": "112",
+          "session": 2,
+          "no": 39
+        }
+      ]
+    },
+    {
+      "id": "s-110-1-010",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "single",
+      "stem": "冷氣外洩會造成能源之消耗，下列何者最耗能？",
+      "options": {
+        "1": "全開式有氣簾",
+        "2": "全開式無氣簾",
+        "3": "自動門無氣簾",
+        "4": "自動門有氣簾"
+      },
+      "answer": [
+        "2"
+      ],
+      "appearances": [
+        {
+          "year": "110",
+          "session": 1,
+          "no": 10
+        }
+      ]
+    },
+    {
+      "id": "s-110-1-011",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "single",
+      "stem": "關於綠色採購的敘述，下列何者錯誤？",
+      "options": {
+        "1": "以精美包裝為主要首選",
+        "2": "採購回收材料製造之物品",
+        "3": "採購的產品對環境及人類健康有最小的傷害性",
+        "4": "選購產品對環境傷害較少、污染程度較低者"
+      },
+      "answer": [
+        "1"
+      ],
+      "appearances": [
+        {
+          "year": "110",
+          "session": 1,
+          "no": 11
+        },
+        {
+          "year": "110",
+          "session": 2,
+          "no": 49
+        },
+        {
+          "year": "111",
+          "session": 1,
+          "no": 26
+        },
+        {
+          "year": "112",
+          "session": 2,
+          "no": 14
+        }
+      ]
+    },
+    {
+      "id": "s-110-1-012",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "single",
+      "stem": "有關著作權的下列敘述何者錯誤？",
+      "options": {
+        "1": "高普考試題，不受著作權法保護",
+        "2": "到攝影展上，拿相機拍攝展示的作品，分贈給朋友，是侵害著作權的行為",
+        "3": "我們到表演場所觀看表演時，不可隨便錄音或錄影",
+        "4": "網路上供人下載的免費軟體，都不受著作權法保護，所以我可以燒成大補帖光碟，再去賣給別人"
+      },
+      "answer": [
+        "4"
+      ],
+      "appearances": [
+        {
+          "year": "110",
+          "session": 1,
+          "no": 12
+        }
+      ]
+    },
+    {
+      "id": "s-110-1-015",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "single",
+      "stem": "下列何項不是照明節能改善需優先考量之因素？",
+      "options": {
+        "1": "照明方式是否適當",
+        "2": "照度是否適當",
+        "3": "照明之品質是否適當",
+        "4": "燈具之外型是否美觀"
+      },
+      "answer": [
+        "4"
+      ],
+      "appearances": [
+        {
+          "year": "110",
+          "session": 1,
+          "no": 15
+        }
+      ]
+    },
+    {
+      "id": "s-110-1-030",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "single",
+      "stem": "在公司內部行使商務禮儀的過程，主要以參與者在公司中的何種條件來訂定順序",
+      "options": {
+        "1": "職位",
+        "2": "年齡",
+        "3": "性別",
+        "4": "社會地位"
+      },
+      "answer": [
+        "1"
+      ],
+      "appearances": [
+        {
+          "year": "110",
+          "session": 1,
+          "no": 30
+        }
+      ]
+    },
+    {
+      "id": "s-110-1-048",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "single",
+      "stem": "下列關於製程安全評估的描述何者錯誤？",
+      "options": {
+        "1": "危害及可操作分析(HazOp)屬於定性分析方法",
+        "2": "初步危害分析(PHA)用於系統設計階段實施，目的是分析系統的重大潛在危害",
+        "3": "二維風險矩陣是由危害發生的可能性與嚴重性組合而成",
+        "4": "故障樹分析(FTA)及事件樹分析(ETA)屬於定量分析方法"
+      },
+      "answer": [
+        "1"
+      ],
+      "appearances": [
+        {
+          "year": "110",
+          "session": 1,
+          "no": 48
+        }
+      ]
+    },
+    {
+      "id": "s-110-1-050",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "single",
+      "stem": "勞工在何種情況下，雇主得不經預告終止勞動契約？",
+      "options": {
+        "1": "確定被法院判刑6個月以內並諭知緩刑超過1年以上者",
+        "2": "不服指揮對雇主暴力相向者",
+        "3": "非連續曠工但1個月內累計達3日以上者",
+        "4": "經常遲到早退者"
+      },
+      "answer": [
+        "2"
+      ],
+      "appearances": [
+        {
+          "year": "110",
+          "session": 1,
+          "no": 50
+        }
+      ]
+    },
+    {
+      "id": "s-110-1-052",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "single",
+      "stem": "溫室氣體排放量：指自排放源排出之各種溫室氣體量乘以各該物質溫暖化潛勢所得之合計量，以",
+      "options": {
+        "1": "氧化亞氮(N2O)",
+        "2": "六氟化硫(SF6)",
+        "3": "甲烷(CH4)",
+        "4": "二氧化碳(CO2)當量表示"
+      },
+      "answer": [
+        "4"
+      ],
+      "appearances": [
+        {
+          "year": "110",
+          "session": 1,
+          "no": 52
+        }
+      ]
+    },
+    {
+      "id": "s-110-1-061",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "multi",
+      "stem": "下列那些屬電氣活線作業及活線近接作業時，所必須使用之安全防護具或工具？",
+      "options": {
+        "1": "電氣用絕緣長靴",
+        "2": "電氣用絕緣手套",
+        "3": "靜電疏導裝置",
+        "4": "電氣用安全帽"
+      },
+      "answer": [
+        "1",
+        "2",
+        "4"
+      ],
+      "appearances": [
+        {
+          "year": "110",
+          "session": 1,
+          "no": 61
+        },
+        {
+          "year": "111",
+          "session": 1,
+          "no": 62
+        },
+        {
+          "year": "111",
+          "session": 3,
+          "no": 73
+        },
+        {
+          "year": "113",
+          "session": 3,
+          "no": 63
+        },
+        {
+          "year": "114",
+          "session": "2颱風延期考區",
+          "no": 61
+        }
+      ]
+    },
+    {
+      "id": "s-110-1-062",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "multi",
+      "stem": "下列有關生物偵測之敘述那些正確？",
+      "options": {
+        "1": "生物偵測是透過測量體內劑量，來評估個人有害物之暴露程度",
+        "2": "生物偵測可以是化學有害物本身或其代謝物在生物檢體中所呈現之量，也可以是化學物質對某標的器官產生可逆性生化改變之程度",
+        "3": "美、日、法、德等國家已針對所有列管有害物全面要求實施生物偵測",
+        "4": "生物偵測的主要功能是輔助作業環境測定、測試個人防護具之效率"
+      },
+      "answer": [
+        "1",
+        "2",
+        "4"
+      ],
+      "appearances": [
+        {
+          "year": "110",
+          "session": 1,
+          "no": 62
+        },
+        {
+          "year": "111",
+          "session": 3,
+          "no": 78
+        },
+        {
+          "year": "112",
+          "session": 3,
+          "no": 65
+        },
+        {
+          "year": "113",
+          "session": 3,
+          "no": 74
+        }
+      ]
+    },
+    {
+      "id": "s-110-1-063",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "multi",
+      "stem": "依據職業安全衛生教育訓練規則的要求，那些描述正確？",
+      "options": {
+        "1": "擔任有機溶劑作業主管的勞工應於事前使其接受有害作業主管之教育訓練",
+        "2": "荷重在1公噸以上之堆高機操作人員應使其接受特殊作業教育訓練",
+        "3": "在職勞工於變更工作前，應使其接受適於工作必要之一般安全衛生教育訓練",
+        "4": "職業安全衛生業務主管應接受每兩年至少12小時的在職教育訓練"
+      },
+      "answer": [
+        "1",
+        "2",
+        "3"
+      ],
+      "appearances": [
+        {
+          "year": "110",
+          "session": 1,
+          "no": 63
+        },
+        {
+          "year": "110",
+          "session": 2,
+          "no": 69
+        },
+        {
+          "year": "112",
+          "session": 2,
+          "no": 66
+        },
+        {
+          "year": "113",
+          "session": 2,
+          "no": 79
+        }
+      ]
+    },
+    {
+      "id": "s-110-1-069",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "multi",
+      "stem": "下列那些為事業單位製作勞工健康管理計畫應確認之事項？",
+      "options": {
+        "1": "工作場所使用之危險性機械設備種類及數量",
+        "2": "勞工總人數，如為輪班者，每班次勞工人數",
+        "3": "勞工之年齡分佈",
+        "4": "事業單位作業環境有何種危害因子"
+      },
+      "answer": [
+        "2",
+        "3",
+        "4"
+      ],
+      "appearances": [
+        {
+          "year": "110",
+          "session": 1,
+          "no": 69
+        },
+        {
+          "year": "111",
+          "session": 3,
+          "no": 80
+        },
+        {
+          "year": "112",
+          "session": 3,
+          "no": 78
+        },
+        {
+          "year": "114",
+          "session": 3,
+          "no": 65
+        }
+      ]
+    },
+    {
+      "id": "s-110-1-071",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "multi",
+      "stem": "下列有關可燃性氣體或其混合蒸氣場所之電氣防爆對策，那些正確？",
+      "options": {
+        "1": "電氣機具之金屬外箱、機架、保護罩、導線管應確實接地",
+        "2": "應用防爆型電風扇",
+        "3": "盡量避免使用電氣機具，而以空氣驅動之機械取代電動機具",
+        "4": "使用行動電話是不影響安全的"
+      },
+      "answer": [
+        "1",
+        "2",
+        "3"
+      ],
+      "appearances": [
+        {
+          "year": "110",
+          "session": 1,
+          "no": 71
+        },
+        {
+          "year": "111",
+          "session": 2,
+          "no": 77
+        },
+        {
+          "year": "111",
+          "session": 3,
+          "no": 67
+        },
+        {
+          "year": "112",
+          "session": 3,
+          "no": 76
+        },
+        {
+          "year": "113",
+          "session": 2,
+          "no": 67
+        }
+      ]
+    },
+    {
+      "id": "s-110-1-072",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "multi",
+      "stem": "依職業安全衛生設施規則規定，雇主不得以下列那些情況之鋼索作為起重升降機具之吊掛用具？",
+      "options": {
+        "1": "鋼索一撚間有百分之5以上素線截斷者",
+        "2": "已扭結者",
+        "3": "有顯著變形或腐蝕者",
+        "4": "直徑減少達公稱直徑百分之7以上者"
+      },
+      "answer": [
+        "2",
+        "3",
+        "4"
+      ],
+      "appearances": [
+        {
+          "year": "110",
+          "session": 1,
+          "no": 72
+        },
+        {
+          "year": "110",
+          "session": 3,
+          "no": 65
+        },
+        {
+          "year": "114",
+          "session": 1,
+          "no": 61
+        }
+      ]
+    },
+    {
+      "id": "s-110-1-074",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "multi",
+      "stem": "下列有關採光照明之影響那些正確？",
+      "options": {
+        "1": "採光照明問題在品質管制及工業安全衛生2方面，均具有同等之重要性",
+        "2": "照明不當可能導致精神疲勞",
+        "3": "照明不當不致造成眼睛慢性傷害",
+        "4": "良好之採光照明條件可增進工作效率、減少失誤率、亦可降低事故發生機會"
+      },
+      "answer": [
+        "1",
+        "2",
+        "4"
+      ],
+      "appearances": [
+        {
+          "year": "110",
+          "session": 1,
+          "no": 74
+        },
+        {
+          "year": "111",
+          "session": 1,
+          "no": 78
+        },
+        {
+          "year": "113",
+          "session": 1,
+          "no": 69
+        }
+      ]
+    },
+    {
+      "id": "s-110-1-075",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "multi",
+      "stem": "丁類危險性工作場所之施工安全評估報告書內容，除包含施工災害初步分析表、特有災害評估表、施工計畫之修改外，尚須包括那些？",
+      "options": {
+        "1": "基本事項檢討評估表",
+        "2": "報告簽認",
+        "3": "製程修改安全計畫",
+        "4": "製程安全評估表"
+      },
+      "answer": [
+        "1",
+        "2"
+      ],
+      "appearances": [
+        {
+          "year": "110",
+          "session": 1,
+          "no": 75
+        }
+      ]
+    },
+    {
+      "id": "s-110-1-076",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "multi",
+      "stem": "依營造安全衛生設施標準規定，下列那些為施工架組配作業主管之辦理事項？",
+      "options": {
+        "1": "指揮勞工作業",
+        "2": "監督勞工確實使用個人防護具",
+        "3": "檢查材料",
+        "4": "督導工程進度"
+      },
+      "answer": [
+        "1",
+        "2",
+        "3"
+      ],
+      "appearances": [
+        {
+          "year": "110",
+          "session": 1,
+          "no": 76
+        },
+        {
+          "year": "111",
+          "session": 2,
+          "no": 78
+        }
+      ]
+    },
+    {
+      "id": "s-110-1-077",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "multi",
+      "stem": "下列那些是勞工於同平面跌倒之要因？",
+      "options": {
+        "1": "人的鞋底滑",
+        "2": "樓板開口",
+        "3": "地板上有滑溜物",
+        "4": "地板有適當照明"
+      },
+      "answer": [
+        "1",
+        "3"
+      ],
+      "appearances": [
+        {
+          "year": "110",
+          "session": 1,
+          "no": 77
+        },
+        {
+          "year": "112",
+          "session": 1,
+          "no": 63
+        }
+      ]
+    },
+    {
+      "id": "s-110-1-078",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "multi",
+      "stem": "下列那些屬反撥預防裝置？",
+      "options": {
+        "1": "撐縫片",
+        "2": "反撥防止滾輪",
+        "3": "護罩",
+        "4": "反撥防止爪"
+      },
+      "answer": [
+        "1",
+        "2",
+        "4"
+      ],
+      "appearances": [
+        {
+          "year": "110",
+          "session": 1,
+          "no": 78
+        }
+      ]
+    },
+    {
+      "id": "s-110-1-080",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "multi",
+      "stem": "下列那些是稽核的正確作法？",
+      "options": {
+        "1": "稽核前應擬定稽核重點",
+        "2": "稽核時應查遍所有文件內容，才不致有代表性不足的問題",
+        "3": "稽核時只採面談方式不查核資料",
+        "4": "稽核後應追蹤其改善情形"
+      },
+      "answer": [
+        "1",
+        "4"
+      ],
+      "appearances": [
+        {
+          "year": "110",
+          "session": 1,
+          "no": 80
+        }
+      ]
+    },
+    {
+      "id": "s-110-2-009",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "single",
+      "stem": "用電設備的線路保護用電力熔絲(保險絲)經常燒斷，造成停電的不便，下列何者不是正確的作法？",
+      "options": {
+        "1": "重新設計線路，改較粗的導線或用兩迴路並聯",
+        "2": "減少線路連接的電氣設備，降低用電量",
+        "3": "提高用電設備的功率因數",
+        "4": "換大一級或大兩級規格的保險絲或斷路器就不會燒斷了"
+      },
+      "answer": [
+        "4"
+      ],
+      "appearances": [
+        {
+          "year": "110",
+          "session": 2,
+          "no": 9
+        }
+      ]
+    },
+    {
+      "id": "s-110-2-023",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "single",
+      "stem": "如果發現有同事，利用公司的財產做私人的事，我們應該要",
+      "options": {
+        "1": "不關我的事，我只要管好自己便可以",
+        "2": "未經查證或勸阻立即向主管報告",
+        "3": "應該告訴其他同事，讓大家來共同糾正與斥責他",
+        "4": "應該立即勸阻，告知他這是不對的行為"
+      },
+      "answer": [
+        "4"
+      ],
+      "appearances": [
+        {
+          "year": "110",
+          "session": 2,
+          "no": 23
+        }
+      ]
+    },
+    {
+      "id": "s-110-2-031",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "single",
+      "stem": "依職業安全衛生設施規則規定，固定梯之頂端應突出板面多少公分以上？",
+      "options": {
+        "1": "60",
+        "2": "10",
+        "3": "30",
+        "4": "90"
+      },
+      "answer": [
+        "1"
+      ],
+      "appearances": [
+        {
+          "year": "110",
+          "session": 2,
+          "no": 31
+        }
+      ]
+    },
+    {
+      "id": "s-110-2-035",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "single",
+      "stem": "裝配鍋爐的佈置形式，以下列何者為適宜？",
+      "options": {
+        "1": "製程式",
+        "2": "混合式",
+        "3": "固定式",
+        "4": "功能式"
+      },
+      "answer": [
+        "3"
+      ],
+      "appearances": [
+        {
+          "year": "110",
+          "session": 2,
+          "no": 35
+        },
+        {
+          "year": "110",
+          "session": 3,
+          "no": 40
+        },
+        {
+          "year": "112",
+          "session": 1,
+          "no": 33
+        }
+      ]
+    },
+    {
+      "id": "s-110-2-039",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "single",
+      "stem": "為建立良好之公司治理制度，公司內部宜納入何種檢舉人制度？",
+      "options": {
+        "1": "吹哨者（whistleblower）管道及保護制度",
+        "2": "非告訴乃論制度",
+        "3": "告訴乃論制度",
+        "4": "不告不理制度"
+      },
+      "answer": [
+        "1"
+      ],
+      "appearances": [
+        {
+          "year": "110",
+          "session": 2,
+          "no": 39
+        },
+        {
+          "year": "110",
+          "session": 3,
+          "no": 46
+        },
+        {
+          "year": "112",
+          "session": 1,
+          "no": 36
+        }
+      ]
+    },
+    {
+      "id": "s-110-2-041",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "single",
+      "stem": "依營造安全衛生設施標準規定，為防止模板支撐之支柱的水平移動，應設置下列何種構件？",
+      "options": {
+        "1": "水平繫條",
+        "2": "鋼製頂板",
+        "3": "牽引板",
+        "4": "螺栓"
+      },
+      "answer": [
+        "1"
+      ],
+      "appearances": [
+        {
+          "year": "110",
+          "session": 2,
+          "no": 41
+        },
+        {
+          "year": "113",
+          "session": 3,
+          "no": 53
+        }
+      ]
+    },
+    {
+      "id": "s-110-2-042",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "single",
+      "stem": "依能源局「指定能源用戶應遵行之節約能源規定」，在正常使用條件下，公眾出入之場所其室內冷氣溫度平均值不得低於攝氏幾度？",
+      "options": {
+        "1": "25",
+        "2": "22",
+        "3": "26",
+        "4": "24"
+      },
+      "answer": [
+        "3"
+      ],
+      "appearances": [
+        {
+          "year": "110",
+          "session": 2,
+          "no": 42
+        }
+      ]
+    },
+    {
+      "id": "s-110-2-044",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "single",
+      "stem": "事業單位依勞工健康保護規則設置之醫療衛生單位及人員，應填具醫療衛生單位及人員設置報備書向下列何單位報備？",
+      "options": {
+        "1": "中央主管機關及當地勞動檢查機構",
+        "2": "勞工保險局及中央衛生主管機關",
+        "3": "當地勞動檢查機構及衛生主管機關",
+        "4": "中央衛生主管機關及當地勞動檢查機構"
+      },
+      "answer": [
+        "3"
+      ],
+      "appearances": [
+        {
+          "year": "110",
+          "session": 2,
+          "no": 44
+        }
+      ]
+    },
+    {
+      "id": "s-110-2-060",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "single",
+      "stem": "若廢機油引起火災，最不應以下列何者滅火？",
+      "options": {
+        "1": "厚棉被",
+        "2": "水",
+        "3": "砂土",
+        "4": "乾粉滅火器"
+      },
+      "answer": [
+        "2"
+      ],
+      "appearances": [
+        {
+          "year": "110",
+          "session": 2,
+          "no": 60
+        }
+      ]
+    },
+    {
+      "id": "s-110-2-062",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "multi",
+      "stem": "下列有關特殊健康檢查的描述，那些正確？",
+      "options": {
+        "1": "將每位勞工健康檢查之詳細資料公佈在顯明而易見之場所",
+        "2": "從事鉛中毒預防規則所稱鉛作業的勞工應實施特殊健康檢查",
+        "3": "檢查紀錄至少保存30年",
+        "4": "從事特別危害健康作業勞工，應於變更其作業時實施特殊健康檢查"
+      },
+      "answer": [
+        "2",
+        "4"
+      ],
+      "appearances": [
+        {
+          "year": "110",
+          "session": 2,
+          "no": 62
+        }
+      ]
+    },
+    {
+      "id": "s-110-2-063",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "multi",
+      "stem": "下列有關振動危害之敘述那些正確？",
+      "options": {
+        "1": "當振動由手掌傳至手臂時會導致臂部肌肉、骨骼、神經之健康影響",
+        "2": "長時間操作破碎機、鏈鋸等振動手工具會對手部神經及血管造成傷害",
+        "3": "振動能與人體不同之部位產生共振現象而造成對人體健康影響",
+        "4": "暈車暈船常為高頻振動所引起"
+      },
+      "answer": [
+        "1",
+        "2",
+        "3"
+      ],
+      "appearances": [
+        {
+          "year": "110",
+          "session": 2,
+          "no": 63
+        },
+        {
+          "year": "113",
+          "session": 3,
+          "no": 80
+        }
+      ]
+    },
+    {
+      "id": "s-110-2-065",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "multi",
+      "stem": "下列那些符合布林代數化簡規則？",
+      "options": {
+        "1": "FFFGH＝FGH",
+        "2": "AB＋ABC＝ABC",
+        "3": "F＋FG＋FGH＝FH",
+        "4": "ABAABB＝AB"
+      },
+      "answer": [
+        "1",
+        "4"
+      ],
+      "appearances": [
+        {
+          "year": "110",
+          "session": 2,
+          "no": 65
+        },
+        {
+          "year": "112",
+          "session": 2,
+          "no": 73
+        },
+        {
+          "year": "114",
+          "session": "2颱風延期考區",
+          "no": 73
+        }
+      ]
+    },
+    {
+      "id": "s-110-2-066",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "multi",
+      "stem": "下列那些為高溫或低溫所造成之可能危害？",
+      "options": {
+        "1": "熱痙攣",
+        "2": "中暑",
+        "3": "神經衰弱",
+        "4": "凍傷"
+      },
+      "answer": [
+        "1",
+        "2",
+        "4"
+      ],
+      "appearances": [
+        {
+          "year": "110",
+          "session": 2,
+          "no": 66
+        },
+        {
+          "year": "111",
+          "session": 3,
+          "no": 74
+        },
+        {
+          "year": "113",
+          "session": 3,
+          "no": 65
+        },
+        {
+          "year": "114",
+          "session": 3,
+          "no": 63
+        }
+      ]
+    },
+    {
+      "id": "s-110-2-075",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "multi",
+      "stem": "依危害性化學品標示及通識規則規定，下列那些可免標示？",
+      "options": {
+        "1": "勞工使用可攜帶容器，其危害物質取自有標示之容器",
+        "2": "內部容器未標示，由外部無法見到標示之外部容器",
+        "3": "危害物質僅供實驗室實驗、研究之用",
+        "4": "外部容器已標示，僅供內襯且不再取出之內容器"
+      },
+      "answer": [
+        "1",
+        "4"
+      ],
+      "appearances": [
+        {
+          "year": "110",
+          "session": 2,
+          "no": 75
+        },
+        {
+          "year": "112",
+          "session": 3,
+          "no": 70
+        }
+      ]
+    },
+    {
+      "id": "s-110-2-078",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "multi",
+      "stem": "對於固定式起重機設置之階梯，下列那些敘述符合固定式起重機安全檢查構造標準規定？",
+      "options": {
+        "1": "階面之寬度應在10公分以上，且各階面應相等",
+        "2": "設置之堅固扶手高度至少應在60公分以上",
+        "3": "對水平之傾斜度應在75度以下",
+        "4": "每一階之高度應在30公分以下，且各階梯間距離應相等"
+      },
+      "answer": [
+        "1",
+        "3",
+        "4"
+      ],
+      "appearances": [
+        {
+          "year": "110",
+          "session": 2,
+          "no": 78
+        },
+        {
+          "year": "114",
+          "session": 3,
+          "no": 80
+        }
+      ]
+    },
+    {
+      "id": "s-110-2-079",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "multi",
+      "stem": "雇主應於機器人顯明易見之位置標示那些事項？",
+      "options": {
+        "1": "製造者名稱",
+        "2": "型式",
+        "3": "最大可承受外力或力矩",
+        "4": "機器人外觀尺寸"
+      },
+      "answer": [
+        "1",
+        "2"
+      ],
+      "appearances": [
+        {
+          "year": "110",
+          "session": 2,
+          "no": 79
+        },
+        {
+          "year": "110",
+          "session": 3,
+          "no": 64
+        },
+        {
+          "year": "111",
+          "session": 3,
+          "no": 76
+        },
+        {
+          "year": "113",
+          "session": 1,
+          "no": 61
+        }
+      ]
+    },
+    {
+      "id": "s-110-2-080",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "multi",
+      "stem": "高壓氣體勞工安全規則不適用於下列那些高壓氣體？",
+      "options": {
+        "1": "高壓鍋爐及其導管內之高壓蒸氣",
+        "2": "原子能設施內使用之高壓氣體",
+        "3": "冷凍能力在3公噸以上之冷凍設備內之高壓氣體",
+        "4": "船舶設備內使用之高壓氣體"
+      },
+      "answer": [
+        "1",
+        "2",
+        "4"
+      ],
+      "appearances": [
+        {
+          "year": "110",
+          "session": 2,
+          "no": 80
+        },
+        {
+          "year": "111",
+          "session": 2,
+          "no": 76
+        },
+        {
+          "year": "113",
+          "session": 1,
+          "no": 76
+        }
+      ]
+    },
+    {
+      "id": "s-110-3-001",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "single",
+      "stem": "下列何者非節省能源的做法？",
+      "options": {
+        "1": "電視機勿背著窗戶或面對窗戶，並避免太陽直射",
+        "2": "影印機當15分鐘無人使用時，自動進入省電模式",
+        "3": "汽車不行駛短程，較短程旅運應儘量搭乘公車、騎單車或步行",
+        "4": "電冰箱溫度長時間調在強冷或急冷"
+      },
+      "answer": [
+        "4"
+      ],
+      "appearances": [
+        {
+          "year": "110",
+          "session": 3,
+          "no": 1
+        }
+      ]
+    },
+    {
+      "id": "s-110-3-003",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "single",
+      "stem": "塑膠為海洋生態的殺手，所以環保署推動「無塑海洋」政策，下列何項不是減少塑膠危害海洋生態的重要措施？",
+      "options": {
+        "1": "禁止製造、進口及販售含塑膠柔珠的清潔用品",
+        "2": "淨灘、淨海",
+        "3": "擴大禁止免費供應塑膠袋",
+        "4": "定期進行海水水質監測"
+      },
+      "answer": [
+        "4"
+      ],
+      "appearances": [
+        {
+          "year": "110",
+          "session": 3,
+          "no": 3
+        }
+      ]
+    },
+    {
+      "id": "s-110-3-008",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "single",
+      "stem": "按照現行法律規定，侵害他人營業秘密，其法律責任為：",
+      "options": {
+        "1": "僅需負刑事責任",
+        "2": "刑事責任與民事損害賠償責任皆須負擔",
+        "3": "刑事責任與民事損害賠償責任皆不須負擔",
+        "4": "僅需負民事損害賠償責任"
+      },
+      "answer": [
+        "2"
+      ],
+      "appearances": [
+        {
+          "year": "110",
+          "session": 3,
+          "no": 8
+        },
+        {
+          "year": "112",
+          "session": 3,
+          "no": 15
+        }
+      ]
+    },
+    {
+      "id": "s-110-3-009",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "single",
+      "stem": "依職業安全衛生設施規則規定，雇主對於架設之通道屬營建使用之階梯，其高度應在多少公尺以上時，每隔7公尺內設置平台一處？",
+      "options": {
+        "1": "9",
+        "2": "8",
+        "3": "12",
+        "4": "10"
+      },
+      "answer": [
+        "2"
+      ],
+      "appearances": [
+        {
+          "year": "110",
+          "session": 3,
+          "no": 9
+        }
+      ]
+    },
+    {
+      "id": "s-110-3-012",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "single",
+      "stem": "溫室氣體排放量：指自排放源排出之各種溫室氣體量乘以各該物質溫暖化潛勢所得之合計量，以",
+      "options": {
+        "1": "六氟化硫(SF6)",
+        "2": "氧化亞氮(N2O)",
+        "3": "二氧化碳(CO2)",
+        "4": "甲烷(CH4)當量表示"
+      },
+      "answer": [
+        "3"
+      ],
+      "appearances": [
+        {
+          "year": "110",
+          "session": 3,
+          "no": 12
+        }
+      ]
+    },
+    {
+      "id": "s-110-3-018",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "single",
+      "stem": "勞動場所發生職業災害，災害搶救中第一要務為何？",
+      "options": {
+        "1": "搶救材料減少損失",
+        "2": "災害場所持續工作減少損失",
+        "3": "搶救罹災勞工迅速送醫",
+        "4": "24小時內通報勞動檢查機構"
+      },
+      "answer": [
+        "3"
+      ],
+      "appearances": [
+        {
+          "year": "110",
+          "session": 3,
+          "no": 18
+        }
+      ]
+    },
+    {
+      "id": "s-110-3-022",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "single",
+      "stem": "目前市面清潔劑均會強調「無磷」，是因為含磷的清潔劑使用後，若廢水排至河川或湖泊等水域會造成甚麼影響？",
+      "options": {
+        "1": "優養化",
+        "2": "烏腳病",
+        "3": "綠牡蠣",
+        "4": "秘雕魚"
+      },
+      "answer": [
+        "1"
+      ],
+      "appearances": [
+        {
+          "year": "110",
+          "session": 3,
+          "no": 22
+        }
+      ]
+    },
+    {
+      "id": "s-110-3-028",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "single",
+      "stem": "個人資料保護法為保護當事人權益，多少位以上的當事人提出告訴，就可以進行團體訴訟：",
+      "options": {
+        "1": "20人",
+        "2": "5人",
+        "3": "10人",
+        "4": "15人"
+      },
+      "answer": [
+        "1"
+      ],
+      "appearances": [
+        {
+          "year": "110",
+          "session": 3,
+          "no": 28
+        },
+        {
+          "year": "111",
+          "session": 1,
+          "no": 7
+        }
+      ]
+    },
+    {
+      "id": "s-110-3-034",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "single",
+      "stem": "下列何項操作人員，雇主毋需使其受危險性設備操作人員安全訓練？",
+      "options": {
+        "1": "高壓氣體特定設備",
+        "2": "鍋爐（小型鍋爐除外）",
+        "3": "第一種壓力容器",
+        "4": "吊升荷重未滿5公噸之固定式起重機"
+      },
+      "answer": [
+        "4"
+      ],
+      "appearances": [
+        {
+          "year": "110",
+          "session": 3,
+          "no": 34
+        }
+      ]
+    },
+    {
+      "id": "s-110-3-052",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "single",
+      "stem": "為了避免漏電而危害生命安全，下列何者不是正確的做法？",
+      "options": {
+        "1": "做好用電設備金屬外殼的接地",
+        "2": "使用保險絲來防止漏電的危險性",
+        "3": "加強定期的漏電檢查及維護",
+        "4": "有濕氣的用電場合，線路加裝漏電斷路器"
+      },
+      "answer": [
+        "2"
+      ],
+      "appearances": [
+        {
+          "year": "110",
+          "session": 3,
+          "no": 52
+        }
+      ]
+    },
+    {
+      "id": "s-110-3-057",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "single",
+      "stem": "小禎離開異鄉就業，來到小明的公司上班，小明是當地的人，他應該：",
+      "options": {
+        "1": "不關他的事，自己管好就好",
+        "2": "小禎是同單位的人，是個競爭對手，應該多加防範",
+        "3": "多關心小禎的生活適應情況，如有困難加以協助",
+        "4": "小禎非當地人，應該不容易相處，不要有太多接觸"
+      },
+      "answer": [
+        "3"
+      ],
+      "appearances": [
+        {
+          "year": "110",
+          "session": 3,
+          "no": 57
+        }
+      ]
+    },
+    {
+      "id": "s-110-3-058",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "single",
+      "stem": "下列何者非屬勞工健康保護規則所稱特別危害健康作業？",
+      "options": {
+        "1": "游離輻射作業",
+        "2": "重體力勞動作業勞工保護措施標準所稱之重體力作業",
+        "3": "粉塵危害預防標準所稱之粉塵作業",
+        "4": "鉛中毒預防規則所稱之鉛作業"
+      },
+      "answer": [
+        "2"
+      ],
+      "appearances": [
+        {
+          "year": "110",
+          "session": 3,
+          "no": 58
+        }
+      ]
+    },
+    {
+      "id": "s-110-3-066",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "multi",
+      "stem": "依危害性化學品標示及通識規則規定，危害物質應標示事項，除危害圖式外，其內容需包括下列何項？",
+      "options": {
+        "1": "名稱及危害成分",
+        "2": "消防機關電話、地址",
+        "3": "危害警告訊息",
+        "4": "製造者、輸入者或供應者之名稱、地址及電話"
+      },
+      "answer": [
+        "1",
+        "3",
+        "4"
+      ],
+      "appearances": [
+        {
+          "year": "110",
+          "session": 3,
+          "no": 66
+        }
+      ]
+    },
+    {
+      "id": "s-110-3-068",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "multi",
+      "stem": "下列有關非游離輻射之敘述那些正確？",
+      "options": {
+        "1": "紫外線會破壞眼角膜，引起角膜炎",
+        "2": "紅外線常由灼熱物體產生，眼睛經常直視紅熱物體易導致白內障",
+        "3": "銲接作業為常暴露雷射之行業",
+        "4": "微波對眼睛可造成白內障"
+      },
+      "answer": [
+        "1",
+        "2",
+        "4"
+      ],
+      "appearances": [
+        {
+          "year": "110",
+          "session": 3,
+          "no": 68
+        },
+        {
+          "year": "112",
+          "session": 3,
+          "no": 71
+        }
+      ]
+    },
+    {
+      "id": "s-111-1-009",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "single",
+      "stem": "經勞動部核定公告為勞動基準法第84條之1規定之工作者，得由勞雇雙方另行約定之勞動條件，事業單位仍應報請下列何機關核備？",
+      "options": {
+        "1": "法院公證處",
+        "2": "勞動檢查機構",
+        "3": "當地主管機關",
+        "4": "勞動部"
+      },
+      "answer": [
+        "3"
+      ],
+      "appearances": [
+        {
+          "year": "111",
+          "session": 1,
+          "no": 9
+        }
+      ]
+    },
+    {
+      "id": "s-111-1-010",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "single",
+      "stem": "下列何種方式沒有辦法降低洗衣機之使用水量，所以不建議採用？",
+      "options": {
+        "1": "兩、三件衣服也丟洗衣機洗",
+        "2": "選擇快洗行程",
+        "3": "使用低水位清洗",
+        "4": "選擇有自動調節水量的洗衣機，洗衣清洗前先脫水1次"
+      },
+      "answer": [
+        "1"
+      ],
+      "appearances": [
+        {
+          "year": "111",
+          "session": 1,
+          "no": 10
+        }
+      ]
+    },
+    {
+      "id": "s-111-1-022",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "single",
+      "stem": "下列何者不是蚊蟲會傳染的疾病？",
+      "options": {
+        "1": "痢疾",
+        "2": "登革熱",
+        "3": "瘧疾",
+        "4": "日本腦炎"
+      },
+      "answer": [
+        "1"
+      ],
+      "appearances": [
+        {
+          "year": "111",
+          "session": 1,
+          "no": 22
+        }
+      ]
+    },
+    {
+      "id": "s-111-1-028",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "single",
+      "stem": "台灣是屬缺水地區，每人每年實際分配到可利用水量是世界平均值的約多少？",
+      "options": {
+        "1": "五分之一",
+        "2": "六分之一",
+        "3": "二分之一",
+        "4": "四分之一"
+      },
+      "answer": [
+        "2"
+      ],
+      "appearances": [
+        {
+          "year": "111",
+          "session": 1,
+          "no": 28
+        }
+      ]
+    },
+    {
+      "id": "s-111-1-036",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "single",
+      "stem": "依勞工作業環境監測實施辦法規定，下列對於事業單位如欲辦理法定期間之作業環境監測之敘述，何者錯誤？",
+      "options": {
+        "1": "化學性因子監測樣本應由認證實驗室化驗分析",
+        "2": "應僱用乙級以上作業環境監測技術士辦理",
+        "3": "委由認可之作業環境監測機構辦理",
+        "4": "委由執業之職業（工礦）衛生技師辦理"
+      },
+      "answer": [
+        "4"
+      ],
+      "appearances": [
+        {
+          "year": "111",
+          "session": 1,
+          "no": 36
+        },
+        {
+          "year": "114",
+          "session": "2颱風延期考區",
+          "no": 31
+        }
+      ]
+    },
+    {
+      "id": "s-111-1-042",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "single",
+      "stem": "下列何者可做為電氣線路過電流保護之用？",
+      "options": {
+        "1": "電阻器",
+        "2": "避雷器",
+        "3": "變壓器",
+        "4": "熔絲斷路器"
+      },
+      "answer": [
+        "4"
+      ],
+      "appearances": [
+        {
+          "year": "111",
+          "session": 1,
+          "no": 42
+        },
+        {
+          "year": "111",
+          "session": 3,
+          "no": 12
+        }
+      ]
+    },
+    {
+      "id": "s-111-1-050",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "single",
+      "stem": "按菸害防制法規定，對於主管每天在辦公室內吸菸，應如何處理？",
+      "options": {
+        "1": "因為是主管，所以只好忍耐",
+        "2": "開空氣清淨機，睜一隻眼閉一睜眼",
+        "3": "撥打菸害申訴專線檢舉(0800-531-531)",
+        "4": "未違反菸害防制法"
+      },
+      "answer": [
+        "3"
+      ],
+      "appearances": [
+        {
+          "year": "111",
+          "session": 1,
+          "no": 50
+        }
+      ]
+    },
+    {
+      "id": "s-111-1-052",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "single",
+      "stem": "陳先生到機車行換機油時，發現機車行老闆將廢機油直接倒入路旁的排水溝，請問這樣的行為是違反了",
+      "options": {
+        "1": "廢棄物清理法",
+        "2": "職業安全衛生法",
+        "3": "飲用水管理條例",
+        "4": "道路交通管理處罰條例"
+      },
+      "answer": [
+        "1"
+      ],
+      "appearances": [
+        {
+          "year": "111",
+          "session": 1,
+          "no": 52
+        }
+      ]
+    },
+    {
+      "id": "s-111-1-063",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "multi",
+      "stem": "下列那些為判定職業病必須要滿足之條件？",
+      "options": {
+        "1": "發病期間、症狀及有害因子之暴露期間有時序之相關",
+        "2": "工作場所中有害物濃度經確認曾超過法定容許濃度標準",
+        "3": "必須曾暴露於存在有害因子之環境",
+        "4": "工作場所中有害因子確實存在"
+      },
+      "answer": [
+        "1",
+        "3",
+        "4"
+      ],
+      "appearances": [
+        {
+          "year": "111",
+          "session": 1,
+          "no": 63
+        }
+      ]
+    },
+    {
+      "id": "s-111-1-064",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "multi",
+      "stem": "下列那些高壓氣體為高壓氣體勞工安全規則中所稱特定高壓氣體？",
+      "options": {
+        "1": "壓縮氫氣",
+        "2": "乙炔",
+        "3": "液氧",
+        "4": "溴甲烷"
+      },
+      "answer": [
+        "1",
+        "3"
+      ],
+      "appearances": [
+        {
+          "year": "111",
+          "session": 1,
+          "no": 64
+        },
+        {
+          "year": "111",
+          "session": 2,
+          "no": 73
+        }
+      ]
+    },
+    {
+      "id": "s-111-1-065",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "multi",
+      "stem": "下列那些為局限空間作業場所應公告使作業勞工周知的事項？",
+      "options": {
+        "1": "事故發生時之緊急措施及緊急聯絡方式",
+        "2": "進入該場所時應採取之措施",
+        "3": "內部空間的大小",
+        "4": "現場監視人員姓名"
+      },
+      "answer": [
+        "1",
+        "2",
+        "4"
+      ],
+      "appearances": [
+        {
+          "year": "111",
+          "session": 1,
+          "no": 65
+        },
+        {
+          "year": "111",
+          "session": 2,
+          "no": 69
+        },
+        {
+          "year": "112",
+          "session": 3,
+          "no": 79
+        }
+      ]
+    },
+    {
+      "id": "s-111-1-068",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "multi",
+      "stem": "在研定職業安全衛生管理目標時，下列那些項目屬於主動性目標？",
+      "options": {
+        "1": "每個月針對高風險作業進行安全觀察1件",
+        "2": "訂定作業標準3件",
+        "3": "辦理健康促進講座12小時",
+        "4": "相較去年降低災害件數30%"
+      },
+      "answer": [
+        "1",
+        "2",
+        "3"
+      ],
+      "appearances": [
+        {
+          "year": "111",
+          "session": 1,
+          "no": 68
+        },
+        {
+          "year": "114",
+          "session": 1,
+          "no": 72
+        }
+      ]
+    },
+    {
+      "id": "s-111-1-070",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "multi",
+      "stem": "下列那些為屬職業安全衛生法施行細則所稱特別危害健康作業？",
+      "options": {
+        "1": "精密作業",
+        "2": "游離輻射作業",
+        "3": "重體力作業",
+        "4": "高溫作業勞工作息時間標準所稱之高溫作業"
+      },
+      "answer": [
+        "2",
+        "4"
+      ],
+      "appearances": [
+        {
+          "year": "111",
+          "session": 1,
+          "no": 70
+        }
+      ]
+    },
+    {
+      "id": "s-111-1-071",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "multi",
+      "stem": "下列那些為工作場所之風險管理要項？",
+      "options": {
+        "1": "實施控制方法",
+        "2": "危害辨識",
+        "3": "建立安全衛生管理組織",
+        "4": "評估危害所產生風險"
+      },
+      "answer": [
+        "1",
+        "2",
+        "4"
+      ],
+      "appearances": [
+        {
+          "year": "111",
+          "session": 1,
+          "no": 71
+        },
+        {
+          "year": "111",
+          "session": 2,
+          "no": 63
+        },
+        {
+          "year": "111",
+          "session": 3,
+          "no": 65
+        },
+        {
+          "year": "113",
+          "session": 1,
+          "no": 68
+        },
+        {
+          "year": "113",
+          "session": 2,
+          "no": 72
+        },
+        {
+          "year": "114",
+          "session": "2颱風延期考區",
+          "no": 62
+        }
+      ]
+    },
+    {
+      "id": "s-111-1-072",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "multi",
+      "stem": "下列那些災害類型分類項目中為「與有害物等接觸」？",
+      "options": {
+        "1": "一氧化碳中毒",
+        "2": "機械捲夾",
+        "3": "受帶電體電擊",
+        "4": "缺氧"
+      },
+      "answer": [
+        "1",
+        "4"
+      ],
+      "appearances": [
+        {
+          "year": "111",
+          "session": 1,
+          "no": 72
+        },
+        {
+          "year": "113",
+          "session": 2,
+          "no": 78
+        }
+      ]
+    },
+    {
+      "id": "s-111-1-079",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "multi",
+      "stem": "下列那些為職業安全衛生法施行細則所稱具有危險性之機械？",
+      "options": {
+        "1": "吊升荷重3公噸固定式起重機",
+        "2": "營建用升降機",
+        "3": "鍋爐",
+        "4": "挖土機"
+      },
+      "answer": [
+        "1",
+        "2"
+      ],
+      "appearances": [
+        {
+          "year": "111",
+          "session": 1,
+          "no": 79
+        },
+        {
+          "year": "111",
+          "session": 2,
+          "no": 65
+        },
+        {
+          "year": "111",
+          "session": 3,
+          "no": 64
+        }
+      ]
+    },
+    {
+      "id": "s-111-2-003",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "single",
+      "stem": "勞工為節省時間，在未斷電情況下清理機臺，易發生危害為何？",
+      "options": {
+        "1": "崩塌",
+        "2": "墜落",
+        "3": "缺氧",
+        "4": "捲夾感電"
+      },
+      "answer": [
+        "4"
+      ],
+      "appearances": [
+        {
+          "year": "111",
+          "session": 2,
+          "no": 3
+        }
+      ]
+    },
+    {
+      "id": "s-111-2-006",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "single",
+      "stem": "下列何項操作人員，雇主毋需使其受危險性設備操作人員安全訓練？",
+      "options": {
+        "1": "高壓氣體容器",
+        "2": "鍋爐（小型鍋爐除外）",
+        "3": "吊升荷重未滿5公噸之固定式起重機",
+        "4": "高壓氣體特定設備"
+      },
+      "answer": [
+        "3"
+      ],
+      "appearances": [
+        {
+          "year": "111",
+          "session": 2,
+          "no": 6
+        },
+        {
+          "year": "112",
+          "session": 3,
+          "no": 5
+        }
+      ]
+    },
+    {
+      "id": "s-111-2-007",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "single",
+      "stem": "以下對於「例假」之敘述，何者有誤？",
+      "options": {
+        "1": "須給假，不必給工資",
+        "2": "出勤時，工資加倍及補休",
+        "3": "每7日應休息1日",
+        "4": "工資照給"
+      },
+      "answer": [
+        "1"
+      ],
+      "appearances": [
+        {
+          "year": "111",
+          "session": 2,
+          "no": 7
+        }
+      ]
+    },
+    {
+      "id": "s-111-2-013",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "single",
+      "stem": "營業秘密可分為「技術機密」與「商業機密」，下列何者屬於「商業機密」？",
+      "options": {
+        "1": "設計圖",
+        "2": "程式",
+        "3": "客戶名單",
+        "4": "生產製程"
+      },
+      "answer": [
+        "3"
+      ],
+      "appearances": [
+        {
+          "year": "111",
+          "session": 2,
+          "no": 13
+        }
+      ]
+    },
+    {
+      "id": "s-111-2-034",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "single",
+      "stem": "下列關於製程安全評估的描述何者錯誤？",
+      "options": {
+        "1": "初步危害分析(PHA)用於系統設計階段實施，目的是分析系統的重大潛在危害",
+        "2": "故障樹分析(FTA)及事件樹分析(ETA)屬於定量分析方法",
+        "3": "二維風險矩陣是由危害發生的可能性與嚴重性組合而成",
+        "4": "危害及可操作分析(HazOp)屬於定量分析方法"
+      },
+      "answer": [
+        "4"
+      ],
+      "appearances": [
+        {
+          "year": "111",
+          "session": 2,
+          "no": 34
+        },
+        {
+          "year": "113",
+          "session": 3,
+          "no": 57
+        }
+      ]
+    },
+    {
+      "id": "s-111-2-035",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "single",
+      "stem": "利用人類感官來設計安全警告裝置，其優先順序下列何者為正確？",
+      "options": {
+        "1": "聽覺、視覺、嗅覺",
+        "2": "視覺、嗅覺、聽覺",
+        "3": "嗅覺、聽覺、視覺",
+        "4": "視覺、聽覺、嗅覺"
+      },
+      "answer": [
+        "4"
+      ],
+      "appearances": [
+        {
+          "year": "111",
+          "session": 2,
+          "no": 35
+        }
+      ]
+    },
+    {
+      "id": "s-111-2-040",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "single",
+      "stem": "依營造安全衛生設施標準規定，雇主對於高度在多少公尺以上之吊料平臺構築，應由專任工程人員事先以預期施工時之最大荷重，依結構力學原理妥為設計",
+      "options": {
+        "1": "5",
+        "2": "9",
+        "3": "3",
+        "4": "7"
+      },
+      "answer": [
+        "4"
+      ],
+      "appearances": [
+        {
+          "year": "111",
+          "session": 2,
+          "no": 40
+        },
+        {
+          "year": "112",
+          "session": 2,
+          "no": 48
+        },
+        {
+          "year": "113",
+          "session": 2,
+          "no": 49
+        }
+      ]
+    },
+    {
+      "id": "s-111-2-056",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "single",
+      "stem": "下列何種廢紙類不可以進行資源回收？",
+      "options": {
+        "1": "紙尿褲",
+        "2": "包裝紙",
+        "3": "雜誌",
+        "4": "報紙"
+      },
+      "answer": [
+        "1"
+      ],
+      "appearances": [
+        {
+          "year": "111",
+          "session": 2,
+          "no": 56
+        }
+      ]
+    },
+    {
+      "id": "s-111-2-061",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "multi",
+      "stem": "依職業安全衛生法規定，有下列那些情形者，得公布其事業單位、雇主之名稱、負責人姓名？",
+      "options": {
+        "1": "未符合安全衛生設備及措施之規定致發生行政罰則",
+        "2": "未實施風險評估",
+        "3": "發生職業病",
+        "4": "事業單位勞動場所發生死亡等之職業災害"
+      },
+      "answer": [
+        "1",
+        "3",
+        "4"
+      ],
+      "appearances": [
+        {
+          "year": "111",
+          "session": 2,
+          "no": 61
+        },
+        {
+          "year": "111",
+          "session": 3,
+          "no": 61
+        },
+        {
+          "year": "112",
+          "session": 1,
+          "no": 71
+        },
+        {
+          "year": "112",
+          "session": 3,
+          "no": 77
+        },
+        {
+          "year": "113",
+          "session": 2,
+          "no": 68
+        }
+      ]
+    },
+    {
+      "id": "s-111-2-064",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "multi",
+      "stem": "依職業安全衛生法施行細則規定，下列那些是特別危害健康之作業？",
+      "options": {
+        "1": "粉塵作業",
+        "2": "鉛作業",
+        "3": "游離輻射作業",
+        "4": "重體力勞動作業"
+      },
+      "answer": [
+        "1",
+        "2",
+        "3"
+      ],
+      "appearances": [
+        {
+          "year": "111",
+          "session": 2,
+          "no": 64
+        },
+        {
+          "year": "114",
+          "session": 1,
+          "no": 65
+        }
+      ]
+    },
+    {
+      "id": "s-111-2-067",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "multi",
+      "stem": "依勞工健康保護規則規定，下列那些作業不適合罹患高血壓症者從事？",
+      "options": {
+        "1": "重體力勞動作業",
+        "2": "起重機運轉作業",
+        "3": "非游離輻射作業",
+        "4": "高溫作業"
+      },
+      "answer": [
+        "1",
+        "4"
+      ],
+      "appearances": [
+        {
+          "year": "111",
+          "session": 2,
+          "no": 67
+        },
+        {
+          "year": "111",
+          "session": 3,
+          "no": 75
+        },
+        {
+          "year": "112",
+          "session": 3,
+          "no": 75
+        },
+        {
+          "year": "113",
+          "session": 3,
+          "no": 68
+        },
+        {
+          "year": "114",
+          "session": 3,
+          "no": 78
+        }
+      ]
+    },
+    {
+      "id": "s-111-3-002",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "single",
+      "stem": "為保持中央空調主機效率，每隔多久時間應請維護廠商或保養人員檢視中央空調主機？",
+      "options": {
+        "1": "半年",
+        "2": "1年",
+        "3": "2年",
+        "4": "1.5年"
+      },
+      "answer": [
+        "1"
+      ],
+      "appearances": [
+        {
+          "year": "111",
+          "session": 3,
+          "no": 2
+        },
+        {
+          "year": "112",
+          "session": 1,
+          "no": 12
+        }
+      ]
+    },
+    {
+      "id": "s-111-3-019",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "single",
+      "stem": "為減少日照降低空調負載，下列何種處理方式是錯誤的？",
+      "options": {
+        "1": "窗戶裝設窗簾或貼隔熱紙",
+        "2": "於屋頂進行薄層綠化",
+        "3": "屋頂加裝隔熱材、高反射率塗料或噴水",
+        "4": "將窗戶或門開啟，讓屋內外空氣自然對流"
+      },
+      "answer": [
+        "4"
+      ],
+      "appearances": [
+        {
+          "year": "111",
+          "session": 3,
+          "no": 19
+        }
+      ]
+    },
+    {
+      "id": "s-111-3-026",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "single",
+      "stem": "下列何者不是潔淨能源？",
+      "options": {
+        "1": "頁岩氣",
+        "2": "風能",
+        "3": "地熱",
+        "4": "太陽能"
+      },
+      "answer": [
+        "1"
+      ],
+      "appearances": [
+        {
+          "year": "111",
+          "session": 3,
+          "no": 26
+        },
+        {
+          "year": "112",
+          "session": 2,
+          "no": 27
+        }
+      ]
+    },
+    {
+      "id": "s-111-3-039",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "single",
+      "stem": "「感覺心力交瘁，感覺挫折，而且上班時都很難熬」此現象與下列何者較不相關？",
+      "options": {
+        "1": "可能已經快被工作累垮了",
+        "2": "工作相關過勞程度輕微",
+        "3": "工作相關過勞程度可能嚴重",
+        "4": "可能需要尋找專業人員諮詢"
+      },
+      "answer": [
+        "2"
+      ],
+      "appearances": [
+        {
+          "year": "111",
+          "session": 3,
+          "no": 39
+        }
+      ]
+    },
+    {
+      "id": "s-111-3-066",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "multi",
+      "stem": "下列那些為判定職業病必須要滿足之條件？",
+      "options": {
+        "1": "必須曾暴露於存在有害因子之環境",
+        "2": "工作場所中有害因子確實存在",
+        "3": "發病期間、症狀及有害因子之暴露期間有合理的時序性",
+        "4": "工作場所中有害物濃度經確認曾超過法定容許濃度標準"
+      },
+      "answer": [
+        "1",
+        "2",
+        "3"
+      ],
+      "appearances": [
+        {
+          "year": "111",
+          "session": 3,
+          "no": 66
+        },
+        {
+          "year": "113",
+          "session": 1,
+          "no": 78
+        }
+      ]
+    },
+    {
+      "id": "s-111-3-069",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "multi",
+      "stem": "丁類危險性工作場所之施工安全評估報告書內容，除包含施工災害初步分析表、特有災害評估表、施工計畫之修改外，尚須包括那些？",
+      "options": {
+        "1": "製程安全評估表",
+        "2": "製程修改安全計畫",
+        "3": "報告簽章",
+        "4": "基本事項檢討評估表"
+      },
+      "answer": [
+        "3",
+        "4"
+      ],
+      "appearances": [
+        {
+          "year": "111",
+          "session": 3,
+          "no": 69
+        },
+        {
+          "year": "114",
+          "session": 1,
+          "no": 71
+        }
+      ]
+    },
+    {
+      "id": "s-111-3-072",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "multi",
+      "stem": "依勞工健康保護規則規定，下列有關特殊健康檢查的描述，那些正確？",
+      "options": {
+        "1": "檢查紀錄至少保存30年",
+        "2": "從事鉛中毒預防規則所稱鉛作業的勞工應實施特殊健康檢查",
+        "3": "將每位勞工健康檢查之詳細資料公佈在顯明而易見之場所",
+        "4": "從事特別危害健康作業勞工，應每年或於變更其作業時實施特殊健康檢查"
+      },
+      "answer": [
+        "2",
+        "4"
+      ],
+      "appearances": [
+        {
+          "year": "111",
+          "session": 3,
+          "no": 72
+        },
+        {
+          "year": "113",
+          "session": 1,
+          "no": 79
+        },
+        {
+          "year": "114",
+          "session": "2颱風延期考區",
+          "no": 75
+        }
+      ]
+    },
+    {
+      "id": "s-112-1-001",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "single",
+      "stem": "有關著作權的下列敘述何者錯誤？",
+      "options": {
+        "1": "將補習班老師的上課內容錄音檔，放到網路上拍賣，會構成侵害著作權",
+        "2": "在網路的部落格看到一篇文章很棒，只要註明出處，就可以把文章複製在自己的部落格",
+        "3": "在網路散布盜版光碟，不管有沒有營利，會構成侵害著作權",
+        "4": "撰寫碩博士論文時，在合理範圍內引用他人的著作，只要註明出處，不會構成侵害著作權"
+      },
+      "answer": [
+        "2"
+      ],
+      "appearances": [
+        {
+          "year": "112",
+          "session": 1,
+          "no": 1
+        },
+        {
+          "year": "112",
+          "session": 2,
+          "no": 12
+        }
+      ]
+    },
+    {
+      "id": "s-112-1-016",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "single",
+      "stem": "下列何者不是溫室效應所產生的現象？",
+      "options": {
+        "1": "造成臭氧層產生破洞",
+        "2": "北極熊棲地減少",
+        "3": "造成全球氣候變遷，導致不正常暴雨、乾旱現象",
+        "4": "氣溫升高而使海平面上升"
+      },
+      "answer": [
+        "1"
+      ],
+      "appearances": [
+        {
+          "year": "112",
+          "session": 1,
+          "no": 16
+        }
+      ]
+    },
+    {
+      "id": "s-112-1-017",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "single",
+      "stem": "電氣火災之防止方法，下列何者為非？",
+      "options": {
+        "1": "防止絕緣材料之劣化造成漏電或短路",
+        "2": "插座及線路之連接應良好，避免接觸不良",
+        "3": "使用較大之額定電流低壓無熔絲開關，減少可能跳電之麻煩",
+        "4": "電氣設備及線路之使用不可超過安全負載量"
+      },
+      "answer": [
+        "3"
+      ],
+      "appearances": [
+        {
+          "year": "112",
+          "session": 1,
+          "no": 17
+        },
+        {
+          "year": "113",
+          "session": 1,
+          "no": 22
+        },
+        {
+          "year": "114",
+          "session": "2颱風延期考區",
+          "no": 54
+        }
+      ]
+    },
+    {
+      "id": "s-112-1-029",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "single",
+      "stem": "根據性別工作平等法，有關雇主防治性騷擾之責任與罰則，下列何者錯誤？",
+      "options": {
+        "1": "雇主違反應訂定性騷擾申訴管道者，應限期令其改善，屆期未改善者，應按次處罰",
+        "2": "僱用受僱者30人以上者，應訂定性騷擾防治措施、申訴及懲戒辦法",
+        "3": "雇主知悉性騷擾發生時，應採取立即有效之糾正及補救措施",
+        "4": "雇主違反應訂定性騷擾防治措施之規定時，處以罰鍰即可，不用公布其姓名"
+      },
+      "answer": [
+        "4"
+      ],
+      "appearances": [
+        {
+          "year": "112",
+          "session": 1,
+          "no": 29
+        }
+      ]
+    },
+    {
+      "id": "s-112-1-035",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "single",
+      "stem": "勞工修理混合機時，未將電源開關上鎖，而不知情之第三者將該開關打開，造成災害，此為沒有做好下列何者？",
+      "options": {
+        "1": "阻卻",
+        "2": "連鎖",
+        "3": "隔離",
+        "4": "閉鎖"
+      },
+      "answer": [
+        "4"
+      ],
+      "appearances": [
+        {
+          "year": "112",
+          "session": 1,
+          "no": 35
+        },
+        {
+          "year": "114",
+          "session": 1,
+          "no": 36
+        }
+      ]
+    },
+    {
+      "id": "s-112-1-037",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "single",
+      "stem": "下列何者非屬於容易發生墜落災害的作業場所？",
+      "options": {
+        "1": "屋頂",
+        "2": "施工架",
+        "3": "廚房",
+        "4": "梯子、合梯"
+      },
+      "answer": [
+        "3"
+      ],
+      "appearances": [
+        {
+          "year": "112",
+          "session": 1,
+          "no": 37
+        },
+        {
+          "year": "114",
+          "session": "2颱風延期考區",
+          "no": 27
+        }
+      ]
+    },
+    {
+      "id": "s-112-1-046",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "single",
+      "stem": "根據環保署資料顯示，世紀之毒「戴奧辛」主要透過何者方式進入人體？",
+      "options": {
+        "1": "透過飲食",
+        "2": "透過觸摸",
+        "3": "透過雨水",
+        "4": "透過呼吸"
+      },
+      "answer": [
+        "1"
+      ],
+      "appearances": [
+        {
+          "year": "112",
+          "session": 1,
+          "no": 46
+        }
+      ]
+    },
+    {
+      "id": "s-112-1-053",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "single",
+      "stem": "防止電氣火災對策，下列何者不正確？",
+      "options": {
+        "1": "電氣乾燥器為保持有效果不可設排氣設施",
+        "2": "電氣配線與建築物間應保持安全距離",
+        "3": "有爆炸之虞場所應使用防爆型電氣設備",
+        "4": "不可擅自使用銅線當作保險絲使用"
+      },
+      "answer": [
+        "1"
+      ],
+      "appearances": [
+        {
+          "year": "112",
+          "session": 1,
+          "no": 53
+        }
+      ]
+    },
+    {
+      "id": "s-112-1-055",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "single",
+      "stem": "下列那一項水質濃度降低會導致河川魚類大量死亡？",
+      "options": {
+        "1": "二氧化碳",
+        "2": "溶氧",
+        "3": "生化需氧量",
+        "4": "氨氮"
+      },
+      "answer": [
+        "2"
+      ],
+      "appearances": [
+        {
+          "year": "112",
+          "session": 1,
+          "no": 55
+        }
+      ]
+    },
+    {
+      "id": "s-112-1-060",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "single",
+      "stem": "依職業安全衛生設施規則規定，起重機吊掛之鋼索直徑減少最多不得達公稱直徑百分之多少？",
+      "options": {
+        "1": "7",
+        "2": "3",
+        "3": "5",
+        "4": "9"
+      },
+      "answer": [
+        "1"
+      ],
+      "appearances": [
+        {
+          "year": "112",
+          "session": 1,
+          "no": 60
+        }
+      ]
+    },
+    {
+      "id": "s-112-1-061",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "multi",
+      "stem": "下列那些為操作衝剪機械可能發生之危害？",
+      "options": {
+        "1": "被夾",
+        "2": "感電",
+        "3": "被切、割",
+        "4": "火災爆炸"
+      },
+      "answer": [
+        "1",
+        "2",
+        "3"
+      ],
+      "appearances": [
+        {
+          "year": "112",
+          "session": 1,
+          "no": 61
+        }
+      ]
+    },
+    {
+      "id": "s-112-1-062",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "multi",
+      "stem": "依職業安全衛生管理辦法之規定，事業單位所建置之職業安全衛生管理系統應包括那些安全衛生事項？",
+      "options": {
+        "1": "規劃與實施",
+        "2": "評估及改善措施",
+        "3": "營業項目及規模",
+        "4": "政策及組織設計"
+      },
+      "answer": [
+        "1",
+        "2",
+        "4"
+      ],
+      "appearances": [
+        {
+          "year": "112",
+          "session": 1,
+          "no": 62
+        },
+        {
+          "year": "112",
+          "session": 2,
+          "no": 68
+        },
+        {
+          "year": "112",
+          "session": 3,
+          "no": 67
+        },
+        {
+          "year": "114",
+          "session": 3,
+          "no": 71
+        }
+      ]
+    },
+    {
+      "id": "s-112-1-064",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "multi",
+      "stem": "下列那些屬職業安全衛生設施規則所稱局限空間之構成要件？",
+      "options": {
+        "1": "無法以自然通風來維持充分、清淨空氣",
+        "2": "非供勞工在其內部從事經常性作業",
+        "3": "內部空間照明充足",
+        "4": "勞工進出方法受限制"
+      },
+      "answer": [
+        "1",
+        "2",
+        "4"
+      ],
+      "appearances": [
+        {
+          "year": "112",
+          "session": 1,
+          "no": 64
+        }
+      ]
+    },
+    {
+      "id": "s-112-1-066",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "multi",
+      "stem": "2022年3月1日蔡英文總統會見八大工商團體理事長，政府有決心達成2050淨零轉型目標，和業界密切合作落實ESG，協助企業邁向淨零轉型。其中ESG係包含那些主題?",
+      "options": {
+        "1": "環境",
+        "2": "可持續性",
+        "3": "治理",
+        "4": "社會"
+      },
+      "answer": [
+        "1",
+        "3",
+        "4"
+      ],
+      "appearances": [
+        {
+          "year": "112",
+          "session": 1,
+          "no": 66
+        }
+      ]
+    },
+    {
+      "id": "s-112-1-072",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "multi",
+      "stem": "雇主使勞工從事局限空間作業，應先訂定危害防止計畫，該計畫應包含下列那些要項？",
+      "options": {
+        "1": "作業勞工之健康檢查",
+        "2": "作業安全及安全管制方法",
+        "3": "局限空間危害之確認",
+        "4": "通風換氣之實施方式"
+      },
+      "answer": [
+        "2",
+        "3",
+        "4"
+      ],
+      "appearances": [
+        {
+          "year": "112",
+          "session": 1,
+          "no": 72
+        },
+        {
+          "year": "112",
+          "session": 2,
+          "no": 76
+        }
+      ]
+    },
+    {
+      "id": "s-112-1-076",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "multi",
+      "stem": "依管制性化學品之指定及運作許可管理辦法規定，中央主管機關得邀請專家學者組成技術諮議會，辦理下列那些事項之諮詢或建議？",
+      "options": {
+        "1": "管制性化學品申請許可之審查",
+        "2": "其他管制性化學品管理事項之研議",
+        "3": "管制性化學品之風險評估",
+        "4": "管制性化學品之篩選及指定"
+      },
+      "answer": [
+        "1",
+        "2",
+        "4"
+      ],
+      "appearances": [
+        {
+          "year": "112",
+          "session": 1,
+          "no": 76
+        }
+      ]
+    },
+    {
+      "id": "s-112-1-077",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "multi",
+      "stem": "下列經中央主管機關指定適用機械設備器具安全標準者為那些？",
+      "options": {
+        "1": "推土機",
+        "2": "動力衝剪機械",
+        "3": "手推刨床",
+        "4": "動力堆高機"
+      },
+      "answer": [
+        "2",
+        "3",
+        "4"
+      ],
+      "appearances": [
+        {
+          "year": "112",
+          "session": 1,
+          "no": 77
+        },
+        {
+          "year": "113",
+          "session": 2,
+          "no": 76
+        }
+      ]
+    },
+    {
+      "id": "s-112-1-079",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "multi",
+      "stem": "勞工作業場所容許暴露標準所稱容許濃度涵蓋下列那些?",
+      "options": {
+        "1": "短時間時量平均容許濃度",
+        "2": "最高容許濃度",
+        "3": "八小時日時量平均容許濃度",
+        "4": "生物性暴露指標"
+      },
+      "answer": [
+        "1",
+        "2",
+        "3"
+      ],
+      "appearances": [
+        {
+          "year": "112",
+          "session": 1,
+          "no": 79
+        }
+      ]
+    },
+    {
+      "id": "s-112-1-080",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "multi",
+      "stem": "依人因工程學角度，下列那些設計對象，適合極大尺寸設計原則？",
+      "options": {
+        "1": "門高",
+        "2": "人孔大小",
+        "3": "收銀台高度",
+        "4": "逃生艙大小"
+      },
+      "answer": [
+        "1",
+        "2",
+        "4"
+      ],
+      "appearances": [
+        {
+          "year": "112",
+          "session": 1,
+          "no": 80
+        }
+      ]
+    },
+    {
+      "id": "s-112-2-006",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "single",
+      "stem": "台灣地區地形陡峭雨旱季分明，水資源開發不易常有缺水現象，目前推動生活污水經處理再生利用，可填補部分水資源，主要可供哪些用途：A.工業用水、B.景觀澆灌、C.飲用水、D.消防用水？",
+      "options": {
+        "1": "BCD",
+        "2": "ABD",
+        "3": "ABCD",
+        "4": "ACD"
+      },
+      "answer": [
+        "2"
+      ],
+      "appearances": [
+        {
+          "year": "112",
+          "session": 2,
+          "no": 6
+        }
+      ]
+    },
+    {
+      "id": "s-112-2-009",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "single",
+      "stem": "完整的監測系統有四個步驟，其正確順序應為下列何者？",
+      "options": {
+        "1": "偵測、量測、解釋、應變",
+        "2": "偵測、解釋、應變、量測",
+        "3": "量測、偵測、解釋、應變",
+        "4": "偵測(Detection)、解釋(Interpretation)、量測(Measurement)、應變(Response)"
+      },
+      "answer": [
+        "1"
+      ],
+      "appearances": [
+        {
+          "year": "112",
+          "session": 2,
+          "no": 9
+        }
+      ]
+    },
+    {
+      "id": "s-112-2-022",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "single",
+      "stem": "依勞動基準法規定，雇主延長勞工之工作時間連同正常工作時間，每日不得超過多少小時？",
+      "options": {
+        "1": "11",
+        "2": "15",
+        "3": "12",
+        "4": "10"
+      },
+      "answer": [
+        "3"
+      ],
+      "appearances": [
+        {
+          "year": "112",
+          "session": 2,
+          "no": 22
+        }
+      ]
+    },
+    {
+      "id": "s-112-2-042",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "single",
+      "stem": "下列使用重製行為，何者已超出「合理使用」範圍？",
+      "options": {
+        "1": "直接轉貼高普考考古題在FACEBOOK",
+        "2": "將講師的授課內容錄音分贈友人",
+        "3": "將著作權人之作品及資訊，下載供自己使用",
+        "4": "以分享網址的方式轉貼資訊分享於BBS"
+      },
+      "answer": [
+        "2"
+      ],
+      "appearances": [
+        {
+          "year": "112",
+          "session": 2,
+          "no": 42
+        }
+      ]
+    },
+    {
+      "id": "s-112-2-064",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "multi",
+      "stem": "依職業安全衛生法規定，下列那些人對於中央主管機關指定之機械、設備或器具，其構造、性能及防護非符合安全標準者，不得產製運出廠場、輸入、租賃、供應或設置？",
+      "options": {
+        "1": "輸入者",
+        "2": "供應者",
+        "3": "製造者",
+        "4": "雇主"
+      },
+      "answer": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "appearances": [
+        {
+          "year": "112",
+          "session": 2,
+          "no": 64
+        },
+        {
+          "year": "113",
+          "session": 3,
+          "no": 67
+        },
+        {
+          "year": "114",
+          "session": "2颱風延期考區",
+          "no": 79
+        }
+      ]
+    },
+    {
+      "id": "s-112-2-065",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "multi",
+      "stem": "某日因勞工從事鍋爐操作之相關作業時，鍋爐之定時自動控制器損壞，進氣鼓風機未啟動以引入新鮮空氣，使鍋爐之燃料（天然氣）燃燒不完全產生一氧化碳滯留室內，且未於鍋爐房設置其他排除一氧化碳措施，致一氧化碳逐漸擴散至游泳池區濃度超過容許濃度，發生勞工5人一氧化碳中毒受傷，則鍋爐之自動控制裝置中，系統安全與失控反應控制，如就鍋爐之自動控制器，採用系統安全分析方法檢核（封閉式檢核表），於上述職災有關者，應有下列那些檢查項目？",
+      "options": {
+        "1": "水質檢測裝置",
+        "2": "自動起動停止裝置機能",
+        "3": "燃料切斷裝置",
+        "4": "亮度檢出裝置"
+      },
+      "answer": [
+        "2",
+        "3"
+      ],
+      "appearances": [
+        {
+          "year": "112",
+          "session": 2,
+          "no": 65
+        },
+        {
+          "year": "113",
+          "session": 2,
+          "no": 62
+        }
+      ]
+    },
+    {
+      "id": "s-112-2-069",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "multi",
+      "stem": "依職業安全衛生法規定，事業單位與承攬人、再承攬人分別僱用勞工共同作業時，為防止職業災害，原事業單位應採取下列那些必要措施？",
+      "options": {
+        "1": "工作場所之巡視",
+        "2": "設置協議組織，並指定工作場所負責人，擔任指揮、監督及協調之工作",
+        "3": "工作之連繫與調整",
+        "4": "財務管理"
+      },
+      "answer": [
+        "1",
+        "2",
+        "3"
+      ],
+      "appearances": [
+        {
+          "year": "112",
+          "session": 2,
+          "no": 69
+        }
+      ]
+    },
+    {
+      "id": "s-112-2-070",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "multi",
+      "stem": "依職業安全衛生設施規則規定，電路開路之開關於作業中可採取下列那些設施？",
+      "options": {
+        "1": "上鎖",
+        "2": "標示停電作業中",
+        "3": "設置監視人員監視之",
+        "4": "標示禁止送電"
+      },
+      "answer": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "appearances": [
+        {
+          "year": "112",
+          "session": 2,
+          "no": 70
+        },
+        {
+          "year": "114",
+          "session": 3,
+          "no": 62
+        }
+      ]
+    },
+    {
+      "id": "s-112-2-074",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "multi",
+      "stem": "乙類危險性工作場所於審查後，勞動檢查機構應實施檢查之設施為下列那些？",
+      "options": {
+        "1": "火災爆炸危害預防設施",
+        "2": "人員感電預防措施",
+        "3": "墜落危害預防設施",
+        "4": "有害物洩漏及中毒危害預防設施"
+      },
+      "answer": [
+        "1",
+        "4"
+      ],
+      "appearances": [
+        {
+          "year": "112",
+          "session": 2,
+          "no": 74
+        }
+      ]
+    },
+    {
+      "id": "s-112-2-077",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "multi",
+      "stem": "依職業安全衛生管理辦法規定，下列那些事業單位，雇主應依國家標準CNS45001同等以上規定，建置適合該事業單位之職業安全衛生管理系統，並據以執行？",
+      "options": {
+        "1": "勞工人數250人之大賣場",
+        "2": "勞工人數150人之石油裂解廠",
+        "3": "勞工人數250人之電力公司",
+        "4": "勞工人數550人之醫院"
+      },
+      "answer": [
+        "2",
+        "3",
+        "4"
+      ],
+      "appearances": [
+        {
+          "year": "112",
+          "session": 2,
+          "no": 77
+        }
+      ]
+    },
+    {
+      "id": "s-112-2-080",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "multi",
+      "stem": "下列那些不屬於工廠中的輔助搬運設施？",
+      "options": {
+        "1": "切割機",
+        "2": "自動包裝機",
+        "3": "拖板車",
+        "4": "台車"
+      },
+      "answer": [
+        "1",
+        "2"
+      ],
+      "appearances": [
+        {
+          "year": "112",
+          "session": 2,
+          "no": 80
+        }
+      ]
+    },
+    {
+      "id": "s-112-3-001",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "single",
+      "stem": "有關小黑蚊敘述下列何者為非？",
+      "options": {
+        "1": "無論雄性或雌性皆會吸食哺乳類動物血液",
+        "2": "多存在竹林、灌木叢、雜草叢、果園等邊緣地帶等處",
+        "3": "活動時間以中午十二點到下午三點為活動高峰期",
+        "4": "小黑蚊的幼蟲以腐植質、青苔和藻類為食"
+      },
+      "answer": [
+        "1"
+      ],
+      "appearances": [
+        {
+          "year": "112",
+          "session": 3,
+          "no": 1
+        }
+      ]
+    },
+    {
+      "id": "s-112-3-032",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "single",
+      "stem": "依職業安全衛生設施規則及機械設備器具安全標準規定，用於氣體類之防爆電氣設備，其危險區域劃分應符合國家標準CNS3376系列、國際標準IEC60079系列或與其同等之標準規定，CNS3376-10對危險場所分類：1.0區(Zone0)：爆炸性氣體環境連續性或長期存在之場所。2.1區(Zone1)：爆炸性氣體環境在正常操作下可能存在之場所。3.2區(Zone2)：爆炸性氣體環境在正常操作下不太可能存在，如果只有偶爾發生且只存在短期間之場所。試問一個固定式具易燃液體蒸氣之製程混合槽，位於室內，因為操作原因會週期性被打開。液體打入桶槽或抽出，皆經由桶槽上完全焊接之管路時，下圖之危險區域劃分下列何者正確？",
+      "options": {
+        "1": "：Zone2",
+        "2": "：Zone1",
+        "3": "：Zone0",
+        "4": "：Zone1。a：從洩漏源處水平距離1m，b：從洩漏源上方1m，c：水平距離1m，d：水平距離2m"
+      },
+      "answer": [
+        "4"
+      ],
+      "appearances": [
+        {
+          "year": "112",
+          "session": 3,
+          "no": 32
+        }
+      ]
+    },
+    {
+      "id": "s-112-3-039",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "single",
+      "stem": "小明拿到「垃圾強制分類」的宣導海報，標語寫著「分3類，好OK」，標語中的分3類是指家戶日常生活中產生的垃圾可以區分哪三類？",
+      "options": {
+        "1": "資源、一般廢棄物、事業廢棄物",
+        "2": "資源、廚餘、一般垃圾",
+        "3": "資源、廚餘、事業廢棄物",
+        "4": "一般廢棄物、事業廢棄物、放射性廢棄物"
+      },
+      "answer": [
+        "2"
+      ],
+      "appearances": [
+        {
+          "year": "112",
+          "session": 3,
+          "no": 39
+        }
+      ]
+    },
+    {
+      "id": "s-112-3-049",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "single",
+      "stem": "個人資料保護法規定為保護當事人權益，多少位以上的當事人提出告訴，就可以進行團體訴訟？",
+      "options": {
+        "1": "5人",
+        "2": "10人",
+        "3": "20人",
+        "4": "15人"
+      },
+      "answer": [
+        "3"
+      ],
+      "appearances": [
+        {
+          "year": "112",
+          "session": 3,
+          "no": 49
+        }
+      ]
+    },
+    {
+      "id": "s-112-3-050",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "single",
+      "stem": "四公尺以內之公共巷、弄路面及水溝之廢棄物，應由何人負責清除？",
+      "options": {
+        "1": "清潔隊",
+        "2": "環保志工",
+        "3": "里辦公處",
+        "4": "相對戶或相鄰戶分別各半清除"
+      },
+      "answer": [
+        "4"
+      ],
+      "appearances": [
+        {
+          "year": "112",
+          "session": 3,
+          "no": 50
+        }
+      ]
+    },
+    {
+      "id": "s-112-3-053",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "single",
+      "stem": "使用鑽孔機時，不應使用下列何護具？",
+      "options": {
+        "1": "耳塞",
+        "2": "護目鏡",
+        "3": "棉紗手套",
+        "4": "防塵口罩"
+      },
+      "answer": [
+        "3"
+      ],
+      "appearances": [
+        {
+          "year": "112",
+          "session": 3,
+          "no": 53
+        }
+      ]
+    },
+    {
+      "id": "s-112-3-058",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "single",
+      "stem": "實施「垃圾費隨袋徵收」政策的好處為何：A.減少家戶垃圾費用支出B.全民主動參與資源回收C.有效垃圾減量？",
+      "options": {
+        "1": "AB",
+        "2": "ABC",
+        "3": "AC",
+        "4": "BC"
+      },
+      "answer": [
+        "2"
+      ],
+      "appearances": [
+        {
+          "year": "112",
+          "session": 3,
+          "no": 58
+        }
+      ]
+    },
+    {
+      "id": "s-112-3-059",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "single",
+      "stem": "有關建築之外殼節能設計，下列敘述何者有誤？",
+      "options": {
+        "1": "開窗區域設置遮陽設備",
+        "2": "做好屋頂隔熱設施",
+        "3": "宜採用全面玻璃造型設計，以利自然採光",
+        "4": "大開窗面避免設置於東西日曬方位"
+      },
+      "answer": [
+        "3"
+      ],
+      "appearances": [
+        {
+          "year": "112",
+          "session": 3,
+          "no": 59
+        }
+      ]
+    },
+    {
+      "id": "s-112-3-061",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "multi",
+      "stem": "依職業安全衛生設施規則及用戶用電設備裝置規則規定，下列那些場所使用之電氣設備，須設置防止感電用漏電斷路器？",
+      "options": {
+        "1": "養魚池用電設備",
+        "2": "陸橋用電設備",
+        "3": "建築之臨時用電設備",
+        "4": "在絕緣台上使用之電動機具"
+      },
+      "answer": [
+        "1",
+        "2",
+        "3"
+      ],
+      "appearances": [
+        {
+          "year": "112",
+          "session": 3,
+          "no": 61
+        },
+        {
+          "year": "114",
+          "session": "2颱風延期考區",
+          "no": 76
+        }
+      ]
+    },
+    {
+      "id": "s-112-3-063",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "multi",
+      "stem": "隔離為災害防止理論方法之一，下列那些屬隔離之損失控制方法？",
+      "options": {
+        "1": "加入稀釋劑於爆炸性物質中，減少爆炸之危害",
+        "2": "密閉電子設備裝置，防止濕氣損壞或腐蝕該電子裝置",
+        "3": "使用低電壓，避免感電危害",
+        "4": "穿戴防護衣或裝備，防止環境危害造成之傷害"
+      },
+      "answer": [
+        "2",
+        "4"
+      ],
+      "appearances": [
+        {
+          "year": "112",
+          "session": 3,
+          "no": 63
+        }
+      ]
+    },
+    {
+      "id": "s-112-3-064",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "multi",
+      "stem": "依職業安全衛生設施規則規定，對於下列那些設備因靜電引起爆炸或火災之虞者，應採取接地之裝置？",
+      "options": {
+        "1": "塗敷含有易燃液體之塗料、粘接劑等之設備",
+        "2": "收存危險物之槽車、儲槽、容器等設備",
+        "3": "非可燃性粉狀固體輸送、篩分等之設備",
+        "4": "灌注、卸收危險物於槽車、儲槽、容器等之設備"
+      },
+      "answer": [
+        "1",
+        "2",
+        "4"
+      ],
+      "appearances": [
+        {
+          "year": "112",
+          "session": 3,
+          "no": 64
+        }
+      ]
+    },
+    {
+      "id": "s-112-3-066",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "multi",
+      "stem": "國際勞工組織（ILO）於一九六四年提出之第一百二十一號「職業傷害給付公約」，揭櫫遭逢職業災害勞工後續補償制度應有下列那些設計？",
+      "options": {
+        "1": "協助其重返原工作",
+        "2": "代位司法訴訟",
+        "3": "結合重建及事前預防",
+        "4": "依該遭遇職業災害勞工之需求提供復健服務"
+      },
+      "answer": [
+        "1",
+        "3",
+        "4"
+      ],
+      "appearances": [
+        {
+          "year": "112",
+          "session": 3,
+          "no": 66
+        },
+        {
+          "year": "114",
+          "session": 3,
+          "no": 66
+        }
+      ]
+    },
+    {
+      "id": "s-112-3-068",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "multi",
+      "stem": "依職業安全衛生設施規則規定，雇主對於下列那些使用之電氣設備，應依用戶用電設備裝置規則規定，實施接地之低壓用電器具及其配線？",
+      "options": {
+        "1": "低壓電動機之外殼",
+        "2": "對地電壓超過150伏特二重絕緣移動式用電器具",
+        "3": "金屬導線管及其連接之金屬箱",
+        "4": "對地電壓超過150伏特之其他固定式用電器具"
+      },
+      "answer": [
+        "1",
+        "3",
+        "4"
+      ],
+      "appearances": [
+        {
+          "year": "112",
+          "session": 3,
+          "no": 68
+        },
+        {
+          "year": "114",
+          "session": "2颱風延期考區",
+          "no": 74
+        }
+      ]
+    },
+    {
+      "id": "s-112-3-069",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "multi",
+      "stem": "依起重升降機具安全規則規定，下列那些人員得從事固定式起重機吊掛作業？",
+      "options": {
+        "1": "3公噸以上之固定式起重機操作人員訓練合格者",
+        "2": "3公噸以上之移動式起重機操作人員訓練合格者",
+        "3": "曾受吊掛作業訓練合格者",
+        "4": "3公噸以上之人字臂起重桿操作人員訓練合格者"
+      },
+      "answer": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "appearances": [
+        {
+          "year": "112",
+          "session": 3,
+          "no": 69
+        }
+      ]
+    },
+    {
+      "id": "s-112-3-073",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "multi",
+      "stem": "依製程安全評估定期實施辦法之規定，事業單位工作場所發生下列那些情事者，應檢討並修正其製程安全評估報告後，留存備查？",
+      "options": {
+        "1": "其他認有製程風險之情形",
+        "2": "不影響製程之設施之同型替換",
+        "3": "火災、爆炸、有害氣體洩漏",
+        "4": "職業安全衛生法第37條第2項規定之職業災害"
+      },
+      "answer": [
+        "1",
+        "3",
+        "4"
+      ],
+      "appearances": [
+        {
+          "year": "112",
+          "session": 3,
+          "no": 73
+        },
+        {
+          "year": "113",
+          "session": 1,
+          "no": 67
+        },
+        {
+          "year": "114",
+          "session": 1,
+          "no": 73
+        }
+      ]
+    },
+    {
+      "id": "s-112-3-080",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "multi",
+      "stem": "依職業安全衛生設施規則規定，對於不經常使用之緊急避難用通道，下列敘述那些正確？",
+      "options": {
+        "1": "應設置在勞工平常不易接觸之處",
+        "2": "應維持隨時能應用之狀態",
+        "3": "應標示其目的",
+        "4": "應能耐3級地震強度"
+      },
+      "answer": [
+        "2",
+        "3"
+      ],
+      "appearances": [
+        {
+          "year": "112",
+          "session": 3,
+          "no": 80
+        }
+      ]
+    },
+    {
+      "id": "s-113-1-005",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "single",
+      "stem": "關於綠色採購的敘述，下列何者錯誤？",
+      "options": {
+        "1": "選購對環境傷害較少、污染程度較低的產品",
+        "2": "採購的產品對環境及人類健康有最小的傷害性",
+        "3": "採購由回收材料所製造之物品",
+        "4": "以精美包裝為主要首選"
+      },
+      "answer": [
+        "4"
+      ],
+      "appearances": [
+        {
+          "year": "113",
+          "session": 1,
+          "no": 5
+        }
+      ]
+    },
+    {
+      "id": "s-113-1-017",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "single",
+      "stem": "欲兼顧採光及降低經由玻璃部分侵入之熱負載，下列的改善方法何者錯誤？",
+      "options": {
+        "1": "貼隔熱反射膠片",
+        "2": "加裝深色窗簾",
+        "3": "換裝雙層玻璃",
+        "4": "裝設百葉窗"
+      },
+      "answer": [
+        "2"
+      ],
+      "appearances": [
+        {
+          "year": "113",
+          "session": 1,
+          "no": 17
+        },
+        {
+          "year": "114",
+          "session": 2,
+          "no": 5
+        }
+      ]
+    },
+    {
+      "id": "s-113-1-018",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "single",
+      "stem": "下列何者對飲用瓶裝水之形容是正確的：A.飲用後之寶特瓶容器為地球增加了一個廢棄物；B.運送瓶裝水時卡車會排放空氣污染物；C.瓶裝水一定比經煮沸之自來水安全衛生？",
+      "options": {
+        "1": "ABC",
+        "2": "BC",
+        "3": "AB",
+        "4": "AC"
+      },
+      "answer": [
+        "3"
+      ],
+      "appearances": [
+        {
+          "year": "113",
+          "session": 1,
+          "no": 18
+        }
+      ]
+    },
+    {
+      "id": "s-113-1-025",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "single",
+      "stem": "根據性騷擾防治法，有關性騷擾之責任與罰則，下列何者錯誤？",
+      "options": {
+        "1": "意圖性騷擾，乘人不及抗拒而為親吻、擁抱或觸摸其臀部、胸部或其他身體隱私處之行為者，處2年以下有期徒刑、拘役或科或併科10萬元以下罰金",
+        "2": "對於因教育、訓練、醫療、公務、業務、求職，受自己監督、照護之人，利用權勢或機會為性騷擾者，得加重科處罰鍰至二分之一",
+        "3": "對他人為性騷擾者，如果沒有造成他人財產上之損失，就無需負擔金錢賠償之責任",
+        "4": "對他人為權勢性騷擾以外之性騷擾者，由直轄市、縣（市）主管機關處1萬元以上10萬元以下罰鍰"
+      },
+      "answer": [
+        "3"
+      ],
+      "appearances": [
+        {
+          "year": "113",
+          "session": 1,
+          "no": 25
+        },
+        {
+          "year": "113",
+          "session": 2,
+          "no": 52
+        }
+      ]
+    },
+    {
+      "id": "s-113-1-031",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "single",
+      "stem": "下列何者「非」屬公司對於企業社會責任實踐之原則？",
+      "options": {
+        "1": "落實公司治理",
+        "2": "發展永續環境",
+        "3": "維護社會公益",
+        "4": "加強個人資料揭露"
+      },
+      "answer": [
+        "4"
+      ],
+      "appearances": [
+        {
+          "year": "113",
+          "session": 1,
+          "no": 31
+        }
+      ]
+    },
+    {
+      "id": "s-113-1-039",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "single",
+      "stem": "下列有關工作場所安全衛生之敘述何者有誤？",
+      "options": {
+        "1": "事業單位應備置足夠的零食自動販賣機",
+        "2": "對於勞工從事其身體或衣著有被污染之虞之特殊作業時，應備置該勞工洗眼、洗澡、漱口、更衣、洗濯等設備",
+        "3": "事業單位應備置足夠急救藥品及器材",
+        "4": "勞工應定期接受健康檢查"
+      },
+      "answer": [
+        "1"
+      ],
+      "appearances": [
+        {
+          "year": "113",
+          "session": 1,
+          "no": 39
+        },
+        {
+          "year": "113",
+          "session": 3,
+          "no": 14
+        }
+      ]
+    },
+    {
+      "id": "s-113-1-044",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "single",
+      "stem": "下列對於細懸浮微粒(PM2.5)之敘述何者正確：A.空氣品質測站中自動監測儀所測得之數值若高於空氣品質標準，即判定為不符合空氣品質標準；B.濃度監測之標準方法為中央主管機關公告之手動檢測方法；C.空氣品質標準之年平均值為15μg/m3？",
+      "options": {
+        "1": "僅BC",
+        "2": "僅AC",
+        "3": "僅AB",
+        "4": "ABC皆正確"
+      },
+      "answer": [
+        "1"
+      ],
+      "appearances": [
+        {
+          "year": "113",
+          "session": 1,
+          "no": 44
+        }
+      ]
+    },
+    {
+      "id": "s-113-1-050",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "single",
+      "stem": "再生能源一般是指可永續利用之能源，主要包括哪些：A.化石燃料B.風力C.太陽能D.水力？",
+      "options": {
+        "1": "ABD",
+        "2": "ABCD",
+        "3": "BCD",
+        "4": "ACD"
+      },
+      "answer": [
+        "3"
+      ],
+      "appearances": [
+        {
+          "year": "113",
+          "session": 1,
+          "no": 50
+        }
+      ]
+    },
+    {
+      "id": "s-113-1-071",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "multi",
+      "stem": "下列那些不屬於沸騰液體膨脹蒸氣爆炸(BLEVE)？",
+      "options": {
+        "1": "液化石油氣鋼瓶爆炸",
+        "2": "柴油槽爆炸",
+        "3": "潤滑油槽爆炸",
+        "4": "天然氣爆炸"
+      },
+      "answer": [
+        "2",
+        "3",
+        "4"
+      ],
+      "appearances": [
+        {
+          "year": "113",
+          "session": 1,
+          "no": 71
+        }
+      ]
+    },
+    {
+      "id": "s-113-1-072",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "multi",
+      "stem": "依危害性化學品標示及通識規則規定，危害物質應標示事項，除危害圖式外，其內容需包括下列那些？",
+      "options": {
+        "1": "消防機關電話、地址",
+        "2": "製造者、輸入者或供應者之名稱、地址及電話",
+        "3": "危害警告訊息",
+        "4": "名稱及危害成分"
+      },
+      "answer": [
+        "2",
+        "3",
+        "4"
+      ],
+      "appearances": [
+        {
+          "year": "113",
+          "session": 1,
+          "no": 72
+        },
+        {
+          "year": "114",
+          "session": "2颱風延期考區",
+          "no": 66
+        }
+      ]
+    },
+    {
+      "id": "s-113-1-073",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "multi",
+      "stem": "下列那些為操作衝剪機械可能發生之危害？",
+      "options": {
+        "1": "被夾",
+        "2": "被切、割",
+        "3": "感電",
+        "4": "墜落"
+      },
+      "answer": [
+        "1",
+        "2",
+        "3"
+      ],
+      "appearances": [
+        {
+          "year": "113",
+          "session": 1,
+          "no": 73
+        }
+      ]
+    },
+    {
+      "id": "s-113-1-077",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "multi",
+      "stem": "依鍋爐及壓力容器安全規則規定，雇主應使鍋爐操作人員實施下列那些事項？",
+      "options": {
+        "1": "監視風速、風量狀態等運轉動態",
+        "2": "保持壓力表、安全閥及其他安全裝置之機能正常",
+        "3": "避免發生急劇負荷變動之現象",
+        "4": "防止壓力上升超過最高使用壓力"
+      },
+      "answer": [
+        "2",
+        "3",
+        "4"
+      ],
+      "appearances": [
+        {
+          "year": "113",
+          "session": 1,
+          "no": 77
+        }
+      ]
+    },
+    {
+      "id": "s-113-1-080",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "multi",
+      "stem": "依職業安全衛生設施規則規定，使勞工使用呼吸防護具時，雇主應指派專人採取下列那些呼吸防護措施？",
+      "options": {
+        "1": "防護具之使用",
+        "2": "防護具產地認定",
+        "3": "防護具之選擇",
+        "4": "危害辨識及暴露評估"
+      },
+      "answer": [
+        "1",
+        "3",
+        "4"
+      ],
+      "appearances": [
+        {
+          "year": "113",
+          "session": 1,
+          "no": 80
+        }
+      ]
+    },
+    {
+      "id": "s-113-2-005",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "single",
+      "stem": "電氣火災之起火原因，下列何者為非？",
+      "options": {
+        "1": "絕緣良好",
+        "2": "短路",
+        "3": "過負載",
+        "4": "電弧放電"
+      },
+      "answer": [
+        "1"
+      ],
+      "appearances": [
+        {
+          "year": "113",
+          "session": 2,
+          "no": 5
+        },
+        {
+          "year": "114",
+          "session": 3,
+          "no": 43
+        }
+      ]
+    },
+    {
+      "id": "s-113-2-016",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "single",
+      "stem": "下列何者有誤？",
+      "options": {
+        "1": "對新聞媒體報導有意見，向國家通訊傳播委員會申訴",
+        "2": "自己或他人捏造、扭曲、竄改或虛構的訊息，只要一小部分能證明是真的，就不會構成假訊息",
+        "3": "憲法保障言論自由，但散布假新聞、假消息仍須面對法律責任",
+        "4": "在網路或Line社群網站收到假訊息，可以敘明案情並附加截圖檔，向法務部調查局檢舉"
+      },
+      "answer": [
+        "2"
+      ],
+      "appearances": [
+        {
+          "year": "113",
+          "session": 2,
+          "no": 16
+        }
+      ]
+    },
+    {
+      "id": "s-113-2-020",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "single",
+      "stem": "下列有關省水標章的敘述中正確的是？",
+      "options": {
+        "1": "獲得省水標章的產品並無嚴格測試，所以對消費者並無一定的保障",
+        "2": "省水標章是環境部為推動使用節水器材，特別研定以作為消費者辨識省水產品的一種標誌",
+        "3": "省水標章除有用水設備外，亦可使用於冷氣或冰箱上",
+        "4": "省水標章能激勵廠商重視省水產品的研發與製造，進而達到推廣節水良性循環之目的"
+      },
+      "answer": [
+        "4"
+      ],
+      "appearances": [
+        {
+          "year": "113",
+          "session": 2,
+          "no": 20
+        }
+      ]
+    },
+    {
+      "id": "s-113-2-023",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "single",
+      "stem": "與公務機關有業務往來構成職務利害關係者，下列敘述何者「正確」？",
+      "options": {
+        "1": "機關公務員藉子女婚宴廣邀業務往來廠商之行為，並無不妥",
+        "2": "高級茶葉低價售予有利害關係之承辦公務員，有價購行為就不算違反法規",
+        "3": "與公務機關承辦人飲宴應酬為增進基本關係的必要方法",
+        "4": "將餽贈之財物請公務員父母代轉，該公務員亦已違反規定"
+      },
+      "answer": [
+        "4"
+      ],
+      "appearances": [
+        {
+          "year": "113",
+          "session": 2,
+          "no": 23
+        }
+      ]
+    },
+    {
+      "id": "s-113-2-037",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "single",
+      "stem": "台灣電力公司電價表所指的夏月用電月份(電價比其他月份高)是為",
+      "options": {
+        "1": "4/1~7/31",
+        "2": "6/1~9/30",
+        "3": "5/1~8/31",
+        "4": "7/1~10/31"
+      },
+      "answer": [
+        "2"
+      ],
+      "appearances": [
+        {
+          "year": "113",
+          "session": 2,
+          "no": 37
+        }
+      ]
+    },
+    {
+      "id": "s-113-2-055",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "single",
+      "stem": "事業單位之勞工代表如何產生？",
+      "options": {
+        "1": "由勞資雙方協議推派之",
+        "2": "由企業工會推派之",
+        "3": "由產業工會推派之",
+        "4": "由勞工輪流擔任之"
+      },
+      "answer": [
+        "2"
+      ],
+      "appearances": [
+        {
+          "year": "113",
+          "session": 2,
+          "no": 55
+        }
+      ]
+    },
+    {
+      "id": "s-113-2-061",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "multi",
+      "stem": "下列那些為電氣接地之目的？",
+      "options": {
+        "1": "避雷",
+        "2": "防止因絕緣不良感電",
+        "3": "避免高低壓混觸高壓經接地回路而危害人畜",
+        "4": "在配電線接地故障時使繼電器不動作"
+      },
+      "answer": [
+        "1",
+        "2",
+        "3"
+      ],
+      "appearances": [
+        {
+          "year": "113",
+          "session": 2,
+          "no": 61
+        }
+      ]
+    },
+    {
+      "id": "s-113-2-074",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "multi",
+      "stem": "依勞工職業災害保險及保護法之規定，主管機關應規劃整合相關資源，並得運用保險人核定本保險相關資料，依職業災害勞工之需求，提供下列那些適切之重建服務事項？",
+      "options": {
+        "1": "職能復健：透過職能評估、強化訓練及復工協助等，協助職業災害勞工提升工作能力恢復原工作",
+        "2": "社會復健：促進職業災害勞工與其家屬心理支持、社會適應、福利諮詢、權益維護及保障",
+        "3": "職業重建：提供職業輔導評量、職業訓練、就業服務、職務再設計、創業輔導、促進就業措施及其他職業重建服務，協助職業災害勞工重返職場",
+        "4": "醫療復健：協助職業災害勞工恢復其生理心理功能所提供之診治及療養，回復正常生活"
+      },
+      "answer": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "appearances": [
+        {
+          "year": "113",
+          "session": 2,
+          "no": 74
+        },
+        {
+          "year": "113",
+          "session": 3,
+          "no": 62
+        },
+        {
+          "year": "114",
+          "session": "2颱風延期考區",
+          "no": 77
+        }
+      ]
+    },
+    {
+      "id": "s-113-2-077",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "multi",
+      "stem": "下列有關防護具之敘述那些正確？",
+      "options": {
+        "1": "不恰當之防護具無法防範危害因子之穿透",
+        "2": "呼吸防護具一般使用於臨時性作業、緊急避難、無法裝設通風系統之場所或限於技術而使用通風系統效果有限之場所",
+        "3": "一般例常性之工作可長期重複使用呼吸防護具",
+        "4": "防護具一般而言應視為最後之選擇"
+      },
+      "answer": [
+        "1",
+        "2",
+        "4"
+      ],
+      "appearances": [
+        {
+          "year": "113",
+          "session": 2,
+          "no": 77
+        },
+        {
+          "year": "114",
+          "session": 3,
+          "no": 75
+        }
+      ]
+    },
+    {
+      "id": "s-113-3-017",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "single",
+      "stem": "下列有關智慧財產權行為之敘述，何者有誤？",
+      "options": {
+        "1": "著作權是為促進文化發展為目的，所保護的財產權之一",
+        "2": "以101大樓、美麗華百貨公司做為拍攝電影的背景，屬於合理使用的範圍",
+        "3": "原作者自行創作某音樂作品後，即可宣稱擁有該作品之著作權",
+        "4": "製造、販售仿冒註冊商標的商品不屬於公訴罪之範疇，但已侵害商標權之行為"
+      },
+      "answer": [
+        "4"
+      ],
+      "appearances": [
+        {
+          "year": "113",
+          "session": 3,
+          "no": 17
+        }
+      ]
+    },
+    {
+      "id": "s-113-3-022",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "single",
+      "stem": "下列何者較屬安全、尊嚴的職場組織文化？",
+      "options": {
+        "1": "公開在眾人面前長時間責罵勞工",
+        "2": "不過度介入勞工私人事宜",
+        "3": "強求勞工執行業務上明顯不必要或不可能之工作",
+        "4": "不斷責備勞工"
+      },
+      "answer": [
+        "2"
+      ],
+      "appearances": [
+        {
+          "year": "113",
+          "session": 3,
+          "no": 22
+        }
+      ]
+    },
+    {
+      "id": "s-113-3-029",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "single",
+      "stem": "下列何種方式沒有辦法降低洗衣機之使用水量，所以不建議採用？",
+      "options": {
+        "1": "兩、三件衣服也丟洗衣機洗",
+        "2": "選擇有自動調節水量的洗衣機",
+        "3": "使用低水位清洗",
+        "4": "選擇快洗行程"
+      },
+      "answer": [
+        "1"
+      ],
+      "appearances": [
+        {
+          "year": "113",
+          "session": 3,
+          "no": 29
+        }
+      ]
+    },
+    {
+      "id": "s-113-3-047",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "single",
+      "stem": "全球暖化潛勢(GlobalWarmingPotential,GWP)是衡量溫室氣體對全球暖化的影響，其中是以何者為比較基準？",
+      "options": {
+        "1": "SF6",
+        "2": "N2O",
+        "3": "CO2",
+        "4": "CH4"
+      },
+      "answer": [
+        "3"
+      ],
+      "appearances": [
+        {
+          "year": "113",
+          "session": 3,
+          "no": 47
+        }
+      ]
+    },
+    {
+      "id": "s-113-3-054",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "single",
+      "stem": "有關電氣安全，下列敘述何者錯誤？",
+      "options": {
+        "1": "電氣室應禁止非工作人員進入",
+        "2": "110伏特之電壓不致造成人員死亡",
+        "3": "不可以濕手操作電氣開關，且切斷開關應迅速",
+        "4": "220伏特為低壓電"
+      },
+      "answer": [
+        "2"
+      ],
+      "appearances": [
+        {
+          "year": "113",
+          "session": 3,
+          "no": 54
+        }
+      ]
+    },
+    {
+      "id": "s-113-3-075",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "multi",
+      "stem": "若某一化工廠之反應槽需進行製程安全評估，依製程安全評估定期實施辦法之規定，下列那些人非為評估小組成員？",
+      "options": {
+        "1": "熟悉該場所作業之勞工",
+        "2": "物料倉儲主管",
+        "3": "工會代表",
+        "4": "工作場所負責人"
+      },
+      "answer": [
+        "2",
+        "3"
+      ],
+      "appearances": [
+        {
+          "year": "113",
+          "session": 3,
+          "no": 75
+        }
+      ]
+    },
+    {
+      "id": "s-114-1-010",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "single",
+      "stem": "下列對於噪音管制法之規定，何者敘述錯誤？",
+      "options": {
+        "1": "使用經校正合格之噪音計皆可執行噪音管制法規定之檢驗測定",
+        "2": "噪音指超過管制標準之聲音",
+        "3": "人民得向主管機關檢舉使用中機動車輛噪音妨害安寧情形",
+        "4": "環保局得視噪音狀況劃定公告噪音管制區"
+      },
+      "answer": [
+        "1"
+      ],
+      "appearances": [
+        {
+          "year": "114",
+          "session": 1,
+          "no": 10
+        }
+      ]
+    },
+    {
+      "id": "s-114-1-011",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "single",
+      "stem": "依營造安全衛生設施標準規定，輕型懸吊式施工架之工作台上作業人數，最多為幾人？",
+      "options": {
+        "1": "2",
+        "2": "3",
+        "3": "1",
+        "4": "4"
+      },
+      "answer": [
+        "1"
+      ],
+      "appearances": [
+        {
+          "year": "114",
+          "session": 1,
+          "no": 11
+        }
+      ]
+    },
+    {
+      "id": "s-114-1-022",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "single",
+      "stem": "依經濟部能源署「指定能源用戶應遵行之節約能源規定」，在正常使用條件下，公眾出入之場所其室內冷氣溫度平均值不得低於攝氏幾度？",
+      "options": {
+        "1": "26",
+        "2": "24",
+        "3": "25",
+        "4": "22"
+      },
+      "answer": [
+        "1"
+      ],
+      "appearances": [
+        {
+          "year": "114",
+          "session": 1,
+          "no": 22
+        },
+        {
+          "year": "114",
+          "session": 3,
+          "no": 25
+        }
+      ]
+    },
+    {
+      "id": "s-114-1-032",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "single",
+      "stem": "對於吹哨者保護規定，下列敘述何者有誤？",
+      "options": {
+        "1": "事業單位不得對勞工申訴人終止勞動契約",
+        "2": "勞動檢查機構受理勞工申訴必須保密",
+        "3": "事業單位不得有不利勞工申訴人之處分",
+        "4": "為實施勞動檢查，必要時得告知事業單位有關勞工申訴人身分"
+      },
+      "answer": [
+        "4"
+      ],
+      "appearances": [
+        {
+          "year": "114",
+          "session": 1,
+          "no": 32
+        }
+      ]
+    },
+    {
+      "id": "s-114-1-059",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "single",
+      "stem": "依勞動檢查法所定勞工有立即發生墜落危險之虞之情事，以下何者錯誤？",
+      "options": {
+        "1": "於高差超過1公尺以上之場所作業，未設置符合規定之安全上下設備",
+        "2": "於高差2公尺以上之處所進行作業時，未使用高空工作車，或未以架設施工架等方法設置工作臺；設置工作臺有困難時，未採取張掛安全網或配掛安全帶之設施",
+        "3": "於易踏穿材料構築之屋頂從事作業時，未於屋架上設置防止踏穿及寬度30公分以上之踏板",
+        "4": "於高差2公尺以上之工作場所邊緣及開口部分，未設置符合規定之防墜設施"
+      },
+      "answer": [
+        "1"
+      ],
+      "appearances": [
+        {
+          "year": "114",
+          "session": 1,
+          "no": 59
+        }
+      ]
+    },
+    {
+      "id": "s-114-1-070",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "multi",
+      "stem": "依機械設備器具安全標準規定剪斷機械之安全裝置，應標示那些事項？",
+      "options": {
+        "1": "適用剪斷刀具之種類",
+        "2": "製造號碼",
+        "3": "製造年月",
+        "4": "製造者名稱"
+      },
+      "answer": [
+        "2",
+        "3",
+        "4"
+      ],
+      "appearances": [
+        {
+          "year": "114",
+          "session": 1,
+          "no": 70
+        },
+        {
+          "year": "114",
+          "session": 3,
+          "no": 68
+        }
+      ]
+    },
+    {
+      "id": "s-114-1-076",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "multi",
+      "stem": "依優先管理化學品之指定及運作管理辦法規定，下列那些為優先管理化學品？",
+      "options": {
+        "1": "氨",
+        "2": "氯氣",
+        "3": "二硫化碳",
+        "4": "一氧化碳"
+      },
+      "answer": [
+        "2",
+        "3"
+      ],
+      "appearances": [
+        {
+          "year": "114",
+          "session": 1,
+          "no": 76
+        }
+      ]
+    },
+    {
+      "id": "s-114-2-007",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "single",
+      "stem": "下列何者非為職業病預防之危害因子？",
+      "options": {
+        "1": "化學性危害",
+        "2": "物理性危害",
+        "3": "人因工程危害",
+        "4": "遺傳性疾病"
+      },
+      "answer": [
+        "4"
+      ],
+      "appearances": [
+        {
+          "year": "114",
+          "session": 2,
+          "no": 7
+        }
+      ]
+    },
+    {
+      "id": "s-114-2-067",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "multi",
+      "stem": "下列哪些敘述正確？",
+      "options": {
+        "1": "可治好之骨骼、肌肉傷害不屬於永久全失能",
+        "2": "勞工因工作傷害而死亡，其損失日數為600日",
+        "3": "一隻眼睛失能稱為永久全失能",
+        "4": "在一次工作中損失一隻眼睛與一隻手，屬於永久全失能"
+      },
+      "answer": [
+        "1",
+        "4"
+      ],
+      "appearances": [
+        {
+          "year": "114",
+          "session": 2,
+          "no": 67
+        }
+      ]
+    },
+    {
+      "id": "s-114-2-072",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "multi",
+      "stem": "依職業安全衛生設施規則規定，雇主不得以下列哪些情況之鋼索作為起重升降機具之吊掛用具？",
+      "options": {
+        "1": "有顯著變形或腐蝕者",
+        "2": "直徑減少達公稱直徑7%以上者",
+        "3": "已扭結者",
+        "4": "鋼索一撚間有5%以上素線截斷者"
+      },
+      "answer": [
+        "1",
+        "2",
+        "3"
+      ],
+      "appearances": [
+        {
+          "year": "114",
+          "session": 2,
+          "no": 72
+        }
+      ]
+    },
+    {
+      "id": "s-114-2-075",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "multi",
+      "stem": "下列有關非游離輻射之敘述哪些正確？",
+      "options": {
+        "1": "紅外線常由灼熱物體產生，眼睛經常直視紅熱物體易導致白內障",
+        "2": "微波對眼睛可造成白內障",
+        "3": "銲接作業為常暴露雷射之行業",
+        "4": "紫外線會破壞眼角膜，引起角膜炎"
+      },
+      "answer": [
+        "1",
+        "2",
+        "4"
+      ],
+      "appearances": [
+        {
+          "year": "114",
+          "session": 2,
+          "no": 75
+        },
+        {
+          "year": "114",
+          "session": 3,
+          "no": 64
+        }
+      ]
+    },
+    {
+      "id": "s-114-2颱風延期考區-002",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "single",
+      "stem": "有關吹風機使用注意事項，下列敘述中錯誤的是？",
+      "options": {
+        "1": "應保持吹風機進、出風口之空氣流通，以免造成過熱",
+        "2": "請勿在潮濕的地方使用，以免觸電危險",
+        "3": "可用來作為烘乾棉被及床單等用途",
+        "4": "應避免長時間使用，使用時應保持適當的距離"
+      },
+      "answer": [
+        "3"
+      ],
+      "appearances": [
+        {
+          "year": "114",
+          "session": "2颱風延期考區",
+          "no": 2
+        }
+      ]
+    },
+    {
+      "id": "s-114-2颱風延期考區-022",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "single",
+      "stem": "為防止勞工感電，下列何者為非？",
+      "options": {
+        "1": "使用防水插頭",
+        "2": "避免不當延長接線",
+        "3": "電線架高或加以防護",
+        "4": "設備有金屬外殼保護即可免接地"
+      },
+      "answer": [
+        "4"
+      ],
+      "appearances": [
+        {
+          "year": "114",
+          "session": "2颱風延期考區",
+          "no": 22
+        }
+      ]
+    },
+    {
+      "id": "s-114-2颱風延期考區-058",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "single",
+      "stem": "依職業安全衛生設施規則規定，有關移動梯及合梯之安全事項，下列敘述何項不正確？",
+      "options": {
+        "1": "移動梯腳應防止壓踩電氣線路，防止發生感電事故",
+        "2": "移動梯主要為提供人員在高處作業及橫向移動之設備",
+        "3": "兩梯腳間應有金屬等硬質繫材扣牢",
+        "4": "移動梯寬度應在30公分以上"
+      },
+      "answer": [
+        "2"
+      ],
+      "appearances": [
+        {
+          "year": "114",
+          "session": "2颱風延期考區",
+          "no": 58
+        }
+      ]
+    },
+    {
+      "id": "s-114-3-036",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "single",
+      "stem": "下列有關職業安全衛生管理辦法之敘述，何者正確？",
+      "options": {
+        "1": "領班應釐訂職業安全衛生計畫，並指導有關部門實施",
+        "2": "事業單位應依勞工人數設置職業安全衛生人員",
+        "3": "營造工程之原事業單位已設置職業安全衛生管理人員，其承攬人及再承攬人即可免重複設置",
+        "4": "工地主任對事業雖無經營管理權限，但事業單位之職業安全衛生管理依法仍由工地主任綜理負責"
+      },
+      "answer": [
+        "2"
+      ],
+      "appearances": [
+        {
+          "year": "114",
+          "session": 3,
+          "no": 36
+        }
+      ]
+    },
+    {
+      "id": "s-114-3-056",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "single",
+      "stem": "有流產病史之孕婦，宜避免相關作業，下列何者為非？",
+      "options": {
+        "1": "避免每班站立7小時以上之作業",
+        "2": "避免砷或鉛的暴露",
+        "3": "避免重體力勞動的職務",
+        "4": "避免提舉3公斤重物的職務"
+      },
+      "answer": [
+        "4"
+      ],
+      "appearances": [
+        {
+          "year": "114",
+          "session": 3,
+          "no": 56
+        }
+      ]
+    },
+    {
+      "id": "s-114-3-073",
+      "category": "professional",
+      "subject": "職業安全管理甲級（僅見於歷屆卷，題庫查無對應題）",
+      "type": "multi",
+      "stem": "對於職業災害勞工於身心障礙者權利公約(CRPD)第26條適應訓練及復健及第27條工作及就業，國家應如何進行？",
+      "options": {
+        "1": "應推廣為身心障礙者設計之輔具與科技之可及性、知識及運用",
+        "2": "促進身心障礙者之職業與專業重建，保留工作和重返工作方案",
+        "3": "確保於工作場所為身心障礙者提供合理調整",
+        "4": "組織、加強與擴展完整之適應訓練、復健服務及方案"
+      },
+      "answer": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "appearances": [
+        {
+          "year": "114",
+          "session": 3,
+          "no": 73
+        }
+      ]
+    },
+    {
+      "id": "c-90006-001",
+      "category": "common",
+      "subject": "90006 職業安全衛生",
+      "type": "single",
+      "stem": "對於核計勞工所得有無低於基本（最低）工資，下列何者錯誤？",
+      "options": {
+        "1": "僅計入在正常工時內之報酬",
+        "2": "應計入加班費",
+        "3": "不計入休假日出勤加給之工資",
+        "4": "不計入競賽獎金"
+      },
+      "answer": [
+        "2"
+      ],
+      "appearances": []
+    },
+    {
+      "id": "c-90006-002",
+      "category": "common",
+      "subject": "90006 職業安全衛生",
+      "type": "single",
+      "stem": "下列何者之工資日數得列入計算平均工資？",
+      "options": {
+        "1": "請事假期間",
+        "2": "職災醫療期間",
+        "3": "發生計算事由之當日前6個月",
+        "4": "放無薪假期間"
+      },
+      "answer": [
+        "3"
+      ],
+      "appearances": []
+    },
+    {
+      "id": "c-90006-003",
+      "category": "common",
+      "subject": "90006 職業安全衛生",
+      "type": "single",
+      "stem": "有關「例假」之敘述，下列何者錯誤？",
+      "options": {
+        "1": "每7日應有例假1日",
+        "2": "工資照給",
+        "3": "天災出勤時，工資加倍及補休",
+        "4": "須給假，不必給工資"
+      },
+      "answer": [
+        "4"
+      ],
+      "appearances": []
+    },
+    {
+      "id": "c-90006-004",
+      "category": "common",
+      "subject": "90006 職業安全衛生",
+      "type": "single",
+      "stem": "勞動基準法第84條之1規定之工作者，因工作性質特殊，就其工作時間之敘述，下列何者正確？",
+      "options": {
+        "1": "完全不受限制",
+        "2": "無例假與休假",
+        "3": "不另給予延時工資",
+        "4": "得由勞雇雙方另行約定"
+      },
+      "answer": [
+        "4"
+      ],
+      "appearances": []
+    },
+    {
+      "id": "c-90006-005",
+      "category": "common",
+      "subject": "90006 職業安全衛生",
+      "type": "single",
+      "stem": "依勞動基準法規定，雇主應置備勞工工資清冊並應保存幾年？",
+      "options": {
+        "1": "1年",
+        "2": "2年",
+        "3": "5年",
+        "4": "10年"
+      },
+      "answer": [
+        "3"
+      ],
+      "appearances": [
+        {
+          "year": "107",
+          "session": 2,
+          "no": 7
+        },
+        {
+          "year": "109",
+          "session": 1,
+          "no": 44
+        }
+      ]
+    },
+    {
+      "id": "c-90006-006",
+      "category": "common",
+      "subject": "90006 職業安全衛生",
+      "type": "single",
+      "stem": "事業單位僱用勞工多少人以上者，應依勞動基準法規定訂立工作規則？",
+      "options": {
+        "1": "30人",
+        "2": "50人",
+        "3": "100人",
+        "4": "200人"
+      },
+      "answer": [
+        "1"
+      ],
+      "appearances": [
+        {
+          "year": "112",
+          "session": 2,
+          "no": 6
+        },
+        {
+          "year": "114",
+          "session": 3,
+          "no": 49
+        }
+      ]
+    },
+    {
+      "id": "c-90006-007",
+      "category": "common",
+      "subject": "90006 職業安全衛生",
+      "type": "single",
+      "stem": "依勞動基準法規定，雇主延長勞工之工作時間連同正常工作時間，每日不得超過多少小時？",
+      "options": {
+        "1": "10小時",
+        "2": "11小時",
+        "3": "12小時",
+        "4": "15小時"
+      },
+      "answer": [
+        "3"
+      ],
+      "appearances": []
+    },
+    {
+      "id": "c-90006-008",
+      "category": "common",
+      "subject": "90006 職業安全衛生",
+      "type": "single",
+      "stem": "依勞動基準法規定，下列何者屬不定期契約？",
+      "options": {
+        "1": "臨時性或短期性的工作",
+        "2": "季節性的工作",
+        "3": "特定性的工作",
+        "4": "有繼續性的工作"
+      },
+      "answer": [
+        "4"
+      ],
+      "appearances": [
+        {
+          "year": "107",
+          "session": 2,
+          "no": 12
+        },
+        {
+          "year": "111",
+          "session": 3,
+          "no": 52
+        }
+      ]
+    },
+    {
+      "id": "c-90006-009",
+      "category": "common",
+      "subject": "90006 職業安全衛生",
+      "type": "single",
+      "stem": "依職業安全衛生法規定，事業單位勞動場所發生死亡職業災害時，雇主應於多少小時內通報勞動檢查機構？",
+      "options": {
+        "1": "8小時",
+        "2": "12小時",
+        "3": "24小時",
+        "4": "48小時"
+      },
+      "answer": [
+        "1"
+      ],
+      "appearances": []
+    },
+    {
+      "id": "c-90006-010",
+      "category": "common",
+      "subject": "90006 職業安全衛生",
+      "type": "single",
+      "stem": "有關事業單位之勞資會議主席，下列何者正確？",
+      "options": {
+        "1": "由企業工會推派之",
+        "2": "由產業工會推派之",
+        "3": "由勞資雙方協議推派之",
+        "4": "由勞資雙方輪流擔任之"
+      },
+      "answer": [
+        "4"
+      ],
+      "appearances": []
+    },
+    {
+      "id": "c-90006-011",
+      "category": "common",
+      "subject": "90006 職業安全衛生",
+      "type": "single",
+      "stem": "職業安全衛生法所稱有母性健康危害之虞之工作，不包括下列何種工作型態？",
+      "options": {
+        "1": "長時間站立姿勢作業",
+        "2": "人力提舉、搬運及推拉重物",
+        "3": "輪班及工作負荷",
+        "4": "駕駛運輸車輛"
+      },
+      "answer": [
+        "4"
+      ],
+      "appearances": []
+    },
+    {
+      "id": "c-90006-012",
+      "category": "common",
+      "subject": "90006 職業安全衛生",
+      "type": "single",
+      "stem": "依職業安全衛生法施行細則規定，下列何者非屬特別危害健康之作業？",
+      "options": {
+        "1": "噪音作業",
+        "2": "游離輻射作業",
+        "3": "會計作業",
+        "4": "粉塵作業"
+      },
+      "answer": [
+        "3"
+      ],
+      "appearances": [
+        {
+          "year": "111",
+          "session": 1,
+          "no": 25
+        },
+        {
+          "year": "113",
+          "session": 2,
+          "no": 8
+        },
+        {
+          "year": "107",
+          "session": 3,
+          "no": 6
+        },
+        {
+          "year": "109",
+          "session": 1,
+          "no": 42
+        }
+      ]
+    },
+    {
+      "id": "c-90006-013",
+      "category": "common",
+      "subject": "90006 職業安全衛生",
+      "type": "single",
+      "stem": "從事於易踏穿材料構築之屋頂修繕作業時，應有何種作業主管在場執行主管業務？",
+      "options": {
+        "1": "施工架組配",
+        "2": "擋土支撐組配",
+        "3": "屋頂",
+        "4": "模板支撐"
+      },
+      "answer": [
+        "3"
+      ],
+      "appearances": [
+        {
+          "year": "108",
+          "session": 1,
+          "no": 28
+        }
+      ]
+    },
+    {
+      "id": "c-90006-014",
+      "category": "common",
+      "subject": "90006 職業安全衛生",
+      "type": "single",
+      "stem": "有關「工讀生」之敘述，下列何者正確？",
+      "options": {
+        "1": "工資不得低於基本工資之80％",
+        "2": "屬短期工作者，加班只能補休",
+        "3": "每日正常工作時間得超過8小時",
+        "4": "國定假日出勤，工資加倍發給"
+      },
+      "answer": [
+        "4"
+      ],
+      "appearances": [
+        {
+          "year": "114",
+          "session": 1,
+          "no": 54
+        }
+      ]
+    },
+    {
+      "id": "c-90006-015",
+      "category": "common",
+      "subject": "90006 職業安全衛生",
+      "type": "single",
+      "stem": "勞工工作時手部嚴重受傷，住院醫療期間公司應按下列何者給予職業災害補償？",
+      "options": {
+        "1": "前6個月平均工資",
+        "2": "前1年平均工資",
+        "3": "原領工資",
+        "4": "基本工資"
+      },
+      "answer": [
+        "3"
+      ],
+      "appearances": []
+    },
+    {
+      "id": "c-90006-016",
+      "category": "common",
+      "subject": "90006 職業安全衛生",
+      "type": "single",
+      "stem": "勞工在何種情況下，雇主得不經預告終止勞動契約？",
+      "options": {
+        "1": "確定被法院判刑6個月以內並諭知緩刑超過1年以上者",
+        "2": "不服指揮對雇主暴力相向者",
+        "3": "經常遲到早退者",
+        "4": "非連續曠工但1個月內累計3日者"
+      },
+      "answer": [
+        "2"
+      ],
+      "appearances": [
+        {
+          "year": "114",
+          "session": 2,
+          "no": 30
+        }
+      ]
+    },
+    {
+      "id": "c-90006-017",
+      "category": "common",
+      "subject": "90006 職業安全衛生",
+      "type": "single",
+      "stem": "對於吹哨者保護規定，下列何者錯誤？",
+      "options": {
+        "1": "事業單位不得對勞工申訴人終止勞動契約",
+        "2": "勞動檢查機構受理勞工申訴必須保密",
+        "3": "為實施勞動檢查，必要時得告知事業單位有關勞工申訴人身分",
+        "4": "事業單位不得有不利勞工申訴人之處分"
+      },
+      "answer": [
+        "3"
+      ],
+      "appearances": []
+    },
+    {
+      "id": "c-90006-018",
+      "category": "common",
+      "subject": "90006 職業安全衛生",
+      "type": "single",
+      "stem": "職業安全衛生法所稱有母性健康危害之虞之工作，係指對於具生育能力之女性勞工從事工作，可能會導致的一些影響。下列何者除外？",
+      "options": {
+        "1": "胚胎發育",
+        "2": "妊娠期間之母體健康",
+        "3": "哺乳期間之嬰兒健康",
+        "4": "經期紊亂"
+      },
+      "answer": [
+        "4"
+      ],
+      "appearances": [
+        {
+          "year": "115",
+          "session": 2,
+          "no": 24
+        }
+      ]
+    },
+    {
+      "id": "c-90006-019",
+      "category": "common",
+      "subject": "90006 職業安全衛生",
+      "type": "single",
+      "stem": "下列何者非屬職業安全衛生法規定之勞工法定義務？",
+      "options": {
+        "1": "定期接受健康檢查",
+        "2": "參加安全衛生教育訓練",
+        "3": "實施自動檢查",
+        "4": "遵守安全衛生工作守則"
+      },
+      "answer": [
+        "3"
+      ],
+      "appearances": [
+        {
+          "year": "108",
+          "session": 2,
+          "no": 14
+        },
+        {
+          "year": "114",
+          "session": 2,
+          "no": 5
+        },
+        {
+          "year": "115",
+          "session": 1,
+          "no": 4
+        }
+      ]
+    },
+    {
+      "id": "c-90006-020",
+      "category": "common",
+      "subject": "90006 職業安全衛生",
+      "type": "single",
+      "stem": "下列何者非屬應對在職勞工施行之健康檢查？",
+      "options": {
+        "1": "一般健康檢查",
+        "2": "體格檢查",
+        "3": "特殊健康檢查",
+        "4": "特定對象及特定項目之檢查"
+      },
+      "answer": [
+        "2"
+      ],
+      "appearances": []
+    },
+    {
+      "id": "c-90006-021",
+      "category": "common",
+      "subject": "90006 職業安全衛生",
+      "type": "single",
+      "stem": "下列何者非為防範有害物食入之方法？",
+      "options": {
+        "1": "有害物與食物隔離",
+        "2": "不在工作場所進食或飲水",
+        "3": "常洗手、漱口",
+        "4": "穿工作服"
+      },
+      "answer": [
+        "4"
+      ],
+      "appearances": [
+        {
+          "year": "114",
+          "session": 1,
+          "no": 34
+        },
+        {
+          "year": "114",
+          "session": 2,
+          "no": 45
+        }
+      ]
+    },
+    {
+      "id": "c-90006-022",
+      "category": "common",
+      "subject": "90006 職業安全衛生",
+      "type": "single",
+      "stem": "原事業單位如有違反職業安全衛生法或有關安全衛生規定，致承攬人所僱勞工發生職業災害時，有關承攬管理責任，下列敘述何者正確？",
+      "options": {
+        "1": "原事業單位應與承攬人負連帶賠償責任",
+        "2": "原事業單位不需負連帶補償責任",
+        "3": "承攬廠商應自負職業災害之賠償責任",
+        "4": "勞工投保單位即為職業災害之賠償單位"
+      },
+      "answer": [
+        "1"
+      ],
+      "appearances": []
+    },
+    {
+      "id": "c-90006-023",
+      "category": "common",
+      "subject": "90006 職業安全衛生",
+      "type": "single",
+      "stem": "依勞動基準法規定，主管機關或檢查機構於接獲勞工申訴事業單位違反本法及其他勞工法令規定後，應為必要之調查，並於幾日內將處理情形，以書面通知勞工？",
+      "options": {
+        "1": "14日",
+        "2": "20日",
+        "3": "30日",
+        "4": "60日"
+      },
+      "answer": [
+        "4"
+      ],
+      "appearances": [
+        {
+          "year": "114",
+          "session": "2颱風延期考區",
+          "no": 15
+        }
+      ]
+    },
+    {
+      "id": "c-90006-024",
+      "category": "common",
+      "subject": "90006 職業安全衛生",
+      "type": "single",
+      "stem": "我國中央勞動業務主管機關為下列何者？",
+      "options": {
+        "1": "內政部",
+        "2": "勞工保險局",
+        "3": "勞動部",
+        "4": "經濟部"
+      },
+      "answer": [
+        "3"
+      ],
+      "appearances": []
+    },
+    {
+      "id": "c-90006-025",
+      "category": "common",
+      "subject": "90006 職業安全衛生",
+      "type": "single",
+      "stem": "對於勞動部公告列入應實施型式驗證之機械、設備或器具，下列何種情形不得免驗證？",
+      "options": {
+        "1": "依其他法律規定實施驗證者",
+        "2": "供國防軍事用途使用者",
+        "3": "輸入僅供科技研發之專用機型",
+        "4": "輸入僅供收藏使用之限量品"
+      },
+      "answer": [
+        "4"
+      ],
+      "appearances": []
+    },
+    {
+      "id": "c-90006-026",
+      "category": "common",
+      "subject": "90006 職業安全衛生",
+      "type": "single",
+      "stem": "對於墜落危險之預防設施，下列敘述何者較為妥適？",
+      "options": {
+        "1": "在外牆施工架等高處作業應盡量使用繫腰式安全帶",
+        "2": "安全帶應確實配掛在低於足下之堅固點",
+        "3": "高度2m以上之邊緣開口部分處應圍起警示帶",
+        "4": "高度2m以上之開口處應設護欄或安全網"
+      },
+      "answer": [
+        "4"
+      ],
+      "appearances": [
+        {
+          "year": "111",
+          "session": 2,
+          "no": 39
+        }
+      ]
+    },
+    {
+      "id": "c-90006-027",
+      "category": "common",
+      "subject": "90006 職業安全衛生",
+      "type": "single",
+      "stem": "對於感電電流流過人體可能呈現的症狀，下列何者錯誤？",
+      "options": {
+        "1": "痛覺",
+        "2": "強烈痙攣",
+        "3": "血壓降低、呼吸急促、精神亢奮",
+        "4": "造成組織灼傷"
+      },
+      "answer": [
+        "3"
+      ],
+      "appearances": []
+    },
+    {
+      "id": "c-90006-028",
+      "category": "common",
+      "subject": "90006 職業安全衛生",
+      "type": "single",
+      "stem": "下列何者非屬於容易發生墜落災害的作業場所或設施？",
+      "options": {
+        "1": "施工架",
+        "2": "廚房",
+        "3": "屋頂",
+        "4": "梯子"
+      },
+      "answer": [
+        "2"
+      ],
+      "appearances": []
+    },
+    {
+      "id": "c-90006-029",
+      "category": "common",
+      "subject": "90006 職業安全衛生",
+      "type": "single",
+      "stem": "下列何者非屬危險物儲存場所應採取之火災爆炸預防措施？",
+      "options": {
+        "1": "使用工業用電風扇",
+        "2": "裝設可燃性氣體偵測裝置",
+        "3": "使用防爆電氣設備",
+        "4": "標示「嚴禁煙火」"
+      },
+      "answer": [
+        "1"
+      ],
+      "appearances": [
+        {
+          "year": "108",
+          "session": 3,
+          "no": 8
+        },
+        {
+          "year": "111",
+          "session": 3,
+          "no": 44
+        },
+        {
+          "year": "114",
+          "session": 3,
+          "no": 40
+        }
+      ]
+    },
+    {
+      "id": "c-90006-030",
+      "category": "common",
+      "subject": "90006 職業安全衛生",
+      "type": "single",
+      "stem": "雇主於臨時用電設備加裝漏電斷路器，可減少下列何種災害發生？",
+      "options": {
+        "1": "墜落",
+        "2": "物體倒塌、崩塌",
+        "3": "感電",
+        "4": "被撞"
+      },
+      "answer": [
+        "3"
+      ],
+      "appearances": [
+        {
+          "year": "113",
+          "session": 2,
+          "no": 20
+        }
+      ]
+    },
+    {
+      "id": "c-90006-031",
+      "category": "common",
+      "subject": "90006 職業安全衛生",
+      "type": "single",
+      "stem": "雇主要求確實管制人員不得進入吊舉物下方，可避免下列何種災害發生？",
+      "options": {
+        "1": "感電",
+        "2": "墜落",
+        "3": "物體飛落",
+        "4": "缺氧"
+      },
+      "answer": [
+        "3"
+      ],
+      "appearances": []
+    },
+    {
+      "id": "c-90006-032",
+      "category": "common",
+      "subject": "90006 職業安全衛生",
+      "type": "single",
+      "stem": "職業上危害因子所引起的勞工疾病，稱為何種疾病？",
+      "options": {
+        "1": "職業疾病",
+        "2": "法定傳染病",
+        "3": "流行性疾病",
+        "4": "遺傳性疾病"
+      },
+      "answer": [
+        "1"
+      ],
+      "appearances": [
+        {
+          "year": "114",
+          "session": 2,
+          "no": 17
+        },
+        {
+          "year": "115",
+          "session": 1,
+          "no": 39
+        }
+      ]
+    },
+    {
+      "id": "c-90006-033",
+      "category": "common",
+      "subject": "90006 職業安全衛生",
+      "type": "single",
+      "stem": "事業招人承攬時，其承攬人就承攬部分負雇主之責任，原事業單位就職業災害補償部分之責任為何？",
+      "options": {
+        "1": "視職業災害原因判定是否補償",
+        "2": "依工程性質決定責任",
+        "3": "依承攬契約決定責任",
+        "4": "仍應與承攬人負連帶責任"
+      },
+      "answer": [
+        "4"
+      ],
+      "appearances": [
+        {
+          "year": "110",
+          "session": 3,
+          "no": 47
+        }
+      ]
+    },
+    {
+      "id": "c-90006-034",
+      "category": "common",
+      "subject": "90006 職業安全衛生",
+      "type": "single",
+      "stem": "預防職業病最根本的措施為何？",
+      "options": {
+        "1": "實施特殊健康檢查",
+        "2": "實施作業環境改善",
+        "3": "實施定期健康檢查",
+        "4": "實施僱用前體格檢查"
+      },
+      "answer": [
+        "2"
+      ],
+      "appearances": [
+        {
+          "year": "113",
+          "session": 2,
+          "no": 58
+        }
+      ]
+    },
+    {
+      "id": "c-90006-035",
+      "category": "common",
+      "subject": "90006 職業安全衛生",
+      "type": "single",
+      "stem": "在地下室作業，當通風換氣充分時，則不易發生一氧化碳中毒、缺氧危害或火災爆炸危險。「通風換氣充分」係指下列何種描述？",
+      "options": {
+        "1": "風險控制方法",
+        "2": "發生機率",
+        "3": "危害源",
+        "4": "風險"
+      },
+      "answer": [
+        "1"
+      ],
+      "appearances": []
+    },
+    {
+      "id": "c-90006-036",
+      "category": "common",
+      "subject": "90006 職業安全衛生",
+      "type": "single",
+      "stem": "勞工為節省時間，在未斷電情況下清理機臺，易發生危害為何？",
+      "options": {
+        "1": "捲夾",
+        "2": "缺氧",
+        "3": "墜落",
+        "4": "崩塌"
+      },
+      "answer": [
+        "1"
+      ],
+      "appearances": []
+    },
+    {
+      "id": "c-90006-037",
+      "category": "common",
+      "subject": "90006 職業安全衛生",
+      "type": "single",
+      "stem": "工作場所具有揮發性化學有害物質進入人體，最常見途徑為下列何者？",
+      "options": {
+        "1": "口腔",
+        "2": "呼吸道",
+        "3": "皮膚",
+        "4": "眼睛"
+      },
+      "answer": [
+        "2"
+      ],
+      "appearances": []
+    },
+    {
+      "id": "c-90006-038",
+      "category": "common",
+      "subject": "90006 職業安全衛生",
+      "type": "single",
+      "stem": "活線作業勞工應佩戴何種防護手套？",
+      "options": {
+        "1": "棉紗手套",
+        "2": "耐熱手套",
+        "3": "絕緣手套",
+        "4": "防振手套"
+      },
+      "answer": [
+        "3"
+      ],
+      "appearances": [
+        {
+          "year": "113",
+          "session": 1,
+          "no": 20
+        },
+        {
+          "year": "113",
+          "session": 2,
+          "no": 30
+        }
+      ]
+    },
+    {
+      "id": "c-90006-039",
+      "category": "common",
+      "subject": "90006 職業安全衛生",
+      "type": "single",
+      "stem": "下列何者非屬電氣災害之種類？",
+      "options": {
+        "1": "電弧灼傷",
+        "2": "電氣火災",
+        "3": "靜電危害",
+        "4": "雷電閃爍"
+      },
+      "answer": [
+        "4"
+      ],
+      "appearances": []
+    },
+    {
+      "id": "c-90006-040",
+      "category": "common",
+      "subject": "90006 職業安全衛生",
+      "type": "single",
+      "stem": "下列何者非屬於工作場所作業會發生墜落災害的潛在危害因子？",
+      "options": {
+        "1": "開口未設置護欄",
+        "2": "未設置安全之上下設備",
+        "3": "未確實配戴耳罩",
+        "4": "屋頂開口下方未張掛安全網"
+      },
+      "answer": [
+        "3"
+      ],
+      "appearances": [
+        {
+          "year": "114",
+          "session": "2颱風延期考區",
+          "no": 34
+        }
+      ]
+    },
+    {
+      "id": "c-90006-041",
+      "category": "common",
+      "subject": "90006 職業安全衛生",
+      "type": "single",
+      "stem": "在噪音防治之對策中，從下列何者著手最為有效？",
+      "options": {
+        "1": "偵測儀器",
+        "2": "噪音源",
+        "3": "傳播途徑",
+        "4": "個人防護具"
+      },
+      "answer": [
+        "2"
+      ],
+      "appearances": []
+    },
+    {
+      "id": "c-90006-042",
+      "category": "common",
+      "subject": "90006 職業安全衛生",
+      "type": "single",
+      "stem": "勞工於室外高氣溫作業環境工作，可能對身體產生之熱危害，下列何者非屬熱危害之症狀？",
+      "options": {
+        "1": "熱衰竭",
+        "2": "中暑",
+        "3": "熱痙攣",
+        "4": "痛風"
+      },
+      "answer": [
+        "4"
+      ],
+      "appearances": [
+        {
+          "year": "115",
+          "session": 2,
+          "no": 55
+        }
+      ]
+    },
+    {
+      "id": "c-90006-043",
+      "category": "common",
+      "subject": "90006 職業安全衛生",
+      "type": "single",
+      "stem": "下列何者是消除職業病發生率之源頭管理對策？",
+      "options": {
+        "1": "使用個人防護具",
+        "2": "健康檢查",
+        "3": "改善作業環境",
+        "4": "多運動"
+      },
+      "answer": [
+        "3"
+      ],
+      "appearances": []
+    },
+    {
+      "id": "c-90006-044",
+      "category": "common",
+      "subject": "90006 職業安全衛生",
+      "type": "single",
+      "stem": "下列何者非職業病預防之危害因子？",
+      "options": {
+        "1": "遺傳性疾病",
+        "2": "物理性危害",
+        "3": "人因工程危害",
+        "4": "化學性危害"
+      },
+      "answer": [
+        "1"
+      ],
+      "appearances": []
+    },
+    {
+      "id": "c-90006-045",
+      "category": "common",
+      "subject": "90006 職業安全衛生",
+      "type": "single",
+      "stem": "依職業安全衛生設施規則規定，下列何者非屬使用合梯，應符合之規定？",
+      "options": {
+        "1": "合梯應具有堅固之構造",
+        "2": "合梯材質不得有顯著之損傷、腐蝕等",
+        "3": "梯腳與地面之角度應在80度以上",
+        "4": "有安全之防滑梯面"
+      },
+      "answer": [
+        "3"
+      ],
+      "appearances": [
+        {
+          "year": "115",
+          "session": 2,
+          "no": 21
+        }
+      ]
+    },
+    {
+      "id": "c-90006-046",
+      "category": "common",
+      "subject": "90006 職業安全衛生",
+      "type": "single",
+      "stem": "下列何者非屬勞工從事電氣工作安全之規定？",
+      "options": {
+        "1": "使其使用電工安全帽",
+        "2": "穿戴絕緣防護具",
+        "3": "停電作業應斷開、檢電、接地及掛牌",
+        "4": "穿戴棉質手套絕緣"
+      },
+      "answer": [
+        "4"
+      ],
+      "appearances": []
+    },
+    {
+      "id": "c-90006-047",
+      "category": "common",
+      "subject": "90006 職業安全衛生",
+      "type": "single",
+      "stem": "為防止勞工感電，下列何者錯誤？",
+      "options": {
+        "1": "使用防水插頭",
+        "2": "避免不當延長接線",
+        "3": "設備有金屬外殼保護即可免接地",
+        "4": "電線架高或加以防護"
+      },
+      "answer": [
+        "3"
+      ],
+      "appearances": []
+    },
+    {
+      "id": "c-90006-048",
+      "category": "common",
+      "subject": "90006 職業安全衛生",
+      "type": "single",
+      "stem": "不當抬舉導致肌肉骨骼傷害或肌肉疲勞之現象，可歸類為下列何者？",
+      "options": {
+        "1": "感電事件",
+        "2": "不當動作",
+        "3": "不安全環境",
+        "4": "被撞事件"
+      },
+      "answer": [
+        "2"
+      ],
+      "appearances": []
+    },
+    {
+      "id": "c-90006-049",
+      "category": "common",
+      "subject": "90006 職業安全衛生",
+      "type": "single",
+      "stem": "使用鑽孔機時，不應使用下列何護具？",
+      "options": {
+        "1": "耳塞",
+        "2": "防塵口罩",
+        "3": "手套",
+        "4": "護目鏡"
+      },
+      "answer": [
+        "3"
+      ],
+      "appearances": []
+    },
+    {
+      "id": "c-90006-050",
+      "category": "common",
+      "subject": "90006 職業安全衛生",
+      "type": "single",
+      "stem": "腕道症候群常發生於下列何種作業？",
+      "options": {
+        "1": "電腦鍵盤作業",
+        "2": "潛水作業",
+        "3": "堆高機作業",
+        "4": "第一種壓力容器作業"
+      },
+      "answer": [
+        "1"
+      ],
+      "appearances": [
+        {
+          "year": "109",
+          "session": 2,
+          "no": 28
+        },
+        {
+          "year": "110",
+          "session": 2,
+          "no": 4
+        },
+        {
+          "year": "115",
+          "session": 1,
+          "no": 3
+        }
+      ]
+    },
+    {
+      "id": "c-90006-051",
+      "category": "common",
+      "subject": "90006 職業安全衛生",
+      "type": "single",
+      "stem": "對於化學燒傷傷患的一般處理原則，下列何者正確？",
+      "options": {
+        "1": "立即用大量清水沖洗",
+        "2": "傷患必須臥下，而且頭、胸部須高於身體其他部位",
+        "3": "於燒傷處塗抹油膏、油脂或發酵粉",
+        "4": "使用酸鹼中和"
+      },
+      "answer": [
+        "1"
+      ],
+      "appearances": [
+        {
+          "year": "110",
+          "session": 1,
+          "no": 51
+        },
+        {
+          "year": "112",
+          "session": 2,
+          "no": 19
+        }
+      ]
+    },
+    {
+      "id": "c-90006-052",
+      "category": "common",
+      "subject": "90006 職業安全衛生",
+      "type": "single",
+      "stem": "下列何者非屬防止搬運事故之一般原則？",
+      "options": {
+        "1": "以機械代替人力",
+        "2": "以機動車輛搬運",
+        "3": "採取適當之搬運方法",
+        "4": "儘量增加搬運距離"
+      },
+      "answer": [
+        "4"
+      ],
+      "appearances": [
+        {
+          "year": "109",
+          "session": 2,
+          "no": 30
+        }
+      ]
+    },
+    {
+      "id": "c-90006-053",
+      "category": "common",
+      "subject": "90006 職業安全衛生",
+      "type": "single",
+      "stem": "對於脊柱或頸部受傷患者，下列何者不是適當的處理原則？",
+      "options": {
+        "1": "不輕易移動傷患",
+        "2": "速請醫師",
+        "3": "如無合用的器材，需2人作徒手搬運",
+        "4": "向急救中心聯絡"
+      },
+      "answer": [
+        "3"
+      ],
+      "appearances": [
+        {
+          "year": "115",
+          "session": 2,
+          "no": 51
+        },
+        {
+          "year": "110",
+          "session": 2,
+          "no": 28
+        }
+      ]
+    },
+    {
+      "id": "c-90006-054",
+      "category": "common",
+      "subject": "90006 職業安全衛生",
+      "type": "single",
+      "stem": "於使用道路作業之工作場所，為防止工作人員遭車輛撞擊危害，所採取防護措施，下列何者錯誤？",
+      "options": {
+        "1": "設置警告標示",
+        "2": "置交通引導人員",
+        "3": "管制非工作人員不得進入",
+        "4": "各包商之車輛一律停放於工地現場"
+      },
+      "answer": [
+        "4"
+      ],
+      "appearances": [
+        {
+          "year": "115",
+          "session": 2,
+          "no": 31
+        }
+      ]
+    },
+    {
+      "id": "c-90006-055",
+      "category": "common",
+      "subject": "90006 職業安全衛生",
+      "type": "single",
+      "stem": "安全帽承受巨大外力衝擊後，雖外觀良好，應採下列何種處理方式？",
+      "options": {
+        "1": "廢棄",
+        "2": "繼續使用",
+        "3": "送修",
+        "4": "油漆保護"
+      },
+      "answer": [
+        "1"
+      ],
+      "appearances": [
+        {
+          "year": "114",
+          "session": 1,
+          "no": 48
+        }
+      ]
+    },
+    {
+      "id": "c-90006-056",
+      "category": "common",
+      "subject": "90006 職業安全衛生",
+      "type": "single",
+      "stem": "因舉重而扭腰係由於身體動作不自然姿勢，動作之反彈，引起扭筋、扭腰及形成類似狀態造成職業災害，其災害類型為下列何者？",
+      "options": {
+        "1": "不當狀態",
+        "2": "不當動作",
+        "3": "不當方針",
+        "4": "不當設備"
+      },
+      "answer": [
+        "2"
+      ],
+      "appearances": [
+        {
+          "year": "107",
+          "session": 2,
+          "no": 18
+        },
+        {
+          "year": "109",
+          "session": 2,
+          "no": 46
+        },
+        {
+          "year": "112",
+          "session": 3,
+          "no": 10
+        }
+      ]
+    },
+    {
+      "id": "c-90006-057",
+      "category": "common",
+      "subject": "90006 職業安全衛生",
+      "type": "single",
+      "stem": "有關工作場所安全衛生之敘述，下列何者錯誤？",
+      "options": {
+        "1": "對於勞工從事其身體或衣著有被污染之虞之特殊作業時，應備置該勞工洗眼、洗澡、漱口、更衣、洗濯等設備",
+        "2": "事業單位應備置足夠急救藥品及器材",
+        "3": "事業單位應備置足夠的零食自動販賣機",
+        "4": "勞工應定期接受健康檢查"
+      },
+      "answer": [
+        "3"
+      ],
+      "appearances": []
+    },
+    {
+      "id": "c-90006-058",
+      "category": "common",
+      "subject": "90006 職業安全衛生",
+      "type": "single",
+      "stem": "在地下室從事油漆粉刷作業，可能呼吸到揮發性有機化合物時，下列措施何者恰當？",
+      "options": {
+        "1": "用手帕遮擋鼻子",
+        "2": "配戴防塵口罩",
+        "3": "配戴濾毒罐面具",
+        "4": "配戴醫用口罩"
+      },
+      "answer": [
+        "3"
+      ],
+      "appearances": []
+    },
+    {
+      "id": "c-90006-059",
+      "category": "common",
+      "subject": "90006 職業安全衛生",
+      "type": "single",
+      "stem": "安全門或緊急出口平時應維持何狀態？",
+      "options": {
+        "1": "門可上鎖但不可封死",
+        "2": "保持開門狀態以保持逃生路徑暢通",
+        "3": "門應關上但不可上鎖",
+        "4": "與一般進出門相同，視各樓層規定可開可關"
+      },
+      "answer": [
+        "3"
+      ],
+      "appearances": [
+        {
+          "year": "115",
+          "session": 2,
+          "no": 21
+        }
+      ]
+    },
+    {
+      "id": "c-90006-060",
+      "category": "common",
+      "subject": "90006 職業安全衛生",
+      "type": "single",
+      "stem": "下列何種防護具較能消減噪音對聽力的危害？",
+      "options": {
+        "1": "棉花球",
+        "2": "耳塞",
+        "3": "耳罩",
+        "4": "碎布球"
+      },
+      "answer": [
+        "3"
+      ],
+      "appearances": [
+        {
+          "year": "111",
+          "session": 2,
+          "no": 27
+        },
+        {
+          "year": "111",
+          "session": 2,
+          "no": 42
+        }
+      ]
+    },
+    {
+      "id": "c-90006-061",
+      "category": "common",
+      "subject": "90006 職業安全衛生",
+      "type": "single",
+      "stem": "勞工若面臨長期工作負荷壓力及工作疲勞累積，沒有獲得適當休息及充足睡眠，便可能影響體能及精神狀態，甚而較易促發下列何種疾病？",
+      "options": {
+        "1": "皮膚癌",
+        "2": "腦心血管疾病",
+        "3": "多發性神經病變",
+        "4": "肺水腫"
+      },
+      "answer": [
+        "2"
+      ],
+      "appearances": [
+        {
+          "year": "110",
+          "session": 1,
+          "no": 11
+        },
+        {
+          "year": "110",
+          "session": 2,
+          "no": 48
+        },
+        {
+          "year": "112",
+          "session": 3,
+          "no": 14
+        }
+      ]
+    },
+    {
+      "id": "c-90006-062",
+      "category": "common",
+      "subject": "90006 職業安全衛生",
+      "type": "single",
+      "stem": "「勞工腦心血管疾病發病的風險與年齡、吸菸、總膽固醇數值、家族病史、生活型態、心臟方面疾病」之相關性為何？",
+      "options": {
+        "1": "無",
+        "2": "正",
+        "3": "負",
+        "4": "可正可負"
+      },
+      "answer": [
+        "2"
+      ],
+      "appearances": []
+    },
+    {
+      "id": "c-90006-063",
+      "category": "common",
+      "subject": "90006 職業安全衛生",
+      "type": "single",
+      "stem": "下列何者非屬職場不法侵害類型？",
+      "options": {
+        "1": "肢體暴力",
+        "2": "語言暴力",
+        "3": "家庭暴力",
+        "4": "性騷擾"
+      },
+      "answer": [
+        "3"
+      ],
+      "appearances": []
+    },
+    {
+      "id": "c-90006-064",
+      "category": "common",
+      "subject": "90006 職業安全衛生",
+      "type": "single",
+      "stem": "職場內部常見之身體或精神不法侵害，不包含下列何者？",
+      "options": {
+        "1": "脅迫、名譽損毀、侮辱、嚴重辱罵勞工",
+        "2": "強求勞工執行業務上明顯不必要或不可能之工作",
+        "3": "過度介入勞工私人事宜",
+        "4": "使勞工執行與能力、經驗相符的工作"
+      },
+      "answer": [
+        "4"
+      ],
+      "appearances": []
+    },
+    {
+      "id": "c-90006-065",
+      "category": "common",
+      "subject": "90006 職業安全衛生",
+      "type": "single",
+      "stem": "下列何種措施較可避免工作單調重複或負荷過重？",
+      "options": {
+        "1": "連續夜班",
+        "2": "工時過長",
+        "3": "排班保有規律性",
+        "4": "經常性加班"
+      },
+      "answer": [
+        "3"
+      ],
+      "appearances": []
+    },
+    {
+      "id": "c-90006-066",
+      "category": "common",
+      "subject": "90006 職業安全衛生",
+      "type": "single",
+      "stem": "減輕皮膚燒傷程度之最重要步驟為何？",
+      "options": {
+        "1": "儘速用清水沖洗",
+        "2": "立即刺破水泡",
+        "3": "立即在燒傷處塗抹油脂",
+        "4": "在燒傷處塗抹麵粉"
+      },
+      "answer": [
+        "1"
+      ],
+      "appearances": []
+    },
+    {
+      "id": "c-90006-067",
+      "category": "common",
+      "subject": "90006 職業安全衛生",
+      "type": "single",
+      "stem": "眼內噴入化學物或其他異物，應立即使用下列何者沖洗眼睛？",
+      "options": {
+        "1": "牛奶",
+        "2": "蘇打水",
+        "3": "清水",
+        "4": "稀釋的醋"
+      },
+      "answer": [
+        "3"
+      ],
+      "appearances": [
+        {
+          "year": "111",
+          "session": 1,
+          "no": 31
+        },
+        {
+          "year": "112",
+          "session": 2,
+          "no": 47
+        }
+      ]
+    },
+    {
+      "id": "c-90006-068",
+      "category": "common",
+      "subject": "90006 職業安全衛生",
+      "type": "single",
+      "stem": "石綿最可能引起下列何種疾病？",
+      "options": {
+        "1": "白指症",
+        "2": "心臟病",
+        "3": "間皮細胞瘤",
+        "4": "巴金森氏症"
+      },
+      "answer": [
+        "3"
+      ],
+      "appearances": [
+        {
+          "year": "108",
+          "session": 1,
+          "no": 52
+        },
+        {
+          "year": "113",
+          "session": 1,
+          "no": 26
+        }
+      ]
+    },
+    {
+      "id": "c-90006-069",
+      "category": "common",
+      "subject": "90006 職業安全衛生",
+      "type": "single",
+      "stem": "作業場所高頻率噪音較易導致下列何種症狀？",
+      "options": {
+        "1": "失眠",
+        "2": "聽力損失",
+        "3": "肺部疾病",
+        "4": "腕道症候群"
+      },
+      "answer": [
+        "2"
+      ],
+      "appearances": [
+        {
+          "year": "114",
+          "session": 2,
+          "no": 16
+        },
+        {
+          "year": "111",
+          "session": 1,
+          "no": 5
+        }
+      ]
+    },
+    {
+      "id": "c-90006-070",
+      "category": "common",
+      "subject": "90006 職業安全衛生",
+      "type": "single",
+      "stem": "廚房設置之排油煙機，為下列何者？",
+      "options": {
+        "1": "整體換氣裝置",
+        "2": "局部排氣裝置",
+        "3": "吹吸型換氣裝置",
+        "4": "排氣煙囪"
+      },
+      "answer": [
+        "2"
+      ],
+      "appearances": []
+    },
+    {
+      "id": "c-90006-071",
+      "category": "common",
+      "subject": "90006 職業安全衛生",
+      "type": "single",
+      "stem": "下列何者為選用防塵口罩時，最不重要之考量因素？",
+      "options": {
+        "1": "捕集效率愈高愈好",
+        "2": "吸氣阻抗愈低愈好",
+        "3": "重量愈輕愈好",
+        "4": "視野愈小愈好"
+      },
+      "answer": [
+        "4"
+      ],
+      "appearances": []
+    },
+    {
+      "id": "c-90006-072",
+      "category": "common",
+      "subject": "90006 職業安全衛生",
+      "type": "single",
+      "stem": "若勞工工作性質需與陌生人接觸、工作中需處理不可預期的突發事件或工作場所治安狀況較差，較容易遭遇下列何種危害？",
+      "options": {
+        "1": "組織內部不法侵害",
+        "2": "組織外部不法侵害",
+        "3": "多發性神經病變",
+        "4": "潛涵症"
+      },
+      "answer": [
+        "2"
+      ],
+      "appearances": [
+        {
+          "year": "115",
+          "session": 2,
+          "no": 50
+        }
+      ]
+    },
+    {
+      "id": "c-90006-073",
+      "category": "common",
+      "subject": "90006 職業安全衛生",
+      "type": "single",
+      "stem": "下列何者不是發生電氣火災的主要原因？",
+      "options": {
+        "1": "電器接點短路",
+        "2": "電氣火花",
+        "3": "電纜線置於地上",
+        "4": "漏電"
+      },
+      "answer": [
+        "3"
+      ],
+      "appearances": [
+        {
+          "year": "114",
+          "session": "2颱風延期考區",
+          "no": 18
+        },
+        {
+          "year": "115",
+          "session": 2,
+          "no": 54
+        }
+      ]
+    },
+    {
+      "id": "c-90006-074",
+      "category": "common",
+      "subject": "90006 職業安全衛生",
+      "type": "single",
+      "stem": "依勞工職業災害保險及保護法規定，職業災害保險之保險效力，自何時開始起算，至離職當日停止？",
+      "options": {
+        "1": "通知當日",
+        "2": "到職當日",
+        "3": "雇主訂定當日",
+        "4": "勞雇雙方合意之日"
+      },
+      "answer": [
+        "2"
+      ],
+      "appearances": []
+    },
+    {
+      "id": "c-90006-075",
+      "category": "common",
+      "subject": "90006 職業安全衛生",
+      "type": "single",
+      "stem": "依勞工職業災害保險及保護法規定，勞工職業災害保險以下列何者為保險人，辦理保險業務？",
+      "options": {
+        "1": "財團法人職業災害預防及重建中心",
+        "2": "勞動部職業安全衛生署",
+        "3": "勞動部勞動基金運用局",
+        "4": "勞動部勞工保險局"
+      },
+      "answer": [
+        "4"
+      ],
+      "appearances": []
+    },
+    {
+      "id": "c-90006-076",
+      "category": "common",
+      "subject": "90006 職業安全衛生",
+      "type": "single",
+      "stem": "有關「童工」之敘述，下列何者正確？",
+      "options": {
+        "1": "每日工作時間不得超過8小時",
+        "2": "不得於午後8時至翌晨8時之時間內工作",
+        "3": "例假日得在監視下工作",
+        "4": "工資不得低於基本工資之70％"
+      },
+      "answer": [
+        "1"
+      ],
+      "appearances": []
+    },
+    {
+      "id": "c-90006-077",
+      "category": "common",
+      "subject": "90006 職業安全衛生",
+      "type": "single",
+      "stem": "依勞動檢查法施行細則規定，事業單位如不服勞動檢查結果，應於勞動檢查結果通知書送達之次日起10日內，以書面敘明理由向勞動檢查機構提出？",
+      "options": {
+        "1": "申訴",
+        "2": "陳情",
+        "3": "抗議",
+        "4": "異議"
+      },
+      "answer": [
+        "4"
+      ],
+      "appearances": []
+    },
+    {
+      "id": "c-90006-078",
+      "category": "common",
+      "subject": "90006 職業安全衛生",
+      "type": "single",
+      "stem": "工作者若因雇主違反職業安全衛生法規定而發生職業災害、疑似罹患職業病或身體、精神遭受不法侵害所提起之訴訟，得向勞動部委託之民間團體提出下列何者？",
+      "options": {
+        "1": "災害理賠",
+        "2": "申請扶助",
+        "3": "精神補償",
+        "4": "國家賠償"
+      },
+      "answer": [
+        "2"
+      ],
+      "appearances": [
+        {
+          "year": "115",
+          "session": 1,
+          "no": 31
+        }
+      ]
+    },
+    {
+      "id": "c-90006-079",
+      "category": "common",
+      "subject": "90006 職業安全衛生",
+      "type": "single",
+      "stem": "計算平日加班費須按平日每小時工資額加給計算，下列何者錯誤？",
+      "options": {
+        "1": "前2小時至少加給1/3倍",
+        "2": "超過2小時部分至少加給2/3倍",
+        "3": "經勞資協商同意後，一律加給0.5倍",
+        "4": "未經雇主同意給加班費者，一律補休"
+      },
+      "answer": [
+        "4"
+      ],
+      "appearances": []
+    },
+    {
+      "id": "c-90006-080",
+      "category": "common",
+      "subject": "90006 職業安全衛生",
+      "type": "single",
+      "stem": "下列工作場所何者非屬勞動檢查法所定之危險性工作場所？",
+      "options": {
+        "1": "農藥製造",
+        "2": "金屬表面處理",
+        "3": "火藥類製造",
+        "4": "從事石油裂解之石化工業之工作場所"
+      },
+      "answer": [
+        "2"
+      ],
+      "appearances": []
+    },
+    {
+      "id": "c-90006-081",
+      "category": "common",
+      "subject": "90006 職業安全衛生",
+      "type": "single",
+      "stem": "依職業安全衛生設施規則規定，有關電氣安全，下列何者錯誤？",
+      "options": {
+        "1": "110伏特之電壓不致造成人員死亡",
+        "2": "電氣室應禁止非工作人員進入",
+        "3": "不可以濕手操作電氣開關，且切斷開關應迅速",
+        "4": "220伏特為低壓電"
+      },
+      "answer": [
+        "1"
+      ],
+      "appearances": []
+    },
+    {
+      "id": "c-90006-082",
+      "category": "common",
+      "subject": "90006 職業安全衛生",
+      "type": "single",
+      "stem": "依職業安全衛生設施規則規定，下列何者非屬於車輛系營建機械？",
+      "options": {
+        "1": "平土機",
+        "2": "堆高機",
+        "3": "推土機",
+        "4": "鏟土機"
+      },
+      "answer": [
+        "2"
+      ],
+      "appearances": []
+    },
+    {
+      "id": "c-90006-083",
+      "category": "common",
+      "subject": "90006 職業安全衛生",
+      "type": "single",
+      "stem": "下列何者非為事業單位勞動場所發生職業災害者，雇主應於8小時內通報勞動檢查機構？",
+      "options": {
+        "1": "發生死亡災害",
+        "2": "勞工受傷無須住院治療",
+        "3": "發生災害之罹災人數在3人以上",
+        "4": "發生災害之罹災人數在1人以上，且需住院治療"
+      },
+      "answer": [
+        "2"
+      ],
+      "appearances": []
+    },
+    {
+      "id": "c-90006-084",
+      "category": "common",
+      "subject": "90006 職業安全衛生",
+      "type": "single",
+      "stem": "依職業安全衛生管理辦法規定，下列何者非屬「自動檢查」之內容？",
+      "options": {
+        "1": "機械之定期檢查",
+        "2": "機械、設備之重點檢查",
+        "3": "機械、設備之作業檢點",
+        "4": "勞工健康檢查"
+      },
+      "answer": [
+        "4"
+      ],
+      "appearances": []
+    },
+    {
+      "id": "c-90006-085",
+      "category": "common",
+      "subject": "90006 職業安全衛生",
+      "type": "single",
+      "stem": "下列何者係針對於機械操作點的捲夾危害特性可以採用之防護裝置？",
+      "options": {
+        "1": "設置護圍、護罩",
+        "2": "穿戴棉紗手套",
+        "3": "穿戴防護衣",
+        "4": "強化教育訓練"
+      },
+      "answer": [
+        "1"
+      ],
+      "appearances": []
+    },
+    {
+      "id": "c-90006-086",
+      "category": "common",
+      "subject": "90006 職業安全衛生",
+      "type": "single",
+      "stem": "下列何者非屬從事起重吊掛作業導致物體飛落災害之可能原因？",
+      "options": {
+        "1": "吊鉤未設防滑舌片致吊掛鋼索鬆脫",
+        "2": "鋼索斷裂",
+        "3": "超過額定荷重作業",
+        "4": "過捲揚警報裝置過度靈敏"
+      },
+      "answer": [
+        "4"
+      ],
+      "appearances": []
+    },
+    {
+      "id": "c-90006-087",
+      "category": "common",
+      "subject": "90006 職業安全衛生",
+      "type": "single",
+      "stem": "勞工不遵守安全衛生工作守則規定，屬於下列何者？",
+      "options": {
+        "1": "不安全設備",
+        "2": "不安全行為",
+        "3": "不安全環境",
+        "4": "管理缺陷"
+      },
+      "answer": [
+        "2"
+      ],
+      "appearances": []
+    },
+    {
+      "id": "c-90006-088",
+      "category": "common",
+      "subject": "90006 職業安全衛生",
+      "type": "single",
+      "stem": "下列何者不屬於局限空間內作業場所應採取之缺氧、中毒等危害預防措施？",
+      "options": {
+        "1": "實施通風換氣",
+        "2": "進入作業許可程序",
+        "3": "使用柴油內燃機發電提供照明",
+        "4": "測定氧氣、危險物、有害物濃度"
+      },
+      "answer": [
+        "3"
+      ],
+      "appearances": []
+    },
+    {
+      "id": "c-90006-089",
+      "category": "common",
+      "subject": "90006 職業安全衛生",
+      "type": "single",
+      "stem": "下列何者非通風換氣之目的？",
+      "options": {
+        "1": "防止游離輻射",
+        "2": "防止火災爆炸",
+        "3": "稀釋空氣中有害物",
+        "4": "補充新鮮空氣"
+      },
+      "answer": [
+        "1"
+      ],
+      "appearances": [
+        {
+          "year": "114",
+          "session": "2颱風延期考區",
+          "no": 30
+        }
+      ]
+    },
+    {
+      "id": "c-90006-090",
+      "category": "common",
+      "subject": "90006 職業安全衛生",
+      "type": "single",
+      "stem": "已在職之勞工，首次從事特別危害健康作業，應實施下列何種檢查？",
+      "options": {
+        "1": "一般體格檢查",
+        "2": "特殊體格檢查",
+        "3": "一般體格檢查及特殊健康檢查",
+        "4": "特殊健康檢查"
+      },
+      "answer": [
+        "4"
+      ],
+      "appearances": [
+        {
+          "year": "113",
+          "session": 1,
+          "no": 51
+        }
+      ]
+    },
+    {
+      "id": "c-90006-091",
+      "category": "common",
+      "subject": "90006 職業安全衛生",
+      "type": "single",
+      "stem": "依職業安全衛生設施規則規定，噪音超過多少分貝之工作場所，應標示並公告噪音危害之預防事項，使勞工周知？",
+      "options": {
+        "1": "75分貝",
+        "2": "80分貝",
+        "3": "85分貝",
+        "4": "90分貝"
+      },
+      "answer": [
+        "4"
+      ],
+      "appearances": [
+        {
+          "year": "114",
+          "session": 3,
+          "no": 4
+        }
+      ]
+    },
+    {
+      "id": "c-90006-092",
+      "category": "common",
+      "subject": "90006 職業安全衛生",
+      "type": "single",
+      "stem": "下列何者非屬工作安全分析的目的？",
+      "options": {
+        "1": "發現並杜絕工作危害",
+        "2": "確立工作安全所需工具與設備",
+        "3": "懲罰犯錯的員工",
+        "4": "作為員工在職訓練的參考"
+      },
+      "answer": [
+        "3"
+      ],
+      "appearances": []
+    },
+    {
+      "id": "c-90006-093",
+      "category": "common",
+      "subject": "90006 職業安全衛生",
+      "type": "single",
+      "stem": "可能對勞工之心理或精神狀況造成負面影響的狀態，如異常工作壓力、超時工作、語言脅迫或恐嚇等，可歸屬於下列何者管理不當？",
+      "options": {
+        "1": "職業安全",
+        "2": "職業衛生",
+        "3": "勞工健康",
+        "4": "環保"
+      },
+      "answer": [
+        "3"
+      ],
+      "appearances": []
+    },
+    {
+      "id": "c-90006-094",
+      "category": "common",
+      "subject": "90006 職業安全衛生",
+      "type": "single",
+      "stem": "有關女性工作者妊娠期間宜避免作業之敘述，下列何者錯誤？",
+      "options": {
+        "1": "避免砷或鉛之暴露",
+        "2": "避免每班站立7小時以上之作業",
+        "3": "避免提舉1公斤重物之職務",
+        "4": "避免重體力勞動之職務"
+      },
+      "answer": [
+        "3"
+      ],
+      "appearances": []
+    },
+    {
+      "id": "c-90006-095",
+      "category": "common",
+      "subject": "90006 職業安全衛生",
+      "type": "single",
+      "stem": "熱中暑時，易發生下列何現象？",
+      "options": {
+        "1": "體溫下降",
+        "2": "體溫正常",
+        "3": "體溫上升",
+        "4": "體溫忽高忽低"
+      },
+      "answer": [
+        "3"
+      ],
+      "appearances": []
+    },
+    {
+      "id": "c-90006-096",
+      "category": "common",
+      "subject": "90006 職業安全衛生",
+      "type": "single",
+      "stem": "下列何者不會使電路發生過電流？",
+      "options": {
+        "1": "電氣設備過載",
+        "2": "電路短路",
+        "3": "電路漏電",
+        "4": "電路斷路"
+      },
+      "answer": [
+        "4"
+      ],
+      "appearances": [
+        {
+          "year": "114",
+          "session": "2颱風延期考區",
+          "no": 21
+        }
+      ]
+    },
+    {
+      "id": "c-90006-097",
+      "category": "common",
+      "subject": "90006 職業安全衛生",
+      "type": "single",
+      "stem": "下列何者較屬安全、尊嚴的職場組織文化？",
+      "options": {
+        "1": "不斷責備勞工",
+        "2": "公開在眾人面前長時間責罵勞工",
+        "3": "強求勞工執行業務上明顯不必要或不可能之工作",
+        "4": "不介入勞工私人事宜"
+      },
+      "answer": [
+        "4"
+      ],
+      "appearances": []
+    },
+    {
+      "id": "c-90006-098",
+      "category": "common",
+      "subject": "90006 職業安全衛生",
+      "type": "single",
+      "stem": "下列何者與職場母性健康保護較不相關？",
+      "options": {
+        "1": "職業安全衛生法",
+        "2": "妊娠與分娩後女性及未滿十八歲勞工禁止從事危險性或有害性工作認定標準",
+        "3": "性別平等工作法",
+        "4": "動力堆高機型式驗證"
+      },
+      "answer": [
+        "4"
+      ],
+      "appearances": []
+    },
+    {
+      "id": "c-90006-099",
+      "category": "common",
+      "subject": "90006 職業安全衛生",
+      "type": "single",
+      "stem": "油漆塗裝工程應注意防火防爆事項，下列何者錯誤？",
+      "options": {
+        "1": "確實通風",
+        "2": "注意電氣火花",
+        "3": "緊密門窗以減少溶劑擴散揮發",
+        "4": "嚴禁煙火"
+      },
+      "answer": [
+        "3"
+      ],
+      "appearances": []
+    },
+    {
+      "id": "c-90006-100",
+      "category": "common",
+      "subject": "90006 職業安全衛生",
+      "type": "single",
+      "stem": "依職業安全衛生設施規則規定，雇主對於物料儲存，為防止氣候變化或自然發火發生危險者，下列何者為最佳之採取措施？",
+      "options": {
+        "1": "保持自然通風",
+        "2": "密閉",
+        "3": "與外界隔離及溫濕控制",
+        "4": "靜置於倉儲區，避免陽光直射"
+      },
+      "answer": [
+        "3"
+      ],
+      "appearances": []
+    },
+    {
+      "id": "c-90007-001",
+      "category": "common",
+      "subject": "90007 工作倫理與職業道德",
+      "type": "single",
+      "stem": "下列何者「違反」個人資料保護法？",
+      "options": {
+        "1": "公司基於人事管理之特定目的，張貼榮譽榜揭示績優員工姓名",
+        "2": "縣市政府提供村里長轄區內符合資格之老人名冊供發放敬老金",
+        "3": "網路購物公司為辦理退貨，將客戶之住家地址提供予宅配公司",
+        "4": "學校將應屆畢業生之住家地址提供補習班招生使用"
+      },
+      "answer": [
+        "4"
+      ],
+      "appearances": []
+    },
+    {
+      "id": "c-90007-002",
+      "category": "common",
+      "subject": "90007 工作倫理與職業道德",
+      "type": "single",
+      "stem": "非公務機關利用個人資料進行行銷時，下列敘述何者錯誤？",
+      "options": {
+        "1": "若已取得當事人書面同意，當事人即不得拒絕利用其個人資料行銷",
+        "2": "於首次行銷時，應提供當事人表示拒絕行銷之方式",
+        "3": "當事人表示拒絕接受行銷時，應停止利用其個人資料",
+        "4": "倘非公務機關違反「應即停止利用其個人資料行銷」之義務，未於限期內改正者，按次處新臺幣2萬元以上20萬元以下罰鍰"
+      },
+      "answer": [
+        "1"
+      ],
+      "appearances": []
+    },
+    {
+      "id": "c-90007-003",
+      "category": "common",
+      "subject": "90007 工作倫理與職業道德",
+      "type": "single",
+      "stem": "個人資料保護法規定為保護當事人權益，幾人以上的當事人提出告訴，就可以進行團體訴訟？",
+      "options": {
+        "1": "5人",
+        "2": "10人",
+        "3": "15人",
+        "4": "20人"
+      },
+      "answer": [
+        "4"
+      ],
+      "appearances": [
+        {
+          "year": "114",
+          "session": 1,
+          "no": 33
+        },
+        {
+          "year": "115",
+          "session": 1,
+          "no": 42
+        }
+      ]
+    },
+    {
+      "id": "c-90007-004",
+      "category": "common",
+      "subject": "90007 工作倫理與職業道德",
+      "type": "single",
+      "stem": "關於個人資料保護法的敘述，下列何者錯誤？",
+      "options": {
+        "1": "公務機關執行法定職務必要範圍內，可以蒐集、處理或利用一般性個人資料",
+        "2": "間接蒐集之個人資料，於處理或利用前，不必告知當事人個人資料來源",
+        "3": "非公務機關亦應維護個人資料之正確，並主動或依當事人之請求更正或補充",
+        "4": "外國學生在臺灣短期進修或留學，也受到我國個人資料保護法的保障"
+      },
+      "answer": [
+        "2"
+      ],
+      "appearances": [
+        {
+          "year": "114",
+          "session": 2,
+          "no": 38
+        }
+      ]
+    },
+    {
+      "id": "c-90007-005",
+      "category": "common",
+      "subject": "90007 工作倫理與職業道德",
+      "type": "single",
+      "stem": "關於個人資料保護法的敘述，下列何者錯誤？",
+      "options": {
+        "1": "不管是否使用電腦處理的個人資料，都受個人資料保護法保護",
+        "2": "公務機關依法執行公權力，不受個人資料保護法規範",
+        "3": "身分證字號、婚姻、指紋都是個人資料",
+        "4": "我的病歷資料雖然是由醫生所撰寫，但也屬於是我的個人資料範圍"
+      },
+      "answer": [
+        "2"
+      ],
+      "appearances": []
+    },
+    {
+      "id": "c-90007-006",
+      "category": "common",
+      "subject": "90007 工作倫理與職業道德",
+      "type": "single",
+      "stem": "對於依照個人資料保護法應告知之事項，下列何者不在法定應告知的事項內？",
+      "options": {
+        "1": "個人資料利用之期間、地區、對象及方式",
+        "2": "蒐集之目的",
+        "3": "蒐集機關的負責人姓名",
+        "4": "如拒絕提供或提供不正確個人資料將造成之影響"
+      },
+      "answer": [
+        "3"
+      ],
+      "appearances": [
+        {
+          "year": "108",
+          "session": 2,
+          "no": 18
+        }
+      ]
+    },
+    {
+      "id": "c-90007-007",
+      "category": "common",
+      "subject": "90007 工作倫理與職業道德",
+      "type": "single",
+      "stem": "請問下列何者非為個人資料保護法第3條所規範之當事人權利？",
+      "options": {
+        "1": "查詢或請求閱覽",
+        "2": "請求刪除他人之資料",
+        "3": "請求補充或更正",
+        "4": "請求停止蒐集、處理或利用"
+      },
+      "answer": [
+        "2"
+      ],
+      "appearances": [
+        {
+          "year": "114",
+          "session": 3,
+          "no": 57
+        }
+      ]
+    },
+    {
+      "id": "c-90007-008",
+      "category": "common",
+      "subject": "90007 工作倫理與職業道德",
+      "type": "single",
+      "stem": "下列何者非安全使用電腦內的個人資料檔案的做法？",
+      "options": {
+        "1": "利用帳號與密碼登入機制來管理可以存取個資者的人",
+        "2": "規範不同人員可讀取的個人資料檔案範圍",
+        "3": "個人資料檔案使用完畢後立即退出應用程式，不得留置於電腦中",
+        "4": "為確保重要的個人資料可即時取得，將登入密碼標示在螢幕下方"
+      },
+      "answer": [
+        "4"
+      ],
+      "appearances": [
+        {
+          "year": "111",
+          "session": 1,
+          "no": 38
+        },
+        {
+          "year": "113",
+          "session": 2,
+          "no": 25
+        }
+      ]
+    },
+    {
+      "id": "c-90007-009",
+      "category": "common",
+      "subject": "90007 工作倫理與職業道德",
+      "type": "single",
+      "stem": "下列何者行為非屬個人資料保護法所稱之國際傳輸？",
+      "options": {
+        "1": "將個人資料傳送給地方政府",
+        "2": "將個人資料傳送給美國的分公司",
+        "3": "將個人資料傳送給法國的人事部門",
+        "4": "將個人資料傳送給日本的委託公司"
+      },
+      "answer": [
+        "1"
+      ],
+      "appearances": []
+    },
+    {
+      "id": "c-90007-010",
+      "category": "common",
+      "subject": "90007 工作倫理與職業道德",
+      "type": "single",
+      "stem": "有關智慧財產權行為之敘述，下列何者有誤？",
+      "options": {
+        "1": "製造、販售仿冒註冊商標的商品雖已侵害商標權，但不屬於公訴罪之範疇",
+        "2": "以101大樓、美麗華百貨公司做為拍攝電影的背景，屬於合理使用的範圍",
+        "3": "原作者自行創作某音樂作品後，即可宣稱擁有該作品之著作權",
+        "4": "著作權是為促進文化發展為目的，所保護的財產權之一"
+      },
+      "answer": [
+        "1"
+      ],
+      "appearances": []
+    },
+    {
+      "id": "c-90007-011",
+      "category": "common",
+      "subject": "90007 工作倫理與職業道德",
+      "type": "single",
+      "stem": "專利權又可區分為發明、新型與設計三種專利權，其中發明專利權是否有保護期限？期限為何？",
+      "options": {
+        "1": "有，5年",
+        "2": "有，20年",
+        "3": "有，50年",
+        "4": "無期限，只要申請後就永久歸申請人所有"
+      },
+      "answer": [
+        "2"
+      ],
+      "appearances": [
+        {
+          "year": "114",
+          "session": 3,
+          "no": 20
+        }
+      ]
+    },
+    {
+      "id": "c-90007-012",
+      "category": "common",
+      "subject": "90007 工作倫理與職業道德",
+      "type": "single",
+      "stem": "受僱人於職務上所完成之著作，如果沒有特別以契約約定，其著作人為下列何者？",
+      "options": {
+        "1": "雇用人",
+        "2": "受僱人",
+        "3": "雇用公司或機關法人代表",
+        "4": "由雇用人指定之自然人或法人"
+      },
+      "answer": [
+        "2"
+      ],
+      "appearances": [
+        {
+          "year": "115",
+          "session": 1,
+          "no": 21
+        }
+      ]
+    },
+    {
+      "id": "c-90007-013",
+      "category": "common",
+      "subject": "90007 工作倫理與職業道德",
+      "type": "single",
+      "stem": "任職於某公司的程式設計工程師，因職務所編寫之電腦程式，如果沒有特別以契約約定，則該電腦程式之著作財產權歸屬下列何者？",
+      "options": {
+        "1": "公司",
+        "2": "編寫程式之工程師",
+        "3": "公司全體股東共有",
+        "4": "公司與編寫程式之工程師共有"
+      },
+      "answer": [
+        "1"
+      ],
+      "appearances": []
+    },
+    {
+      "id": "c-90007-014",
+      "category": "common",
+      "subject": "90007 工作倫理與職業道德",
+      "type": "single",
+      "stem": "某公司員工因執行業務，擅自以重製之方法侵害他人之著作財產權，若被害人提起告訴，下列對於處罰對象的敘述，何者正確？",
+      "options": {
+        "1": "僅處罰侵犯他人著作財產權之員工",
+        "2": "僅處罰雇用該名員工的公司",
+        "3": "該名員工及其雇主皆須受罰",
+        "4": "員工只要在從事侵犯他人著作財產權之行為前請示雇主並獲同意，便可以不受處罰"
+      },
+      "answer": [
+        "3"
+      ],
+      "appearances": []
+    },
+    {
+      "id": "c-90007-015",
+      "category": "common",
+      "subject": "90007 工作倫理與職業道德",
+      "type": "single",
+      "stem": "受僱人於職務上所完成之發明、新型或設計，其專利申請權及專利權如未特別約定屬於下列何者？",
+      "options": {
+        "1": "雇用人",
+        "2": "受僱人",
+        "3": "雇用人所指定之自然人或法人",
+        "4": "雇用人與受僱人共有"
+      },
+      "answer": [
+        "1"
+      ],
+      "appearances": []
+    },
+    {
+      "id": "c-90007-016",
+      "category": "common",
+      "subject": "90007 工作倫理與職業道德",
+      "type": "single",
+      "stem": "任職大發公司的郝聰明，專門從事技術研發，有關研發技術的專利申請權及專利權歸屬，下列敘述何者錯誤？",
+      "options": {
+        "1": "職務上所完成的發明，除契約另有約定外，專利申請權及專利權屬於大發公司",
+        "2": "職務上所完成的發明，雖然專利申請權及專利權屬於大發公司，但是郝聰明享有姓名表示權",
+        "3": "郝聰明完成非職務上的發明，應即以書面通知大發公司",
+        "4": "大發公司與郝聰明之雇傭契約約定，郝聰明非職務上的發明，全部屬於公司，約定有效"
+      },
+      "answer": [
+        "4"
+      ],
+      "appearances": [
+        {
+          "year": "114",
+          "session": 3,
+          "no": 55
+        }
+      ]
+    },
+    {
+      "id": "c-90007-017",
+      "category": "common",
+      "subject": "90007 工作倫理與職業道德",
+      "type": "single",
+      "stem": "有關著作權的敘述，下列何者錯誤？",
+      "options": {
+        "1": "我們到表演場所觀看表演時，不可隨便錄音或錄影",
+        "2": "到攝影展上，拿相機拍攝展示的作品，分贈給朋友，是侵害著作權的行為",
+        "3": "網路上供人下載的免費軟體，都不受著作權法保護，所以我可以燒成大補帖光碟，再去賣給別人",
+        "4": "高普考試題，不受著作權法保護"
+      },
+      "answer": [
+        "3"
+      ],
+      "appearances": []
+    },
+    {
+      "id": "c-90007-018",
+      "category": "common",
+      "subject": "90007 工作倫理與職業道德",
+      "type": "single",
+      "stem": "有關著作權的敘述，下列何者錯誤？",
+      "options": {
+        "1": "撰寫碩博士論文時，在合理範圍內引用他人的著作，只要註明出處，不會構成侵害著作權",
+        "2": "在網路散布盜版光碟，不管有沒有營利，會構成侵害著作權",
+        "3": "在網路的部落格看到一篇文章很棒，只要註明出處，就可以把文章複製在自己的部落格",
+        "4": "將補習班老師的上課內容錄音檔，放到網路上拍賣，會構成侵害著作權"
+      },
+      "answer": [
+        "3"
+      ],
+      "appearances": []
+    },
+    {
+      "id": "c-90007-019",
+      "category": "common",
+      "subject": "90007 工作倫理與職業道德",
+      "type": "single",
+      "stem": "有關商標權的敘述，下列何者錯誤？",
+      "options": {
+        "1": "要取得商標權一定要申請商標註冊",
+        "2": "商標註冊後可取得10年商標權",
+        "3": "商標註冊後，3年不使用，會被廢止商標權",
+        "4": "在夜市買的仿冒品，品質不好，上網拍賣，不會構成侵權"
+      },
+      "answer": [
+        "4"
+      ],
+      "appearances": []
+    },
+    {
+      "id": "c-90007-020",
+      "category": "common",
+      "subject": "90007 工作倫理與職業道德",
+      "type": "single",
+      "stem": "有關營業秘密的敘述，下列何者錯誤？",
+      "options": {
+        "1": "受雇人於非職務上研究或開發之營業秘密，仍歸雇用人所有",
+        "2": "營業秘密不得為質權及強制執行之標的",
+        "3": "營業秘密所有人得授權他人使用其營業秘密",
+        "4": "營業秘密得全部或部分讓與他人或與他人共有"
+      },
+      "answer": [
+        "1"
+      ],
+      "appearances": []
+    },
+    {
+      "id": "c-90007-021",
+      "category": "common",
+      "subject": "90007 工作倫理與職業道德",
+      "type": "single",
+      "stem": "甲公司將其新開發受營業秘密法保護之技術，授權乙公司使用，下列何者錯誤？",
+      "options": {
+        "1": "乙公司已獲授權，所以可以未經甲公司同意，再授權丙公司使用",
+        "2": "約定授權使用限於一定之地域、時間",
+        "3": "約定授權使用限於特定之內容、一定之使用方法",
+        "4": "要求被授權人乙公司在一定期間負有保密義務"
+      },
+      "answer": [
+        "1"
+      ],
+      "appearances": []
+    },
+    {
+      "id": "c-90007-022",
+      "category": "common",
+      "subject": "90007 工作倫理與職業道德",
+      "type": "single",
+      "stem": "甲公司嚴格保密之最新配方產品大賣，下列何者侵害甲公司之營業秘密？",
+      "options": {
+        "1": "鑑定人A因司法審理而知悉配方",
+        "2": "甲公司授權乙公司使用其配方",
+        "3": "甲公司之B員工擅自將配方盜賣給乙公司",
+        "4": "甲公司與乙公司協議共有配方"
+      },
+      "answer": [
+        "3"
+      ],
+      "appearances": []
+    },
+    {
+      "id": "c-90007-023",
+      "category": "common",
+      "subject": "90007 工作倫理與職業道德",
+      "type": "single",
+      "stem": "故意侵害他人之營業秘密，法院因被害人之請求，最高得酌定損害額幾倍之賠償？",
+      "options": {
+        "1": "1倍",
+        "2": "2倍",
+        "3": "3倍",
+        "4": "4倍"
+      },
+      "answer": [
+        "3"
+      ],
+      "appearances": [
+        {
+          "year": "110",
+          "session": 1,
+          "no": 42
+        }
+      ]
+    },
+    {
+      "id": "c-90007-024",
+      "category": "common",
+      "subject": "90007 工作倫理與職業道德",
+      "type": "single",
+      "stem": "受雇者因承辦業務而知悉營業秘密，在離職後對於該營業秘密的處理方式，下列敘述何者正確？",
+      "options": {
+        "1": "聘雇關係解除後便不再負有保障營業秘密之責",
+        "2": "僅能自用而不得販售獲取利益",
+        "3": "自離職日起3年後便不再負有保障營業秘密之責",
+        "4": "離職後仍不得洩漏該營業秘密"
+      },
+      "answer": [
+        "4"
+      ],
+      "appearances": [
+        {
+          "year": "109",
+          "session": 2,
+          "no": 14
+        },
+        {
+          "year": "112",
+          "session": 3,
+          "no": 43
+        },
+        {
+          "year": "113",
+          "session": 3,
+          "no": 60
+        }
+      ]
+    },
+    {
+      "id": "c-90007-025",
+      "category": "common",
+      "subject": "90007 工作倫理與職業道德",
+      "type": "single",
+      "stem": "按照現行法律規定，侵害他人營業秘密，其法律責任為",
+      "options": {
+        "1": "僅需負刑事責任",
+        "2": "僅需負民事損害賠償責任",
+        "3": "刑事責任與民事損害賠償責任皆須負擔",
+        "4": "刑事責任與民事損害賠償責任皆不須負擔"
+      },
+      "answer": [
+        "3"
+      ],
+      "appearances": [
+        {
+          "year": "114",
+          "session": "2颱風延期考區",
+          "no": 11
+        }
+      ]
+    },
+    {
+      "id": "c-90007-026",
+      "category": "common",
+      "subject": "90007 工作倫理與職業道德",
+      "type": "single",
+      "stem": "企業內部之營業秘密，可以概分為「商業性營業秘密」及「技術性營業秘密」二大類型，請問下列何者屬於「技術性營業秘密」？",
+      "options": {
+        "1": "人事管理",
+        "2": "經銷據點",
+        "3": "產品配方",
+        "4": "客戶名單"
+      },
+      "answer": [
+        "3"
+      ],
+      "appearances": []
+    },
+    {
+      "id": "c-90007-027",
+      "category": "common",
+      "subject": "90007 工作倫理與職業道德",
+      "type": "single",
+      "stem": "某離職同事請求在職員工將離職前所製作之某份文件傳送給他，請問下列回應方式何者正確？",
+      "options": {
+        "1": "由於該項文件係由該離職員工製作，因此可以傳送文件",
+        "2": "若其目的僅為保留檔案備份，便可以傳送文件",
+        "3": "可能構成對於營業秘密之侵害，應予拒絕並請他直接向公司提出請求",
+        "4": "視彼此交情決定是否傳送文件"
+      },
+      "answer": [
+        "3"
+      ],
+      "appearances": []
+    },
+    {
+      "id": "c-90007-028",
+      "category": "common",
+      "subject": "90007 工作倫理與職業道德",
+      "type": "single",
+      "stem": "行為人以竊取等不正當方法取得營業秘密，下列敘述何者正確？",
+      "options": {
+        "1": "已構成犯罪",
+        "2": "只要後續沒有洩漏便不構成犯罪",
+        "3": "只要後續沒有出現使用之行為便不構成犯罪",
+        "4": "只要後續沒有造成所有人之損害便不構成犯罪"
+      },
+      "answer": [
+        "1"
+      ],
+      "appearances": [
+        {
+          "year": "115",
+          "session": 2,
+          "no": 42
+        },
+        {
+          "year": "115",
+          "session": 2,
+          "no": 49
+        }
+      ]
+    },
+    {
+      "id": "c-90007-029",
+      "category": "common",
+      "subject": "90007 工作倫理與職業道德",
+      "type": "single",
+      "stem": "針對在我國境內竊取營業秘密後，意圖在外國、中國大陸或港澳地區使用者，營業秘密法是否可以適用？",
+      "options": {
+        "1": "無法適用",
+        "2": "可以適用，但若屬未遂犯則不罰",
+        "3": "可以適用並加重其刑",
+        "4": "能否適用需視該國家或地區與我國是否簽訂相互保護營業秘密之條約或協定"
+      },
+      "answer": [
+        "3"
+      ],
+      "appearances": [
+        {
+          "year": "109",
+          "session": 2,
+          "no": 8
+        }
+      ]
+    },
+    {
+      "id": "c-90007-030",
+      "category": "common",
+      "subject": "90007 工作倫理與職業道德",
+      "type": "single",
+      "stem": "所謂營業秘密，係指方法、技術、製程、配方、程式、設計或其他可用於生產、銷售或經營之資訊，但其保障所需符合的要件不包括下列何者？",
+      "options": {
+        "1": "因其秘密性而具有實際之經濟價值者",
+        "2": "所有人已採取合理之保密措施者",
+        "3": "因其秘密性而具有潛在之經濟價值者",
+        "4": "一般涉及該類資訊之人所知者"
+      },
+      "answer": [
+        "4"
+      ],
+      "appearances": [
+        {
+          "year": "114",
+          "session": "2颱風延期考區",
+          "no": 45
+        },
+        {
+          "year": "108",
+          "session": 3,
+          "no": 3
+        }
+      ]
+    },
+    {
+      "id": "c-90007-031",
+      "category": "common",
+      "subject": "90007 工作倫理與職業道德",
+      "type": "single",
+      "stem": "因故意或過失而不法侵害他人之營業秘密者，負損害賠償責任該損害賠償之請求權，自請求權人知有行為及賠償義務人時起，幾年間不行使就會消滅？",
+      "options": {
+        "1": "2年",
+        "2": "5年",
+        "3": "7年",
+        "4": "10年"
+      },
+      "answer": [
+        "1"
+      ],
+      "appearances": [
+        {
+          "year": "110",
+          "session": 1,
+          "no": 19
+        },
+        {
+          "year": "114",
+          "session": "2颱風延期考區",
+          "no": 14
+        }
+      ]
+    },
+    {
+      "id": "c-90007-032",
+      "category": "common",
+      "subject": "90007 工作倫理與職業道德",
+      "type": "single",
+      "stem": "公司負責人為了要節省開銷，將員工薪資以高報低來投保全民健保及勞保，是觸犯了刑法上之何種罪刑？",
+      "options": {
+        "1": "詐欺罪",
+        "2": "侵占罪",
+        "3": "背信罪",
+        "4": "工商秘密罪"
+      },
+      "answer": [
+        "1"
+      ],
+      "appearances": []
+    },
+    {
+      "id": "c-90007-033",
+      "category": "common",
+      "subject": "90007 工作倫理與職業道德",
+      "type": "single",
+      "stem": "A受僱於公司擔任會計，因自己的財務陷入危機，多次將公司帳款轉入妻兒戶頭，是觸犯了刑法上之何種罪刑？",
+      "options": {
+        "1": "洩漏工商秘密罪",
+        "2": "侵占罪",
+        "3": "詐欺罪",
+        "4": "偽造文書罪"
+      },
+      "answer": [
+        "2"
+      ],
+      "appearances": [
+        {
+          "year": "111",
+          "session": 2,
+          "no": 22
+        },
+        {
+          "year": "110",
+          "session": 2,
+          "no": 11
+        },
+        {
+          "year": "111",
+          "session": 3,
+          "no": 10
+        },
+        {
+          "year": "113",
+          "session": 3,
+          "no": 15
+        }
+      ]
+    },
+    {
+      "id": "c-90007-034",
+      "category": "common",
+      "subject": "90007 工作倫理與職業道德",
+      "type": "single",
+      "stem": "某甲於公司擔任業務經理時，未依規定經董事會同意，私自與自己親友之公司訂定生意合約，會觸犯下列何種罪刑？",
+      "options": {
+        "1": "侵占罪",
+        "2": "貪污罪",
+        "3": "背信罪",
+        "4": "詐欺罪"
+      },
+      "answer": [
+        "3"
+      ],
+      "appearances": [
+        {
+          "year": "113",
+          "session": 1,
+          "no": 49
+        }
+      ]
+    },
+    {
+      "id": "c-90007-035",
+      "category": "common",
+      "subject": "90007 工作倫理與職業道德",
+      "type": "single",
+      "stem": "如果你擔任公司採購的職務，親朋好友們會向你推銷自家的產品，希望你要採購時，你應該",
+      "options": {
+        "1": "適時地婉拒，說明利益需要迴避的考量，請他們見諒",
+        "2": "既然是親朋好友，就應該互相幫忙",
+        "3": "建議親朋好友將產品折扣，折扣部分歸於自己，就會採購",
+        "4": "可以暗中地幫忙親朋好友，進行採購，不要被發現有親友關係便可"
+      },
+      "answer": [
+        "1"
+      ],
+      "appearances": []
+    },
+    {
+      "id": "c-90007-036",
+      "category": "common",
+      "subject": "90007 工作倫理與職業道德",
+      "type": "single",
+      "stem": "小美是公司的業務經理，有一天巧遇國中同班的死黨小林，發現他是公司的下游廠商老闆。最近小美處理一件公司的招標案件，小林的公司也在其中，私下約小美見面，請求她提供這次招標案的底標，並馬上要給予幾十萬元的前謝金，請問小美該怎麼辦？",
+      "options": {
+        "1": "退回錢，並告訴小林都是老朋友，一定會全力幫忙",
+        "2": "收下錢，將錢拿出來給單位同事們分紅",
+        "3": "應該堅決拒絕，並避免每次見面都與小林談論相關業務問題",
+        "4": "朋友一場，給他一個比較接近底標的金額，反正又不是正確的，所以沒關係"
+      },
+      "answer": [
+        "3"
+      ],
+      "appearances": [
+        {
+          "year": "109",
+          "session": 1,
+          "no": 49
+        },
+        {
+          "year": "108",
+          "session": 1,
+          "no": 32
+        }
+      ]
+    },
+    {
+      "id": "c-90007-037",
+      "category": "common",
+      "subject": "90007 工作倫理與職業道德",
+      "type": "single",
+      "stem": "公司發給每人一台平板電腦提供業務上使用，但是發現根本很少在使用，為了讓它有效的利用，所以將它拿回家給親人使用，這樣的行為是",
+      "options": {
+        "1": "可以的，這樣就不用花錢買",
+        "2": "可以的，反正放在那裡不用它，也是浪費資源",
+        "3": "不可以的，因為這是公司的財產，不能私用",
+        "4": "不可以的，因為使用年限未到，如果年限到報廢了，便可以拿回家"
+      },
+      "answer": [
+        "3"
+      ],
+      "appearances": []
+    },
+    {
+      "id": "c-90007-038",
+      "category": "common",
+      "subject": "90007 工作倫理與職業道德",
+      "type": "single",
+      "stem": "公司的車子，假日又沒人使用，你是鑰匙保管者，請問假日可以開出去嗎？",
+      "options": {
+        "1": "可以，只要付費加油即可",
+        "2": "可以，反正假日不影響公務",
+        "3": "不可以，因為是公司的，並非私人擁有",
+        "4": "不可以，應該是讓公司想要使用的員工，輪流使用才可"
+      },
+      "answer": [
+        "3"
+      ],
+      "appearances": []
+    },
+    {
+      "id": "c-90007-039",
+      "category": "common",
+      "subject": "90007 工作倫理與職業道德",
+      "type": "single",
+      "stem": "阿哲是財經線的新聞記者，某次採訪中得知A公司在一個月內將有一個大的併購案，這個併購案顯示公司的財力，且能讓A公司股價往上飆升。請問阿哲得知此消息後，可以立刻購買該公司的股票嗎？",
+      "options": {
+        "1": "可以，有錢大家賺",
+        "2": "可以，這是我努力獲得的消息",
+        "3": "可以，不賺白不賺",
+        "4": "不可以，屬於內線消息，必須保持記者之操守，不得洩漏"
+      },
+      "answer": [
+        "4"
+      ],
+      "appearances": [
+        {
+          "year": "111",
+          "session": 1,
+          "no": 23
+        },
+        {
+          "year": "111",
+          "session": 2,
+          "no": 26
+        }
+      ]
+    },
+    {
+      "id": "c-90007-040",
+      "category": "common",
+      "subject": "90007 工作倫理與職業道德",
+      "type": "single",
+      "stem": "與公務機關接洽業務時，下列敘述何者正確？",
+      "options": {
+        "1": "沒有要求公務員違背職務，花錢疏通而已，並不違法",
+        "2": "唆使公務機關承辦採購人員配合浮報價額，僅屬偽造文書行為",
+        "3": "口頭允諾行賄金額但還沒送錢，尚不構成犯罪",
+        "4": "與公務員同謀之共犯，即便不具公務員身分，仍可依據貪污治罪條例處刑"
+      },
+      "answer": [
+        "4"
+      ],
+      "appearances": []
+    },
+    {
+      "id": "c-90007-041",
+      "category": "common",
+      "subject": "90007 工作倫理與職業道德",
+      "type": "single",
+      "stem": "與公務機關有業務往來構成職務利害關係者，下列敘述何者正確？",
+      "options": {
+        "1": "將餽贈之財物請公務員父母代轉，該公務員亦已違反規定",
+        "2": "與公務機關承辦人飲宴應酬為增進基本關係的必要方法",
+        "3": "高級茶葉低價售予有利害關係之承辦公務員，有價購行為就不算違反法規",
+        "4": "機關公務員藉子女婚宴廣邀業務往來廠商之行為，並無不妥"
+      },
+      "answer": [
+        "1"
+      ],
+      "appearances": []
+    },
+    {
+      "id": "c-90007-042",
+      "category": "common",
+      "subject": "90007 工作倫理與職業道德",
+      "type": "single",
+      "stem": "廠商某甲承攬公共工程，工程進行期間，甲與其工程人員經常招待該公共工程委辦機關之監工及驗收之公務員喝花酒或招待出國旅遊，下列敘述何者正確？",
+      "options": {
+        "1": "公務員若沒有收現金，就沒有罪",
+        "2": "只要工程沒有問題，某甲與監工及驗收等相關公務員就沒有犯罪",
+        "3": "因為不是送錢，所以都沒有犯罪",
+        "4": "某甲與相關公務員均已涉嫌觸犯貪污治罪條例"
+      },
+      "answer": [
+        "4"
+      ],
+      "appearances": []
+    },
+    {
+      "id": "c-90007-043",
+      "category": "common",
+      "subject": "90007 工作倫理與職業道德",
+      "type": "single",
+      "stem": "行（受）賄罪成立要素之一為具有對價關係，而作為公務員職務之對價有「賄賂」或「不正利益」，下列何者不屬於「賄賂」或「不正利益」？",
+      "options": {
+        "1": "開工邀請公務員觀禮",
+        "2": "送百貨公司大額禮券",
+        "3": "免除債務",
+        "4": "招待吃米其林等級之高檔大餐"
+      },
+      "answer": [
+        "1"
+      ],
+      "appearances": [
+        {
+          "year": "114",
+          "session": 2,
+          "no": 42
+        },
+        {
+          "year": "114",
+          "session": 2,
+          "no": 21
+        }
+      ]
+    },
+    {
+      "id": "c-90007-044",
+      "category": "common",
+      "subject": "90007 工作倫理與職業道德",
+      "type": "single",
+      "stem": "下列有關貪腐的敘述何者錯誤？",
+      "options": {
+        "1": "貪腐會危害永續發展和法治",
+        "2": "貪腐會破壞民主體制及價值觀",
+        "3": "貪腐會破壞倫理道德與正義",
+        "4": "貪腐有助降低企業的經營成本"
+      },
+      "answer": [
+        "4"
+      ],
+      "appearances": [
+        {
+          "year": "113",
+          "session": 2,
+          "no": 40
+        },
+        {
+          "year": "113",
+          "session": 3,
+          "no": 24
+        }
+      ]
+    },
+    {
+      "id": "c-90007-045",
+      "category": "common",
+      "subject": "90007 工作倫理與職業道德",
+      "type": "single",
+      "stem": "下列何者不是設置反貪腐專責機構須具備的必要條件？",
+      "options": {
+        "1": "賦予該機構必要的獨立性",
+        "2": "使該機構的工作人員行使職權不會受到不當干預",
+        "3": "提供該機構必要的資源、專職工作人員及必要培訓",
+        "4": "賦予該機構的工作人員有權力可隨時逮捕貪污嫌疑人"
+      },
+      "answer": [
+        "4"
+      ],
+      "appearances": []
+    },
+    {
+      "id": "c-90007-046",
+      "category": "common",
+      "subject": "90007 工作倫理與職業道德",
+      "type": "single",
+      "stem": "檢舉人向有偵查權機關或政風機構檢舉貪污瀆職，必須於何時為之始可能給與獎金？",
+      "options": {
+        "1": "犯罪未起訴前",
+        "2": "犯罪未發覺前",
+        "3": "犯罪未遂前",
+        "4": "預備犯罪前"
+      },
+      "answer": [
+        "2"
+      ],
+      "appearances": [
+        {
+          "year": "107",
+          "session": 2,
+          "no": 24
+        },
+        {
+          "year": "107",
+          "session": 1,
+          "no": 49
+        }
+      ]
+    },
+    {
+      "id": "c-90007-047",
+      "category": "common",
+      "subject": "90007 工作倫理與職業道德",
+      "type": "single",
+      "stem": "檢舉人應以何種方式檢舉貪污瀆職始能核給獎金？",
+      "options": {
+        "1": "匿名",
+        "2": "委託他人檢舉",
+        "3": "以真實姓名檢舉",
+        "4": "以他人名義檢舉"
+      },
+      "answer": [
+        "3"
+      ],
+      "appearances": [
+        {
+          "year": "109",
+          "session": 3,
+          "no": 18
+        },
+        {
+          "year": "111",
+          "session": 2,
+          "no": 12
+        },
+        {
+          "year": "112",
+          "session": 3,
+          "no": 60
+        },
+        {
+          "year": "114",
+          "session": 2,
+          "no": 3
+        }
+      ]
+    },
+    {
+      "id": "c-90007-048",
+      "category": "common",
+      "subject": "90007 工作倫理與職業道德",
+      "type": "single",
+      "stem": "我國制定何種法律以保護刑事案件之證人，使其勇於出面作證，俾利犯罪之偵查、審判？",
+      "options": {
+        "1": "貪污治罪條例",
+        "2": "刑事訴訟法",
+        "3": "行政程序法",
+        "4": "證人保護法"
+      },
+      "answer": [
+        "4"
+      ],
+      "appearances": [
+        {
+          "year": "112",
+          "session": 2,
+          "no": 34
+        }
+      ]
+    },
+    {
+      "id": "c-90007-049",
+      "category": "common",
+      "subject": "90007 工作倫理與職業道德",
+      "type": "single",
+      "stem": "下列何者非屬公司對於企業社會責任實踐之原則？",
+      "options": {
+        "1": "加強個人資料揭露",
+        "2": "維護社會公益",
+        "3": "發展永續環境",
+        "4": "落實公司治理"
+      },
+      "answer": [
+        "1"
+      ],
+      "appearances": []
+    },
+    {
+      "id": "c-90007-050",
+      "category": "common",
+      "subject": "90007 工作倫理與職業道德",
+      "type": "single",
+      "stem": "下列何者並不屬於「職業素養」規範中的範疇？",
+      "options": {
+        "1": "增進自我獲利的能力",
+        "2": "擁有正確的職業價值觀",
+        "3": "積極進取職業的知識技能",
+        "4": "具備良好的職業行為習慣"
+      },
+      "answer": [
+        "1"
+      ],
+      "appearances": []
+    },
+    {
+      "id": "c-90007-051",
+      "category": "common",
+      "subject": "90007 工作倫理與職業道德",
+      "type": "single",
+      "stem": "下列何者符合專業人員的職業道德？",
+      "options": {
+        "1": "未經雇主同意，於上班時間從事私人事務",
+        "2": "利用雇主的機具設備私自接單生產",
+        "3": "未經顧客同意，任意散佈或利用顧客資料",
+        "4": "盡力維護雇主及客戶的權益"
+      },
+      "answer": [
+        "4"
+      ],
+      "appearances": [
+        {
+          "year": "107",
+          "session": 2,
+          "no": 49
+        },
+        {
+          "year": "110",
+          "session": 2,
+          "no": 2
+        },
+        {
+          "year": "114",
+          "session": 3,
+          "no": 53
+        }
+      ]
+    },
+    {
+      "id": "c-90007-052",
+      "category": "common",
+      "subject": "90007 工作倫理與職業道德",
+      "type": "single",
+      "stem": "身為公司員工必須維護公司利益，下列何者是正確的工作態度或行為？",
+      "options": {
+        "1": "將公司逾期的產品更改標籤",
+        "2": "施工時以省時、省料為獲利首要考量，不顧品質",
+        "3": "服務時優先考量公司的利益，顧客權益次之",
+        "4": "工作時謹守本分，以積極態度解決問題"
+      },
+      "answer": [
+        "4"
+      ],
+      "appearances": []
+    },
+    {
+      "id": "c-90007-053",
+      "category": "common",
+      "subject": "90007 工作倫理與職業道德",
+      "type": "single",
+      "stem": "身為專業技術工作人士，應以何種認知及態度服務客戶？",
+      "options": {
+        "1": "若客戶不瞭解，就儘量減少成本支出，抬高報價",
+        "2": "遇到維修問題，儘量拖過保固期",
+        "3": "主動告知可能碰到問題及預防方法",
+        "4": "隨著個人心情來提供服務的內容及品質"
+      },
+      "answer": [
+        "3"
+      ],
+      "appearances": [
+        {
+          "year": "114",
+          "session": "2颱風延期考區",
+          "no": 8
+        }
+      ]
+    },
+    {
+      "id": "c-90007-054",
+      "category": "common",
+      "subject": "90007 工作倫理與職業道德",
+      "type": "single",
+      "stem": "因為工作本身需要高度專業技術及知識，所以在對客戶服務時應如何？",
+      "options": {
+        "1": "不用理會顧客的意見",
+        "2": "保持親切、真誠、客戶至上的態度",
+        "3": "若價錢較低，就敷衍了事",
+        "4": "以專業機密為由，不用對客戶說明及解釋"
+      },
+      "answer": [
+        "2"
+      ],
+      "appearances": [
+        {
+          "year": "115",
+          "session": 2,
+          "no": 35
+        }
+      ]
+    },
+    {
+      "id": "c-90007-055",
+      "category": "common",
+      "subject": "90007 工作倫理與職業道德",
+      "type": "single",
+      "stem": "從事專業性工作，在與客戶約定時間應",
+      "options": {
+        "1": "保持彈性，任意調整",
+        "2": "儘可能準時，依約定時間完成工作",
+        "3": "能拖就拖，能改就改",
+        "4": "自己方便就好，不必理會客戶的要求"
+      },
+      "answer": [
+        "2"
+      ],
+      "appearances": [
+        {
+          "year": "111",
+          "session": 3,
+          "no": 41
+        },
+        {
+          "year": "112",
+          "session": 1,
+          "no": 58
+        }
+      ]
+    },
+    {
+      "id": "c-90007-056",
+      "category": "common",
+      "subject": "90007 工作倫理與職業道德",
+      "type": "single",
+      "stem": "從事專業性工作，在服務顧客時應有的態度為何？",
+      "options": {
+        "1": "選擇最安全、經濟及有效的方法完成工作",
+        "2": "選擇工時較長、獲利較多的方法服務客戶",
+        "3": "為了降低成本，可以降低安全標準",
+        "4": "不必顧及雇主和顧客的立場"
+      },
+      "answer": [
+        "1"
+      ],
+      "appearances": [
+        {
+          "year": "114",
+          "session": "2颱風延期考區",
+          "no": 1
+        }
+      ]
+    },
+    {
+      "id": "c-90007-057",
+      "category": "common",
+      "subject": "90007 工作倫理與職業道德",
+      "type": "single",
+      "stem": "以下哪一項員工的作為符合敬業精神？",
+      "options": {
+        "1": "利用正常工作時間從事私人事務",
+        "2": "運用雇主的資源，從事個人工作",
+        "3": "未經雇主同意擅離工作崗位",
+        "4": "謹守職場紀律及禮節，尊重客戶隱私"
+      },
+      "answer": [
+        "4"
+      ],
+      "appearances": []
+    },
+    {
+      "id": "c-90007-058",
+      "category": "common",
+      "subject": "90007 工作倫理與職業道德",
+      "type": "single",
+      "stem": "小張獲選為小孩學校的家長會長，這個月要召開會議，沒時間準備資料，所以，利用上班期間有空檔非休息時間來完成，請問是否可以？",
+      "options": {
+        "1": "可以，因為不耽誤他的工作",
+        "2": "可以，因為他能力好，能夠同時完成很多事",
+        "3": "不可以，因為這是私事，不可以利用上班時間完成",
+        "4": "可以，只要不要被發現"
+      },
+      "answer": [
+        "3"
+      ],
+      "appearances": []
+    },
+    {
+      "id": "c-90007-059",
+      "category": "common",
+      "subject": "90007 工作倫理與職業道德",
+      "type": "single",
+      "stem": "小吳是公司的專用司機，為了能夠隨時用車，經過公司同意，每晚都將公司的車開回家，然而，他發現反正每天上班路線，都要經過女兒學校，就順便載女兒上學，請問可以嗎？",
+      "options": {
+        "1": "可以，反正順路",
+        "2": "不可以，這是公司的車不能私用",
+        "3": "可以，只要不被公司發現即可",
+        "4": "可以，要資源須有效使用"
+      },
+      "answer": [
+        "2"
+      ],
+      "appearances": [
+        {
+          "year": "110",
+          "session": 1,
+          "no": 36
+        },
+        {
+          "year": "109",
+          "session": 3,
+          "no": 10
+        }
+      ]
+    },
+    {
+      "id": "c-90007-060",
+      "category": "common",
+      "subject": "90007 工作倫理與職業道德",
+      "type": "single",
+      "stem": "小江是職場上的新鮮人，剛進公司不久，他應該具備怎樣的態度？",
+      "options": {
+        "1": "上班、下班，管好自己便可",
+        "2": "仔細觀察公司生態，加入某些小團體，以做為後盾",
+        "3": "只要做好人脈關係，這樣以後就好辦事",
+        "4": "努力做好自己職掌的業務，樂於工作，與同事之間有良好的互動，相互協助"
+      },
+      "answer": [
+        "4"
+      ],
+      "appearances": []
+    },
+    {
+      "id": "c-90007-061",
+      "category": "common",
+      "subject": "90007 工作倫理與職業道德",
+      "type": "single",
+      "stem": "在公司內部行使商務禮儀的過程，主要以參與者在公司中的何種條件來訂定順序？",
+      "options": {
+        "1": "年齡",
+        "2": "性別",
+        "3": "社會地位",
+        "4": "職位"
+      },
+      "answer": [
+        "4"
+      ],
+      "appearances": [
+        {
+          "year": "111",
+          "session": 3,
+          "no": 46
+        },
+        {
+          "year": "114",
+          "session": "2颱風延期考區",
+          "no": 53
+        }
+      ]
+    },
+    {
+      "id": "c-90007-062",
+      "category": "common",
+      "subject": "90007 工作倫理與職業道德",
+      "type": "single",
+      "stem": "一位職場新鮮人剛進公司時，良好的工作態度是",
+      "options": {
+        "1": "多觀察、多學習，了解企業文化和價值觀",
+        "2": "多打聽哪一個部門比較輕鬆，升遷機會較多",
+        "3": "多探聽哪一個公司在找人，隨時準備跳槽走人",
+        "4": "多遊走各部門認識同事，建立自己的小圈圈"
+      },
+      "answer": [
+        "1"
+      ],
+      "appearances": []
+    },
+    {
+      "id": "c-90007-063",
+      "category": "common",
+      "subject": "90007 工作倫理與職業道德",
+      "type": "single",
+      "stem": "根據消除對婦女一切形式歧視公約(CEDAW)，下列何者正確？",
+      "options": {
+        "1": "對婦女的歧視指基於性別而作的任何區別、排斥或限制",
+        "2": "只關心女性在政治方面的人權和基本自由",
+        "3": "未要求政府需消除個人或企業對女性的歧視",
+        "4": "傳統習俗應予保護及傳承，即使含有歧視女性的部分，也不可以改變"
+      },
+      "answer": [
+        "1"
+      ],
+      "appearances": []
+    },
+    {
+      "id": "c-90007-064",
+      "category": "common",
+      "subject": "90007 工作倫理與職業道德",
+      "type": "single",
+      "stem": "某規範明定地政機關進用女性測量助理名額，不得超過該機關測量助理名額總數二分之一，根據消除對婦女一切形式歧視公約(CEDAW)，下列何者正確？",
+      "options": {
+        "1": "限制女性測量助理人數比例，屬於直接歧視",
+        "2": "土地測量經常在戶外工作，基於保護女性所作的限制，不屬性別歧視",
+        "3": "此項二分之一規定是為促進男女比例平衡",
+        "4": "此限制是為確保機關業務順暢推動，並未歧視女性"
+      },
+      "answer": [
+        "1"
+      ],
+      "appearances": []
+    },
+    {
+      "id": "c-90007-065",
+      "category": "common",
+      "subject": "90007 工作倫理與職業道德",
+      "type": "single",
+      "stem": "根據消除對婦女一切形式歧視公約(CEDAW)之間接歧視意涵，下列何者錯誤？",
+      "options": {
+        "1": "一項法律、政策、方案或措施表面上對男性和女性無任何歧視，但實際上卻產生歧視女性的效果",
+        "2": "察覺間接歧視的一個方法，是善加利用性別統計與性別分析",
+        "3": "如果未正視歧視之結構和歷史模式，及忽略男女權力關係之不平等，可能使現有不平等狀況更為惡化",
+        "4": "不論在任何情況下，只要以相同方式對待男性和女性，就能避免間接歧視之產生"
+      },
+      "answer": [
+        "4"
+      ],
+      "appearances": [
+        {
+          "year": "108",
+          "session": 2,
+          "no": 8
+        },
+        {
+          "year": "111",
+          "session": 2,
+          "no": 50
+        }
+      ]
+    },
+    {
+      "id": "c-90007-066",
+      "category": "common",
+      "subject": "90007 工作倫理與職業道德",
+      "type": "single",
+      "stem": "下列何者不是菸害防制法之立法目的？",
+      "options": {
+        "1": "防制菸害",
+        "2": "保護未成年免於菸害",
+        "3": "保護孕婦免於菸害",
+        "4": "促進菸品的使用"
+      },
+      "answer": [
+        "4"
+      ],
+      "appearances": []
+    },
+    {
+      "id": "c-90007-067",
+      "category": "common",
+      "subject": "90007 工作倫理與職業道德",
+      "type": "single",
+      "stem": "按菸害防制法規定，在禁菸場所吸菸會被罰多少錢？",
+      "options": {
+        "1": "新臺幣2千元至1萬元罰鍰",
+        "2": "新臺幣1千元至5千元罰鍰",
+        "3": "新臺幣1萬元至5萬元罰鍰",
+        "4": "新臺幣2萬元至10萬元罰鍰"
+      },
+      "answer": [
+        "1"
+      ],
+      "appearances": []
+    },
+    {
+      "id": "c-90007-068",
+      "category": "common",
+      "subject": "90007 工作倫理與職業道德",
+      "type": "single",
+      "stem": "請問下列何者不是個人資料保護法所定義的個人資料？",
+      "options": {
+        "1": "身分證號碼",
+        "2": "最高學歷",
+        "3": "職稱",
+        "4": "護照號碼"
+      },
+      "answer": [
+        "3"
+      ],
+      "appearances": [
+        {
+          "year": "115",
+          "session": 2,
+          "no": 55
+        }
+      ]
+    },
+    {
+      "id": "c-90007-069",
+      "category": "common",
+      "subject": "90007 工作倫理與職業道德",
+      "type": "single",
+      "stem": "有關專利權的敘述，下列何者正確？",
+      "options": {
+        "1": "專利有規定保護年限，當某商品、技術的專利保護年限屆滿，任何人皆可免費運用該項專利",
+        "2": "我發明了某項商品，卻被他人率先申請專利權，我仍可主張擁有這項商品的專利權",
+        "3": "製造方法可以申請新型專利權",
+        "4": "在本國申請專利之商品進軍國外，不需向他國申請專利權"
+      },
+      "answer": [
+        "1"
+      ],
+      "appearances": []
+    },
+    {
+      "id": "c-90007-070",
+      "category": "common",
+      "subject": "90007 工作倫理與職業道德",
+      "type": "single",
+      "stem": "下列何者行為會有侵害著作權的問題？",
+      "options": {
+        "1": "將報導事件事實的新聞文字轉貼於自己的社群網站",
+        "2": "直接轉貼高普考考古題在FACEBOOK",
+        "3": "以分享網址的方式轉貼資訊分享於社群網站",
+        "4": "將講師的授課內容錄音，複製多份分贈友人"
+      },
+      "answer": [
+        "4"
+      ],
+      "appearances": []
+    },
+    {
+      "id": "c-90007-071",
+      "category": "common",
+      "subject": "90007 工作倫理與職業道德",
+      "type": "single",
+      "stem": "有關著作權之概念，下列何者正確？",
+      "options": {
+        "1": "國外學者之著作，可受我國著作權法的保護",
+        "2": "公務機關所函頒之公文，受我國著作權法的保護",
+        "3": "著作權要待向智慧財產權申請通過後才可主張",
+        "4": "以傳達事實之新聞報導的語文著作，依然受著作權之保障"
+      },
+      "answer": [
+        "1"
+      ],
+      "appearances": []
+    },
+    {
+      "id": "c-90007-072",
+      "category": "common",
+      "subject": "90007 工作倫理與職業道德",
+      "type": "single",
+      "stem": "某廠商之商標在我國已經獲准註冊，請問若希望將商品行銷販賣到國外，請問是否需在當地申請註冊才能主張商標權？",
+      "options": {
+        "1": "是，因為商標權註冊採取屬地保護原則",
+        "2": "否，因為我國申請註冊之商標權在國外也會受到承認",
+        "3": "不一定，需視我國是否與商品希望行銷販賣的國家訂有相互商標承認之協定",
+        "4": "不一定，需視商品希望行銷販賣的國家是否為WTO會員國"
+      },
+      "answer": [
+        "1"
+      ],
+      "appearances": [
+        {
+          "year": "113",
+          "session": 1,
+          "no": 42
+        }
+      ]
+    },
+    {
+      "id": "c-90007-073",
+      "category": "common",
+      "subject": "90007 工作倫理與職業道德",
+      "type": "single",
+      "stem": "下列何者不屬於營業秘密？",
+      "options": {
+        "1": "具廣告性質的不動產交易底價",
+        "2": "須授權取得之產品設計或開發流程圖示",
+        "3": "公司內部管制的各種計畫方案",
+        "4": "不是公開可查知的客戶名單分析資料"
+      },
+      "answer": [
+        "1"
+      ],
+      "appearances": []
+    },
+    {
+      "id": "c-90007-074",
+      "category": "common",
+      "subject": "90007 工作倫理與職業道德",
+      "type": "single",
+      "stem": "營業秘密可分為「技術機密」與「商業機密」，下列何者屬於「商業機密」？",
+      "options": {
+        "1": "程式",
+        "2": "設計圖",
+        "3": "商業策略",
+        "4": "生產製程"
+      },
+      "answer": [
+        "3"
+      ],
+      "appearances": [
+        {
+          "year": "113",
+          "session": 2,
+          "no": 6
+        },
+        {
+          "year": "114",
+          "session": 1,
+          "no": 52
+        }
+      ]
+    },
+    {
+      "id": "c-90007-075",
+      "category": "common",
+      "subject": "90007 工作倫理與職業道德",
+      "type": "single",
+      "stem": "某甲在公務機關擔任首長，其弟弟乙是某協會的理事長，乙為舉辦協會活動，決定向甲服務的機關申請經費補助，下列有關利益衝突迴避之敘述，何者正確？",
+      "options": {
+        "1": "協會是舉辦慈善活動，甲認為是好事，所以指示機關承辦人補助活動經費",
+        "2": "機關未經公開公平方式，私下直接對協會補助活動經費新臺幣10萬元",
+        "3": "甲應自行迴避該案審查，避免瓜田李下，防止利益衝突",
+        "4": "乙為順利取得補助，應該隱瞞是機關首長甲之弟弟的身分"
+      },
+      "answer": [
+        "3"
+      ],
+      "appearances": []
+    },
+    {
+      "id": "c-90007-076",
+      "category": "common",
+      "subject": "90007 工作倫理與職業道德",
+      "type": "single",
+      "stem": "依公職人員利益衝突迴避法規定，公職人員甲與其小舅子乙（二親等以內的關係人）間，下列何種行為不違反該法？",
+      "options": {
+        "1": "甲要求受其監督之機關聘用小舅子乙",
+        "2": "小舅子乙以請託關說之方式，請求甲之服務機關通過其名下農地變更使用申請案",
+        "3": "關係人乙經政府採購法公開招標程序，並主動在投標文件表明與甲的身分關係，取得甲服務機關之年度採購標案",
+        "4": "甲、乙兩人均自認為人公正，處事坦蕩，任何往來都是清者自清，不需擔心任何問題"
+      },
+      "answer": [
+        "3"
+      ],
+      "appearances": [
+        {
+          "year": "115",
+          "session": 2,
+          "no": 47
+        }
+      ]
+    },
+    {
+      "id": "c-90007-077",
+      "category": "common",
+      "subject": "90007 工作倫理與職業道德",
+      "type": "single",
+      "stem": "大雄擔任公司部門主管，代表公司向公務機關投標，為使公司順利取得標案，可以向公務機關的採購人員為以下何種行為？",
+      "options": {
+        "1": "為社交禮俗需要，贈送價值昂貴的名牌手錶作為見面禮",
+        "2": "為與公務機關間有良好互動，招待至有女陪侍場所飲宴",
+        "3": "為了解招標文件內容，提出招標文件疑義並請說明",
+        "4": "為避免報價錯誤，要求提供底價作為參考"
+      },
+      "answer": [
+        "3"
+      ],
+      "appearances": [
+        {
+          "year": "114",
+          "session": 1,
+          "no": 25
+        }
+      ]
+    },
+    {
+      "id": "c-90007-078",
+      "category": "common",
+      "subject": "90007 工作倫理與職業道德",
+      "type": "single",
+      "stem": "下列關於政府採購人員之敘述，何者未違反相關規定？",
+      "options": {
+        "1": "非主動向廠商求取，是偶發地收到廠商致贈價值在新臺幣500元以下之廣告物、促銷品、紀念品",
+        "2": "要求廠商提供與採購無關之額外服務",
+        "3": "利用職務關係向廠商借貸",
+        "4": "利用職務關係媒介親友至廠商處所任職"
+      },
+      "answer": [
+        "1"
+      ],
+      "appearances": []
+    },
+    {
+      "id": "c-90007-079",
+      "category": "common",
+      "subject": "90007 工作倫理與職業道德",
+      "type": "single",
+      "stem": "下列敘述何者錯誤？",
+      "options": {
+        "1": "憲法保障言論自由，但散布假新聞、假消息仍須面對法律責任",
+        "2": "在網路或Line社群網站收到假訊息，可以敘明案情並附加截圖檔，向法務部調查局檢舉",
+        "3": "對新聞媒體報導有意見，向國家通訊傳播委員會申訴",
+        "4": "自己或他人捏造、扭曲、竄改或虛構的訊息，只要一小部分能證明是真的，就不會構成假訊息"
+      },
+      "answer": [
+        "4"
+      ],
+      "appearances": []
+    },
+    {
+      "id": "c-90007-080",
+      "category": "common",
+      "subject": "90007 工作倫理與職業道德",
+      "type": "single",
+      "stem": "下列敘述何者正確？",
+      "options": {
+        "1": "公務機關委託的代檢（代驗）業者，不是公務員，不會觸犯到刑法的罪責",
+        "2": "賄賂或不正利益，只限於法定貨幣，給予網路遊戲幣沒有違法的問題",
+        "3": "在靠北公務員社群網站，覺得可受公評且匿名發文，就可以謾罵公務機關對特定案件的檢查情形",
+        "4": "受公務機關委託辦理案件，除履行採購契約應辦事項外，對於蒐集到的個人資料，也要遵守相關保護及保密規定"
+      },
+      "answer": [
+        "4"
+      ],
+      "appearances": [
+        {
+          "year": "114",
+          "session": "2颱風延期考區",
+          "no": 30
+        }
+      ]
+    },
+    {
+      "id": "c-90007-081",
+      "category": "common",
+      "subject": "90007 工作倫理與職業道德",
+      "type": "single",
+      "stem": "有關促進參與及預防貪腐的敘述，下列何者錯誤？",
+      "options": {
+        "1": "我國非聯合國會員國，無須落實聯合國反貪腐公約規定",
+        "2": "推動政府部門以外之個人及團體積極參與預防和打擊貪腐",
+        "3": "提高決策過程之透明度，並促進公眾在決策過程中發揮作用",
+        "4": "對公職人員訂定執行公務之行為守則或標準"
+      },
+      "answer": [
+        "1"
+      ],
+      "appearances": [
+        {
+          "year": "115",
+          "session": 2,
+          "no": 45
+        },
+        {
+          "year": "114",
+          "session": 1,
+          "no": 7
+        }
+      ]
+    },
+    {
+      "id": "c-90007-082",
+      "category": "common",
+      "subject": "90007 工作倫理與職業道德",
+      "type": "single",
+      "stem": "為建立良好之公司治理制度，公司內部宜納入何種檢舉人制度？",
+      "options": {
+        "1": "告訴乃論制度",
+        "2": "吹哨者（whistleblower）保護程序及保護制度",
+        "3": "不告不理制度",
+        "4": "非告訴乃論制度"
+      },
+      "answer": [
+        "2"
+      ],
+      "appearances": [
+        {
+          "year": "114",
+          "session": 2,
+          "no": 9
+        }
+      ]
+    },
+    {
+      "id": "c-90007-083",
+      "category": "common",
+      "subject": "90007 工作倫理與職業道德",
+      "type": "single",
+      "stem": "有關公司訂定誠信經營守則時，下列何者錯誤？",
+      "options": {
+        "1": "避免與涉有不誠信行為者進行交易",
+        "2": "防範侵害營業秘密、商標權、專利權、著作權及其他智慧財產權",
+        "3": "建立有效之會計制度及內部控制制度",
+        "4": "防範檢舉"
+      },
+      "answer": [
+        "4"
+      ],
+      "appearances": [
+        {
+          "year": "114",
+          "session": 2,
+          "no": 3
+        }
+      ]
+    },
+    {
+      "id": "c-90007-084",
+      "category": "common",
+      "subject": "90007 工作倫理與職業道德",
+      "type": "single",
+      "stem": "乘坐轎車時，如有司機駕駛，按照國際乘車禮儀，以司機的方位來看，首位應為",
+      "options": {
+        "1": "後排右側",
+        "2": "前座右側",
+        "3": "後排左側",
+        "4": "後排中間"
+      },
+      "answer": [
+        "1"
+      ],
+      "appearances": []
+    },
+    {
+      "id": "c-90007-085",
+      "category": "common",
+      "subject": "90007 工作倫理與職業道德",
+      "type": "single",
+      "stem": "今天好友突然來電，想來個「說走就走的旅行」，因此，無法去上班，下列何者作法不適當？",
+      "options": {
+        "1": "發送E-MAIL給主管與人事部門，並收到回覆",
+        "2": "什麼都無需做，等公司打電話來確認後，再告知即可",
+        "3": "用LINE傳訊息給主管，並確認讀取且有回覆",
+        "4": "打電話給主管與人事部門請假"
+      },
+      "answer": [
+        "2"
+      ],
+      "appearances": []
+    },
+    {
+      "id": "c-90007-086",
+      "category": "common",
+      "subject": "90007 工作倫理與職業道德",
+      "type": "single",
+      "stem": "每天下班回家後，就懶得再出門去買菜，利用上班時間瀏覽線上購物網站，發現有很多限時搶購的便宜商品，還能在下班前就可以送到公司，下班順便帶回家，省掉好多時間，下列何者最適當？",
+      "options": {
+        "1": "可以，又沒離開工作崗位，且能節省時間",
+        "2": "可以，還能介紹同事一同團購，省更多的錢，增進同事情誼",
+        "3": "不可以，應該把商品寄回家，不是公司",
+        "4": "不可以，上班不能從事個人私務，應該等下班後再網路購物"
+      },
+      "answer": [
+        "4"
+      ],
+      "appearances": []
+    },
+    {
+      "id": "c-90007-087",
+      "category": "common",
+      "subject": "90007 工作倫理與職業道德",
+      "type": "single",
+      "stem": "宜樺家中養了一隻貓，由於最近生病，獸醫師建議要有人一直陪牠，這樣會恢復快一點，辦公室雖然禁止攜帶寵物，但因為上班家裡無人陪伴，所以準備帶牠到辦公室一起上班，下列何者最適當？",
+      "options": {
+        "1": "可以，只要我放在寵物箱，不要影響工作即可",
+        "2": "可以，同事們都答應也不反對",
+        "3": "可以，雖然貓會發出聲音，大小便有異味，只要處理好不影響工作即可",
+        "4": "不可以，可以送至專門機構照護或請專人照顧，以免影響工作"
+      },
+      "answer": [
+        "4"
+      ],
+      "appearances": []
+    },
+    {
+      "id": "c-90007-088",
+      "category": "common",
+      "subject": "90007 工作倫理與職業道德",
+      "type": "single",
+      "stem": "根據性別平等工作法，下列何者非屬職場性騷擾？",
+      "options": {
+        "1": "公司員工執行職務時，客戶對其講黃色笑話，該員工感覺被冒犯",
+        "2": "雇主對求職者要求交往，作為僱用與否之交換條件",
+        "3": "公司員工執行職務時，遭到同事以「女人就是沒大腦」性別歧視用語加以辱罵，該員工感覺其人格尊嚴受損",
+        "4": "公司員工下班後搭乘捷運，在捷運上遭到其他乘客偷拍"
+      },
+      "answer": [
+        "4"
+      ],
+      "appearances": [
+        {
+          "year": "114",
+          "session": 2,
+          "no": 16
+        },
+        {
+          "year": "115",
+          "session": 1,
+          "no": 15
+        }
+      ]
+    },
+    {
+      "id": "c-90007-089",
+      "category": "common",
+      "subject": "90007 工作倫理與職業道德",
+      "type": "single",
+      "stem": "根據性別平等工作法，下列何者非屬職場性別歧視？",
+      "options": {
+        "1": "雇主考量男性賺錢養家之社會期待，提供男性高於女性之薪資",
+        "2": "雇主考量女性以家庭為重之社會期待，裁員時優先資遣女性",
+        "3": "雇主事先與員工約定倘其有懷孕之情事，必須離職",
+        "4": "有未滿2歲子女之男性員工，也可申請每日六十分鐘的哺乳時間"
+      },
+      "answer": [
+        "4"
+      ],
+      "appearances": []
+    },
+    {
+      "id": "c-90007-090",
+      "category": "common",
+      "subject": "90007 工作倫理與職業道德",
+      "type": "single",
+      "stem": "根據性別平等工作法，有關雇主防治性騷擾之責任與罰則，下列何者錯誤？",
+      "options": {
+        "1": "僱用受僱者30人以上者，應訂定性騷擾防治措施、申訴及懲戒規範",
+        "2": "雇主知悉性騷擾發生時，應採取立即有效之糾正及補救措施",
+        "3": "雇主違反應訂定性騷擾防治措施之規定時，處以罰鍰即可，不用公布其姓名",
+        "4": "雇主違反應訂定性騷擾申訴管道者，應限期令其改善，屆期未改善者，應按次處罰"
+      },
+      "answer": [
+        "3"
+      ],
+      "appearances": [
+        {
+          "year": "115",
+          "session": 1,
+          "no": 1
+        }
+      ]
+    },
+    {
+      "id": "c-90007-091",
+      "category": "common",
+      "subject": "90007 工作倫理與職業道德",
+      "type": "single",
+      "stem": "根據性騷擾防治法，有關性騷擾之責任與罰則，下列何者錯誤？",
+      "options": {
+        "1": "對他人為性騷擾者，如果沒有造成他人財產上之損失，就無需負擔金錢賠償之責任",
+        "2": "對於因教育、訓練、醫療、公務、業務、求職，受自己監督、照護之人，利用權勢或機會為性騷擾者，得加重科處罰鍰至二分之一",
+        "3": "意圖性騷擾，乘人不及抗拒而為親吻、擁抱或觸摸其臀部、胸部或其他身體隱私處之行為者，處2年以下有期徒刑、拘役或併科10萬元以下罰金",
+        "4": "對他人為權勢性騷擾以外之性騷擾者，由直轄市、縣（市）主管機關處1萬元以上10萬元以下罰鍰"
+      },
+      "answer": [
+        "1"
+      ],
+      "appearances": []
+    },
+    {
+      "id": "c-90007-092",
+      "category": "common",
+      "subject": "90007 工作倫理與職業道德",
+      "type": "single",
+      "stem": "根據性別平等工作法規範職場性騷擾範疇，下列何者錯誤？",
+      "options": {
+        "1": "上班執行職務時，任何人以性要求、具有性意味或性別歧視之言詞或行為，造成敵意性、脅迫性或冒犯性之工作環境",
+        "2": "對僱用、求職或執行職務關係受自己指揮、監督之人，利用權勢或機會為性騷擾",
+        "3": "與朋友聚餐後回家時，被陌生人以盯梢、守候、尾隨跟蹤",
+        "4": "雇主對受僱者或求職者為明示或暗示之性要求、具有性意味或性別歧視之言詞或行為"
+      },
+      "answer": [
+        "3"
+      ],
+      "appearances": []
+    },
+    {
+      "id": "c-90007-093",
+      "category": "common",
+      "subject": "90007 工作倫理與職業道德",
+      "type": "single",
+      "stem": "根據消除對婦女一切形式歧視公約（CEDAW）之直接歧視及間接歧視意涵，下列何者錯誤？",
+      "options": {
+        "1": "老闆得知小黃懷孕後，故意將小黃調任薪資待遇較差的工作，意圖使其自行離開職場，小黃老闆的行為是直接歧視",
+        "2": "某餐廳於網路上招募外場服務生，條件以未婚年輕女性優先錄取，明顯以性或性別差異為由所實施的差別待遇，為直接歧視",
+        "3": "某公司員工值班注意事項排除女性員工參與夜間輪值，是考量女性有人身安全及家庭照顧等需求，為維護女性權益之措施，非直接歧視",
+        "4": "某科技公司規定男女員工之加班時數上限及加班費或津貼不同，認為女性能力有限，且無法長時間工作，限制女性獲取薪資及升遷機會，這規定是直接歧視"
+      },
+      "answer": [
+        "3"
+      ],
+      "appearances": [
+        {
+          "year": "114",
+          "session": 2,
+          "no": 21
+        },
+        {
+          "year": "115",
+          "session": 2,
+          "no": 3
+        }
+      ]
+    },
+    {
+      "id": "c-90007-094",
+      "category": "common",
+      "subject": "90007 工作倫理與職業道德",
+      "type": "single",
+      "stem": "目前菸害防制法規範，「不可販賣菸品」給未滿幾歲的人？",
+      "options": {
+        "1": "20",
+        "2": "19",
+        "3": "18",
+        "4": "17"
+      },
+      "answer": [
+        "1"
+      ],
+      "appearances": []
+    },
+    {
+      "id": "c-90007-095",
+      "category": "common",
+      "subject": "90007 工作倫理與職業道德",
+      "type": "single",
+      "stem": "按菸害防制法規定，下列敘述何者錯誤？",
+      "options": {
+        "1": "只有老闆、店員才可以出面勸阻在禁菸場所抽菸的人",
+        "2": "任何人都可以出面勸阻在禁菸場所抽菸的人",
+        "3": "餐廳、旅館設置室內吸菸室，需經專業技師簽證核可",
+        "4": "加油站屬易燃易爆場所，任何人都可以勸阻在禁菸場所抽菸的人"
+      },
+      "answer": [
+        "1"
+      ],
+      "appearances": [
+        {
+          "year": "115",
+          "session": 2,
+          "no": 2
+        }
+      ]
+    },
+    {
+      "id": "c-90007-096",
+      "category": "common",
+      "subject": "90007 工作倫理與職業道德",
+      "type": "single",
+      "stem": "關於菸品對人體危害的敘述，下列何者正確？",
+      "options": {
+        "1": "只要開電風扇、或是抽風機就可以去除菸霧中的有害物質",
+        "2": "指定菸品（如：加熱菸）只要通過健康風險評估，就不會危害健康，因此工作時如果想吸菸，就可以在職場拿出來使用",
+        "3": "雖然自己不吸菸，同事在旁邊吸菸，就會增加自己得肺癌的機率",
+        "4": "只要不將菸吸入肺部，就不會對身體造成傷害"
+      },
+      "answer": [
+        "3"
+      ],
+      "appearances": [
+        {
+          "year": "114",
+          "session": "2颱風延期考區",
+          "no": 16
+        }
+      ]
+    },
+    {
+      "id": "c-90007-097",
+      "category": "common",
+      "subject": "90007 工作倫理與職業道德",
+      "type": "single",
+      "stem": "職場禁菸的好處不包括",
+      "options": {
+        "1": "降低吸菸者的菸品使用量，有助於減少吸菸導致的疾病而請假",
+        "2": "避免同事因為被動吸菸而生病",
+        "3": "讓吸菸者菸癮降低，戒菸較容易成功",
+        "4": "吸菸者不能抽菸會影響工作效率"
+      },
+      "answer": [
+        "4"
+      ],
+      "appearances": []
+    },
+    {
+      "id": "c-90007-098",
+      "category": "common",
+      "subject": "90007 工作倫理與職業道德",
+      "type": "single",
+      "stem": "大多數的吸菸者都嘗試過戒菸，但是很少自己戒菸成功。吸菸的同事要戒菸，怎樣建議他是無效的？",
+      "options": {
+        "1": "鼓勵他撥打戒菸專線0800-63-63-63，取得相關建議與協助",
+        "2": "建議他到醫療院所、社區藥局找藥物戒菸",
+        "3": "建議他參加醫院或衛生所辦理的戒菸班",
+        "4": "戒菸是自己的事，別人幫不了忙"
+      },
+      "answer": [
+        "4"
+      ],
+      "appearances": []
+    },
+    {
+      "id": "c-90007-099",
+      "category": "common",
+      "subject": "90007 工作倫理與職業道德",
+      "type": "single",
+      "stem": "禁菸場所負責人未於場所入口處設置明顯禁菸標示，要罰該場所負責人多少元？",
+      "options": {
+        "1": "2千至1萬",
+        "2": "1萬至5萬",
+        "3": "1萬至25萬",
+        "4": "20萬至100萬"
+      },
+      "answer": [
+        "2"
+      ],
+      "appearances": []
+    },
+    {
+      "id": "c-90007-100",
+      "category": "common",
+      "subject": "90007 工作倫理與職業道德",
+      "type": "single",
+      "stem": "目前電子煙是非法的，下列對電子煙的敘述，何者錯誤？",
+      "options": {
+        "1": "跟吸菸一樣會成癮",
+        "2": "會有爆炸危險",
+        "3": "沒有燃燒的菸草，也沒有二手煙的問題",
+        "4": "可能造成嚴重肺損傷"
+      },
+      "answer": [
+        "3"
+      ],
+      "appearances": []
+    },
+    {
+      "id": "c-90008-001",
+      "category": "common",
+      "subject": "90008 環境保護",
+      "type": "single",
+      "stem": "世界環境日是在每一年的哪一日？",
+      "options": {
+        "1": "3月8日",
+        "2": "6月5日",
+        "3": "11月12日",
+        "4": "4月10日"
+      },
+      "answer": [
+        "2"
+      ],
+      "appearances": []
+    },
+    {
+      "id": "c-90008-002",
+      "category": "common",
+      "subject": "90008 環境保護",
+      "type": "single",
+      "stem": "2015年巴黎協議之目的為何？",
+      "options": {
+        "1": "避免臭氧層破壞",
+        "2": "減少持久性污染物排放",
+        "3": "遏阻全球暖化趨勢",
+        "4": "生物多樣性保育"
+      },
+      "answer": [
+        "3"
+      ],
+      "appearances": [
+        {
+          "year": "107",
+          "session": 3,
+          "no": 53
+        },
+        {
+          "year": "112",
+          "session": 1,
+          "no": 25
+        }
+      ]
+    },
+    {
+      "id": "c-90008-003",
+      "category": "common",
+      "subject": "90008 環境保護",
+      "type": "single",
+      "stem": "下列何者為環境保護的正確作為？",
+      "options": {
+        "1": "多吃肉少蔬食",
+        "2": "自己開車不共乘",
+        "3": "鐵馬步行",
+        "4": "不隨手關燈"
+      },
+      "answer": [
+        "3"
+      ],
+      "appearances": []
+    },
+    {
+      "id": "c-90008-004",
+      "category": "common",
+      "subject": "90008 環境保護",
+      "type": "single",
+      "stem": "下列何種行為對生態環境會造成較大的衝擊？",
+      "options": {
+        "1": "種植原生樹木",
+        "2": "引進外來物種",
+        "3": "設立國家公園",
+        "4": "設立自然保護區"
+      },
+      "answer": [
+        "2"
+      ],
+      "appearances": [
+        {
+          "year": "111",
+          "session": 3,
+          "no": 9
+        },
+        {
+          "year": "114",
+          "session": 2,
+          "no": 48
+        }
+      ]
+    },
+    {
+      "id": "c-90008-005",
+      "category": "common",
+      "subject": "90008 環境保護",
+      "type": "single",
+      "stem": "下列哪一種飲食習慣能減碳抗暖化？",
+      "options": {
+        "1": "多吃速食",
+        "2": "多吃天然蔬果",
+        "3": "多吃牛肉",
+        "4": "多選擇吃到飽的餐館"
+      },
+      "answer": [
+        "2"
+      ],
+      "appearances": []
+    },
+    {
+      "id": "c-90008-006",
+      "category": "common",
+      "subject": "90008 環境保護",
+      "type": "single",
+      "stem": "飼主遛狗時，其狗在道路或其他公共場所便溺時，下列何者應優先負清除責任？",
+      "options": {
+        "1": "主人",
+        "2": "清潔隊",
+        "3": "警察",
+        "4": "土地所有權人"
+      },
+      "answer": [
+        "1"
+      ],
+      "appearances": []
+    },
+    {
+      "id": "c-90008-007",
+      "category": "common",
+      "subject": "90008 環境保護",
+      "type": "single",
+      "stem": "外食自備餐具是落實綠色消費的哪一項表現？",
+      "options": {
+        "1": "重複使用",
+        "2": "回收再生",
+        "3": "環保選購",
+        "4": "降低成本"
+      },
+      "answer": [
+        "1"
+      ],
+      "appearances": [
+        {
+          "year": "110",
+          "session": 1,
+          "no": 22
+        },
+        {
+          "year": "108",
+          "session": 3,
+          "no": 39
+        }
+      ]
+    },
+    {
+      "id": "c-90008-008",
+      "category": "common",
+      "subject": "90008 環境保護",
+      "type": "single",
+      "stem": "再生能源一般是指可永續利用之能源，主要包括哪些：A.化石燃料、B.風力、C.太陽能、D.水力？",
+      "options": {
+        "1": "ABCD",
+        "2": "ABD",
+        "3": "BCD",
+        "4": "ACD"
+      },
+      "answer": [
+        "3"
+      ],
+      "appearances": []
+    },
+    {
+      "id": "c-90008-009",
+      "category": "common",
+      "subject": "90008 環境保護",
+      "type": "single",
+      "stem": "依環境基本法第3條規定，基於國家長期利益，經濟、科技及社會發展均應兼顧環境保護。但如果經濟、科技及社會發展對環境有嚴重不良影響或有危害時，應以何者優先？",
+      "options": {
+        "1": "經濟",
+        "2": "科技",
+        "3": "社會",
+        "4": "環境"
+      },
+      "answer": [
+        "4"
+      ],
+      "appearances": [
+        {
+          "year": "112",
+          "session": 2,
+          "no": 4
+        }
+      ]
+    },
+    {
+      "id": "c-90008-010",
+      "category": "common",
+      "subject": "90008 環境保護",
+      "type": "single",
+      "stem": "森林面積的減少甚至消失可能導致哪些影響：A.水資源減少B.減緩全球暖化C.加劇全球暖化D.降低生物多樣性？",
+      "options": {
+        "1": "ACD",
+        "2": "BCD",
+        "3": "ABD",
+        "4": "ABCD"
+      },
+      "answer": [
+        "1"
+      ],
+      "appearances": []
+    },
+    {
+      "id": "c-90008-011",
+      "category": "common",
+      "subject": "90008 環境保護",
+      "type": "single",
+      "stem": "塑膠為海洋生態的殺手，所以政府推動「無塑海洋」政策，下列何項不是減少塑膠危害海洋生態的重要措施？",
+      "options": {
+        "1": "擴大禁止免費供應塑膠袋",
+        "2": "禁止製造、進口及販售含塑膠柔珠的清潔用品",
+        "3": "定期進行海水水質監測",
+        "4": "淨灘、淨海"
+      },
+      "answer": [
+        "3"
+      ],
+      "appearances": [
+        {
+          "year": "114",
+          "session": 2,
+          "no": 41
+        }
+      ]
+    },
+    {
+      "id": "c-90008-012",
+      "category": "common",
+      "subject": "90008 環境保護",
+      "type": "single",
+      "stem": "違反環境保護法律或自治條例之行政法上義務，經處分機關處停工、停業處分或處新臺幣五千元以上罰鍰者，應接受下列何種講習？",
+      "options": {
+        "1": "道路交通安全講習",
+        "2": "環境講習",
+        "3": "衛生講習",
+        "4": "消防講習"
+      },
+      "answer": [
+        "2"
+      ],
+      "appearances": [
+        {
+          "year": "111",
+          "session": 3,
+          "no": 7
+        }
+      ]
+    },
+    {
+      "id": "c-90008-013",
+      "category": "common",
+      "subject": "90008 環境保護",
+      "type": "single",
+      "stem": "下列何者為環保標章？",
+      "img": "assets/img/subject/c-90008-013.png",
+      "options": {
+        "1": "",
+        "2": "",
+        "3": "",
+        "4": ""
+      },
+      "answer": [
+        "1"
+      ],
+      "appearances": []
+    },
+    {
+      "id": "c-90008-014",
+      "category": "common",
+      "subject": "90008 環境保護",
+      "type": "single",
+      "stem": "「聖嬰現象」是指哪一區域的溫度異常升高？",
+      "options": {
+        "1": "西太平洋表層海水",
+        "2": "東太平洋表層海水",
+        "3": "西印度洋表層海水",
+        "4": "東印度洋表層海水"
+      },
+      "answer": [
+        "2"
+      ],
+      "appearances": []
+    },
+    {
+      "id": "c-90008-015",
+      "category": "common",
+      "subject": "90008 環境保護",
+      "type": "single",
+      "stem": "「酸雨」定義為雨水酸鹼值達多少以下時稱之？",
+      "options": {
+        "1": "5.0",
+        "2": "6.0",
+        "3": "7.0",
+        "4": "8.0"
+      },
+      "answer": [
+        "1"
+      ],
+      "appearances": [
+        {
+          "year": "107",
+          "session": 1,
+          "no": 15
+        },
+        {
+          "year": "114",
+          "session": 1,
+          "no": 49
+        }
+      ]
+    },
+    {
+      "id": "c-90008-016",
+      "category": "common",
+      "subject": "90008 環境保護",
+      "type": "single",
+      "stem": "一般而言，水中溶氧量隨水溫之上升而呈下列哪一種趨勢？",
+      "options": {
+        "1": "增加",
+        "2": "減少",
+        "3": "不變",
+        "4": "不一定"
+      },
+      "answer": [
+        "2"
+      ],
+      "appearances": [
+        {
+          "year": "114",
+          "session": 2,
+          "no": 10
+        }
+      ]
+    },
+    {
+      "id": "c-90008-017",
+      "category": "common",
+      "subject": "90008 環境保護",
+      "type": "single",
+      "stem": "二手菸中包含多種危害人體的化學物質，甚至多種物質有致癌性，會危害到下列何者的健康？",
+      "options": {
+        "1": "只對12歲以下孩童有影響",
+        "2": "只對孕婦比較有影響",
+        "3": "只對65歲以上之民眾有影響",
+        "4": "對二手菸接觸民眾皆有影響"
+      },
+      "answer": [
+        "4"
+      ],
+      "appearances": [
+        {
+          "year": "114",
+          "session": 2,
+          "no": 57
+        }
+      ]
+    },
+    {
+      "id": "c-90008-018",
+      "category": "common",
+      "subject": "90008 環境保護",
+      "type": "single",
+      "stem": "二氧化碳和其他溫室氣體含量增加是造成全球暖化的主因之一，下列何種飲食方式也能降低碳排放量，對環境保護做出貢獻：A.少吃肉，多吃蔬菜；B.玉米產量減少時，購買玉米罐頭食用；C.選擇當地食材；D.使用免洗餐具，減少清洗用水與清潔劑？",
+      "options": {
+        "1": "AB",
+        "2": "AC",
+        "3": "AD",
+        "4": "ACD"
+      },
+      "answer": [
+        "2"
+      ],
+      "appearances": []
+    },
+    {
+      "id": "c-90008-019",
+      "category": "common",
+      "subject": "90008 環境保護",
+      "type": "single",
+      "stem": "上下班的交通方式有很多種，其中包括：A.騎腳踏車；B.搭乘大眾交通工具；C.自行開車，請將前述幾種交通方式之單位排碳量由少至多之排列方式為何？",
+      "options": {
+        "1": "ABC",
+        "2": "ACB",
+        "3": "BAC",
+        "4": "CBA"
+      },
+      "answer": [
+        "1"
+      ],
+      "appearances": [
+        {
+          "year": "111",
+          "session": 1,
+          "no": 44
+        },
+        {
+          "year": "115",
+          "session": 1,
+          "no": 50
+        }
+      ]
+    },
+    {
+      "id": "c-90008-020",
+      "category": "common",
+      "subject": "90008 環境保護",
+      "type": "single",
+      "stem": "下列何者「不是」室內空氣污染源？",
+      "options": {
+        "1": "建材",
+        "2": "辦公室事務機",
+        "3": "廢紙回收箱",
+        "4": "油漆及塗料"
+      },
+      "answer": [
+        "3"
+      ],
+      "appearances": [
+        {
+          "year": "107",
+          "session": 3,
+          "no": 21
+        }
+      ]
+    },
+    {
+      "id": "c-90008-021",
+      "category": "common",
+      "subject": "90008 環境保護",
+      "type": "single",
+      "stem": "下列何者不是自來水消毒採用的方式？",
+      "options": {
+        "1": "加入臭氧",
+        "2": "加入氯氣",
+        "3": "紫外線消毒",
+        "4": "加入二氧化碳"
+      },
+      "answer": [
+        "4"
+      ],
+      "appearances": [
+        {
+          "year": "109",
+          "session": 2,
+          "no": 35
+        },
+        {
+          "year": "107",
+          "session": 1,
+          "no": 44
+        },
+        {
+          "year": "109",
+          "session": 2,
+          "no": 7
+        },
+        {
+          "year": "112",
+          "session": 2,
+          "no": 1
+        }
+      ]
+    },
+    {
+      "id": "c-90008-022",
+      "category": "common",
+      "subject": "90008 環境保護",
+      "type": "single",
+      "stem": "下列何者不是造成全球暖化的元凶？",
+      "options": {
+        "1": "汽機車排放的廢氣",
+        "2": "工廠所排放的廢氣",
+        "3": "火力發電廠所排放的廢氣",
+        "4": "種植樹木"
+      },
+      "answer": [
+        "4"
+      ],
+      "appearances": [
+        {
+          "year": "110",
+          "session": 2,
+          "no": 43
+        },
+        {
+          "year": "111",
+          "session": 1,
+          "no": 16
+        },
+        {
+          "year": "115",
+          "session": 2,
+          "no": 20
+        }
+      ]
+    },
+    {
+      "id": "c-90008-023",
+      "category": "common",
+      "subject": "90008 環境保護",
+      "type": "single",
+      "stem": "下列何者不是造成臺灣水資源減少的主要因素？",
+      "options": {
+        "1": "超抽地下水",
+        "2": "雨水酸化",
+        "3": "水庫淤積",
+        "4": "濫用水資源"
+      },
+      "answer": [
+        "2"
+      ],
+      "appearances": [
+        {
+          "year": "108",
+          "session": 2,
+          "no": 53
+        },
+        {
+          "year": "113",
+          "session": 3,
+          "no": 21
+        }
+      ]
+    },
+    {
+      "id": "c-90008-024",
+      "category": "common",
+      "subject": "90008 環境保護",
+      "type": "single",
+      "stem": "下列何者是海洋受污染的現象？",
+      "options": {
+        "1": "形成紅潮",
+        "2": "形成黑潮",
+        "3": "溫室效應",
+        "4": "臭氧層破洞"
+      },
+      "answer": [
+        "1"
+      ],
+      "appearances": [
+        {
+          "year": "109",
+          "session": 3,
+          "no": 37
+        },
+        {
+          "year": "114",
+          "session": "2颱風延期考區",
+          "no": 23
+        },
+        {
+          "year": "114",
+          "session": 3,
+          "no": 23
+        }
+      ]
+    },
+    {
+      "id": "c-90008-025",
+      "category": "common",
+      "subject": "90008 環境保護",
+      "type": "single",
+      "stem": "水中生化需氧量（BOD）愈高，其所代表的意義為下列何者？",
+      "options": {
+        "1": "水為硬水",
+        "2": "有機污染物多",
+        "3": "水質偏酸",
+        "4": "分解污染物時不需消耗太多氧"
+      },
+      "answer": [
+        "2"
+      ],
+      "appearances": []
+    },
+    {
+      "id": "c-90008-026",
+      "category": "common",
+      "subject": "90008 環境保護",
+      "type": "single",
+      "stem": "下列何者是酸雨對環境的影響？",
+      "options": {
+        "1": "湖泊水質酸化",
+        "2": "增加森林生長速度",
+        "3": "土壤肥沃",
+        "4": "增加水生動物種類"
+      },
+      "answer": [
+        "1"
+      ],
+      "appearances": [
+        {
+          "year": "114",
+          "session": 3,
+          "no": 46
+        }
+      ]
+    },
+    {
+      "id": "c-90008-027",
+      "category": "common",
+      "subject": "90008 環境保護",
+      "type": "single",
+      "stem": "下列哪一項水質濃度降低會導致河川魚類大量死亡？",
+      "options": {
+        "1": "氨氮",
+        "2": "溶氧",
+        "3": "二氧化碳",
+        "4": "生化需氧量"
+      },
+      "answer": [
+        "2"
+      ],
+      "appearances": []
+    },
+    {
+      "id": "c-90008-028",
+      "category": "common",
+      "subject": "90008 環境保護",
+      "type": "single",
+      "stem": "下列何種生活小習慣的改變可減少細懸浮微粒（PM2.5）排放，共同為改善空氣品質盡一份心力？",
+      "options": {
+        "1": "少吃燒烤食物",
+        "2": "使用吸塵器",
+        "3": "養成運動習慣",
+        "4": "每天喝500cc的水"
+      },
+      "answer": [
+        "1"
+      ],
+      "appearances": []
+    },
+    {
+      "id": "c-90008-029",
+      "category": "common",
+      "subject": "90008 環境保護",
+      "type": "single",
+      "stem": "下列哪種措施不能用來降低空氣污染？",
+      "options": {
+        "1": "汽機車強制定期排氣檢測",
+        "2": "汰換老舊柴油車",
+        "3": "禁止露天燃燒稻草",
+        "4": "汽機車加裝消音器"
+      },
+      "answer": [
+        "4"
+      ],
+      "appearances": [
+        {
+          "year": "115",
+          "session": 2,
+          "no": 14
+        }
+      ]
+    },
+    {
+      "id": "c-90008-030",
+      "category": "common",
+      "subject": "90008 環境保護",
+      "type": "single",
+      "stem": "(本題刪題)大氣層中臭氧層有何作用？",
+      "options": {
+        "1": "保持溫度",
+        "2": "對流最旺盛的區域",
+        "3": "吸收紫外線",
+        "4": "造成光害"
+      },
+      "answer": [
+        "3"
+      ],
+      "appearances": []
+    },
+    {
+      "id": "c-90008-031",
+      "category": "common",
+      "subject": "90008 環境保護",
+      "type": "single",
+      "stem": "小李具有乙級廢水專責人員證照，某工廠希望以高價租用證照的方式合作，請問下列何者正確？",
+      "options": {
+        "1": "這是違法行為",
+        "2": "互蒙其利",
+        "3": "價錢合理即可",
+        "4": "經環保局同意即可"
+      },
+      "answer": [
+        "1"
+      ],
+      "appearances": []
+    },
+    {
+      "id": "c-90008-032",
+      "category": "common",
+      "subject": "90008 環境保護",
+      "type": "single",
+      "stem": "可藉由下列何者改善河川水質且兼具提供動植物良好棲地環境？",
+      "options": {
+        "1": "運動公園",
+        "2": "人工溼地",
+        "3": "滯洪池",
+        "4": "水庫"
+      },
+      "answer": [
+        "2"
+      ],
+      "appearances": [
+        {
+          "year": "113",
+          "session": 1,
+          "no": 1
+        },
+        {
+          "year": "114",
+          "session": "2颱風延期考區",
+          "no": 46
+        }
+      ]
+    },
+    {
+      "id": "c-90008-033",
+      "category": "common",
+      "subject": "90008 環境保護",
+      "type": "single",
+      "stem": "台灣自來水之水源主要取自",
+      "options": {
+        "1": "海洋的水",
+        "2": "河川或水庫的水",
+        "3": "綠洲的水",
+        "4": "灌溉渠道的水"
+      },
+      "answer": [
+        "2"
+      ],
+      "appearances": [
+        {
+          "year": "113",
+          "session": 3,
+          "no": 52
+        }
+      ]
+    },
+    {
+      "id": "c-90008-034",
+      "category": "common",
+      "subject": "90008 環境保護",
+      "type": "single",
+      "stem": "目前市面清潔劑均會強調「無磷」，是因為含磷的清潔劑使用後，若廢水排至河川或湖泊等水域會造成什麼影響？",
+      "options": {
+        "1": "綠牡蠣",
+        "2": "優養化",
+        "3": "秘雕魚",
+        "4": "烏腳病"
+      },
+      "answer": [
+        "2"
+      ],
+      "appearances": [
+        {
+          "year": "115",
+          "session": 2,
+          "no": 44
+        },
+        {
+          "year": "114",
+          "session": 3,
+          "no": 11
+        }
+      ]
+    },
+    {
+      "id": "c-90008-035",
+      "category": "common",
+      "subject": "90008 環境保護",
+      "type": "single",
+      "stem": "冰箱在廢棄回收時應特別注意哪一項物質，以避免逸散至大氣中造成臭氧層的破壞？",
+      "options": {
+        "1": "冷媒",
+        "2": "甲醛",
+        "3": "汞",
+        "4": "苯"
+      },
+      "answer": [
+        "1"
+      ],
+      "appearances": [
+        {
+          "year": "114",
+          "session": "2颱風延期考區",
+          "no": 35
+        }
+      ]
+    },
+    {
+      "id": "c-90008-036",
+      "category": "common",
+      "subject": "90008 環境保護",
+      "type": "single",
+      "stem": "下列何者不是噪音的危害所造成的現象？",
+      "options": {
+        "1": "精神很集中",
+        "2": "煩躁、失眠",
+        "3": "緊張、焦慮",
+        "4": "工作效率低落"
+      },
+      "answer": [
+        "1"
+      ],
+      "appearances": [
+        {
+          "year": "113",
+          "session": 2,
+          "no": 52
+        },
+        {
+          "year": "110",
+          "session": 3,
+          "no": 43
+        },
+        {
+          "year": "114",
+          "session": "2颱風延期考區",
+          "no": 57
+        }
+      ]
+    },
+    {
+      "id": "c-90008-037",
+      "category": "common",
+      "subject": "90008 環境保護",
+      "type": "single",
+      "stem": "我國移動污染源空氣污染防制費的徵收機制為何？",
+      "options": {
+        "1": "依車輛里程數計費",
+        "2": "隨油品銷售徵收",
+        "3": "依牌照徵收",
+        "4": "依照排氣量徵收"
+      },
+      "answer": [
+        "2"
+      ],
+      "appearances": [
+        {
+          "year": "114",
+          "session": "2颱風延期考區",
+          "no": 46
+        },
+        {
+          "year": "115",
+          "session": 2,
+          "no": 15
+        }
+      ]
+    },
+    {
+      "id": "c-90008-038",
+      "category": "common",
+      "subject": "90008 環境保護",
+      "type": "single",
+      "stem": "室內裝潢時，若不謹慎選擇建材，將會逸散出氣狀污染物。其中會刺激皮膚、眼、鼻和呼吸道，也是致癌物質，可能為下列哪一種污染物？",
+      "options": {
+        "1": "臭氧",
+        "2": "甲醛",
+        "3": "氟氯碳化合物",
+        "4": "二氧化碳"
+      },
+      "answer": [
+        "2"
+      ],
+      "appearances": [
+        {
+          "year": "112",
+          "session": 2,
+          "no": 34
+        }
+      ]
+    },
+    {
+      "id": "c-90008-039",
+      "category": "common",
+      "subject": "90008 環境保護",
+      "type": "single",
+      "stem": "高速公路旁常見農田違法焚燒稻草，其產生下列何種汙染物除了對人體健康造成不良影響外，亦會造成濃煙影響行車安全？",
+      "options": {
+        "1": "懸浮微粒",
+        "2": "二氧化碳(CO2)",
+        "3": "臭氧(O3)",
+        "4": "沼氣"
+      },
+      "answer": [
+        "1"
+      ],
+      "appearances": []
+    },
+    {
+      "id": "c-90008-040",
+      "category": "common",
+      "subject": "90008 環境保護",
+      "type": "single",
+      "stem": "都市中常產生的「熱島效應」會造成何種影響？",
+      "options": {
+        "1": "增加降雨",
+        "2": "空氣污染物不易擴散",
+        "3": "空氣污染物易擴散",
+        "4": "溫度降低"
+      },
+      "answer": [
+        "2"
+      ],
+      "appearances": [
+        {
+          "year": "114",
+          "session": "2颱風延期考區",
+          "no": 27
+        },
+        {
+          "year": "113",
+          "session": 3,
+          "no": 43
+        }
+      ]
+    },
+    {
+      "id": "c-90008-041",
+      "category": "common",
+      "subject": "90008 環境保護",
+      "type": "single",
+      "stem": "下列何者不是藉由蚊蟲傳染的疾病？",
+      "options": {
+        "1": "日本腦炎",
+        "2": "瘧疾",
+        "3": "登革熱",
+        "4": "痢疾"
+      },
+      "answer": [
+        "4"
+      ],
+      "appearances": [
+        {
+          "year": "115",
+          "session": 1,
+          "no": 6
+        }
+      ]
+    },
+    {
+      "id": "c-90008-042",
+      "category": "common",
+      "subject": "90008 環境保護",
+      "type": "single",
+      "stem": "下列何者非屬資源回收分類項目中「廢紙類」的回收物？",
+      "options": {
+        "1": "報紙",
+        "2": "雜誌",
+        "3": "紙袋",
+        "4": "用過的衛生紙"
+      },
+      "answer": [
+        "4"
+      ],
+      "appearances": [
+        {
+          "year": "111",
+          "session": 2,
+          "no": 43
+        }
+      ]
+    },
+    {
+      "id": "c-90008-043",
+      "category": "common",
+      "subject": "90008 環境保護",
+      "type": "single",
+      "stem": "下列何者對飲用瓶裝水之形容是正確的？A.飲用後之寶特瓶容器為地球增加了一個廢棄物；B.運送瓶裝水時卡車會排放空氣污染物；C.瓶裝水一定比經煮沸之自來水安全衛生？",
+      "options": {
+        "1": "AB",
+        "2": "BC",
+        "3": "AC",
+        "4": "ABC"
+      },
+      "answer": [
+        "1"
+      ],
+      "appearances": []
+    },
+    {
+      "id": "c-90008-044",
+      "category": "common",
+      "subject": "90008 環境保護",
+      "type": "single",
+      "stem": "下列哪一項是我們在家中常見的環境衛生用藥？",
+      "options": {
+        "1": "體香劑",
+        "2": "殺蟲劑",
+        "3": "洗滌劑",
+        "4": "乾燥劑"
+      },
+      "answer": [
+        "2"
+      ],
+      "appearances": []
+    },
+    {
+      "id": "c-90008-045",
+      "category": "common",
+      "subject": "90008 環境保護",
+      "type": "single",
+      "stem": "下列何者為公告應回收的廢棄物？A.廢鋁箔包、B.廢紙容器、C.寶特瓶",
+      "options": {
+        "1": "ABC",
+        "2": "AC",
+        "3": "BC",
+        "4": "C"
+      },
+      "answer": [
+        "1"
+      ],
+      "appearances": [
+        {
+          "year": "115",
+          "session": 1,
+          "no": 11
+        }
+      ]
+    },
+    {
+      "id": "c-90008-046",
+      "category": "common",
+      "subject": "90008 環境保護",
+      "type": "single",
+      "stem": "小明拿到「垃圾強制分類」的宣導海報，標語寫著「分3類，好OK」，標語中的分3類是指家戶日常生活中產生的垃圾可以區分哪三類？",
+      "options": {
+        "1": "資源垃圾、廚餘、事業廢棄物",
+        "2": "資源垃圾、一般廢棄物、事業廢棄物",
+        "3": "一般廢棄物、事業廢棄物、放射性廢棄物",
+        "4": "資源垃圾、廚餘、一般垃圾"
+      },
+      "answer": [
+        "4"
+      ],
+      "appearances": [
+        {
+          "year": "114",
+          "session": 2,
+          "no": 26
+        }
+      ]
+    },
+    {
+      "id": "c-90008-047",
+      "category": "common",
+      "subject": "90008 環境保護",
+      "type": "single",
+      "stem": "(本題刪題)家裡有過期的藥品，請問這些藥品要如何處理？",
+      "options": {
+        "1": "倒入馬桶沖掉",
+        "2": "交由藥局回收",
+        "3": "繼續服用",
+        "4": "送給相同疾病的朋友"
+      },
+      "answer": [
+        "2"
+      ],
+      "appearances": []
+    },
+    {
+      "id": "c-90008-048",
+      "category": "common",
+      "subject": "90008 環境保護",
+      "type": "single",
+      "stem": "台灣西部海岸曾發生的綠牡蠣事件是與下列何種物質污染水體有關？",
+      "options": {
+        "1": "汞",
+        "2": "銅",
+        "3": "磷",
+        "4": "鎘"
+      },
+      "answer": [
+        "2"
+      ],
+      "appearances": [
+        {
+          "year": "109",
+          "session": 1,
+          "no": 41
+        },
+        {
+          "year": "110",
+          "session": 2,
+          "no": 47
+        },
+        {
+          "year": "110",
+          "session": 3,
+          "no": 13
+        },
+        {
+          "year": "111",
+          "session": 2,
+          "no": 38
+        },
+        {
+          "year": "113",
+          "session": 2,
+          "no": 59
+        }
+      ]
+    },
+    {
+      "id": "c-90008-049",
+      "category": "common",
+      "subject": "90008 環境保護",
+      "type": "single",
+      "stem": "在生物鏈越上端的物種其體內累積持久性有機污染物(POPs)濃度將越高，危害性也將越大，這是說明POPs具有下列何種特性？",
+      "options": {
+        "1": "持久性",
+        "2": "半揮發性",
+        "3": "高毒性",
+        "4": "生物累積性"
+      },
+      "answer": [
+        "4"
+      ],
+      "appearances": [
+        {
+          "year": "110",
+          "session": 1,
+          "no": 18
+        }
+      ]
+    },
+    {
+      "id": "c-90008-050",
+      "category": "common",
+      "subject": "90008 環境保護",
+      "type": "single",
+      "stem": "有關小黑蚊的敘述，下列何者為非？",
+      "options": {
+        "1": "活動時間以中午十二點到下午三點為活動高峰期",
+        "2": "小黑蚊的幼蟲以腐植質、青苔和藻類為食",
+        "3": "無論雄性或雌性皆會吸食哺乳類動物血液",
+        "4": "多存在竹林、灌木叢、雜草叢、果園等邊緣地帶等處"
+      },
+      "answer": [
+        "3"
+      ],
+      "appearances": []
+    },
+    {
+      "id": "c-90008-051",
+      "category": "common",
+      "subject": "90008 環境保護",
+      "type": "single",
+      "stem": "利用垃圾焚化廠處理垃圾的最主要優點為何？",
+      "options": {
+        "1": "減少處理後的垃圾體積",
+        "2": "去除垃圾中所有毒物",
+        "3": "減少空氣污染",
+        "4": "減少處理垃圾的程序"
+      },
+      "answer": [
+        "1"
+      ],
+      "appearances": [
+        {
+          "year": "113",
+          "session": 2,
+          "no": 35
+        },
+        {
+          "year": "114",
+          "session": "2颱風延期考區",
+          "no": 20
+        },
+        {
+          "year": "108",
+          "session": 3,
+          "no": 11
+        }
+      ]
+    },
+    {
+      "id": "c-90008-052",
+      "category": "common",
+      "subject": "90008 環境保護",
+      "type": "single",
+      "stem": "利用豬隻的排泄物當燃料發電，是屬於下列哪一種能源？",
+      "options": {
+        "1": "地熱能",
+        "2": "太陽能",
+        "3": "生質能",
+        "4": "核能"
+      },
+      "answer": [
+        "3"
+      ],
+      "appearances": [
+        {
+          "year": "114",
+          "session": 3,
+          "no": 54
+        }
+      ]
+    },
+    {
+      "id": "c-90008-053",
+      "category": "common",
+      "subject": "90008 環境保護",
+      "type": "single",
+      "stem": "每個人日常生活皆會產生垃圾，有關處理垃圾的觀念與方式，下列何者不正確？",
+      "options": {
+        "1": "垃圾分類，使資源回收再利用",
+        "2": "所有垃圾皆掩埋處理，垃圾將會自然分解",
+        "3": "廚餘回收堆肥後製成肥料",
+        "4": "可燃性垃圾經焚化燃燒可有效減少垃圾體積"
+      },
+      "answer": [
+        "2"
+      ],
+      "appearances": [
+        {
+          "year": "114",
+          "session": 1,
+          "no": 60
+        }
+      ]
+    },
+    {
+      "id": "c-90008-054",
+      "category": "common",
+      "subject": "90008 環境保護",
+      "type": "single",
+      "stem": "防治蚊蟲最好的方法是",
+      "options": {
+        "1": "使用殺蟲劑",
+        "2": "清除孳生源",
+        "3": "網子捕捉",
+        "4": "拍打"
+      },
+      "answer": [
+        "2"
+      ],
+      "appearances": []
+    },
+    {
+      "id": "c-90008-055",
+      "category": "common",
+      "subject": "90008 環境保護",
+      "type": "single",
+      "stem": "室內裝修業者承攬裝修工程，工程中所產生的廢棄物應該如何處理？",
+      "options": {
+        "1": "委託合法清除機構清運",
+        "2": "倒在偏遠山坡地",
+        "3": "河岸邊掩埋",
+        "4": "交給清潔隊垃圾車"
+      },
+      "answer": [
+        "1"
+      ],
+      "appearances": [
+        {
+          "year": "107",
+          "session": 3,
+          "no": 44
+        },
+        {
+          "year": "109",
+          "session": 1,
+          "no": 60
+        }
+      ]
+    },
+    {
+      "id": "c-90008-056",
+      "category": "common",
+      "subject": "90008 環境保護",
+      "type": "single",
+      "stem": "若使用後的廢電池未經回收，直接廢棄所含重金屬物質曝露於環境中可能產生哪些影響？A.地下水污染、B.對人體產生中毒等不良作用、C.對生物產生重金屬累積及濃縮作用、D.造成優養化",
+      "options": {
+        "1": "ABC",
+        "2": "ABCD",
+        "3": "ACD",
+        "4": "BCD"
+      },
+      "answer": [
+        "1"
+      ],
+      "appearances": []
+    },
+    {
+      "id": "c-90008-057",
+      "category": "common",
+      "subject": "90008 環境保護",
+      "type": "single",
+      "stem": "哪一種家庭廢棄物可用來作為製造肥皂的主要原料？",
+      "options": {
+        "1": "食醋",
+        "2": "果皮",
+        "3": "回鍋油",
+        "4": "熟廚餘"
+      },
+      "answer": [
+        "3"
+      ],
+      "appearances": []
+    },
+    {
+      "id": "c-90008-058",
+      "category": "common",
+      "subject": "90008 環境保護",
+      "type": "single",
+      "stem": "(本題刪題)世紀之毒「戴奧辛」主要透過何者方式進入人體？",
+      "options": {
+        "1": "透過觸摸",
+        "2": "透過呼吸",
+        "3": "透過飲食",
+        "4": "透過雨水"
+      },
+      "answer": [
+        "3"
+      ],
+      "appearances": []
+    },
+    {
+      "id": "c-90008-059",
+      "category": "common",
+      "subject": "90008 環境保護",
+      "type": "single",
+      "stem": "臺灣地狹人稠，垃圾處理一直是不易解決的問題，下列何種是較佳的因應對策？",
+      "options": {
+        "1": "垃圾分類資源回收",
+        "2": "蓋焚化廠",
+        "3": "運至國外處理",
+        "4": "向海爭地掩埋"
+      },
+      "answer": [
+        "1"
+      ],
+      "appearances": []
+    },
+    {
+      "id": "c-90008-060",
+      "category": "common",
+      "subject": "90008 環境保護",
+      "type": "single",
+      "stem": "購買下列哪一種商品對環境比較友善？",
+      "options": {
+        "1": "用過即丟的商品",
+        "2": "一次性的產品",
+        "3": "材質可以回收的商品",
+        "4": "過度包裝的商品"
+      },
+      "answer": [
+        "3"
+      ],
+      "appearances": [
+        {
+          "year": "109",
+          "session": 2,
+          "no": 6
+        }
+      ]
+    },
+    {
+      "id": "c-90008-061",
+      "category": "common",
+      "subject": "90008 環境保護",
+      "type": "single",
+      "stem": "下列何項法規的立法目的為預防及減輕開發行為對環境造成不良影響，藉以達成環境保護之目的？",
+      "options": {
+        "1": "公害糾紛處理法",
+        "2": "環境影響評估法",
+        "3": "環境基本法",
+        "4": "環境教育法"
+      },
+      "answer": [
+        "2"
+      ],
+      "appearances": [
+        {
+          "year": "109",
+          "session": 2,
+          "no": 12
+        },
+        {
+          "year": "108",
+          "session": 3,
+          "no": 17
+        }
+      ]
+    },
+    {
+      "id": "c-90008-062",
+      "category": "common",
+      "subject": "90008 環境保護",
+      "type": "single",
+      "stem": "下列何種開發行為若對環境有不良影響之虞者，應實施環境影響評估？A.開發科學園區；B.新建捷運工程；C.採礦",
+      "options": {
+        "1": "AB",
+        "2": "BC",
+        "3": "AC",
+        "4": "ABC"
+      },
+      "answer": [
+        "4"
+      ],
+      "appearances": []
+    },
+    {
+      "id": "c-90008-063",
+      "category": "common",
+      "subject": "90008 環境保護",
+      "type": "single",
+      "stem": "主管機關審查環境影響說明書或評估書，如認為已足以判斷未對環境有重大影響之虞，作成之審查結論可能為下列何者？",
+      "options": {
+        "1": "通過環境影響評估審查",
+        "2": "應繼續進行第二階段環境影響評估",
+        "3": "認定不應開發",
+        "4": "補充修正資料再審"
+      },
+      "answer": [
+        "1"
+      ],
+      "appearances": [
+        {
+          "year": "109",
+          "session": 1,
+          "no": 17
+        },
+        {
+          "year": "108",
+          "session": 1,
+          "no": 33
+        },
+        {
+          "year": "114",
+          "session": "2颱風延期考區",
+          "no": 51
+        }
+      ]
+    },
+    {
+      "id": "c-90008-064",
+      "category": "common",
+      "subject": "90008 環境保護",
+      "type": "single",
+      "stem": "依環境影響評估法規定，對環境有重大影響之虞的開發行為應繼續進行第二階段環境影響評估，下列何者不是上述對環境有重大影響之虞或應進行第二階段環境影響評估的決定方式？",
+      "options": {
+        "1": "明訂開發行為及規模",
+        "2": "環評委員會審查認定",
+        "3": "自願進行",
+        "4": "有民眾或團體抗爭"
+      },
+      "answer": [
+        "4"
+      ],
+      "appearances": [
+        {
+          "year": "111",
+          "session": 2,
+          "no": 48
+        },
+        {
+          "year": "114",
+          "session": 2,
+          "no": 58
+        }
+      ]
+    },
+    {
+      "id": "c-90008-065",
+      "category": "common",
+      "subject": "90008 環境保護",
+      "type": "single",
+      "stem": "依環境教育法，環境教育之戶外學習應選擇何地點辦理？",
+      "options": {
+        "1": "遊樂園",
+        "2": "環境教育設施或場所",
+        "3": "森林遊樂區",
+        "4": "海洋世界"
+      },
+      "answer": [
+        "2"
+      ],
+      "appearances": []
+    },
+    {
+      "id": "c-90008-066",
+      "category": "common",
+      "subject": "90008 環境保護",
+      "type": "single",
+      "stem": "依環境影響評估法規定，環境影響評估審查委員會審查環境影響說明書，認定下列對環境有重大影響之虞者，應繼續進行第二階段環境影響評估，下列何者非屬對環境有重大影響之虞者？",
+      "options": {
+        "1": "對保育類動植物之棲息生存有顯著不利之影響",
+        "2": "對國家經濟有顯著不利之影響",
+        "3": "對國民健康有顯著不利之影響",
+        "4": "對其他國家之環境有顯著不利之影響"
+      },
+      "answer": [
+        "2"
+      ],
+      "appearances": []
+    },
+    {
+      "id": "c-90008-067",
+      "category": "common",
+      "subject": "90008 環境保護",
+      "type": "single",
+      "stem": "依環境影響評估法規定，第二階段環境影響評估，目的事業主管機關應舉行下列何種會議？",
+      "options": {
+        "1": "研討會",
+        "2": "聽證會",
+        "3": "辯論會",
+        "4": "公聽會"
+      },
+      "answer": [
+        "4"
+      ],
+      "appearances": [
+        {
+          "year": "115",
+          "session": 2,
+          "no": 52
+        }
+      ]
+    },
+    {
+      "id": "c-90008-068",
+      "category": "common",
+      "subject": "90008 環境保護",
+      "type": "single",
+      "stem": "開發單位申請變更環境影響說明書、評估書內容或審查結論，符合下列哪一情形，得檢附變更內容對照表辦理？",
+      "options": {
+        "1": "既有設備提昇產能而污染總量增加在百分之十以下",
+        "2": "降低環境保護設施處理等級或效率",
+        "3": "環境監測計畫變更",
+        "4": "開發行為規模增加未超過百分之五"
+      },
+      "answer": [
+        "3"
+      ],
+      "appearances": []
+    },
+    {
+      "id": "c-90008-069",
+      "category": "common",
+      "subject": "90008 環境保護",
+      "type": "single",
+      "stem": "開發單位變更原申請內容有下列哪一情形，無須就申請變更部分，重新辦理環境影響評估？",
+      "options": {
+        "1": "不降低環保設施之處理等級或效率",
+        "2": "規模擴增百分之十以上",
+        "3": "對環境品質之維護有不利影響",
+        "4": "土地使用之變更涉及原規劃之保護區"
+      },
+      "answer": [
+        "1"
+      ],
+      "appearances": [
+        {
+          "year": "115",
+          "session": 2,
+          "no": 8
+        }
+      ]
+    },
+    {
+      "id": "c-90008-070",
+      "category": "common",
+      "subject": "90008 環境保護",
+      "type": "single",
+      "stem": "工廠或交通工具排放空氣污染物之檢查，下列何者錯誤？",
+      "options": {
+        "1": "依中央主管機關規定之方法使用儀器進行檢查",
+        "2": "檢查人員以嗅覺進行氨氣濃度之判定",
+        "3": "檢查人員以嗅覺進行異味濃度之判定",
+        "4": "檢查人員以肉眼進行粒狀污染物不透光率之判定"
+      },
+      "answer": [
+        "2"
+      ],
+      "appearances": []
+    },
+    {
+      "id": "c-90008-071",
+      "category": "common",
+      "subject": "90008 環境保護",
+      "type": "single",
+      "stem": "下列對於空氣污染物排放標準之敘述，何者正確：A.排放標準由中央主管機關訂定；B.所有行業之排放標準皆相同？",
+      "options": {
+        "1": "僅A",
+        "2": "僅B",
+        "3": "AB皆正確",
+        "4": "AB皆錯誤"
+      },
+      "answer": [
+        "1"
+      ],
+      "appearances": []
+    },
+    {
+      "id": "c-90008-072",
+      "category": "common",
+      "subject": "90008 環境保護",
+      "type": "single",
+      "stem": "(本題刪題)下列對於細懸浮微粒（PM2.5）之敘述何者正確？A.空氣品質測站中自動監測儀所測得之數值若高於空氣品質標準，即判定為不符合空氣品質標準；B.濃度監測之標準方法為中央主管機關公告之手動檢測方法；C.空氣品質標準之年平均值為15μg/m3？",
+      "options": {
+        "1": "僅AB",
+        "2": "僅BC",
+        "3": "僅AC",
+        "4": "ABC皆正確"
+      },
+      "answer": [
+        "2"
+      ],
+      "appearances": []
+    },
+    {
+      "id": "c-90008-073",
+      "category": "common",
+      "subject": "90008 環境保護",
+      "type": "single",
+      "stem": "機車為空氣污染物之主要排放來源之一，下列何者可降低空氣污染物之排放量：A.將四行程機車全面汰換成二行程機車；B.推廣電動機車；C.降低汽油中之硫含量？",
+      "options": {
+        "1": "僅AB",
+        "2": "僅BC",
+        "3": "僅AC",
+        "4": "ABC皆正確"
+      },
+      "answer": [
+        "2"
+      ],
+      "appearances": [
+        {
+          "year": "115",
+          "session": 2,
+          "no": 43
+        }
+      ]
+    },
+    {
+      "id": "c-90008-074",
+      "category": "common",
+      "subject": "90008 環境保護",
+      "type": "single",
+      "stem": "公眾聚集量大且滯留時間長之場所，經公告應設置自動監測設施，其應量測之室內空氣污染物項目為何？",
+      "options": {
+        "1": "二氧化碳",
+        "2": "一氧化碳",
+        "3": "臭氧",
+        "4": "甲醛"
+      },
+      "answer": [
+        "1"
+      ],
+      "appearances": []
+    },
+    {
+      "id": "c-90008-075",
+      "category": "common",
+      "subject": "90008 環境保護",
+      "type": "single",
+      "stem": "空氣污染源依排放特性分為固定污染源及移動污染源，下列何者屬於移動污染源？",
+      "options": {
+        "1": "焚化廠",
+        "2": "石化廠",
+        "3": "機車",
+        "4": "煉鋼廠"
+      },
+      "answer": [
+        "3"
+      ],
+      "appearances": []
+    },
+    {
+      "id": "c-90008-076",
+      "category": "common",
+      "subject": "90008 環境保護",
+      "type": "single",
+      "stem": "我國汽機車移動污染源空氣污染防制費的徵收機制為何？",
+      "options": {
+        "1": "依牌照徵收",
+        "2": "隨水費徵收",
+        "3": "隨油品銷售徵收",
+        "4": "購車時徵收"
+      },
+      "answer": [
+        "3"
+      ],
+      "appearances": []
+    },
+    {
+      "id": "c-90008-077",
+      "category": "common",
+      "subject": "90008 環境保護",
+      "type": "single",
+      "stem": "細懸浮微粒（PM2.5）除了來自於污染源直接排放外，亦可能經由下列哪一種反應產生？",
+      "options": {
+        "1": "光合作用",
+        "2": "酸鹼中和",
+        "3": "厭氧作用",
+        "4": "光化學反應"
+      },
+      "answer": [
+        "4"
+      ],
+      "appearances": []
+    },
+    {
+      "id": "c-90008-078",
+      "category": "common",
+      "subject": "90008 環境保護",
+      "type": "single",
+      "stem": "我國固定污染源空氣污染防制費以何種方式徵收？",
+      "options": {
+        "1": "依營業額徵收",
+        "2": "隨使用原料徵收",
+        "3": "按工廠面積徵收",
+        "4": "依排放污染物之種類及數量徵收"
+      },
+      "answer": [
+        "4"
+      ],
+      "appearances": [
+        {
+          "year": "113",
+          "session": 2,
+          "no": 26
+        }
+      ]
+    },
+    {
+      "id": "c-90008-079",
+      "category": "common",
+      "subject": "90008 環境保護",
+      "type": "single",
+      "stem": "在不妨害水體正常用途情況下，水體所能涵容污染物之量稱為",
+      "options": {
+        "1": "涵容能力",
+        "2": "放流能力",
+        "3": "運轉能力",
+        "4": "消化能力"
+      },
+      "answer": [
+        "1"
+      ],
+      "appearances": [
+        {
+          "year": "113",
+          "session": 2,
+          "no": 60
+        },
+        {
+          "year": "113",
+          "session": 3,
+          "no": 44
+        }
+      ]
+    },
+    {
+      "id": "c-90008-080",
+      "category": "common",
+      "subject": "90008 環境保護",
+      "type": "single",
+      "stem": "水污染防治法中所稱地面水體不包括下列何者？",
+      "options": {
+        "1": "河川",
+        "2": "海洋",
+        "3": "灌溉渠道",
+        "4": "地下水"
+      },
+      "answer": [
+        "4"
+      ],
+      "appearances": [
+        {
+          "year": "113",
+          "session": 2,
+          "no": 4
+        }
+      ]
+    },
+    {
+      "id": "c-90008-081",
+      "category": "common",
+      "subject": "90008 環境保護",
+      "type": "single",
+      "stem": "下列何者不是主管機關設置水質監測站採樣的項目？",
+      "options": {
+        "1": "水溫",
+        "2": "氫離子濃度指數",
+        "3": "溶氧量",
+        "4": "顏色"
+      },
+      "answer": [
+        "4"
+      ],
+      "appearances": []
+    },
+    {
+      "id": "c-90008-082",
+      "category": "common",
+      "subject": "90008 環境保護",
+      "type": "single",
+      "stem": "事業、污水下水道系統及建築物污水處理設施之廢（污）水處理，其產生之污泥，依規定應作何處理？",
+      "options": {
+        "1": "應妥善處理，不得任意放置或棄置",
+        "2": "可作為農業肥料",
+        "3": "可作為建築土方",
+        "4": "得交由清潔隊處理"
+      },
+      "answer": [
+        "1"
+      ],
+      "appearances": []
+    },
+    {
+      "id": "c-90008-083",
+      "category": "common",
+      "subject": "90008 環境保護",
+      "type": "single",
+      "stem": "依水污染防治法，事業排放廢（污）水於地面水體者，應符合下列哪一標準之規定？",
+      "options": {
+        "1": "下水水質標準",
+        "2": "放流水標準",
+        "3": "水體分類水質標準",
+        "4": "土壤處理標準"
+      },
+      "answer": [
+        "2"
+      ],
+      "appearances": []
+    },
+    {
+      "id": "c-90008-084",
+      "category": "common",
+      "subject": "90008 環境保護",
+      "type": "single",
+      "stem": "放流水標準，依水污染防治法應由何機關定之：A.中央主管機關；B.中央主管機關會同相關目的事業主管機關；C.中央主管機關會商相關目的事業主管機關？",
+      "options": {
+        "1": "僅A",
+        "2": "僅B",
+        "3": "僅C",
+        "4": "ABC"
+      },
+      "answer": [
+        "3"
+      ],
+      "appearances": []
+    },
+    {
+      "id": "c-90008-085",
+      "category": "common",
+      "subject": "90008 環境保護",
+      "type": "single",
+      "stem": "對於噪音之量測，下列何者錯誤？",
+      "options": {
+        "1": "可於下雨時測量",
+        "2": "風速大於每秒5公尺時不可量測",
+        "3": "聲音感應器應置於離地面或樓板延伸線1.2至1.5公尺之間",
+        "4": "測量低頻噪音時，僅限於室內地點測量，非於戶外量測"
+      },
+      "answer": [
+        "1"
+      ],
+      "appearances": [
+        {
+          "year": "114",
+          "session": 2,
+          "no": 54
+        }
+      ]
+    },
+    {
+      "id": "c-90008-086",
+      "category": "common",
+      "subject": "90008 環境保護",
+      "type": "single",
+      "stem": "對於噪音管制法之規定，下列敘述何者錯誤？",
+      "options": {
+        "1": "噪音指超過管制標準之聲音",
+        "2": "環保局得視噪音狀況劃定公告噪音管制區",
+        "3": "人民得向主管機關檢舉使用中機動車輛噪音妨害安寧情形",
+        "4": "使用經校正合格之噪音計皆可執行噪音管制法規定之檢驗測定"
+      },
+      "answer": [
+        "4"
+      ],
+      "appearances": []
+    },
+    {
+      "id": "c-90008-087",
+      "category": "common",
+      "subject": "90008 環境保護",
+      "type": "single",
+      "stem": "製造非持續性但卻妨害安寧之聲音者，由下列何單位依法進行處理？",
+      "options": {
+        "1": "警察局",
+        "2": "環保局",
+        "3": "社會局",
+        "4": "消防局"
+      },
+      "answer": [
+        "1"
+      ],
+      "appearances": [
+        {
+          "year": "114",
+          "session": 2,
+          "no": 30
+        },
+        {
+          "year": "115",
+          "session": 2,
+          "no": 16
+        }
+      ]
+    },
+    {
+      "id": "c-90008-088",
+      "category": "common",
+      "subject": "90008 環境保護",
+      "type": "single",
+      "stem": "廢棄物、剩餘土石方清除機具應隨車持有證明文件且應載明廢棄物、剩餘土石方之：A產生源；B處理地點；C清除公司",
+      "options": {
+        "1": "僅AB",
+        "2": "僅BC",
+        "3": "僅AC",
+        "4": "ABC皆是"
+      },
+      "answer": [
+        "1"
+      ],
+      "appearances": []
+    },
+    {
+      "id": "c-90008-089",
+      "category": "common",
+      "subject": "90008 環境保護",
+      "type": "single",
+      "stem": "從事廢棄物清除、處理業務者，應向直轄市、縣（市）主管機關或中央主管機關委託之機關取得何種文件後，始得受託清除、處理廢棄物業務？",
+      "options": {
+        "1": "公民營廢棄物清除處理機構許可文件",
+        "2": "運輸車輛駕駛證明",
+        "3": "運輸車輛購買證明",
+        "4": "公司財務證明"
+      },
+      "answer": [
+        "1"
+      ],
+      "appearances": []
+    },
+    {
+      "id": "c-90008-090",
+      "category": "common",
+      "subject": "90008 環境保護",
+      "type": "single",
+      "stem": "在何種情形下，禁止輸入事業廢棄物：A.對國內廢棄物處理有妨礙；B.可直接固化處理、掩埋、焚化或海拋；C.於國內無法妥善清理？",
+      "options": {
+        "1": "僅A",
+        "2": "僅B",
+        "3": "僅C",
+        "4": "ABC"
+      },
+      "answer": [
+        "4"
+      ],
+      "appearances": []
+    },
+    {
+      "id": "c-90008-091",
+      "category": "common",
+      "subject": "90008 環境保護",
+      "type": "single",
+      "stem": "毒性化學物質因洩漏、化學反應或其他突發事故而污染運作場所周界外之環境，運作人應立即採取緊急防治措施，並至遲於多久時間內，報知直轄市、縣（市）主管機關？",
+      "options": {
+        "1": "1小時",
+        "2": "2小時",
+        "3": "4小時",
+        "4": "30分鐘"
+      },
+      "answer": [
+        "4"
+      ],
+      "appearances": [
+        {
+          "year": "113",
+          "session": 2,
+          "no": 8
+        }
+      ]
+    },
+    {
+      "id": "c-90008-092",
+      "category": "common",
+      "subject": "90008 環境保護",
+      "type": "single",
+      "stem": "(本題刪題)下列何種物質或物品，受毒性及關注化學物質管理法之管制？",
+      "options": {
+        "1": "製造醫藥之靈丹",
+        "2": "製造農藥之蓋普丹",
+        "3": "含汞之日光燈",
+        "4": "使用青石綿製造石綿瓦"
+      },
+      "answer": [
+        "4"
+      ],
+      "appearances": []
+    },
+    {
+      "id": "c-90008-093",
+      "category": "common",
+      "subject": "90008 環境保護",
+      "type": "single",
+      "stem": "下列何行為不是土壤及地下水污染整治法所指污染行為人之作為？",
+      "options": {
+        "1": "洩漏或棄置污染物",
+        "2": "非法排放或灌注污染物",
+        "3": "仲介或容許洩漏、棄置、非法排放或灌注污染物",
+        "4": "依法令規定清理污染物"
+      },
+      "answer": [
+        "4"
+      ],
+      "appearances": []
+    },
+    {
+      "id": "c-90008-094",
+      "category": "common",
+      "subject": "90008 環境保護",
+      "type": "single",
+      "stem": "依土壤及地下水污染整治法規定，進行土壤、底泥及地下水污染調查、整治及提供、檢具土壤及地下水污染檢測資料時，其土壤、底泥及地下水污染物檢驗測定，應委託何單位辦理？",
+      "options": {
+        "1": "經中央主管機關許可之檢測機構",
+        "2": "大專院校",
+        "3": "政府機關",
+        "4": "自行檢驗"
+      },
+      "answer": [
+        "1"
+      ],
+      "appearances": []
+    },
+    {
+      "id": "c-90008-095",
+      "category": "common",
+      "subject": "90008 環境保護",
+      "type": "single",
+      "stem": "為解決環境保護與經濟發展的衝突與矛盾，1992年聯合國環境發展大會（UNConferenceonEnvironmentandDevelopment,UNCED）制定通過",
+      "options": {
+        "1": "日內瓦公約",
+        "2": "蒙特婁公約",
+        "3": "21世紀議程",
+        "4": "京都議定書"
+      },
+      "answer": [
+        "3"
+      ],
+      "appearances": []
+    },
+    {
+      "id": "c-90008-096",
+      "category": "common",
+      "subject": "90008 環境保護",
+      "type": "single",
+      "stem": "一般而言，下列哪一個防治策略是屬經濟誘因策略？",
+      "options": {
+        "1": "可轉換排放許可交易",
+        "2": "許可證制度",
+        "3": "放流水標準",
+        "4": "環境品質標準"
+      },
+      "answer": [
+        "1"
+      ],
+      "appearances": []
+    },
+    {
+      "id": "c-90008-097",
+      "category": "common",
+      "subject": "90008 環境保護",
+      "type": "single",
+      "stem": "對溫室氣體管制之「無悔政策」係指",
+      "options": {
+        "1": "減輕溫室氣體效應之同時，仍可獲致社會效益",
+        "2": "全世界各國同時進行溫室氣體減量",
+        "3": "各類溫室氣體均有相同之減量邊際成本",
+        "4": "持續研究溫室氣體對全球氣候變遷之科學證據"
+      },
+      "answer": [
+        "1"
+      ],
+      "appearances": []
+    },
+    {
+      "id": "c-90008-098",
+      "category": "common",
+      "subject": "90008 環境保護",
+      "type": "single",
+      "stem": "一般家庭垃圾在進行衛生掩埋後，會經由細菌的分解而產生甲烷氣體，有關甲烷氣體對大氣危機中哪一種效應具有影響力？",
+      "options": {
+        "1": "臭氧層破壞",
+        "2": "酸雨",
+        "3": "溫室效應",
+        "4": "煙霧（smog）效應"
+      },
+      "answer": [
+        "3"
+      ],
+      "appearances": []
+    },
+    {
+      "id": "c-90008-099",
+      "category": "common",
+      "subject": "90008 環境保護",
+      "type": "single",
+      "stem": "下列國際環保公約，何者限制各國進行野生動植物交易，以保護瀕臨絕種的野生動植物？",
+      "options": {
+        "1": "華盛頓公約",
+        "2": "巴塞爾公約",
+        "3": "蒙特婁議定書",
+        "4": "氣候變化綱要公約"
+      },
+      "answer": [
+        "1"
+      ],
+      "appearances": [
+        {
+          "year": "115",
+          "session": 1,
+          "no": 9
+        }
+      ]
+    },
+    {
+      "id": "c-90008-100",
+      "category": "common",
+      "subject": "90008 環境保護",
+      "type": "single",
+      "stem": "因人類活動導致哪些營養物過量排入海洋，造成沿海赤潮頻繁發生，破壞了紅樹林、珊瑚礁、海草，亦使魚蝦銳減，漁業損失慘重？",
+      "options": {
+        "1": "碳及磷",
+        "2": "氮及磷",
+        "3": "氮及氯",
+        "4": "氯及鎂"
+      },
+      "answer": [
+        "2"
+      ],
+      "appearances": [
+        {
+          "year": "114",
+          "session": 1,
+          "no": 29
+        }
+      ]
+    },
+    {
+      "id": "c-90009-001",
+      "category": "common",
+      "subject": "90009 節能減碳",
+      "type": "single",
+      "stem": "依經濟部能源署「指定能源用戶應遵行之節約能源規定」，在正常使用條件下，公眾出入之營業場所其室內冷氣溫度平均值不得低於攝氏幾度？",
+      "options": {
+        "1": "26",
+        "2": "25",
+        "3": "24",
+        "4": "22"
+      },
+      "answer": [
+        "1"
+      ],
+      "appearances": []
+    },
+    {
+      "id": "c-90009-002",
+      "category": "common",
+      "subject": "90009 節能減碳",
+      "type": "single",
+      "stem": "下列何者為節能標章？",
+      "img": "assets/img/subject/c-90009-002.png",
+      "options": {
+        "1": "",
+        "2": "",
+        "3": "",
+        "4": ""
+      },
+      "answer": [
+        "2"
+      ],
+      "appearances": [
+        {
+          "year": "111",
+          "session": 1,
+          "no": 54
+        },
+        {
+          "year": "112",
+          "session": 2,
+          "no": 50
+        }
+      ]
+    },
+    {
+      "id": "c-90009-003",
+      "category": "common",
+      "subject": "90009 節能減碳",
+      "type": "single",
+      "stem": "下列何者為國內能源消費最大部門？",
+      "options": {
+        "1": "服務業",
+        "2": "住宅",
+        "3": "運輸",
+        "4": "工業"
+      },
+      "answer": [
+        "4"
+      ],
+      "appearances": []
+    },
+    {
+      "id": "c-90009-004",
+      "category": "common",
+      "subject": "90009 節能減碳",
+      "type": "single",
+      "stem": "下列何者「不是」節省能源的做法？",
+      "options": {
+        "1": "電冰箱溫度長時間設定在強冷或急冷",
+        "2": "影印機當15分鐘無人使用時，自動進入省電模式",
+        "3": "電視機勿背著窗戶，並避免太陽直射",
+        "4": "短程不開汽車，以儘量搭乘公車、騎單車或步行為宜"
+      },
+      "answer": [
+        "1"
+      ],
+      "appearances": [
+        {
+          "year": "114",
+          "session": 2,
+          "no": 55
+        }
+      ]
+    },
+    {
+      "id": "c-90009-005",
+      "category": "common",
+      "subject": "90009 節能減碳",
+      "type": "single",
+      "stem": "經濟部能源署的能源效率標示中，電冰箱分為幾個等級？",
+      "options": {
+        "1": "1",
+        "2": "3",
+        "3": "5",
+        "4": "7"
+      },
+      "answer": [
+        "3"
+      ],
+      "appearances": []
+    },
+    {
+      "id": "c-90009-006",
+      "category": "common",
+      "subject": "90009 節能減碳",
+      "type": "single",
+      "stem": "溫室氣體排放量：指自排放源排出之各種溫室氣體量乘以各該物質溫暖化潛勢所得之合計量，以",
+      "options": {
+        "1": "氧化亞氮（N2O）",
+        "2": "二氧化碳（CO2）",
+        "3": "甲烷（CH4）",
+        "4": "六氟化硫（SF6）當量表示"
+      },
+      "answer": [
+        "2"
+      ],
+      "appearances": [
+        {
+          "year": "109",
+          "session": 1,
+          "no": 59
+        },
+        {
+          "year": "109",
+          "session": 2,
+          "no": 57
+        },
+        {
+          "year": "114",
+          "session": 1,
+          "no": 12
+        }
+      ]
+    },
+    {
+      "id": "c-90009-007",
+      "category": "common",
+      "subject": "90009 節能減碳",
+      "type": "single",
+      "stem": "根據氣候變遷因應法，國家溫室氣體長期減量目標於中華民國幾年達成溫室氣體淨零排放？",
+      "options": {
+        "1": "119",
+        "2": "129",
+        "3": "139",
+        "4": "149"
+      },
+      "answer": [
+        "3"
+      ],
+      "appearances": []
+    },
+    {
+      "id": "c-90009-008",
+      "category": "common",
+      "subject": "90009 節能減碳",
+      "type": "single",
+      "stem": "氣候變遷因應法所稱主管機關，在中央為下列何單位？",
+      "options": {
+        "1": "經濟部能源署",
+        "2": "環境部",
+        "3": "國家發展委員會",
+        "4": "衛生福利部"
+      },
+      "answer": [
+        "2"
+      ],
+      "appearances": [
+        {
+          "year": "114",
+          "session": 3,
+          "no": 6
+        }
+      ]
+    },
+    {
+      "id": "c-90009-009",
+      "category": "common",
+      "subject": "90009 節能減碳",
+      "type": "single",
+      "stem": "氣候變遷因應法中所稱：一單位之排放額度相當於允許排放多少的二氧化碳當量？",
+      "options": {
+        "1": "1公斤",
+        "2": "1立方米",
+        "3": "1公噸",
+        "4": "1公升"
+      },
+      "answer": [
+        "3"
+      ],
+      "appearances": []
+    },
+    {
+      "id": "c-90009-010",
+      "category": "common",
+      "subject": "90009 節能減碳",
+      "type": "single",
+      "stem": "下列何者「不是」全球暖化帶來的影響？",
+      "options": {
+        "1": "洪水",
+        "2": "熱浪",
+        "3": "地震",
+        "4": "旱災"
+      },
+      "answer": [
+        "3"
+      ],
+      "appearances": [
+        {
+          "year": "113",
+          "session": 2,
+          "no": 24
+        },
+        {
+          "year": "114",
+          "session": "2颱風延期考區",
+          "no": 37
+        }
+      ]
+    },
+    {
+      "id": "c-90009-011",
+      "category": "common",
+      "subject": "90009 節能減碳",
+      "type": "single",
+      "stem": "下列何種方法無法減少二氧化碳？",
+      "options": {
+        "1": "想吃多少儘量點，剩下可當廚餘回收",
+        "2": "選購當地、當季食材，減少運輸碳足跡",
+        "3": "多吃蔬菜，少吃肉",
+        "4": "自備杯筷，減少免洗用具垃圾量"
+      },
+      "answer": [
+        "1"
+      ],
+      "appearances": [
+        {
+          "year": "110",
+          "session": 1,
+          "no": 50
+        }
+      ]
+    },
+    {
+      "id": "c-90009-012",
+      "category": "common",
+      "subject": "90009 節能減碳",
+      "type": "single",
+      "stem": "下列何者不會減少溫室氣體的排放？",
+      "options": {
+        "1": "減少使用煤、石油等化石燃料",
+        "2": "大量植樹造林，禁止亂砍亂伐",
+        "3": "增高燃煤氣體排放的煙囪",
+        "4": "開發太陽能、水能等新能源"
+      },
+      "answer": [
+        "3"
+      ],
+      "appearances": []
+    },
+    {
+      "id": "c-90009-013",
+      "category": "common",
+      "subject": "90009 節能減碳",
+      "type": "single",
+      "stem": "關於綠色採購之敘述，下列何者錯誤？",
+      "options": {
+        "1": "採購由回收材料所製造之物品",
+        "2": "採購的產品對環境及人類健康有最小的傷害性",
+        "3": "選購對環境傷害較少、污染程度較低的產品",
+        "4": "以精美包裝為主要首選"
+      },
+      "answer": [
+        "4"
+      ],
+      "appearances": []
+    },
+    {
+      "id": "c-90009-014",
+      "category": "common",
+      "subject": "90009 節能減碳",
+      "type": "single",
+      "stem": "一旦大氣中的二氧化碳含量增加，會引起哪一種後果？",
+      "options": {
+        "1": "溫室效應惡化",
+        "2": "臭氧層破洞",
+        "3": "冰期來臨",
+        "4": "海平面下降"
+      },
+      "answer": [
+        "1"
+      ],
+      "appearances": []
+    },
+    {
+      "id": "c-90009-015",
+      "category": "common",
+      "subject": "90009 節能減碳",
+      "type": "single",
+      "stem": "關於建築中常用的金屬玻璃帷幕牆，下列敘述何者正確？",
+      "options": {
+        "1": "玻璃帷幕牆的使用能節省室內空調使用",
+        "2": "玻璃帷幕牆適用於臺灣，讓夏天的室內產生溫暖的感覺",
+        "3": "在溫度高的國家，建築物使用金屬玻璃帷幕會造成日照輻射熱，產生室內「溫室效應」",
+        "4": "臺灣的氣候濕熱，特別適合在大樓以金屬玻璃帷幕作為建材"
+      },
+      "answer": [
+        "3"
+      ],
+      "appearances": []
+    },
+    {
+      "id": "c-90009-016",
+      "category": "common",
+      "subject": "90009 節能減碳",
+      "type": "single",
+      "stem": "下列何者不是能源之類型？",
+      "options": {
+        "1": "電力",
+        "2": "壓縮空氣",
+        "3": "蒸汽",
+        "4": "熱傳"
+      },
+      "answer": [
+        "4"
+      ],
+      "appearances": [
+        {
+          "year": "114",
+          "session": 3,
+          "no": 38
+        }
+      ]
+    },
+    {
+      "id": "c-90009-017",
+      "category": "common",
+      "subject": "90009 節能減碳",
+      "type": "single",
+      "stem": "我國已制定能源管理系統標準為",
+      "options": {
+        "1": "CNS50001",
+        "2": "CNS12681",
+        "3": "CNS14001",
+        "4": "CNS22000"
+      },
+      "answer": [
+        "1"
+      ],
+      "appearances": [
+        {
+          "year": "114",
+          "session": 2,
+          "no": 39
+        }
+      ]
+    },
+    {
+      "id": "c-90009-018",
+      "category": "common",
+      "subject": "90009 節能減碳",
+      "type": "single",
+      "stem": "台灣電力股份有限公司所謂的三段式時間電價於夏月平日（非週六日）之尖峰用電時段為何？",
+      "options": {
+        "1": "9：00〜24：00",
+        "2": "6：00〜11：00",
+        "3": "16：00〜22：00",
+        "4": "9：00〜16：00"
+      },
+      "answer": [
+        "3"
+      ],
+      "appearances": []
+    },
+    {
+      "id": "c-90009-019",
+      "category": "common",
+      "subject": "90009 節能減碳",
+      "type": "single",
+      "stem": "基於節能減碳的目標，下列何種光源發光效率最低，不鼓勵使用？",
+      "options": {
+        "1": "白熾燈泡",
+        "2": "LED燈泡",
+        "3": "省電燈泡",
+        "4": "螢光燈管"
+      },
+      "answer": [
+        "1"
+      ],
+      "appearances": []
+    },
+    {
+      "id": "c-90009-020",
+      "category": "common",
+      "subject": "90009 節能減碳",
+      "type": "single",
+      "stem": "下列的能源效率分級標示，哪一項較省電？",
+      "options": {
+        "1": "1",
+        "2": "2",
+        "3": "3",
+        "4": "4"
+      },
+      "answer": [
+        "1"
+      ],
+      "appearances": [
+        {
+          "year": "113",
+          "session": 2,
+          "no": 48
+        },
+        {
+          "year": "114",
+          "session": 1,
+          "no": 20
+        }
+      ]
+    },
+    {
+      "id": "c-90009-021",
+      "category": "common",
+      "subject": "90009 節能減碳",
+      "type": "single",
+      "stem": "下列何者「不是」目前台灣主要的發電方式？",
+      "options": {
+        "1": "燃煤",
+        "2": "燃氣",
+        "3": "水力",
+        "4": "地熱"
+      },
+      "answer": [
+        "4"
+      ],
+      "appearances": []
+    },
+    {
+      "id": "c-90009-022",
+      "category": "common",
+      "subject": "90009 節能減碳",
+      "type": "single",
+      "stem": "有關延長線及電線的使用，下列敘述何者錯誤？",
+      "options": {
+        "1": "拔下延長線插頭時，應手握插頭取下",
+        "2": "使用中之延長線如有異味產生，屬正常現象不須理會",
+        "3": "應避開火源，以免外覆塑膠熔解，致使用時造成短路",
+        "4": "使用老舊之延長線，容易造成短路、漏電或觸電等危險情形，應立即更換"
+      },
+      "answer": [
+        "2"
+      ],
+      "appearances": [
+        {
+          "year": "111",
+          "session": 1,
+          "no": 48
+        },
+        {
+          "year": "111",
+          "session": 2,
+          "no": 19
+        },
+        {
+          "year": "115",
+          "session": 2,
+          "no": 56
+        }
+      ]
+    },
+    {
+      "id": "c-90009-023",
+      "category": "common",
+      "subject": "90009 節能減碳",
+      "type": "single",
+      "stem": "有關觸電的處理方式，下列敘述何者錯誤？",
+      "options": {
+        "1": "立即將觸電者拉離現場",
+        "2": "把電源開關關閉",
+        "3": "通知救護人員",
+        "4": "使用絕緣的裝備來移除電源"
+      },
+      "answer": [
+        "1"
+      ],
+      "appearances": [
+        {
+          "year": "114",
+          "session": 2,
+          "no": 15
+        },
+        {
+          "year": "115",
+          "session": 2,
+          "no": 37
+        }
+      ]
+    },
+    {
+      "id": "c-90009-024",
+      "category": "common",
+      "subject": "90009 節能減碳",
+      "type": "single",
+      "stem": "目前電費單中，係以「度」為收費依據，下列何者為其單位？",
+      "options": {
+        "1": "kW",
+        "2": "kWh",
+        "3": "kJ",
+        "4": "kJh"
+      },
+      "answer": [
+        "2"
+      ],
+      "appearances": []
+    },
+    {
+      "id": "c-90009-025",
+      "category": "common",
+      "subject": "90009 節能減碳",
+      "type": "single",
+      "stem": "依據台灣電力公司三段式時間電價（尖峰、半尖峰及離峰時段）的規定，哪個時段電價最便宜？",
+      "options": {
+        "1": "尖峰時段",
+        "2": "夏月半尖峰時段",
+        "3": "非夏月半尖峰時段",
+        "4": "離峰時段"
+      },
+      "answer": [
+        "4"
+      ],
+      "appearances": []
+    },
+    {
+      "id": "c-90009-026",
+      "category": "common",
+      "subject": "90009 節能減碳",
+      "type": "single",
+      "stem": "當用電設備遭遇電源不足或輸配電設備受限制時，導致用戶暫停或減少用電的情形，常以下列何者名稱出現？",
+      "options": {
+        "1": "停電",
+        "2": "限電",
+        "3": "斷電",
+        "4": "配電"
+      },
+      "answer": [
+        "2"
+      ],
+      "appearances": [
+        {
+          "year": "114",
+          "session": "2颱風延期考區",
+          "no": 25
+        }
+      ]
+    },
+    {
+      "id": "c-90009-027",
+      "category": "common",
+      "subject": "90009 節能減碳",
+      "type": "single",
+      "stem": "照明控制可以達到節能與省電費的好處，下列何種方法最適合一般住宅社區兼顧節能、經濟性與實際照明需求？",
+      "options": {
+        "1": "加裝DALI全自動控制系統",
+        "2": "走廊與地下停車場選用紅外線感應控制電燈",
+        "3": "全面調低照明需求",
+        "4": "晚上關閉所有公共區域的照明"
+      },
+      "answer": [
+        "2"
+      ],
+      "appearances": [
+        {
+          "year": "112",
+          "session": 2,
+          "no": 47
+        }
+      ]
+    },
+    {
+      "id": "c-90009-028",
+      "category": "common",
+      "subject": "90009 節能減碳",
+      "type": "single",
+      "stem": "上班性質的商辦大樓為了降低尖峰時段用電，下列何者錯誤？",
+      "options": {
+        "1": "使用儲冰式空調系統減少白天空調用電需求",
+        "2": "白天有陽光照明，所以白天可以將照明設備全關掉",
+        "3": "汰換老舊電梯馬達並使用變頻控制",
+        "4": "電梯設定隔層停止控制，減少頻繁啟動"
+      },
+      "answer": [
+        "2"
+      ],
+      "appearances": []
+    },
+    {
+      "id": "c-90009-029",
+      "category": "common",
+      "subject": "90009 節能減碳",
+      "type": "single",
+      "stem": "為了節能與降低電費的需求，應該如何正確選用家電產品？",
+      "options": {
+        "1": "選用高功率的產品效率較高",
+        "2": "優先選用取得節能標章的產品",
+        "3": "設備沒有壞，還是堪用，繼續用，不會增加支出",
+        "4": "選用能效分級數字較高的產品，效率較高，5級的比1級的電器產品更省電"
+      },
+      "answer": [
+        "2"
+      ],
+      "appearances": [
+        {
+          "year": "114",
+          "session": "2颱風延期考區",
+          "no": 19
+        }
+      ]
+    },
+    {
+      "id": "c-90009-030",
+      "category": "common",
+      "subject": "90009 節能減碳",
+      "type": "single",
+      "stem": "有效而正確的節能從選購產品開始，就一般而言，下列的因素中，何者是選購電氣設備的最優先考量項目？",
+      "options": {
+        "1": "用電量消耗電功率是多少瓦攸關電費支出，用電量小的優先",
+        "2": "採購價格比較，便宜優先",
+        "3": "安全第一，一定要通過安規檢驗合格",
+        "4": "名人或演藝明星推薦，應該口碑較好"
+      },
+      "answer": [
+        "3"
+      ],
+      "appearances": [
+        {
+          "year": "108",
+          "session": 3,
+          "no": 47
+        }
+      ]
+    },
+    {
+      "id": "c-90009-031",
+      "category": "common",
+      "subject": "90009 節能減碳",
+      "type": "single",
+      "stem": "高效率燈具如果要降低眩光的不舒服，下列何者與降低刺眼眩光影響無關？",
+      "options": {
+        "1": "光源下方加裝擴散板或擴散膜",
+        "2": "燈具的遮光板",
+        "3": "光源的色溫",
+        "4": "採用間接照明"
+      },
+      "answer": [
+        "3"
+      ],
+      "appearances": [
+        {
+          "year": "115",
+          "session": 2,
+          "no": 25
+        },
+        {
+          "year": "114",
+          "session": 3,
+          "no": 14
+        }
+      ]
+    },
+    {
+      "id": "c-90009-032",
+      "category": "common",
+      "subject": "90009 節能減碳",
+      "type": "single",
+      "stem": "用電熱爐煮火鍋，採用中溫50%加熱，比用高溫100%加熱，將同一鍋水煮開，下列何者是對的？",
+      "options": {
+        "1": "中溫50%加熱比較省電",
+        "2": "高溫100%加熱比較省電",
+        "3": "中溫50%加熱，電流反而比較大",
+        "4": "兩種方式用電量是一樣的"
+      },
+      "answer": [
+        "4"
+      ],
+      "appearances": [
+        {
+          "year": "114",
+          "session": "2颱風延期考區",
+          "no": 32
+        }
+      ]
+    },
+    {
+      "id": "c-90009-033",
+      "category": "common",
+      "subject": "90009 節能減碳",
+      "type": "single",
+      "stem": "台灣電力公司為降低尖峰負載時段超載的停電風險，將尖峰時段電價費率（每度電單價）提高，離峰時段的費率降低，引導用戶轉移部分負載至離峰時段，這種電能管理策略稱為何？",
+      "options": {
+        "1": "需量競價",
+        "2": "時間電價",
+        "3": "可停電力",
+        "4": "表燈用戶彈性電價"
+      },
+      "answer": [
+        "2"
+      ],
+      "appearances": []
+    },
+    {
+      "id": "c-90009-034",
+      "category": "common",
+      "subject": "90009 節能減碳",
+      "type": "single",
+      "stem": "集合式住宅的地下停車場需要維持通風良好的空氣品質，又要兼顧節能效益，下列排風扇控制方式何者不恰當？",
+      "options": {
+        "1": "淘汰老舊排風扇，改裝取得節能標章、適當容量的高效率風扇",
+        "2": "兩天一次運轉通風扇就好了",
+        "3": "結合一氧化碳偵測器，自動啟動/停止控制",
+        "4": "設定每天早晚二次定期啟動排風扇"
+      },
+      "answer": [
+        "2"
+      ],
+      "appearances": []
+    },
+    {
+      "id": "c-90009-035",
+      "category": "common",
+      "subject": "90009 節能減碳",
+      "type": "single",
+      "stem": "大樓電梯為了節能及生活便利需求，可設定部分控制功能，下列何者是錯誤或不正確的做法？",
+      "options": {
+        "1": "加感應開關，無人時自動關閉電燈與通風扇",
+        "2": "縮短每次開門/關門的時間",
+        "3": "電梯設定隔樓層停靠，減少頻繁啟動",
+        "4": "電梯馬達加裝變頻控制"
+      },
+      "answer": [
+        "2"
+      ],
+      "appearances": [
+        {
+          "year": "113",
+          "session": 1,
+          "no": 6
+        }
+      ]
+    },
+    {
+      "id": "c-90009-036",
+      "category": "common",
+      "subject": "90009 節能減碳",
+      "type": "single",
+      "stem": "為了節能及兼顧冰箱的保溫效果，下列何者是錯誤或不正確的做法？",
+      "options": {
+        "1": "冰箱內上下層間不要塞滿，以利冷藏對流",
+        "2": "食物存放位置紀錄清楚，一次拿齊食物，減少開門次數",
+        "3": "冰箱門的密封壓條如果鬆弛，無法緊密關門，應儘速更新修復",
+        "4": "冰箱內食物擺滿塞滿，效益最高"
+      },
+      "answer": [
+        "4"
+      ],
+      "appearances": [
+        {
+          "year": "109",
+          "session": 1,
+          "no": 11
+        },
+        {
+          "year": "108",
+          "session": 1,
+          "no": 16
+        }
+      ]
+    },
+    {
+      "id": "c-90009-037",
+      "category": "common",
+      "subject": "90009 節能減碳",
+      "type": "single",
+      "stem": "電鍋剩飯持續保溫至隔天再食用，或剩飯先放冰箱冷藏，隔天用微波爐加熱，就加熱及節能觀點來評比，下列何者正確？",
+      "options": {
+        "1": "持續保溫較省電",
+        "2": "微波爐再加熱比較省電又方便",
+        "3": "兩者一樣",
+        "4": "優先選電鍋保溫方式，因為馬上就可以吃"
+      },
+      "answer": [
+        "2"
+      ],
+      "appearances": []
+    },
+    {
+      "id": "c-90009-038",
+      "category": "common",
+      "subject": "90009 節能減碳",
+      "type": "single",
+      "stem": "不斷電系統UPS與緊急發電機的裝置都是應付臨時性供電狀況，停電時，下列敘述何者正確？",
+      "options": {
+        "1": "緊急發電機UPS立即啟動，不斷電系統延遲啟動",
+        "2": "不斷電系統UPS立即啟動，緊急發電機延遲啟動",
+        "3": "兩者同時啟動",
+        "4": "不斷電系統UPS可以撐比較久"
+      },
+      "answer": [
+        "2"
+      ],
+      "appearances": []
+    },
+    {
+      "id": "c-90009-039",
+      "category": "common",
+      "subject": "90009 節能減碳",
+      "type": "single",
+      "stem": "下列何者為非再生能源？",
+      "options": {
+        "1": "地熱能",
+        "2": "焦煤",
+        "3": "太陽能",
+        "4": "水力能"
+      },
+      "answer": [
+        "2"
+      ],
+      "appearances": [
+        {
+          "year": "113",
+          "session": 2,
+          "no": 21
+        }
+      ]
+    },
+    {
+      "id": "c-90009-040",
+      "category": "common",
+      "subject": "90009 節能減碳",
+      "type": "single",
+      "stem": "有關冷凍冷藏櫃之除霜方式，下列何者最節能？",
+      "options": {
+        "1": "電熱除霜",
+        "2": "熱氣除霜",
+        "3": "用吹風機除霜",
+        "4": "打開冰箱門除霜"
+      },
+      "answer": [
+        "2"
+      ],
+      "appearances": []
+    },
+    {
+      "id": "c-90009-041",
+      "category": "common",
+      "subject": "90009 節能減碳",
+      "type": "single",
+      "stem": "一般桶裝瓦斯（液化石油氣）主要成分為丁烷與下列何種成分所組成？",
+      "options": {
+        "1": "甲烷",
+        "2": "乙烷",
+        "3": "丙烷",
+        "4": "辛烷"
+      },
+      "answer": [
+        "3"
+      ],
+      "appearances": [
+        {
+          "year": "113",
+          "session": 2,
+          "no": 46
+        }
+      ]
+    },
+    {
+      "id": "c-90009-042",
+      "category": "common",
+      "subject": "90009 節能減碳",
+      "type": "single",
+      "stem": "在正常操作，且提供相同暖氣之情形下，下列何種暖氣設備之能源效率最高？",
+      "options": {
+        "1": "冷暖氣機",
+        "2": "電熱風扇",
+        "3": "電熱輻射機",
+        "4": "電暖爐"
+      },
+      "answer": [
+        "1"
+      ],
+      "appearances": []
+    },
+    {
+      "id": "c-90009-043",
+      "category": "common",
+      "subject": "90009 節能減碳",
+      "type": "single",
+      "stem": "下列何種熱水器所需能源費用最少？",
+      "options": {
+        "1": "電熱水器",
+        "2": "天然瓦斯熱水器",
+        "3": "柴油鍋爐熱水器",
+        "4": "熱泵熱水器"
+      },
+      "answer": [
+        "4"
+      ],
+      "appearances": []
+    },
+    {
+      "id": "c-90009-044",
+      "category": "common",
+      "subject": "90009 節能減碳",
+      "type": "single",
+      "stem": "某公司希望能進行節能減碳，為地球盡點心力，以下何種作為並不恰當？",
+      "options": {
+        "1": "將採購規定列入以下文字：「汰換設備時首先考慮能源效率1級或具有節能標章之產品」",
+        "2": "盤查所有能源使用設備",
+        "3": "實行能源管理",
+        "4": "為考慮經營成本，汰換設備時採買最便宜的機種"
+      },
+      "answer": [
+        "4"
+      ],
+      "appearances": [
+        {
+          "year": "111",
+          "session": 2,
+          "no": 39
+        }
+      ]
+    },
+    {
+      "id": "c-90009-045",
+      "category": "common",
+      "subject": "90009 節能減碳",
+      "type": "single",
+      "stem": "冷氣外洩會造成能源之浪費，下列的入門設施與管理何者最耗能？",
+      "options": {
+        "1": "全開式有氣簾",
+        "2": "全開式無氣簾",
+        "3": "自動門有氣簾",
+        "4": "自動門無氣簾"
+      },
+      "answer": [
+        "2"
+      ],
+      "appearances": []
+    },
+    {
+      "id": "c-90009-046",
+      "category": "common",
+      "subject": "90009 節能減碳",
+      "type": "single",
+      "stem": "下列何者「不是」潔淨能源？",
+      "options": {
+        "1": "風能",
+        "2": "地熱",
+        "3": "太陽能",
+        "4": "頁岩氣"
+      },
+      "answer": [
+        "4"
+      ],
+      "appearances": [
+        {
+          "year": "114",
+          "session": 2,
+          "no": 44
+        }
+      ]
+    },
+    {
+      "id": "c-90009-047",
+      "category": "common",
+      "subject": "90009 節能減碳",
+      "type": "single",
+      "stem": "有關再生能源中的風力、太陽能的使用特性中，下列敘述何者錯誤？",
+      "options": {
+        "1": "間歇性能源，供應不穩定",
+        "2": "不易受天氣影響",
+        "3": "需較大的土地面積",
+        "4": "設置成本較高"
+      },
+      "answer": [
+        "2"
+      ],
+      "appearances": []
+    },
+    {
+      "id": "c-90009-048",
+      "category": "common",
+      "subject": "90009 節能減碳",
+      "type": "single",
+      "stem": "有關台灣能源發展所面臨的挑戰，下列何者錯誤？",
+      "options": {
+        "1": "進口能源依存度高，能源安全易受國際影響",
+        "2": "化石能源所占比例高，溫室氣體減量壓力大",
+        "3": "自產能源充足，不需仰賴進口",
+        "4": "能源密集度較先進國家仍有改善空間"
+      },
+      "answer": [
+        "3"
+      ],
+      "appearances": []
+    },
+    {
+      "id": "c-90009-049",
+      "category": "common",
+      "subject": "90009 節能減碳",
+      "type": "single",
+      "stem": "若發生瓦斯外洩之情形，下列處理方法何者錯誤？",
+      "options": {
+        "1": "應先關閉瓦斯爐或熱水器等開關",
+        "2": "緩慢地打開門窗，讓瓦斯自然飄散",
+        "3": "開啟電風扇，加強空氣流動",
+        "4": "在漏氣止住前，應保持警戒，嚴禁煙火"
+      },
+      "answer": [
+        "3"
+      ],
+      "appearances": [
+        {
+          "year": "109",
+          "session": 1,
+          "no": 21
+        },
+        {
+          "year": "111",
+          "session": 3,
+          "no": 47
+        },
+        {
+          "year": "112",
+          "session": 2,
+          "no": 23
+        }
+      ]
+    },
+    {
+      "id": "c-90009-050",
+      "category": "common",
+      "subject": "90009 節能減碳",
+      "type": "single",
+      "stem": "全球暖化潛勢（GlobalWarmingPotential,GWP）是衡量溫室氣體對全球暖化的影響，以何者為比較基準？",
+      "options": {
+        "1": "CO2",
+        "2": "CH4",
+        "3": "SF6",
+        "4": "N2O"
+      },
+      "answer": [
+        "1"
+      ],
+      "appearances": []
+    },
+    {
+      "id": "c-90009-051",
+      "category": "common",
+      "subject": "90009 節能減碳",
+      "type": "single",
+      "stem": "有關建築之外殼節能設計，下列敘述何者錯誤？",
+      "options": {
+        "1": "開窗區域設置遮陽設備",
+        "2": "大開窗面避免設置於東西日曬方位",
+        "3": "做好屋頂隔熱設施",
+        "4": "宜採用全面玻璃造型設計，以利自然採光"
+      },
+      "answer": [
+        "4"
+      ],
+      "appearances": []
+    },
+    {
+      "id": "c-90009-052",
+      "category": "common",
+      "subject": "90009 節能減碳",
+      "type": "single",
+      "stem": "下列何者燈泡的發光效率最高？",
+      "options": {
+        "1": "LED燈泡",
+        "2": "省電燈泡",
+        "3": "白熾燈泡",
+        "4": "鹵素燈泡"
+      },
+      "answer": [
+        "1"
+      ],
+      "appearances": [
+        {
+          "year": "114",
+          "session": "2颱風延期考區",
+          "no": 33
+        }
+      ]
+    },
+    {
+      "id": "c-90009-053",
+      "category": "common",
+      "subject": "90009 節能減碳",
+      "type": "single",
+      "stem": "有關吹風機使用注意事項，下列敘述何者錯誤？",
+      "options": {
+        "1": "請勿在潮濕的地方使用，以免觸電危險",
+        "2": "應保持吹風機進、出風口之空氣流通，以免造成過熱",
+        "3": "應避免長時間使用，使用時應保持適當的距離",
+        "4": "可用來作為烘乾棉被及床單等用途"
+      },
+      "answer": [
+        "4"
+      ],
+      "appearances": []
+    },
+    {
+      "id": "c-90009-054",
+      "category": "common",
+      "subject": "90009 節能減碳",
+      "type": "single",
+      "stem": "有關無風管空氣調節機的能源效率的描述，下列何者正確？",
+      "options": {
+        "1": "冷氣季節性能因數（CSPF）越高越好",
+        "2": "能源效率比（EnergyEfficiencyRate）越低越好",
+        "3": "能源效率等級為5級時，最省電且對環境也較友善",
+        "4": "廠商銷售此類產品時，無須張貼能源效率分級標示圖"
+      },
+      "answer": [
+        "1"
+      ],
+      "appearances": []
+    },
+    {
+      "id": "c-90009-055",
+      "category": "common",
+      "subject": "90009 節能減碳",
+      "type": "single",
+      "stem": "為了避免漏電而危害生命安全，下列「不正確」的做法是？",
+      "options": {
+        "1": "做好用電設備金屬外殼的接地",
+        "2": "有濕氣的用電場合，線路加裝漏電斷路器",
+        "3": "加強定期的漏電檢查及維護",
+        "4": "使用保險絲來防止漏電的危險性"
+      },
+      "answer": [
+        "4"
+      ],
+      "appearances": [
+        {
+          "year": "115",
+          "session": 2,
+          "no": 56
+        }
+      ]
+    },
+    {
+      "id": "c-90009-056",
+      "category": "common",
+      "subject": "90009 節能減碳",
+      "type": "single",
+      "stem": "用電設備的線路保護用電力熔絲（保險絲）經常燒斷，造成停電的不便，下列「不正確」的作法是？",
+      "options": {
+        "1": "換大一級或大兩級規格的保險絲或斷路器就不會燒斷了",
+        "2": "減少線路連接的電氣設備，降低用電量",
+        "3": "重新設計線路，改較粗的導線或用兩迴路並聯",
+        "4": "提高用電設備的功率因數"
+      },
+      "answer": [
+        "1"
+      ],
+      "appearances": [
+        {
+          "year": "115",
+          "session": 1,
+          "no": 34
+        }
+      ]
+    },
+    {
+      "id": "c-90009-057",
+      "category": "common",
+      "subject": "90009 節能減碳",
+      "type": "single",
+      "stem": "政府為推廣節能設備而補助民眾汰換老舊設備，下列何者的節電效益最佳？",
+      "options": {
+        "1": "將桌上檯燈光源由螢光燈換為LED燈",
+        "2": "優先淘汰10年以上的老舊冷氣機為能源效率標示分級中之一級冷氣機",
+        "3": "汰換電風扇，改裝設能源效率標示分級為一級的冷氣機",
+        "4": "因為經費有限，選擇便宜的產品比較重要"
+      },
+      "answer": [
+        "2"
+      ],
+      "appearances": [
+        {
+          "year": "114",
+          "session": 2,
+          "no": 2
+        }
+      ]
+    },
+    {
+      "id": "c-90009-058",
+      "category": "common",
+      "subject": "90009 節能減碳",
+      "type": "single",
+      "stem": "依據我國現行國家標準規定，冷氣機的冷氣能力標示應以何種單位表示？",
+      "options": {
+        "1": "kW",
+        "2": "BTU/h",
+        "3": "kcal/h",
+        "4": "RT"
+      },
+      "answer": [
+        "1"
+      ],
+      "appearances": [
+        {
+          "year": "113",
+          "session": 2,
+          "no": 24
+        },
+        {
+          "year": "115",
+          "session": 1,
+          "no": 37
+        }
+      ]
+    },
+    {
+      "id": "c-90009-059",
+      "category": "common",
+      "subject": "90009 節能減碳",
+      "type": "single",
+      "stem": "漏電影響節電成效，並且影響用電安全，簡易的查修方法為",
+      "options": {
+        "1": "電氣材料行買支驗電起子，碰觸電氣設備的外殼，就可查出漏電與否",
+        "2": "用手碰觸就可以知道有無漏電",
+        "3": "用三用電表檢查",
+        "4": "看電費單有無紀錄"
+      },
+      "answer": [
+        "1"
+      ],
+      "appearances": [
+        {
+          "year": "115",
+          "session": 2,
+          "no": 18
+        }
+      ]
+    },
+    {
+      "id": "c-90009-060",
+      "category": "common",
+      "subject": "90009 節能減碳",
+      "type": "single",
+      "stem": "使用了10幾年的通風換氣扇老舊又骯髒，噪音又大，維修時採取下列哪一種對策最為正確及節能？",
+      "options": {
+        "1": "定期拆下來清洗油垢",
+        "2": "不必再猶豫，10年以上的電扇效率偏低，直接換為高效率通風扇",
+        "3": "直接噴沙拉脫清潔劑就可以了，省錢又方便",
+        "4": "高效率通風扇較貴，換同機型的廠內備用品就好了"
+      },
+      "answer": [
+        "2"
+      ],
+      "appearances": [
+        {
+          "year": "108",
+          "session": 2,
+          "no": 44
+        }
+      ]
+    },
+    {
+      "id": "c-90009-061",
+      "category": "common",
+      "subject": "90009 節能減碳",
+      "type": "single",
+      "stem": "電氣設備維修時，在關掉電源後，最好停留1至5分鐘才開始檢修，其主要的理由為下列何者？",
+      "options": {
+        "1": "先平靜心情，做好準備才動手",
+        "2": "讓機器設備降溫下來再查修",
+        "3": "讓裡面的電容器有時間放電完畢，才安全",
+        "4": "法規沒有規定，這完全沒有必要"
+      },
+      "answer": [
+        "3"
+      ],
+      "appearances": [
+        {
+          "year": "112",
+          "session": 3,
+          "no": 36
+        }
+      ]
+    },
+    {
+      "id": "c-90009-062",
+      "category": "common",
+      "subject": "90009 節能減碳",
+      "type": "single",
+      "stem": "電氣設備裝設於有潮濕水氣的環境時，最應該優先檢查及確認的措施是？",
+      "options": {
+        "1": "有無在線路上裝設漏電斷路器",
+        "2": "電氣設備上有無安全保險絲",
+        "3": "有無過載及過熱保護設備",
+        "4": "有無可能傾倒及生鏽"
+      },
+      "answer": [
+        "1"
+      ],
+      "appearances": [
+        {
+          "year": "109",
+          "session": 2,
+          "no": 17
+        },
+        {
+          "year": "115",
+          "session": 2,
+          "no": 40
+        }
+      ]
+    },
+    {
+      "id": "c-90009-063",
+      "category": "common",
+      "subject": "90009 節能減碳",
+      "type": "single",
+      "stem": "對於使用冷氣如何節能的描述，下列何者錯誤？",
+      "options": {
+        "1": "冷氣溫度設定範圍以26-28℃為宜",
+        "2": "開冷氣同時開啟窗戶有助於省電",
+        "3": "冷氣房內配合電風扇使用，可適度調高溫度以節省用電",
+        "4": "加裝設自動溫控設備，可以避免過冷而浪費能源"
+      },
+      "answer": [
+        "2"
+      ],
+      "appearances": []
+    },
+    {
+      "id": "c-90009-064",
+      "category": "common",
+      "subject": "90009 節能減碳",
+      "type": "single",
+      "stem": "家庭用電最大宗來自於",
+      "options": {
+        "1": "冷氣機",
+        "2": "電腦",
+        "3": "電視",
+        "4": "吹風機"
+      },
+      "answer": [
+        "1"
+      ],
+      "appearances": [
+        {
+          "year": "115",
+          "session": 2,
+          "no": 12
+        }
+      ]
+    },
+    {
+      "id": "c-90009-065",
+      "category": "common",
+      "subject": "90009 節能減碳",
+      "type": "single",
+      "stem": "冷氣房內為減少日照高溫及降低空調負載，下列何種處理方式錯誤？",
+      "options": {
+        "1": "窗戶裝設窗簾或貼隔熱紙",
+        "2": "將窗戶或門開啟，讓屋內外空氣自然對流",
+        "3": "屋頂加裝隔熱材、高反射率塗料或噴水",
+        "4": "於屋頂進行薄層綠化"
+      },
+      "answer": [
+        "2"
+      ],
+      "appearances": []
+    },
+    {
+      "id": "c-90009-066",
+      "category": "common",
+      "subject": "90009 節能減碳",
+      "type": "single",
+      "stem": "有關電冰箱放置位置的處理方式，下列何者正確？",
+      "options": {
+        "1": "背後緊貼牆壁節省空間",
+        "2": "背後距離牆壁應有10公分以上空間，以利散熱",
+        "3": "室內空間有限，側面緊貼牆壁就可以了",
+        "4": "冰箱最好貼近流理台，以便存取食材"
+      },
+      "answer": [
+        "2"
+      ],
+      "appearances": []
+    },
+    {
+      "id": "c-90009-067",
+      "category": "common",
+      "subject": "90009 節能減碳",
+      "type": "single",
+      "stem": "下列何項「不是」照明節能改善需優先考量之因素？",
+      "options": {
+        "1": "照明方式是否適當",
+        "2": "燈具之外型是否美觀",
+        "3": "照明之品質是否適當",
+        "4": "照度是否適當"
+      },
+      "answer": [
+        "2"
+      ],
+      "appearances": [
+        {
+          "year": "113",
+          "session": 3,
+          "no": 38
+        }
+      ]
+    },
+    {
+      "id": "c-90009-068",
+      "category": "common",
+      "subject": "90009 節能減碳",
+      "type": "single",
+      "stem": "醫院、飯店或宿舍之熱水系統耗能大，要設置熱水系統時，應優先選用何種熱水系統較節能？",
+      "options": {
+        "1": "電能熱水系統",
+        "2": "熱泵熱水系統",
+        "3": "瓦斯熱水系統",
+        "4": "重油熱水系統"
+      },
+      "answer": [
+        "2"
+      ],
+      "appearances": [
+        {
+          "year": "111",
+          "session": 2,
+          "no": 15
+        },
+        {
+          "year": "108",
+          "session": 1,
+          "no": 44
+        }
+      ]
+    },
+    {
+      "id": "c-90009-069",
+      "category": "common",
+      "subject": "90009 節能減碳",
+      "type": "single",
+      "stem": "如下圖示為",
+      "img": "assets/img/subject/c-90009-069.png",
+      "options": {
+        "1": "省水標章",
+        "2": "環保標章",
+        "3": "奈米標章",
+        "4": "能源效率標示"
+      },
+      "answer": [
+        "4"
+      ],
+      "appearances": []
+    },
+    {
+      "id": "c-90009-070",
+      "category": "common",
+      "subject": "90009 節能減碳",
+      "type": "single",
+      "stem": "台灣電力公司電價表所指的夏月用電月份（電價比其他月份高）是為",
+      "options": {
+        "1": "4/1〜7/31",
+        "2": "5/1〜8/31",
+        "3": "6/1〜9/30",
+        "4": "7/1〜10/31"
+      },
+      "answer": [
+        "3"
+      ],
+      "appearances": []
+    },
+    {
+      "id": "c-90009-071",
+      "category": "common",
+      "subject": "90009 節能減碳",
+      "type": "single",
+      "stem": "屋頂隔熱可有效降低空調用電，下列何項措施較不適當？",
+      "options": {
+        "1": "屋頂儲水隔熱",
+        "2": "屋頂綠化",
+        "3": "於適當位置設置太陽能板發電同時加以隔熱",
+        "4": "鋪設隔熱磚"
+      },
+      "answer": [
+        "1"
+      ],
+      "appearances": [
+        {
+          "year": "111",
+          "session": 2,
+          "no": 2
+        },
+        {
+          "year": "113",
+          "session": 3,
+          "no": 45
+        }
+      ]
+    },
+    {
+      "id": "c-90009-072",
+      "category": "common",
+      "subject": "90009 節能減碳",
+      "type": "single",
+      "stem": "電腦機房使用時間長、耗電量大，下列何項措施對電腦機房之用電管理較不適當？",
+      "options": {
+        "1": "機房設定較低之溫度",
+        "2": "設置冷熱通道",
+        "3": "使用較高效率之空調設備",
+        "4": "使用新型高效能電腦設備"
+      },
+      "answer": [
+        "1"
+      ],
+      "appearances": [
+        {
+          "year": "108",
+          "session": 2,
+          "no": 45
+        },
+        {
+          "year": "107",
+          "session": 1,
+          "no": 42
+        },
+        {
+          "year": "107",
+          "session": 2,
+          "no": 20
+        }
+      ]
+    },
+    {
+      "id": "c-90009-073",
+      "category": "common",
+      "subject": "90009 節能減碳",
+      "type": "single",
+      "stem": "有關省水標章之敘述，下列何者正確？",
+      "options": {
+        "1": "省水標章是環境部為推動使用節水器材，特別研定以作為消費者辨識省水產品的一種標誌",
+        "2": "獲得省水標章的產品並無嚴格測試，所以對消費者並無一定的保障",
+        "3": "省水標章能激勵廠商重視省水產品的研發與製造，進而達到推廣節水良性循環之目的",
+        "4": "省水標章除有用水設備外，亦可使用於冷氣或冰箱上"
+      },
+      "answer": [
+        "3"
+      ],
+      "appearances": []
+    },
+    {
+      "id": "c-90009-074",
+      "category": "common",
+      "subject": "90009 節能減碳",
+      "type": "single",
+      "stem": "透過淋浴習慣的改變就可以節約用水，下列何者正確？",
+      "options": {
+        "1": "淋浴時抹肥皂，無需將蓮蓬頭暫時關上",
+        "2": "等待熱水前流出的冷水可以用水桶接起來再利用",
+        "3": "淋浴流下的水不可以刷洗浴室地板",
+        "4": "淋浴沖澡流下的水，可以儲蓄洗菜使用"
+      },
+      "answer": [
+        "2"
+      ],
+      "appearances": []
+    },
+    {
+      "id": "c-90009-075",
+      "category": "common",
+      "subject": "90009 節能減碳",
+      "type": "single",
+      "stem": "家人洗澡時，一個接一個連續洗，也是一種有效的省水方式嗎？",
+      "options": {
+        "1": "是，因為可以節省等待熱水流出之前所先流失的冷水",
+        "2": "否，這跟省水沒什麼關係，不用這麼麻煩",
+        "3": "否，因為等熱水時流出的水量不多",
+        "4": "有可能省水也可能不省水，無法定論"
+      },
+      "answer": [
+        "1"
+      ],
+      "appearances": []
+    },
+    {
+      "id": "c-90009-076",
+      "category": "common",
+      "subject": "90009 節能減碳",
+      "type": "single",
+      "stem": "下列何種方式有助於節省洗衣機的用水量？",
+      "options": {
+        "1": "洗衣機洗滌的衣物盡量裝滿，一次洗完",
+        "2": "購買洗衣機時選購有省水標章的洗衣機，可有效節約用水",
+        "3": "無需將衣物適當分類",
+        "4": "洗濯衣物時盡量選擇高水位才洗得乾淨"
+      },
+      "answer": [
+        "2"
+      ],
+      "appearances": []
+    },
+    {
+      "id": "c-90009-077",
+      "category": "common",
+      "subject": "90009 節能減碳",
+      "type": "single",
+      "stem": "如果水龍頭流量過大，下列何種處理方式錯誤？",
+      "options": {
+        "1": "加裝節水墊片或起波器",
+        "2": "加裝可自動關閉水龍頭的自動感應器",
+        "3": "直接換裝沒有省水標章的水龍頭",
+        "4": "直接調整水龍頭到適當水量"
+      },
+      "answer": [
+        "3"
+      ],
+      "appearances": []
+    },
+    {
+      "id": "c-90009-078",
+      "category": "common",
+      "subject": "90009 節能減碳",
+      "type": "single",
+      "stem": "洗菜水、洗碗水、洗衣水、洗澡水等的清洗水，不可直接利用來做什麼用途？",
+      "options": {
+        "1": "洗地板",
+        "2": "沖馬桶",
+        "3": "澆花",
+        "4": "飲用水"
+      },
+      "answer": [
+        "4"
+      ],
+      "appearances": [
+        {
+          "year": "107",
+          "session": 2,
+          "no": 31
+        },
+        {
+          "year": "108",
+          "session": 1,
+          "no": 7
+        }
+      ]
+    },
+    {
+      "id": "c-90009-079",
+      "category": "common",
+      "subject": "90009 節能減碳",
+      "type": "single",
+      "stem": "如果馬桶有不正常的漏水問題，下列何者處理方式錯誤？",
+      "options": {
+        "1": "因為馬桶還能正常使用，所以不用著急，等到不能用時再報修即可",
+        "2": "立刻檢查馬桶水箱零件有無鬆脫，並確認有無漏水",
+        "3": "滴幾滴食用色素到水箱裡，檢查有無有色水流進馬桶，代表可能有漏水",
+        "4": "通知水電行或檢修人員來檢修，徹底根絕漏水問題"
+      },
+      "answer": [
+        "1"
+      ],
+      "appearances": []
+    },
+    {
+      "id": "c-90009-080",
+      "category": "common",
+      "subject": "90009 節能減碳",
+      "type": "single",
+      "stem": "水費的計量單位是「度」，一度水的容量大約有多少？",
+      "options": {
+        "1": "2,000公升",
+        "2": "3000個600cc的寶特瓶",
+        "3": "1立方公尺的水量",
+        "4": "3立方公尺的水量"
+      },
+      "answer": [
+        "3"
+      ],
+      "appearances": []
+    },
+    {
+      "id": "c-90009-081",
+      "category": "common",
+      "subject": "90009 節能減碳",
+      "type": "single",
+      "stem": "臺灣在一年中什麼時期會比較缺水（即枯水期）？",
+      "options": {
+        "1": "6月至9月",
+        "2": "9月至12月",
+        "3": "11月至次年4月",
+        "4": "臺灣全年不缺水"
+      },
+      "answer": [
+        "3"
+      ],
+      "appearances": [
+        {
+          "year": "107",
+          "session": 3,
+          "no": 22
+        }
+      ]
+    },
+    {
+      "id": "c-90009-082",
+      "category": "common",
+      "subject": "90009 節能減碳",
+      "type": "single",
+      "stem": "下列何種現象「不是」直接造成台灣缺水的原因？",
+      "options": {
+        "1": "降雨季節分布不平均，有時候連續好幾個月不下雨，有時又會下起豪大雨",
+        "2": "地形山高坡陡，所以雨一下很快就會流入大海",
+        "3": "因為民生與工商業用水需求量都愈來愈大，所以缺水季節很容易無水可用",
+        "4": "台灣地區夏天過熱，致蒸發量過大"
+      },
+      "answer": [
+        "4"
+      ],
+      "appearances": []
+    },
+    {
+      "id": "c-90009-083",
+      "category": "common",
+      "subject": "90009 節能減碳",
+      "type": "single",
+      "stem": "冷凍食品該如何讓它退冰，才是既「節能」又「省水」？",
+      "options": {
+        "1": "直接用水沖食物強迫退冰",
+        "2": "使用微波爐解凍快速又方便",
+        "3": "烹煮前盡早拿出來放置退冰",
+        "4": "用熱水浸泡，每5分鐘更換一次"
+      },
+      "answer": [
+        "3"
+      ],
+      "appearances": [
+        {
+          "year": "107",
+          "session": 1,
+          "no": 55
+        },
+        {
+          "year": "111",
+          "session": 2,
+          "no": 41
+        }
+      ]
+    },
+    {
+      "id": "c-90009-084",
+      "category": "common",
+      "subject": "90009 節能減碳",
+      "type": "single",
+      "stem": "洗碗、洗菜用何種方式可以達到清洗又省水的效果？",
+      "options": {
+        "1": "對著水龍頭直接沖洗，且要盡量將水龍頭開大才能確保洗得乾淨",
+        "2": "將適量的水放在盆槽內洗濯，以減少用水",
+        "3": "把碗盤、菜等浸在水盆裡，再開水龍頭拼命沖水",
+        "4": "用熱水及冷水大量交叉沖洗達到最佳清洗效果"
+      },
+      "answer": [
+        "2"
+      ],
+      "appearances": [
+        {
+          "year": "114",
+          "session": "2颱風延期考區",
+          "no": 38
+        },
+        {
+          "year": "115",
+          "session": 1,
+          "no": 38
+        }
+      ]
+    },
+    {
+      "id": "c-90009-085",
+      "category": "common",
+      "subject": "90009 節能減碳",
+      "type": "single",
+      "stem": "解決台灣水荒（缺水）問題的無效對策是",
+      "options": {
+        "1": "興建水庫、蓄洪（豐）濟枯",
+        "2": "全面節約用水",
+        "3": "水資源重複利用，海水淡化…等",
+        "4": "積極推動全民體育運動"
+      },
+      "answer": [
+        "4"
+      ],
+      "appearances": [
+        {
+          "year": "109",
+          "session": 1,
+          "no": 50
+        },
+        {
+          "year": "109",
+          "session": 2,
+          "no": 48
+        }
+      ]
+    },
+    {
+      "id": "c-90009-086",
+      "category": "common",
+      "subject": "90009 節能減碳",
+      "type": "single",
+      "stem": "如下圖，這是什麼標章？",
+      "img": "assets/img/subject/c-90009-086.png",
+      "options": {
+        "1": "奈米標章",
+        "2": "環保標章",
+        "3": "省水標章",
+        "4": "節能標章"
+      },
+      "answer": [
+        "3"
+      ],
+      "appearances": []
+    },
+    {
+      "id": "c-90009-087",
+      "category": "common",
+      "subject": "90009 節能減碳",
+      "type": "single",
+      "stem": "澆花的時間何時較為適當，水分不易蒸發又對植物最好？",
+      "options": {
+        "1": "正中午",
+        "2": "下午時段",
+        "3": "清晨或傍晚",
+        "4": "半夜十二點"
+      },
+      "answer": [
+        "3"
+      ],
+      "appearances": []
+    },
+    {
+      "id": "c-90009-088",
+      "category": "common",
+      "subject": "90009 節能減碳",
+      "type": "single",
+      "stem": "下列何種方式沒有辦法降低洗衣機之使用水量，不建議採用？",
+      "options": {
+        "1": "使用低水位清洗",
+        "2": "選擇快洗行程",
+        "3": "兩、三件衣服也丟洗衣機洗",
+        "4": "選擇有自動調節水量的洗衣機"
+      },
+      "answer": [
+        "3"
+      ],
+      "appearances": []
+    },
+    {
+      "id": "c-90009-089",
+      "category": "common",
+      "subject": "90009 節能減碳",
+      "type": "single",
+      "stem": "有關省水馬桶的使用方式與觀念認知，下列何者錯誤？",
+      "options": {
+        "1": "選用衛浴設備時最好能採用省水標章馬桶",
+        "2": "如果家裡的馬桶是傳統舊式，可以加裝二段式沖水配件",
+        "3": "省水馬桶因為水量較小，會有沖不乾淨的問題，所以應該多沖幾次",
+        "4": "因為馬桶是家裡用水的大宗，所以應該儘量採用省水馬桶來節約用水"
+      },
+      "answer": [
+        "3"
+      ],
+      "appearances": []
+    },
+    {
+      "id": "c-90009-090",
+      "category": "common",
+      "subject": "90009 節能減碳",
+      "type": "single",
+      "stem": "下列的洗車方式，何者「無法」節約用水？",
+      "options": {
+        "1": "使用有開關的水管可以隨時控制出水",
+        "2": "用水桶及海綿抹布擦洗",
+        "3": "用大口徑強力水注沖洗",
+        "4": "利用機械自動洗車，洗車水處理循環使用"
+      },
+      "answer": [
+        "3"
+      ],
+      "appearances": []
+    },
+    {
+      "id": "c-90009-091",
+      "category": "common",
+      "subject": "90009 節能減碳",
+      "type": "single",
+      "stem": "下列何種現象「無法」看出家裡有漏水的問題？",
+      "options": {
+        "1": "水龍頭打開使用時，水表的指針持續在轉動",
+        "2": "牆面、地面或天花板忽然出現潮濕的現象",
+        "3": "馬桶裡的水常在晃動，或是沒辦法止水",
+        "4": "水費有大幅度增加"
+      },
+      "answer": [
+        "1"
+      ],
+      "appearances": [
+        {
+          "year": "114",
+          "session": 2,
+          "no": 46
+        }
+      ]
+    },
+    {
+      "id": "c-90009-092",
+      "category": "common",
+      "subject": "90009 節能減碳",
+      "type": "single",
+      "stem": "蓮蓬頭出水量過大時，下列對策何者「無法」達到省水？",
+      "options": {
+        "1": "換裝有省水標章的低流量（5〜10L/min）蓮蓬頭",
+        "2": "淋浴時水量開大，無需改變使用方法",
+        "3": "洗澡時間盡量縮短，塗抹肥皂時要把蓮蓬頭關起來",
+        "4": "調整熱水器水量到適中位置"
+      },
+      "answer": [
+        "2"
+      ],
+      "appearances": []
+    },
+    {
+      "id": "c-90009-093",
+      "category": "common",
+      "subject": "90009 節能減碳",
+      "type": "single",
+      "stem": "自來水淨水步驟，下列何者錯誤？",
+      "options": {
+        "1": "混凝",
+        "2": "沉澱",
+        "3": "過濾",
+        "4": "煮沸"
+      },
+      "answer": [
+        "4"
+      ],
+      "appearances": []
+    },
+    {
+      "id": "c-90009-094",
+      "category": "common",
+      "subject": "90009 節能減碳",
+      "type": "single",
+      "stem": "為了取得良好的水資源，通常在河川的哪一段興建水庫？",
+      "options": {
+        "1": "上游",
+        "2": "中游",
+        "3": "下游",
+        "4": "下游出口"
+      },
+      "answer": [
+        "1"
+      ],
+      "appearances": [
+        {
+          "year": "108",
+          "session": 3,
+          "no": 58
+        },
+        {
+          "year": "114",
+          "session": 1,
+          "no": 19
+        }
+      ]
+    },
+    {
+      "id": "c-90009-095",
+      "category": "common",
+      "subject": "90009 節能減碳",
+      "type": "single",
+      "stem": "辦公室常見的設備其節能方式之描述，下列何者錯誤？",
+      "options": {
+        "1": "影印機、印表機下班及假日關機可以減少待機耗能",
+        "2": "飲水機可以加裝定時器或設定內部定時，降低下班、假日加熱耗能",
+        "3": "電腦自己會休眠不需要關機",
+        "4": "冷氣濾網定期清洗，可恢復冷卻能力節省用電"
+      },
+      "answer": [
+        "3"
+      ],
+      "appearances": []
+    },
+    {
+      "id": "c-90009-096",
+      "category": "common",
+      "subject": "90009 節能減碳",
+      "type": "single",
+      "stem": "台灣年降雨量是世界平均值的2.6倍，卻仍屬缺水地區，下列何者不是真正缺水的原因？",
+      "options": {
+        "1": "台灣由於山坡陡峻，以及颱風豪雨雨勢急促，大部分的降雨量皆迅速流入海洋",
+        "2": "降雨量在地域、季節分布極不平均",
+        "3": "水庫蓋得太少",
+        "4": "台灣自來水水價過於便宜"
+      },
+      "answer": [
+        "3"
+      ],
+      "appearances": [
+        {
+          "year": "115",
+          "session": 2,
+          "no": 46
+        }
+      ]
+    },
+    {
+      "id": "c-90009-097",
+      "category": "common",
+      "subject": "90009 節能減碳",
+      "type": "single",
+      "stem": "電源插座堆積灰塵可能引起電氣意外火災，維護保養時的正確做法是？",
+      "options": {
+        "1": "可以先用刷子刷去積塵",
+        "2": "直接用吹風機吹開灰塵就可以了",
+        "3": "應先關閉電源總開關箱內控制該插座的分路開關，然後再清理灰塵",
+        "4": "可以用金屬接點清潔劑噴在插座中去除銹蝕"
+      },
+      "answer": [
+        "3"
+      ],
+      "appearances": []
+    },
+    {
+      "id": "c-90009-098",
+      "category": "common",
+      "subject": "90009 節能減碳",
+      "type": "single",
+      "stem": "溫室氣體易造成全球氣候變遷的影響，下列何者不屬於溫室氣體？",
+      "options": {
+        "1": "二氧化碳（CO2）",
+        "2": "氫氟碳化物（HFCs）",
+        "3": "甲烷（CH4）",
+        "4": "氧氣（O2）"
+      },
+      "answer": [
+        "4"
+      ],
+      "appearances": [
+        {
+          "year": "115",
+          "session": 1,
+          "no": 22
+        }
+      ]
+    },
+    {
+      "id": "c-90009-099",
+      "category": "common",
+      "subject": "90009 節能減碳",
+      "type": "single",
+      "stem": "就能源管理系統而言，下列何者不是能源效率的表示方式？",
+      "options": {
+        "1": "汽車－公里/公升",
+        "2": "照明系統－瓦特/平方公尺（W/m2）",
+        "3": "冰水主機－千瓦/冷凍噸（kW/RT）",
+        "4": "冰水主機－千瓦（kW）"
+      },
+      "answer": [
+        "4"
+      ],
+      "appearances": [
+        {
+          "year": "113",
+          "session": 1,
+          "no": 33
+        }
+      ]
+    },
+    {
+      "id": "c-90009-100",
+      "category": "common",
+      "subject": "90009 節能減碳",
+      "type": "single",
+      "stem": "某工廠規劃汰換老舊低效率設備，下列何種做法不恰當？",
+      "options": {
+        "1": "可考慮使用較高效率設備產品",
+        "2": "先針對老舊設備建立其「能源指標」或「能源基線」",
+        "3": "唯恐一直浪費能源，未經評估就馬上將老舊設備汰換掉",
+        "4": "改善後需進行能源績效評估"
+      },
+      "answer": [
+        "3"
+      ],
+      "appearances": []
+    }
+  ]
+};

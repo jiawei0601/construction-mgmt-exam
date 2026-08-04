@@ -1,0 +1,596 @@
+[
+  {
+    "year": "105",
+    "batch": "第1梯次",
+    "label": "subj",
+    "ok": true,
+    "size": 1493842,
+    "err": "",
+    "url": "https://owinform.wdasec.gov.tw/ExamNet/owInform/DLowFileQ/1051A/220001-1.pdf?17"
+  },
+  {
+    "year": "105",
+    "batch": "第1梯次",
+    "label": "prac",
+    "ok": true,
+    "size": 368430,
+    "err": "",
+    "url": "https://owinform.wdasec.gov.tw/ExamNet/owInform/DLowFileQ/1051A/220001-2.pdf?17"
+  },
+  {
+    "year": "105",
+    "batch": "第2梯次",
+    "label": "subj",
+    "ok": true,
+    "size": 1670370,
+    "err": "",
+    "url": "https://owinform.wdasec.gov.tw/ExamNet/owInform/DLowFileQ/1052A/220001-1.pdf?17"
+  },
+  {
+    "year": "105",
+    "batch": "第2梯次",
+    "label": "prac",
+    "ok": true,
+    "size": 392815,
+    "err": "",
+    "url": "https://owinform.wdasec.gov.tw/ExamNet/owInform/DLowFileQ/1052A/220001-2.pdf?17"
+  },
+  {
+    "year": "105",
+    "batch": "第3梯次",
+    "label": "subj",
+    "ok": true,
+    "size": 1527332,
+    "err": "",
+    "url": "https://owinform.wdasec.gov.tw/ExamNet/owInform/DLowFileQ/1053A/220001-1.pdf?18"
+  },
+  {
+    "year": "105",
+    "batch": "第3梯次",
+    "label": "prac",
+    "ok": true,
+    "size": 312557,
+    "err": "",
+    "url": "https://owinform.wdasec.gov.tw/ExamNet/owInform/DLowFileQ/1053A/220001-2.pdf?18"
+  },
+  {
+    "year": "106",
+    "batch": "第1梯次",
+    "label": "subj",
+    "ok": true,
+    "size": 720726,
+    "err": "",
+    "url": "https://owinform.wdasec.gov.tw/ExamNet/owInform/DLowFileQ/1061A/220001-1.pdf?15"
+  },
+  {
+    "year": "106",
+    "batch": "第1梯次",
+    "label": "prac",
+    "ok": true,
+    "size": 315121,
+    "err": "",
+    "url": "https://owinform.wdasec.gov.tw/ExamNet/owInform/DLowFileQ/1061A/220001-2.pdf?15"
+  },
+  {
+    "year": "106",
+    "batch": "第2梯次",
+    "label": "subj",
+    "ok": true,
+    "size": 1624083,
+    "err": "",
+    "url": "https://owinform.wdasec.gov.tw/ExamNet/owInform/DLowFileQ/1062A/220001-1.pdf?15"
+  },
+  {
+    "year": "106",
+    "batch": "第2梯次",
+    "label": "prac",
+    "ok": true,
+    "size": 281206,
+    "err": "",
+    "url": "https://owinform.wdasec.gov.tw/ExamNet/owInform/DLowFileQ/1062A/220001-2.pdf?15"
+  },
+  {
+    "year": "106",
+    "batch": "第3梯次",
+    "label": "subj",
+    "ok": true,
+    "size": 1639623,
+    "err": "",
+    "url": "https://owinform.wdasec.gov.tw/ExamNet/owInform/DLowFileQ/1063A/220001-1.pdf?16"
+  },
+  {
+    "year": "106",
+    "batch": "第3梯次",
+    "label": "prac",
+    "ok": true,
+    "size": 275514,
+    "err": "",
+    "url": "https://owinform.wdasec.gov.tw/ExamNet/owInform/DLowFileQ/1063A/220001-2.pdf?16"
+  },
+  {
+    "year": "107",
+    "batch": "第1梯次",
+    "label": "subj",
+    "ok": true,
+    "size": 898536,
+    "err": "",
+    "url": "https://owinform.wdasec.gov.tw/ExamNet/owInform/DLowFileQ/201803190001/18/220001-1.pdf?13"
+  },
+  {
+    "year": "107",
+    "batch": "第1梯次",
+    "label": "prac",
+    "ok": true,
+    "size": 311305,
+    "err": "",
+    "url": "https://owinform.wdasec.gov.tw/ExamNet/owInform/DLowFileQ/201803190001/03190814A2.pdf?13"
+  },
+  {
+    "year": "107",
+    "batch": "第2梯次",
+    "label": "subj",
+    "ok": true,
+    "size": 973490,
+    "err": "",
+    "url": "https://owinform.wdasec.gov.tw/ExamNet/owInform/DLowFileQ/201807160001/15/220001-1.pdf?14"
+  },
+  {
+    "year": "107",
+    "batch": "第2梯次",
+    "label": "prac",
+    "ok": true,
+    "size": 326271,
+    "err": "",
+    "url": "https://owinform.wdasec.gov.tw/ExamNet/owInform/DLowFileQ/201807160001/0716084248A2.pdf?14"
+  },
+  {
+    "year": "107",
+    "batch": "第3梯次",
+    "label": "subj",
+    "ok": true,
+    "size": 914194,
+    "err": "",
+    "url": "https://owinform.wdasec.gov.tw/ExamNet/owInform/DLowFileQ/201811050001/04/220001-1.pdf?14"
+  },
+  {
+    "year": "107",
+    "batch": "第3梯次",
+    "label": "prac",
+    "ok": true,
+    "size": 260011,
+    "err": "",
+    "url": "https://owinform.wdasec.gov.tw/ExamNet/owInform/DLowFileQ/201811050001/1105080800A2.pdf?14"
+  },
+  {
+    "year": "108",
+    "batch": "第1梯次",
+    "label": "subj",
+    "ok": true,
+    "size": 993288,
+    "err": "",
+    "url": "https://owinform.wdasec.gov.tw/ExamNet/owInform/DLowFileQ/201903180001/17/220001-1.pdf?12"
+  },
+  {
+    "year": "108",
+    "batch": "第1梯次",
+    "label": "prac",
+    "ok": true,
+    "size": 228502,
+    "err": "",
+    "url": "https://owinform.wdasec.gov.tw/ExamNet/owInform/DLowFileQ/201903180001/0318083856A2.pdf?12"
+  },
+  {
+    "year": "108",
+    "batch": "第2梯次",
+    "label": "subj",
+    "ok": true,
+    "size": 961038,
+    "err": "",
+    "url": "https://owinform.wdasec.gov.tw/ExamNet/owInform/DLowFileQ/201907150001/14/220001-1.pdf?12"
+  },
+  {
+    "year": "108",
+    "batch": "第2梯次",
+    "label": "prac",
+    "ok": true,
+    "size": 296318,
+    "err": "",
+    "url": "https://owinform.wdasec.gov.tw/ExamNet/owInform/DLowFileQ/201907150001/0805112811A2.pdf?12"
+  },
+  {
+    "year": "108",
+    "batch": "第3梯次",
+    "label": "subj",
+    "ok": true,
+    "size": 910618,
+    "err": "",
+    "url": "https://owinform.wdasec.gov.tw/ExamNet/owInform/DLowFileQ/201911040001/03/220001-1.pdf?13"
+  },
+  {
+    "year": "108",
+    "batch": "第3梯次",
+    "label": "prac",
+    "ok": true,
+    "size": 623228,
+    "err": "",
+    "url": "https://owinform.wdasec.gov.tw/ExamNet/owInform/DLowFileQ/201911040001/1104082743A2.pdf?13"
+  },
+  {
+    "year": "109",
+    "batch": "第1梯次",
+    "label": "subj",
+    "ok": true,
+    "size": 931164,
+    "err": "",
+    "url": "https://owinform.wdasec.gov.tw/ExamNet/owInform/DLowFileQ/202003160001/15/220001-1.pdf?10"
+  },
+  {
+    "year": "109",
+    "batch": "第1梯次",
+    "label": "prac",
+    "ok": true,
+    "size": 295332,
+    "err": "",
+    "url": "https://owinform.wdasec.gov.tw/ExamNet/owInform/DLowFileQ/202003160001/0316080922A2.pdf?10"
+  },
+  {
+    "year": "109",
+    "batch": "第2梯次",
+    "label": "subj",
+    "ok": true,
+    "size": 957344,
+    "err": "",
+    "url": "https://owinform.wdasec.gov.tw/ExamNet/owInform/DLowFileQ/202007130001/12/220001-1.pdf?11"
+  },
+  {
+    "year": "109",
+    "batch": "第2梯次",
+    "label": "prac",
+    "ok": true,
+    "size": 279314,
+    "err": "",
+    "url": "https://owinform.wdasec.gov.tw/ExamNet/owInform/DLowFileQ/202007130001/0713081345A2.pdf?11"
+  },
+  {
+    "year": "109",
+    "batch": "第3梯次",
+    "label": "subj",
+    "ok": true,
+    "size": 934354,
+    "err": "",
+    "url": "https://owinform.wdasec.gov.tw/ExamNet/owInform/DLowFileQ/202011020001/01/220001-1.pdf?11"
+  },
+  {
+    "year": "109",
+    "batch": "第3梯次",
+    "label": "prac",
+    "ok": true,
+    "size": 481017,
+    "err": "",
+    "url": "https://owinform.wdasec.gov.tw/ExamNet/owInform/DLowFileQ/202011020001/1102082848A2.pdf?11"
+  },
+  {
+    "year": "110",
+    "batch": "第1梯次",
+    "label": "subj",
+    "ok": true,
+    "size": 956040,
+    "err": "",
+    "url": "https://owinform.wdasec.gov.tw/ExamNet/owInform/DLowFileQ/202103220001/21/220001-1.pdf?8"
+  },
+  {
+    "year": "110",
+    "batch": "第1梯次",
+    "label": "prac",
+    "ok": true,
+    "size": 372740,
+    "err": "",
+    "url": "https://owinform.wdasec.gov.tw/ExamNet/owInform/DLowFileQ/202103220001/0322082800A2.pdf?8"
+  },
+  {
+    "year": "110",
+    "batch": "第2梯次",
+    "label": "subj",
+    "ok": true,
+    "size": 948412,
+    "err": "",
+    "url": "https://owinform.wdasec.gov.tw/ExamNet/owInform/DLowFileQ/202109270001/07/220001-1.pdf?9"
+  },
+  {
+    "year": "110",
+    "batch": "第2梯次",
+    "label": "prac",
+    "ok": true,
+    "size": 379944,
+    "err": "",
+    "url": "https://owinform.wdasec.gov.tw/ExamNet/owInform/DLowFileQ/202109270001/1108080628A2.pdf?9"
+  },
+  {
+    "year": "110",
+    "batch": "第3梯次",
+    "label": "subj",
+    "ok": true,
+    "size": 931276,
+    "err": "",
+    "url": "https://owinform.wdasec.gov.tw/ExamNet/owInform/DLowFileQ/202112200001/19/220001-1.pdf?9"
+  },
+  {
+    "year": "110",
+    "batch": "第3梯次",
+    "label": "prac",
+    "ok": true,
+    "size": 785742,
+    "err": "",
+    "url": "https://owinform.wdasec.gov.tw/ExamNet/owInform/DLowFileQ/202112200001/1220084218A2.pdf?9"
+  },
+  {
+    "year": "111",
+    "batch": "第1梯次",
+    "label": "subj",
+    "ok": true,
+    "size": 923924,
+    "err": "",
+    "url": "https://owinform.wdasec.gov.tw/ExamNet/owInform/DLowFileQ/202203210001/20/220001-1.pdf?7"
+  },
+  {
+    "year": "111",
+    "batch": "第1梯次",
+    "label": "prac",
+    "ok": true,
+    "size": 789316,
+    "err": "",
+    "url": "https://owinform.wdasec.gov.tw/ExamNet/owInform/DLowFileQ/202203210001/0321082638A2.pdf?7"
+  },
+  {
+    "year": "111",
+    "batch": "第2梯次",
+    "label": "subj",
+    "ok": true,
+    "size": 959836,
+    "err": "",
+    "url": "https://owinform.wdasec.gov.tw/ExamNet/owInform/DLowFileQ/202207110001/10/220001-1.pdf?7"
+  },
+  {
+    "year": "111",
+    "batch": "第2梯次",
+    "label": "prac",
+    "ok": true,
+    "size": 519495,
+    "err": "",
+    "url": "https://owinform.wdasec.gov.tw/ExamNet/owInform/DLowFileQ/202207110001/0711075158A2.pdf?7"
+  },
+  {
+    "year": "111",
+    "batch": "第3梯次",
+    "label": "subj",
+    "ok": true,
+    "size": 949324,
+    "err": "",
+    "url": "https://owinform.wdasec.gov.tw/ExamNet/owInform/DLowFileQ/202211070001/06/220001-1.pdf?8"
+  },
+  {
+    "year": "111",
+    "batch": "第3梯次",
+    "label": "prac",
+    "ok": true,
+    "size": 531038,
+    "err": "",
+    "url": "https://owinform.wdasec.gov.tw/ExamNet/owInform/DLowFileQ/202211070001/1107080932A2.pdf?8"
+  },
+  {
+    "year": "112",
+    "batch": "第1梯次",
+    "label": "subj",
+    "ok": true,
+    "size": 901928,
+    "err": "",
+    "url": "https://owinform.wdasec.gov.tw/ExamNet/owInform/DLowFileQ/202303200001/19/220001-1.pdf?4"
+  },
+  {
+    "year": "112",
+    "batch": "第1梯次",
+    "label": "prac",
+    "ok": true,
+    "size": 459354,
+    "err": "",
+    "url": "https://owinform.wdasec.gov.tw/ExamNet/owInform/DLowFileQ/202303200001/0320083502A2.pdf?4"
+  },
+  {
+    "year": "112",
+    "batch": "第2梯次",
+    "label": "subj",
+    "ok": true,
+    "size": 950122,
+    "err": "",
+    "url": "https://owinform.wdasec.gov.tw/ExamNet/owInform/DLowFileQ/202307100001/09/220001-1.pdf?5"
+  },
+  {
+    "year": "112",
+    "batch": "第2梯次",
+    "label": "prac",
+    "ok": true,
+    "size": 1215502,
+    "err": "",
+    "url": "https://owinform.wdasec.gov.tw/ExamNet/owInform/DLowFileQ/202307100001/0710080958A2.pdf?5"
+  },
+  {
+    "year": "112",
+    "batch": "第3梯次",
+    "label": "subj",
+    "ok": true,
+    "size": 1007194,
+    "err": "",
+    "url": "https://owinform.wdasec.gov.tw/ExamNet/owInform/DLowFileQ/202311060001/05/220001-1.pdf?6"
+  },
+  {
+    "year": "112",
+    "batch": "第3梯次",
+    "label": "prac",
+    "ok": true,
+    "size": 667931,
+    "err": "",
+    "url": "https://owinform.wdasec.gov.tw/ExamNet/owInform/DLowFileQ/202311060001/1106082132A2.pdf?6"
+  },
+  {
+    "year": "113",
+    "batch": "第1梯次",
+    "label": "subj",
+    "ok": true,
+    "size": 948508,
+    "err": "",
+    "url": "https://owinform.wdasec.gov.tw/ExamNet/owInform/DLowFileQ/202403180001/17/220001-1.pdf?1"
+  },
+  {
+    "year": "113",
+    "batch": "第1梯次",
+    "label": "prac",
+    "ok": true,
+    "size": 510079,
+    "err": "",
+    "url": "https://owinform.wdasec.gov.tw/ExamNet/owInform/DLowFileQ/202403180001/0318082455A2.pdf?1"
+  },
+  {
+    "year": "113",
+    "batch": "第2梯次",
+    "label": "subj",
+    "ok": true,
+    "size": 998300,
+    "err": "",
+    "url": "https://owinform.wdasec.gov.tw/ExamNet/owInform/DLowFileQ/202407080001/07/220001-1.pdf?1"
+  },
+  {
+    "year": "113",
+    "batch": "第2梯次",
+    "label": "prac",
+    "ok": true,
+    "size": 1019535,
+    "err": "",
+    "url": "https://owinform.wdasec.gov.tw/ExamNet/owInform/DLowFileQ/202407080001/0708082335A2.pdf?1"
+  },
+  {
+    "year": "113",
+    "batch": "第3梯次",
+    "label": "subj",
+    "ok": true,
+    "size": 946902,
+    "err": "",
+    "url": "https://owinform.wdasec.gov.tw/ExamNet/owInform/DLowFileQ/202411040001/03/220001-1.pdf?3"
+  },
+  {
+    "year": "113",
+    "batch": "第3梯次",
+    "label": "prac",
+    "ok": true,
+    "size": 432068,
+    "err": "",
+    "url": "https://owinform.wdasec.gov.tw/ExamNet/owInform/DLowFileQ/202411040001/1104080331A2.pdf?3"
+  },
+  {
+    "year": "114",
+    "batch": "第1梯次",
+    "label": "subj",
+    "ok": true,
+    "size": 931039,
+    "err": "",
+    "url": "https://owinform.wdasec.gov.tw/ExamNet/owInform/DLowFileQ/202503170001/16/220001-1.pdf?56"
+  },
+  {
+    "year": "114",
+    "batch": "第1梯次",
+    "label": "prac",
+    "ok": true,
+    "size": 393256,
+    "err": "",
+    "url": "https://owinform.wdasec.gov.tw/ExamNet/owInform/DLowFileQ/202503170001/0317094151A2.pdf?56"
+  },
+  {
+    "year": "114",
+    "batch": "第2梯次",
+    "label": "subj",
+    "ok": true,
+    "size": 971857,
+    "err": "",
+    "url": "https://owinform.wdasec.gov.tw/ExamNet/owInform/DLowFileQ/202507070001/06/220001-1.pdf?57"
+  },
+  {
+    "year": "114",
+    "batch": "第2梯次",
+    "label": "prac",
+    "ok": true,
+    "size": 389599,
+    "err": "",
+    "url": "https://owinform.wdasec.gov.tw/ExamNet/owInform/DLowFileQ/202507070001/0707163557A2.pdf?57"
+  },
+  {
+    "year": "114",
+    "batch": "第2梯次",
+    "label": "subj",
+    "ok": true,
+    "size": 971135,
+    "err": "",
+    "url": "https://owinform.wdasec.gov.tw/ExamNet/owInform/DLowFileQ/202508250001/24/220001-1.pdf?58"
+  },
+  {
+    "year": "114",
+    "batch": "第2梯次",
+    "label": "prac",
+    "ok": true,
+    "size": 322965,
+    "err": "",
+    "url": "https://owinform.wdasec.gov.tw/ExamNet/owInform/DLowFileQ/202508250001/0825102245A2.pdf?58"
+  },
+  {
+    "year": "114",
+    "batch": "第3梯次",
+    "label": "subj",
+    "ok": true,
+    "size": 925238,
+    "err": "",
+    "url": "https://owinform.wdasec.gov.tw/ExamNet/owInform/DLowFileQ/202511030001/02/220001-1.pdf?59"
+  },
+  {
+    "year": "114",
+    "batch": "第3梯次",
+    "label": "prac",
+    "ok": true,
+    "size": 317472,
+    "err": "",
+    "url": "https://owinform.wdasec.gov.tw/ExamNet/owInform/DLowFileQ/202511030001/1103100026A2.pdf?59"
+  },
+  {
+    "year": "115",
+    "batch": "第1梯次",
+    "label": "subj",
+    "ok": true,
+    "size": 702284,
+    "err": "",
+    "url": "https://owinform.wdasec.gov.tw/ExamNet/owInform/DLowFileQ/202603160001/15/220001-1.pdf?54"
+  },
+  {
+    "year": "115",
+    "batch": "第1梯次",
+    "label": "prac",
+    "ok": true,
+    "size": 1568999,
+    "err": "",
+    "url": "https://owinform.wdasec.gov.tw/ExamNet/owInform/DLowFileQ/202603160001/0316095352A2.pdf?54"
+  },
+  {
+    "year": "115",
+    "batch": "第2梯次",
+    "label": "subj",
+    "ok": true,
+    "size": 946464,
+    "err": "",
+    "url": "https://owinform.wdasec.gov.tw/ExamNet/owInform/DLowFileQ/202607060001/05/220001-1.pdf?55"
+  },
+  {
+    "year": "115",
+    "batch": "第2梯次",
+    "label": "prac",
+    "ok": true,
+    "size": 818990,
+    "err": "",
+    "url": "https://owinform.wdasec.gov.tw/ExamNet/owInform/DLowFileQ/202607060001/0706095555A2.pdf?55"
+  }
+]

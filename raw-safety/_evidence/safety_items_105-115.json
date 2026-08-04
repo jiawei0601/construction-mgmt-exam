@@ -1,0 +1,365 @@
+[
+  {
+    "year": "105",
+    "batch": "第1梯次",
+    "yserno": "201603210001",
+    "date": "105.03.20",
+    "level": "甲級",
+    "hrefs": [
+      "../owInform/DLowFileQ/1051A/220001-1.pdf?17",
+      "../owInform/DLowFileQ/1051A/220001-2.pdf?17"
+    ]
+  },
+  {
+    "year": "105",
+    "batch": "第2梯次",
+    "yserno": "201607180001",
+    "date": "105.07.17",
+    "level": "甲級",
+    "hrefs": [
+      "../owInform/DLowFileQ/1052A/220001-1.pdf?17",
+      "../owInform/DLowFileQ/1052A/220001-2.pdf?17"
+    ]
+  },
+  {
+    "year": "105",
+    "batch": "第3梯次",
+    "yserno": "201611070002",
+    "date": "105.11.06",
+    "level": "甲級",
+    "hrefs": [
+      "../owInform/DLowFileQ/1053A/220001-1.pdf?18",
+      "../owInform/DLowFileQ/1053A/220001-2.pdf?18"
+    ]
+  },
+  {
+    "year": "106",
+    "batch": "第1梯次",
+    "yserno": "201703200001",
+    "date": "106.03.19",
+    "level": "甲級",
+    "hrefs": [
+      "../owInform/DLowFileQ/1061A/220001-1.pdf?15",
+      "../owInform/DLowFileQ/1061A/220001-2.pdf?15"
+    ]
+  },
+  {
+    "year": "106",
+    "batch": "第2梯次",
+    "yserno": "201707170001",
+    "date": "106.07.16",
+    "level": "甲級",
+    "hrefs": [
+      "../owInform/DLowFileQ/1062A/220001-1.pdf?15",
+      "../owInform/DLowFileQ/1062A/220001-2.pdf?15"
+    ]
+  },
+  {
+    "year": "106",
+    "batch": "第3梯次",
+    "yserno": "201711060001",
+    "date": "106.11.05",
+    "level": "甲級",
+    "hrefs": [
+      "../owInform/DLowFileQ/1063A/220001-1.pdf?16",
+      "../owInform/DLowFileQ/1063A/220001-2.pdf?16"
+    ]
+  },
+  {
+    "year": "107",
+    "batch": "第1梯次",
+    "yserno": "201803190001",
+    "date": "107.03.18",
+    "level": "甲級",
+    "hrefs": [
+      "../owInform/DLowFileQ/201803190001/18/220001-1.pdf?13",
+      "../owInform/DLowFileQ/201803190001/03190814A2.pdf?13"
+    ]
+  },
+  {
+    "year": "107",
+    "batch": "第2梯次",
+    "yserno": "201807160001",
+    "date": "107.07.15",
+    "level": "甲級",
+    "hrefs": [
+      "../owInform/DLowFileQ/201807160001/15/220001-1.pdf?14",
+      "../owInform/DLowFileQ/201807160001/0716084248A2.pdf?14"
+    ]
+  },
+  {
+    "year": "107",
+    "batch": "第3梯次",
+    "yserno": "201811050001",
+    "date": "107.11.04",
+    "level": "甲級",
+    "hrefs": [
+      "../owInform/DLowFileQ/201811050001/04/220001-1.pdf?14",
+      "../owInform/DLowFileQ/201811050001/1105080800A2.pdf?14"
+    ]
+  },
+  {
+    "year": "108",
+    "batch": "第1梯次",
+    "yserno": "201903180001",
+    "date": "108.03.17",
+    "level": "甲級",
+    "hrefs": [
+      "../owInform/DLowFileQ/201903180001/17/220001-1.pdf?12",
+      "../owInform/DLowFileQ/201903180001/0318083856A2.pdf?12"
+    ]
+  },
+  {
+    "year": "108",
+    "batch": "第2梯次",
+    "yserno": "201907150001",
+    "date": "108.07.14",
+    "level": "甲級",
+    "hrefs": [
+      "../owInform/DLowFileQ/201907150001/14/220001-1.pdf?12",
+      "../owInform/DLowFileQ/201907150001/0805112811A2.pdf?12"
+    ]
+  },
+  {
+    "year": "108",
+    "batch": "第3梯次",
+    "yserno": "201911040001",
+    "date": "108.11.03",
+    "level": "甲級",
+    "hrefs": [
+      "../owInform/DLowFileQ/201911040001/03/220001-1.pdf?13",
+      "../owInform/DLowFileQ/201911040001/1104082743A2.pdf?13"
+    ]
+  },
+  {
+    "year": "109",
+    "batch": "第1梯次",
+    "yserno": "202003160001",
+    "date": "109.03.15",
+    "level": "甲級",
+    "hrefs": [
+      "../owInform/DLowFileQ/202003160001/15/220001-1.pdf?10",
+      "../owInform/DLowFileQ/202003160001/0316080922A2.pdf?10"
+    ]
+  },
+  {
+    "year": "109",
+    "batch": "第2梯次",
+    "yserno": "202007130001",
+    "date": "109.07.12",
+    "level": "甲級",
+    "hrefs": [
+      "../owInform/DLowFileQ/202007130001/12/220001-1.pdf?11",
+      "../owInform/DLowFileQ/202007130001/0713081345A2.pdf?11"
+    ]
+  },
+  {
+    "year": "109",
+    "batch": "第3梯次",
+    "yserno": "202011020001",
+    "date": "109.11.01",
+    "level": "甲級",
+    "hrefs": [
+      "../owInform/DLowFileQ/202011020001/01/220001-1.pdf?11",
+      "../owInform/DLowFileQ/202011020001/1102082848A2.pdf?11"
+    ]
+  },
+  {
+    "year": "110",
+    "batch": "第1梯次",
+    "yserno": "202103220001",
+    "date": "110.03.21",
+    "level": "甲級",
+    "hrefs": [
+      "../owInform/DLowFileQ/202103220001/21/220001-1.pdf?8",
+      "../owInform/DLowFileQ/202103220001/0322082800A2.pdf?8"
+    ]
+  },
+  {
+    "year": "110",
+    "batch": "第2梯次",
+    "yserno": "202109270001",
+    "date": "110.11.07",
+    "level": "甲級",
+    "hrefs": [
+      "../owInform/DLowFileQ/202109270001/07/220001-1.pdf?9",
+      "../owInform/DLowFileQ/202109270001/1108080628A2.pdf?9"
+    ]
+  },
+  {
+    "year": "110",
+    "batch": "第3梯次",
+    "yserno": "202112200001",
+    "date": "110.12.19",
+    "level": "甲級",
+    "hrefs": [
+      "../owInform/DLowFileQ/202112200001/19/220001-1.pdf?9",
+      "../owInform/DLowFileQ/202112200001/1220084218A2.pdf?9"
+    ]
+  },
+  {
+    "year": "111",
+    "batch": "第1梯次",
+    "yserno": "202203210001",
+    "date": "111.03.20",
+    "level": "甲級",
+    "hrefs": [
+      "../owInform/DLowFileQ/202203210001/20/220001-1.pdf?7",
+      "../owInform/DLowFileQ/202203210001/0321082638A2.pdf?7"
+    ]
+  },
+  {
+    "year": "111",
+    "batch": "第2梯次",
+    "yserno": "202207110001",
+    "date": "111.07.10",
+    "level": "甲級",
+    "hrefs": [
+      "../owInform/DLowFileQ/202207110001/10/220001-1.pdf?7",
+      "../owInform/DLowFileQ/202207110001/0711075158A2.pdf?7"
+    ]
+  },
+  {
+    "year": "111",
+    "batch": "第3梯次",
+    "yserno": "202211070001",
+    "date": "111.11.06",
+    "level": "甲級",
+    "hrefs": [
+      "../owInform/DLowFileQ/202211070001/06/220001-1.pdf?8",
+      "../owInform/DLowFileQ/202211070001/1107080932A2.pdf?8"
+    ]
+  },
+  {
+    "year": "112",
+    "batch": "第1梯次",
+    "yserno": "202303200001",
+    "date": "112.03.19",
+    "level": "甲級",
+    "hrefs": [
+      "../owInform/DLowFileQ/202303200001/19/220001-1.pdf?4",
+      "../owInform/DLowFileQ/202303200001/0320083502A2.pdf?4"
+    ]
+  },
+  {
+    "year": "112",
+    "batch": "第2梯次",
+    "yserno": "202307100001",
+    "date": "112.07.09",
+    "level": "甲級",
+    "hrefs": [
+      "../owInform/DLowFileQ/202307100001/09/220001-1.pdf?5",
+      "../owInform/DLowFileQ/202307100001/0710080958A2.pdf?5"
+    ]
+  },
+  {
+    "year": "112",
+    "batch": "第3梯次",
+    "yserno": "202311060001",
+    "date": "112.11.05",
+    "level": "甲級",
+    "hrefs": [
+      "../owInform/DLowFileQ/202311060001/05/220001-1.pdf?6",
+      "../owInform/DLowFileQ/202311060001/1106082132A2.pdf?6"
+    ]
+  },
+  {
+    "year": "113",
+    "batch": "第1梯次",
+    "yserno": "202403180001",
+    "date": "113.03.17",
+    "level": "甲級",
+    "hrefs": [
+      "../owInform/DLowFileQ/202403180001/17/220001-1.pdf?1",
+      "../owInform/DLowFileQ/202403180001/0318082455A2.pdf?1"
+    ]
+  },
+  {
+    "year": "113",
+    "batch": "第2梯次",
+    "yserno": "202407080001",
+    "date": "113.07.07",
+    "level": "甲級",
+    "hrefs": [
+      "../owInform/DLowFileQ/202407080001/07/220001-1.pdf?1",
+      "../owInform/DLowFileQ/202407080001/0708082335A2.pdf?1"
+    ]
+  },
+  {
+    "year": "113",
+    "batch": "第3梯次",
+    "yserno": "202411040001",
+    "date": "113.11.03",
+    "level": "甲級",
+    "hrefs": [
+      "../owInform/DLowFileQ/202411040001/03/220001-1.pdf?3",
+      "../owInform/DLowFileQ/202411040001/1104080331A2.pdf?3"
+    ]
+  },
+  {
+    "year": "114",
+    "batch": "第1梯次",
+    "yserno": "202503170001",
+    "date": "114.03.16",
+    "level": "甲級",
+    "hrefs": [
+      "../owInform/DLowFileQ/202503170001/16/220001-1.pdf?56",
+      "../owInform/DLowFileQ/202503170001/0317094151A2.pdf?56"
+    ]
+  },
+  {
+    "year": "114",
+    "batch": "第2梯次",
+    "yserno": "202507070001",
+    "date": "114.07.06",
+    "level": "甲級",
+    "hrefs": [
+      "../owInform/DLowFileQ/202507070001/06/220001-1.pdf?57",
+      "../owInform/DLowFileQ/202507070001/0707163557A2.pdf?57"
+    ]
+  },
+  {
+    "year": "114",
+    "batch": "第2梯次_颱風延期考區",
+    "yserno": "202508250001",
+    "date": "114.08.24",
+    "level": "甲級",
+    "hrefs": [
+      "../owInform/DLowFileQ/202508250001/24/220001-1.pdf?58",
+      "../owInform/DLowFileQ/202508250001/0825102245A2.pdf?58"
+    ]
+  },
+  {
+    "year": "114",
+    "batch": "第3梯次",
+    "yserno": "202511030001",
+    "date": "114.11.02",
+    "level": "甲級",
+    "hrefs": [
+      "../owInform/DLowFileQ/202511030001/02/220001-1.pdf?59",
+      "../owInform/DLowFileQ/202511030001/1103100026A2.pdf?59"
+    ]
+  },
+  {
+    "year": "115",
+    "batch": "第1梯次",
+    "yserno": "202603160001",
+    "date": "115.03.15",
+    "level": "甲級",
+    "hrefs": [
+      "../owInform/DLowFileQ/202603160001/15/220001-1.pdf?54",
+      "../owInform/DLowFileQ/202603160001/0316095352A2.pdf?54"
+    ]
+  },
+  {
+    "year": "115",
+    "batch": "第2梯次",
+    "yserno": "202607060001",
+    "date": "115.07.05",
+    "level": "甲級",
+    "hrefs": [
+      "../owInform/DLowFileQ/202607060001/05/220001-1.pdf?55",
+      "../owInform/DLowFileQ/202607060001/0706095555A2.pdf?55"
+    ]
+  }
+]
