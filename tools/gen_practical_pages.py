@@ -243,6 +243,8 @@ def build(job):
 
     sections = []
     total_count = 0
+    sessions_total = 0
+    sessions_with_md = 0
     for y in year_keys:
         items = years[y]
         session_blocks = []
@@ -250,6 +252,9 @@ def build(job):
             block_html, count = render_session(job, y, label, fname)
             session_blocks.append(block_html)
             total_count += count
+            sessions_total += 1
+            if count:
+                sessions_with_md += 1
         sections.append(f'''  <section id="y{y}" class="year-section">
     <h2 class="year-title">民國{y}年<span class="year-count">（共 {len(items)} 份）</span></h2>
 {chr(10).join(session_blocks)}
@@ -257,6 +262,15 @@ def build(job):
     sections_html = "\n\n".join(sections)
 
     extra_note_html = f'\n    <div class="small">{job["extra_note"]}</div>' if job["extra_note"] else ""
+
+    # 覆蓋率提示：全部有詳解時報總量，尚有缺漏時提醒未產出者只有 PDF
+    if sessions_with_md == sessions_total:
+        coverage_note = f"本頁收錄 {sessions_total} 份官方原卷之全部 {total_count} 大題詳解。"
+    else:
+        coverage_note = (
+            f"本頁 {sessions_total} 份原卷中 {sessions_with_md} 份已有詳解（共 {total_count} 大題），"
+            "其餘仍陸續生成中，僅提供官方原卷 PDF 連結。"
+        )
 
     title = f'{job["job"]}{job["level"]} 術科試題與詳解'
 
@@ -281,7 +295,7 @@ def build(job):
   <div class="disclaimer">
     <b>⚠️ 本詳解為 AI 彙整之參考擬答，非官方標準答案</b>，法規內容以最新公告版本為準，
     引用條號請自行核對現行法規；作答時請以官方公告及授課教師意見為準。
-    <div class="small">部分梯次之詳解仍陸續生成中，尚未產出者僅提供官方原卷 PDF 連結。</div>{extra_note_html}
+    <div class="small">{coverage_note}</div>{extra_note_html}
   </div>
 
   <div class="card">
