@@ -30,6 +30,10 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 ROOT = os.path.dirname(HERE)
 LAW_DIR = os.path.join(HERE, 'law_corpus')
 BATCH_SRC_DIR = os.path.join(HERE, 'expl_batches')  # 題目原文（stem/options/answer），模糊比對查詢串用
+# 題目原文檔名 glob pattern；預設對應本檔（單一營造工程管理甲級）的 batch-01.json 等命名。
+# tools/expl_merge_multi.py 會在呼叫前把本變數與上面三個路徑改成各職類專用值，
+# 藉此重用本檔的條號抽取＋模糊比對邏輯而不需複製貼上。
+BATCH_GLOB_PATTERN = 'batch-*.json'
 OUT_DIR = os.path.join(HERE, 'expl_out')
 UNMATCHED_PATH = os.path.join(OUT_DIR, 'UNMATCHED.txt')
 AUTOMATCH_SAMPLE_PATH = os.path.join(OUT_DIR, 'AUTOMATCH_SAMPLE.txt')
@@ -153,7 +157,7 @@ def _load_question_bank():
     global _question_cache
     if _question_cache is None:
         _question_cache = {}
-        for path in sorted(glob.glob(os.path.join(BATCH_SRC_DIR, 'batch-*.json'))):
+        for path in sorted(glob.glob(os.path.join(BATCH_SRC_DIR, BATCH_GLOB_PATTERN))):
             for item in json.load(open(path, encoding='utf-8')):
                 _question_cache[item['id']] = item
     return _question_cache
@@ -396,9 +400,20 @@ def selftest():
         json.dump(fake_batch, f, ensure_ascii=False, indent=1)
 
     dest_path = os.path.join(tmp_dir, 'explanations_test.js')
-    merged, unmatched = merge(
-        os.path.join(tmp_dir, 'batch-*.json'), dest_path, verbose=False, write_automatch_sample=False
-    )
+    # merge() 會經由模組層級的 UNMATCHED_PATH / AUTOMATCH_SAMPLE_PATH 寫檔，
+    # selftest 期間暫時改指到 tmp_dir，避免覆蓋真實的 expl_out/UNMATCHED.txt。
+    global UNMATCHED_PATH, AUTOMATCH_SAMPLE_PATH
+    orig_unmatched_path = UNMATCHED_PATH
+    orig_automatch_path = AUTOMATCH_SAMPLE_PATH
+    UNMATCHED_PATH = os.path.join(tmp_dir, 'UNMATCHED_test.txt')
+    AUTOMATCH_SAMPLE_PATH = os.path.join(tmp_dir, 'AUTOMATCH_SAMPLE_test.txt')
+    try:
+        merged, unmatched = merge(
+            os.path.join(tmp_dir, 'batch-*.json'), dest_path, verbose=False, write_automatch_sample=False
+        )
+    finally:
+        UNMATCHED_PATH = orig_unmatched_path
+        AUTOMATCH_SAMPLE_PATH = orig_automatch_path
 
     ok = True
     # TEST-001: 第1-1條 應抽到「本標準所稱高架作業...」等第1-1條原文
