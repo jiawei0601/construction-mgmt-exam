@@ -1,0 +1,446 @@
+{
+ "osh": [
+  {
+   "file": "tools/practical_text/osh/106_第1梯次_術科試題.txt",
+   "src": "raw-osh/practical\\106_第1梯次_術科試題.pdf",
+   "chars": 1155,
+   "qmarks": 10
+  },
+  {
+   "file": "tools/practical_text/osh/106_第2梯次_術科試題.txt",
+   "src": "raw-osh/practical\\106_第2梯次_術科試題.pdf",
+   "chars": 1131,
+   "qmarks": 10
+  },
+  {
+   "file": "tools/practical_text/osh/106_第3梯次_術科試題.txt",
+   "src": "raw-osh/practical\\106_第3梯次_術科試題.pdf",
+   "chars": 1514,
+   "qmarks": 10
+  },
+  {
+   "file": "tools/practical_text/osh/107_第1梯次_術科試題.txt",
+   "src": "raw-osh/practical\\107_第1梯次_術科試題.pdf",
+   "chars": 1617,
+   "qmarks": 10
+  },
+  {
+   "file": "tools/practical_text/osh/107_第2梯次_術科試題.txt",
+   "src": "raw-osh/practical\\107_第2梯次_術科試題.pdf",
+   "chars": 1561,
+   "qmarks": 10
+  },
+  {
+   "file": "tools/practical_text/osh/107_第3梯次_術科試題.txt",
+   "src": "raw-osh/practical\\107_第3梯次_術科試題.pdf",
+   "chars": 2593,
+   "qmarks": 10
+  },
+  {
+   "file": "tools/practical_text/osh/108_第1梯次_術科試題.txt",
+   "src": "raw-osh/practical\\108_第1梯次_術科試題.pdf",
+   "chars": 2567,
+   "qmarks": 10
+  },
+  {
+   "file": "tools/practical_text/osh/108_第2梯次_術科試題.txt",
+   "src": "raw-osh/practical\\108_第2梯次_術科試題.pdf",
+   "chars": 1945,
+   "qmarks": 10
+  },
+  {
+   "file": "tools/practical_text/osh/108_第3梯次_術科試題.txt",
+   "src": "raw-osh/practical\\108_第3梯次_術科試題.pdf",
+   "chars": 2028,
+   "qmarks": 10
+  },
+  {
+   "file": "tools/practical_text/osh/109_第1梯次_術科試題.txt",
+   "src": "raw-osh/practical\\109_第1梯次_術科試題.pdf",
+   "chars": 2097,
+   "qmarks": 10
+  },
+  {
+   "file": "tools/practical_text/osh/109_第2梯次_術科試題.txt",
+   "src": "raw-osh/practical\\109_第2梯次_術科試題.pdf",
+   "chars": 2260,
+   "qmarks": 10
+  },
+  {
+   "file": "tools/practical_text/osh/109_第3梯次_術科試題.txt",
+   "src": "raw-osh/practical\\109_第3梯次_術科試題.pdf",
+   "chars": 2079,
+   "qmarks": 10
+  }
+ ],
+ "safety": [
+  {
+   "file": "tools/practical_text/safety/106_第1梯次_術科試題.txt",
+   "src": "raw-safety/practical\\106_第1梯次_術科試題.pdf",
+   "chars": 1273,
+   "qmarks": 5
+  },
+  {
+   "file": "tools/practical_text/safety/106_第2梯次_術科試題.txt",
+   "src": "raw-safety/practical\\106_第2梯次_術科試題.pdf",
+   "chars": 1282,
+   "qmarks": 5
+  },
+  {
+   "file": "tools/practical_text/safety/106_第3梯次_術科試題.txt",
+   "src": "raw-safety/practical\\106_第3梯次_術科試題.pdf",
+   "chars": 1440,
+   "qmarks": 5
+  },
+  {
+   "file": "tools/practical_text/safety/107_第1梯次_術科試題.txt",
+   "src": "raw-safety/practical\\107_第1梯次_術科試題.pdf",
+   "chars": 1090,
+   "qmarks": 5
+  },
+  {
+   "file": "tools/practical_text/safety/107_第2梯次_術科試題.txt",
+   "src": "raw-safety/practical\\107_第2梯次_術科試題.pdf",
+   "chars": 1026,
+   "qmarks": 5
+  },
+  {
+   "file": "tools/practical_text/safety/107_第3梯次_術科試題.txt",
+   "src": "raw-safety/practical\\107_第3梯次_術科試題.pdf",
+   "chars": 1346,
+   "qmarks": 5
+  },
+  {
+   "file": "tools/practical_text/safety/108_第1梯次_術科試題.txt",
+   "src": "raw-safety/practical\\108_第1梯次_術科試題.pdf",
+   "chars": 1193,
+   "qmarks": 5
+  },
+  {
+   "file": "tools/practical_text/safety/108_第2梯次_術科試題.txt",
+   "src": "raw-safety/practical\\108_第2梯次_術科試題.pdf",
+   "chars": 1388,
+   "qmarks": 5
+  },
+  {
+   "file": "tools/practical_text/safety/108_第3梯次_術科試題.txt",
+   "src": "raw-safety/practical\\108_第3梯次_術科試題.pdf",
+   "chars": 1443,
+   "qmarks": 5
+  },
+  {
+   "file": "tools/practical_text/safety/109_第1梯次_術科試題.txt",
+   "src": "raw-safety/practical\\109_第1梯次_術科試題.pdf",
+   "chars": 1257,
+   "qmarks": 5
+  },
+  {
+   "file": "tools/practical_text/safety/109_第2梯次_術科試題.txt",
+   "src": "raw-safety/practical\\109_第2梯次_術科試題.pdf",
+   "chars": 1591,
+   "qmarks": 5
+  },
+  {
+   "file": "tools/practical_text/safety/109_第3梯次_術科試題.txt",
+   "src": "raw-safety/practical\\109_第3梯次_術科試題.pdf",
+   "chars": 1295,
+   "qmarks": 5
+  },
+  {
+   "file": "tools/practical_text/safety/110_第1梯次_術科試題.txt",
+   "src": "raw-safety/practical\\110_第1梯次_術科試題.pdf",
+   "chars": 1170,
+   "qmarks": 5
+  },
+  {
+   "file": "tools/practical_text/safety/110_第2梯次_術科試題.txt",
+   "src": "raw-safety/practical\\110_第2梯次_術科試題.pdf",
+   "chars": 1311,
+   "qmarks": 5
+  },
+  {
+   "file": "tools/practical_text/safety/110_第3梯次_術科試題.txt",
+   "src": "raw-safety/practical\\110_第3梯次_術科試題.pdf",
+   "chars": 1792,
+   "qmarks": 5
+  },
+  {
+   "file": "tools/practical_text/safety/111_第1梯次_術科試題.txt",
+   "src": "raw-safety/practical\\111_第1梯次_術科試題.pdf",
+   "chars": 1963,
+   "qmarks": 5
+  },
+  {
+   "file": "tools/practical_text/safety/111_第2梯次_術科試題.txt",
+   "src": "raw-safety/practical\\111_第2梯次_術科試題.pdf",
+   "chars": 1701,
+   "qmarks": 5
+  },
+  {
+   "file": "tools/practical_text/safety/111_第3梯次_術科試題.txt",
+   "src": "raw-safety/practical\\111_第3梯次_術科試題.pdf",
+   "chars": 1527,
+   "qmarks": 5
+  },
+  {
+   "file": "tools/practical_text/safety/112_第1梯次_術科試題.txt",
+   "src": "raw-safety/practical\\112_第1梯次_術科試題.pdf",
+   "chars": 2173,
+   "qmarks": 5
+  },
+  {
+   "file": "tools/practical_text/safety/112_第2梯次_術科試題.txt",
+   "src": "raw-safety/practical\\112_第2梯次_術科試題.pdf",
+   "chars": 2715,
+   "qmarks": 5
+  },
+  {
+   "file": "tools/practical_text/safety/112_第3梯次_術科試題.txt",
+   "src": "raw-safety/practical\\112_第3梯次_術科試題.pdf",
+   "chars": 3016,
+   "qmarks": 5
+  },
+  {
+   "file": "tools/practical_text/safety/113_第1梯次_術科試題.txt",
+   "src": "raw-safety/practical\\113_第1梯次_術科試題.pdf",
+   "chars": 1610,
+   "qmarks": 5
+  },
+  {
+   "file": "tools/practical_text/safety/113_第2梯次_術科試題.txt",
+   "src": "raw-safety/practical\\113_第2梯次_術科試題.pdf",
+   "chars": 2205,
+   "qmarks": 5
+  },
+  {
+   "file": "tools/practical_text/safety/113_第3梯次_術科試題.txt",
+   "src": "raw-safety/practical\\113_第3梯次_術科試題.pdf",
+   "chars": 1791,
+   "qmarks": 5
+  },
+  {
+   "file": "tools/practical_text/safety/114_第1梯次_術科試題.txt",
+   "src": "raw-safety/practical\\114_第1梯次_術科試題.pdf",
+   "chars": 2060,
+   "qmarks": 5
+  },
+  {
+   "file": "tools/practical_text/safety/114_第2梯次_術科試題.txt",
+   "src": "raw-safety/practical\\114_第2梯次_術科試題.pdf",
+   "chars": 2005,
+   "qmarks": 5
+  },
+  {
+   "file": "tools/practical_text/safety/114_第2梯次_颱風延期考區_術科試題.txt",
+   "src": "raw-safety/practical\\114_第2梯次_颱風延期考區_術科試題.pdf",
+   "chars": 1559,
+   "qmarks": 5
+  },
+  {
+   "file": "tools/practical_text/safety/114_第3梯次_術科試題.txt",
+   "src": "raw-safety/practical\\114_第3梯次_術科試題.pdf",
+   "chars": 1426,
+   "qmarks": 5
+  },
+  {
+   "file": "tools/practical_text/safety/115_第1梯次_術科試題.txt",
+   "src": "raw-safety/practical\\115_第1梯次_術科試題.pdf",
+   "chars": 1911,
+   "qmarks": 5
+  },
+  {
+   "file": "tools/practical_text/safety/115_第2梯次_術科試題.txt",
+   "src": "raw-safety/practical\\115_第2梯次_術科試題.pdf",
+   "chars": 1692,
+   "qmarks": 5
+  }
+ ],
+ "hygiene": [
+  {
+   "file": "tools/practical_text/hygiene/105_第2梯次_術科試題.txt",
+   "src": "raw-hygiene/practical\\105_第2梯次_術科試題.pdf",
+   "chars": 1122,
+   "qmarks": 5
+  },
+  {
+   "file": "tools/practical_text/hygiene/106_第1梯次_術科試題.txt",
+   "src": "raw-hygiene/practical\\106_第1梯次_術科試題.pdf",
+   "chars": 1303,
+   "qmarks": 5
+  },
+  {
+   "file": "tools/practical_text/hygiene/106_第2梯次_術科試題.txt",
+   "src": "raw-hygiene/practical\\106_第2梯次_術科試題.pdf",
+   "chars": 2006,
+   "qmarks": 5
+  },
+  {
+   "file": "tools/practical_text/hygiene/106_第3梯次_術科試題.txt",
+   "src": "raw-hygiene/practical\\106_第3梯次_術科試題.pdf",
+   "chars": 1439,
+   "qmarks": 5
+  },
+  {
+   "file": "tools/practical_text/hygiene/107_第1梯次_術科試題.txt",
+   "src": "raw-hygiene/practical\\107_第1梯次_術科試題.pdf",
+   "chars": 1190,
+   "qmarks": 5
+  },
+  {
+   "file": "tools/practical_text/hygiene/107_第2梯次_術科試題.txt",
+   "src": "raw-hygiene/practical\\107_第2梯次_術科試題.pdf",
+   "chars": 2606,
+   "qmarks": 5
+  },
+  {
+   "file": "tools/practical_text/hygiene/107_第3梯次_術科試題.txt",
+   "src": "raw-hygiene/practical\\107_第3梯次_術科試題.pdf",
+   "chars": 2203,
+   "qmarks": 5
+  },
+  {
+   "file": "tools/practical_text/hygiene/108_第1梯次_術科試題.txt",
+   "src": "raw-hygiene/practical\\108_第1梯次_術科試題.pdf",
+   "chars": 1685,
+   "qmarks": 5
+  },
+  {
+   "file": "tools/practical_text/hygiene/108_第2梯次_術科試題.txt",
+   "src": "raw-hygiene/practical\\108_第2梯次_術科試題.pdf",
+   "chars": 2790,
+   "qmarks": 5
+  },
+  {
+   "file": "tools/practical_text/hygiene/108_第3梯次_術科試題.txt",
+   "src": "raw-hygiene/practical\\108_第3梯次_術科試題.pdf",
+   "chars": 1892,
+   "qmarks": 5
+  },
+  {
+   "file": "tools/practical_text/hygiene/109_第1梯次_術科試題.txt",
+   "src": "raw-hygiene/practical\\109_第1梯次_術科試題.pdf",
+   "chars": 2407,
+   "qmarks": 5
+  },
+  {
+   "file": "tools/practical_text/hygiene/109_第2梯次_術科試題.txt",
+   "src": "raw-hygiene/practical\\109_第2梯次_術科試題.pdf",
+   "chars": 3375,
+   "qmarks": 5
+  },
+  {
+   "file": "tools/practical_text/hygiene/109_第3梯次_術科試題.txt",
+   "src": "raw-hygiene/practical\\109_第3梯次_術科試題.pdf",
+   "chars": 2229,
+   "qmarks": 5
+  },
+  {
+   "file": "tools/practical_text/hygiene/110_第1梯次_術科試題.txt",
+   "src": "raw-hygiene/practical\\110_第1梯次_術科試題.pdf",
+   "chars": 4115,
+   "qmarks": 5
+  },
+  {
+   "file": "tools/practical_text/hygiene/110_第2梯次_術科試題.txt",
+   "src": "raw-hygiene/practical\\110_第2梯次_術科試題.pdf",
+   "chars": 1974,
+   "qmarks": 5
+  },
+  {
+   "file": "tools/practical_text/hygiene/110_第3梯次_術科試題.txt",
+   "src": "raw-hygiene/practical\\110_第3梯次_術科試題.pdf",
+   "chars": 3130,
+   "qmarks": 5
+  },
+  {
+   "file": "tools/practical_text/hygiene/111_第1梯次_術科試題.txt",
+   "src": "raw-hygiene/practical\\111_第1梯次_術科試題.pdf",
+   "chars": 3711,
+   "qmarks": 5
+  },
+  {
+   "file": "tools/practical_text/hygiene/111_第2梯次_術科試題.txt",
+   "src": "raw-hygiene/practical\\111_第2梯次_術科試題.pdf",
+   "chars": 2598,
+   "qmarks": 5
+  },
+  {
+   "file": "tools/practical_text/hygiene/111_第3梯次_術科試題.txt",
+   "src": "raw-hygiene/practical\\111_第3梯次_術科試題.pdf",
+   "chars": 2614,
+   "qmarks": 5
+  },
+  {
+   "file": "tools/practical_text/hygiene/112_第1梯次_術科試題.txt",
+   "src": "raw-hygiene/practical\\112_第1梯次_術科試題.pdf",
+   "chars": 5123,
+   "qmarks": 5
+  },
+  {
+   "file": "tools/practical_text/hygiene/112_第2梯次_術科試題.txt",
+   "src": "raw-hygiene/practical\\112_第2梯次_術科試題.pdf",
+   "chars": 4804,
+   "qmarks": 5
+  },
+  {
+   "file": "tools/practical_text/hygiene/112_第3梯次_術科試題.txt",
+   "src": "raw-hygiene/practical\\112_第3梯次_術科試題.pdf",
+   "chars": 5856,
+   "qmarks": 5
+  },
+  {
+   "file": "tools/practical_text/hygiene/113_第1梯次_術科試題.txt",
+   "src": "raw-hygiene/practical\\113_第1梯次_術科試題.pdf",
+   "chars": 3856,
+   "qmarks": 5
+  },
+  {
+   "file": "tools/practical_text/hygiene/113_第2梯次_術科試題.txt",
+   "src": "raw-hygiene/practical\\113_第2梯次_術科試題.pdf",
+   "chars": 4191,
+   "qmarks": 5
+  },
+  {
+   "file": "tools/practical_text/hygiene/113_第3梯次_術科試題.txt",
+   "src": "raw-hygiene/practical\\113_第3梯次_術科試題.pdf",
+   "chars": 3721,
+   "qmarks": 5
+  },
+  {
+   "file": "tools/practical_text/hygiene/114_第1梯次_術科試題.txt",
+   "src": "raw-hygiene/practical\\114_第1梯次_術科試題.pdf",
+   "chars": 2173,
+   "qmarks": 5
+  },
+  {
+   "file": "tools/practical_text/hygiene/114_第2梯次_術科試題.txt",
+   "src": "raw-hygiene/practical\\114_第2梯次_術科試題.pdf",
+   "chars": 2378,
+   "qmarks": 5
+  },
+  {
+   "file": "tools/practical_text/hygiene/114_第2梯次_颱風延期考區_術科試題.txt",
+   "src": "raw-hygiene/practical\\114_第2梯次_颱風延期考區_術科試題.pdf",
+   "chars": 1860,
+   "qmarks": 5
+  },
+  {
+   "file": "tools/practical_text/hygiene/114_第3梯次_術科試題.txt",
+   "src": "raw-hygiene/practical\\114_第3梯次_術科試題.pdf",
+   "chars": 1520,
+   "qmarks": 5
+  },
+  {
+   "file": "tools/practical_text/hygiene/115_第1梯次_術科試題.txt",
+   "src": "raw-hygiene/practical\\115_第1梯次_術科試題.pdf",
+   "chars": 2727,
+   "qmarks": 5
+  },
+  {
+   "file": "tools/practical_text/hygiene/115_第2梯次_術科試題.txt",
+   "src": "raw-hygiene/practical\\115_第2梯次_術科試題.pdf",
+   "chars": 2792,
+   "qmarks": 5
+  }
+ ]
+}
